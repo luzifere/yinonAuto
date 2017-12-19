@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28912" started-at="2017-12-18T14:47:00Z" finished-at="2017-12-18T14:47:29Z">
+    <groups>
+      <group name="sanity-group">
+        <method signature="UploadItemTest.DoLogin()[pri:1, instance:WishiTests.UploadItemTest@548a9f61]" name="DoLogin" class="WishiTests.UploadItemTest"/>
+        <method signature="UploadItemTest.Uploaditem()[pri:2, instance:WishiTests.UploadItemTest@548a9f61]" name="Uploaditem" class="WishiTests.UploadItemTest"/>
+      </group> <!-- sanity-group -->
+    </groups>
+    <test name="Default test" duration-ms="28912" started-at="2017-12-18T14:47:00Z" finished-at="2017-12-18T14:47:29Z">
+      <class name="WishiTests.UploadItemTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.UploadItemTest@548a9f61]" name="setup" is-config="true" duration-ms="19823" started-at="2017-12-18T16:47:00Z" finished-at="2017-12-18T16:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:WishiTests.UploadItemTest@548a9f61]" name="DoLogin" duration-ms="3466" started-at="2017-12-18T16:47:20Z" finished-at="2017-12-18T16:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method status="PASS" signature="Uploaditem()[pri:2, instance:WishiTests.UploadItemTest@548a9f61]" name="Uploaditem" duration-ms="5579" started-at="2017-12-18T16:47:23Z" finished-at="2017-12-18T16:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Uploaditem -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.UploadItemTest@548a9f61]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-12-18T16:47:29Z" finished-at="2017-12-18T16:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WishiTests.UploadItemTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

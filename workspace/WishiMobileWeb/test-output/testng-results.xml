@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="85319" started-at="2017-12-19T14:45:57Z" finished-at="2017-12-19T14:47:22Z">
+    <groups>
+      <group name="sanity-group">
+        <method signature="SignUpTest.DoSignUp()[pri:5, instance:Tests.SignUpTest@13deb50e]" name="DoSignUp" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.FillEmailWithoutDotCom()[pri:3, instance:Tests.SignUpTest@13deb50e]" name="FillEmailWithoutDotCom" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.FillEmailWitoutShtudel()[pri:2, instance:Tests.SignUpTest@13deb50e]" name="FillEmailWitoutShtudel" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:4, instance:Tests.SignUpTest@13deb50e]" name="FillPsswordWithLessthan6Characters" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.SignUpClickable()[pri:1, instance:Tests.SignUpTest@13deb50e]" name="SignUpClickable" class="Tests.SignUpTest"/>
+      </group> <!-- sanity-group -->
+    </groups>
+    <test name="Default test" duration-ms="85319" started-at="2017-12-19T14:45:57Z" finished-at="2017-12-19T14:47:22Z">
+      <class name="Tests.SignUpTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpTest@13deb50e]" name="setup" is-config="true" duration-ms="57137" started-at="2017-12-19T16:45:57Z" finished-at="2017-12-19T16:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SignUpClickable()[pri:1, instance:Tests.SignUpTest@13deb50e]" name="SignUpClickable" duration-ms="1069" started-at="2017-12-19T16:46:54Z" finished-at="2017-12-19T16:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpClickable -->
+        <test-method status="PASS" signature="FillEmailWitoutShtudel()[pri:2, instance:Tests.SignUpTest@13deb50e]" name="FillEmailWitoutShtudel" duration-ms="5954" started-at="2017-12-19T16:46:55Z" finished-at="2017-12-19T16:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillEmailWitoutShtudel -->
+        <test-method status="PASS" signature="FillEmailWithoutDotCom()[pri:3, instance:Tests.SignUpTest@13deb50e]" name="FillEmailWithoutDotCom" duration-ms="4966" started-at="2017-12-19T16:47:01Z" finished-at="2017-12-19T16:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillEmailWithoutDotCom -->
+        <test-method status="PASS" signature="FillPsswordWithLessthan6Characters()[pri:4, instance:Tests.SignUpTest@13deb50e]" name="FillPsswordWithLessthan6Characters" duration-ms="5450" started-at="2017-12-19T16:47:06Z" finished-at="2017-12-19T16:47:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillPsswordWithLessthan6Characters -->
+        <test-method status="PASS" signature="DoSignUp()[pri:5, instance:Tests.SignUpTest@13deb50e]" name="DoSignUp" duration-ms="10690" started-at="2017-12-19T16:47:11Z" finished-at="2017-12-19T16:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+      </class> <!-- Tests.SignUpTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

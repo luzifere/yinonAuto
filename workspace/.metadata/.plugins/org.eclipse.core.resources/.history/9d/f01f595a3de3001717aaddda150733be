@@ -1,0 +1,14 @@
+package WishiTests;
+
+import org.openqa.selenium.WebDriver;
+
+import PageObject.BasePage;
+
+public class UploadItems extends BasePage {
+
+	public UploadItems(WebDriver driver) {
+		super(driver);
+		
+	}
+
+}
