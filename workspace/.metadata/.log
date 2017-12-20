@@ -2589,3 +2589,478 @@ org.eclipse.jgit.errors.TransportException: Nothing to push.
 
 !ENTRY org.eclipse.egit.ui 4 0 2017-12-19 17:08:07.898
 !MESSAGE Can't connect to any repository: https://github.com/luzifere/yinonAuto.git (Nothing to push.)
+!SESSION 2017-12-19 17:22:06.122 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-12-19 17:22:26.258
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-19 17:22:41.206
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vali'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2017-12-19 17:27:42.250
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\WishiMobileWeb\bin C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\commons-lang3-3.1.jar C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\cglib-2.2.jar C:\Users\Vali\Downloads\asm-all-3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60643 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\workspace\WishiMobileWeb\testng1.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\WishiMobileWeb\bin:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\commons-lang3-3.1.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\cglib-2.2.jar:C:\Users\Vali\Downloads\asm-all-3.1.jar org.testng.remote.RemoteTestNG -serport 60643 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\workspace\WishiMobileWeb\testng1.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-19 17:35:11.947
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\WishiMobileWeb\bin C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\commons-lang3-3.1.jar C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\cglib-2.2.jar C:\Users\Vali\Downloads\asm-all-3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62386 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\workspace\WishiMobileWeb\testng1.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\WishiMobileWeb\bin:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\commons-lang3-3.1.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\cglib-2.2.jar:C:\Users\Vali\Downloads\asm-all-3.1.jar org.testng.remote.RemoteTestNG -serport 62386 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\workspace\WishiMobileWeb\testng1.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-19 17:53:40.352
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:LoginWithFacbookTestsFail.java [in Tests [in src [in WishiMobileWeb]]]
+  package Tests
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import PageObejecs.LoginPages2
+  class LoginWithFacbookTestsFail
+    void LoginWithFacbookWrongUserName()
+    void LoginWithFacbookWrongPassword()
+
+!ENTRY org.testng.eclipse 1 0 2017-12-19 17:53:40.850
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\WishiMobileWeb\bin C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\commons-lang3-3.1.jar C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\cglib-2.2.jar C:\Users\Vali\Downloads\asm-all-3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50185 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse--566547599\testng-customsuite.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\WishiMobileWeb\bin:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\commons-lang3-3.1.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\cglib-2.2.jar:C:\Users\Vali\Downloads\asm-all-3.1.jar org.testng.remote.RemoteTestNG -serport 50185 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse--566547599\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-19 17:55:10.248
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] LoginTests2.java [in Tests [in src [in WishiMobileWeb]]]
+  package Tests
+  import org.openqa.selenium.By
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import PageObejecs.LoginPages
+  import PageObejecs.LoginPages2
+  class LoginTests2
+    void LoginClickable()
+    void DoLogin()
+    void FillPasswordWithOutToFillEmail()
+    void FillEmailWithOutToFillPassword()
+    void ClickLoginwWithOutToFillAnyFields()
+    void FillCorrectEmailWithWrongPassword()
+    void FillCorrectPasswordWithWrongEmail()
+
+!ENTRY org.testng.eclipse 1 0 2017-12-19 17:55:10.685
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\WishiMobileWeb\bin C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\commons-lang3-3.1.jar C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\cglib-2.2.jar C:\Users\Vali\Downloads\asm-all-3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50517 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse--1552384839\testng-customsuite.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\WishiMobileWeb\bin:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\commons-lang3-3.1.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\cglib-2.2.jar:C:\Users\Vali\Downloads\asm-all-3.1.jar org.testng.remote.RemoteTestNG -serport 50517 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse--1552384839\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-19 18:08:16.234
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] LoginTests2.java [in Tests [in src [in WishiMobileWeb]]]
+  package Tests
+  import org.openqa.selenium.By
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import PageObejecs.LoginPages
+  import PageObejecs.LoginPages2
+  class LoginTests2
+    void LoginClickable()
+    void DoLogin()
+    void FillPasswordWithOutToFillEmail()
+    void FillEmailWithOutToFillPassword()
+    void ClickLoginwWithOutToFillAnyFields()
+    void FillCorrectEmailWithWrongPassword()
+    void FillCorrectPasswordWithWrongEmail()
+
+!ENTRY org.testng.eclipse 1 0 2017-12-19 18:08:16.440
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\WishiMobileWeb\bin C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\commons-lang3-3.1.jar C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\cglib-2.2.jar C:\Users\Vali\Downloads\asm-all-3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51301 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse-1981639957\testng-customsuite.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\WishiMobileWeb\bin:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\commons-lang3-3.1.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\cglib-2.2.jar:C:\Users\Vali\Downloads\asm-all-3.1.jar org.testng.remote.RemoteTestNG -serport 51301 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse-1981639957\testng-customsuite.xml
+!SESSION 2017-12-19 19:06:31.029 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-19 19:07:08.606
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vali'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2017-12-19 19:08:05.879
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\wishi\bin C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53809 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\workspace\wishi\testng.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\wishi\bin:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar org.testng.remote.RemoteTestNG -serport 53809 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\workspace\wishi\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-19 19:13:41.958
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\wishi\bin C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54453 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\workspace\wishi\testng.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\wishi\bin:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar org.testng.remote.RemoteTestNG -serport 54453 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\workspace\wishi\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-19 19:19:05.050
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] CrateLookTests.java [in WishiTests [in src [in wishi]]]
+  package WishiTests
+  import java.util.Random
+  import javax.swing.LookAndFeel
+  import org.openqa.selenium.By
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import PageObject.BasePage
+  import PageObject.CrateLookPage
+  import PageObject.LoginPage
+  class CrateLookTests
+    void LoginAsStylist()
+    void CrateRegularLook()
+    void PersonalShopping()
+
+!ENTRY org.testng.eclipse 1 0 2017-12-19 19:19:05.465
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\wishi\bin C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55868 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse-761869331\testng-customsuite.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\wishi\bin:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar org.testng.remote.RemoteTestNG -serport 55868 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse-761869331\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-19 19:20:14.391
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] CrateLookTests.java [in WishiTests [in src [in wishi]]]
+  package WishiTests
+  import java.util.Random
+  import javax.swing.LookAndFeel
+  import org.openqa.selenium.By
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import PageObject.BasePage
+  import PageObject.CrateLookPage
+  import PageObject.LoginPage
+  class CrateLookTests
+    void LoginAsStylist()
+    void CrateRegularLook()
+    void PersonalShopping()
+
+!ENTRY org.testng.eclipse 1 0 2017-12-19 19:20:16.976
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\wishi\bin C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56098 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse-526711132\testng-customsuite.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\wishi\bin:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar org.testng.remote.RemoteTestNG -serport 56098 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse-526711132\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-19 19:22:34.169
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] CrateLookTests.java [in WishiTests [in src [in wishi]]]
+  package WishiTests
+  import java.util.Random
+  import javax.swing.LookAndFeel
+  import org.openqa.selenium.By
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import PageObject.BasePage
+  import PageObject.CrateLookPage
+  import PageObject.LoginPage
+  class CrateLookTests
+    void LoginAsStylist()
+    void CrateRegularLook()
+    void PersonalShopping()
+
+!ENTRY org.testng.eclipse 1 0 2017-12-19 19:22:34.352
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\wishi\bin C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56824 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse--46782557\testng-customsuite.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\wishi\bin:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar org.testng.remote.RemoteTestNG -serport 56824 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse--46782557\testng-customsuite.xml
+!SESSION 2017-12-20 14:35:06.612 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-12-20 14:35:28.725
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-20 14:36:01.931
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vali'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 14:41:12.287
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] LoginTests2.java [in Tests [in src [in WishiMobileWeb]]]
+  package Tests
+  import org.openqa.selenium.By
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import PageObejecs.LoginPages
+  import PageObejecs.LoginPages2
+  class LoginTests2
+    void LoginClickable()
+    void DoLogin()
+    void FillPasswordWithOutToFillEmail()
+    void FillEmailWithOutToFillPassword()
+    void ClickLoginwWithOutToFillAnyFields()
+    void FillCorrectEmailWithWrongPassword()
+    void FillCorrectPasswordWithWrongEmail()
+    static void main(String[])
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 14:41:27.662
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] LoginTests2.java [in Tests [in src [in WishiMobileWeb]]]
+  package Tests
+  import org.openqa.selenium.By
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import PageObejecs.LoginPages
+  import PageObejecs.LoginPages2
+  class LoginTests2
+    void LoginClickable()
+    void DoLogin()
+    void FillPasswordWithOutToFillEmail()
+    void FillEmailWithOutToFillPassword()
+    void ClickLoginwWithOutToFillAnyFields()
+    void FillCorrectEmailWithWrongPassword()
+    void FillCorrectPasswordWithWrongEmail()
+    static void main(String[])
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 14:41:46.042
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] LoginTests2.java [in Tests [in src [in WishiMobileWeb]]]
+  package Tests
+  import org.openqa.selenium.By
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import PageObejecs.LoginPages
+  import PageObejecs.LoginPages2
+  class LoginTests2
+    void LoginClickable()
+    void DoLogin()
+    void FillPasswordWithOutToFillEmail()
+    void FillEmailWithOutToFillPassword()
+    void ClickLoginwWithOutToFillAnyFields()
+    void FillCorrectEmailWithWrongPassword()
+    void FillCorrectPasswordWithWrongEmail()
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 14:41:55.224
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\WishiMobileWeb\bin C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\commons-lang3-3.1.jar C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\cglib-2.2.jar C:\Users\Vali\Downloads\asm-all-3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51847 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse--1656106837\testng-customsuite.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\WishiMobileWeb\bin:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\commons-lang3-3.1.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\cglib-2.2.jar:C:\Users\Vali\Downloads\asm-all-3.1.jar org.testng.remote.RemoteTestNG -serport 51847 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse--1656106837\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 14:47:48.563
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] LoginTests2.java [in Tests [in src [in WishiMobileWeb]]]
+  package Tests
+  import org.openqa.selenium.By
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import PageObejecs.LoginPages
+  import PageObejecs.LoginPages2
+  class LoginTests2
+    void LoginClickable()
+    void DoLogin()
+    void FillPasswordWithOutToFillEmail()
+    void FillEmailWithOutToFillPassword()
+    void ClickLoginwWithOutToFillAnyFields()
+    void FillCorrectEmailWithWrongPassword()
+    void FillCorrectPasswordWithWrongEmail()
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 14:47:48.830
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\WishiMobileWeb\bin C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\commons-lang3-3.1.jar C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\cglib-2.2.jar C:\Users\Vali\Downloads\asm-all-3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52117 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse--1031536779\testng-customsuite.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\WishiMobileWeb\bin:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\commons-lang3-3.1.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\cglib-2.2.jar:C:\Users\Vali\Downloads\asm-all-3.1.jar org.testng.remote.RemoteTestNG -serport 52117 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse--1031536779\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 15:05:36.052
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] LoginWithFacbookTests.java [in Tests [in src [in WishiMobileWeb]]]
+  package Tests
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import PageObejecs.LoginPages2
+  class LoginWithFacbookTests
+    void LoginWithFacbookWrongUserName()
+    void LoginWithFacbookWrongPassword()
+    void LoginWithFacbook()
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 15:05:36.463
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\WishiMobileWeb\bin C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\commons-lang3-3.1.jar C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\cglib-2.2.jar C:\Users\Vali\Downloads\asm-all-3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53171 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse--878792358\testng-customsuite.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\WishiMobileWeb\bin:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\commons-lang3-3.1.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\cglib-2.2.jar:C:\Users\Vali\Downloads\asm-all-3.1.jar org.testng.remote.RemoteTestNG -serport 53171 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse--878792358\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 17:41:27.296
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] CrateLookTests.java [in WishiTests [in src [in wishi]]]
+  package WishiTests
+  import java.util.Random
+  import javax.swing.LookAndFeel
+  import org.openqa.selenium.By
+  import org.testng.Assert
+  import org.testng.annotations.Test
+  import PageObject.BasePage
+  import PageObject.CrateLookPage
+  import PageObject.LoginPage
+  class CrateLookTests
+    void LoginAsStylist()
+    void CrateRegularLook()
+    void PersonalShopping()
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 17:41:27.824
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\wishi\bin C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58331 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse--2060215097\testng-customsuite.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\wishi\bin:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar org.testng.remote.RemoteTestNG -serport 58331 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse--2060215097\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 17:43:01.366
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\wishi\bin C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58683 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\workspace\wishi\testng.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\wishi\bin:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar org.testng.remote.RemoteTestNG -serport 58683 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\workspace\wishi\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 17:48:42.993
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\wishi\bin C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59251 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\workspace\wishi\testng.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\wishi\bin:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar org.testng.remote.RemoteTestNG -serport 59251 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\workspace\wishi\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 17:58:34.360
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] BookingStylistTests.java [in WishiTests [in src [in wishi]]]
+  package WishiTests
+  import java.util.List
+  import org.openqa.selenium.By
+  import org.openqa.selenium.WebElement
+  import org.testng.Assert
+  import org.testng.annotations.BeforeTest
+  import org.testng.annotations.Test
+  import PageObject.BasePage
+  import PageObject.BookingPage
+  import PageObject.LoginPage
+  class BookingStylistTests
+    void Login()
+    void CheckOutSession()
+    void CheckoutUnlimited()
+    void CheckoutByCreditCard()
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 17:58:35.088
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\wishi\bin C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62158 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse--1901086704\testng-customsuite.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\wishi\bin:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar org.testng.remote.RemoteTestNG -serport 62158 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse--1901086704\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 18:02:12.339
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] BookingStylistTests.java [in WishiTests [in src [in wishi]]]
+  package WishiTests
+  import java.util.List
+  import org.openqa.selenium.By
+  import org.openqa.selenium.WebElement
+  import org.testng.Assert
+  import org.testng.annotations.BeforeTest
+  import org.testng.annotations.Test
+  import PageObject.BasePage
+  import PageObject.BookingPage
+  import PageObject.LoginPage
+  class BookingStylistTests
+    void Login()
+    void CheckOutSession()
+    void CheckoutUnlimited()
+    void CheckoutByCreditCard()
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 18:02:12.646
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\wishi\bin C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62495 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse-1431160579\testng-customsuite.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\wishi\bin:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar org.testng.remote.RemoteTestNG -serport 62495 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse-1431160579\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 18:03:44.796
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] BookingStylistTests.java [in WishiTests [in src [in wishi]]]
+  package WishiTests
+  import java.util.List
+  import org.openqa.selenium.By
+  import org.openqa.selenium.WebElement
+  import org.testng.Assert
+  import org.testng.annotations.BeforeTest
+  import org.testng.annotations.Test
+  import PageObject.BasePage
+  import PageObject.BookingPage
+  import PageObject.LoginPage
+  class BookingStylistTests
+    void Login()
+    void CheckOutSession()
+    void CheckoutUnlimited()
+    void CheckoutByCreditCard()
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 18:03:45.160
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\wishi\bin C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62716 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse-870904884\testng-customsuite.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\wishi\bin:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar org.testng.remote.RemoteTestNG -serport 62716 -protocol json -d C:\Users\Vali\workspace\wishi\test-output C:\Users\Vali\AppData\Local\Temp\testng-eclipse-870904884\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 18:13:27.409
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\WishiMobileWeb\bin C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\commons-lang3-3.1.jar C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\cglib-2.2.jar C:\Users\Vali\Downloads\asm-all-3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63452 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\workspace\WishiMobileWeb\testng1.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\WishiMobileWeb\bin:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\commons-lang3-3.1.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\cglib-2.2.jar:C:\Users\Vali\Downloads\asm-all-3.1.jar org.testng.remote.RemoteTestNG -serport 63452 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\workspace\WishiMobileWeb\testng1.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 18:15:12.431
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\WishiMobileWeb\bin C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\commons-lang3-3.1.jar C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\cglib-2.2.jar C:\Users\Vali\Downloads\asm-all-3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64354 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\workspace\WishiMobileWeb\testng1.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\WishiMobileWeb\bin:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\commons-lang3-3.1.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\cglib-2.2.jar:C:\Users\Vali\Downloads\asm-all-3.1.jar org.testng.remote.RemoteTestNG -serport 64354 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\workspace\WishiMobileWeb\testng1.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 18:16:34.932
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\WishiMobileWeb\bin C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\commons-lang3-3.1.jar C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\cglib-2.2.jar C:\Users\Vali\Downloads\asm-all-3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 65294 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\workspace\WishiMobileWeb\testng1.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\WishiMobileWeb\bin:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\commons-lang3-3.1.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\cglib-2.2.jar:C:\Users\Vali\Downloads\asm-all-3.1.jar org.testng.remote.RemoteTestNG -serport 65294 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\workspace\WishiMobileWeb\testng1.xml
+
+!ENTRY org.testng.eclipse 1 0 2017-12-20 18:17:53.430
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar C:\Users\Vali\workspace\WishiMobileWeb\bin C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar C:\Users\Vali\Downloads\commons-lang3-3.1.jar C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Users\Vali\Downloads\cglib-2.2.jar C:\Users\Vali\Downloads\asm-all-3.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49432 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\workspace\WishiMobileWeb\testng1.xml
+java -ea -classpath C:\Users\Vali\Downloads\eclipse\configuration\org.eclipse.osgi\474\0\.cp\lib\testng-remote.jar:C:\Users\Vali\workspace\WishiMobileWeb\bin:C:\Users\Vali\Downloads\java-client-6.0.0-BETA1.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0.jar:C:\Users\Vali\Downloads\selenium\client-combined-3.6.0-sources.jar:C:\Users\Vali\Downloads\selenium\libs\byte-buddy-1.7.5.jar:C:\Users\Vali\Downloads\selenium\libs\commons-codec-1.10.jar:C:\Users\Vali\Downloads\selenium\libs\commons-exec-1.3.jar:C:\Users\Vali\Downloads\selenium\libs\commons-logging-1.2.jar:C:\Users\Vali\Downloads\selenium\libs\gson-2.8.0.jar:C:\Users\Vali\Downloads\selenium\libs\guava-23.0.jar:C:\Users\Vali\Downloads\selenium\libs\httpclient-4.5.3.jar:C:\Users\Vali\Downloads\selenium\libs\httpcore-4.4.6.jar:C:\Users\Vali\Downloads\selenium\libs\jna-4.1.0.jar:C:\Users\Vali\Downloads\selenium\libs\jna-platform-4.1.0.jar:C:\Users\Vali\Downloads\commons-lang3-3.1.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\Vali\Downloads\eclipse\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Vali\Downloads\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Users\Vali\Downloads\cglib-2.2.jar:C:\Users\Vali\Downloads\asm-all-3.1.jar org.testng.remote.RemoteTestNG -serport 49432 -protocol json -d C:\Users\Vali\workspace\WishiMobileWeb\test-output C:\Users\Vali\workspace\WishiMobileWeb\testng1.xml

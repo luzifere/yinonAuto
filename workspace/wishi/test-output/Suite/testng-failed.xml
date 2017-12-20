@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="CrateLookTests(failed)">
+  <test name="BookingStylistTests(failed)">
     <classes>
-      <class name="WishiTests.CrateLookTests">
+      <class name="WishiTests.BookingStylistTests">
         <methods>
+          <include name="CheckoutByCreditCard"/>
           <include name="tearDown"/>
-          <include name="PersonalShopping"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- WishiTests.CrateLookTests -->
+      </class> <!-- WishiTests.BookingStylistTests -->
     </classes>
-  </test> <!-- CrateLookTests(failed) -->
-  <test name="QwizSkipedTests(failed)">
-    <classes>
-      <class name="WishiTests.QwizSkipedTests">
-        <methods>
-          <include name="CheckOutSessionskip"/>
-          <include name="tearDown"/>
-          <include name="ClickSkip"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- WishiTests.QwizSkipedTests -->
-    </classes>
-  </test> <!-- QwizSkipedTests(failed) -->
+  </test> <!-- BookingStylistTests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

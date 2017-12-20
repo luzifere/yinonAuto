@@ -27,7 +27,7 @@ public class BookingStylistTests extends BaseTest
 		Assert.assertTrue(LoginPage.isnotatpage("//div//input[@value='Log in']"));
 	}
 
-	//@Test(priority = 2,groups={"sanity-group"})
+	@Test(priority = 4,groups={"sanity-group"})
 	public void CheckOutSession ()
 	{
 		BookingPage booking = new BookingPage(driver);
@@ -39,30 +39,28 @@ public class BookingStylistTests extends BaseTest
 		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
 		booking.ClickBookingstylist();		
 	}
-
-	//@Test(priority = 3,groups={"sanity-group"})
+	@Test(priority = 2,groups={"sanity-group"})
 	public void CheckoutUnlimited ()
 	{
 		BookingPage booking = new BookingPage(driver);
 		booking.SelectService();
 		booking.SelectUnlimited();
 		booking.ClickApllay();
-		booking.SearchStylist("Cas");
+		booking.SearchStylist("Casey Huth");
 		booking.SelectStylist();
 		booking.BookStylist();
 		booking.UseCodCoopon("wishitest");
 		booking.ClickFinishCheckout();
 		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
-		//		booking.ClickTakeYourStyleQuiz();
-		booking.ClickBookingstylist();
+		booking.ClickBookingstylist();		
 
 	}
 
-	@Test(priority = 4,groups={"sanity-group"})
+	@Test(priority = 3,groups={"sanity-group"})
 	public void CheckoutByCreditCard ()
 	{
 		BookingPage booking = new BookingPage(driver);
-		booking.SearchStylist("Cas");
+		booking.SearchStylist("Casey Huth");
 		booking.SelectStylist();
 		booking.BookStylist();
 		booking.switchWindow();

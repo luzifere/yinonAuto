@@ -1,4 +1,4 @@
-package Tests;
+package WishiTests;
 
 import java.util.Random;
 
@@ -6,10 +6,11 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import PageObejecs.OnBoardingPage;
-import PageObejecs.SignUpPage;
+import PageObject.BasePage;
+import PageObject.OnBoardingPage;
+import PageObject.SignUpPage;
 
-public class OnBoadingTests extends BaseTest
+public class OnBoadingTests extends BaseTest 
 {
 	@Test(priority = 1,groups={"sanity-group"})
 	public void DoSignUp()
@@ -27,19 +28,17 @@ public class OnBoadingTests extends BaseTest
 	public void FillPersonalInformation()
 	{
 		OnBoardingPage ob = new OnBoardingPage(driver);
-		//ob.SelectGender("Female");
-		ob.ClickOnBirthDay();
-		ob.Sleep(500);
-		String sourch = driver.getPageSource();
-		System.out.println(sourch);
-		//ob.FillBirthDay("23/07/1984");
-		//ob.FillCountry("israel");
-		//ob.FillCity("tel aviv");
-		//ob.ClickNext();
-		//Assert.assertTrue(ob.ElementDisplay("//div[text()[contains(.,'STYLE MATCH')]]"));
+		ob.SelectGender("Female");
+		ob.selectMounts(3);
+		ob.selectDays(16);
+		ob.selectYears(9);
+		ob.FillCountry("israel");
+		ob.FillCity("tel aviv");
+		ob.ClickNext();
+		Assert.assertTrue(ob.ElementDisplay("//div[text()[contains(.,'STYLE MATCH')]]"));
 		
 	}
-	//@Test(priority = 3,groups={"sanity-group"})
+	@Test(priority = 3,groups={"sanity-group"})
 	public void SelectStyle()
 	{
 		OnBoardingPage ob = new OnBoardingPage(driver);
@@ -49,7 +48,7 @@ public class OnBoadingTests extends BaseTest
 		ob.ClickNext();
 		Assert.assertTrue(ob.ElementDisplay("//div[text()[contains(.,'STYLE MATCH: GOALS')]]"));
 	}
-	//@Test(priority = 4,groups={"sanity-group"})
+	@Test(priority = 4,groups={"sanity-group"})
 	public void SelectStyleGoal()
 	{
 		OnBoardingPage ob = new OnBoardingPage(driver);
@@ -59,7 +58,7 @@ public class OnBoadingTests extends BaseTest
 		ob.ClickNext();
 		Assert.assertTrue(ob.ElementDisplay("//div[text()[contains(.,'STYLE INSPIRATION')]]"));
 	}
-	//@Test(priority = 5,groups={"sanity-group"})
+	@Test(priority = 5,groups={"sanity-group"})
 	public void SelectInspiration()
 	{
 		OnBoardingPage ob = new OnBoardingPage(driver);
@@ -70,7 +69,7 @@ public class OnBoadingTests extends BaseTest
 		ob.ClickAddPhotoButton();
 		Assert.assertTrue(ob.ElementDisplay("//div[text()[contains(.,'LOCATION')]]"));
 	}
-//	@Test(priority = 6,groups={"sanity-group"})
+	@Test(priority = 6,groups={"sanity-group"})
 	public void SelectLocation()
 	{
 		OnBoardingPage ob = new OnBoardingPage(driver);
@@ -80,7 +79,7 @@ public class OnBoadingTests extends BaseTest
 		ob.ClickNext();
 		Assert.assertTrue(ob.ElementDisplay("//div[text()[contains(.,'BRANDS')]]"));
 	}
-//	@Test(priority = 7,groups={"sanity-group"})
+	@Test(priority = 7,groups={"sanity-group"})
 	public void SelectBrands()
 	{
 		OnBoardingPage ob = new OnBoardingPage(driver);
@@ -90,7 +89,7 @@ public class OnBoadingTests extends BaseTest
 		ob.ClickNext();
 		Assert.assertTrue(ob.ElementDisplay("//div[text()[contains(.,'STYLIST LEVEL')]]"));
 	}
-	//@Test(priority = 8,groups={"sanity-group"})
+	@Test(priority = 8,groups={"sanity-group"})
 	public void SelectLevel()
 	{
 		OnBoardingPage ob = new OnBoardingPage(driver);
@@ -100,4 +99,6 @@ public class OnBoadingTests extends BaseTest
 		ob.ClickNext();
 		Assert.assertTrue(ob.ElementDisplay("//div[@class='match-image']"));
 	}
+	
+
 }

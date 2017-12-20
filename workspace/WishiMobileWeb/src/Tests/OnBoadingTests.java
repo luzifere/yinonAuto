@@ -21,7 +21,7 @@ public class OnBoadingTests extends BaseTest
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitestt@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishitesttt@wishi.com" + number, "inon", "av", "ab1565");
 		SignUpPage.ExplicityWaitIsClickable(By.xpath("//div//button[@type='submit']"));
 	}
 	@Test(priority = 2,groups={"sanity-group"})
