@@ -1,0 +1,63 @@
+package WishiTests;
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import PageObject.CrateLookPage;
+import PageObject.LoginPage;
+
+public class CrateLookTests extends BaseTest
+{
+	@Test(priority = 1)
+	   public void Login() 
+		{
+			LoginPage login = new LoginPage(driver);
+			login.ClickLoginButton();
+			Assert.assertTrue(login.isatpage("//div//input[@value='Log in']"));
+			login.doLogin("clea+4@wishi.me", "Wishime1");
+			login.Sleep(50);
+
+		}
+	@Test(priority = 2)
+	public void SelectItem1 ()
+	{
+		CrateLookPage look = new CrateLookPage(driver);
+		look.CrateLook();
+		look.SelectClass("Shop");
+		look.SelectItem("[21]");
+		look.DragDropItems("[21]");
+		look.SelectItem("[25]");
+		look.DragDropItems("[25]");
+		look.SelectItem("[29]");
+		look.DragDropItems("[29]");
+		look.ClickSave();
+		look.FillDescription("test");
+		Assert.assertTrue(look.ElementEnable("//button[@class='input_btn']"));
+		look.ClickSaveOfDescription();
+		driver.findElement(By.xpath("//textarea[@class='autoExpand ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required']")).sendKeys("vjgvjgvjgv");
+		driver.findElement(By.xpath("//button[@class='input_btn']")).click();
+		
+	}
+	//@Test(priority = 3)
+	public void SelectItem2 ()
+	{
+		CrateLookPage look = new CrateLookPage(driver);
+		look.Sleep(50);
+		look.SelectItem("[25]");
+		look.DragDropItems("[25]");
+	}
+	//@Test(priority = 4)
+	public void SelectItem3 ()
+	{
+		CrateLookPage look = new CrateLookPage(driver);
+		//look.SelectClass("My Store");
+		look.Sleep(50);
+		look.SelectItem("[29]");
+		look.DragDropItems("[29]");
+		look.Sleep(100);
+		
+	}
+	
+
+}

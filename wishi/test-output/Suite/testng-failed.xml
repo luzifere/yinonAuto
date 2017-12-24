@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="BookingStylistTests(failed)">
+    <classes>
+      <class name="WishiTests.BookingStylistTests">
+        <methods>
+          <include name="CheckoutByCreditCard"/>
+          <include name="CheckOutSession"/>
+          <include name="CheckoutUnlimited"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.BookingStylistTests -->
+    </classes>
+  </test> <!-- BookingStylistTests(failed) -->
+  <test name="UploadItemTest(failed)">
+    <classes>
+      <class name="WishiTests.UploadItemTest">
+        <methods>
+          <include name="Uploaditem"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.UploadItemTest -->
+    </classes>
+  </test> <!-- UploadItemTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

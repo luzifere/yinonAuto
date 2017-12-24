@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="BookingTests">
+    <classes>
+      <class name="BookingTests"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="ChatTests">
+    <classes>
+      <class name="Tests.ChatTests"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="LoginTests2">
+    <classes>
+       <class name="Tests.LoginTests2"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="LoginWithFacbookTests">
+    <classes>
+      <class name="Tests.LoginWithFacbookTests"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="LoginWithFacbookTestsFail">
+    <classes>
+      <class name="Tests.LoginWithFacbookTestsFail"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="SignUpByFacbookTestsFail">
+    <classes>
+      <class name="Tests.SignUpByFacbookTestsFail"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="SignUpByFacbookTestsSucses">
+    <classes>
+      <class name="Tests.SignUpByFacbookTestsSucses"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="CrateLookTests">
+    <classes>
+      <class name="Tests.CrateLookTests"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="ChatTests">
+    <classes>
+      <class name="Tests.ChatTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="SignUpTest">
+    <classes>
+      <class name="Tests.SignUpTest"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="QwizTests">
+    <classes>
+      <class name="Tests.QwizTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="QwizSkipedTests">
+    <classes>
+      <class name="Tests.QwizSkipedTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
