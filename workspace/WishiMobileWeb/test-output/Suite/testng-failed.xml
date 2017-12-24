@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="ChatTests(failed)">
+    <classes>
+      <class name="Tests.ChatTests">
+        <methods>
+          <include name="setup"/>
+          <include name="LoginAsStylist"/>
+          <include name="SendChatToStylist"/>
+          <include name="SendChatToclient"/>
+        </methods>
+      </class> <!-- Tests.ChatTests -->
+    </classes>
+  </test> <!-- ChatTests(failed) -->
+  <test name="LoginTests2(failed)">
+    <classes>
+      <class name="Tests.LoginTests2">
+        <methods>
+          <include name="FillCorrectPasswordWithWrongEmail"/>
+          <include name="FillCorrectEmailWithWrongPassword"/>
+          <include name="setup"/>
+          <include name="ClickLoginwWithOutToFillAnyFields"/>
+          <include name="DoLogin"/>
+          <include name="FillEmailWithOutToFillPassword"/>
+          <include name="LoginClickable"/>
+          <include name="FillPasswordWithOutToFillEmail"/>
+        </methods>
+      </class> <!-- Tests.LoginTests2 -->
+    </classes>
+  </test> <!-- LoginTests2(failed) -->
+  <test name="LoginWithFacbookTests(failed)">
+    <classes>
+      <class name="Tests.LoginWithFacbookTests">
+        <methods>
+          <include name="setup"/>
+          <include name="LoginWithFacbook"/>
+        </methods>
+      </class> <!-- Tests.LoginWithFacbookTests -->
+    </classes>
+  </test> <!-- LoginWithFacbookTests(failed) -->
+  <test name="LoginWithFacbookTestsFail(failed)">
+    <classes>
+      <class name="Tests.LoginWithFacbookTestsFail">
+        <methods>
+          <include name="LoginWithFacbookWrongPassword"/>
+          <include name="setup"/>
+          <include name="LoginWithFacbookWrongUserName"/>
+        </methods>
+      </class> <!-- Tests.LoginWithFacbookTestsFail -->
+    </classes>
+  </test> <!-- LoginWithFacbookTestsFail(failed) -->
+  <test name="SignUpByFacbookTestsFail(failed)">
+    <classes>
+      <class name="Tests.SignUpByFacbookTestsFail">
+        <methods>
+          <include name="SignUpWithFacbookWrongPassword"/>
+          <include name="setup"/>
+          <include name="SignUpWithFacbookWitOutEmail"/>
+          <include name="SignUpWithFacbookWitOutPassword"/>
+          <include name="SignUpWithFacbookWrongUserName"/>
+        </methods>
+      </class> <!-- Tests.SignUpByFacbookTestsFail -->
+    </classes>
+  </test> <!-- SignUpByFacbookTestsFail(failed) -->
+  <test name="SignUpByFacbookTestsSucses(failed)">
+    <classes>
+      <class name="Tests.SignUpByFacbookTestsSucses">
+        <methods>
+          <include name="setup"/>
+          <include name="SignUpWithFacbook"/>
+        </methods>
+      </class> <!-- Tests.SignUpByFacbookTestsSucses -->
+    </classes>
+  </test> <!-- SignUpByFacbookTestsSucses(failed) -->
+  <test name="SignUpTest(failed)">
+    <classes>
+      <class name="Tests.SignUpTest">
+        <methods>
+          <include name="DoSignUp"/>
+          <include name="FillEmailWitoutShtudel"/>
+          <include name="setup"/>
+          <include name="FillEmailWithoutDotCom"/>
+          <include name="SignUpClickable"/>
+          <include name="FillPsswordWithLessthan6Characters"/>
+        </methods>
+      </class> <!-- Tests.SignUpTest -->
+    </classes>
+  </test> <!-- SignUpTest(failed) -->
+  <test name="qwizTests(failed)">
+    <classes>
+      <class name="Tests.qwizTests">
+        <methods>
+          <include name="SelectEvent"/>
+          <include name="SelectHighlight"/>
+          <include name="setup"/>
+          <include name="SelectClothingPreferences"/>
+          <include name="SelectComfortZone"/>
+          <include name="SelectPrints"/>
+          <include name="SelectBrands"/>
+          <include name="SelectSize"/>
+          <include name="SelectHeels"/>
+          <include name="SelectInventory"/>
+          <include name="DoSignUp"/>
+          <include name="SelectBodyType"/>
+          <include name="SelectHeight"/>
+          <include name="SelectJEWELRY"/>
+          <include name="CheckOutSession"/>
+          <include name="SelectFabrics"/>
+          <include name="SelectColors"/>
+        </methods>
+      </class> <!-- Tests.qwizTests -->
+    </classes>
+  </test> <!-- qwizTests(failed) -->
+  <test name="BookingTests(failed)">
+    <classes>
+      <class name="Tests.BookingTests">
+        <methods>
+          <include name="CheckOutSession"/>
+          <include name="CheckoutUnlimited"/>
+          <include name="setup"/>
+          <include name="CheckoutByCreditCard"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Tests.BookingTests -->
+    </classes>
+  </test> <!-- BookingTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

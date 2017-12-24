@@ -1,0 +1,55 @@
+package PageObject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class UploadItems extends BasePage {
+
+	public UploadItems(WebDriver driver) {
+		super(driver);
+		
+	}
+	@FindBy(xpath="//div [@class = 'sign-in-container']")
+	WebElement LoginPage;
+	@FindBy(xpath="//div//p[text()[contains(.,'Log In')]]")
+	WebElement btnLogin;
+
+	@FindBy(xpath="//div//input[@id='signInEmail']")
+	WebElement userName;
+	
+	@FindBy(xpath="//div//input[@id='signInPass']")
+	WebElement password;
+	
+	@FindBy(xpath="//div//input[@value='Log in']")
+	WebElement LoginButtonOfModel; 
+	
+	@FindBy(xpath="//div //span[text()[contains(.,'+ Add Item')]]")
+	WebElement AddItemButton;
+	
+	@FindBy(xpath="//div //input[@id='file']")
+	WebElement SelectItem;
+	
+	public void ClickLoginButton() 
+	{
+		click(btnLogin);
+	}
+	
+	public void doLogin(String user,String pass)
+	{
+		filltext(userName, user);
+		filltext(password, pass);
+		click(LoginButtonOfModel);			
+	} 
+	
+	public void ClickAddItem() 
+	{
+		click(AddItemButton);
+	}
+	
+	public void SelectItem (String text)
+	{
+		filltext(SelectItem, text);
+	}
+
+}
