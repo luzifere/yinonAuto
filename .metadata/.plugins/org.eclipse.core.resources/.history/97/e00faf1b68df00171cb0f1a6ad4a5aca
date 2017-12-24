@@ -1,0 +1,61 @@
+package Tests;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class SignUpByFacbookTests extends BaseTest
+{
+	@Test(priority = 1,groups={"sanity-group"})
+	public void SignUpWithFacbookWrongPassword ()
+	{
+		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
+		signup.ConnectWithFB();
+		signup.Sleep(200);
+		signup.switchWindow();		
+		signup.FillusernameOfFacbook("luzifere@gmail.com");
+		signup.FillPasswordOfFacbook("inonab441565");
+		signup.ClickLoginButtonOfFacbook();
+		Assert.assertTrue(signup.ElementDisplay("//div[@class='_5yd0 _2ph- _5yd1']"));
+	}
+	@Test(priority = 2,groups={"sanity-group"})
+	public void SignUpWithFacbookWitOutEmail()
+	{
+		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
+		signup.FillPasswordOfFacbook("inon44ab1565");
+		signup.scrollDown();
+		signup.ClickLoginButtonOfFacbook();
+		Assert.assertTrue(signup.ElementDisplay("//div[@class='_5yd0 _2ph- _5yd1']"));
+	}
+	@Test(priority = 3,groups={"sanity-group"})
+	public void SignUpWithFacbookWitOutPassword()
+	{
+		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
+		signup.FillusernameOfFacbook("luzifere@gmail.com");
+		signup.scrollDown();
+		signup.ClickLoginButtonOfFacbook();
+		Assert.assertTrue(signup.ElementDisplay("//div[@class='_5yd0 _2ph- _5yd1']"));
+	}
+	@Test(priority = 4,groups={"sanity-group"})
+	public void SignUpWithFacbookWrongUserName ()
+	{
+		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
+		signup.FillusernameOfFacbook("luzifere88@gmail.com");
+		signup.FillPasswordOfFacbook("inonab1565");
+		signup.scrollDown();
+		signup.ClickLoginButtonOfFacbook();
+		Assert.assertTrue(signup.ElementDisplay("//div[@class='_5yd0 _2ph- _5yd1']"));
+	}
+	@Test(priority = 5,groups={"sanity-group"})
+	public void SignUpWithFacbook()
+	{
+		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
+		signup.FillusernameOfFacbook("luzifere@gmail.com");
+		signup.FillPasswordOfFacbook("inonab1565");
+		signup.scrollDown();
+		signup.ClickLoginButtonOfFacbook();
+		signup.Sleep(3);
+		signup.switchWindow();
+		Assert.assertTrue(signup.ElementDisplay("//div//span[text()[contains(.,'Book A Stylist')]]"));
+	}
+
+}
