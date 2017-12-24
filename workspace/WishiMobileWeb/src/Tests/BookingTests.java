@@ -1,5 +1,7 @@
 package Tests;
 
+import java.util.Random;
+
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -10,12 +12,16 @@ import PageObejecs.LoginPages2;
 public class BookingTests extends BaseTest
 {
 	@Test(priority = 1,groups={"sanity-group"})
-	public void Login() 
+	public void DoSignUp()
 	{
-		LoginPages2 login = new LoginPages2(driver);
-		login.ClickLoginButton();
-		login.doLogin("yinon@wishi.me", "156523784");
-		Assert.assertTrue(LoginPages2.isatpage("//div//input[@value='Log in']"));
+		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
+		Random num = new Random();
+		int number = 356;
+		for (int counter = 1000; counter<=100000;counter++)
+			number = num.nextInt(2500);
+		signup.ClickOnSignUpEmail();
+		signup.doSignUp("wishitestttt@wishi.com" + number, "inon", "av", "ab1565");
+		PageObejecs.BasePage.ExplicityWaitIsClickable(By.xpath("//div[@class='closeXLeft ng-scope']"));
 	}
 
 	@Test(priority = 2,groups={"sanity-group"})
