@@ -3,8 +3,6 @@ package Tests;
 import java.util.Random;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -68,15 +66,12 @@ public class BookingTests extends BaseTest
 		booking.SearchStylist("Casey Huth");
 		booking.SelectStylist();
 		booking.BookStylist();
-		booking.switchWindow();
-		booking.FillFirstName("yinon");
-		Actions act = new Actions(driver);
-		act.sendKeys(Keys.ENTER).perform();
-		booking.Sleep(300);
+	//	booking.switchWindow();
 		//booking.FillFirstName("yinon");
 		//booking.FillLastName("aba");
 		//booking.SwitchToFrame(0);
-		//booking.ClickCard();
+		booking.ClickName();
+		booking.SwitchToFrame(0);
 		booking.FillCardNumber("4242424242424242");
 		booking.FillCardDate("0218");
 		booking.FillCardCVC("424");

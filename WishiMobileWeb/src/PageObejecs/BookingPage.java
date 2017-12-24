@@ -96,14 +96,17 @@ public class BookingPage extends BasePage
 
 	@FindBy(xpath="//button[@class='payment_form_button ng-binding']")
 	WebElement PayButton;
-	@FindBy(xpath="//input[@class='form-control ng-valid ng-dirty ng-valid-parse ng-empty ng-touched']")
+	@FindBy(xpath="//input[@class='form-control ng-pristine ng-untouched ng-valid ng-not-empty']")
 	WebElement NameField;
 
 
 
 	public void ClickName() 
 	{
-		click(NameField);	
+		click(FirstNameCheckout);
+		Actions act = new Actions(driver);
+		act.sendKeys(Keys.TAB).perform();
+		Sleep(300);
 	}
 	public void ClickMyBooking() 
 	{
