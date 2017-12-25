@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test name="BookingTests(failed)">
+  <test name="SignUpByFacbookTestsFail(failed)">
     <classes>
-      <class name="Tests.BookingTests">
+      <class name="Tests.SignUpByFacbookTestsFail">
         <methods>
+          <include name="SignUpWithFacbookWrongPassword"/>
           <include name="setup"/>
-          <include name="CheckoutByCreditCard"/>
+          <include name="SignUpWithFacbookWitOutEmail"/>
+          <include name="SignUpWithFacbookWitOutPassword"/>
+          <include name="SignUpWithFacbookWrongUserName"/>
         </methods>
-      </class> <!-- Tests.BookingTests -->
+      </class> <!-- Tests.SignUpByFacbookTestsFail -->
     </classes>
-  </test> <!-- BookingTests(failed) -->
+  </test> <!-- SignUpByFacbookTestsFail(failed) -->
 </suite> <!-- Failed suite [Suite] -->

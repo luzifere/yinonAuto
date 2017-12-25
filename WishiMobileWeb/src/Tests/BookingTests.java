@@ -24,7 +24,7 @@ public class BookingTests extends BaseTest
 		PageObejecs.BasePage.ExplicityWaitIsClickable(By.xpath("//div[@class='closeXLeft ng-scope']"));
 	}
 
-	//@Test(priority = 2,groups={"sanity-group"})
+	@Test(priority = 2,groups={"sanity-group"})
 	public void CheckOutSession ()
 	{
 		PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);
@@ -39,7 +39,7 @@ public class BookingTests extends BaseTest
 		booking.ClickBookingstylist();		
 	}
 
-	//@Test(priority = 3,groups={"sanity-group"})
+	@Test(priority = 3,groups={"sanity-group"})
 	public void CheckoutUnlimited ()
 	{
 		PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);
@@ -66,19 +66,16 @@ public class BookingTests extends BaseTest
 		booking.SearchStylist("Casey Huth");
 		booking.SelectStylist();
 		booking.BookStylist();
-	//	booking.switchWindow();
-		//booking.FillFirstName("yinon");
-		//booking.FillLastName("aba");
-		//booking.SwitchToFrame(0);
 		booking.ClickName();
-		booking.SwitchToFrame(0);
+		booking.SwitchToFrame(1);
+		booking.Sleep(200);
 		booking.FillCardNumber("4242424242424242");
 		booking.FillCardDate("0218");
 		booking.FillCardCVC("424");
 		booking.Sleep(50);
 		booking.switchWindow();
-		booking.ClickTakeYourStyleQuiz();
-		booking.ClickBookingstylist();
+		PageObejecs.BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn-mob']"));
+		//booking.ClickBookingstylist();
 	}
 
 }
