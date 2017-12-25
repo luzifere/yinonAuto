@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Dec 25 12:40:22 IST 2017</td>
+<td>Started on:</td><td>Mon Dec 25 18:15:59 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>19 seconds (19917 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18759 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,8 +75,8 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='WishiTests.LoginTest.ClickLoginwWithOutToFillAnyFields()'><b>ClickLoginwWithOutToFillAnyFields</b><br>Test class: WishiTests.LoginTest</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;div class=&quot;closeXLeft ng-scope&quot; ng-click=&quot;closeUserModal();&quot; ng-if=&quot;!(selected.screen.name===&apos;signup&apos; &amp;amp;&amp;amp; url.includes(&apos;Search&apos;))&quot;&gt;...&lt;/div&gt; is not clickable at point (282, 27). Other element would receive the click: &lt;div class=&quot;sign-in-container&quot;&gt;...&lt;/div&gt;
+<td title='WishiTests.LoginTest.FillCorrectEmailWithWrongPassword()'><b>FillCorrectEmailWithWrongPassword</b><br>Test class: WishiTests.LoginTest</td>
+<td><div><pre>org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
   (Session info: chrome=63.0.3239.108)
   (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -84,7 +84,7 @@ Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: 
 System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:187b:51fa:d62a:bb1b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522932 (4140ab217e1ca1..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.108, webStorageEnabled: true}
-Session ID: 61ca64929a2683a9b42fd0fe15ea55c5
+Session ID: 9b3dfa73d979cafb1347bde8df45f2f8
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -94,14 +94,14 @@ Session ID: 61ca64929a2683a9b42fd0fe15ea55c5
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:118)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at PageObject.BasePage.click(BasePage.java:67)
-	at PageObject.LoginPage.Closebuttonoflogin(LoginPage.java:126)
-	at WishiTests.LoginTest.ClickLoginwWithOutToFillAnyFields(LoginTest.java:71)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1015122628", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1015122628'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;div class=&quot;closeXLeft ng-scope&quot; ng-click=&quot;closeUserModal();&quot; ng-if=&quot;!(selected.screen.name===&apos;signup&apos; &amp;amp;&amp;amp; url.includes(&apos;Search&apos;))&quot;&gt;...&lt;/div&gt; is not clickable at point (282, 27). Other element would receive the click: &lt;div class=&quot;sign-in-container&quot;&gt;...&lt;/div&gt;
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at PageObject.BasePage.clear(BasePage.java:84)
+	at PageObject.LoginPage.Clearpassword(LoginPage.java:104)
+	at WishiTests.LoginTest.FillCorrectEmailWithWrongPassword(LoginTest.java:78)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace78265654", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace78265654'><pre>org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
   (Session info: chrome=63.0.3239.108)
   (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -109,7 +109,7 @@ Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: 
 System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:187b:51fa:d62a:bb1b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522932 (4140ab217e1ca1..., userDataDir: /var/folders/xz/jk5hy2jd3sb...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.108, webStorageEnabled: true}
-Session ID: 61ca64929a2683a9b42fd0fe15ea55c5
+Session ID: 9b3dfa73d979cafb1347bde8df45f2f8
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -123,16 +123,16 @@ Session ID: 61ca64929a2683a9b42fd0fe15ea55c5
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:118)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at PageObject.BasePage.click(BasePage.java:67)
-	at PageObject.LoginPage.Closebuttonoflogin(LoginPage.java:126)
-	at WishiTests.LoginTest.ClickLoginwWithOutToFillAnyFields(LoginTest.java:71)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at PageObject.BasePage.clear(BasePage.java:84)
+	at PageObject.LoginPage.Clearpassword(LoginPage.java:104)
+	at WishiTests.LoginTest.FillCorrectEmailWithWrongPassword(LoginTest.java:78)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -170,24 +170,24 @@ Session ID: 61ca64929a2683a9b42fd0fe15ea55c5
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='WishiTests.LoginTest.ClickLoginwWithOutToFillAnyFields()'><b>ClickLoginwWithOutToFillAnyFields</b><br>Test class: WishiTests.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>WishiTests.LoginTest@3232a28a</td></tr>
+<tr>
 <td title='WishiTests.LoginTest.DoLogin()'><b>DoLogin</b><br>Test class: WishiTests.LoginTest</td>
 <td></td>
 <td>1</td>
 <td>WishiTests.LoginTest@3232a28a</td></tr>
 <tr>
-<td title='WishiTests.LoginTest.FillCorrectEmailWithWrongPassword()'><b>FillCorrectEmailWithWrongPassword</b><br>Test class: WishiTests.LoginTest</td>
-<td></td>
-<td>2</td>
-<td>WishiTests.LoginTest@3232a28a</td></tr>
-<tr>
 <td title='WishiTests.LoginTest.FillCorrectPasswordWithWrongEmail()'><b>FillCorrectPasswordWithWrongEmail</b><br>Test class: WishiTests.LoginTest</td>
 <td></td>
-<td>0</td>
+<td>1</td>
 <td>WishiTests.LoginTest@3232a28a</td></tr>
 <tr>
 <td title='WishiTests.LoginTest.FillEmailWithOutToFillPassword()'><b>FillEmailWithOutToFillPassword</b><br>Test class: WishiTests.LoginTest</td>
 <td></td>
-<td>1</td>
+<td>0</td>
 <td>WishiTests.LoginTest@3232a28a</td></tr>
 <tr>
 <td title='WishiTests.LoginTest.FillPasswordWithOutToFillEmail()'><b>FillPasswordWithOutToFillEmail</b><br>Test class: WishiTests.LoginTest</td>

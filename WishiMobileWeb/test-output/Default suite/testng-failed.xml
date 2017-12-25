@@ -5,11 +5,8 @@
     <classes>
       <class name="Tests.BookingTests">
         <methods>
-          <include name="CheckOutSession"/>
-          <include name="CheckoutUnlimited"/>
           <include name="setup"/>
           <include name="CheckoutByCreditCard"/>
-          <include name="DoSignUp"/>
         </methods>
       </class> <!-- Tests.BookingTests -->
     </classes>

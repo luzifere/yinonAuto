@@ -18,7 +18,7 @@ public class BookingPage extends BasePage
 	WebElement BookBtn;
 
 
-	@FindBy(xpath="//div [@class='bottom-btns']//div[text()[contains(.,'Apply')]]")
+	@FindBy(xpath="//div[@ng-click='ok()']")
 	WebElement Applay;
 
 	@FindBy(xpath="//div//span[text()[contains(.,'Book A Stylist')]]")
@@ -47,7 +47,7 @@ public class BookingPage extends BasePage
 	@FindBy(xpath="//div//button[@class='stickyButton ng-binding']")
 	WebElement SelectStylist;
 
-	@FindBy(xpath="(//div[@class='entry-sub ng-binding'])[1]")
+	@FindBy(xpath="//div[text()[contains(.,'Unlimited Styling')]]")
 	WebElement SelectUnlimited;
 
 	@FindBy(xpath="//div[@class='filterPopPage ng-scope']//div [text()[contains(.,'Apply')]]")
@@ -159,7 +159,9 @@ public class BookingPage extends BasePage
 	public void SelectService() 
 	{	
 		Sleep(30);
-		click(SelectService);	
+		click(SelectService);
+		Sleep(150);
+		
 	}
 	public void SelectUnlimited() 
 	{	

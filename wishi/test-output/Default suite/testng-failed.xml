@@ -6,7 +6,7 @@
       <class name="WishiTests.BookingStylistTests">
         <methods>
           <include name="CheckoutByCreditCard"/>
-          <include name="CheckOutSession"/>
+          <include name="CheckoutUnlimited"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>

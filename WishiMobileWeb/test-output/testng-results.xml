@@ -2,293 +2,293 @@
 <testng-results ignored="0" total="43" passed="43" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2017-12-25T06:03:17Z" name="Suite" finished-at="2017-12-25T06:12:25Z" duration-ms="548163">
+  <suite started-at="2017-12-25T16:25:12Z" name="Suite" finished-at="2017-12-25T16:35:34Z" duration-ms="622111">
     <groups>
       <group name="sanity-group">
-        <method signature="ChatTests.LoginAsStylist()[pri:1, instance:Tests.ChatTests@316bcf94]" name="LoginAsStylist" class="Tests.ChatTests"/>
-        <method signature="ChatTests.SendChatToStylist()[pri:3, instance:Tests.ChatTests@316bcf94]" name="SendChatToStylist" class="Tests.ChatTests"/>
-        <method signature="ChatTests.SendChatToclient()[pri:2, instance:Tests.ChatTests@316bcf94]" name="SendChatToclient" class="Tests.ChatTests"/>
-        <method signature="LoginTests2.ClickLoginwWithOutToFillAnyFields()[pri:5, instance:Tests.LoginTests2@52b1beb6]" name="ClickLoginwWithOutToFillAnyFields" class="Tests.LoginTests2"/>
-        <method signature="LoginTests2.DoLogin()[pri:2, instance:Tests.LoginTests2@52b1beb6]" name="DoLogin" class="Tests.LoginTests2"/>
-        <method signature="LoginTests2.FillCorrectEmailWithWrongPassword()[pri:6, instance:Tests.LoginTests2@52b1beb6]" name="FillCorrectEmailWithWrongPassword" class="Tests.LoginTests2"/>
-        <method signature="LoginTests2.FillCorrectPasswordWithWrongEmail()[pri:7, instance:Tests.LoginTests2@52b1beb6]" name="FillCorrectPasswordWithWrongEmail" class="Tests.LoginTests2"/>
-        <method signature="LoginTests2.FillEmailWithOutToFillPassword()[pri:4, instance:Tests.LoginTests2@52b1beb6]" name="FillEmailWithOutToFillPassword" class="Tests.LoginTests2"/>
-        <method signature="LoginTests2.FillPasswordWithOutToFillEmail()[pri:3, instance:Tests.LoginTests2@52b1beb6]" name="FillPasswordWithOutToFillEmail" class="Tests.LoginTests2"/>
-        <method signature="LoginTests2.LoginClickable()[pri:1, instance:Tests.LoginTests2@52b1beb6]" name="LoginClickable" class="Tests.LoginTests2"/>
-        <method signature="LoginWithFacbookTests.LoginWithFacbook()[pri:3, instance:Tests.LoginWithFacbookTests@942a29c]" name="LoginWithFacbook" class="Tests.LoginWithFacbookTests"/>
-        <method signature="LoginWithFacbookTestsFail.LoginWithFacbookWrongPassword()[pri:1, instance:Tests.LoginWithFacbookTestsFail@5e600dd5]" name="LoginWithFacbookWrongPassword" class="Tests.LoginWithFacbookTestsFail"/>
-        <method signature="LoginWithFacbookTestsFail.LoginWithFacbookWrongUserName()[pri:2, instance:Tests.LoginWithFacbookTestsFail@5e600dd5]" name="LoginWithFacbookWrongUserName" class="Tests.LoginWithFacbookTestsFail"/>
-        <method signature="SignUpByFacbookTestsFail.SignUpWithFacbookWitOutEmail()[pri:2, instance:Tests.SignUpByFacbookTestsFail@3012646b]" name="SignUpWithFacbookWitOutEmail" class="Tests.SignUpByFacbookTestsFail"/>
-        <method signature="SignUpByFacbookTestsFail.SignUpWithFacbookWitOutPassword()[pri:3, instance:Tests.SignUpByFacbookTestsFail@3012646b]" name="SignUpWithFacbookWitOutPassword" class="Tests.SignUpByFacbookTestsFail"/>
-        <method signature="SignUpByFacbookTestsFail.SignUpWithFacbookWrongPassword()[pri:4, instance:Tests.SignUpByFacbookTestsFail@3012646b]" name="SignUpWithFacbookWrongPassword" class="Tests.SignUpByFacbookTestsFail"/>
-        <method signature="SignUpByFacbookTestsFail.SignUpWithFacbookWrongUserName()[pri:5, instance:Tests.SignUpByFacbookTestsFail@3012646b]" name="SignUpWithFacbookWrongUserName" class="Tests.SignUpByFacbookTestsFail"/>
-        <method signature="SignUpByFacbookTestsSucses.SignUpWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTestsSucses@4d154ccd]" name="SignUpWithFacbook" class="Tests.SignUpByFacbookTestsSucses"/>
-        <method signature="SignUpTest.DoSignUp()[pri:5, instance:Tests.SignUpTest@13e344d]" name="DoSignUp" class="Tests.SignUpTest"/>
-        <method signature="SignUpTest.FillEmailWithoutDotCom()[pri:3, instance:Tests.SignUpTest@13e344d]" name="FillEmailWithoutDotCom" class="Tests.SignUpTest"/>
-        <method signature="SignUpTest.FillEmailWitoutShtudel()[pri:2, instance:Tests.SignUpTest@13e344d]" name="FillEmailWitoutShtudel" class="Tests.SignUpTest"/>
-        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:4, instance:Tests.SignUpTest@13e344d]" name="FillPsswordWithLessthan6Characters" class="Tests.SignUpTest"/>
-        <method signature="SignUpTest.SignUpClickable()[pri:1, instance:Tests.SignUpTest@13e344d]" name="SignUpClickable" class="Tests.SignUpTest"/>
-        <method signature="qwizTests.CheckOutSession()[pri:2, instance:Tests.qwizTests@2e385cce]" name="CheckOutSession" class="Tests.qwizTests"/>
-        <method signature="qwizTests.DoSignUp()[pri:1, instance:Tests.qwizTests@2e385cce]" name="DoSignUp" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectBodyType()[pri:4, instance:Tests.qwizTests@2e385cce]" name="SelectBodyType" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectBrands()[pri:15, instance:Tests.qwizTests@2e385cce]" name="SelectBrands" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectClothingPreferences()[pri:8, instance:Tests.qwizTests@2e385cce]" name="SelectClothingPreferences" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectColors()[pri:6, instance:Tests.qwizTests@2e385cce]" name="SelectColors" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectComfortZone()[pri:13, instance:Tests.qwizTests@2e385cce]" name="SelectComfortZone" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectEvent()[pri:3, instance:Tests.qwizTests@2e385cce]" name="SelectEvent" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectFabrics()[pri:10, instance:Tests.qwizTests@2e385cce]" name="SelectFabrics" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectHeels()[pri:9, instance:Tests.qwizTests@2e385cce]" name="SelectHeels" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectHeight()[pri:5, instance:Tests.qwizTests@2e385cce]" name="SelectHeight" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectHighlight()[pri:7, instance:Tests.qwizTests@2e385cce]" name="SelectHighlight" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectInventory()[pri:16, instance:Tests.qwizTests@2e385cce]" name="SelectInventory" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectJEWELRY()[pri:14, instance:Tests.qwizTests@2e385cce]" name="SelectJEWELRY" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectPrints()[pri:11, instance:Tests.qwizTests@2e385cce]" name="SelectPrints" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectSize()[pri:12, instance:Tests.qwizTests@2e385cce]" name="SelectSize" class="Tests.qwizTests"/>
-        <method signature="BookingTests.CheckOutSession()[pri:2, instance:Tests.BookingTests@7526515b]" name="CheckOutSession" class="Tests.BookingTests"/>
-        <method signature="BookingTests.CheckoutByCreditCard()[pri:4, instance:Tests.BookingTests@7526515b]" name="CheckoutByCreditCard" class="Tests.BookingTests"/>
-        <method signature="BookingTests.CheckoutUnlimited()[pri:3, instance:Tests.BookingTests@7526515b]" name="CheckoutUnlimited" class="Tests.BookingTests"/>
-        <method signature="BookingTests.DoSignUp()[pri:1, instance:Tests.BookingTests@7526515b]" name="DoSignUp" class="Tests.BookingTests"/>
+        <method signature="ChatTests.LoginAsStylist()[pri:1, instance:Tests.ChatTests@3e11f9e9]" name="LoginAsStylist" class="Tests.ChatTests"/>
+        <method signature="ChatTests.SendChatToStylist()[pri:3, instance:Tests.ChatTests@3e11f9e9]" name="SendChatToStylist" class="Tests.ChatTests"/>
+        <method signature="ChatTests.SendChatToclient()[pri:2, instance:Tests.ChatTests@3e11f9e9]" name="SendChatToclient" class="Tests.ChatTests"/>
+        <method signature="LoginTests2.ClickLoginwWithOutToFillAnyFields()[pri:5, instance:Tests.LoginTests2@7db12bb6]" name="ClickLoginwWithOutToFillAnyFields" class="Tests.LoginTests2"/>
+        <method signature="LoginTests2.DoLogin()[pri:2, instance:Tests.LoginTests2@7db12bb6]" name="DoLogin" class="Tests.LoginTests2"/>
+        <method signature="LoginTests2.FillCorrectEmailWithWrongPassword()[pri:6, instance:Tests.LoginTests2@7db12bb6]" name="FillCorrectEmailWithWrongPassword" class="Tests.LoginTests2"/>
+        <method signature="LoginTests2.FillCorrectPasswordWithWrongEmail()[pri:7, instance:Tests.LoginTests2@7db12bb6]" name="FillCorrectPasswordWithWrongEmail" class="Tests.LoginTests2"/>
+        <method signature="LoginTests2.FillEmailWithOutToFillPassword()[pri:4, instance:Tests.LoginTests2@7db12bb6]" name="FillEmailWithOutToFillPassword" class="Tests.LoginTests2"/>
+        <method signature="LoginTests2.FillPasswordWithOutToFillEmail()[pri:3, instance:Tests.LoginTests2@7db12bb6]" name="FillPasswordWithOutToFillEmail" class="Tests.LoginTests2"/>
+        <method signature="LoginTests2.LoginClickable()[pri:1, instance:Tests.LoginTests2@7db12bb6]" name="LoginClickable" class="Tests.LoginTests2"/>
+        <method signature="LoginWithFacbookTests.LoginWithFacbook()[pri:3, instance:Tests.LoginWithFacbookTests@5a45133e]" name="LoginWithFacbook" class="Tests.LoginWithFacbookTests"/>
+        <method signature="LoginWithFacbookTestsFail.LoginWithFacbookWrongPassword()[pri:1, instance:Tests.LoginWithFacbookTestsFail@5d534f5d]" name="LoginWithFacbookWrongPassword" class="Tests.LoginWithFacbookTestsFail"/>
+        <method signature="LoginWithFacbookTestsFail.LoginWithFacbookWrongUserName()[pri:2, instance:Tests.LoginWithFacbookTestsFail@5d534f5d]" name="LoginWithFacbookWrongUserName" class="Tests.LoginWithFacbookTestsFail"/>
+        <method signature="SignUpByFacbookTestsFail.SignUpWithFacbookWitOutEmail()[pri:2, instance:Tests.SignUpByFacbookTestsFail@25641d39]" name="SignUpWithFacbookWitOutEmail" class="Tests.SignUpByFacbookTestsFail"/>
+        <method signature="SignUpByFacbookTestsFail.SignUpWithFacbookWitOutPassword()[pri:3, instance:Tests.SignUpByFacbookTestsFail@25641d39]" name="SignUpWithFacbookWitOutPassword" class="Tests.SignUpByFacbookTestsFail"/>
+        <method signature="SignUpByFacbookTestsFail.SignUpWithFacbookWrongPassword()[pri:4, instance:Tests.SignUpByFacbookTestsFail@25641d39]" name="SignUpWithFacbookWrongPassword" class="Tests.SignUpByFacbookTestsFail"/>
+        <method signature="SignUpByFacbookTestsFail.SignUpWithFacbookWrongUserName()[pri:5, instance:Tests.SignUpByFacbookTestsFail@25641d39]" name="SignUpWithFacbookWrongUserName" class="Tests.SignUpByFacbookTestsFail"/>
+        <method signature="SignUpByFacbookTestsSucses.SignUpWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTestsSucses@4686afc2]" name="SignUpWithFacbook" class="Tests.SignUpByFacbookTestsSucses"/>
+        <method signature="SignUpTest.DoSignUp()[pri:5, instance:Tests.SignUpTest@6574a52c]" name="DoSignUp" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.FillEmailWithoutDotCom()[pri:3, instance:Tests.SignUpTest@6574a52c]" name="FillEmailWithoutDotCom" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.FillEmailWitoutShtudel()[pri:2, instance:Tests.SignUpTest@6574a52c]" name="FillEmailWitoutShtudel" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:4, instance:Tests.SignUpTest@6574a52c]" name="FillPsswordWithLessthan6Characters" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.SignUpClickable()[pri:1, instance:Tests.SignUpTest@6574a52c]" name="SignUpClickable" class="Tests.SignUpTest"/>
+        <method signature="qwizTests.CheckOutSession()[pri:2, instance:Tests.qwizTests@298a5e20]" name="CheckOutSession" class="Tests.qwizTests"/>
+        <method signature="qwizTests.DoSignUp()[pri:1, instance:Tests.qwizTests@298a5e20]" name="DoSignUp" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectBodyType()[pri:4, instance:Tests.qwizTests@298a5e20]" name="SelectBodyType" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectBrands()[pri:15, instance:Tests.qwizTests@298a5e20]" name="SelectBrands" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectClothingPreferences()[pri:8, instance:Tests.qwizTests@298a5e20]" name="SelectClothingPreferences" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectColors()[pri:6, instance:Tests.qwizTests@298a5e20]" name="SelectColors" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectComfortZone()[pri:13, instance:Tests.qwizTests@298a5e20]" name="SelectComfortZone" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectEvent()[pri:3, instance:Tests.qwizTests@298a5e20]" name="SelectEvent" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectFabrics()[pri:10, instance:Tests.qwizTests@298a5e20]" name="SelectFabrics" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectHeels()[pri:9, instance:Tests.qwizTests@298a5e20]" name="SelectHeels" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectHeight()[pri:5, instance:Tests.qwizTests@298a5e20]" name="SelectHeight" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectHighlight()[pri:7, instance:Tests.qwizTests@298a5e20]" name="SelectHighlight" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectInventory()[pri:16, instance:Tests.qwizTests@298a5e20]" name="SelectInventory" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectJEWELRY()[pri:14, instance:Tests.qwizTests@298a5e20]" name="SelectJEWELRY" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectPrints()[pri:11, instance:Tests.qwizTests@298a5e20]" name="SelectPrints" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectSize()[pri:12, instance:Tests.qwizTests@298a5e20]" name="SelectSize" class="Tests.qwizTests"/>
+        <method signature="BookingTests.CheckOutSession()[pri:2, instance:Tests.BookingTests@54c5a2ff]" name="CheckOutSession" class="Tests.BookingTests"/>
+        <method signature="BookingTests.CheckoutByCreditCard()[pri:4, instance:Tests.BookingTests@54c5a2ff]" name="CheckoutByCreditCard" class="Tests.BookingTests"/>
+        <method signature="BookingTests.CheckoutUnlimited()[pri:3, instance:Tests.BookingTests@54c5a2ff]" name="CheckoutUnlimited" class="Tests.BookingTests"/>
+        <method signature="BookingTests.DoSignUp()[pri:1, instance:Tests.BookingTests@54c5a2ff]" name="DoSignUp" class="Tests.BookingTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test started-at="2017-12-25T06:03:17Z" name="ChatTests" finished-at="2017-12-25T06:04:49Z" duration-ms="91806">
+    <test started-at="2017-12-25T16:25:12Z" name="ChatTests" finished-at="2017-12-25T16:26:51Z" duration-ms="98756">
       <class name="Tests.ChatTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.ChatTests@316bcf94]" started-at="2017-12-25T08:03:17Z" name="setup" finished-at="2017-12-25T08:03:38Z" duration-ms="20847" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.ChatTests@3e11f9e9]" started-at="2017-12-25T18:25:12Z" name="setup" finished-at="2017-12-25T18:25:33Z" duration-ms="21400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginAsStylist()[pri:1, instance:Tests.ChatTests@316bcf94]" started-at="2017-12-25T08:03:38Z" name="LoginAsStylist" finished-at="2017-12-25T08:03:41Z" duration-ms="3311" status="PASS">
+        <test-method signature="LoginAsStylist()[pri:1, instance:Tests.ChatTests@3e11f9e9]" started-at="2017-12-25T18:25:33Z" name="LoginAsStylist" finished-at="2017-12-25T18:25:37Z" duration-ms="3240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAsStylist -->
-        <test-method signature="SendChatToclient()[pri:2, instance:Tests.ChatTests@316bcf94]" started-at="2017-12-25T08:03:41Z" name="SendChatToclient" finished-at="2017-12-25T08:04:23Z" duration-ms="41883" status="PASS">
+        <test-method signature="SendChatToclient()[pri:2, instance:Tests.ChatTests@3e11f9e9]" started-at="2017-12-25T18:25:37Z" name="SendChatToclient" finished-at="2017-12-25T18:26:22Z" duration-ms="45470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SendChatToclient -->
-        <test-method signature="SendChatToStylist()[pri:3, instance:Tests.ChatTests@316bcf94]" started-at="2017-12-25T08:04:23Z" name="SendChatToStylist" finished-at="2017-12-25T08:04:49Z" duration-ms="25748" status="PASS">
+        <test-method signature="SendChatToStylist()[pri:3, instance:Tests.ChatTests@3e11f9e9]" started-at="2017-12-25T18:26:22Z" name="SendChatToStylist" finished-at="2017-12-25T18:26:51Z" duration-ms="28623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SendChatToStylist -->
       </class> <!-- Tests.ChatTests -->
     </test> <!-- ChatTests -->
-    <test started-at="2017-12-25T06:04:49Z" name="LoginTests2" finished-at="2017-12-25T06:05:31Z" duration-ms="41809">
+    <test started-at="2017-12-25T16:26:56Z" name="LoginTests2" finished-at="2017-12-25T16:27:49Z" duration-ms="53520">
       <class name="Tests.LoginTests2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginTests2@52b1beb6]" started-at="2017-12-25T08:04:49Z" name="setup" finished-at="2017-12-25T08:05:10Z" duration-ms="20668" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginTests2@7db12bb6]" started-at="2017-12-25T18:26:56Z" name="setup" finished-at="2017-12-25T18:27:21Z" duration-ms="24774" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginClickable()[pri:1, instance:Tests.LoginTests2@52b1beb6]" started-at="2017-12-25T08:05:10Z" name="LoginClickable" finished-at="2017-12-25T08:05:12Z" duration-ms="2384" status="PASS">
+        <test-method signature="LoginClickable()[pri:1, instance:Tests.LoginTests2@7db12bb6]" started-at="2017-12-25T18:27:21Z" name="LoginClickable" finished-at="2017-12-25T18:27:24Z" duration-ms="3090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginClickable -->
-        <test-method signature="DoLogin()[pri:2, instance:Tests.LoginTests2@52b1beb6]" started-at="2017-12-25T08:05:12Z" name="DoLogin" finished-at="2017-12-25T08:05:16Z" duration-ms="3403" status="PASS">
+        <test-method signature="DoLogin()[pri:2, instance:Tests.LoginTests2@7db12bb6]" started-at="2017-12-25T18:27:24Z" name="DoLogin" finished-at="2017-12-25T18:27:27Z" duration-ms="3603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method signature="FillPasswordWithOutToFillEmail()[pri:3, instance:Tests.LoginTests2@52b1beb6]" started-at="2017-12-25T08:05:16Z" name="FillPasswordWithOutToFillEmail" finished-at="2017-12-25T08:05:18Z" duration-ms="2631" status="PASS">
+        <test-method signature="FillPasswordWithOutToFillEmail()[pri:3, instance:Tests.LoginTests2@7db12bb6]" started-at="2017-12-25T18:27:27Z" name="FillPasswordWithOutToFillEmail" finished-at="2017-12-25T18:27:30Z" duration-ms="3084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillPasswordWithOutToFillEmail -->
-        <test-method signature="FillEmailWithOutToFillPassword()[pri:4, instance:Tests.LoginTests2@52b1beb6]" started-at="2017-12-25T08:05:18Z" name="FillEmailWithOutToFillPassword" finished-at="2017-12-25T08:05:21Z" duration-ms="2877" status="PASS">
+        <test-method signature="FillEmailWithOutToFillPassword()[pri:4, instance:Tests.LoginTests2@7db12bb6]" started-at="2017-12-25T18:27:30Z" name="FillEmailWithOutToFillPassword" finished-at="2017-12-25T18:27:34Z" duration-ms="3397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillEmailWithOutToFillPassword -->
-        <test-method signature="ClickLoginwWithOutToFillAnyFields()[pri:5, instance:Tests.LoginTests2@52b1beb6]" started-at="2017-12-25T08:05:21Z" name="ClickLoginwWithOutToFillAnyFields" finished-at="2017-12-25T08:05:23Z" duration-ms="2085" status="PASS">
+        <test-method signature="ClickLoginwWithOutToFillAnyFields()[pri:5, instance:Tests.LoginTests2@7db12bb6]" started-at="2017-12-25T18:27:34Z" name="ClickLoginwWithOutToFillAnyFields" finished-at="2017-12-25T18:27:36Z" duration-ms="2100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickLoginwWithOutToFillAnyFields -->
-        <test-method signature="FillCorrectEmailWithWrongPassword()[pri:6, instance:Tests.LoginTests2@52b1beb6]" started-at="2017-12-25T08:05:23Z" name="FillCorrectEmailWithWrongPassword" finished-at="2017-12-25T08:05:28Z" duration-ms="4539" status="PASS">
+        <test-method signature="FillCorrectEmailWithWrongPassword()[pri:6, instance:Tests.LoginTests2@7db12bb6]" started-at="2017-12-25T18:27:36Z" name="FillCorrectEmailWithWrongPassword" finished-at="2017-12-25T18:27:46Z" duration-ms="10074" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillCorrectEmailWithWrongPassword -->
-        <test-method signature="FillCorrectPasswordWithWrongEmail()[pri:7, instance:Tests.LoginTests2@52b1beb6]" started-at="2017-12-25T08:05:28Z" name="FillCorrectPasswordWithWrongEmail" finished-at="2017-12-25T08:05:31Z" duration-ms="3212" status="PASS">
+        <test-method signature="FillCorrectPasswordWithWrongEmail()[pri:7, instance:Tests.LoginTests2@7db12bb6]" started-at="2017-12-25T18:27:46Z" name="FillCorrectPasswordWithWrongEmail" finished-at="2017-12-25T18:27:49Z" duration-ms="3388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillCorrectPasswordWithWrongEmail -->
       </class> <!-- Tests.LoginTests2 -->
     </test> <!-- LoginTests2 -->
-    <test started-at="2017-12-25T06:05:31Z" name="LoginWithFacbookTests" finished-at="2017-12-25T06:06:06Z" duration-ms="35486">
+    <test started-at="2017-12-25T16:27:54Z" name="LoginWithFacbookTests" finished-at="2017-12-25T16:28:27Z" duration-ms="32231">
       <class name="Tests.LoginWithFacbookTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginWithFacbookTests@942a29c]" started-at="2017-12-25T08:05:31Z" name="setup" finished-at="2017-12-25T08:05:55Z" duration-ms="23569" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginWithFacbookTests@5a45133e]" started-at="2017-12-25T18:27:54Z" name="setup" finished-at="2017-12-25T18:28:16Z" duration-ms="21454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginWithFacbook()[pri:3, instance:Tests.LoginWithFacbookTests@942a29c]" started-at="2017-12-25T08:05:55Z" name="LoginWithFacbook" finished-at="2017-12-25T08:06:06Z" duration-ms="11914" status="PASS">
+        <test-method signature="LoginWithFacbook()[pri:3, instance:Tests.LoginWithFacbookTests@5a45133e]" started-at="2017-12-25T18:28:16Z" name="LoginWithFacbook" finished-at="2017-12-25T18:28:27Z" duration-ms="10776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithFacbook -->
       </class> <!-- Tests.LoginWithFacbookTests -->
     </test> <!-- LoginWithFacbookTests -->
-    <test started-at="2017-12-25T06:06:06Z" name="LoginWithFacbookTestsFail" finished-at="2017-12-25T06:06:42Z" duration-ms="35433">
+    <test started-at="2017-12-25T16:28:32Z" name="LoginWithFacbookTestsFail" finished-at="2017-12-25T16:29:10Z" duration-ms="38547">
       <class name="Tests.LoginWithFacbookTestsFail">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginWithFacbookTestsFail@5e600dd5]" started-at="2017-12-25T08:06:06Z" name="setup" finished-at="2017-12-25T08:06:30Z" duration-ms="23669" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginWithFacbookTestsFail@5d534f5d]" started-at="2017-12-25T18:28:32Z" name="setup" finished-at="2017-12-25T18:28:58Z" duration-ms="26253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginWithFacbookWrongPassword()[pri:1, instance:Tests.LoginWithFacbookTestsFail@5e600dd5]" started-at="2017-12-25T08:06:30Z" name="LoginWithFacbookWrongPassword" finished-at="2017-12-25T08:06:40Z" duration-ms="9368" status="PASS">
+        <test-method signature="LoginWithFacbookWrongPassword()[pri:1, instance:Tests.LoginWithFacbookTestsFail@5d534f5d]" started-at="2017-12-25T18:28:58Z" name="LoginWithFacbookWrongPassword" finished-at="2017-12-25T18:29:08Z" duration-ms="9848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWrongPassword -->
-        <test-method signature="LoginWithFacbookWrongUserName()[pri:2, instance:Tests.LoginWithFacbookTestsFail@5e600dd5]" started-at="2017-12-25T08:06:40Z" name="LoginWithFacbookWrongUserName" finished-at="2017-12-25T08:06:42Z" duration-ms="2393" status="PASS">
+        <test-method signature="LoginWithFacbookWrongUserName()[pri:2, instance:Tests.LoginWithFacbookTestsFail@5d534f5d]" started-at="2017-12-25T18:29:08Z" name="LoginWithFacbookWrongUserName" finished-at="2017-12-25T18:29:10Z" duration-ms="2443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWrongUserName -->
       </class> <!-- Tests.LoginWithFacbookTestsFail -->
     </test> <!-- LoginWithFacbookTestsFail -->
-    <test started-at="2017-12-25T06:06:42Z" name="SignUpByFacbookTestsFail" finished-at="2017-12-25T06:07:20Z" duration-ms="37845">
+    <test started-at="2017-12-25T16:29:15Z" name="SignUpByFacbookTestsFail" finished-at="2017-12-25T16:29:59Z" duration-ms="43646">
       <class name="Tests.SignUpByFacbookTestsFail">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTestsFail@3012646b]" started-at="2017-12-25T08:06:42Z" name="setup" finished-at="2017-12-25T08:07:05Z" duration-ms="23386" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTestsFail@25641d39]" started-at="2017-12-25T18:29:15Z" name="setup" finished-at="2017-12-25T18:29:44Z" duration-ms="28658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SignUpWithFacbookWitOutEmail()[pri:2, instance:Tests.SignUpByFacbookTestsFail@3012646b]" started-at="2017-12-25T08:07:05Z" name="SignUpWithFacbookWitOutEmail" finished-at="2017-12-25T08:07:10Z" duration-ms="4206" status="PASS">
+        <test-method signature="SignUpWithFacbookWitOutEmail()[pri:2, instance:Tests.SignUpByFacbookTestsFail@25641d39]" started-at="2017-12-25T18:29:44Z" name="SignUpWithFacbookWitOutEmail" finished-at="2017-12-25T18:29:48Z" duration-ms="4339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUpWithFacbookWitOutEmail -->
-        <test-method signature="SignUpWithFacbookWitOutPassword()[pri:3, instance:Tests.SignUpByFacbookTestsFail@3012646b]" started-at="2017-12-25T08:07:10Z" name="SignUpWithFacbookWitOutPassword" finished-at="2017-12-25T08:07:11Z" duration-ms="1712" status="PASS">
+        <test-method signature="SignUpWithFacbookWitOutPassword()[pri:3, instance:Tests.SignUpByFacbookTestsFail@25641d39]" started-at="2017-12-25T18:29:48Z" name="SignUpWithFacbookWitOutPassword" finished-at="2017-12-25T18:29:50Z" duration-ms="1897" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUpWithFacbookWitOutPassword -->
-        <test-method signature="SignUpWithFacbookWrongPassword()[pri:4, instance:Tests.SignUpByFacbookTestsFail@3012646b]" started-at="2017-12-25T08:07:11Z" name="SignUpWithFacbookWrongPassword" finished-at="2017-12-25T08:07:15Z" duration-ms="4234" status="PASS">
+        <test-method signature="SignUpWithFacbookWrongPassword()[pri:4, instance:Tests.SignUpByFacbookTestsFail@25641d39]" started-at="2017-12-25T18:29:50Z" name="SignUpWithFacbookWrongPassword" finished-at="2017-12-25T18:29:54Z" duration-ms="4298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUpWithFacbookWrongPassword -->
-        <test-method signature="SignUpWithFacbookWrongUserName()[pri:5, instance:Tests.SignUpByFacbookTestsFail@3012646b]" started-at="2017-12-25T08:07:15Z" name="SignUpWithFacbookWrongUserName" finished-at="2017-12-25T08:07:20Z" duration-ms="4302" status="PASS">
+        <test-method signature="SignUpWithFacbookWrongUserName()[pri:5, instance:Tests.SignUpByFacbookTestsFail@25641d39]" started-at="2017-12-25T18:29:54Z" name="SignUpWithFacbookWrongUserName" finished-at="2017-12-25T18:29:59Z" duration-ms="4449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUpWithFacbookWrongUserName -->
       </class> <!-- Tests.SignUpByFacbookTestsFail -->
     </test> <!-- SignUpByFacbookTestsFail -->
-    <test started-at="2017-12-25T06:07:20Z" name="SignUpByFacbookTestsSucses" finished-at="2017-12-25T06:07:50Z" duration-ms="30181">
+    <test started-at="2017-12-25T16:30:04Z" name="SignUpByFacbookTestsSucses" finished-at="2017-12-25T16:30:38Z" duration-ms="34650">
       <class name="Tests.SignUpByFacbookTestsSucses">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTestsSucses@4d154ccd]" started-at="2017-12-25T08:07:20Z" name="setup" finished-at="2017-12-25T08:07:41Z" duration-ms="20753" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTestsSucses@4686afc2]" started-at="2017-12-25T18:30:04Z" name="setup" finished-at="2017-12-25T18:30:29Z" duration-ms="25254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SignUpWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTestsSucses@4d154ccd]" started-at="2017-12-25T08:07:41Z" name="SignUpWithFacbook" finished-at="2017-12-25T08:07:50Z" duration-ms="9427" status="PASS">
+        <test-method signature="SignUpWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTestsSucses@4686afc2]" started-at="2017-12-25T18:30:29Z" name="SignUpWithFacbook" finished-at="2017-12-25T18:30:38Z" duration-ms="9394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUpWithFacbook -->
       </class> <!-- Tests.SignUpByFacbookTestsSucses -->
     </test> <!-- SignUpByFacbookTestsSucses -->
-    <test started-at="2017-12-25T06:07:50Z" name="SignUpTest" finished-at="2017-12-25T06:08:34Z" duration-ms="43729">
+    <test started-at="2017-12-25T16:30:43Z" name="SignUpTest" finished-at="2017-12-25T16:31:25Z" duration-ms="41546">
       <class name="Tests.SignUpTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.SignUpTest@13e344d]" started-at="2017-12-25T08:07:50Z" name="setup" finished-at="2017-12-25T08:08:15Z" duration-ms="24914" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.SignUpTest@6574a52c]" started-at="2017-12-25T18:30:43Z" name="setup" finished-at="2017-12-25T18:31:07Z" duration-ms="23103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SignUpClickable()[pri:1, instance:Tests.SignUpTest@13e344d]" started-at="2017-12-25T08:08:15Z" name="SignUpClickable" finished-at="2017-12-25T08:08:16Z" duration-ms="1131" status="PASS">
+        <test-method signature="SignUpClickable()[pri:1, instance:Tests.SignUpTest@6574a52c]" started-at="2017-12-25T18:31:07Z" name="SignUpClickable" finished-at="2017-12-25T18:31:08Z" duration-ms="1152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUpClickable -->
-        <test-method signature="FillEmailWitoutShtudel()[pri:2, instance:Tests.SignUpTest@13e344d]" started-at="2017-12-25T08:08:16Z" name="FillEmailWitoutShtudel" finished-at="2017-12-25T08:08:20Z" duration-ms="4022" status="PASS">
+        <test-method signature="FillEmailWitoutShtudel()[pri:2, instance:Tests.SignUpTest@6574a52c]" started-at="2017-12-25T18:31:08Z" name="FillEmailWitoutShtudel" finished-at="2017-12-25T18:31:12Z" duration-ms="4089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillEmailWitoutShtudel -->
-        <test-method signature="FillEmailWithoutDotCom()[pri:3, instance:Tests.SignUpTest@13e344d]" started-at="2017-12-25T08:08:20Z" name="FillEmailWithoutDotCom" finished-at="2017-12-25T08:08:23Z" duration-ms="2943" status="PASS">
+        <test-method signature="FillEmailWithoutDotCom()[pri:3, instance:Tests.SignUpTest@6574a52c]" started-at="2017-12-25T18:31:12Z" name="FillEmailWithoutDotCom" finished-at="2017-12-25T18:31:15Z" duration-ms="3106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillEmailWithoutDotCom -->
-        <test-method signature="FillPsswordWithLessthan6Characters()[pri:4, instance:Tests.SignUpTest@13e344d]" started-at="2017-12-25T08:08:23Z" name="FillPsswordWithLessthan6Characters" finished-at="2017-12-25T08:08:26Z" duration-ms="2757" status="PASS">
+        <test-method signature="FillPsswordWithLessthan6Characters()[pri:4, instance:Tests.SignUpTest@6574a52c]" started-at="2017-12-25T18:31:15Z" name="FillPsswordWithLessthan6Characters" finished-at="2017-12-25T18:31:18Z" duration-ms="3042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillPsswordWithLessthan6Characters -->
-        <test-method signature="DoSignUp()[pri:5, instance:Tests.SignUpTest@13e344d]" started-at="2017-12-25T08:08:26Z" name="DoSignUp" finished-at="2017-12-25T08:08:34Z" duration-ms="7956" status="PASS">
+        <test-method signature="DoSignUp()[pri:5, instance:Tests.SignUpTest@6574a52c]" started-at="2017-12-25T18:31:18Z" name="DoSignUp" finished-at="2017-12-25T18:31:25Z" duration-ms="7049" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
       </class> <!-- Tests.SignUpTest -->
     </test> <!-- SignUpTest -->
-    <test started-at="2017-12-25T06:08:34Z" name="qwizTests" finished-at="2017-12-25T06:10:23Z" duration-ms="108906">
+    <test started-at="2017-12-25T16:31:30Z" name="qwizTests" finished-at="2017-12-25T16:33:25Z" duration-ms="115040">
       <class name="Tests.qwizTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:08:34Z" name="setup" finished-at="2017-12-25T08:08:53Z" duration-ms="19499" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:31:30Z" name="setup" finished-at="2017-12-25T18:31:52Z" duration-ms="22261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="DoSignUp()[pri:1, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:08:53Z" name="DoSignUp" finished-at="2017-12-25T08:08:58Z" duration-ms="5263" status="PASS">
+        <test-method signature="DoSignUp()[pri:1, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:31:52Z" name="DoSignUp" finished-at="2017-12-25T18:31:58Z" duration-ms="5535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method signature="CheckOutSession()[pri:2, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:08:58Z" name="CheckOutSession" finished-at="2017-12-25T08:09:27Z" duration-ms="28498" status="PASS">
+        <test-method signature="CheckOutSession()[pri:2, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:31:58Z" name="CheckOutSession" finished-at="2017-12-25T18:32:27Z" duration-ms="29547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckOutSession -->
-        <test-method signature="SelectEvent()[pri:3, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:09:27Z" name="SelectEvent" finished-at="2017-12-25T08:09:31Z" duration-ms="3990" status="PASS">
+        <test-method signature="SelectEvent()[pri:3, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:32:27Z" name="SelectEvent" finished-at="2017-12-25T18:32:31Z" duration-ms="4150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEvent -->
-        <test-method signature="SelectBodyType()[pri:4, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:09:31Z" name="SelectBodyType" finished-at="2017-12-25T08:09:32Z" duration-ms="1494" status="PASS">
+        <test-method signature="SelectBodyType()[pri:4, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:32:31Z" name="SelectBodyType" finished-at="2017-12-25T18:32:34Z" duration-ms="2298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectBodyType -->
-        <test-method signature="SelectHeight()[pri:5, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:09:32Z" name="SelectHeight" finished-at="2017-12-25T08:09:36Z" duration-ms="3974" status="PASS">
+        <test-method signature="SelectHeight()[pri:5, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:32:34Z" name="SelectHeight" finished-at="2017-12-25T18:32:38Z" duration-ms="4049" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectHeight -->
-        <test-method signature="SelectColors()[pri:6, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:09:36Z" name="SelectColors" finished-at="2017-12-25T08:09:41Z" duration-ms="4089" status="PASS">
+        <test-method signature="SelectColors()[pri:6, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:32:38Z" name="SelectColors" finished-at="2017-12-25T18:32:42Z" duration-ms="4254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectColors -->
-        <test-method signature="SelectHighlight()[pri:7, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:09:41Z" name="SelectHighlight" finished-at="2017-12-25T08:09:44Z" duration-ms="3981" status="PASS">
+        <test-method signature="SelectHighlight()[pri:7, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:32:42Z" name="SelectHighlight" finished-at="2017-12-25T18:32:46Z" duration-ms="4193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectHighlight -->
-        <test-method signature="SelectClothingPreferences()[pri:8, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:09:44Z" name="SelectClothingPreferences" finished-at="2017-12-25T08:09:48Z" duration-ms="3873" status="PASS">
+        <test-method signature="SelectClothingPreferences()[pri:8, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:32:46Z" name="SelectClothingPreferences" finished-at="2017-12-25T18:32:50Z" duration-ms="4098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectClothingPreferences -->
-        <test-method signature="SelectHeels()[pri:9, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:09:48Z" name="SelectHeels" finished-at="2017-12-25T08:09:52Z" duration-ms="3892" status="PASS">
+        <test-method signature="SelectHeels()[pri:9, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:32:50Z" name="SelectHeels" finished-at="2017-12-25T18:32:54Z" duration-ms="3999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectHeels -->
-        <test-method signature="SelectFabrics()[pri:10, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:09:52Z" name="SelectFabrics" finished-at="2017-12-25T08:09:56Z" duration-ms="3925" status="PASS">
+        <test-method signature="SelectFabrics()[pri:10, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:32:54Z" name="SelectFabrics" finished-at="2017-12-25T18:32:58Z" duration-ms="4000" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFabrics -->
-        <test-method signature="SelectPrints()[pri:11, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:09:56Z" name="SelectPrints" finished-at="2017-12-25T08:10:00Z" duration-ms="4192" status="PASS">
+        <test-method signature="SelectPrints()[pri:11, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:32:58Z" name="SelectPrints" finished-at="2017-12-25T18:33:02Z" duration-ms="4099" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectPrints -->
-        <test-method signature="SelectSize()[pri:12, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:10:00Z" name="SelectSize" finished-at="2017-12-25T08:10:05Z" duration-ms="4494" status="PASS">
+        <test-method signature="SelectSize()[pri:12, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:33:02Z" name="SelectSize" finished-at="2017-12-25T18:33:07Z" duration-ms="4647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectSize -->
-        <test-method signature="SelectComfortZone()[pri:13, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:10:05Z" name="SelectComfortZone" finished-at="2017-12-25T08:10:09Z" duration-ms="3836" status="PASS">
+        <test-method signature="SelectComfortZone()[pri:13, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:33:07Z" name="SelectComfortZone" finished-at="2017-12-25T18:33:11Z" duration-ms="4100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectComfortZone -->
-        <test-method signature="SelectJEWELRY()[pri:14, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:10:09Z" name="SelectJEWELRY" finished-at="2017-12-25T08:10:13Z" duration-ms="3947" status="PASS">
+        <test-method signature="SelectJEWELRY()[pri:14, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:33:11Z" name="SelectJEWELRY" finished-at="2017-12-25T18:33:15Z" duration-ms="4049" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectJEWELRY -->
-        <test-method signature="SelectBrands()[pri:15, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:10:13Z" name="SelectBrands" finished-at="2017-12-25T08:10:17Z" duration-ms="4229" status="PASS">
+        <test-method signature="SelectBrands()[pri:15, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:33:15Z" name="SelectBrands" finished-at="2017-12-25T18:33:20Z" duration-ms="4349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectBrands -->
-        <test-method signature="SelectInventory()[pri:16, instance:Tests.qwizTests@2e385cce]" started-at="2017-12-25T08:10:17Z" name="SelectInventory" finished-at="2017-12-25T08:10:23Z" duration-ms="5718" status="PASS">
+        <test-method signature="SelectInventory()[pri:16, instance:Tests.qwizTests@298a5e20]" started-at="2017-12-25T18:33:20Z" name="SelectInventory" finished-at="2017-12-25T18:33:25Z" duration-ms="5398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectInventory -->
       </class> <!-- Tests.qwizTests -->
     </test> <!-- qwizTests -->
-    <test started-at="2017-12-25T06:10:23Z" name="BookingTests" finished-at="2017-12-25T06:12:25Z" duration-ms="122875">
+    <test started-at="2017-12-25T16:33:30Z" name="BookingTests" finished-at="2017-12-25T16:35:34Z" duration-ms="124109">
       <class name="Tests.BookingTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BookingTests@7526515b]" started-at="2017-12-25T08:10:23Z" name="setup" finished-at="2017-12-25T08:10:47Z" duration-ms="24820" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BookingTests@54c5a2ff]" started-at="2017-12-25T18:33:30Z" name="setup" finished-at="2017-12-25T18:33:55Z" duration-ms="25442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="DoSignUp()[pri:1, instance:Tests.BookingTests@7526515b]" started-at="2017-12-25T08:10:47Z" name="DoSignUp" finished-at="2017-12-25T08:10:53Z" duration-ms="5117" status="PASS">
+        <test-method signature="DoSignUp()[pri:1, instance:Tests.BookingTests@54c5a2ff]" started-at="2017-12-25T18:33:55Z" name="DoSignUp" finished-at="2017-12-25T18:34:01Z" duration-ms="5350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method signature="CheckOutSession()[pri:2, instance:Tests.BookingTests@7526515b]" started-at="2017-12-25T08:10:53Z" name="CheckOutSession" finished-at="2017-12-25T08:11:22Z" duration-ms="29577" status="PASS">
+        <test-method signature="CheckOutSession()[pri:2, instance:Tests.BookingTests@54c5a2ff]" started-at="2017-12-25T18:34:01Z" name="CheckOutSession" finished-at="2017-12-25T18:34:30Z" duration-ms="28851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckOutSession -->
-        <test-method signature="CheckoutUnlimited()[pri:3, instance:Tests.BookingTests@7526515b]" started-at="2017-12-25T08:11:22Z" name="CheckoutUnlimited" finished-at="2017-12-25T08:11:53Z" duration-ms="30894" status="PASS">
+        <test-method signature="CheckoutUnlimited()[pri:3, instance:Tests.BookingTests@54c5a2ff]" started-at="2017-12-25T18:34:30Z" name="CheckoutUnlimited" finished-at="2017-12-25T18:35:01Z" duration-ms="31251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckoutUnlimited -->
-        <test-method signature="CheckoutByCreditCard()[pri:4, instance:Tests.BookingTests@7526515b]" started-at="2017-12-25T08:11:53Z" name="CheckoutByCreditCard" finished-at="2017-12-25T08:12:25Z" duration-ms="32464" status="PASS">
+        <test-method signature="CheckoutByCreditCard()[pri:4, instance:Tests.BookingTests@54c5a2ff]" started-at="2017-12-25T18:35:01Z" name="CheckoutByCreditCard" finished-at="2017-12-25T18:35:34Z" duration-ms="33210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckoutByCreditCard -->

@@ -33,19 +33,20 @@ public class BookingStylistTests extends BaseTest
 		BasePage.ExplicityWaitIsClickable(By.xpath("//div[@class='closeXLeft ng-scope']"));
 	}
 
-	@Test(priority = 4,groups={"sanity-group"})
+	@Test(priority = 2,groups={"sanity-group"})
 	public void CheckOutSession ()
 	{
 		BookingPage booking = new BookingPage(driver);
 		booking.SearchStylist("Casey Huth");
 		booking.SelectStylist();
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Per Session')]]"));
 		booking.BookStylist();
 		booking.UseCodCoopon("wishitest");
 		booking.ClickFinishCheckout();
 		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
 		booking.ClickBookingstylist();		
 	}
-	@Test(priority = 2,groups={"sanity-group"})
+	@Test(priority = 3,groups={"sanity-group"})
 	public void CheckoutUnlimited ()
 	{
 		BookingPage booking = new BookingPage(driver);
@@ -54,6 +55,7 @@ public class BookingStylistTests extends BaseTest
 		booking.ClickApllay();
 		booking.SearchStylist("Casey Huth");
 		booking.SelectStylist();
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
 		booking.BookStylist();
 		booking.UseCodCoopon("wishitest");
 		booking.ClickFinishCheckout();
@@ -62,7 +64,7 @@ public class BookingStylistTests extends BaseTest
 
 	}
 
-	@Test(priority = 3,groups={"sanity-group"})
+	@Test(priority = 4,groups={"sanity-group"})
 	public void CheckoutByCreditCard ()
 	{
 		BookingPage booking = new BookingPage(driver);
@@ -78,8 +80,8 @@ public class BookingStylistTests extends BaseTest
 		booking.FillCardCVC("424");
 		booking.Sleep(50);
 		booking.switchWindow();
-		booking.ClickTakeYourStyleQuiz();
-		booking.ClickBookingstylist();
+		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
+		booking.ClickBookingstylist();	
 	}
 
 
