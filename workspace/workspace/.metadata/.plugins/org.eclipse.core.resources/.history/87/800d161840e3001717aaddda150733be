@@ -1,0 +1,27 @@
+package WishiTests;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import PageObject.LoginPage;
+import PageObject.UploadItemsPage;
+
+public class UploadItemTest extends BaseTest
+{
+	@Test(priority = 2,groups={"sanity-group"})
+	public void DoLogin() 
+	{
+		LoginPage login = new LoginPage(driver);
+		login.ClickLoginButton();
+		login.doLogin("yinon@@wishi.me", "156523784");
+		login.Closebuttonoflogin();
+		LoginPage.ExplicityWaitIsClickable(By.xpath("//div//p[text()[contains(.,'Log In')]]"));
+	}	
+	@Test(priority = 2,groups={"sanity-group"})
+	public void Uploaditem()
+	{
+		UploadItemsPage add =new UploadItemsPage(driver);
+		add.ClickAddItem();
+		add.SelectItem("Desktop\4.PNG");
+	}
+}

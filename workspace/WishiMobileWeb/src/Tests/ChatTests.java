@@ -36,6 +36,8 @@ public class ChatTests extends BaseTest
 		chat.FillChat(textforchat);
 		chat.SendChat();
 		Assert.assertTrue(chat.ChatDisplay(textforchat));	
+		chat.Sleep(200);
+	 	//driver.findElement(By.xpath("(//nav//div//img)[1]")).click();
 		chat.ClickOnProfileClientButton();
 		chat.ClickOnLogOut();
 		LoginPages2 login = new LoginPages2(driver);

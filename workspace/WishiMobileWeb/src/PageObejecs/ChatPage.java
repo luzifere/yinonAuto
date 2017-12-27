@@ -23,8 +23,10 @@ public class ChatPage extends BasePage {
 	WebElement ProfileButton;
 	@FindBy(xpath="//div//li//a[text()[contains(.,'Log Out')]]")
 	WebElement LogOut;
-	@FindBy(xpath="//nav//div//span[@class='inner-credentials ng-binding']")
+	@FindBy(xpath="(//nav//div//img)[1]")
 	WebElement ProfileClientButton;
+	@FindBy(xpath="//div//span[@class='inner-credentials ng-binding credentials-mob']")
+	WebElement ProfileClientButton2;
 	
 	public void FillChat(String text)
     {
@@ -60,12 +62,13 @@ public class ChatPage extends BasePage {
     public void ClickOnProfileButton2() 
 	{
     	Sleep(250);
-    	driver.findElement(By.xpath("//div//span[@class='inner-credentials ng-binding credentials-mob']")).click();
+    	click(	ProfileClientButton2);
 	}
     public void ClickOnProfileClientButton() 
 	{  
     	Sleep(250);
-    	driver.findElement(By.xpath("(//nav//div//img)[1]")).click();
+    	click(ProfileClientButton);
+    	//driver.findElement(By.xpath("(//nav//div//img)[1]")).click();
    		//click(ProfileClientButton);	
 	}
     public void ClickOnLogOut() 

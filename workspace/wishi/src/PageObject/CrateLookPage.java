@@ -26,8 +26,8 @@ public class CrateLookPage extends BasePage {
 	@FindBy(xpath = "//div[@class='saveBtn']")
 	WebElement SaveButton;
 	@FindBy(xpath = "//div//textarea[@id='TextArea']")
-	WebElement Description;
-	@FindBy(xpath = "//div//textarea[@class='autoresize ng-pristine ng-valid ng-empty ng-valid-maxlength ng-touched']")
+	WebElement Description;                //autoresize ng-pristine ng-valid ng-empty ng-valid-maxlength ng-touched
+	@FindBy(xpath = "//div//textarea[@placeholder='Tell your client why you chose those items']")
 	WebElement DescriptionOfPersonalShopping;
 	@FindBy(xpath = "	//button[@class='save ng-binding']")
 	WebElement SaveOfDescription;
@@ -37,7 +37,7 @@ public class CrateLookPage extends BasePage {
 	WebElement MyBookingTab;
 
 	public void DragDropItems(String item) {
-		WebElement FromItem = driver.findElement(By.xpath(("(//div//img)" + item)));
+		WebElement FromItem = driver.findElement(By.xpath(("(//div[@class='webSingleItemDisplayContainer drag-object ng-scope'])" + item)));
 		WebElement ToCanvas = Canvas;
 
 		Actions builder = new Actions(driver);
@@ -47,10 +47,8 @@ public class CrateLookPage extends BasePage {
 	}
 
 	public void SelectItem(String item) {
-		WebElement FromItem = driver.findElement(By.xpath(("(//div//img)" + item)));
-		Actions builder = new Actions(driver);
-		builder.click(FromItem);
-
+		BasePage.ExplicityWaitIsClickable(By.xpath("(//div[@class='webSingleItemDisplayContainer drag-object ng-scope'])" + item ));
+		Sleep(200);
 	}
 
 	public void SelectLayoutTabs(String tab) {
@@ -60,9 +58,13 @@ public class CrateLookPage extends BasePage {
 
 	public void CrateLook() {
 
-		click(CrateLookButton);
+		BasePage.ExplicityWaitIsClickable(By.xpath("(//div//button[@class='create-look-btn ng-binding ng-scope'])[1]"));
 	}
+	public void ClickShop() {
 
+		BasePage.ExplicityWaitIsClickable(By.xpath("//div//li//a[text()[contains(.,'Shop')]]"));
+	}
+	
 	public void SelectClass(String NameOfMenu) {
 		String MainMenuClass = ("//div//li//a[text()[contains(.,'Shop')]]");
 		MainMenuClass = MainMenuClass.replace("Shop", NameOfMenu);
@@ -70,7 +72,9 @@ public class CrateLookPage extends BasePage {
 		click(MainMenu);
 	}
 
-	public void ClickSave() {
+	public void ClickSave() 
+	{
+		Sleep(200);
 		click(SaveButton);
 	}
 
@@ -88,7 +92,7 @@ public class CrateLookPage extends BasePage {
 	}
 
 	public void ClickNewLook() {
-		click(CrateLookButtonOfChat);
+		BasePage.ExplicityWaitIsClickable(By.xpath("//div//button[@class='create-look-btn ng-binding']"));
 	}
 
 	public void ClickSaveOfDescription() {

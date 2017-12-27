@@ -21,7 +21,7 @@ public class BaseTest
 	(groups={"sanity-group"})
 	public void setup()
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Vali\\Downloads\\selenium\\chromdriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/Users/yinonwishi/Downloads/chromedriver");
 	    driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://stage.wishi.me/app/");

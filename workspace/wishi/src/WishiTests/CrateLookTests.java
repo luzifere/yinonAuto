@@ -28,28 +28,20 @@ public class CrateLookTests extends BaseTest
 	public void CrateRegularLook ()
 	{
 		CrateLookPage look = new CrateLookPage(driver);
-		//look.CrateLook();
-		BasePage.ExplicityWaitIsClickable(By.xpath("(//div//button[@class='create-look-btn ng-binding ng-scope'])[1]"));
-		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//div//li//a[text()[contains(.,'Shop')]]"));
-		//look.SelectClass("Shop");
-		CrateLookPage.ExplicityWaitIsClickable(By.xpath("(//DIV//IMG)[20]"));
-		//look.SelectItem("[18]");
-		look.DragDropItems("[20]");
-		look.SelectItem("[22]");
-		look.DragDropItems("[22]");
-		look.SelectItem("[24]");
-		look.DragDropItems("[24]");
+		look.CrateLook();
+		look.ClickShop();
+		look.SelectItem("[1]");
+		look.DragDropItems("[1]");
+		look.SelectItem("[2]");
+		look.DragDropItems("[2]");
+		look.SelectItem("[3]");
+		look.DragDropItems("[3]");
 		look.ClickSave();
 		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//div//textarea[@id='TextArea']"));
-		//look.Sleep(20);
+		
 		look.FillDescription("test");
 		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//button[@class='save ng-binding']"));
-		//look.ClickSaveOfDescription();
 		Assert.assertTrue(look.ElementDisplay("//button[@class='input_btn']"));
-		
-		//look.Sleep(50);
-		//look.ClickNewLook();
-		//look.Sleep(20);
 		
 	}
 	
@@ -57,18 +49,15 @@ public class CrateLookTests extends BaseTest
 	public void PersonalShopping ()
 	{
 		CrateLookPage look = new CrateLookPage(driver);
-		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//div//button[@class='create-look-btn ng-binding']"));
-		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//div//li//a[text()[contains(.,'Shop')]]"));
-		//look.SelectClass("Shop");
-		BasePage.ExplicityWaitIsClickable(By.xpath("(//DIV//IMG)[20]"));
-		//look.Sleep(30);
+		look.ClickNewLook();
+		look.ClickShop();
 		look.SelectLayoutTabs("[2]");
-		look.SelectItem("[20]");
-		look.DragDropItems("[20]");
-		look.SelectItem("[22]");
-		look.DragDropItems("[22]");
-		look.SelectItem("[24]");
-		look.DragDropItems("[24]");
+		look.SelectItem("[1]");
+		look.DragDropItems("[1]");
+		look.SelectItem("[2]");
+		look.DragDropItems("[2]");
+		look.SelectItem("[3]");
+		look.DragDropItems("[3]");
 		look.ClickSave();
 		look.ClickSaveOfDescription();
 		look.ClickDescriptionPS();

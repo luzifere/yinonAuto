@@ -22,7 +22,7 @@ public class BookingPage extends BasePage
 
 	@FindBy(xpath="//div [@class='action-btn can-submit']")
 	WebElement Applay;
-	
+
 	@FindBy(xpath="//div [@class='filter-icon']")
 	WebElement FilterIcon;
 
@@ -32,7 +32,7 @@ public class BookingPage extends BasePage
 
 	@FindBy(xpath="//div//input[@type='text']")
 	WebElement SearchBar;
-	
+
 	@FindBy(xpath="//div[@class='img-box']")
 	WebElement SearchBarButton;
 
@@ -58,7 +58,7 @@ public class BookingPage extends BasePage
 	@FindBy(xpath="(//div[@class='entry-sub ng-binding'])[1]")
 	WebElement SelectUnlimited;
 
-	@FindBy(xpath="//div[@class='filterPopPage ng-scope']//div [text()[contains(.,'Apply')]]")
+	@FindBy(xpath="//div[text()[contains(.,'Apply')]]")
 	WebElement ClickApllay;
 
 	@FindBy(xpath="//span[text()[contains(.,'Remove promo code')]]")
@@ -73,7 +73,7 @@ public class BookingPage extends BasePage
 	@FindBy(xpath="//div[@class='closeXRight']")
 	WebElement CloseBtnCheckout;
 
-	@FindBy(xpath="(//div//input[@class='form-control'])[1]")
+	@FindBy(xpath="//input[@class='form-control ng-pristine ng-untouched ng-valid ng-not-empty']")
 	WebElement FirstNameCheckout;
 
 	@FindBy(xpath="(//div//input[@class='form-control'])[2]")
@@ -96,15 +96,25 @@ public class BookingPage extends BasePage
 
 	@FindBy(xpath="//button[@class='payment_form_button ng-binding']")
 	WebElement PayButton;
+	@FindBy(xpath="//input[@class='form-control ng-pristine ng-untouched ng-valid ng-not-empty']")
+	WebElement NameField;
 
-	
+
+
+	public void ClickName() 
+	{
+		click(FirstNameCheckout);
+		Actions act = new Actions(driver);
+		act.sendKeys(Keys.TAB).perform();
+		Sleep(300);
+	}
 	public void ClickMyBooking() 
 	{
 		click(BookBtn);	
 	}
 	public void ClickSearchButton() 
 	{	Sleep(300);
-		click(SearchBarButton);	
+	click(SearchBarButton);	
 	}
 
 	public void SearchStylist(String name) 
@@ -112,6 +122,7 @@ public class BookingPage extends BasePage
 	{  
 		Sleep(300);
 		click(SearchBar);
+		Sleep(300);
 		filltext(SearchBar, name);
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.ENTER).perform();
@@ -130,8 +141,8 @@ public class BookingPage extends BasePage
 	{		
 		click(TitleOfStylist);
 		Sleep(300);
-		
-		
+
+
 	}
 
 	public void BookStylist() 
@@ -143,15 +154,20 @@ public class BookingPage extends BasePage
 	{		
 		click(CloseBtnCheckout);	
 	}
-	
+
 	public void FilterIcon() 
 	{		
-		click(FilterIcon);	
+	Sleep(300);
+	click(FilterIcon);	
 	}
 
 	public void ClickBookingstylist() 
 	{
 		click(BookStylisk);		
+	}	
+	public void ClickCard() 
+	{
+		click(CardNaumber);		
 	}	
 
 	public void ClickGender() 
@@ -164,7 +180,8 @@ public class BookingPage extends BasePage
 	}
 	public void ClickApplay() 
 	{		
-		click(Applay);	
+		Sleep(300);
+		click(ClickApllay);	
 	}
 	public void ClickFinishCheckout() 
 	{	
