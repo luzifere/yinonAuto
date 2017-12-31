@@ -29,7 +29,7 @@ public class BaseTest
 
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,AutomationName.IOS_XCUI_TEST);
-		cap.setCapability(MobileCapabilityType.APP,"/Users/yinonwishi/Desktop/UICatalog.app");
+		cap.setCapability(MobileCapabilityType.APP,"/Users/yinonwishi/Desktop/Wishi.app");
 		driver = new IOSDriver<>(new URL("http://127.0.0.1:4723/wd/hub") ,cap);
 		return driver;
 	}
