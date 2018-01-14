@@ -201,11 +201,11 @@ public class BasePage
 		WebElement webElement= driver.findElement(By.xpath(elementString));
 		if(webElement.isEnabled())
 		{
-			System.out.print("Element is enabled. Take your action.");
+			System.out.print("Element is enabled. Take your action.\n");
 		}
 		else
 		{
-			System.out.print("Element is disabled. Take your action.");
+			System.out.print("Element is disabled. Take your action.\n");
 		}
 	}
 }

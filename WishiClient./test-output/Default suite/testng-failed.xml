@@ -6,7 +6,7 @@
       <class name="Tests.SignUpByFacbookTest">
         <methods>
           <include name="setup"/>
-          <include name="LoginWithFacbookWithoutUser"/>
+          <include name="LoginWithFacbookWrongUserName"/>
         </methods>
       </class> <!-- Tests.SignUpByFacbookTest -->
     </classes>

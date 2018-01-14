@@ -20,7 +20,7 @@ public class LoginPage extends BasePage
 	WebElement email;
 	@FindBy(xpath="//*[@name='passwordTextField']")
 	WebElement password;
-	@FindBy(xpath="//*[@name='loginButton']")
+	@FindBy(xpath="//*[@name='loginButtonSecondID']")
 	WebElement LoginButtonWizard;
 	@FindBy(xpath="//*[@name='Dismiss']")
 	WebElement Dismiss;

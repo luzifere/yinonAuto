@@ -65,11 +65,8 @@ public class FacbookPage extends BasePage {
 	public void LoginWithFacbookWithoutUser () 
 	{		
 		ContextToWebView();
-		Sleep(100);
 		clear(UserOfFacbook);
-		Sleep(100);
 		filltextclear(PassOfFacbook, "inonadddddb1565");
-		Sleep(100);
 		click(LoginButtonOfFacbook);
 		Assert.assertTrue(ElementEnable("//div[@class='_5yd0 _2ph- _5yd1']"));
 		Sleep(200);

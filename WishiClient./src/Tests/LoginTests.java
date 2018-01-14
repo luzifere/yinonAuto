@@ -60,7 +60,7 @@ public class LoginTests extends BaseTest
 		login.ClearUsername();
 		login.ClearPassword();
 		login.ClickLoginButton2();
-		Assert.assertTrue(login.ElementEnable("//*[@name='loginButton']"));	
+		Assert.assertFalse(login.ElementEnable("//*[@name='loginButtonSecondID']"));	
 		
 	}
 	@Test(priority = 6,groups={"sanity-group"})
@@ -74,7 +74,8 @@ public class LoginTests extends BaseTest
 		login.AcceptAlert();
 		login.Sleep(500);
 		login.AcceptAlert();
-		Assert.assertTrue(login.ElementDisplay("//*[@name='Allow"));	
+		//Assert.assertTrue(login.ElementDisplay("//*[@name='Allow"));	
+		driver.resetApp();
 		
 	}
 }

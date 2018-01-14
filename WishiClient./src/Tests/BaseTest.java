@@ -23,7 +23,7 @@ public class BaseTest
 		DesiredCapabilities cap = new DesiredCapabilities();
 		//if (device.equals("emulator"))
 		//{
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 7");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone X");
 		//	}
 		//else if (device.equals("real"))
 		//{
@@ -32,12 +32,13 @@ public class BaseTest
 
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
 		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11.2");
+		//cap.setCapability(MobileCapabilityType.UDID,"4acfefaa5a78272eb509b64a2f2efffabd0eda6c");
 		//cap.setCapability(MobileCapabilityType.FULL_RESET,true);
 		//cap.setCapability(MobileCapabilityType.NO_RESET,true);
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,AutomationName.IOS_XCUI_TEST);
 		cap.setCapability(MobileCapabilityType.APP,"/Users/yinonwishi/Desktop/Wishi.app");
 		//cap.setCapability(IOSMobileCapabilityType.BUNDLE_ID,"com.Wishi.Wishi");
-		cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 50000);
+		cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 5000);
 		cap.setCapability("startIWDP", true);
 		
 		try

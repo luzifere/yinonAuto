@@ -13,13 +13,13 @@ public class BestMutch extends BasePage
 		super(_driver);
 		// TODO Auto-generated constructor stub
 	}
-	@FindBy(xpath="//*[@name='how_it_works_heart']")
-	WebElement how_it_works_heart;
+	@FindBy(xpath="//*[@name='HowItWorksID']")
+	WebElement how_it_workst;
 	
-	@FindBy(xpath="//*[@name='Body Type']")
+	@FindBy(xpath="//*[@name='HowItWorksID']")
 	WebElement BodyType;
 	
-	@FindBy(xpath="//*[@name='how_it_works_outfit']")
+	@FindBy(xpath="//*[@name='HowItWorksID']")
 	WebElement how_it_works_outfit;
 	
 	@FindBy(xpath="//*[@name='FemaleButtonID']")
@@ -43,10 +43,10 @@ public class BestMutch extends BasePage
 	@FindBy(xpath="//*[@name='SuperExpensiveButtonID']")
 	WebElement SuperExpensiveButtonID;
 	
-	@FindBy(xpath="(//*[@name='InspirationImageViewID'])[1]")
+	@FindBy(xpath="(//*[@name='InspireCellViewID'])[3]")
 	WebElement inspiration;
 	
-	@FindBy(xpath="(//*[@name='BrandsCellViewID'])[1]")
+	@FindBy(xpath="(//*[@name='BrandsCellViewID'])[3]")
 	WebElement Brands;
 	
 	@FindBy(xpath="//*[@name='NextButtonID']")
@@ -55,17 +55,21 @@ public class BestMutch extends BasePage
 	@FindBy(xpath="(//*[@name='close_image'])[1]")
 	WebElement close_image;
 
-	public void ClickHoeToWorkheart() 
-	{
-		click(how_it_works_heart);
+	public void ClickHoeToWork() 
+	{	
+		click(how_it_workst);
 	}
 	public void ClickBodyType() 
-	{
+	{		
+		Sleep(150);
 		click(BodyType);
+		Sleep(150);
 	}
 	public void ClickHoeToWorkoutfit() 
 	{
+		Sleep(150);
 		click(how_it_works_outfit);
+		Sleep(150);
 	}
 	public void ClickFamle() 
 	{
