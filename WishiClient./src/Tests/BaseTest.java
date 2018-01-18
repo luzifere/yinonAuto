@@ -31,12 +31,48 @@ public class BaseTest
 		//}
 
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11.2");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11.1");
 		//cap.setCapability(MobileCapabilityType.UDID,"4acfefaa5a78272eb509b64a2f2efffabd0eda6c");
 		//cap.setCapability(MobileCapabilityType.FULL_RESET,true);
 		//cap.setCapability(MobileCapabilityType.NO_RESET,true);
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,AutomationName.IOS_XCUI_TEST);
 		cap.setCapability(MobileCapabilityType.APP,"/Users/yinonwishi/Desktop/Wishi.app");
+		//cap.setCapability(IOSMobileCapabilityType.BUNDLE_ID,"com.Wishi.Wishi");
+		cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 5000);
+		cap.setCapability("startIWDP", true);
+		
+		try
+		{
+		driver = new IOSDriver<>(new URL("http://127.0.0.1:4723/wd/hub") ,cap);
+		}
+		catch (MalformedURLException e) 
+		{
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		return driver;
+	}
+	public static  AppiumDriver<WebElement>capabileties2() throws MalformedURLException   
+	{
+		DesiredCapabilities cap = new DesiredCapabilities();
+		//if (device.equals("emulator"))
+		//{
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone X");
+		//	}
+		//else if (device.equals("real"))
+		//{
+		//cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android device");
+		//}
+
+		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11.1");
+		//cap.setCapability(MobileCapabilityType.UDID,"4acfefaa5a78272eb509b64a2f2efffabd0eda6c");
+		//cap.setCapability(MobileCapabilityType.FULL_RESET,true);
+		//cap.setCapability(MobileCapabilityType.NO_RESET,true);
+		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,AutomationName.IOS_XCUI_TEST);
+		cap.setCapability(MobileCapabilityType.APP,"/Users/yinonwishi/Desktop/Wishi-Stylist.app");
 		//cap.setCapability(IOSMobileCapabilityType.BUNDLE_ID,"com.Wishi.Wishi");
 		cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 5000);
 		cap.setCapability("startIWDP", true);

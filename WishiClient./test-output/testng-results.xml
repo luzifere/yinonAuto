@@ -1,44 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="24" passed="22" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-01-14T15:52:20Z" name="Default suite" finished-at="2018-01-14T15:54:20Z" duration-ms="120286">
+  <suite started-at="2018-01-18T14:50:09Z" name="Suite" finished-at="2018-01-18T15:17:03Z" duration-ms="1613587">
     <groups>
       <group name="sanity-group">
-        <method signature="SignUpByFacbookTest.DoLoginWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTest@4803b726]" name="DoLoginWithFacbook" class="Tests.SignUpByFacbookTest"/>
-        <method signature="SignUpByFacbookTest.LoginWithFacbookWithoutPassword()[pri:3, instance:Tests.SignUpByFacbookTest@4803b726]" name="LoginWithFacbookWithoutPassword" class="Tests.SignUpByFacbookTest"/>
-        <method signature="SignUpByFacbookTest.LoginWithFacbookWithoutUser()[pri:4, instance:Tests.SignUpByFacbookTest@4803b726]" name="LoginWithFacbookWithoutUser" class="Tests.SignUpByFacbookTest"/>
-        <method signature="SignUpByFacbookTest.LoginWithFacbookWrongPassword()[pri:2, instance:Tests.SignUpByFacbookTest@4803b726]" name="LoginWithFacbookWrongPassword" class="Tests.SignUpByFacbookTest"/>
-        <method signature="SignUpByFacbookTest.LoginWithFacbookWrongUserName()[pri:1, instance:Tests.SignUpByFacbookTest@4803b726]" name="LoginWithFacbookWrongUserName" class="Tests.SignUpByFacbookTest"/>
+        <method signature="BestMutch.BestMatchCheepFamle()[pri:1, instance:Tests.BestMutch@316bcf94]" name="BestMatchCheepFamle" class="Tests.BestMutch"/>
+        <method signature="BestMutch.BestMatchCheepMale()[pri:7, instance:Tests.BestMutch@316bcf94]" name="BestMatchCheepMale" class="Tests.BestMutch"/>
+        <method signature="BestMutch.BestMatchExpensiveMale()[pri:5, instance:Tests.BestMutch@316bcf94]" name="BestMatchExpensiveMale" class="Tests.BestMutch"/>
+        <method signature="BestMutch.BestMatchFeMaleCheepExpensive()[pri:4, instance:Tests.BestMutch@316bcf94]" name="BestMatchFeMaleCheepExpensive" class="Tests.BestMutch"/>
+        <method signature="BestMutch.BestMatchFeMaleExpensive()[pri:2, instance:Tests.BestMutch@316bcf94]" name="BestMatchFeMaleExpensive" class="Tests.BestMutch"/>
+        <method signature="BestMutch.BestMatchFeMaleNormal()[pri:3, instance:Tests.BestMutch@316bcf94]" name="BestMatchFeMaleNormal" class="Tests.BestMutch"/>
+        <method signature="BestMutch.BestMatchNormalMale()[pri:6, instance:Tests.BestMutch@316bcf94]" name="BestMatchNormalMale" class="Tests.BestMutch"/>
+        <method signature="LoginTests.ClickLoginwWithOutToFillAnyFields()[pri:5, instance:Tests.LoginTests@53aac487]" name="ClickLoginwWithOutToFillAnyFields" class="Tests.LoginTests"/>
+        <method signature="LoginTests.DoLogin()[pri:6, instance:Tests.LoginTests@53aac487]" name="DoLogin" class="Tests.LoginTests"/>
+        <method signature="LoginTests.FillPasswordWithOutToFillEmail()[pri:1, instance:Tests.LoginTests@53aac487]" name="FillPasswordWithOutToFillEmail" class="Tests.LoginTests"/>
+        <method signature="LoginTests.FillPasswordWithOutToFillPassword()[pri:2, instance:Tests.LoginTests@53aac487]" name="FillPasswordWithOutToFillPassword" class="Tests.LoginTests"/>
+        <method signature="LoginTests.FillPasswordWithWrongEmail()[pri:3, instance:Tests.LoginTests@53aac487]" name="FillPasswordWithWrongEmail" class="Tests.LoginTests"/>
+        <method signature="LoginTests.FillPasswordWithWrongPassword()[pri:4, instance:Tests.LoginTests@53aac487]" name="FillPasswordWithWrongPassword" class="Tests.LoginTests"/>
+        <method signature="SignUpByFacbookTest.DoLoginWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTest@1ed6388a]" name="DoLoginWithFacbook" class="Tests.SignUpByFacbookTest"/>
+        <method signature="SignUpByFacbookTest.LoginWithFacbookWithoutPassword()[pri:3, instance:Tests.SignUpByFacbookTest@1ed6388a]" name="LoginWithFacbookWithoutPassword" class="Tests.SignUpByFacbookTest"/>
+        <method signature="SignUpByFacbookTest.LoginWithFacbookWithoutUser()[pri:4, instance:Tests.SignUpByFacbookTest@1ed6388a]" name="LoginWithFacbookWithoutUser" class="Tests.SignUpByFacbookTest"/>
+        <method signature="SignUpByFacbookTest.LoginWithFacbookWrongPassword()[pri:2, instance:Tests.SignUpByFacbookTest@1ed6388a]" name="LoginWithFacbookWrongPassword" class="Tests.SignUpByFacbookTest"/>
+        <method signature="SignUpByFacbookTest.LoginWithFacbookWrongUserName()[pri:1, instance:Tests.SignUpByFacbookTest@1ed6388a]" name="LoginWithFacbookWrongUserName" class="Tests.SignUpByFacbookTest"/>
+        <method signature="SignUpTest.DoSignUp()[pri:4, instance:Tests.SignUpTest@4d5650ae]" name="DoSignUp" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:3, instance:Tests.SignUpTest@4d5650ae]" name="FillPsswordWithLessthan6Characters" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.SignupwithoutDotCom()[pri:2, instance:Tests.SignUpTest@4d5650ae]" name="SignupwithoutDotCom" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.Signupwithoutshtudel()[pri:1, instance:Tests.SignUpTest@4d5650ae]" name="Signupwithoutshtudel" class="Tests.SignUpTest"/>
+        <method signature="ChatTest.ClientToStylist()[pri:2, instance:Tests.ChatTest@7b36aa0c]" name="ClientToStylist" class="Tests.ChatTest"/>
+        <method signature="ChatTest.StylistSendToClient()[pri:1, instance:Tests.ChatTest@7b36aa0c]" name="StylistSendToClient" class="Tests.ChatTest"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test started-at="2018-01-14T15:52:20Z" name="Default test" finished-at="2018-01-14T15:54:20Z" duration-ms="120286">
-      <class name="Tests.SignUpByFacbookTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTest@4803b726]" started-at="2018-01-14T17:52:20Z" name="setup" finished-at="2018-01-14T17:52:54Z" duration-ms="33579" status="PASS">
+    <test started-at="2018-01-18T14:50:09Z" name="BestMutch" finished-at="2018-01-18T15:05:03Z" duration-ms="894195">
+      <class name="Tests.BestMutch">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BestMutch@316bcf94]" started-at="2018-01-18T16:50:09Z" name="setup" finished-at="2018-01-18T16:50:21Z" duration-ms="12060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginWithFacbookWrongUserName()[pri:1, instance:Tests.SignUpByFacbookTest@4803b726]" started-at="2018-01-14T17:52:54Z" name="LoginWithFacbookWrongUserName" finished-at="2018-01-14T17:53:09Z" duration-ms="15693" status="PASS">
+        <test-method signature="BestMatchCheepFamle()[pri:1, instance:Tests.BestMutch@316bcf94]" started-at="2018-01-18T16:50:21Z" name="BestMatchCheepFamle" finished-at="2018-01-18T16:52:15Z" duration-ms="113298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BestMatchCheepFamle -->
+        <test-method signature="BestMatchFeMaleExpensive()[pri:2, instance:Tests.BestMutch@316bcf94]" started-at="2018-01-18T16:52:15Z" name="BestMatchFeMaleExpensive" finished-at="2018-01-18T16:54:26Z" duration-ms="131291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BestMatchFeMaleExpensive -->
+        <test-method signature="BestMatchFeMaleNormal()[pri:3, instance:Tests.BestMutch@316bcf94]" started-at="2018-01-18T16:54:26Z" name="BestMatchFeMaleNormal" finished-at="2018-01-18T16:56:39Z" duration-ms="132984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BestMatchFeMaleNormal -->
+        <test-method signature="BestMatchFeMaleCheepExpensive()[pri:4, instance:Tests.BestMutch@316bcf94]" started-at="2018-01-18T16:56:39Z" name="BestMatchFeMaleCheepExpensive" finished-at="2018-01-18T16:58:58Z" duration-ms="139633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BestMatchFeMaleCheepExpensive -->
+        <test-method signature="BestMatchExpensiveMale()[pri:5, instance:Tests.BestMutch@316bcf94]" started-at="2018-01-18T16:58:58Z" name="BestMatchExpensiveMale" finished-at="2018-01-18T17:01:12Z" duration-ms="133644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BestMatchExpensiveMale -->
+        <test-method signature="BestMatchNormalMale()[pri:6, instance:Tests.BestMutch@316bcf94]" started-at="2018-01-18T17:01:12Z" name="BestMatchNormalMale" finished-at="2018-01-18T17:03:32Z" duration-ms="139560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BestMatchNormalMale -->
+        <test-method signature="BestMatchCheepMale()[pri:7, instance:Tests.BestMutch@316bcf94]" started-at="2018-01-18T17:03:32Z" name="BestMatchCheepMale" finished-at="2018-01-18T17:05:03Z" duration-ms="91700" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'System info: host: 'yinons-MacBook-Pro.local', ip: 'fe80:0:0:0:d7:ef92:39a:15ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'Driver info: io.appium.java_client.ios.IOSDriverCapabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.1, startIWDP: true, takesScreenshot: true, udid: 239532F5-4C8E-4067-B5A3-914..., webStorageEnabled: false}Session ID: 0468423a-54fa-47b4-b507-8a3e3eff2086*** Element info: {Using=xpath, value=(//*[@name='InspireCellViewID'])[3]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'System info: host: 'yinons-MacBook-Pro.local', ip: 'fe80:0:0:0:d7:ef92:39a:15ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'Driver info: io.appium.java_client.ios.IOSDriverCapabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.1, startIWDP: true, takesScreenshot: true, udid: 239532F5-4C8E-4067-B5A3-914..., webStorageEnabled: false}Session ID: 0468423a-54fa-47b4-b507-8a3e3eff2086*** Element info: {Using=xpath, value=(//*[@name='InspireCellViewID'])[3]}at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)at org.openqa.selenium.By$ByXPath.findElement(By.java:361)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)at com.sun.proxy.$Proxy10.click(Unknown Source)at PageObjects.BasePage.click(BasePage.java:38)at PageObjects.BestMutch.Selectinspiration(BestMutch.java:100)at Tests.BestMutch.BestMatchCheepMale(BestMutch.java:247)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:564)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BestMatchCheepMale -->
+      </class> <!-- Tests.BestMutch -->
+    </test> <!-- BestMutch -->
+    <test started-at="2018-01-18T15:05:08Z" name="LoginTests" finished-at="2018-01-18T15:07:33Z" duration-ms="144146">
+      <class name="Tests.LoginTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginTests@53aac487]" started-at="2018-01-18T17:05:08Z" name="setup" finished-at="2018-01-18T17:05:20Z" duration-ms="11624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="FillPasswordWithOutToFillEmail()[pri:1, instance:Tests.LoginTests@53aac487]" started-at="2018-01-18T17:05:20Z" name="FillPasswordWithOutToFillEmail" finished-at="2018-01-18T17:05:31Z" duration-ms="10639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillPasswordWithOutToFillEmail -->
+        <test-method signature="FillPasswordWithOutToFillPassword()[pri:2, instance:Tests.LoginTests@53aac487]" started-at="2018-01-18T17:05:31Z" name="FillPasswordWithOutToFillPassword" finished-at="2018-01-18T17:05:44Z" duration-ms="13516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillPasswordWithOutToFillPassword -->
+        <test-method signature="FillPasswordWithWrongEmail()[pri:3, instance:Tests.LoginTests@53aac487]" started-at="2018-01-18T17:05:44Z" name="FillPasswordWithWrongEmail" finished-at="2018-01-18T17:06:09Z" duration-ms="24764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillPasswordWithWrongEmail -->
+        <test-method signature="FillPasswordWithWrongPassword()[pri:4, instance:Tests.LoginTests@53aac487]" started-at="2018-01-18T17:06:09Z" name="FillPasswordWithWrongPassword" finished-at="2018-01-18T17:06:31Z" duration-ms="22145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillPasswordWithWrongPassword -->
+        <test-method signature="ClickLoginwWithOutToFillAnyFields()[pri:5, instance:Tests.LoginTests@53aac487]" started-at="2018-01-18T17:06:31Z" name="ClickLoginwWithOutToFillAnyFields" finished-at="2018-01-18T17:06:46Z" duration-ms="14937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLoginwWithOutToFillAnyFields -->
+        <test-method signature="DoLogin()[pri:6, instance:Tests.LoginTests@53aac487]" started-at="2018-01-18T17:06:46Z" name="DoLogin" finished-at="2018-01-18T17:07:33Z" duration-ms="46514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+      </class> <!-- Tests.LoginTests -->
+    </test> <!-- LoginTests -->
+    <test started-at="2018-01-18T15:07:38Z" name="SignUpByFacbookTest" finished-at="2018-01-18T15:08:59Z" duration-ms="81047">
+      <class name="Tests.SignUpByFacbookTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTest@1ed6388a]" started-at="2018-01-18T17:07:38Z" name="setup" finished-at="2018-01-18T17:07:49Z" duration-ms="11446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginWithFacbookWrongUserName()[pri:1, instance:Tests.SignUpByFacbookTest@1ed6388a]" started-at="2018-01-18T17:07:49Z" name="LoginWithFacbookWrongUserName" finished-at="2018-01-18T17:08:04Z" duration-ms="14844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWrongUserName -->
-        <test-method signature="LoginWithFacbookWrongPassword()[pri:2, instance:Tests.SignUpByFacbookTest@4803b726]" started-at="2018-01-14T17:53:09Z" name="LoginWithFacbookWrongPassword" finished-at="2018-01-14T17:53:17Z" duration-ms="8046" status="PASS">
+        <test-method signature="LoginWithFacbookWrongPassword()[pri:2, instance:Tests.SignUpByFacbookTest@1ed6388a]" started-at="2018-01-18T17:08:04Z" name="LoginWithFacbookWrongPassword" finished-at="2018-01-18T17:08:14Z" duration-ms="9987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWrongPassword -->
-        <test-method signature="LoginWithFacbookWithoutPassword()[pri:3, instance:Tests.SignUpByFacbookTest@4803b726]" started-at="2018-01-14T17:53:17Z" name="LoginWithFacbookWithoutPassword" finished-at="2018-01-14T17:53:25Z" duration-ms="8139" status="PASS">
+        <test-method signature="LoginWithFacbookWithoutPassword()[pri:3, instance:Tests.SignUpByFacbookTest@1ed6388a]" started-at="2018-01-18T17:08:14Z" name="LoginWithFacbookWithoutPassword" finished-at="2018-01-18T17:08:22Z" duration-ms="7948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWithoutPassword -->
-        <test-method signature="LoginWithFacbookWithoutUser()[pri:4, instance:Tests.SignUpByFacbookTest@4803b726]" started-at="2018-01-14T17:53:26Z" name="LoginWithFacbookWithoutUser" finished-at="2018-01-14T17:53:31Z" duration-ms="5693" status="PASS">
+        <test-method signature="LoginWithFacbookWithoutUser()[pri:4, instance:Tests.SignUpByFacbookTest@1ed6388a]" started-at="2018-01-18T17:08:22Z" name="LoginWithFacbookWithoutUser" finished-at="2018-01-18T17:08:25Z" duration-ms="3352" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Error while executing atom: Element is no longer attached to the DOM (status: 10) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'System info: host: 'yinons-MacBook-Pro.local', ip: 'fe80:0:0:0:d7:ef92:39a:15ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'Driver info: io.appium.java_client.ios.IOSDriverCapabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.1, startIWDP: true, takesScreenshot: true, udid: 239532F5-4C8E-4067-B5A3-914..., webStorageEnabled: false}Session ID: a287c7cd-fa3a-457d-af58-941d708ce094]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error while executing atom: Element is no longer attached to the DOM (status: 10) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'System info: host: 'yinons-MacBook-Pro.local', ip: 'fe80:0:0:0:d7:ef92:39a:15ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'Driver info: io.appium.java_client.ios.IOSDriverCapabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.1, startIWDP: true, takesScreenshot: true, udid: 239532F5-4C8E-4067-B5A3-914..., webStorageEnabled: false}Session ID: a287c7cd-fa3a-457d-af58-941d708ce094at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)at io.appium.java_client.MobileElement.execute(MobileElement.java:1)at io.appium.java_client.ios.IOSElement.execute(IOSElement.java:1)at org.openqa.selenium.remote.RemoteWebElement.isEnabled(RemoteWebElement.java:150)at PageObjects.BasePage.ElementEnable(BasePage.java:76)at PageObjects.FacbookPage.LoginWithFacbookWithoutUser(FacbookPage.java:71)at Tests.SignUpByFacbookTest.LoginWithFacbookWithoutUser(SignUpByFacbookTest.java:26)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:564)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWithoutUser -->
-        <test-method signature="DoLoginWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTest@4803b726]" started-at="2018-01-14T17:53:31Z" name="DoLoginWithFacbook" finished-at="2018-01-14T17:54:20Z" duration-ms="49116" status="PASS">
+        <test-method signature="DoLoginWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTest@1ed6388a]" started-at="2018-01-18T17:08:25Z" name="DoLoginWithFacbook" finished-at="2018-01-18T17:08:59Z" duration-ms="33464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLoginWithFacbook -->
       </class> <!-- Tests.SignUpByFacbookTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- SignUpByFacbookTest -->
+    <test started-at="2018-01-18T15:09:04Z" name="SignUpTest" finished-at="2018-01-18T15:12:17Z" duration-ms="193221">
+      <class name="Tests.SignUpTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.SignUpTest@4d5650ae]" started-at="2018-01-18T17:09:04Z" name="setup" finished-at="2018-01-18T17:09:15Z" duration-ms="11027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Signupwithoutshtudel()[pri:1, instance:Tests.SignUpTest@4d5650ae]" started-at="2018-01-18T17:09:15Z" name="Signupwithoutshtudel" finished-at="2018-01-18T17:09:42Z" duration-ms="26945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signupwithoutshtudel -->
+        <test-method signature="SignupwithoutDotCom()[pri:2, instance:Tests.SignUpTest@4d5650ae]" started-at="2018-01-18T17:09:42Z" name="SignupwithoutDotCom" finished-at="2018-01-18T17:10:33Z" duration-ms="51259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupwithoutDotCom -->
+        <test-method signature="FillPsswordWithLessthan6Characters()[pri:3, instance:Tests.SignUpTest@4d5650ae]" started-at="2018-01-18T17:10:33Z" name="FillPsswordWithLessthan6Characters" finished-at="2018-01-18T17:11:27Z" duration-ms="54346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillPsswordWithLessthan6Characters -->
+        <test-method signature="DoSignUp()[pri:4, instance:Tests.SignUpTest@4d5650ae]" started-at="2018-01-18T17:11:27Z" name="DoSignUp" finished-at="2018-01-18T17:12:17Z" duration-ms="49641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+      </class> <!-- Tests.SignUpTest -->
+    </test> <!-- SignUpTest -->
+    <test started-at="2018-01-18T15:12:22Z" name="ChatTest" finished-at="2018-01-18T15:17:03Z" duration-ms="280914">
+      <class name="Tests.ChatTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.ChatTest@7b36aa0c]" started-at="2018-01-18T17:12:22Z" name="setup" finished-at="2018-01-18T17:12:33Z" duration-ms="11544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="StylistSendToClient()[pri:1, instance:Tests.ChatTest@7b36aa0c]" started-at="2018-01-18T17:12:33Z" name="StylistSendToClient" finished-at="2018-01-18T17:14:58Z" duration-ms="144804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StylistSendToClient -->
+        <test-method signature="ClientToStylist()[pri:2, instance:Tests.ChatTest@7b36aa0c]" started-at="2018-01-18T17:14:58Z" name="ClientToStylist" finished-at="2018-01-18T17:17:03Z" duration-ms="124564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClientToStylist -->
+      </class> <!-- Tests.ChatTest -->
+    </test> <!-- ChatTest -->
+  </suite> <!-- Suite -->
 </testng-results>

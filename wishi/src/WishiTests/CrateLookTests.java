@@ -30,12 +30,12 @@ public class CrateLookTests extends BaseTest
 		CrateLookPage look = new CrateLookPage(driver);
 		look.CrateLook();
 		look.ClickShop();
-		look.SelectItem("[1]");
-		look.DragDropItems("[1]");
-		look.SelectItem("[2]");
-		look.DragDropItems("[2]");
-		look.SelectItem("[3]");
-		look.DragDropItems("[3]");
+		look.SelectItem("[5]");
+		look.DragDropItems("[5]");
+		look.SelectItem("[6]");
+		look.DragDropItems("[6]");
+		look.SelectItem("[7]");
+		look.DragDropItems("[7]");
 		look.ClickSave();
 		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//div//textarea[@id='TextArea']"));
 		
@@ -52,12 +52,12 @@ public class CrateLookTests extends BaseTest
 		look.ClickNewLook();
 		look.ClickShop();
 		look.SelectLayoutTabs("[2]");
-		look.SelectItem("[1]");
-		look.DragDropItems("[1]");
-		look.SelectItem("[2]");
-		look.DragDropItems("[2]");
-		look.SelectItem("[3]");
-		look.DragDropItems("[3]");
+		look.SelectItem("[5]");
+		look.DragDropItems("[5]");
+		look.SelectItem("[6]");
+		look.DragDropItems("[6]");
+		look.SelectItem("[7]");
+		look.DragDropItems("[7]");
 		look.ClickSave();
 		look.ClickSaveOfDescription();
 		look.ClickDescriptionPS();

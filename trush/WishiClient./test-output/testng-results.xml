@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-01-14T15:52:20Z" name="Default suite" finished-at="2018-01-14T15:54:20Z" duration-ms="120286">
+    <groups>
+      <group name="sanity-group">
+        <method signature="SignUpByFacbookTest.DoLoginWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTest@4803b726]" name="DoLoginWithFacbook" class="Tests.SignUpByFacbookTest"/>
+        <method signature="SignUpByFacbookTest.LoginWithFacbookWithoutPassword()[pri:3, instance:Tests.SignUpByFacbookTest@4803b726]" name="LoginWithFacbookWithoutPassword" class="Tests.SignUpByFacbookTest"/>
+        <method signature="SignUpByFacbookTest.LoginWithFacbookWithoutUser()[pri:4, instance:Tests.SignUpByFacbookTest@4803b726]" name="LoginWithFacbookWithoutUser" class="Tests.SignUpByFacbookTest"/>
+        <method signature="SignUpByFacbookTest.LoginWithFacbookWrongPassword()[pri:2, instance:Tests.SignUpByFacbookTest@4803b726]" name="LoginWithFacbookWrongPassword" class="Tests.SignUpByFacbookTest"/>
+        <method signature="SignUpByFacbookTest.LoginWithFacbookWrongUserName()[pri:1, instance:Tests.SignUpByFacbookTest@4803b726]" name="LoginWithFacbookWrongUserName" class="Tests.SignUpByFacbookTest"/>
+      </group> <!-- sanity-group -->
+    </groups>
+    <test started-at="2018-01-14T15:52:20Z" name="Default test" finished-at="2018-01-14T15:54:20Z" duration-ms="120286">
+      <class name="Tests.SignUpByFacbookTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTest@4803b726]" started-at="2018-01-14T17:52:20Z" name="setup" finished-at="2018-01-14T17:52:54Z" duration-ms="33579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginWithFacbookWrongUserName()[pri:1, instance:Tests.SignUpByFacbookTest@4803b726]" started-at="2018-01-14T17:52:54Z" name="LoginWithFacbookWrongUserName" finished-at="2018-01-14T17:53:09Z" duration-ms="15693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithFacbookWrongUserName -->
+        <test-method signature="LoginWithFacbookWrongPassword()[pri:2, instance:Tests.SignUpByFacbookTest@4803b726]" started-at="2018-01-14T17:53:09Z" name="LoginWithFacbookWrongPassword" finished-at="2018-01-14T17:53:17Z" duration-ms="8046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithFacbookWrongPassword -->
+        <test-method signature="LoginWithFacbookWithoutPassword()[pri:3, instance:Tests.SignUpByFacbookTest@4803b726]" started-at="2018-01-14T17:53:17Z" name="LoginWithFacbookWithoutPassword" finished-at="2018-01-14T17:53:25Z" duration-ms="8139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithFacbookWithoutPassword -->
+        <test-method signature="LoginWithFacbookWithoutUser()[pri:4, instance:Tests.SignUpByFacbookTest@4803b726]" started-at="2018-01-14T17:53:26Z" name="LoginWithFacbookWithoutUser" finished-at="2018-01-14T17:53:31Z" duration-ms="5693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithFacbookWithoutUser -->
+        <test-method signature="DoLoginWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTest@4803b726]" started-at="2018-01-14T17:53:31Z" name="DoLoginWithFacbook" finished-at="2018-01-14T17:54:20Z" duration-ms="49116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLoginWithFacbook -->
+      </class> <!-- Tests.SignUpByFacbookTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

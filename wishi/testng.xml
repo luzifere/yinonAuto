@@ -31,9 +31,9 @@
       <class name="WishiTests.ChatTests"/>
     </classes>
     </test> <!-- Test -->
-     <test name="OnBoadingTests">
+     <test name="OnBoadingTests2">
     <classes>
-      <class name="WishiTests.OnBoadingTests"/>
+      <class name="WishiTests.OnBoadingTests2"/>
     </classes>
     </test> <!-- Test -->
     <test name="BookingStylistTests">

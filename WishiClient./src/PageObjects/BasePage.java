@@ -182,7 +182,7 @@ public class BasePage
 		driver.close();
 		driver.switchTo().window(winHandleBefore);
 	}
-	public void AcceptAlert() 
+	public static void AcceptAlert() 
 	{
 		try 
 		{

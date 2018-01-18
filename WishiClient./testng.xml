@@ -21,4 +21,9 @@
       <class name="Tests.SignUpTest"/>
     </classes>
   </test> <!-- Test -->
+  <test thread-count="5" name="ChatTest">
+    <classes>
+      <class name="Tests.ChatTest"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

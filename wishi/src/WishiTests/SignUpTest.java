@@ -54,10 +54,10 @@ public class SignUpTest extends BaseTest
 	{
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
-		int number = 356;
-		for (int counter = 58; counter<=100000;counter++)
-			number = num.nextInt(70);
-		signup.doSignUp("wishitesttt@wishi.com" + number, "inon", "av", "ab1565");
+		int number = 35600;
+		for (int counter = 58000; counter<=100000;counter++)
+			number = num.nextInt(7000);
+		signup.doSignUp("wishitestr@wishi.com" + number, "inon", "av", "ab1565");
 		Assert.assertTrue(BasePage.isatpage("//div[contains(text(), 'Male')]"));
 		driver.close();
 	}
