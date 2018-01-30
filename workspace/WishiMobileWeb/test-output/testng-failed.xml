@@ -3,12 +3,17 @@
 <suite thread-count="-1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="Tests.BookingTests">
+      <class name="Tests.OnBoadingTests2">
         <methods>
+          <include name="MaleCheep"/>
           <include name="setup"/>
-          <include name="CheckoutByCreditCard"/>
+          <include name="MaleExpensive"/>
+          <include name="FamleNOrmal"/>
+          <include name="FamleCheep"/>
+          <include name="MaleNOrmal"/>
+          <include name="FamleExpensive"/>
         </methods>
-      </class> <!-- Tests.BookingTests -->
+      </class> <!-- Tests.OnBoadingTests2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

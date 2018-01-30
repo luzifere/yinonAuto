@@ -14,6 +14,7 @@ import PageObject.BasePage;
 import PageObject.BookingPage;
 import PageObject.LoginPage;
 import PageObject.OnBoardingPage;
+import PageObject.OnBoardingPage2;
 import PageObject.QwizPage;
 import PageObject.SignUpPage;
 
@@ -29,8 +30,26 @@ public class QwizTests extends BaseTest
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitesttt@wishi.com" + number, "inon", "av", "ab1565");
-		BasePage.ExplicityWaitIsClickable(By.xpath("//div[@class='closeXLeft ng-scope']"));
+		signup.doSignUp("wishitestttt@wishi.com" + number, "inon", "av", "ab1565");
+		SignUpPage.ExplicityWaitIsClickable(By.xpath("//div//button[@type='submit']"));
+		OnBoardingPage2 ob = new OnBoardingPage2(driver);
+		ob.SelectGender("Female");
+		ob.selectMounts(3);
+		ob.selectDays(16);
+		ob.selectYears(9);
+		ob.FillCountry("israel");
+		ob.FillCity("tel aviv");
+		ob.ClickNext();
+		Assert.assertTrue(ob.ElementDisplay("//div[text()[contains(.,'BRANDS')]]"));
+		ob.ClickBacktOfStyle();
+		ob.ClickNext();
+		ob.SelectBrands1("1");
+		ob.ClickNext();
+		ob.SelectInspiration("4");
+		ob.ClickNext();
+		Assert.assertTrue(ob.ElementDisplay("//div[@class='match-image']"));
+		ob.ClickMoreStylists();
+		ob.Sleep(300);
 	}
 	@Test(priority = 2,groups={"sanity-group"})
 	public void CheckOutSession ()

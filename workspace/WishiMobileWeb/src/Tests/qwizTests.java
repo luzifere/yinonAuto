@@ -18,7 +18,11 @@ public class qwizTests extends BaseTest
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
 		signup.doSignUp("wishitesttt@wishi.com" + number, "inon", "av", "ab1565");
-		PageObejecs.BasePage.ExplicityWaitIsClickable(By.xpath("//div[@class='closeXLeft ng-scope']"));
+		signup.
+		//driver.findElement(By.xpath("//input[@class='sign-up-btn ng-scope']")).click();
+		//PageObejecs.BasePage.ExplicityWaitIsClickable(By.xpath("//div[@class='closeXLeft ng-scope']"));
+		Sleep(200);		
+		signup.RefreshPage();
 	}
 	@Test(priority = 2,groups={"sanity-group"})
 	public void CheckOutSession ()
@@ -178,6 +182,6 @@ public class qwizTests extends BaseTest
 		qwiz.selectBudget(2);
 		qwiz.ClickNext();
 		Assert.assertTrue(qwiz.ElementDisplay("//button[@class='input_btn']"));
-		
+
 	}
 }

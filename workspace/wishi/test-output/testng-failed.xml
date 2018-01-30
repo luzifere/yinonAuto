@@ -1,37 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test name="Login(failed)">
+<suite thread-count="-1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
     <classes>
-      <class name="WishiTests.LoginTest">
+      <class name="WishiTests.QwizTests">
         <methods>
+          <include name="SelectBrands"/>
           <include name="tearDown"/>
-          <include name="FillCorrectEmailWithWrongPassword"/>
+          <include name="SelectInventory"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- WishiTests.LoginTest -->
+      </class> <!-- WishiTests.QwizTests -->
     </classes>
-  </test> <!-- Login(failed) -->
-  <test name="CrateLookTests(failed)">
-    <classes>
-      <class name="WishiTests.CrateLookTests">
-        <methods>
-          <include name="CrateRegularLook"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- WishiTests.CrateLookTests -->
-    </classes>
-  </test> <!-- CrateLookTests(failed) -->
-  <test name="UploadItemTest(failed)">
-    <classes>
-      <class name="WishiTests.UploadItemTest">
-        <methods>
-          <include name="Uploaditem"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- WishiTests.UploadItemTest -->
-    </classes>
-  </test> <!-- UploadItemTest(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
