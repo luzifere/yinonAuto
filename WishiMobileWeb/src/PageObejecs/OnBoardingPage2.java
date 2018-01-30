@@ -1,8 +1,10 @@
 package PageObejecs;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
@@ -42,18 +44,18 @@ public class OnBoardingPage2 extends BasePage
 	WebElement ProfileButton;
 	@FindBy(xpath="//div//li//a[text()[contains(.,'Log Out')]]")
 	WebElement LogOut;
-	
+
 	public void ClickOnSignUpEmail() 
 	{
 		click(SignUpEmail);	
 	}
 	public void SelectGender(String gender)
-    {
-    	String GenderElemet = ("//div[@class='gender-icon'][text()[contains(.,'Male')]]");
-    	GenderElemet = GenderElemet.replace("Male", gender);
-    	WebElement GenderButton = driver.findElement(By.xpath(GenderElemet));
-    	click(GenderButton);
-    } 
+	{
+		String GenderElemet = ("//div[@class='gender-icon'][text()[contains(.,'Male')]]");
+		GenderElemet = GenderElemet.replace("Male", gender);
+		WebElement GenderButton = driver.findElement(By.xpath(GenderElemet));
+		click(GenderButton);
+	} 
 	public void selectMounts(int num)
 	{
 		Select mounts = new Select (driver.findElement(By.xpath("//div//select[@name='birthday_month']")));
@@ -73,7 +75,7 @@ public class OnBoardingPage2 extends BasePage
 		years.selectByIndex(num);
 	}
 	public void FillCountry(String country)
-	
+
 	{
 		click(Country);
 		filltext(Country, country);		
@@ -88,23 +90,23 @@ public class OnBoardingPage2 extends BasePage
 		click(NextButton);	
 		Sleep(150);
 	}
-	
-	
+
+
 	public void SelectBrands1(String brand)
-    {
-    	String BrandElemet = ("//label[@for='br_text1']");
-    	BrandElemet = BrandElemet.replace("text1", brand);
-    	WebElement BrandButton = driver.findElement(By.xpath(BrandElemet));
-    	click(BrandButton);
-    } 
-	
+	{
+		String BrandElemet = ("//label[@for='br_text1']");
+		BrandElemet = BrandElemet.replace("text1", brand);
+		WebElement BrandButton = driver.findElement(By.xpath(BrandElemet));
+		click(BrandButton);
+	} 
+
 	public void SelectInspiration(String inspiration)
-    {
-    	String GoalElemet = ("(//input[@type='checkbox'])[text1]");
-    	GoalElemet = GoalElemet.replace("text1", inspiration);
-    	WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
-    	click(GoalButton);
-    } 
+	{
+		String GoalElemet = ("(//input[@type='checkbox'])[text1]");
+		GoalElemet = GoalElemet.replace("text1", inspiration);
+		WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+		click(GoalButton);
+	} 
 
 	public void ClickBacktOfStyle() 
 	{
@@ -126,13 +128,30 @@ public class OnBoardingPage2 extends BasePage
 	}
 	public void ClickOnProfileButton() 
 	{   	
-   		click(ProfileButton);	
+		click(ProfileButton);	
 	}
-    public void ClickOnLogOut() 
+	public void ClickOnLogOut() 
 	{
 		click(LogOut);	
 	}
-	
-	
+	public void SetDate() 
+	{
+		driver.findElement(By.xpath("//input[@id='exampleInput']")).click();
+		Actions act = new Actions(driver);
+		act.sendKeys(Keys.TAB).perform();
+		act.sendKeys(Keys.ARROW_UP).perform();
+		act.sendKeys(Keys.ARROW_UP).perform();
+		act.sendKeys(Keys.ENTER).perform();
+		act.sendKeys(Keys.TAB).perform();
+		act.sendKeys(Keys.TAB).perform();
+		act.sendKeys(Keys.TAB).perform();
+		act.sendKeys(Keys.TAB).perform();
+		act.sendKeys(Keys.TAB).perform();
+		act.sendKeys(Keys.TAB).perform();
+		act.sendKeys(Keys.TAB).perform();
+		act.sendKeys(Keys.ENTER).perform();
+	}
+
+
 
 }

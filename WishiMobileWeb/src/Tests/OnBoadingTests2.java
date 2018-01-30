@@ -35,11 +35,9 @@ public class OnBoadingTests2 extends BaseTest
 		PageObejecs.SignUpPage.ExplicityWaitIsClickable(By.xpath("//div//button[@type='submit']"));
 		PageObejecs.OnBoardingPage2 ob = new PageObejecs.OnBoardingPage2(driver);
 		ob.SelectGender("Female");
-		ob.selectMounts(3);
-		ob.selectDays(16);
-		ob.selectYears(9);
-		ob.FillCountry("israel");
-		ob.FillCity("tel aviv");
+		ob.SetDate();
+		//ob.FillCountry("israel");
+		//ob.FillCity("tel aviv");
 		ob.ClickNext();
 		Assert.assertTrue(ob.ElementDisplay("//div[text()[contains(.,'BRANDS')]]"));
 		ob.ClickBacktOfStyle();

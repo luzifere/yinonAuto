@@ -1,36 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="8" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-01-15T11:47:29Z" name="Suite" finished-at="2018-01-15T11:47:51Z" duration-ms="21910">
+  <suite started-at="2018-01-21T13:14:35Z" name="Default suite" finished-at="2018-01-21T13:16:03Z" duration-ms="88487">
     <groups>
       <group name="sanity-group">
-        <method signature="LoginWithFacbookTests.LoginWithFacbook()[pri:3, instance:WishiTests.LoginWithFacbookTests@4229bb3f]" name="LoginWithFacbook" class="WishiTests.LoginWithFacbookTests"/>
-        <method signature="LoginWithFacbookTests.LoginWithFacbookWrongPassword()[pri:2, instance:WishiTests.LoginWithFacbookTests@4229bb3f]" name="LoginWithFacbookWrongPassword" class="WishiTests.LoginWithFacbookTests"/>
-        <method signature="LoginWithFacbookTests.LoginWithFacbookWrongUserName()[pri:1, instance:WishiTests.LoginWithFacbookTests@4229bb3f]" name="LoginWithFacbookWrongUserName" class="WishiTests.LoginWithFacbookTests"/>
+        <method signature="QwizTests.CheckOutSession()[pri:2, instance:WishiTests.QwizTests@2fb3536e]" name="CheckOutSession" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.DoSignUp()[pri:1, instance:WishiTests.QwizTests@2fb3536e]" name="DoSignUp" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectBodyType()[pri:4, instance:WishiTests.QwizTests@2fb3536e]" name="SelectBodyType" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectBrands()[pri:15, instance:WishiTests.QwizTests@2fb3536e]" name="SelectBrands" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectClothingPreferences()[pri:8, instance:WishiTests.QwizTests@2fb3536e]" name="SelectClothingPreferences" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectColors()[pri:6, instance:WishiTests.QwizTests@2fb3536e]" name="SelectColors" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectComfortZone()[pri:13, instance:WishiTests.QwizTests@2fb3536e]" name="SelectComfortZone" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectEvent()[pri:3, instance:WishiTests.QwizTests@2fb3536e]" name="SelectEvent" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectFabrics()[pri:10, instance:WishiTests.QwizTests@2fb3536e]" name="SelectFabrics" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectHeels()[pri:9, instance:WishiTests.QwizTests@2fb3536e]" name="SelectHeels" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectHeight()[pri:5, instance:WishiTests.QwizTests@2fb3536e]" name="SelectHeight" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectHighlight()[pri:7, instance:WishiTests.QwizTests@2fb3536e]" name="SelectHighlight" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectInventory()[pri:16, instance:WishiTests.QwizTests@2fb3536e]" name="SelectInventory" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectJEWELRY()[pri:14, instance:WishiTests.QwizTests@2fb3536e]" name="SelectJEWELRY" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectPrints()[pri:11, instance:WishiTests.QwizTests@2fb3536e]" name="SelectPrints" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectSize()[pri:12, instance:WishiTests.QwizTests@2fb3536e]" name="SelectSize" class="WishiTests.QwizTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test started-at="2018-01-15T11:47:29Z" name="LoginWithFacbookTests" finished-at="2018-01-15T11:47:46Z" duration-ms="16872">
-      <class name="WishiTests.LoginWithFacbookTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:WishiTests.LoginWithFacbookTests@4229bb3f]" started-at="2018-01-15T13:47:29Z" name="setup" finished-at="2018-01-15T13:47:38Z" duration-ms="8217" status="PASS">
+    <test started-at="2018-01-21T13:14:35Z" name="Default test" finished-at="2018-01-21T13:16:03Z" duration-ms="88487">
+      <class name="WishiTests.QwizTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:14:35Z" name="setup" finished-at="2018-01-21T15:14:45Z" duration-ms="10396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginWithFacbookWrongUserName()[pri:1, instance:WishiTests.LoginWithFacbookTests@4229bb3f]" started-at="2018-01-15T13:47:38Z" name="LoginWithFacbookWrongUserName" finished-at="2018-01-15T13:47:43Z" duration-ms="5022" status="PASS">
+        <test-method signature="DoSignUp()[pri:1, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:14:45Z" name="DoSignUp" finished-at="2018-01-21T15:15:03Z" duration-ms="18158" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginWithFacbookWrongUserName -->
-        <test-method signature="LoginWithFacbookWrongPassword()[pri:2, instance:WishiTests.LoginWithFacbookTests@4229bb3f]" started-at="2018-01-15T13:47:43Z" name="LoginWithFacbookWrongPassword" finished-at="2018-01-15T13:47:44Z" duration-ms="1458" status="PASS">
+        </test-method> <!-- DoSignUp -->
+        <test-method signature="CheckOutSession()[pri:2, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:15:03Z" name="CheckOutSession" finished-at="2018-01-21T15:15:19Z" duration-ms="15547" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginWithFacbookWrongPassword -->
-        <test-method signature="LoginWithFacbook()[pri:3, instance:WishiTests.LoginWithFacbookTests@4229bb3f]" started-at="2018-01-15T13:47:44Z" name="LoginWithFacbook" finished-at="2018-01-15T13:47:46Z" duration-ms="2156" status="PASS">
+        </test-method> <!-- CheckOutSession -->
+        <test-method signature="SelectEvent()[pri:3, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:15:19Z" name="SelectEvent" finished-at="2018-01-21T15:15:21Z" duration-ms="2310" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginWithFacbook -->
-      </class> <!-- WishiTests.LoginWithFacbookTests -->
-    </test> <!-- LoginWithFacbookTests -->
-    <test started-at="2018-01-15T11:47:51Z" name="SignUpByFacbook" finished-at="2018-01-15T11:47:51Z" duration-ms="0">
-    </test> <!-- SignUpByFacbook -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- SelectEvent -->
+        <test-method signature="SelectBodyType()[pri:4, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:15:21Z" name="SelectBodyType" finished-at="2018-01-21T15:15:22Z" duration-ms="1216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodyType -->
+        <test-method signature="SelectHeight()[pri:5, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:15:22Z" name="SelectHeight" finished-at="2018-01-21T15:15:26Z" duration-ms="3327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectHeight -->
+        <test-method signature="SelectColors()[pri:6, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:15:26Z" name="SelectColors" finished-at="2018-01-21T15:15:29Z" duration-ms="3482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectColors -->
+        <test-method signature="SelectHighlight()[pri:7, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:15:29Z" name="SelectHighlight" finished-at="2018-01-21T15:15:32Z" duration-ms="3336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectHighlight -->
+        <test-method signature="SelectClothingPreferences()[pri:8, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:15:32Z" name="SelectClothingPreferences" finished-at="2018-01-21T15:15:36Z" duration-ms="3360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectClothingPreferences -->
+        <test-method signature="SelectHeels()[pri:9, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:15:36Z" name="SelectHeels" finished-at="2018-01-21T15:15:39Z" duration-ms="3303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectHeels -->
+        <test-method signature="SelectFabrics()[pri:10, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:15:39Z" name="SelectFabrics" finished-at="2018-01-21T15:15:42Z" duration-ms="3314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFabrics -->
+        <test-method signature="SelectPrints()[pri:11, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:15:42Z" name="SelectPrints" finished-at="2018-01-21T15:15:46Z" duration-ms="3318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectPrints -->
+        <test-method signature="SelectSize()[pri:12, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:15:46Z" name="SelectSize" finished-at="2018-01-21T15:15:49Z" duration-ms="3466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSize -->
+        <test-method signature="SelectComfortZone()[pri:13, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:15:49Z" name="SelectComfortZone" finished-at="2018-01-21T15:15:53Z" duration-ms="3307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectComfortZone -->
+        <test-method signature="SelectJEWELRY()[pri:14, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:15:53Z" name="SelectJEWELRY" finished-at="2018-01-21T15:15:56Z" duration-ms="3356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectJEWELRY -->
+        <test-method signature="SelectBrands()[pri:15, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:15:56Z" name="SelectBrands" finished-at="2018-01-21T15:15:59Z" duration-ms="3469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBrands -->
+        <test-method signature="SelectInventory()[pri:16, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:15:59Z" name="SelectInventory" finished-at="2018-01-21T15:16:03Z" duration-ms="3790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectInventory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WishiTests.QwizTests@2fb3536e]" started-at="2018-01-21T15:16:03Z" name="tearDown" finished-at="2018-01-21T15:16:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WishiTests.QwizTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

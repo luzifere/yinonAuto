@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/6/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jan 15 12:55:00 IST 2018</td>
+<td>Started on:</td><td>Mon Jan 29 15:35:28 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>103 seconds (103835 ms)</td>
+<tr><td>Total time:</td><td>98 seconds (98413 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,17 +76,17 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='Tests.OnBoadingTests2.FamleCheep()'><b>FamleCheep</b><br>Test class: Tests.OnBoadingTests2</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div//select[@name=&apos;birthday_month&apos;]&quot;}
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div//button[@class=&apos;save-and-next&apos;]&quot;}
   (Session info: chrome=58.0.3029.125)
   (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:14f9:2868:2185:12f6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
+System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:101e:3aac:2080:e156%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: demo, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
-*** Element info: {Using=xpath, value=//div//select[@name=&apos;birthday_month&apos;]}
+Session ID: 94602f1e-5b51-4b91-b346-7cf9d3b77e6c
+*** Element info: {Using=xpath, value=//div//button[@class=&apos;save-and-next&apos;]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -115,8 +115,12 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at PageObejecs.OnBoardingPage2.selectMounts(OnBoardingPage2.java:59)
-	at Tests.OnBoadingTests2.FamleCheep(OnBoadingTests2.java:38)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at PageObejecs.BasePage.click(BasePage.java:23)
+	at PageObejecs.OnBoardingPage2.ClickNext(OnBoardingPage2.java:90)
+	at Tests.OnBoadingTests2.FamleCheep(OnBoadingTests2.java:41)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -142,18 +146,18 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1437129801", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1437129801'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div//select[@name=&apos;birthday_month&apos;]&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace404586280", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace404586280'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div//button[@class=&apos;save-and-next&apos;]&quot;}
   (Session info: chrome=58.0.3029.125)
   (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:14f9:2868:2185:12f6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
+System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:101e:3aac:2080:e156%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: demo, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
-*** Element info: {Using=xpath, value=//div//select[@name=&apos;birthday_month&apos;]}
+Session ID: 94602f1e-5b51-4b91-b346-7cf9d3b77e6c
+*** Element info: {Using=xpath, value=//div//button[@class=&apos;save-and-next&apos;]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -182,8 +186,12 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at PageObejecs.OnBoardingPage2.selectMounts(OnBoardingPage2.java:59)
-	at Tests.OnBoadingTests2.FamleCheep(OnBoadingTests2.java:38)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at PageObejecs.BasePage.click(BasePage.java:23)
+	at PageObejecs.OnBoardingPage2.ClickNext(OnBoardingPage2.java:90)
+	at Tests.OnBoadingTests2.FamleCheep(OnBoadingTests2.java:41)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -210,7 +218,7 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>19</td>
+<td>25</td>
 <td>Tests.OnBoadingTests2@957e06</td></tr>
 <tr>
 <td title='Tests.OnBoadingTests2.FamleExpensive()'><b>FamleExpensive</b><br>Test class: Tests.OnBoadingTests2</td>
@@ -220,10 +228,10 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:14f9:2868:2185:12f6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
+System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:101e:3aac:2080:e156%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: demo, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
+Session ID: 94602f1e-5b51-4b91-b346-7cf9d3b77e6c
 *** Element info: {Using=xpath, value=(//div[@class=&apos;connect-email&apos;])}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -258,7 +266,7 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at PageObejecs.BasePage.click(BasePage.java:23)
 	at PageObejecs.SignUpPage.ClickOnSignUpEmail(SignUpPage.java:57)
-	at Tests.OnBoadingTests2.FamleExpensive(OnBoadingTests2.java:98)
+	at Tests.OnBoadingTests2.FamleExpensive(OnBoadingTests2.java:96)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -284,17 +292,17 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace687399269", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace687399269'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;connect-email&apos;])&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace1904609259", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1904609259'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;connect-email&apos;])&quot;}
   (Session info: chrome=58.0.3029.125)
   (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:14f9:2868:2185:12f6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
+System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:101e:3aac:2080:e156%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: demo, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
+Session ID: 94602f1e-5b51-4b91-b346-7cf9d3b77e6c
 *** Element info: {Using=xpath, value=(//div[@class=&apos;connect-email&apos;])}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -329,7 +337,7 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at PageObejecs.BasePage.click(BasePage.java:23)
 	at PageObejecs.SignUpPage.ClickOnSignUpEmail(SignUpPage.java:57)
-	at Tests.OnBoadingTests2.FamleExpensive(OnBoadingTests2.java:98)
+	at Tests.OnBoadingTests2.FamleExpensive(OnBoadingTests2.java:96)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -366,10 +374,10 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:14f9:2868:2185:12f6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
+System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:101e:3aac:2080:e156%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: demo, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
+Session ID: 94602f1e-5b51-4b91-b346-7cf9d3b77e6c
 *** Element info: {Using=xpath, value=(//div[@class=&apos;connect-email&apos;])}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -404,7 +412,7 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at PageObejecs.BasePage.click(BasePage.java:23)
 	at PageObejecs.SignUpPage.ClickOnSignUpEmail(SignUpPage.java:57)
-	at Tests.OnBoadingTests2.FamleNOrmal(OnBoadingTests2.java:66)
+	at Tests.OnBoadingTests2.FamleNOrmal(OnBoadingTests2.java:64)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -430,17 +438,17 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace596779307", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace596779307'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;connect-email&apos;])&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace2042979183", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2042979183'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;connect-email&apos;])&quot;}
   (Session info: chrome=58.0.3029.125)
   (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:14f9:2868:2185:12f6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
+System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:101e:3aac:2080:e156%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: demo, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
+Session ID: 94602f1e-5b51-4b91-b346-7cf9d3b77e6c
 *** Element info: {Using=xpath, value=(//div[@class=&apos;connect-email&apos;])}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -475,7 +483,7 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at PageObejecs.BasePage.click(BasePage.java:23)
 	at PageObejecs.SignUpPage.ClickOnSignUpEmail(SignUpPage.java:57)
-	at Tests.OnBoadingTests2.FamleNOrmal(OnBoadingTests2.java:66)
+	at Tests.OnBoadingTests2.FamleNOrmal(OnBoadingTests2.java:64)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -512,10 +520,10 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:14f9:2868:2185:12f6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
+System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:101e:3aac:2080:e156%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: demo, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
+Session ID: 94602f1e-5b51-4b91-b346-7cf9d3b77e6c
 *** Element info: {Using=xpath, value=(//div[@class=&apos;connect-email&apos;])}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -550,7 +558,7 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at PageObejecs.BasePage.click(BasePage.java:23)
 	at PageObejecs.SignUpPage.ClickOnSignUpEmail(SignUpPage.java:57)
-	at Tests.OnBoadingTests2.MaleCheep(OnBoadingTests2.java:130)
+	at Tests.OnBoadingTests2.MaleCheep(OnBoadingTests2.java:128)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -576,17 +584,17 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1727424614", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1727424614'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;connect-email&apos;])&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace1971283804", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1971283804'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;connect-email&apos;])&quot;}
   (Session info: chrome=58.0.3029.125)
   (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:14f9:2868:2185:12f6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
+System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:101e:3aac:2080:e156%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: demo, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
+Session ID: 94602f1e-5b51-4b91-b346-7cf9d3b77e6c
 *** Element info: {Using=xpath, value=(//div[@class=&apos;connect-email&apos;])}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -621,7 +629,7 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at PageObejecs.BasePage.click(BasePage.java:23)
 	at PageObejecs.SignUpPage.ClickOnSignUpEmail(SignUpPage.java:57)
-	at Tests.OnBoadingTests2.MaleCheep(OnBoadingTests2.java:130)
+	at Tests.OnBoadingTests2.MaleCheep(OnBoadingTests2.java:128)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -658,10 +666,10 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:14f9:2868:2185:12f6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
+System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:101e:3aac:2080:e156%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: demo, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
+Session ID: 94602f1e-5b51-4b91-b346-7cf9d3b77e6c
 *** Element info: {Using=xpath, value=(//div[@class=&apos;connect-email&apos;])}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -696,7 +704,7 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at PageObejecs.BasePage.click(BasePage.java:23)
 	at PageObejecs.SignUpPage.ClickOnSignUpEmail(SignUpPage.java:57)
-	at Tests.OnBoadingTests2.MaleExpensive(OnBoadingTests2.java:194)
+	at Tests.OnBoadingTests2.MaleExpensive(OnBoadingTests2.java:192)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -722,17 +730,17 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace821342630", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace821342630'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;connect-email&apos;])&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace1398508580", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1398508580'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;connect-email&apos;])&quot;}
   (Session info: chrome=58.0.3029.125)
   (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:14f9:2868:2185:12f6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
+System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:101e:3aac:2080:e156%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: demo, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
+Session ID: 94602f1e-5b51-4b91-b346-7cf9d3b77e6c
 *** Element info: {Using=xpath, value=(//div[@class=&apos;connect-email&apos;])}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -767,7 +775,7 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at PageObejecs.BasePage.click(BasePage.java:23)
 	at PageObejecs.SignUpPage.ClickOnSignUpEmail(SignUpPage.java:57)
-	at Tests.OnBoadingTests2.MaleExpensive(OnBoadingTests2.java:194)
+	at Tests.OnBoadingTests2.MaleExpensive(OnBoadingTests2.java:192)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -804,10 +812,10 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:14f9:2868:2185:12f6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
+System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:101e:3aac:2080:e156%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: demo, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
+Session ID: 94602f1e-5b51-4b91-b346-7cf9d3b77e6c
 *** Element info: {Using=xpath, value=(//div[@class=&apos;connect-email&apos;])}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -842,7 +850,7 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at PageObejecs.BasePage.click(BasePage.java:23)
 	at PageObejecs.SignUpPage.ClickOnSignUpEmail(SignUpPage.java:57)
-	at Tests.OnBoadingTests2.MaleNOrmal(OnBoadingTests2.java:162)
+	at Tests.OnBoadingTests2.MaleNOrmal(OnBoadingTests2.java:160)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -868,17 +876,17 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1298557761", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1298557761'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;connect-email&apos;])&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace1735330400", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1735330400'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;connect-email&apos;])&quot;}
   (Session info: chrome=58.0.3029.125)
   (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:14f9:2868:2185:12f6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
+System info: host: &apos;yinons-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:101e:3aac:2080:e156%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: demo, platformName: Android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
+Session ID: 94602f1e-5b51-4b91-b346-7cf9d3b77e6c
 *** Element info: {Using=xpath, value=(//div[@class=&apos;connect-email&apos;])}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -913,7 +921,7 @@ Session ID: f5f72bbc-2d17-45df-9d32-888586d90951
 	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at PageObejecs.BasePage.click(BasePage.java:23)
 	at PageObejecs.SignUpPage.ClickOnSignUpEmail(SignUpPage.java:57)
-	at Tests.OnBoadingTests2.MaleNOrmal(OnBoadingTests2.java:162)
+	at Tests.OnBoadingTests2.MaleNOrmal(OnBoadingTests2.java:160)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

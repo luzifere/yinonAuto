@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="BestMutch(failed)">
+    <classes>
+      <class name="Tests.BestMutch">
+        <methods>
+          <include name="setup"/>
+          <include name="BestMatchCheepMale"/>
+        </methods>
+      </class> <!-- Tests.BestMutch -->
+    </classes>
+  </test> <!-- BestMutch(failed) -->
   <test name="SignUpByFacbookTest(failed)">
     <classes>
       <class name="Tests.SignUpByFacbookTest">
         <methods>
-          <include name="DoLoginWithFacbook"/>
           <include name="setup"/>
-          <include name="LoginWithFacbookWithoutPassword"/>
-          <include name="LoginWithFacbookWrongPassword"/>
           <include name="LoginWithFacbookWithoutUser"/>
-          <include name="LoginWithFacbookWrongUserName"/>
         </methods>
       </class> <!-- Tests.SignUpByFacbookTest -->
     </classes>

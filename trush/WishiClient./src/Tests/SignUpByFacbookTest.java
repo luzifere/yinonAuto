@@ -2,6 +2,7 @@ package Tests;
 
 import org.testng.annotations.Test;
 
+import PageObjects.BasePage;
 import PageObjects.FacbookPage;
 
 public class SignUpByFacbookTest extends BaseTest
@@ -37,10 +38,10 @@ public class SignUpByFacbookTest extends BaseTest
 		FacbookPage loginf = new FacbookPage(driver);
 		loginf.DoLoginWithFacbook();
 		loginf.Sleep(300);
-		loginf.AcceptAlert();
+		BasePage.AcceptAlert();
 		loginf.Sleep(200);
-		loginf.AcceptAlert();
-		driver.resetApp();
+		BasePage.AcceptAlert();
+		driver.closeApp();
 	}
 
 }
