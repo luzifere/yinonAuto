@@ -219,5 +219,7 @@ public class OnBoadingTests2 extends BaseTest
 		ob.Sleep(300);
 		ob.ClickOnProfileButton();
 		ob.ClickOnLogOut();
+		driver.quit();
+
 	}
 }

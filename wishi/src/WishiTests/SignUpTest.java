@@ -59,7 +59,7 @@ public class SignUpTest extends BaseTest
 			number = num.nextInt(7000);
 		signup.doSignUp("wishitestr@wishi.com" + number, "inon", "av", "ab1565");
 		Assert.assertTrue(BasePage.isatpage("//div[contains(text(), 'Male')]"));
-		driver.close();
+		driver.quit();
 	}
 	
 	

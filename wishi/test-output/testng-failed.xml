@@ -3,14 +3,14 @@
 <suite thread-count="-1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="WishiTests.QwizTests">
+      <class name="WishiTests.CrateLookTests">
         <methods>
-          <include name="SelectBrands"/>
+          <include name="CrateRegularLook"/>
           <include name="tearDown"/>
-          <include name="SelectInventory"/>
+          <include name="PersonalShopping"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- WishiTests.QwizTests -->
+      </class> <!-- WishiTests.CrateLookTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -14,6 +14,8 @@ public class ChatPage extends BasePage {
 		super(_driver);
 		// TODO Auto-generated constructor stub
 	}
+	@FindBy(id="Chat")//*[@id='Chat']
+	WebElement ChatTab;
 	@FindBy(xpath="//*[@name='LoginStart']")
 	WebElement LoginStart;
 	@FindBy(xpath="//*[@name='Username']")
@@ -24,8 +26,6 @@ public class ChatPage extends BasePage {
 	WebElement LoginButton;
 	@FindBy(xpath="//*[@name='CloseOnBoarding']")
 	WebElement CloseOnBoarding;
-	@FindBy(id="Chat")
-	WebElement ChatTab;	
 	@FindBy(xpath="//*[@name='CloseOnBoarding']")
 	WebElement TitleOfStylist;
 	@FindBy(xpath="//*[@name='CloseOnBoarding']")
@@ -42,6 +42,15 @@ public class ChatPage extends BasePage {
 	WebElement WriteMessageClient;
 	@FindBy(xpath="//*[@name='sendButtonID']")
 	WebElement SendButtonClient;
+	@FindBy(xpath="//*[@name='closeButtonID']")
+	WebElement CloseButton;
+	
+	public void ClickCloseButton() 
+	{		
+		//Sleep(150);
+		click(CloseButton);
+		//Sleep(150);
+	}
 
 	public void ClickLoginStart() 
 	{
@@ -62,6 +71,7 @@ public class ChatPage extends BasePage {
 	}
 	public void ClickChatTab() 
 	{
+		Sleep(150);
 		click(ChatTab);
 	}
 	public void SelectStylist(String stylist)

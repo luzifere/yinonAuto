@@ -71,9 +71,9 @@ public class LoginTests extends BaseTest
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
-		login.AcceptAlert();
+		LoginPage.AcceptAlert();
 		login.Sleep(500);
-		login.AcceptAlert();
+		LoginPage.AcceptAlert();
 		//Assert.assertTrue(login.ElementDisplay("//*[@name='Allow"));	
 		driver.resetApp();
 		

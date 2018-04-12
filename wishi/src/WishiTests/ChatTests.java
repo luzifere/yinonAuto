@@ -19,7 +19,7 @@ public class ChatTests extends BaseTest
 		{
 			LoginPage login = new LoginPage(driver);
 			login.ClickLoginButton();
-			login.doLogin("clea+4@wishi.me", "Wishime1");
+			login.doLogin("staylistchat@wishi.me", "123456");
 
 		}
 	@Test(priority = 2,groups={"sanity-group"})
@@ -32,7 +32,7 @@ public class ChatTests extends BaseTest
 		textforchat = "test for yinon"+number;
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickMyBooking();
-		chat.SelectUser("chat test");
+		chat.SelectUser("Client");
 		chat.Sleep(100);
 		chat.FillChat(textforchat);
 		chat.SendChat();
@@ -42,11 +42,11 @@ public class ChatTests extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
 		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
-		login.doLogin("chattest@wishi.me", "123456");
+		login.doLogin("clientchat@wishi.me", "123456");
 		login.Sleep(250);
 		chat.RefreshPage();
 		chat.ClickMyBooking();
-		chat.SelectUser("Casey Huth");
+		chat.SelectUser("Stylist");
 		Assert.assertTrue(chat.ChatDisplay(textforchat));
 	}
 	@Test(priority = 3,groups={"sanity-group"})
@@ -60,7 +60,7 @@ public class ChatTests extends BaseTest
 		ChatPage chat = new ChatPage(driver);
 		ChatPage.ExplicityWaitIsClickable(By.xpath("//div//button//span[@class='ng-scope']"));
 		chat.ClickMyBooking();
-		chat.SelectUser("Casey Huth");
+		chat.SelectUser("Stylist");
 		chat.Sleep(100);
 		chat.FillChat(textforchat);
 		chat.SendChat();
@@ -70,12 +70,14 @@ public class ChatTests extends BaseTest
 		chat.ClickOnLogOut();
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
-		login.doLogin("clea+4@wishi.me", "Wishime1");
+		login.doLogin("staylistchat@wishi.me", "123456");
 		login.Sleep(250);
 		chat.RefreshPage();
-		chat.SelectUser("chat test");
+		chat.SelectUser("Client");
 		ChatPage.ExplicityWaitIsClickable(By.xpath("//div//button//span[@class='ng-scope']"));
 		Assert.assertTrue(chat.ChatDisplay(textforchat));
+		driver.quit();
+
 	}
 
 

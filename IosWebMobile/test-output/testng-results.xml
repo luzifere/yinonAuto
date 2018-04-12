@@ -1,37 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-01-29T15:17:34Z" name="Default suite" finished-at="2018-01-29T15:21:42Z" duration-ms="247823">
+  <suite name="Default suite" duration-ms="162701" started-at="2018-01-30T10:43:32Z" finished-at="2018-01-30T10:46:15Z">
     <groups>
       <group name="sanity-group">
-        <method signature="BookingCheckOutByCreditCardTest2.CheckoutByCreditCard()[pri:2, instance:Tests.BookingCheckOutByCreditCardTest2@55634720]" name="CheckoutByCreditCard" class="Tests.BookingCheckOutByCreditCardTest2"/>
-        <method signature="BookingCheckOutByCreditCardTest2.DoSignUp()[pri:1, instance:Tests.BookingCheckOutByCreditCardTest2@55634720]" name="DoSignUp" class="Tests.BookingCheckOutByCreditCardTest2"/>
+        <method signature="BookingTest.CheckOutSession()[pri:2, instance:Tests.BookingTest@29b5cd00]" name="CheckOutSession" class="Tests.BookingTest"/>
+        <method signature="BookingTest.DoSignUp()[pri:1, instance:Tests.BookingTest@29b5cd00]" name="DoSignUp" class="Tests.BookingTest"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test started-at="2018-01-29T15:17:34Z" name="Default test" finished-at="2018-01-29T15:21:42Z" duration-ms="247823">
-      <class name="Tests.BookingCheckOutByCreditCardTest2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BookingCheckOutByCreditCardTest2@55634720]" started-at="2018-01-29T17:17:34Z" name="setup" finished-at="2018-01-29T17:18:36Z" duration-ms="61841" status="PASS">
+    <test name="Default test" duration-ms="162701" started-at="2018-01-30T10:43:32Z" finished-at="2018-01-30T10:46:15Z">
+      <class name="Tests.BookingTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BookingTest@29b5cd00]" name="setup" is-config="true" duration-ms="63599" started-at="2018-01-30T12:43:32Z" finished-at="2018-01-30T12:44:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="DoSignUp()[pri:1, instance:Tests.BookingCheckOutByCreditCardTest2@55634720]" started-at="2018-01-29T17:18:36Z" name="DoSignUp" finished-at="2018-01-29T17:19:40Z" duration-ms="64340" status="PASS">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.BookingTest@29b5cd00]" name="DoSignUp" duration-ms="56128" started-at="2018-01-30T12:44:36Z" finished-at="2018-01-30T12:45:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method signature="CheckoutByCreditCard()[pri:2, instance:Tests.BookingCheckOutByCreditCardTest2@55634720]" started-at="2018-01-29T17:19:40Z" name="CheckoutByCreditCard" finished-at="2018-01-29T17:21:42Z" duration-ms="121619" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Error while executing atom: Blocked a frame with origin "https://stage.wishi.me" from accessing a frame with origin "https://js.stripe.com". Protocols, domains, and ports must match. (status: 18) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'System info: host: 'yinons-MacBook-Pro.local', ip: 'fe80:0:0:0:101e:3aac:2080:e156%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'Driver info: io.appium.java_client.ios.IOSDriverCapabilities {automationName: XCUITest, browserName: Safari, databaseEnabled: false, deviceName: iPhone X, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, nativeWebTap: true, networkConnectionEnabled: false, platform: MAC, platformName: MAC, platformVersion: 11.1, takesScreenshot: true, udid: 239532F5-4C8E-4067-B5A3-914..., webStorageEnabled: false}Session ID: 8b286dee-828a-417d-add2-a1314b23d788]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error while executing atom: Blocked a frame with origin "https://stage.wishi.me" from accessing a frame with origin "https://js.stripe.com". Protocols, domains, and ports must match. (status: 18) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'System info: host: 'yinons-MacBook-Pro.local', ip: 'fe80:0:0:0:101e:3aac:2080:e156%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'Driver info: io.appium.java_client.ios.IOSDriverCapabilities {automationName: XCUITest, browserName: Safari, databaseEnabled: false, deviceName: iPhone X, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, nativeWebTap: true, networkConnectionEnabled: false, platform: MAC, platformName: MAC, platformVersion: 11.1, takesScreenshot: true, udid: 239532F5-4C8E-4067-B5A3-914..., webStorageEnabled: false}Session ID: 8b286dee-828a-417d-add2-a1314b23d788at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:947)at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:942)at Tests.BookingCheckOutByCreditCardTest2.CheckoutByCreditCard(BookingCheckOutByCreditCardTest2.java:55)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:564)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:Tests.BookingTest@29b5cd00]" name="CheckOutSession" duration-ms="42956" started-at="2018-01-30T12:45:32Z" finished-at="2018-01-30T12:46:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CheckoutByCreditCard -->
-      </class> <!-- Tests.BookingCheckOutByCreditCardTest2 -->
+        </test-method> <!-- CheckOutSession -->
+      </class> <!-- Tests.BookingTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

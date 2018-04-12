@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" name="Failed suite [FacbookTest]" guice-stage="DEVELOPMENT">
-  <test name="BestMatchFamleCheep(failed)">
-    <classes>
-      <class name="Tests.BestMatchFamleCheep">
-        <methods>
-          <include name="setup"/>
-          <include name="FamleCheep"/>
-        </methods>
-      </class> <!-- Tests.BestMatchFamleCheep -->
-    </classes>
-  </test> <!-- BestMatchFamleCheep(failed) -->
-  <test name="BestMatchMaleCheep(failed)">
-    <classes>
-      <class name="Tests.BestMatchMaleCheep">
-        <methods>
-          <include name="setup"/>
-          <include name="MaleCheep"/>
-        </methods>
-      </class> <!-- Tests.BestMatchMaleCheep -->
-    </classes>
-  </test> <!-- BestMatchMaleCheep(failed) -->
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [FacbookTest]">
   <test name="BookingTest(failed)">
     <classes>
       <class name="Tests.BookingTest">
@@ -31,15 +11,4 @@
       </class> <!-- Tests.BookingTest -->
     </classes>
   </test> <!-- BookingTest(failed) -->
-  <test name="ChatTest(failed)">
-    <classes>
-      <class name="Tests.ChatTest">
-        <methods>
-          <include name="SendChatToStylist"/>
-          <include name="setup"/>
-          <include name="SendChatToclient"/>
-        </methods>
-      </class> <!-- Tests.ChatTest -->
-    </classes>
-  </test> <!-- ChatTest(failed) -->
 </suite> <!-- Failed suite [FacbookTest] -->

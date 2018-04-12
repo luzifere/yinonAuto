@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 import PageObjects.BasePage;
 import PageObjects.ChatPage;
 import PageObjects.LoginPage;
+import PageObjects.SettingPage;
 
 public class ChatTest extends BaseTest
 {
@@ -23,7 +24,7 @@ public class ChatTest extends BaseTest
 			number = num.nextInt(7000);
 		textforchat = "test"+number;
 		BaseTest.capabileties2();
-		
+
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickLoginStart();
 		chat.LoginStylistApp("staylistchat@wishi.me", "123456");
@@ -48,6 +49,7 @@ public class ChatTest extends BaseTest
 		LoginPage.AcceptAlert();
 		login.Sleep(200);
 		ChatPage chat1 = new ChatPage(driver);
+		chat1.SelectImage2(250,450);
 		chat1.ClickcChatTab();
 		//driver.findElementByAccessibilityId("Chat").click();
 		chat1.SelectStylist("//*[@name='Stylist Chat']");
@@ -71,7 +73,12 @@ public class ChatTest extends BaseTest
 		LoginPage.AcceptAlert();
 		login.Sleep(100);
 		LoginPage.AcceptAlert();
+		login.SelectImage2(250,450);
+		SettingPage setting = new SettingPage(driver);
+		setting.ClickMeTab();
 		ChatPage chat = new ChatPage(driver);
+		//driver.findElement(By.xpath("//*[@name='Me']"));
+		//driver.findElement(By.xpath("//*[@name='Chat']"));
 		chat.ClickcChatTab();
 		//driver.findElementByAccessibilityId("Chat").click();
 		chat.SelectStylist("//*[@name='Stylist Chat']");

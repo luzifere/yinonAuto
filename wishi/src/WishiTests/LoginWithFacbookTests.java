@@ -42,6 +42,8 @@ public class LoginWithFacbookTests extends BaseTest
 		login.ClickLoginButtonOfFacbook();
 		login.switchWindow();
 		Assert.assertTrue(login.ElementDisplay("//div//span[text()[contains(.,'My Bookings')]]"));
+		driver.quit();
+
 	}
 
 }

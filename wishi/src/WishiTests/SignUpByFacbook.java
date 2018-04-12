@@ -59,6 +59,8 @@ public class SignUpByFacbook extends BaseTest
 		signup.Sleep(3);
 		signup.switchWindow();
 		Assert.assertTrue(signup.ElementDisplay("//div//span[text()[contains(.,'My Bookings')]]"));
+		driver.quit();
+
 	}
 
 

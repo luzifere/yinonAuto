@@ -82,6 +82,7 @@ public class BookingStylistTests extends BaseTest
 		booking.switchWindow();
 		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
 		booking.ClickBookingstylist();	
+		driver.quit();
 	}
 
 

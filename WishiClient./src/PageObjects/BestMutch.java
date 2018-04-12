@@ -43,10 +43,10 @@ public class BestMutch extends BasePage
 	@FindBy(xpath="//*[@name='SuperExpensiveButtonID']")
 	WebElement SuperExpensiveButtonID;
 	
-	@FindBy(xpath="(//*[@name='InspireCellViewID'])[3]")
+	@FindBy(xpath="(//*[@name='InspireCellViewID'])[1]")
 	WebElement inspiration;
 	
-	@FindBy(xpath="(//*[@name='BrandsCellViewID'])[3]")
+	@FindBy(xpath="(//*[@name='BrandsCellViewID'])[1]")
 	WebElement Brands;
 	
 	@FindBy(xpath="//*[@name='NextButtonID']")
@@ -54,7 +54,14 @@ public class BestMutch extends BasePage
 	
 	@FindBy(xpath="(//*[@name='close_image'])[1]")
 	WebElement close_image;
+	
+	@FindBy(id="ViewMoreStylistsButtonID")
+	WebElement MoreStylistsButton;
 
+	public void ClickMoreStylistsButton() 
+	{	
+		click(MoreStylistsButton);
+	}
 	public void ClickHoeToWork() 
 	{	
 		click(how_it_workst);

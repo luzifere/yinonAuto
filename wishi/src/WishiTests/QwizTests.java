@@ -205,7 +205,8 @@ public class QwizTests extends BaseTest
 		qwiz.selectBudget(2);
 		qwiz.ClickNext();
 		Assert.assertTrue(qwiz.ElementDisplay("//button[@class='input_btn']"));
-		
+		driver.quit();
+
 	}
 	
 	

@@ -19,6 +19,6 @@
 	<classpathentry kind="lib" path="/Users/yinonwishi/Downloads/jna-4.1.0.jar"/>
 	<classpathentry kind="lib" path="/Users/yinonwishi/Downloads/jna-platform-4.1.0.jar"/>
 	<classpathentry kind="lib" path="/Users/yinonwishi/Downloads/byte-buddy-1.7.5.jar"/>
-	<classpathentry kind="lib" path="/Users/yinonwishi/Downloads/java-client-5.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/yinonwishi/Downloads/java-client-5.0.4 2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -23,7 +23,7 @@ public class BaseTest
 		DesiredCapabilities cap = new DesiredCapabilities();
 		//if (device.equals("emulator"))
 		//{
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone X");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 8");
 		//	}
 		//else if (device.equals("real"))
 		//{
@@ -32,6 +32,8 @@ public class BaseTest
 
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
 		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11.1");
+		//cap.setCapability("autoAcceptAlerts", true);
+		//cap.setCapability("autoDismissAlerts", true);
 		//cap.setCapability(MobileCapabilityType.UDID,"4acfefaa5a78272eb509b64a2f2efffabd0eda6c");
 		//cap.setCapability(MobileCapabilityType.FULL_RESET,true);
 		//cap.setCapability(MobileCapabilityType.NO_RESET,true);
@@ -59,7 +61,7 @@ public class BaseTest
 		DesiredCapabilities cap = new DesiredCapabilities();
 		//if (device.equals("emulator"))
 		//{
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone X");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 8");
 		//	}
 		//else if (device.equals("real"))
 		//{

@@ -37,9 +37,10 @@ public class CrateLookTests extends BaseTest
 		look.SelectItem("[7]");
 		look.DragDropItems("[7]");
 		look.ClickSave();
-		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//div//textarea[@id='TextArea']"));
-		
-		look.FillDescription("test");
+		driver.findElement(By.xpath("//textarea[@id='TextArea']")).click();
+		//CrateLookPage.ExplicityWaitIsClickable(By.xpath("//div//textarea[@id='TextArea']"));
+		driver.findElement(By.xpath("//textarea[@id='TextArea']")).sendKeys("test");
+		//look.FillDescription("test");
 		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//button[@class='save ng-binding']"));
 		Assert.assertTrue(look.ElementDisplay("//button[@class='input_btn']"));
 		
@@ -65,7 +66,8 @@ public class CrateLookTests extends BaseTest
 		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//button[@class='save ng-binding']"));
 		//look.ClickSaveOfDescription();
 		Assert.assertTrue(look.ElementDisplay("//button[@class='input_btn']"));
-		
+		driver.quit();
+
 	}
 	
 	

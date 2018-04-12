@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/Users/yinonwishi/git/yinonAuto/workspace/IosWebMobile"/>
+		<item value="/Users/yinonwishi/git/yinonAuto/workspace/wishi"/>
+		<item value="/Users/yinonwishi/git/yinonAuto/workspace/WishiClient."/>
+	</list>
 	<section name="NewWizardAction">
 		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">

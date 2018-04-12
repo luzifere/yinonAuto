@@ -95,6 +95,8 @@ public class LoginTest extends BaseTest
 		login.Clickloginbuttonn();
 		Assert.assertTrue(login.ElementDisplay("//div[@class='invalid-form ng-binding ng-scope']"));
 		login.Closebuttonoflogin();
+		driver.quit();
+
 	}
 
 	
