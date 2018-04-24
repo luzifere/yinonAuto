@@ -80,7 +80,7 @@ public class CheckOutByCoponTest extends BaseTest
 		quiz.ClickNextw();
 		quiz.Sleep(200);
 		CeckOutPage.DismissAlert();
-		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
+		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Casey Huth']"));
 
 	}
 }

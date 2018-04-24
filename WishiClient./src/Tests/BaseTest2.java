@@ -23,7 +23,7 @@ public class BaseTest2
 		DesiredCapabilities cap = new DesiredCapabilities();
 		//if (device.equals("emulator"))
 		//{
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 8 Plus");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 8");
 		//	}
 		//else if (device.equals("real"))
 		//{
@@ -33,7 +33,7 @@ public class BaseTest2
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
 		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11.2");
 		//cap.setCapability(MobileCapabilityType.UDID,"4acfefaa5a78272eb509b64a2f2efffabd0eda6c");
-		//cap.setCapability(MobileCapabilityType.FULL_RESET,true);
+		cap.setCapability(MobileCapabilityType.FULL_RESET,true);
 		//cap.setCapability(MobileCapabilityType.NO_RESET,true);
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,AutomationName.IOS_XCUI_TEST);
 		cap.setCapability(MobileCapabilityType.APP,"/Users/yinonwishi/Desktop/Wishi.app");

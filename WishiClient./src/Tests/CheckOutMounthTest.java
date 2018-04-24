@@ -9,14 +9,14 @@ import PageObjects.LoginPage;
 import PageObjects.QuizPage;
 import PageObjects.SearchPage;
 
-public class CheckOutTest extends BaseTest
+public class CheckOutMounthTest extends BaseTest
 {
 	@Test(priority = 1,groups={"sanity-group"})
 	public void DoLogin() 
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("wishi.test@wishi.com");
+		login.Fillusername("wishitestftt@wishi.com4199");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -59,10 +59,10 @@ public class CheckOutTest extends BaseTest
 	{
 		CeckOutPage co = new CeckOutPage(driver);
 		co.ClickMonthButton();
-		co.ClickSingleButton();
+		//co.ClickSingleButton();
 		//co.ClickMonthButton();
 		co.Sleep(100);
-		//co.scrollDownXpath();
+		co.scrollDownXpath();
 		co.ClickPayWithCreditCard();
 
 	}
@@ -87,7 +87,7 @@ public class CheckOutTest extends BaseTest
 		quiz.ClickNextw();
 		quiz.Sleep(200);
 		CeckOutPage.DismissAlert();
-		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
+		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Subscription with Oren Oren']"));
 
 	}
 }

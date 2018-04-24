@@ -57,11 +57,11 @@ public class EditStyleForWomenTests extends BaseTest
 		setting.ClickMeTab();
 		setting.ClickSettingButton();
 	}
-	@Test(priority = 2,groups={"sanity-group"})
+	@Test(priority = 5,groups={"sanity-group"})
 	public void EditStyle() 
 	{
 		SettingPage setting = new SettingPage(driver);
-		setting.ClickEditStyleTab();
+		//setting.ClickEditStyleTab();
 		setting.ClickStyle();
 		setting.Sleep(150);
 		setting.SelectFromPicker("Boho");
@@ -70,7 +70,7 @@ public class EditStyleForWomenTests extends BaseTest
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
 		setting.Sleep(200);
-		Assert.assertTrue(setting.ElementDisplay("//*[contains(@name, 'Boho')]"));
+		Assert.assertTrue(setting.ElementDisplay("//*[contains(@name, 'Classic') or contains(@name, 'Boho')]"));
 	}
 	@Test(priority = 3,groups={"sanity-group"})
 	public void EditBodyType() 
@@ -92,15 +92,18 @@ public class EditStyleForWomenTests extends BaseTest
 		setting.ClickEditStyleTab();
 		Assert.assertTrue(setting.ElementDisplay("//*[@name='Tall']"));
 	}
-	@Test(priority = 5,groups={"sanity-group"})
+	@Test(priority = 2,groups={"sanity-group"})
 	public void EditSize() 
 	{
 		SettingPage setting = new SettingPage(driver);
+		setting.ClickEditStyleTab();
 		setting.ClickSize();
 		setting.ClickTopSize();
 		setting.SelectFromPicker("XS");
 		setting.ClickJeansSize();
 		setting.SelectFromPicker("24");
+		//setting.ClickDone();
+		//setting.ClickSize();
 		setting.ClickDressSize();
 		setting.SelectFromPicker("S");
 		setting.ClickSoesSize();
@@ -190,7 +193,7 @@ public class EditStyleForWomenTests extends BaseTest
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
 		setting.scrollDownXpath();
-		setting.Sleep(200);
+		setting.Sleep(300);
 		Assert.assertTrue(setting.ElementDisplay("//*[@value='200']"));
 	}
 	@Test(priority = 11,groups={"sanity-group"})
@@ -201,6 +204,12 @@ public class EditStyleForWomenTests extends BaseTest
 		setting.SelectFromPicker("Black");
 		setting.SelectFromPicker("Green");
 		setting.ClickDoneOfPicker();
+	}
+	@Test(priority = 12,groups={"sanity-group"})
+	public void EditJewelry() 
+	{
+		SettingPage setting = new SettingPage(driver);
+		setting.scrollDownXpath();
 		setting.ClickJewelry();
 		setting.SelectFromPicker("Silver");
 		setting.ClickDoneOfPicker();
@@ -209,18 +218,20 @@ public class EditStyleForWomenTests extends BaseTest
 		setting.scrollDownXpath();
 		Assert.assertTrue(setting.ElementDisplay("//*[@name='Silver']"));
 	}
-	@Test(priority = 12,groups={"sanity-group"})
+	@Test(priority = 13,groups={"sanity-group"})
 	public void EditZone() 
 	{
 		SettingPage setting = new SettingPage(driver);
+		setting.scrollDownXpath();
 		setting.ClickZone();
 		setting.SelectFromPicker("Close to my style");
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
 		setting.scrollDownXpath();
+		setting.scrollDownXpath();
 		Assert.assertTrue(setting.ElementDisplay("//*[@name='Close to my style']"));
 	}
-	@Test(priority = 13,groups={"sanity-group"})
+	@Test(priority = 14,groups={"sanity-group"})
 	public void EditSocialMedia() 
 	{
 		SettingPage setting = new SettingPage(driver);
@@ -230,6 +241,7 @@ public class EditStyleForWomenTests extends BaseTest
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
 		setting.scrollDownXpath();
+		setting.scrollDownXpath();
 		Assert.assertTrue(setting.ElementEnable("//*[@name='setting_pinterestboard']"));
 		setting.ClickSocialMedia();
 		setting.ClearPrinterest();
@@ -238,6 +250,7 @@ public class EditStyleForWomenTests extends BaseTest
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
 		setting.scrollDownXpath();
+		setting.scrollDownXpath();
 		Assert.assertTrue(setting.ElementEnable("//*[@name='setting_instagram']"));
 		setting.ClickSocialMedia();
 		setting.ClearInstegram();
@@ -245,6 +258,7 @@ public class EditStyleForWomenTests extends BaseTest
 		setting.ClickDone();
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
+		setting.scrollDownXpath();
 		setting.scrollDownXpath();
 		Assert.assertTrue(setting.ElementEnable("//*[@name='setting_facebook']"));
 		setting.ClickBackButton();

@@ -16,12 +16,12 @@ public class BestMutch extends BaseTest
 	{
 		Random num = new Random();
 		int number = 35600;
-		for (int counter = 5800; counter<=100000;counter++)
-			number = num.nextInt(7000);
+		for (int counter = 50800; counter<=100000;counter++)
+			number = num.nextInt(70000);
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitestftt@wishi.com" + number, "123456");
+		sign.doSignUpClear("wishsi", "wishsi","wishitest.best@wishi.com" + number, "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -51,12 +51,12 @@ public class BestMutch extends BaseTest
 		BaseTest.capabileties();
 		Random num = new Random();
 		int number = 35600;
-		for (int counter = 5800; counter<=100000;counter++)
-			number = num.nextInt(7000);
+		for (int counter = 50800; counter<=100000;counter++)
+			number = num.nextInt(70000);
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitestftt@wishi.com" + number, "123456");
+		sign.doSignUpClear("wishsi", "wishsi","wishitest.best@wishi.com" + number, "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -86,12 +86,12 @@ public class BestMutch extends BaseTest
 		BaseTest.capabileties();
 		Random num = new Random();
 		int number = 35600;
-		for (int counter = 5800; counter<=100000;counter++)
-			number = num.nextInt(7000);
+		for (int counter = 50800; counter<=100000;counter++)
+			number = num.nextInt(70000);
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitestftt@wishi.com" + number, "123456");
+		sign.doSignUpClear("wishsi", "wishsi","wishitest.best@wishi.com" + number, "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -121,12 +121,12 @@ public class BestMutch extends BaseTest
 		BaseTest.capabileties();
 		Random num = new Random();
 		int number = 35600;
-		for (int counter = 5800; counter<=100000;counter++)
-			number = num.nextInt(7000);
+		for (int counter = 50800; counter<=100000;counter++)
+			number = num.nextInt(70000);
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitestftt@wishi.com" + number, "123456");
+		sign.doSignUpClear("wishsi", "wishsi","wishitest.best@wishi.com" + number, "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -157,12 +157,12 @@ public class BestMutch extends BaseTest
 		BaseTest.capabileties();
 		Random num = new Random();
 		int number = 35600;
-		for (int counter = 5800; counter<=100000;counter++)
-			number = num.nextInt(7000);
+		for (int counter = 50800; counter<=100000;counter++)
+			number = num.nextInt(70000);
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitestftt@wishi.com" + number, "123456");
+		sign.doSignUpClear("wishsi", "wishsi","wishitest.best@wishi.com" + number, "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -192,12 +192,12 @@ public class BestMutch extends BaseTest
 		BaseTest.capabileties();
 		Random num = new Random();
 		int number = 35600;
-		for (int counter = 5800; counter<=100000;counter++)
-			number = num.nextInt(7000);
+		for (int counter = 50800; counter<=100000;counter++)
+			number = num.nextInt(70000);
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitestftt@wishi.com" + number, "123456");
+		sign.doSignUpClear("wishsi", "wishsi","wishitest.best@wishi.com" + number, "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -227,12 +227,12 @@ public class BestMutch extends BaseTest
 		BaseTest.capabileties();
 		Random num = new Random();
 		int number = 35600;
-		for (int counter = 5800; counter<=100000;counter++)
-			number = num.nextInt(7000);
+		for (int counter = 50800; counter<=100000;counter++)
+			number = num.nextInt(70000);
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitestftt@wishi.com" + number, "123456");
+		sign.doSignUpClear("wishsi", "wishsi","wishitest.best@wishi.com" + number, "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();

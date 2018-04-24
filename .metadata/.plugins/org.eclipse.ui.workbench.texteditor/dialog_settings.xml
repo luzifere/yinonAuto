@@ -2,36 +2,41 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Acc" key="selection"/>
+		<item value="client101@wishi.com" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="client100@wishi.com"/>
+			<item value="client100@wishi.com&#x09;"/>
+			<item value="clientttt.booking@wishi.com"/>
+			<item value="Stylist Bookings"/>
+			<item value="clienttt"/>
+			<item value="stylisttt"/>
+			<item value="stylistttt"/>
+			<item value="exp"/>
+			<item value="ex"/>
+			<item value="done"/>
+			<item value="tool"/>
 			<item value="acc"/>
 			<item value="search"/>
 			<item value="more"/>
 			<item value="code"/>
-			<item value="done"/>
-			<item value="close"/>
-			<item value="scr"/>
-			<item value="cont"/>
-			<item value="clear"/>
-			<item value="//div//span[@class=&apos;inner-credentials ng-binding credentials-mob&apos;]"/>
-			<item value="ChatTests"/>
-			<item value="public void SelectTab(String event)"/>
-			<item value="SelectClothingPreferences"/>
-			<item value="cl"/>
-			<item value="refr"/>
 		</list>
 		<list key="replacehistory">
+			<item value="client101@wishi.com"/>
+			<item value="client100@wishi.com"/>
+			<item value="client100@wishi.com&#x09;"/>
+			<item value="stylist booking"/>
+			<item value="clientttt"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="290" key="DIALOG_WIDTH"/>
 		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
 		<item value="409" key="DIALOG_HEIGHT"/>
-		<item value="1171" key="DIALOG_X_ORIGIN"/>
-		<item value="349" key="DIALOG_Y_ORIGIN"/>
+		<item value="849" key="DIALOG_X_ORIGIN"/>
+		<item value="126" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

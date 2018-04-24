@@ -33,7 +33,8 @@ public class ChatTest extends BaseTest
 		BasePage.AcceptAlert();
 		//chat.CheckIfElementEnabled("(//XCUIElementTypeCell[@name=\"0\"])[2]//*[@name='Client⎜Session, Paid $20']");
 		chat.Clickclose_menu4Button();
-		chat.SelectStylist("(//XCUIElementTypeCell[@name=\"0\"])[2]//*[@name='Client⎜Session, Paid $20']");
+		chat.ClickChatButton();
+		//chat.SelectStylist("(//XCUIElementTypeCell[@name=\"0\"])[2]//*[@name='Client⎜Session, Paid $20']");
 		chat.FillMessage(textforchat);
 		chat.ClickSendButton();
 		Assert.assertTrue(chat.ChatDisplay(textforchat));
@@ -95,7 +96,8 @@ public class ChatTest extends BaseTest
 		BasePage.AcceptAlert();
 		//chat1.CheckIfElementEnabled("(//XCUIElementTypeCell[@name=\"0\"])[2]//*[@name='Client⎜Session, Paid $20']");
 		chat1.Clickclose_menu4Button();
-		chat1.SelectStylist("(//XCUIElementTypeCell[@name=\"0\"])[2]//*[@name='Client⎜Session, Paid $20']");
+		chat1.ClickChatButton();
+		//chat1.SelectStylist("(//XCUIElementTypeCell[@name=\"0\"])[2]//*[@name='Client⎜Session, Paid $20']");
 		Assert.assertTrue(chat.ChatDisplay(textforchat));
 		driver.closeApp();
 	}

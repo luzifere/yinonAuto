@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="BestMutch(failed)">
     <classes>
       <class name="Tests.BestMutch">
@@ -11,14 +11,14 @@
       </class> <!-- Tests.BestMutch -->
     </classes>
   </test> <!-- BestMutch(failed) -->
-  <test name="SignUpByFacbookTest(failed)">
+  <test name="EditStyleForWomenTests(failed)">
     <classes>
-      <class name="Tests.SignUpByFacbookTest">
+      <class name="Tests.EditStyleForWomenTests">
         <methods>
+          <include name="EditBudget"/>
           <include name="setup"/>
-          <include name="LoginWithFacbookWithoutUser"/>
         </methods>
-      </class> <!-- Tests.SignUpByFacbookTest -->
+      </class> <!-- Tests.EditStyleForWomenTests -->
     </classes>
-  </test> <!-- SignUpByFacbookTest(failed) -->
+  </test> <!-- EditStyleForWomenTests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 import PageObjects.BasePage;
 import PageObjects.FacbookPage;
 
-public class SignUpByFacbookTest extends BaseTest
+public class SignUpByFacbookTest extends BaseTest3
 {
-		@Test(priority = 1,groups={"sanity-group"})
+	@Test(priority = 1,groups={"sanity-group"})
 	public void LoginWithFacbookWrongUserName()
 	{
 		FacbookPage loginf = new FacbookPage(driver);
@@ -30,7 +30,7 @@ public class SignUpByFacbookTest extends BaseTest
 	{
 		FacbookPage loginf = new FacbookPage(driver);
 		loginf.LoginWithFacbookWrongPassword();
-		
+
 	}
 	@Test(priority = 5,groups={"sanity-group"})
 	public void DoLoginWithFacbook()

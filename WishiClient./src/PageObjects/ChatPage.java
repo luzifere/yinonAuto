@@ -16,6 +16,8 @@ public class ChatPage extends BasePage {
 	}
 	@FindBy(id="Chat")//*[@id='Chat']
 	WebElement ChatTab;
+	@FindBy(id="ChatButton")//*[@id='Chat']
+	WebElement Chatbutton;
 	@FindBy(xpath="//*[@name='LoginStart']")
 	WebElement LoginStart;
 	@FindBy(xpath="//*[@name='Username']")
@@ -45,6 +47,12 @@ public class ChatPage extends BasePage {
 	@FindBy(xpath="//*[@name='closeButtonID']")
 	WebElement CloseButton;
 	
+	public void ClickChatButton() 
+	{		
+		Sleep(150);
+		click(ChatButton);
+		//Sleep(150);
+	}
 	public void ClickCloseButton() 
 	{		
 		//Sleep(150);

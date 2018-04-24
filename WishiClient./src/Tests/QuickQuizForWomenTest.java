@@ -1,73 +1,39 @@
 package Tests;
 
-import java.util.Random;
-
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import PageObjects.BestMutch;
 import PageObjects.CeckOutPage;
 import PageObjects.LoginPage;
 import PageObjects.QuizPage;
 import PageObjects.SearchPage;
-import PageObjects.SignUpPage;
-import io.appium.java_client.TouchAction;
 
 public class QuickQuizForWomenTest extends BaseTest
 {
 	@Test(priority = 1,groups={"sanity-group"})
-	public void DoSignUp()
+	public void DoLogin() 
 	{
-		Random num = new Random();
-		int number = 35600;
-		for (int counter = 5800; counter<=100000;counter++)
-			number = num.nextInt(7000);
-
-		SignUpPage sign = new SignUpPage(driver);
-		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitestftt@wishi.com" + number, "123456");
-		sign.Sleep(150);
-		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
-		best.ClickHoeToWork();
-		best.ClickHoeToWork();
-		best.ClickHoeToWork();
-		best.ClickFamle();
-		best.fillBirthday("12121985");
-		best.SelectCheapButtonID();
-		sign.Sleep(150);
-		best.SelectCheapButtonID();
-		sign.Sleep(150);
-		best.Selectinspiration();
-		sign.Sleep(200);
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
-		best.ClickNextbutton();
-		sign.Sleep(200);
-		best.SelectBrands();
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
-		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
-		best.ClickMoreStylistsButton();
-		best.Sleep(500);
-		BestMutch.AcceptAlert();
-		best.Sleep(500);
-		BestMutch.AcceptAlert();
-
+		LoginPage login = new LoginPage(driver);
+		login.Clickloginbutton1();
+		login.Fillusername("quick.women@wishi.com");
+		login.Fillpassword("123456");
+		login.ClickLoginButton2();
+		login.Sleep(500);
+		LoginPage.DismissAlert();
+		login.Sleep(500);
+		//LoginPage.DismissAlert();
 	}
 	@Test(priority = 2,groups={"sanity-group"})
 	public void SearchStylist() 
 	{
 		SearchPage search = new SearchPage(driver);
-		//search.ClickCloseButton();
 		search.SelectImage2(250,450);
 		//search.scrollDownXpath();
 		//search.ScrollLeft();
 		//search.ScrollLeft();
 		//search.ScrollLeft();
-		search.Sleep(200);
 		search.ClickSearch();
-		search.FillStylist("Mika Rissy");
+		search.FillStylist("Oren Oren");
 		search.SelectStylist();
 		//search.SelectviewProfileID();
 	}	
@@ -96,120 +62,31 @@ public class QuickQuizForWomenTest extends BaseTest
 		//co.ClickMonthButton();
 		co.Sleep(100);
 		//co.scrollDownXpath();
-		co.ClickAddCode();
-		co.FillCode("wishitest");
-		co.ClickDoneOfCode();
-		co.ClickApplePayButton();
-		co.ClickTakeYourStyleQwiz();
+		co.ClickPayWithCreditCard();
+
 	}
 	@Test(priority = 5,groups={"sanity-group"})
-	public void MadeQuiz() 
-	{
-		QuizPage quiz = new QuizPage(driver);
-		quiz.SelectTab("Plus Size");
-		quiz.ClickNOtNow();
-		quiz.SelectTab("Average");
-		quiz.ClickTopPlus();
-		quiz.ClickJeansPlus();
-		quiz.ClickDressPlus();
-		quiz.ClickShoesPlus();
-		quiz.ClickTopPlus();
-		quiz.ClickJeansPlus();
-		quiz.ClickDressPlus();
-		quiz.ClickShoesPlus();
-		quiz.ClickTopMinus();
-		quiz.ClickJeansMinus();
-		quiz.ClickDressMinus();
-		quiz.ClickShoesMinus();
-		quiz.ClickNextw();
-		quiz.SelectColor("Gray");
-		quiz.SelectColor("Red");
-		quiz.SelectColor("Orange");
-		quiz.ClickNextw();
-		quiz.SelectTab("Fur");
-		quiz.ClickNextw();
-		quiz.Sleep(150);
-		quiz.SelectTab("Loose");
-		quiz.ClickNextw();
-		quiz.SelectTab("Loose");
-		quiz.ClickNextw();
-		quiz.SelectJeans("Flair");
-		quiz.SelectJeans("Skinny");
-		quiz.ClickNextw();
-		quiz.SelectTab("Never");
-		quiz.SelectTab("Gold");
-		quiz.SelectTab("Black");
-		quiz.ClickNextw();
-		quiz.SelectHighlights("Legs");
-		quiz.SelectHighlights("Back");
-		quiz.ClickNextw();
-		quiz.SelectTab("Close to my style");
-		quiz.SelectTab("Healthy mix of both");
-		quiz.SelectCC("Tops");
-		quiz.SelectCC("Hats");
-		quiz.ClickNextw();
-		quiz.ClickAddFullBody();
-		QuizPage.AcceptAlert();
-		quiz.Sleep(250);
-		quiz.SelectCategory("shorts");
-		quiz.Sleep(250);
-		quiz.SelectCategory("pants");
-		quiz.Sleep(250);
-		quiz.SelectImage2(250,450);
-		quiz.SelectImage2(100,200);
-		quiz.SelectImage2(150,250);
-		quiz.ClickNextw();
-		quiz.Sleep(250);
-		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Mika RIssy']"));
-		quiz.ClickBackButton();
-		quiz.ClickStylistTab();
-	}
-	@Test(priority = 7,groups={"sanity-group"})
-	public void SelectEvents2() 
+	public void CompileBooking()
 	{
 		CeckOutPage co = new CeckOutPage(driver);
-		//co.CheckIfElementEnabled("//*[@name='selectButtonID']");
-		co.ClickSelectStylist();
-		//co.CheckIfElementEnabled("//*[@name='selectButtonID']");
-		co.ClickSelectStylist();
-		co.ClickPlus("1");
-		co.ClickPlus("2");
-		co.ClickPlus("3");
-		co.ClickclosetButton();
-		co.ClickmixButton();
-		co.Sleep(200);
-		co.ClickstartCheckoutButton();
-	}
-	@Test(priority = 8,groups={"sanity-group"})
-	public void SelectSession2()
-	{
-		CeckOutPage co = new CeckOutPage(driver);
-		co.ClickMonthButton();
-		co.ClickSingleButton();
-		//co.ClickMonthButton();
-		co.Sleep(100);
-		//co.scrollDownXpath();
-		co.ClickAddCode();
-		co.FillCode("wishitest");
-		co.Sleep(200);
-		co.ClickDoneOfCode();
-		co.ClickApplePayButton();
+		co.Fillemail("jhgjhg@fgcgf.jg");
+		co.Fillnumbercard("4242424242424242424242");
+		co.ClickCompileBooking();
 		co.ClickTakeYourStyleQwiz();
-	}
-	@Test(priority = 9,groups={"sanity-group"})
-	public void MadeQuiz2() 
-	{
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectTab("Loose");
 		quiz.ClickNextw();
-		quiz.SelectTab("Loose");
+		quiz.ClickNOtNow();
+		quiz.SelectTab("Oversized");
 		quiz.ClickNextw();
 		quiz.SelectJeans("Skinny");
 		quiz.ClickNextw();
 		quiz.SelectCC("Tops");
 		quiz.SelectCC("Hats");
 		quiz.ClickNextw();
-		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Mika RIssy']"));
-	}
+		quiz.Sleep(200);
+		CeckOutPage.DismissAlert();
+		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
 
+	}
 }

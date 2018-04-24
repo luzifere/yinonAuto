@@ -46,6 +46,6 @@ public class SignUpTest extends BaseTest
 	
 		SignUpPage sign = new SignUpPage(driver);
 		sign.doSignUpClear("wishsi", "wishsi","wishitesttt@wishi.com" + number, "123456");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='how_it_works_heart']"));
+		Assert.assertTrue(sign.ElementEnable("//*[@name='HowItWorksID']"));
 	}
 }

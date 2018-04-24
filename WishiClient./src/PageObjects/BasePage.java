@@ -319,7 +319,7 @@ public class BasePage
 	public void SelectImage3(int x,int y) 
 	{
 		TouchAction action = new TouchAction (BasePage.driver);
-		action.press(x,y).perform();
+		action.tap(x, y).perform();
 	}
 	
 }

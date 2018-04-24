@@ -160,6 +160,7 @@ public class EditStyleForMenTests extends BaseTest
 		setting.ClickToolBarDone();
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
+		setting.Sleep(300);
 		Assert.assertTrue(setting.ElementDisplay("//*[@value='200']"));
 	}
 	@Test(priority = 9,groups={"sanity-group"})
@@ -186,17 +187,23 @@ public class EditStyleForMenTests extends BaseTest
 		setting.SelectFromPicker("Close to my style");
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
+		setting.scrollDownXpath();
+		setting.scrollDownXpath();
 		Assert.assertTrue(setting.ElementDisplay("//*[@name='Close to my style']"));
 	}
 	@Test(priority = 11,groups={"sanity-group"})
 	public void EditSocialMedia() 
 	{
 		SettingPage setting = new SettingPage(driver);
+		setting.scrollDownXpath();
+		setting.scrollDownXpath();
 		setting.ClickSocialMedia();
 		setting.FillPrinterest("printrest");
 		setting.ClickDone();
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
+		setting.scrollDownXpath();
+		setting.scrollDownXpath();
 		Assert.assertTrue(setting.ElementEnable("//*[@name='setting_pinterestboard']"));
 		setting.ClickSocialMedia();
 		setting.ClearPrinterest();
@@ -204,6 +211,8 @@ public class EditStyleForMenTests extends BaseTest
 		setting.ClickDone();
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
+		setting.scrollDownXpath();
+		setting.scrollDownXpath();
 		Assert.assertTrue(setting.ElementEnable("//*[@name='setting_instagram']"));
 		setting.ClickSocialMedia();
 		setting.ClearInstegram();
@@ -211,6 +220,8 @@ public class EditStyleForMenTests extends BaseTest
 		setting.ClickDone();
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
+		setting.scrollDownXpath();
+		setting.scrollDownXpath();
 		Assert.assertTrue(setting.ElementEnable("//*[@name='setting_facebook']"));
 		setting.ClickBackButton();
 		//setting.ClickBrands();

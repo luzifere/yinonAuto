@@ -42,6 +42,7 @@ public class FacbookPage extends BasePage {
 	{
 		
 		click(ConnectWithFacbook);
+		BasePage.AcceptAlert();
 		Sleep(500);
 		ContextToWebView();
 		filltextclear(UserOfFacbook, "yinon@luzifere11.me");
