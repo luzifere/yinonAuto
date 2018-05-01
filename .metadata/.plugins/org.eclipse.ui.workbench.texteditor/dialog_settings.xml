@@ -2,12 +2,18 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="client101@wishi.com" key="selection"/>
+		<item value="client102" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="client101"/>
+			<item value="SendButtonClient"/>
+			<item value="sendButtonID"/>
+			<item value="send"/>
+			<item value="Random num = new Random();"/>
+			<item value="wishitestftt"/>
 			<item value="client100@wishi.com"/>
 			<item value="client100@wishi.com&#x09;"/>
 			<item value="clientttt.booking@wishi.com"/>
@@ -17,14 +23,10 @@
 			<item value="stylistttt"/>
 			<item value="exp"/>
 			<item value="ex"/>
-			<item value="done"/>
-			<item value="tool"/>
-			<item value="acc"/>
-			<item value="search"/>
-			<item value="more"/>
-			<item value="code"/>
 		</list>
 		<list key="replacehistory">
+			<item value="client102"/>
+			<item value="wishitest.best"/>
 			<item value="client101@wishi.com"/>
 			<item value="client100@wishi.com"/>
 			<item value="client100@wishi.com&#x09;"/>

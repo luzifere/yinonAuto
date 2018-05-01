@@ -171,6 +171,14 @@ public class EditStyleForMenTests extends BaseTest
 		setting.SelectFromPicker("Black");
 		setting.SelectFromPicker("Green");
 		setting.ClickDoneOfPicker();
+		setting.ClickBackButton();
+		setting.ClickEditStyleTab();
+		Assert.assertTrue(setting.ElementEnable("//*[@name='Black']"));
+	}
+	@Test(priority = 10,groups={"sanity-group"})
+	public void EditJewelry() 
+	{
+		SettingPage setting = new SettingPage(driver);
 		setting.ClickJewelry();
 		setting.SelectFromPicker("Silver");
 		setting.SelectFromPicker("Black");
@@ -179,7 +187,7 @@ public class EditStyleForMenTests extends BaseTest
 		setting.ClickEditStyleTab();
 		Assert.assertTrue(setting.ElementDisplay("//*[@name='Silver, Black']"));
 	}
-	@Test(priority = 10,groups={"sanity-group"})
+	@Test(priority = 11,groups={"sanity-group"})
 	public void EditZone() 
 	{
 		SettingPage setting = new SettingPage(driver);
@@ -191,7 +199,21 @@ public class EditStyleForMenTests extends BaseTest
 		setting.scrollDownXpath();
 		Assert.assertTrue(setting.ElementDisplay("//*[@name='Close to my style']"));
 	}
-	@Test(priority = 11,groups={"sanity-group"})
+	@Test(priority = 12,groups={"sanity-group"})
+	public void EditBrands() 
+	{
+		SettingPage setting = new SettingPage(driver);
+		setting.scrollDownXpath();
+		setting.ClickBrands();
+		setting.SelectFromPicker("GAP");
+		setting.ClickDoneOfPicker();
+		setting.ClickBackButton();
+		setting.ClickEditStyleTab();
+		setting.scrollDownXpath();
+		setting.scrollDownXpath();
+		Assert.assertTrue(setting.ElementDisplay("//*[contains(@name,'GAP')]"));
+	}
+	@Test(priority = 13,groups={"sanity-group"})
 	public void EditSocialMedia() 
 	{
 		SettingPage setting = new SettingPage(driver);

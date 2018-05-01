@@ -76,7 +76,7 @@ public class BookingPage extends BasePage {
 	WebElement SendButton;
 	@FindBy(xpath="//*[@name='WriteMessageID']")
 	WebElement WriteMessageClient;
-	@FindBy(xpath="//*[@name='sendButtonID']")
+	@FindBy(xpath="//*[@name='SendButtonID']")
 	WebElement SendButtonClient;
 	@FindBy(xpath="//*[@name='closeButtonID']")
 	WebElement CloseButton;
@@ -119,9 +119,42 @@ public class BookingPage extends BasePage {
 		Sleep(250);
 
 	}
-	public void ClickReviseLook() 
+	public void ClickReviseLookStylist() 
+	{
+		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Revise Look']"));
+		System.out.println(elements);
+		int count=elements.size();
+		elements.get(count-1).click();
+		Sleep(350);
+
+	}
+	public void SelectImageForRevise2(String image)
+    {
+    	String ImageElemet = ("(//*[@name='ReviseImageID'])[text1]");
+    	ImageElemet = ImageElemet.replace("text1", image);
+    	WebElement ImageButton = driver.findElement(By.xpath(ImageElemet));
+    	click(ImageButton);
+    } 
+	public void SelectImageForRevise()
+    {
+		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='ReviseImageID']"));
+		System.out.println(elements);
+		int count=elements.size();
+		elements.get(count-1).click();
+		Sleep(350);
+    }
+	public void ClickReviseLookClient() 
 	{
 		List<WebElement> elements= driver.findElements(By.xpath("//*[@name=concat('I', \"'\", 'd like to revise the look')]"));
+		System.out.println(elements);
+		int count=elements.size();
+		elements.get(count-1).click();
+		Sleep(350);
+
+	}
+	public void ClickSendReviseClient() 
+	{
+		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='SendButtonID']"));
 		System.out.println(elements);
 		int count=elements.size();
 		elements.get(count-1).click();
@@ -139,7 +172,7 @@ public class BookingPage extends BasePage {
 	}
 	public void ApproveEndSession() 
 	{
-		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Yes, thanks!']"));
+		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='YesThanksButtonID']"));
 		System.out.println(elements);
 		int count=elements.size();
 		Sleep(500);
@@ -160,6 +193,12 @@ public class BookingPage extends BasePage {
 	{		
 		Sleep(150);
 		click(SendMoodBoard);
+		Sleep(600);
+	}
+	public void ClickSendReviseClient1() 
+	{		
+		Sleep(150);
+		click(SendButtonClient);
 		Sleep(600);
 	}
 	public void ClickSendEndSession() 

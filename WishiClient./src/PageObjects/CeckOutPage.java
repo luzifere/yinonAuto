@@ -38,7 +38,7 @@ public class CeckOutPage extends BasePage
 	WebElement compilebooking;
 	@FindBy(xpath="//XCUIElementTypeStaticText[@name=\"Pay with Credit Card \"]")
 	WebElement credit;
-	@FindBy(xpath="//*[@value='1234567812345678']")
+	@FindBy(xpath="//*[@name='stripeTextFieldID']")
 	WebElement cardnumber;
 	//@FindBy(xpath="//*[@name='Not Now']")
 	@FindBy(id="Not Now")

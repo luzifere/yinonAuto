@@ -204,6 +204,9 @@ public class EditStyleForWomenTests extends BaseTest
 		setting.SelectFromPicker("Black");
 		setting.SelectFromPicker("Green");
 		setting.ClickDoneOfPicker();
+		setting.ClickBackButton();
+		setting.ClickEditStyleTab();
+		Assert.assertTrue(setting.ElementEnable("//*[@name='Black']"));
 	}
 	@Test(priority = 12,groups={"sanity-group"})
 	public void EditJewelry() 
@@ -232,6 +235,20 @@ public class EditStyleForWomenTests extends BaseTest
 		Assert.assertTrue(setting.ElementDisplay("//*[@name='Close to my style']"));
 	}
 	@Test(priority = 14,groups={"sanity-group"})
+	public void EditBrands() 
+	{
+		SettingPage setting = new SettingPage(driver);
+		setting.scrollDownXpath();
+		setting.ClickBrands();
+		setting.SelectFromPicker("GAP");
+		setting.ClickDoneOfPicker();
+		setting.ClickBackButton();
+		setting.ClickEditStyleTab();
+		setting.scrollDownXpath();
+		setting.scrollDownXpath();
+		Assert.assertTrue(setting.ElementDisplay("//*[contains(@name,'GAP')]"));
+	}
+	@Test(priority = 15,groups={"sanity-group"})
 	public void EditSocialMedia() 
 	{
 		SettingPage setting = new SettingPage(driver);

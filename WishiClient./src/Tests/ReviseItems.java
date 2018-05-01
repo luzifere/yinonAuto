@@ -18,14 +18,14 @@ import PageObjects.QuizPage;
 import PageObjects.SearchPage;
 import PageObjects.SettingPage;
 
-public class BookingTest extends BaseTest
+public class ReviseItems extends BaseTest
 {
 	@Test(priority = 1,groups={"sanity-group"})
 	public void DoLogin() 
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client101@wishi.com");
+		login.Fillusername("client102@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -119,9 +119,12 @@ public class BookingTest extends BaseTest
 		booking.Sleep(200);
 		booking.ClickShop();
 		booking.ClickUpArrow();
-		booking.SelectImage3(250,450);
-		booking.SelectImage3(100,200);
-		booking.SelectImage3(150,250);
+		booking.SelectImage3(50,200);
+		booking.SelectImage3(100,250);
+		booking.SelectImage3(150,300);
+		booking.SelectImage3(200,350);
+		booking.SelectImage3(250,400);
+		booking.SelectImage3(300,450);
 		booking.ClickSave();
 		booking.FillDescription("moodboard1");
 		booking.ClickToolBarDone();
@@ -134,7 +137,7 @@ public class BookingTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client101@wishi.com");
+		login.Fillusername("client102@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -182,12 +185,12 @@ public class BookingTest extends BaseTest
 		driver.resetApp();
 	}
 	@Test(priority = 9,groups={"sanity-group"})
-	public void VerifyCreateLook() throws IOException 
+	public void AskReviseLook() throws IOException 
 	{
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client101@wishi.com");
+		login.Fillusername("client102@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -199,13 +202,74 @@ public class BookingTest extends BaseTest
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'look1')]"));
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
+		booking.ClickReviseLookClient();
+		booking.SelectImageForRevise();
+		booking.scrollDownXpath();
+		booking.ClickSendReviseClient();
+		driver.resetApp();
+		BaseTest.capabileties2();	
+
+	}
+	@Test(priority = 10,groups={"sanity-group"})
+	public void CreateReviseLook() throws IOException 
+	{
+		BaseTest.capabileties2();	
+		BookingPage booking = new BookingPage(driver);
+		booking.Sleep(250);
+		booking.ClickLoginStart();
+		booking.LoginStylistApp("stylist.booking@wishi.com", "123456");
+		booking.ClickLoginButton();
+		booking.Sleep(200);
+		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
+		booking.Sleep(200);
+		BasePage.AcceptAlert();
+		booking.Clickclose_menu4Button();
+		booking.ClickReviseLookStylist();
+		//driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		booking.Sleep(200);
+		booking.Clickclose_menu4Button();
+		booking.ClickShop();
+		booking.Sleep(200);
+		booking.ClickUpArrow();
+		booking.Sleep(200);
+		booking.SelectImage3(50,200);
+		booking.SelectImage3(100,250);
+		booking.SelectImage3(150,300);
+		booking.SelectImage3(200,350);
+		booking.SelectImage3(250,400);
+		booking.SelectImage3(300,450);
+		booking.Sleep(200);
+		booking.ClickSave();
+		booking.FillLookDescription("revise1");
+		booking.ClickToolBarDone();
+		booking.ClickLookSaveButton();
+		driver.resetApp();
+	}
+	@Test(priority = 11,groups={"sanity-group"})
+	public void VerifyCreateLook() throws IOException 
+	{
+		BaseTest.capabileties();
+		LoginPage login = new LoginPage(driver);
+		login.Clickloginbutton1();
+		login.Fillusername("client102@wishi.com");
+		login.Fillpassword("123456");
+		login.ClickLoginButton2();
+		login.Sleep(500);
+		LoginPage.DismissAlert();
+		login.Sleep(500);
+		login.SelectImage3(250,450);
+		ChatPage chat = new ChatPage(driver);
+		chat.ClickcChatTab();
+		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'revise1')]"));
+		chat.SelectStylist("//*[@name='stylist booking']");
+		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
 		booking.ClickLoveOutfit();
 		driver.resetApp();
 		BaseTest.capabileties2();	
 
 	}
-	@Test(priority = 10,groups={"sanity-group"})
+	@Test(priority = 12,groups={"sanity-group"})
 	public void CreateMoodBoard2() throws IOException 
 	{
 		BookingPage booking = new BookingPage(driver);
@@ -233,13 +297,13 @@ public class BookingTest extends BaseTest
 		booking.ClickSendMoodBoard();
 		driver.resetApp();
 	}
-	@Test(priority = 11,groups={"sanity-group"})
+	@Test(priority = 13,groups={"sanity-group"})
 	public void VerifyMoodBoard2() throws IOException 
 	{
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client101@wishi.com");
+		login.Fillusername("client102@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -255,7 +319,7 @@ public class BookingTest extends BaseTest
 		booking.ClickLoveItem();
 		driver.resetApp();
 	}
-	@Test(priority = 12,groups={"sanity-group"})
+	@Test(priority = 14,groups={"sanity-group"})
 	public void CreateLook2() throws IOException 
 	{
 		BaseTest.capabileties2();	
@@ -284,13 +348,13 @@ public class BookingTest extends BaseTest
 		booking.ClickLookSaveButton();
 		driver.resetApp();
 	}
-	@Test(priority = 13,groups={"sanity-group"})
+	@Test(priority = 15,groups={"sanity-group"})
 	public void VerifyCreateLook2() throws IOException 
 	{
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client101@wishi.com");
+		login.Fillusername("client102@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -308,7 +372,7 @@ public class BookingTest extends BaseTest
 		BaseTest.capabileties2();	
 
 	}
-	@Test(priority = 14,groups={"sanity-group"})
+	@Test(priority = 16,groups={"sanity-group"})
 	public void CreateMoodBoard3() throws IOException 
 	{
 		BookingPage booking = new BookingPage(driver);
@@ -336,13 +400,13 @@ public class BookingTest extends BaseTest
 		booking.ClickSendMoodBoard();
 		driver.resetApp();
 	}
-	@Test(priority = 15,groups={"sanity-group"})
+	@Test(priority = 17,groups={"sanity-group"})
 	public void VerifyMoodBoard3() throws IOException 
 	{
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client101@wishi.com");
+		login.Fillusername("client102@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -358,7 +422,7 @@ public class BookingTest extends BaseTest
 		booking.ClickLoveItem();
 		driver.resetApp();
 	}
-	@Test(priority = 16,groups={"sanity-group"})
+	@Test(priority = 18,groups={"sanity-group"})
 	public void CreateLook3() throws IOException 
 	{
 		BaseTest.capabileties2();	
@@ -387,13 +451,13 @@ public class BookingTest extends BaseTest
 		booking.ClickLookSaveButton();
 		driver.resetApp();
 	}
-	@Test(priority = 17,groups={"sanity-group"})
+	@Test(priority = 19,groups={"sanity-group"})
 	public void VerifyCreateLook3() throws IOException 
 	{
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client101@wishi.com");
+		login.Fillusername("client102@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -410,7 +474,7 @@ public class BookingTest extends BaseTest
 		driver.resetApp();	
 
 	}
-	@Test(priority = 18,groups={"sanity-group"})
+	@Test(priority = 20,groups={"sanity-group"})
 	public void EndSession() throws IOException 
 	{
 		BaseTest.capabileties2();	
@@ -428,13 +492,13 @@ public class BookingTest extends BaseTest
 		booking.ClickSendEndSession();
 		driver.resetApp();
 	}
-	@Test(priority = 19,groups={"sanity-group"})
+	@Test(priority = 21,groups={"sanity-group"})
 	public void ClientEndSession() throws IOException 
 	{
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client101@wishi.com");
+		login.Fillusername("client102@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -451,7 +515,7 @@ public class BookingTest extends BaseTest
 		booking.ClickSubmit();
 		driver.resetApp();
 	}
-	@Test(priority = 20,groups={"sanity-group"})
+	@Test(priority = 22,groups={"sanity-group"})
 	public void VerifyEndSession() throws IOException 
 	{
 

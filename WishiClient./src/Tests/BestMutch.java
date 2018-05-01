@@ -150,7 +150,6 @@ public class BestMutch extends BaseTest
 		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
 		driver.resetApp();
 	}
-	
 	@Test(priority = 5,groups={"sanity-group"})
 	public void BestMatchExpensiveMale() throws MalformedURLException
 	{

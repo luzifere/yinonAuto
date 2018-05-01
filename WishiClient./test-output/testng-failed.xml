@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="BestMutch(failed)">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="Tests.BestMutch">
+      <class name="Tests.EditStyleForMenTests">
         <methods>
           <include name="setup"/>
-          <include name="BestMatchCheepMale"/>
+          <include name="EditBrands"/>
         </methods>
-      </class> <!-- Tests.BestMutch -->
+      </class> <!-- Tests.EditStyleForMenTests -->
     </classes>
-  </test> <!-- BestMutch(failed) -->
-  <test name="EditStyleForWomenTests(failed)">
-    <classes>
-      <class name="Tests.EditStyleForWomenTests">
-        <methods>
-          <include name="EditBudget"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- Tests.EditStyleForWomenTests -->
-    </classes>
-  </test> <!-- EditStyleForWomenTests(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
