@@ -177,8 +177,10 @@ public class EditStyleForWomenTests extends BaseTest
 		SettingPage setting = new SettingPage(driver);
 		setting.ClickFabric();
 		setting.SelectFromPicker("Fur");
-		setting.SelectFromPicker("Wool");
 		setting.ClickDoneOfPicker();
+		setting.ClickBackButton();
+		setting.ClickEditStyleTab();
+		Assert.assertTrue(setting.ElementEnable("//*[@name='Fur']"));
 		setting.scrollDownXpath();
 	}
 	@Test(priority = 10,groups={"sanity-group"})
@@ -240,13 +242,15 @@ public class EditStyleForWomenTests extends BaseTest
 		SettingPage setting = new SettingPage(driver);
 		setting.scrollDownXpath();
 		setting.ClickBrands();
-		setting.SelectFromPicker("GAP");
+		setting.Sleep(200);
+		driver.findElement(By.xpath("(//*[@name='BrandViewID'])[6]")).click();
+		setting.Sleep(200);
 		setting.ClickDoneOfPicker();
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
 		setting.scrollDownXpath();
 		setting.scrollDownXpath();
-		Assert.assertTrue(setting.ElementDisplay("//*[contains(@name,'GAP')]"));
+		Assert.assertTrue(setting.ElementDisplay("//*[contains(@name,'Adidas')]"));
 	}
 	@Test(priority = 15,groups={"sanity-group"})
 	public void EditSocialMedia() 
@@ -277,13 +281,7 @@ public class EditStyleForWomenTests extends BaseTest
 		setting.ClickEditStyleTab();
 		setting.scrollDownXpath();
 		setting.scrollDownXpath();
-		Assert.assertTrue(setting.ElementEnable("//*[@name='setting_facebook']"));
-		setting.ClickBackButton();
-		//setting.ClickBrands();
-		//	setting.SelectImage2(177,741);
-		//setting.ClickDoneOfPicker();
-		//setting.ClickSocialMedia();
-		Assert.assertTrue(setting.ElementDisplay("//*[@name='Settings']"));
+		Assert.assertTrue(setting.ElementEnable("//*[@name='setting_facebook']"));		
 
 
 	}

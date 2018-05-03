@@ -25,7 +25,7 @@ public class ReviseItems extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client102@wishi.com");
+		login.Fillusername("client105@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -51,9 +51,6 @@ public class ReviseItems extends BaseTest
 	public void SelectEvents() 
 	{
 		CeckOutPage co = new CeckOutPage(driver);
-		//co.CheckIfElementEnabled("//*[@name='selectButtonID']");
-		co.ClickSelectStylist();
-		//co.CheckIfElementEnabled("//*[@name='selectButtonID']");
 		co.ClickSelectStylist();
 		co.ClickPlus("1");
 		co.ClickPlus("2");
@@ -137,7 +134,7 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client102@wishi.com");
+		login.Fillusername("client105@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -190,7 +187,7 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client102@wishi.com");
+		login.Fillusername("client105@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -251,7 +248,7 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client102@wishi.com");
+		login.Fillusername("client105@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -303,7 +300,7 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client102@wishi.com");
+		login.Fillusername("client105@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -354,7 +351,7 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client102@wishi.com");
+		login.Fillusername("client105@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -406,7 +403,7 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client102@wishi.com");
+		login.Fillusername("client105@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -457,7 +454,7 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client102@wishi.com");
+		login.Fillusername("client105@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -498,7 +495,7 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client102@wishi.com");
+		login.Fillusername("client105@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);

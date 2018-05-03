@@ -46,7 +46,7 @@ public class BestMutch extends BasePage
 	@FindBy(xpath="(//*[@name='InspireCellViewID'])[1]")
 	WebElement inspiration;
 	
-	@FindBy(xpath="(//*[@name='BrandsCellViewID'])[1]")
+	@FindBy(xpath="(//*[@name='BrandsCellViewID'])[2]")
 	WebElement Brands;
 	
 	@FindBy(xpath="//*[@name='NextButtonID']")

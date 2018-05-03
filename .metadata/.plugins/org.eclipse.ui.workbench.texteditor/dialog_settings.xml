@@ -2,13 +2,15 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="client102" key="selection"/>
+		<item value="Select" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="select"/>
 			<item value="client101"/>
+			<item value="client102"/>
 			<item value="SendButtonClient"/>
 			<item value="sendButtonID"/>
 			<item value="send"/>
@@ -21,10 +23,10 @@
 			<item value="clienttt"/>
 			<item value="stylisttt"/>
 			<item value="stylistttt"/>
-			<item value="exp"/>
-			<item value="ex"/>
 		</list>
 		<list key="replacehistory">
+			<item value="client105"/>
+			<item value="client104"/>
 			<item value="client102"/>
 			<item value="wishitest.best"/>
 			<item value="client101@wishi.com"/>

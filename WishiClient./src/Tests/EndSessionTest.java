@@ -18,14 +18,14 @@ import PageObjects.QuizPage;
 import PageObjects.SearchPage;
 import PageObjects.SettingPage;
 
-public class BookingTest extends BaseTest
+public class EndSessionTest extends BaseTest
 {
 	@Test(priority = 1,groups={"sanity-group"})
 	public void DoLogin() 
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client101@wishi.com");
+		login.Fillusername("client104@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -51,9 +51,6 @@ public class BookingTest extends BaseTest
 	public void SelectEvents() 
 	{
 		CeckOutPage co = new CeckOutPage(driver);
-		//co.CheckIfElementEnabled("//*[@name='selectButtonID']");
-		co.ClickSelectStylist();
-		//co.CheckIfElementEnabled("//*[@name='selectButtonID']");
 		co.ClickSelectStylist();
 		co.ClickPlus("1");
 		co.ClickPlus("2");
@@ -134,7 +131,7 @@ public class BookingTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client101@wishi.com");
+		login.Fillusername("client104@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -187,7 +184,7 @@ public class BookingTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client101@wishi.com");
+		login.Fillusername("client104@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -239,7 +236,7 @@ public class BookingTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client101@wishi.com");
+		login.Fillusername("client104@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -290,7 +287,7 @@ public class BookingTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client101@wishi.com");
+		login.Fillusername("client104@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -342,7 +339,7 @@ public class BookingTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client101@wishi.com");
+		login.Fillusername("client104@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -393,7 +390,7 @@ public class BookingTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client101@wishi.com");
+		login.Fillusername("client104@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -434,7 +431,7 @@ public class BookingTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client101@wishi.com");
+		login.Fillusername("client104@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);

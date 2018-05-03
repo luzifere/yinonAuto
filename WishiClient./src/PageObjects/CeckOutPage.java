@@ -1,5 +1,7 @@
 package PageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -25,7 +27,7 @@ public class CeckOutPage extends BasePage
 	WebElement BackButton;
 	//@FindBy(xpath="//*[@name='selectButtonID']")
 	@FindBy(id="selectButtonID")
-	WebElement SelectStylistButton;
+	WebElement SelectStylistButton;//*[@name='selectButtonID']
 	@FindBy(id="Add Code")
 	WebElement addcode;
 	@FindBy(id="ApplePayButtonID")
@@ -159,10 +161,18 @@ public class CeckOutPage extends BasePage
 		click(SelectSingleButton);
 		//Sleep(150);
 	}public void ClickSelectStylist() 
-	{		
-		//Sleep(150);
+	{	
 		click(SelectStylistButton);
-		//Sleep(150);
+		click(SelectStylistButton);
+
+		//driver.findElement(By.xpath("(//*[@name='selectButtonID'])[2]")).click();
+		/*
+		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='selectButtonID']"));
+		System.out.println(elements);
+		int count=elements.size();
+		elements.get(count-1).click();
+		Sleep(250);
+		*/
 	}
 
 	public void ClickpurcaseButton() 

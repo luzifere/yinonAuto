@@ -41,9 +41,6 @@ public class QuickQuizForMenTest extends BaseTest
 	public void SelectEvents() 
 	{
 		CeckOutPage co = new CeckOutPage(driver);
-		//co.CheckIfElementEnabled("//*[@name='selectButtonID']");
-		co.ClickSelectStylist();
-		//co.CheckIfElementEnabled("//*[@name='selectButtonID']");
 		co.ClickSelectStylist();
 		co.ClickPlus("1");
 		co.ClickPlus("2");

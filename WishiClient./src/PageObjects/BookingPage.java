@@ -193,7 +193,7 @@ public class BookingPage extends BasePage {
 	{		
 		Sleep(150);
 		click(SendMoodBoard);
-		Sleep(600);
+		Sleep(800);
 	}
 	public void ClickSendReviseClient1() 
 	{		
