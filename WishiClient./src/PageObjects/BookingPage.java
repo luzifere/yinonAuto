@@ -124,6 +124,7 @@ public class BookingPage extends BasePage {
 		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Revise Look']"));
 		System.out.println(elements);
 		int count=elements.size();
+		Sleep(350);
 		elements.get(count-1).click();
 		Sleep(350);
 
@@ -193,7 +194,7 @@ public class BookingPage extends BasePage {
 	{		
 		Sleep(150);
 		click(SendMoodBoard);
-		Sleep(800);
+		Sleep(1000);
 	}
 	public void ClickSendReviseClient1() 
 	{		
@@ -211,7 +212,7 @@ public class BookingPage extends BasePage {
 	{		
 		Sleep(200);
 		click(LookSaveButton);
-		Sleep(600);
+		Sleep(1000);
 	}
 	public void RateStylist()
 	{		

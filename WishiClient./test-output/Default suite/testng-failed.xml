@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.EditStyleForWomenTests">
+      <class name="Tests.ReviseThirdLookTest">
         <methods>
-          <include name="EditBrands"/>
+          <include name="VerifyEndSession"/>
+          <include name="VerifyCreateRevise2"/>
+          <include name="ClientEndSession"/>
           <include name="setup"/>
-          <include name="EditSocialMedia"/>
+          <include name="EndSession"/>
+          <include name="VerifyCreateLook3"/>
+          <include name="ReviseLook"/>
+          <include name="ReviseLook2"/>
+          <include name="VerifyCreateRevise1"/>
         </methods>
-      </class> <!-- Tests.EditStyleForWomenTests -->
+      </class> <!-- Tests.ReviseThirdLookTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
