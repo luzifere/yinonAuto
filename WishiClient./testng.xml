@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-
-<test thread-count="5" name="EndSessionTest">
+<test thread-count="5" name="ReviseThirdLookTest">
     <classes>
-      <class name="Tests.EndSessionTest"/>
+      <class name="Tests.ReviseThirdLookTest"/>
     </classes>
   </test> <!-- Test -->
   <test thread-count="5" name="BestMutch">
@@ -45,6 +44,11 @@
   <test thread-count="5" name="LoginTests">
     <classes>
       <class name="Tests.LoginTests"/>
+    </classes>
+  </test> <!-- Test --> 
+<test thread-count="5" name="EndSessionTest">
+    <classes>
+      <class name="Tests.EndSessionTest"/>
     </classes>
   </test> <!-- Test -->
   <test thread-count="5" name="QuickQuizForWomenTest">

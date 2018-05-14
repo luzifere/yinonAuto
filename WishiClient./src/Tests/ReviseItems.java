@@ -25,7 +25,7 @@ public class ReviseItems extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client105@wishi.com");
+		login.Fillusername("client110@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -37,15 +37,14 @@ public class ReviseItems extends BaseTest
 	public void SearchStylist() 
 	{
 		SearchPage search = new SearchPage(driver);
-		search.SelectImage2(250,450);
+		//search.SelectImage2(250,450);
 		//search.scrollDownXpath();
 		//search.ScrollLeft();
 		//search.ScrollLeft();
 		//search.ScrollLeft();
 		search.ClickSearch();
 		search.FillStylist("Stylist Booking");
-		search.SelectStylist();
-		//search.SelectviewProfileID();
+		search.SelectStylist("//*[@name='stylist booking']");
 	}	
 	@Test(priority = 3,groups={"sanity-group"})
 	public void SelectEvents() 
@@ -116,12 +115,13 @@ public class ReviseItems extends BaseTest
 		booking.Sleep(200);
 		booking.ClickShop();
 		booking.ClickUpArrow();
-		booking.SelectImage3(50,200);
-		booking.SelectImage3(100,250);
-		booking.SelectImage3(150,300);
-		booking.SelectImage3(200,350);
-		booking.SelectImage3(250,400);
-		booking.SelectImage3(300,450);
+		QuizPage quiz = new QuizPage(driver);
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
+		quiz.SelectCategory("shorts");
+		quiz.Sleep(250);
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
 		booking.ClickSave();
 		booking.FillDescription("moodboard1");
 		booking.ClickToolBarDone();
@@ -134,13 +134,13 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client105@wishi.com");
+		login.Fillusername("client110@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
 		LoginPage.DismissAlert();
 		login.Sleep(500);
-		login.SelectImage3(250,450);
+		//login.SelectImage3(250,450);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'moodboard1')]"));
@@ -172,9 +172,13 @@ public class ReviseItems extends BaseTest
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
 		booking.ClickUpArrow();
-		booking.SelectImage3(250,450);
-		booking.SelectImage3(100,200);
-		booking.SelectImage3(150,250);
+		QuizPage quiz = new QuizPage(driver);
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
+		quiz.SelectCategory("shorts");
+		quiz.Sleep(250);
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
 		booking.ClickSave();
 		booking.FillLookDescription("look1");
 		booking.ClickToolBarDone();
@@ -187,13 +191,13 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client105@wishi.com");
+		login.Fillusername("client110@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
 		LoginPage.DismissAlert();
 		login.Sleep(500);
-		login.SelectImage3(250,450);
+		//login.SelectImage3(250,450);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'look1')]"));
@@ -226,15 +230,20 @@ public class ReviseItems extends BaseTest
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
 		booking.Sleep(200);
+		/*
 		booking.ClickUpArrow();
-		booking.Sleep(200);
-		booking.SelectImage3(50,200);
-		booking.SelectImage3(100,250);
-		booking.SelectImage3(150,300);
-		booking.SelectImage3(200,350);
-		booking.SelectImage3(250,400);
-		booking.SelectImage3(300,450);
-		booking.Sleep(200);
+		QuizPage quiz = new QuizPage(driver);
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
+		quiz.SelectCategory("shorts");
+		quiz.Sleep(250);
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
+		quiz.Sleep(250);
+		quiz.SelectCategory("pants");
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
+		*/
 		booking.ClickSave();
 		booking.FillLookDescription("revise1");
 		booking.ClickToolBarDone();
@@ -247,13 +256,13 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client105@wishi.com");
+		login.Fillusername("client110@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
 		LoginPage.DismissAlert();
 		login.Sleep(500);
-		login.SelectImage3(250,450);
+	//	login.SelectImage3(250,450);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'revise1')]"));
@@ -284,7 +293,10 @@ public class ReviseItems extends BaseTest
 		booking.ClickShop();
 		booking.ClickUpArrow();
 		QuizPage quiz = new QuizPage(driver);
-		quiz.SelectImage3(250,450);
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
+		quiz.SelectCategory("shorts");
+		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
 		booking.ClickSave();
@@ -299,13 +311,13 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client105@wishi.com");
+		login.Fillusername("client110@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
 		LoginPage.DismissAlert();
 		login.Sleep(500);
-		login.SelectImage3(250,450);
+		//login.SelectImage3(250,450);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'moodboard2')]"));
@@ -335,9 +347,13 @@ public class ReviseItems extends BaseTest
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
 		booking.ClickUpArrow();
-		booking.SelectImage3(250,450);
-		booking.SelectImage3(100,200);
-		booking.SelectImage3(150,250);
+		QuizPage quiz = new QuizPage(driver);
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
+		quiz.SelectCategory("shorts");
+		quiz.Sleep(250);
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
 		booking.ClickSave();
 		booking.FillLookDescription("look2");
 		booking.ClickToolBarDone();
@@ -350,16 +366,82 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client105@wishi.com");
+		login.Fillusername("client110@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
 		LoginPage.DismissAlert();
 		login.Sleep(500);
-		login.SelectImage3(250,450);
+		//login.SelectImage3(250,450);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'look2')]"));
+		chat.SelectStylist("//*[@name='stylist booking']");
+		BookingPage booking = new BookingPage(driver);
+		booking.ClickReviseLookClient();
+		booking.SelectImageForRevise();
+		booking.scrollDownXpath();
+		booking.ClickSendReviseClient();
+		driver.resetApp();
+		BaseTest.capabileties2();	
+
+	}
+	@Test(priority = 16,groups={"sanity-group"})
+	public void CreateReviseLook2() throws IOException 
+	{
+		BaseTest.capabileties2();	
+		BookingPage booking = new BookingPage(driver);
+		booking.Sleep(250);
+		booking.ClickLoginStart();
+		booking.LoginStylistApp("stylist.booking@wishi.com", "123456");
+		booking.ClickLoginButton();
+		booking.Sleep(200);
+		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
+		booking.Sleep(200);
+		BasePage.AcceptAlert();
+		booking.Clickclose_menu4Button();
+		booking.ClickReviseLookStylist();
+		//driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		booking.Sleep(200);
+		booking.Clickclose_menu4Button();
+		booking.ClickShop();
+		booking.Sleep(200);
+		/*
+		booking.ClickUpArrow();
+		QuizPage quiz = new QuizPage(driver);
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
+		quiz.SelectCategory("shorts");
+		quiz.Sleep(250);
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
+		quiz.Sleep(250);
+		quiz.SelectCategory("pants");
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
+		*/
+		booking.ClickSave();
+		booking.FillLookDescription("revise2");
+		booking.ClickToolBarDone();
+		booking.ClickLookSaveButton();
+		driver.resetApp();
+	}
+	@Test(priority = 17,groups={"sanity-group"})
+	public void VerifyCreateLookrevise2() throws IOException 
+	{
+		BaseTest.capabileties();
+		LoginPage login = new LoginPage(driver);
+		login.Clickloginbutton1();
+		login.Fillusername("client110@wishi.com");
+		login.Fillpassword("123456");
+		login.ClickLoginButton2();
+		login.Sleep(500);
+		LoginPage.DismissAlert();
+		login.Sleep(500);
+		//login.SelectImage3(250,450);
+		ChatPage chat = new ChatPage(driver);
+		chat.ClickcChatTab();
+		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'revise2')]"));
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
@@ -368,7 +450,8 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties2();	
 
 	}
-	@Test(priority = 16,groups={"sanity-group"})
+	/*
+	@Test(priority = 18,groups={"sanity-group"})
 	public void CreateMoodBoard3() throws IOException 
 	{
 		BookingPage booking = new BookingPage(driver);
@@ -387,7 +470,10 @@ public class ReviseItems extends BaseTest
 		booking.ClickShop();
 		booking.ClickUpArrow();
 		QuizPage quiz = new QuizPage(driver);
-		quiz.SelectImage3(250,450);
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
+		quiz.SelectCategory("shorts");
+		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
 		booking.ClickSave();
@@ -402,7 +488,7 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client105@wishi.com");
+		login.Fillusername("client110@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -438,9 +524,13 @@ public class ReviseItems extends BaseTest
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
 		booking.ClickUpArrow();
-		booking.SelectImage3(250,450);
-		booking.SelectImage3(100,200);
-		booking.SelectImage3(150,250);
+		QuizPage quiz = new QuizPage(driver);
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
+		quiz.SelectCategory("shorts");
+		quiz.Sleep(250);
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
 		booking.ClickSave();
 		booking.FillLookDescription("look3");
 		booking.ClickToolBarDone();
@@ -453,7 +543,7 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client105@wishi.com");
+		login.Fillusername("client110@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -494,7 +584,7 @@ public class ReviseItems extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client105@wishi.com");
+		login.Fillusername("client110@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -530,4 +620,5 @@ public class ReviseItems extends BaseTest
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'Session Ended, payment sent')]"));
 
 	}
+	*/
 }

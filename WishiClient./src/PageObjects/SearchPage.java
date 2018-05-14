@@ -1,5 +1,6 @@
 package PageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -16,6 +17,8 @@ public class SearchPage extends BasePage
 	WebElement CloseButton;
 	@FindBy(id="search button")
 	WebElement SearchButton;
+	@FindBy(id="stylistNameLabelID")
+	WebElement StylistNameID;
 	@FindBy(id="closeButtonID")
 	WebElement CloseSearch;
 	@FindBy(id="clearButtonID")
@@ -53,11 +56,28 @@ public class SearchPage extends BasePage
 		click(ClearSearch);
 		//Sleep(150);
 	}
-	public void SelectStylist() 
+	public void SelectStylist(String event) 
 	{		
 		//Sleep(150);
 		click(StylistName);
-		//Sleep(150);
+		Sleep(300);
+		click(StylistNameID);
+		//driver.findElement(By.id("stylistNameLabelID").click();
+		Sleep(250);
+		/*
+    	String StylistElemet = ("text");
+    	StylistElemet = StylistElemet.replace("text", event);
+    	WebElement StylistButton = driver.findElement(By.xpath(StylistElemet));
+    	Sleep(250);
+    	System.out.println(StylistButton);
+    	click(StylistButton);
+    	*/
+    	
+    	
+    	
+
+		
+		//click(SelectStylistButton);
 	}
 	public void SelectviewProfileID() 
 	{		

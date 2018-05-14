@@ -27,14 +27,14 @@ public class QuickQuizForWomenTest extends BaseTest
 	public void SearchStylist() 
 	{
 		SearchPage search = new SearchPage(driver);
-		search.SelectImage2(250,450);
+		//search.SelectImage2(250,450);
 		//search.scrollDownXpath();
 		//search.ScrollLeft();
 		//search.ScrollLeft();
 		//search.ScrollLeft();
 		search.ClickSearch();
 		search.FillStylist("Oren Oren");
-		search.SelectStylist();
+		search.SelectStylist("//*[@name='Oren Oren']");
 		//search.SelectviewProfileID();
 	}	
 	@Test(priority = 3,groups={"sanity-group"})

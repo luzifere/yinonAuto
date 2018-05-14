@@ -10,31 +10,36 @@ import PageObjects.SignUpPage;
 
 public class SignUpTest extends BaseTest
 {
-	@Test(priority = 1,groups={"sanity-group"})
+	@Test(priority = 2,groups={"sanity-group"})
 	public void Signupwithoutshtudel()
 	{
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUp("wishsi", "Last", "yinonwishi.me", "156523784");
+		sign.doSignUpEmailClear("yinonwishi.me");
 		Assert.assertTrue(sign.ElementDisplay("//*[@name='Dismiss']"));
 		sign.ClickDismiss();
+		driver.resetApp();
 	}
-	@Test(priority = 2,groups={"sanity-group"})
+	@Test(priority = 1,groups={"sanity-group"})
 	public void SignupwithoutDotCom()
 	{
 		SignUpPage sign = new SignUpPage(driver);
-		sign.doSignUpClear("wishsi", "wishsi", "wishsi@mecom", "123456");
+		sign.ClickSignUpEmail();
+		sign.doSignUpEmailClear("wishsi@mecom");
 		Assert.assertTrue(sign.ElementDisplay("//*[@name='Dismiss']"));
 		sign.ClickDismiss();
+		driver.resetApp();
 	}
 	@Test(priority = 3,groups={"sanity-group"})
 	public void FillPsswordWithLessthan6Characters()
 	{
 		SignUpPage sign = new SignUpPage(driver);
-		sign.doSignUpClear("wishsi", "wishsi", "wishsi@mecom", "456");
+		sign.ClickSignUpEmail();
+		sign.doSignUpClear("wishsi", "wishsi", "wishsi@me.com", "456");
 		Assert.assertTrue(sign.ElementDisplay("//*[@name='Dismiss']"));
 		sign.Sleep(150);
 		sign.ClickDismiss();
+		driver.resetApp();
 	}
 	@Test(priority = 4,groups={"sanity-group"})
 	public void DoSignUp()
@@ -45,7 +50,8 @@ public class SignUpTest extends BaseTest
 		number = num.nextInt(7000);
 	
 		SignUpPage sign = new SignUpPage(driver);
-		sign.doSignUpClear("wishsi", "wishsi","wishitesttt@wishi.com" + number, "123456");
+		sign.ClickSignUpEmail();
+		sign.doSignUpClear("wishsi", "wishsi",number +"wishitesttt@wishi.com", "123456");
 		Assert.assertTrue(sign.ElementEnable("//*[@name='HowItWorksID']"));
 	}
 }

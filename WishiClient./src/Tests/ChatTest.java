@@ -50,7 +50,7 @@ public class ChatTest extends BaseTest
 		LoginPage.AcceptAlert();
 		login.Sleep(200);
 		ChatPage chat1 = new ChatPage(driver);
-		chat1.SelectImage2(250,450);
+		//chat1.SelectImage2(250,450);
 		chat1.ClickcChatTab();
 		//driver.findElementByAccessibilityId("Chat").click();
 		chat1.SelectStylist("//*[@name='Stylist Chat']");
@@ -74,7 +74,7 @@ public class ChatTest extends BaseTest
 		LoginPage.AcceptAlert();
 		login.Sleep(100);
 		LoginPage.AcceptAlert();
-		login.SelectImage2(250,450);
+		//login.SelectImage2(250,450);
 		SettingPage setting = new SettingPage(driver);
 		setting.ClickMeTab();
 		ChatPage chat = new ChatPage(driver);

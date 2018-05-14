@@ -311,6 +311,11 @@ public class BasePage
 		TouchAction action = new TouchAction (BasePage.driver);
 		action.press (startX, startY).moveTo (endY,endX).release ().perform ();
 	}
+	public void SelectImage1(int x,int y) 
+	{
+		TouchAction action = new TouchAction (BasePage.driver);
+		action.press(x, y).perform();
+	}
 	public void SelectImage2(int x,int y) 
 	{
 		TouchAction action = new TouchAction (BasePage.driver);
@@ -321,6 +326,7 @@ public class BasePage
 		TouchAction action = new TouchAction (BasePage.driver);
 		action.tap(x, y).perform();
 	}
+	
 	
 }
 

@@ -26,7 +26,7 @@ public class QuizForWomenTest extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitestftt@wishi.com" + number, "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestftt@wishi.com" , "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -60,15 +60,15 @@ public class QuizForWomenTest extends BaseTest
 	{
 		SearchPage search = new SearchPage(driver);
 		//search.ClickCloseButton();
-		search.SelectImage2(250,450);
+		//search.SelectImage2(250,450);
 		//search.scrollDownXpath();
 		//search.ScrollLeft();
 		//search.ScrollLeft();
 		//search.ScrollLeft();
 		search.Sleep(200);
 		search.ClickSearch();
-		search.FillStylist("Mika Rissy");
-		search.SelectStylist();
+		search.FillStylist("Oren Oren");
+		search.SelectStylist("//*[@name='Oren Oren']");
 		//search.SelectviewProfileID();
 	}	
 	@Test(priority = 3,groups={"sanity-group"})

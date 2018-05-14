@@ -14,35 +14,53 @@ public class SignUpPage extends BasePage
 	}
 	@FindBy(id="signUpButton")
 	WebElement EmailSignUpButton;
-	@FindBy(xpath="//*[@name='FirstNameTextField']")
+	@FindBy(xpath="//*[@name='FirstNameTextFieldID']")
 	WebElement UserName;
-	@FindBy(xpath="//*[@name='LastNameTextField']")
+	@FindBy(xpath="//*[@name='LastNameTextFieldID']")
 	WebElement LastName;
-	@FindBy(xpath="//*[@name='EmailTextField']")
+	@FindBy(xpath="//*[@name='EmailTextFieldID']")
 	WebElement Email;
-	@FindBy(xpath="//*[@name='PasswordTextField']")
+	@FindBy(xpath="//*[@name='PasswordTextFieldID']")
 	WebElement Password;
-	@FindBy(xpath="//*[@name='signUpButton']")
+	@FindBy(xpath="//*[@name='SignUpButtonID']")
 	WebElement SignButon;
 	@FindBy(xpath="//*[@name='Dismiss']")
 	WebElement Dismiss;
 	@FindBy(xpath="//*[@name='Toolbar Next Button']")
 	WebElement NextButton;
+	@FindBy(xpath="//*[@name='NextButtonID']")
+	WebElement NextButtonEmail;
+	
+	
 	public void doSignUp(String uname,String lname,String email,String pass) 
 	{
+		Sleep(250);
+		filltext(Email,email);
+		click(NextButtonEmail);
+		Sleep(250);
 		filltext(UserName,uname);
 		filltext(LastName,lname);
-		filltext(Email,email);
 		filltext(Password,pass);
 		click(SignButon);
+		Sleep(250);
+		
+		
 	}
 	public void doSignUpClear(String uname,String lname,String email,String pass) 
 	{
+		filltextclear(Email,email);
+		click(NextButtonEmail);
+		Sleep(250);
 		filltextclear(UserName,uname);
 		filltextclear(LastName,lname);
-		filltextclear(Email,email);
 		filltextclear(Password,pass);
 		click(SignButon);
+	
+	}
+	public void doSignUpEmailClear(String email) 
+	{
+		filltextclear(Email,email);
+		click(NextButtonEmail);
 	}
 	public void ClickSignUpEmail() 
 	{

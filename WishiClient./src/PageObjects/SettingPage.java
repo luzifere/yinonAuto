@@ -223,9 +223,9 @@ public class SettingPage extends BasePage
 	}
 	public void ClickBudget() 
 	{		
-		Sleep(150);
+		Sleep(250);
 		click(Budget);
-		//Sleep(150);
+		Sleep(250);
 	}
 	public void ClickColor() 
 	{		

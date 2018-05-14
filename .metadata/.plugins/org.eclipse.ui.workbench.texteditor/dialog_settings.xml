@@ -2,34 +2,38 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="SelectImage3" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="SelectImage3"/>
+			<item value="SelectImage2"/>
+			<item value="search"/>
+			<item value="&quot;wishsi&quot;,&quot;wishitestftt@wishi.com&quot; + number"/>
+			<item value="+ number"/>
+			<item value="client105"/>
+			<item value="client103"/>
+			<item value="client102"/>
+			<item value="client101"/>
+			<item value="bud"/>
+			<item value="login"/>
 			<item value="&#x09;&#x09;quiz.SelectImage3(250,450);&#x0A;"/>
 			<item value="&#x09;&#x09;quiz.SelectImage3(250,450);"/>
-			<item value="client105"/>
 			<item value="look"/>
 			<item value="send"/>
-			<item value="client106"/>
-			<item value="client104"/>
-			<item value="revise"/>
-			<item value="select"/>
-			<item value="client101"/>
-			<item value="client102"/>
-			<item value="SendButtonClient"/>
-			<item value="sendButtonID"/>
-			<item value="Random num = new Random();"/>
-			<item value="wishitestftt"/>
 		</list>
 		<list key="replacehistory">
+			<item value="&quot;wishsi&quot;,&quot;wishitestftt@wishi.com&quot; + "/>
 			<item value=""/>
-			<item value="client106"/>
+			<item value="client110"/>
 			<item value="client105"/>
-			<item value="client104"/>
+			<item value="client103"/>
 			<item value="client102"/>
+			<item value="client101"/>
+			<item value="client106"/>
+			<item value="client104"/>
 			<item value="wishitest.best"/>
 			<item value="client101@wishi.com"/>
 			<item value="client100@wishi.com"/>
@@ -42,7 +46,7 @@
 		<item value="290" key="DIALOG_WIDTH"/>
 		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
 		<item value="409" key="DIALOG_HEIGHT"/>
-		<item value="1091" key="DIALOG_X_ORIGIN"/>
+		<item value="1105" key="DIALOG_X_ORIGIN"/>
 		<item value="127" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

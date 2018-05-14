@@ -21,7 +21,7 @@ public class BestMutch extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitest.best@wishi.com" + number, "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitest.best@wishi.com", "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -56,7 +56,7 @@ public class BestMutch extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitest.best@wishi.com" + number, "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitest.best@wishi.com" , "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -91,7 +91,7 @@ public class BestMutch extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitest.best@wishi.com" + number, "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitest.best@wishi.com" , "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -126,7 +126,7 @@ public class BestMutch extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitest.best@wishi.com" + number, "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitest.best@wishi.com" , "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -161,7 +161,7 @@ public class BestMutch extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitest.best@wishi.com" + number, "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitest.best@wishi.com" , "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -196,7 +196,7 @@ public class BestMutch extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitest.best@wishi.com" + number, "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitest.best@wishi.com" , "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -231,7 +231,7 @@ public class BestMutch extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitest.best@wishi.com" + number, "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitest.best@wishi.com" , "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();

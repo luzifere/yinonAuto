@@ -37,15 +37,14 @@ public class ReviseThirdLookTest extends BaseTest
 	public void SearchStylist() 
 	{
 		SearchPage search = new SearchPage(driver);
-		search.SelectImage2(250,450);
+		//search.SelectImage2(250,450);
 		//search.scrollDownXpath();
 		//search.ScrollLeft();
 		//search.ScrollLeft();
 		//search.ScrollLeft();
 		search.ClickSearch();
 		search.FillStylist("Stylist Booking");
-		search.SelectStylist();
-		//search.SelectviewProfileID();
+		search.SelectStylist("//*[@name='stylist booking']");
 	}	
 	@Test(priority = 3,groups={"sanity-group"})
 	public void SelectEvents() 
@@ -141,7 +140,7 @@ public class ReviseThirdLookTest extends BaseTest
 		login.Sleep(500);
 		LoginPage.DismissAlert();
 		login.Sleep(500);
-		login.SelectImage3(250,450);
+		//login.SelectImage3(250,450);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'moodboard1')]"));
@@ -198,7 +197,7 @@ public class ReviseThirdLookTest extends BaseTest
 		login.Sleep(500);
 		LoginPage.DismissAlert();
 		login.Sleep(500);
-		login.SelectImage3(250,450);
+	//	login.SelectImage3(250,450);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'look1')]"));
@@ -253,7 +252,7 @@ public class ReviseThirdLookTest extends BaseTest
 		login.Sleep(500);
 		LoginPage.DismissAlert();
 		login.Sleep(500);
-		login.SelectImage3(250,450);
+		//login.SelectImage3(250,450);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'moodboard2')]"));
@@ -308,7 +307,7 @@ public class ReviseThirdLookTest extends BaseTest
 		login.Sleep(500);
 		LoginPage.DismissAlert();
 		login.Sleep(500);
-		login.SelectImage3(250,450);
+		//login.SelectImage3(250,450);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'look2')]"));
@@ -363,7 +362,7 @@ public class ReviseThirdLookTest extends BaseTest
 		login.Sleep(500);
 		LoginPage.DismissAlert();
 		login.Sleep(500);
-		login.SelectImage3(250,450);
+		//login.SelectImage3(250,450);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'moodboard3')]"));
@@ -418,7 +417,7 @@ public class ReviseThirdLookTest extends BaseTest
 		login.Sleep(500);
 		LoginPage.DismissAlert();
 		login.Sleep(500);
-		login.SelectImage3(250,450);
+		//login.SelectImage3(250,450);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'look3')]"));
@@ -482,7 +481,7 @@ public class ReviseThirdLookTest extends BaseTest
 		login.Sleep(500);
 		LoginPage.DismissAlert();
 		login.Sleep(500);
-		login.SelectImage3(250,450);
+		//login.SelectImage3(250,450);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'revise1')]"));
@@ -522,6 +521,10 @@ public class ReviseThirdLookTest extends BaseTest
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
+		quiz.Sleep(250);
+		quiz.SelectCategory("pants");
+		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(150,250);
 		booking.ClickSave();
 		driver.findElement(By.xpath("//*[@name='Add an event']")).click();
 		driver.findElement(By.xpath("//*[@name='Party']")).click();
@@ -542,7 +545,7 @@ public class ReviseThirdLookTest extends BaseTest
 		login.Sleep(500);
 		LoginPage.DismissAlert();
 		login.Sleep(500);
-		login.SelectImage3(250,450);
+		//login.SelectImage3(250,450);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'revise2')]"));
@@ -584,7 +587,7 @@ public class ReviseThirdLookTest extends BaseTest
 		login.Sleep(500);
 		LoginPage.DismissAlert();
 		login.Sleep(500);
-		login.SelectImage3(250,450);
+		//login.SelectImage3(250,450);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
 		chat.SelectStylist("//*[@name='stylist booking']");
@@ -605,9 +608,9 @@ public class ReviseThirdLookTest extends BaseTest
 		booking.ClickLoginStart();
 		booking.LoginStylistApp("stylist.booking@wishi.com", "123456");
 		booking.ClickLoginButton();
-		booking.Sleep(200);
+		booking.Sleep(250);
 		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
-		booking.Sleep(200);
+		booking.Sleep(250);
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		ChatPage chat = new ChatPage(driver);

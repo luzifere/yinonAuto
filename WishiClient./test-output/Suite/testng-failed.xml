@@ -11,4 +11,17 @@
       </class> <!-- Tests.BestMutch -->
     </classes>
   </test> <!-- BestMutch(failed) -->
+  <test thread-count="5" name="CheckOutSingleTest(failed)">
+    <classes>
+      <class name="Tests.CheckOutSingleTest">
+        <methods>
+          <include name="CompileBooking"/>
+          <include name="SelectEvents"/>
+          <include name="setup"/>
+          <include name="SearchStylist"/>
+          <include name="SelectSession"/>
+        </methods>
+      </class> <!-- Tests.CheckOutSingleTest -->
+    </classes>
+  </test> <!-- CheckOutSingleTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

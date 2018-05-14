@@ -81,6 +81,7 @@ public class ChatPage extends BasePage {
 	{
 		Sleep(150);
 		click(ChatTab);
+		Sleep(250);
 	}
 	public void SelectStylist(String stylist)
     {
@@ -89,6 +90,7 @@ public class ChatPage extends BasePage {
     	StylistElemet = StylistElemet.replace("text", stylist);
     	WebElement StylistButton = driver.findElement(By.xpath(StylistElemet));
     	Sleep(250);
+    	System.out.println(StylistButton);
     	click(StylistButton);
     }
 	public void SelectTab(String tab)
@@ -131,8 +133,10 @@ public class ChatPage extends BasePage {
 	}
     public void ClickcChatTab() 
 	{
+    	Sleep(250);
 		click(ChatTab);
     	//driver.findElementByAccessibilityId("Chat").click();
+		Sleep(250);
 	}
 
 }

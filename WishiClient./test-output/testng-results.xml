@@ -1,139 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="24" passed="24">
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2533314" started-at="2018-05-04T05:38:08Z" finished-at="2018-05-04T06:20:21Z">
+  <suite name="Default suite" duration-ms="1890237" started-at="2018-05-14T12:00:31Z" finished-at="2018-05-14T12:32:01Z">
     <groups>
       <group name="sanity-group">
-        <method signature="ReviseThirdLookTest.ClientEndSession()[pri:23, instance:Tests.ReviseThirdLookTest@371a67ec]" name="ClientEndSession" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.CompileBooking()[pri:5, instance:Tests.ReviseThirdLookTest@371a67ec]" name="CompileBooking" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.CreateLook()[pri:8, instance:Tests.ReviseThirdLookTest@371a67ec]" name="CreateLook" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.CreateLook2()[pri:12, instance:Tests.ReviseThirdLookTest@371a67ec]" name="CreateLook2" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.CreateLook3()[pri:16, instance:Tests.ReviseThirdLookTest@371a67ec]" name="CreateLook3" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.CreateMoodBoard()[pri:6, instance:Tests.ReviseThirdLookTest@371a67ec]" name="CreateMoodBoard" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.CreateMoodBoard2()[pri:10, instance:Tests.ReviseThirdLookTest@371a67ec]" name="CreateMoodBoard2" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.CreateMoodBoard3()[pri:14, instance:Tests.ReviseThirdLookTest@371a67ec]" name="CreateMoodBoard3" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.DoLogin()[pri:1, instance:Tests.ReviseThirdLookTest@371a67ec]" name="DoLogin" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.EndSession()[pri:22, instance:Tests.ReviseThirdLookTest@371a67ec]" name="EndSession" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.ReviseLook()[pri:18, instance:Tests.ReviseThirdLookTest@371a67ec]" name="ReviseLook" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.ReviseLook2()[pri:20, instance:Tests.ReviseThirdLookTest@371a67ec]" name="ReviseLook2" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.SearchStylist()[pri:2, instance:Tests.ReviseThirdLookTest@371a67ec]" name="SearchStylist" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.SelectEvents()[pri:3, instance:Tests.ReviseThirdLookTest@371a67ec]" name="SelectEvents" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.SelectSession()[pri:4, instance:Tests.ReviseThirdLookTest@371a67ec]" name="SelectSession" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.VerifyCreateLook()[pri:9, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyCreateLook" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.VerifyCreateLook2()[pri:13, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyCreateLook2" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.VerifyCreateLook3()[pri:17, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyCreateLook3" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.VerifyCreateRevise1()[pri:19, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyCreateRevise1" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.VerifyCreateRevise2()[pri:21, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyCreateRevise2" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.VerifyEndSession()[pri:24, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyEndSession" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.VerifyMoodBoard()[pri:7, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyMoodBoard" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.VerifyMoodBoard2()[pri:11, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyMoodBoard2" class="Tests.ReviseThirdLookTest"/>
-        <method signature="ReviseThirdLookTest.VerifyMoodBoard3()[pri:15, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyMoodBoard3" class="Tests.ReviseThirdLookTest"/>
+        <method signature="ReviseItems.AskReviseLook()[pri:9, instance:Tests.ReviseItems@371a67ec]" name="AskReviseLook" class="Tests.ReviseItems"/>
+        <method signature="ReviseItems.CompileBooking()[pri:5, instance:Tests.ReviseItems@371a67ec]" name="CompileBooking" class="Tests.ReviseItems"/>
+        <method signature="ReviseItems.CreateLook()[pri:8, instance:Tests.ReviseItems@371a67ec]" name="CreateLook" class="Tests.ReviseItems"/>
+        <method signature="ReviseItems.CreateLook2()[pri:14, instance:Tests.ReviseItems@371a67ec]" name="CreateLook2" class="Tests.ReviseItems"/>
+        <method signature="ReviseItems.CreateMoodBoard()[pri:6, instance:Tests.ReviseItems@371a67ec]" name="CreateMoodBoard" class="Tests.ReviseItems"/>
+        <method signature="ReviseItems.CreateMoodBoard2()[pri:12, instance:Tests.ReviseItems@371a67ec]" name="CreateMoodBoard2" class="Tests.ReviseItems"/>
+        <method signature="ReviseItems.CreateReviseLook()[pri:10, instance:Tests.ReviseItems@371a67ec]" name="CreateReviseLook" class="Tests.ReviseItems"/>
+        <method signature="ReviseItems.CreateReviseLook2()[pri:16, instance:Tests.ReviseItems@371a67ec]" name="CreateReviseLook2" class="Tests.ReviseItems"/>
+        <method signature="ReviseItems.DoLogin()[pri:1, instance:Tests.ReviseItems@371a67ec]" name="DoLogin" class="Tests.ReviseItems"/>
+        <method signature="ReviseItems.SearchStylist()[pri:2, instance:Tests.ReviseItems@371a67ec]" name="SearchStylist" class="Tests.ReviseItems"/>
+        <method signature="ReviseItems.SelectEvents()[pri:3, instance:Tests.ReviseItems@371a67ec]" name="SelectEvents" class="Tests.ReviseItems"/>
+        <method signature="ReviseItems.SelectSession()[pri:4, instance:Tests.ReviseItems@371a67ec]" name="SelectSession" class="Tests.ReviseItems"/>
+        <method signature="ReviseItems.VerifyCreateLook()[pri:11, instance:Tests.ReviseItems@371a67ec]" name="VerifyCreateLook" class="Tests.ReviseItems"/>
+        <method signature="ReviseItems.VerifyCreateLook2()[pri:15, instance:Tests.ReviseItems@371a67ec]" name="VerifyCreateLook2" class="Tests.ReviseItems"/>
+        <method signature="ReviseItems.VerifyCreateLookrevise2()[pri:17, instance:Tests.ReviseItems@371a67ec]" name="VerifyCreateLookrevise2" class="Tests.ReviseItems"/>
+        <method signature="ReviseItems.VerifyMoodBoard()[pri:7, instance:Tests.ReviseItems@371a67ec]" name="VerifyMoodBoard" class="Tests.ReviseItems"/>
+        <method signature="ReviseItems.VerifyMoodBoard2()[pri:13, instance:Tests.ReviseItems@371a67ec]" name="VerifyMoodBoard2" class="Tests.ReviseItems"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="2533314" started-at="2018-05-04T05:38:08Z" finished-at="2018-05-04T06:20:21Z">
-      <class name="Tests.ReviseThirdLookTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ReviseThirdLookTest@371a67ec]" name="setup" is-config="true" duration-ms="13304" started-at="2018-05-04T05:38:08Z" finished-at="2018-05-04T05:38:21Z">
+    <test name="Default test" duration-ms="1890237" started-at="2018-05-14T12:00:31Z" finished-at="2018-05-14T12:32:01Z">
+      <class name="Tests.ReviseItems">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ReviseItems@371a67ec]" name="setup" is-config="true" duration-ms="13622" started-at="2018-05-14T12:00:31Z" finished-at="2018-05-14T12:00:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.ReviseThirdLookTest@371a67ec]" name="DoLogin" duration-ms="31265" started-at="2018-05-04T05:38:21Z" finished-at="2018-05-04T05:38:53Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.ReviseItems@371a67ec]" name="DoLogin" duration-ms="30921" started-at="2018-05-14T12:00:44Z" finished-at="2018-05-14T12:01:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.ReviseThirdLookTest@371a67ec]" name="SearchStylist" duration-ms="19801" started-at="2018-05-04T05:38:53Z" finished-at="2018-05-04T05:39:12Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.ReviseItems@371a67ec]" name="SearchStylist" duration-ms="27530" started-at="2018-05-14T12:01:15Z" finished-at="2018-05-14T12:01:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.ReviseThirdLookTest@371a67ec]" name="SelectEvents" duration-ms="36191" started-at="2018-05-04T05:39:12Z" finished-at="2018-05-04T05:39:49Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.ReviseItems@371a67ec]" name="SelectEvents" duration-ms="28229" started-at="2018-05-14T12:01:43Z" finished-at="2018-05-14T12:02:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.ReviseThirdLookTest@371a67ec]" name="SelectSession" duration-ms="50299" started-at="2018-05-04T05:39:49Z" finished-at="2018-05-04T05:40:39Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.ReviseItems@371a67ec]" name="SelectSession" duration-ms="46969" started-at="2018-05-14T12:02:11Z" finished-at="2018-05-14T12:02:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.ReviseThirdLookTest@371a67ec]" name="CompileBooking" duration-ms="81208" started-at="2018-05-04T05:40:39Z" finished-at="2018-05-04T05:42:00Z">
+        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.ReviseItems@371a67ec]" name="CompileBooking" duration-ms="75120" started-at="2018-05-14T12:02:58Z" finished-at="2018-05-14T12:04:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompileBooking -->
-        <test-method status="PASS" signature="CreateMoodBoard()[pri:6, instance:Tests.ReviseThirdLookTest@371a67ec]" name="CreateMoodBoard" duration-ms="121197" started-at="2018-05-04T05:42:00Z" finished-at="2018-05-04T05:44:01Z">
+        <test-method status="PASS" signature="CreateMoodBoard()[pri:6, instance:Tests.ReviseItems@371a67ec]" name="CreateMoodBoard" duration-ms="154322" started-at="2018-05-14T12:04:13Z" finished-at="2018-05-14T12:06:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateMoodBoard -->
-        <test-method status="PASS" signature="VerifyMoodBoard()[pri:7, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyMoodBoard" duration-ms="93247" started-at="2018-05-04T05:44:01Z" finished-at="2018-05-04T05:45:35Z">
+        <test-method status="PASS" signature="VerifyMoodBoard()[pri:7, instance:Tests.ReviseItems@371a67ec]" name="VerifyMoodBoard" duration-ms="96432" started-at="2018-05-14T12:06:47Z" finished-at="2018-05-14T12:08:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMoodBoard -->
-        <test-method status="PASS" signature="CreateLook()[pri:8, instance:Tests.ReviseThirdLookTest@371a67ec]" name="CreateLook" duration-ms="161356" started-at="2018-05-04T05:45:35Z" finished-at="2018-05-04T05:48:16Z">
+        <test-method status="PASS" signature="CreateLook()[pri:8, instance:Tests.ReviseItems@371a67ec]" name="CreateLook" duration-ms="169190" started-at="2018-05-14T12:08:24Z" finished-at="2018-05-14T12:11:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateLook -->
-        <test-method status="PASS" signature="VerifyCreateLook()[pri:9, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyCreateLook" duration-ms="113452" started-at="2018-05-04T05:48:16Z" finished-at="2018-05-04T05:50:09Z">
+        <test-method status="PASS" signature="AskReviseLook()[pri:9, instance:Tests.ReviseItems@371a67ec]" name="AskReviseLook" duration-ms="160571" started-at="2018-05-14T12:11:13Z" finished-at="2018-05-14T12:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AskReviseLook -->
+        <test-method status="PASS" signature="CreateReviseLook()[pri:10, instance:Tests.ReviseItems@371a67ec]" name="CreateReviseLook" duration-ms="142620" started-at="2018-05-14T12:13:54Z" finished-at="2018-05-14T12:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReviseLook -->
+        <test-method status="PASS" signature="VerifyCreateLook()[pri:11, instance:Tests.ReviseItems@371a67ec]" name="VerifyCreateLook" duration-ms="110040" started-at="2018-05-14T12:16:16Z" finished-at="2018-05-14T12:18:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCreateLook -->
-        <test-method status="PASS" signature="CreateMoodBoard2()[pri:10, instance:Tests.ReviseThirdLookTest@371a67ec]" name="CreateMoodBoard2" duration-ms="125589" started-at="2018-05-04T05:50:09Z" finished-at="2018-05-04T05:52:15Z">
+        <test-method status="PASS" signature="CreateMoodBoard2()[pri:12, instance:Tests.ReviseItems@371a67ec]" name="CreateMoodBoard2" duration-ms="143960" started-at="2018-05-14T12:18:06Z" finished-at="2018-05-14T12:20:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateMoodBoard2 -->
-        <test-method status="PASS" signature="VerifyMoodBoard2()[pri:11, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyMoodBoard2" duration-ms="102251" started-at="2018-05-04T05:52:15Z" finished-at="2018-05-04T05:53:57Z">
+        <test-method status="PASS" signature="VerifyMoodBoard2()[pri:13, instance:Tests.ReviseItems@371a67ec]" name="VerifyMoodBoard2" duration-ms="97331" started-at="2018-05-14T12:20:30Z" finished-at="2018-05-14T12:22:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMoodBoard2 -->
-        <test-method status="PASS" signature="CreateLook2()[pri:12, instance:Tests.ReviseThirdLookTest@371a67ec]" name="CreateLook2" duration-ms="151911" started-at="2018-05-04T05:53:57Z" finished-at="2018-05-04T05:56:29Z">
+        <test-method status="PASS" signature="CreateLook2()[pri:14, instance:Tests.ReviseItems@371a67ec]" name="CreateLook2" duration-ms="170466" started-at="2018-05-14T12:22:08Z" finished-at="2018-05-14T12:24:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateLook2 -->
-        <test-method status="PASS" signature="VerifyCreateLook2()[pri:13, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyCreateLook2" duration-ms="113598" started-at="2018-05-04T05:56:29Z" finished-at="2018-05-04T05:58:23Z">
+        <test-method status="PASS" signature="VerifyCreateLook2()[pri:15, instance:Tests.ReviseItems@371a67ec]" name="VerifyCreateLook2" duration-ms="169679" started-at="2018-05-14T12:24:58Z" finished-at="2018-05-14T12:27:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCreateLook2 -->
-        <test-method status="PASS" signature="CreateMoodBoard3()[pri:14, instance:Tests.ReviseThirdLookTest@371a67ec]" name="CreateMoodBoard3" duration-ms="123290" started-at="2018-05-04T05:58:23Z" finished-at="2018-05-04T06:00:26Z">
+        <test-method status="PASS" signature="CreateReviseLook2()[pri:16, instance:Tests.ReviseItems@371a67ec]" name="CreateReviseLook2" duration-ms="142666" started-at="2018-05-14T12:27:48Z" finished-at="2018-05-14T12:30:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateMoodBoard3 -->
-        <test-method status="PASS" signature="VerifyMoodBoard3()[pri:15, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyMoodBoard3" duration-ms="103998" started-at="2018-05-04T06:00:26Z" finished-at="2018-05-04T06:02:10Z">
+        </test-method> <!-- CreateReviseLook2 -->
+        <test-method status="PASS" signature="VerifyCreateLookrevise2()[pri:17, instance:Tests.ReviseItems@371a67ec]" name="VerifyCreateLookrevise2" duration-ms="110533" started-at="2018-05-14T12:30:10Z" finished-at="2018-05-14T12:32:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyMoodBoard3 -->
-        <test-method status="PASS" signature="CreateLook3()[pri:16, instance:Tests.ReviseThirdLookTest@371a67ec]" name="CreateLook3" duration-ms="152353" started-at="2018-05-04T06:02:10Z" finished-at="2018-05-04T06:04:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateLook3 -->
-        <test-method status="PASS" signature="VerifyCreateLook3()[pri:17, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyCreateLook3" duration-ms="148252" started-at="2018-05-04T06:04:42Z" finished-at="2018-05-04T06:07:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCreateLook3 -->
-        <test-method status="PASS" signature="ReviseLook()[pri:18, instance:Tests.ReviseThirdLookTest@371a67ec]" name="ReviseLook" duration-ms="131955" started-at="2018-05-04T06:07:11Z" finished-at="2018-05-04T06:09:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReviseLook -->
-        <test-method status="PASS" signature="VerifyCreateRevise1()[pri:19, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyCreateRevise1" duration-ms="114053" started-at="2018-05-04T06:09:23Z" finished-at="2018-05-04T06:11:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCreateRevise1 -->
-        <test-method status="PASS" signature="ReviseLook2()[pri:20, instance:Tests.ReviseThirdLookTest@371a67ec]" name="ReviseLook2" duration-ms="149693" started-at="2018-05-04T06:11:17Z" finished-at="2018-05-04T06:13:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReviseLook2 -->
-        <test-method status="PASS" signature="VerifyCreateRevise2()[pri:21, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyCreateRevise2" duration-ms="114656" started-at="2018-05-04T06:13:46Z" finished-at="2018-05-04T06:15:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCreateRevise2 -->
-        <test-method status="PASS" signature="EndSession()[pri:22, instance:Tests.ReviseThirdLookTest@371a67ec]" name="EndSession" duration-ms="99942" started-at="2018-05-04T06:15:41Z" finished-at="2018-05-04T06:17:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EndSession -->
-        <test-method status="PASS" signature="ClientEndSession()[pri:23, instance:Tests.ReviseThirdLookTest@371a67ec]" name="ClientEndSession" duration-ms="127361" started-at="2018-05-04T06:17:21Z" finished-at="2018-05-04T06:19:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClientEndSession -->
-        <test-method status="PASS" signature="VerifyEndSession()[pri:24, instance:Tests.ReviseThirdLookTest@371a67ec]" name="VerifyEndSession" duration-ms="53042" started-at="2018-05-04T06:19:28Z" finished-at="2018-05-04T06:20:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyEndSession -->
-      </class> <!-- Tests.ReviseThirdLookTest -->
+        </test-method> <!-- VerifyCreateLookrevise2 -->
+      </class> <!-- Tests.ReviseItems -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

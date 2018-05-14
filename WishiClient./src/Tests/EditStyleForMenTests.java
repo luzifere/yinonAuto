@@ -23,7 +23,7 @@ public class EditStyleForMenTests extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi","wishitestftt@wishi.com" + number, "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestftt@wishi.com" , "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -50,7 +50,7 @@ public class EditStyleForMenTests extends BaseTest
 		BestMutch.AcceptAlert();
 		best.Sleep(500);
 		BestMutch.AcceptAlert();
-		best.SelectImage2(250,450);
+		//best.SelectImage2(250,450);
 		SettingPage setting = new SettingPage(driver);
 		setting.ClickMeTab();
 		setting.ClickSettingButton();

@@ -3,19 +3,28 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.ReviseThirdLookTest">
+      <class name="Tests.ReviseItems">
         <methods>
-          <include name="VerifyEndSession"/>
-          <include name="VerifyCreateRevise2"/>
-          <include name="ClientEndSession"/>
+          <include name="CreateReviseLook2"/>
+          <include name="VerifyCreateLook2"/>
+          <include name="SearchStylist"/>
           <include name="setup"/>
-          <include name="EndSession"/>
-          <include name="VerifyCreateLook3"/>
-          <include name="ReviseLook"/>
-          <include name="ReviseLook2"/>
-          <include name="VerifyCreateRevise1"/>
+          <include name="CreateMoodBoard2"/>
+          <include name="CompileBooking"/>
+          <include name="CreateLook"/>
+          <include name="VerifyMoodBoard"/>
+          <include name="VerifyCreateLookrevise2"/>
+          <include name="VerifyCreateLook"/>
+          <include name="SelectEvents"/>
+          <include name="SelectSession"/>
+          <include name="DoLogin"/>
+          <include name="AskReviseLook"/>
+          <include name="CreateMoodBoard"/>
+          <include name="CreateLook2"/>
+          <include name="VerifyMoodBoard2"/>
+          <include name="CreateReviseLook"/>
         </methods>
-      </class> <!-- Tests.ReviseThirdLookTest -->
+      </class> <!-- Tests.ReviseItems -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
