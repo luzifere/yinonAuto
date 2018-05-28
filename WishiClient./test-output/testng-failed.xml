@@ -1,30 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="BestMutch(failed)">
     <classes>
-      <class name="Tests.ReviseItems">
+      <class name="Tests.BestMutch">
         <methods>
-          <include name="CreateReviseLook2"/>
-          <include name="VerifyCreateLook2"/>
-          <include name="SearchStylist"/>
           <include name="setup"/>
-          <include name="CreateMoodBoard2"/>
-          <include name="CompileBooking"/>
-          <include name="CreateLook"/>
-          <include name="VerifyMoodBoard"/>
-          <include name="VerifyCreateLookrevise2"/>
-          <include name="VerifyCreateLook"/>
-          <include name="SelectEvents"/>
-          <include name="SelectSession"/>
-          <include name="DoLogin"/>
-          <include name="AskReviseLook"/>
-          <include name="CreateMoodBoard"/>
-          <include name="CreateLook2"/>
-          <include name="VerifyMoodBoard2"/>
-          <include name="CreateReviseLook"/>
+          <include name="BestMatchCheepMale"/>
         </methods>
-      </class> <!-- Tests.ReviseItems -->
+      </class> <!-- Tests.BestMutch -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- BestMutch(failed) -->
+  <test thread-count="5" name="EditStyleForMenTests(failed)">
+    <classes>
+      <class name="Tests.EditStyleForMenTests">
+        <methods>
+          <include name="setup"/>
+          <include name="EditStyle"/>
+        </methods>
+      </class> <!-- Tests.EditStyleForMenTests -->
+    </classes>
+  </test> <!-- EditStyleForMenTests(failed) -->
+  <test thread-count="5" name="EditStyleForWomenTests(failed)">
+    <classes>
+      <class name="Tests.EditStyleForWomenTests">
+        <methods>
+          <include name="setup"/>
+          <include name="EditStyle"/>
+        </methods>
+      </class> <!-- Tests.EditStyleForWomenTests -->
+    </classes>
+  </test> <!-- EditStyleForWomenTests(failed) -->
+  <test thread-count="5" name="SignUpTest(failed)">
+    <classes>
+      <class name="Tests.SignUpTest">
+        <methods>
+          <include name="DoSignUp"/>
+          <include name="SignupwithoutDotCom"/>
+          <include name="setup"/>
+          <include name="FillPsswordWithLessthan6Characters"/>
+          <include name="Signupwithoutshtudel"/>
+        </methods>
+      </class> <!-- Tests.SignUpTest -->
+    </classes>
+  </test> <!-- SignUpTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -72,9 +72,16 @@ public class CheckOutSingleTest extends BaseTest
 		co.ClickCompileBooking();
 		co.ClickTakeYourStyleQwiz();
 		QuizPage quiz = new QuizPage(driver);
+		QuizPage.DismissAlert();
+		quiz.ClickShowState();
+		quiz.FillSearchCountry("israel");
+		quiz.SelectCountry("//*[@name='Israel']");
+		quiz.FillPhoneField("0523334567");
+		quiz.ClickNextw();
+		quiz.Sleep(250);
+		quiz.ClickNOtNow();
 		quiz.SelectTab("Loose");
 		quiz.ClickNextw();
-		quiz.ClickNOtNow();
 		quiz.SelectTab("Oversized");
 		quiz.ClickNextw();
 		quiz.SelectJeans("Skinny");

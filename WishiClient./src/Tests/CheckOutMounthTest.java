@@ -16,7 +16,7 @@ public class CheckOutMounthTest extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("wishitestftt@wishi.com4199");
+		login.Fillusername("5389wishitestftt@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -72,9 +72,16 @@ public class CheckOutMounthTest extends BaseTest
 		co.ClickCompileBooking();
 		co.ClickTakeYourStyleQwiz();
 		QuizPage quiz = new QuizPage(driver);
+		QuizPage.DismissAlert();
+		quiz.ClickShowState();
+		quiz.FillSearchCountry("israel");
+		quiz.SelectCountry("//*[@name='Israel']");
+		quiz.FillPhoneField("0523334567");
+		quiz.ClickNextw();
+		quiz.Sleep(250);
+		quiz.ClickNOtNow();
 		quiz.SelectTab("Loose");
 		quiz.ClickNextw();
-		quiz.ClickNOtNow();
 		quiz.SelectTab("Oversized");
 		quiz.ClickNextw();
 		quiz.SelectJeans("Skinny");

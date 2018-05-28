@@ -11,17 +11,37 @@
       </class> <!-- Tests.BestMutch -->
     </classes>
   </test> <!-- BestMutch(failed) -->
-  <test thread-count="5" name="CheckOutSingleTest(failed)">
+  <test thread-count="5" name="EditStyleForMenTests(failed)">
     <classes>
-      <class name="Tests.CheckOutSingleTest">
+      <class name="Tests.EditStyleForMenTests">
         <methods>
-          <include name="CompileBooking"/>
-          <include name="SelectEvents"/>
           <include name="setup"/>
-          <include name="SearchStylist"/>
-          <include name="SelectSession"/>
+          <include name="EditStyle"/>
         </methods>
-      </class> <!-- Tests.CheckOutSingleTest -->
+      </class> <!-- Tests.EditStyleForMenTests -->
     </classes>
-  </test> <!-- CheckOutSingleTest(failed) -->
+  </test> <!-- EditStyleForMenTests(failed) -->
+  <test thread-count="5" name="EditStyleForWomenTests(failed)">
+    <classes>
+      <class name="Tests.EditStyleForWomenTests">
+        <methods>
+          <include name="setup"/>
+          <include name="EditStyle"/>
+        </methods>
+      </class> <!-- Tests.EditStyleForWomenTests -->
+    </classes>
+  </test> <!-- EditStyleForWomenTests(failed) -->
+  <test thread-count="5" name="SignUpTest(failed)">
+    <classes>
+      <class name="Tests.SignUpTest">
+        <methods>
+          <include name="DoSignUp"/>
+          <include name="SignupwithoutDotCom"/>
+          <include name="setup"/>
+          <include name="FillPsswordWithLessthan6Characters"/>
+          <include name="Signupwithoutshtudel"/>
+        </methods>
+      </class> <!-- Tests.SignUpTest -->
+    </classes>
+  </test> <!-- SignUpTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -100,19 +100,31 @@ public class QuizForWomenTest extends BaseTest
 		co.ClickTakeYourStyleQwiz();
 	}
 	@Test(priority = 5,groups={"sanity-group"})
+	public void SelectCountry() 
+	{
+		QuizPage quiz = new QuizPage(driver);
+		QuizPage.DismissAlert();
+		quiz.ClickShowState();
+		quiz.FillSearchCountry("israel");
+		quiz.SelectCountry("//*[@name='Israel']");
+		quiz.FillPhoneField("0523334567");
+		quiz.ClickNextw();
+		quiz.Sleep(250);
+		quiz.ClickNOtNow();
+	}
+	@Test(priority = 6,groups={"sanity-group"})
 	public void SelectBodyType() 
 	{
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectTab("Plus Size");
-		quiz.ClickNOtNow();
 	}
-	@Test(priority = 6,groups={"sanity-group"})
+	@Test(priority = 7,groups={"sanity-group"})
 	public void SelectHeight() 
 	{
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectTab("Average");
 	}
-	@Test(priority = 7,groups={"sanity-group"})
+	@Test(priority = 8,groups={"sanity-group"})
 	public void SelectSize() 
 	{
 		QuizPage quiz = new QuizPage(driver);
@@ -130,7 +142,7 @@ public class QuizForWomenTest extends BaseTest
 		quiz.ClickShoesMinus();
 		quiz.ClickNextw();
 	}
-	@Test(priority = 8,groups={"sanity-group"})
+	@Test(priority = 9,groups={"sanity-group"})
 	public void SelectColor() 
 	{
 		QuizPage quiz = new QuizPage(driver);
@@ -139,7 +151,7 @@ public class QuizForWomenTest extends BaseTest
 		quiz.SelectColor("Orange");
 		quiz.ClickNextw();
 	}
-	@Test(priority = 9,groups={"sanity-group"})
+	@Test(priority = 10,groups={"sanity-group"})
 	public void SelectFabrics() 
 	{
 		QuizPage quiz = new QuizPage(driver);
@@ -147,14 +159,14 @@ public class QuizForWomenTest extends BaseTest
 		quiz.ClickNextw();
 		quiz.Sleep(150);
 	}
-	@Test(priority = 10,groups={"sanity-group"})
+	@Test(priority = 11,groups={"sanity-group"})
 	public void SelectFitTop() 
 	{
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectTab("Loose");
 		quiz.ClickNextw();
 	}
-	@Test(priority = 11,groups={"sanity-group"})
+	@Test(priority = 12,groups={"sanity-group"})
 	public void SelectFitBottom() 
 	{
 		QuizPage quiz = new QuizPage(driver);
@@ -162,7 +174,7 @@ public class QuizForWomenTest extends BaseTest
 		quiz.ClickNextw();
 		quiz.Sleep(150);
 	}
-	@Test(priority = 12,groups={"sanity-group"})
+	@Test(priority = 13,groups={"sanity-group"})
 	public void SelectJeansp() 
 	{
 		QuizPage quiz = new QuizPage(driver);
@@ -170,13 +182,13 @@ public class QuizForWomenTest extends BaseTest
 		quiz.SelectJeans("Skinny");
 		quiz.ClickNextw();
 	}
-	@Test(priority = 13,groups={"sanity-group"})
+	@Test(priority = 14,groups={"sanity-group"})
 	public void SelectHeels() 
 	{
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectTab("Never");
 	}
-	@Test(priority = 14,groups={"sanity-group"})
+	@Test(priority = 15,groups={"sanity-group"})
 	public void SelectJewelry() 
 	{
 		QuizPage quiz = new QuizPage(driver);
@@ -184,7 +196,7 @@ public class QuizForWomenTest extends BaseTest
 		quiz.SelectTab("Black");
 		quiz.ClickNextw();
 	}
-	@Test(priority = 15,groups={"sanity-group"})
+	@Test(priority = 16,groups={"sanity-group"})
 	public void SelectHighlights() 
 	{
 		QuizPage quiz = new QuizPage(driver);
@@ -192,19 +204,19 @@ public class QuizForWomenTest extends BaseTest
 		quiz.SelectHighlights("Back");
 		quiz.ClickNextw();
 	}
-	@Test(priority = 16,groups={"sanity-group"})
+	@Test(priority = 17,groups={"sanity-group"})
 	public void SelectZone() 
 	{
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectTab("Close to my style");
 	}
-	@Test(priority = 17,groups={"sanity-group"})
+	@Test(priority = 18,groups={"sanity-group"})
 	public void SelectClothingPreferences() 
 	{
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectTab("Healthy mix of both");
 	}
-	@Test(priority = 18,groups={"sanity-group"})
+	@Test(priority = 19,groups={"sanity-group"})
 	public void SelectClothingCategories() 
 	{
 		QuizPage quiz = new QuizPage(driver);
@@ -212,7 +224,7 @@ public class QuizForWomenTest extends BaseTest
 		quiz.SelectCC("Hats");
 		quiz.ClickNextw();
 	}
-	@Test(priority = 19,groups={"sanity-group"})
+	@Test(priority = 20,groups={"sanity-group"})
 	public void SelectYourCloset() 
 	{
 		QuizPage quiz = new QuizPage(driver);
