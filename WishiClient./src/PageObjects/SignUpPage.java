@@ -54,7 +54,9 @@ public class SignUpPage extends BasePage
 		filltextclear(UserName,uname);
 		filltextclear(LastName,lname);
 		filltextclear(Password,pass);
+		Sleep(350);
 		click(SignButon);
+		Sleep(400);
 	
 	}
 	public void doSignUpEmailClear(String email) 

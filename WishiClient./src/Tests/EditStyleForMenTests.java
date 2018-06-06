@@ -160,7 +160,7 @@ public class EditStyleForMenTests extends BaseTest
 		setting.ClickToolBarDone();
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
-		setting.Sleep(300);
+		setting.Sleep(600);
 		Assert.assertTrue(setting.ElementDisplay("//*[@value='200']"));
 	}
 	@Test(priority = 9,groups={"sanity-group"})

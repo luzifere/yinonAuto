@@ -46,96 +46,115 @@ public class ChatPage extends BasePage {
 	WebElement SendButtonClient;
 	@FindBy(xpath="//*[@name='closeButtonID']")
 	WebElement CloseButton;
-	
+
 	public void ClickChatButton() 
 	{		
-		Sleep(150);
+		Sleep(250);
 		click(ChatButton);
-		//Sleep(150);
+		Sleep(250);
 	}
 	public void ClickCloseButton() 
 	{		
-		//Sleep(150);
+		Sleep(250);
 		click(CloseButton);
-		//Sleep(150);
+		Sleep(250);
 	}
 
 	public void ClickLoginStart() 
 	{
+		Sleep(250);
 		click(LoginStart);
+		Sleep(250);
 	}
 	public void LoginStylistApp(String user ,String password ) 
 	{
+		Sleep(250);
 		filltext(UserNAme, user);
 		filltext(Password, password);
+		Sleep(250);
 	}
 	public void ClickLoginButton() 
 	{
+		Sleep(250);
 		click(LoginButton);
+		Sleep(250);
 	}
 	public void ClickCloseOnBoarding() 
 	{
+		Sleep(250);
 		click(CloseOnBoarding);
+		Sleep(250);
 	}
 	public void ClickChatTab() 
 	{
-		Sleep(150);
+		Sleep(250);
 		click(ChatTab);
 		Sleep(250);
 	}
 	public void SelectStylist(String stylist)
-    {
-	Sleep(250);
-    	String StylistElemet = ("text");
-    	StylistElemet = StylistElemet.replace("text", stylist);
-    	WebElement StylistButton = driver.findElement(By.xpath(StylistElemet));
-    	Sleep(250);
-    	System.out.println(StylistButton);
-    	click(StylistButton);
-    }
+	{
+		Sleep(250);
+		String StylistElemet = ("text");
+		StylistElemet = StylistElemet.replace("text", stylist);
+		WebElement StylistButton = driver.findElement(By.xpath(StylistElemet));
+		Sleep(250);
+		System.out.println(StylistButton);
+		click(StylistButton);
+	}
 	public void SelectTab(String tab)
-    {
-	Sleep(250);
-    	String TabElemet = ("text");
-    	TabElemet = TabElemet.replace("text", tab);
-    	WebElement TabButton = driver.findElement(By.xpath(TabElemet));
-    	Sleep(250);
-    	click(TabButton);
-    }
+	{
+		Sleep(250);
+		String TabElemet = ("text");
+		TabElemet = TabElemet.replace("text", tab);
+		WebElement TabButton = driver.findElement(By.xpath(TabElemet));
+		Sleep(250);
+		click(TabButton);
+	}
 	public boolean ChatDisplay(String chattext)
-    {
-    	String ChetElement = ("//*[@name='test1']");
-    	ChetElement = ChetElement.replace("test1", chattext);
-    	WebElement Chat = driver.findElement(By.xpath(ChetElement));
-    	Chat.toString();
-    	ElementDisplay(ChetElement);
-    	return true;
-    }
-    public void ClickSendButton() 
 	{
+		Sleep(250);
+		String ChetElement = ("//*[@name='test1']");
+		ChetElement = ChetElement.replace("test1", chattext);
+		WebElement Chat = driver.findElement(By.xpath(ChetElement));
+		Chat.toString();
+		ElementDisplay(ChetElement);
+		return true;
+	}
+	public void ClickSendButton() 
+	{
+		Sleep(250);
 		click(SendButton);
+		Sleep(250);
 	}
-    public void ClickSendButtonClient() 
+	public void ClickSendButtonClient() 
 	{
+		Sleep(250);
 		click(SendButtonClient);
+		Sleep(250);
 	}
-    public void Clickclose_menu4Button() 
+	public void Clickclose_menu4Button() 
 	{
+		Sleep(250);
 		click(close_menu4Button);
+		Sleep(250);
 	}
-    public void FillMessage(String text) 
+	public void FillMessage(String text) 
 	{
+		Sleep(250);
 		filltext(WriteMessage, text);
+		Sleep(250);
 	}
-    public void FillMessageClient(String text) 
+	public void FillMessageClient(String text) 
 	{
+		Sleep(250);
 		filltext(WriteMessageClient, text);
+		Sleep(250);
 	}
-    public void ClickcChatTab() 
+	public void ClickcChatTab() 
 	{
-    	Sleep(250);
+		Sleep(250);
 		click(ChatTab);
-    	//driver.findElementByAccessibilityId("Chat").click();
+		//driver.findElementByAccessibilityId("Chat").click();
 		Sleep(250);
 	}
 

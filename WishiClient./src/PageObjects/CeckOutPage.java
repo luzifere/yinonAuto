@@ -73,123 +73,125 @@ public class CeckOutPage extends BasePage
 	WebElement SaveButton;
 	@FindBy(id="back")
 	WebElement backButton;
-	
-	
+
+
 	public void SelectCellOfStylist(String cell) 
 	{
 		String CellElemet = ("Text1");
 		CellElemet = CellElemet.replace("Text1", cell);
 		WebElement CellTabs = driver.findElement(By.id(CellElemet));
 		click(CellTabs);
-		
+
 	}	public void ClickMonthButton() 
 	{		
-		//Sleep(150);
+		Sleep(200);
+
 		click(SelectMonthButton);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickbackButton() 
 	{		
-		//Sleep(150);
+		Sleep(200);
+
 		click(backButton);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickApplePayButton() 
 	{		
-		//Sleep(150);
+		Sleep(200);
 		click(ApplePay);
-		//Sleep(150);
+		Sleep(350);
 	}
 	public void ClickLoose() 
 	{		
-		//Sleep(150);
+		Sleep(200);
 		click(Loose);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickTakeYourStyleQwiz() 
 	{		
-		//Sleep(150);
+		Sleep(500);
 		click(TakeYourStyleQwiz);
-		//Sleep(150);
+		Sleep(500);
 	}
 	public void ClickNext() 
 	{		
-		//Sleep(150);
+		Sleep(200);
 		click(NextButton);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickNOtNow() 
 	{		
-		//Sleep(150);
+		Sleep(200);
 		click(NotNow);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickSave() 
 	{		
-		//Sleep(150);
+		Sleep(200);
 		click(SaveButton);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickOversized() 
 	{		
-		//Sleep(150);
+		Sleep(200);
 		click(OversizedButton);
-		//Sleep(150);
+		Sleep(200);
 	}
 
 	public void ClickCompileBooking() 
 	{		
-		//Sleep(150);
+		Sleep(200);
 		click(compilebooking);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickAddCode() 
 	{		
-		//Sleep(150);
+		Sleep(200);
 		click(addcode);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickPayWithCreditCard() 
 	{		
-		//Sleep(150);
+		Sleep(200);
 		click(credit);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickSingleButton() 
 	{		
-		//Sleep(150);
+		Sleep(200);
 		click(SelectSingleButton);
-		//Sleep(150);
+		Sleep(200);
 	}public void ClickSelectStylist() 
 	{	
-		
+
 		click(SelectStylistButton);
 
 	}
 
 	public void ClickpurcaseButton() 
 	{		
-		//Sleep(150);
+		Sleep(200);
 		click(purcaseButton);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickclosetButton() 
 	{		
-		//Sleep(150);
+		Sleep(200);
 		click(closetButton);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickmixButton() 
 	{		
-		//Sleep(150);
+		Sleep(200);
 		click(mixButton);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickstartCheckoutButton() 
 	{		
-		//Sleep(150);
+		Sleep(200);
 		click(startCheckoutButton);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void Fillemail(String email) 
 	{
@@ -206,9 +208,9 @@ public class CeckOutPage extends BasePage
 	}
 	public void ClickDoneOfCode() 
 	{		
-		//Sleep(150);
+		Sleep(200);
 		click(doneofcode);
-		//Sleep(150);
+		Sleep(200);
 	}
 
 	public void Fillnumbercard(String card) 
@@ -232,5 +234,5 @@ public class CeckOutPage extends BasePage
 		WebElement MinusTabs = driver.findElement(By.xpath(MinusElemet));
 		click(MinusTabs);
 	} 
-	
+
 }

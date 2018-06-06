@@ -1,34 +1,19 @@
 package PageObjects;
 
-import java.awt.Dimension;
-import java.awt.List;
-import java.security.PublicKey;
-import java.sql.DriverAction;
-import java.util.NoSuchElementException;
+import java.util.HashMap;
 import java.util.Set;
-import java.util.concurrent.TimeUnit;
-import java.util.function.Function;
-
-import org.apache.bcel.generic.IF_ACMPEQ;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+import io.appium.java_client.touch.offset.*;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileBy;
-import io.appium.java_client.TouchAction;
-import io.appium.java_client.ios.IOSDriver;
-import io.appium.java_client.ios.IOSElement;
+import io.appium.java_client.ios.IOSTouchAction;
 
 public class BasePage 
 {
@@ -282,23 +267,35 @@ public class BasePage
 
 	public void scrollDownXpath()
 	{
+		/*
 		org.openqa.selenium.Dimension size = BasePage.driver.manage ().window ().getSize ();
 		int startX = size.getWidth () / 2;
 		int startY = size.getHeight () / 2;
 		int endX = 0;
 		int endY = (int) (startY * -1 * 0.75);
-		TouchAction action = new TouchAction (BasePage.driver);
-		action.press (startX, startY).moveTo (endX, endY).release ().perform ();
+		IOSTouchAction press = new IOSTouchAction(driver);
+		press.press(PointOption.point(startX, startY)).moveTo(PointOption.point (endX, endY)).release ().perform ();
+		*/
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		HashMap<String, String> scrollObject = new HashMap<String, String>();
+		scrollObject.put("direction", "down");
+		js.executeScript("mobile: scroll", scrollObject);
 	}
 	public void scrollUp()
 	{
+		/*
 		org.openqa.selenium.Dimension size = BasePage.driver.manage ().window ().getSize ();
 		int startX = size.getWidth () / 2;
 		int startY = size.getHeight () / 2;
 		int endX = 0;
 		int endY = (int) (startY * 1 * 0.75);
-		TouchAction action = new TouchAction (BasePage.driver);
-		action.press (startX, startY).moveTo (endX, endY).release ().perform ();
+		IOSTouchAction press = new IOSTouchAction(driver);
+		press.press(PointOption.point(startX, startY)).moveTo(PointOption.point (endX, endY)).release ().perform ();
+		*/
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		HashMap<String, String> scrollObject = new HashMap<String, String>();
+		scrollObject.put("direction", "up");
+		js.executeScript("mobile: scroll", scrollObject);
 	}
 
 	public void ScrollLeft() 
@@ -308,25 +305,38 @@ public class BasePage
 		int startY = size.getHeight () / 3;
 		int endX = 0;
 		int endY = (int) (startY * -1 * 0.75);
-		TouchAction action = new TouchAction (BasePage.driver);
-		action.press (startX, startY).moveTo (endY,endX).release ().perform ();
+		IOSTouchAction press = new IOSTouchAction(driver);
+		press.press(PointOption.point(startX, startY)).moveTo(PointOption.point (endY,endX)).release ().perform ();
 	}
 	public void SelectImage1(int x,int y) 
 	{
-		TouchAction action = new TouchAction (BasePage.driver);
-		action.press(x, y).perform();
+		IOSTouchAction press = new IOSTouchAction(driver);
+		press.press(PointOption.point(x,y)).perform();
 	}
 	public void SelectImage2(int x,int y) 
 	{
-		TouchAction action = new TouchAction (BasePage.driver);
-		action.longPress(x,y).perform();
+		IOSTouchAction press = new IOSTouchAction(driver);
+		press.longPress(PointOption.point(x,y)).perform();
 	}
 	public void SelectImage3(int x,int y) 
 	{
-		TouchAction action = new TouchAction (BasePage.driver);
-		action.tap(x, y).perform();
+		IOSTouchAction press = new IOSTouchAction(driver);
+		press.tap(PointOption.point(x,y)).perform();
+	}	
+	
+	public void stam(int x,int y)
+	{
+		
+		IOSTouchAction press = new IOSTouchAction(driver);
+		press.tap(PointOption.point(x,y)).perform();	
 	}
 	
-	
+
 }
+	
+	
+	
+	
+	
+
 

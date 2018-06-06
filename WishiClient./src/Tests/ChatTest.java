@@ -36,6 +36,7 @@ public class ChatTest extends BaseTest
 		chat.ClickChatButton();
 		//chat.SelectStylist("(//XCUIElementTypeCell[@name=\"0\"])[2]//*[@name='Client⎜Session, Paid $20']");
 		chat.FillMessage(textforchat);
+		System.out.println(textforchat);
 		chat.ClickSendButton();
 		Assert.assertTrue(chat.ChatDisplay(textforchat));
 		BaseTest.capabileties();	
@@ -84,6 +85,7 @@ public class ChatTest extends BaseTest
 		//driver.findElementByAccessibilityId("Chat").click();
 		chat.SelectStylist("//*[@name='Stylist Chat']");
 		chat.FillMessageClient(textforchat);
+		System.out.println(textforchat);
 		chat.ClickSendButtonClient();
 		Assert.assertTrue(chat.ChatDisplay(textforchat));
 		BaseTest.capabileties2();	

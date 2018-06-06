@@ -31,17 +31,4 @@
       </class> <!-- Tests.EditStyleForWomenTests -->
     </classes>
   </test> <!-- EditStyleForWomenTests(failed) -->
-  <test thread-count="5" name="SignUpTest(failed)">
-    <classes>
-      <class name="Tests.SignUpTest">
-        <methods>
-          <include name="DoSignUp"/>
-          <include name="SignupwithoutDotCom"/>
-          <include name="setup"/>
-          <include name="FillPsswordWithLessthan6Characters"/>
-          <include name="Signupwithoutshtudel"/>
-        </methods>
-      </class> <!-- Tests.SignUpTest -->
-    </classes>
-  </test> <!-- SignUpTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

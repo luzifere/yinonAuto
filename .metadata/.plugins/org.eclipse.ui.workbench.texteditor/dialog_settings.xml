@@ -2,14 +2,19 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="quiz.ClickNOtNow();" key="selection"/>
+		<item value="Sleep(200);" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="quiz.ClickNOtNow();"/>
+			<item value="Sleep(150);"/>
+			<item value="//Sleep(150);"/>
+			<item value="&#x09;&#x09;//Sleep(150);"/>
+			<item value="tak"/>
+			<item value="SelectImage"/>
 			<item value="SelectImage3"/>
+			<item value="quiz.ClickNOtNow();"/>
 			<item value="SelectImage2"/>
 			<item value="search"/>
 			<item value="&quot;wishsi&quot;,&quot;wishitestftt@wishi.com&quot; + number"/>
@@ -18,13 +23,13 @@
 			<item value="client103"/>
 			<item value="client102"/>
 			<item value="client101"/>
-			<item value="bud"/>
-			<item value="login"/>
-			<item value="&#x09;&#x09;quiz.SelectImage3(250,450);&#x0A;"/>
-			<item value="&#x09;&#x09;quiz.SelectImage3(250,450);"/>
-			<item value="look"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Sleep(200);"/>
+			<item value="Sleep(250);"/>
+			<item value="                 Sleep(150);"/>
+			<item value="Sleep(200);&#x0A;"/>
+			<item value="&#x09;&#x09;Sleep(200);&#x0A;"/>
 			<item value="&quot;wishsi&quot;,&quot;wishitestftt@wishi.com&quot; + "/>
 			<item value=""/>
 			<item value="client110"/>
@@ -35,18 +40,13 @@
 			<item value="client106"/>
 			<item value="client104"/>
 			<item value="wishitest.best"/>
-			<item value="client101@wishi.com"/>
-			<item value="client100@wishi.com"/>
-			<item value="client100@wishi.com&#x09;"/>
-			<item value="stylist booking"/>
-			<item value="clientttt"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="290" key="DIALOG_WIDTH"/>
 		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
 		<item value="409" key="DIALOG_HEIGHT"/>
-		<item value="997" key="DIALOG_X_ORIGIN"/>
+		<item value="962" key="DIALOG_X_ORIGIN"/>
 		<item value="127" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

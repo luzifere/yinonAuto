@@ -35,13 +35,16 @@ public class FacbookPage extends BasePage {
 		ContextToWebView();
 		filltextclear(UserOfFacbook, "aya@wishi.me");
 		filltextclear(PassOfFacbook, "inonab1565");
+		Sleep(500);
 		click(LoginButtonOfFacbook);
+		Sleep(500);
 		click(ConfirmButton);
 	}
 	public void LoginWithFacbookWrongUserName () 
 	{
 		
 		click(ConnectWithFacbook);
+		Sleep(500);
 		BasePage.AcceptAlert();
 		Sleep(500);
 		ContextToWebView();

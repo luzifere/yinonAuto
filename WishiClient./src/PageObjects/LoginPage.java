@@ -27,38 +27,56 @@ public class LoginPage extends BasePage
 
 public void Fillusername(String user)
 {
-	filltext(email, user);		
+	Sleep(250);
+	filltext(email, user);	
+	Sleep(250);
 } 
 public void Fillpassword(String pass)
 {
-	filltext(password, pass);		
+	Sleep(250);
+	filltext(password, pass);	
+	Sleep(250);
 } 
 public void FillusernameClear(String user)
 {
-	filltextclear(email, user);		
+	Sleep(250);
+	filltextclear(email, user);	
+	Sleep(250);
 } 
 public void FillpasswordClear(String pass)
 {
-	filltextclear(password, pass);		
+	Sleep(250);
+	filltextclear(password, pass);	
+	Sleep(250);
 } 
 public void Clickloginbutton1() 
 {
+	Sleep(250);
 	click(LoginButton);
+	Sleep(250);
 }
 public void ClickLoginButton2() 
 {
+	Sleep(250);
 	click(LoginButtonWizard);
+	Sleep(250);
 }
 public void ClearUsername() 
 {
+	Sleep(250);
 	clear(email);
+	Sleep(250);
 }
 public void ClearPassword() 
 {
+	Sleep(250);
 	clear(password);
+	Sleep(250);
 }
 public void ClickDismiss() 
 {
+	Sleep(250);
 	click(Dismiss);
+	Sleep(250);
 }
 }

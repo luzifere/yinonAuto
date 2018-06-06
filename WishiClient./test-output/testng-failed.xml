@@ -1,47 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="BestMutch(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.BestMutch">
+      <class name="Tests.SignUpByFacbookTest">
         <methods>
+          <include name="DoLoginWithFacbook"/>
           <include name="setup"/>
-          <include name="BestMatchCheepMale"/>
         </methods>
-      </class> <!-- Tests.BestMutch -->
+      </class> <!-- Tests.SignUpByFacbookTest -->
     </classes>
-  </test> <!-- BestMutch(failed) -->
-  <test thread-count="5" name="EditStyleForMenTests(failed)">
-    <classes>
-      <class name="Tests.EditStyleForMenTests">
-        <methods>
-          <include name="setup"/>
-          <include name="EditStyle"/>
-        </methods>
-      </class> <!-- Tests.EditStyleForMenTests -->
-    </classes>
-  </test> <!-- EditStyleForMenTests(failed) -->
-  <test thread-count="5" name="EditStyleForWomenTests(failed)">
-    <classes>
-      <class name="Tests.EditStyleForWomenTests">
-        <methods>
-          <include name="setup"/>
-          <include name="EditStyle"/>
-        </methods>
-      </class> <!-- Tests.EditStyleForWomenTests -->
-    </classes>
-  </test> <!-- EditStyleForWomenTests(failed) -->
-  <test thread-count="5" name="SignUpTest(failed)">
-    <classes>
-      <class name="Tests.SignUpTest">
-        <methods>
-          <include name="DoSignUp"/>
-          <include name="SignupwithoutDotCom"/>
-          <include name="setup"/>
-          <include name="FillPsswordWithLessthan6Characters"/>
-          <include name="Signupwithoutshtudel"/>
-        </methods>
-      </class> <!-- Tests.SignUpTest -->
-    </classes>
-  </test> <!-- SignUpTest(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

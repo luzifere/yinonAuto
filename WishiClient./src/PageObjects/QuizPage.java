@@ -50,112 +50,124 @@ public class QuizPage extends BasePage
 
 	public void SelectTab(String event)
 	{
+		Sleep(300);
 		String QwizElemet = ("Text1");
 		QwizElemet = QwizElemet.replace("Text1", event);
 		WebElement QwizTabs = driver.findElement(By.id(QwizElemet));
-		Sleep(250);
+		System.out.println(QwizElemet);
+		Sleep(300);
 		click(QwizTabs);
 	}
 	public void SelectColor(String event)
 	{
+		Sleep(300);
 		String ColorElemet = ("Text1");
 		ColorElemet = ColorElemet.replace("Text1", event);
 		WebElement colorTabs = driver.findElement(By.id(ColorElemet));
-		Sleep(250);
+		System.out.println(ColorElemet);
+		Sleep(300);
 		click(colorTabs);
 	}
 	public void SelectJeans(String event)
 	{
+		Sleep(300);
 		String JeansElemet = ("Text1");
 		JeansElemet = JeansElemet.replace("Text1", event);
 		WebElement JeansTabs = driver.findElement(By.id(JeansElemet));
-		Sleep(250);
+		System.out.println(JeansElemet);
+		Sleep(300);
 		click(JeansTabs);
 	}
 	public void SelectCC(String event)
 	{
+		Sleep(300);
 		String CCElemet = ("Text1");
 		CCElemet = CCElemet.replace("Text1", event);
 		WebElement CCTabs = driver.findElement(By.id(CCElemet));
-		Sleep(250);
+		System.out.println(CCElemet);
+		Sleep(300);
 		click(CCTabs);
 	}
 	public void SelectHighlights(String event)
 	{
+		Sleep(300);
 		String HighlightsElemet = ("Text1");
 		HighlightsElemet = HighlightsElemet.replace("Text1", event);
 		WebElement HighlightsTabs = driver.findElement(By.id(HighlightsElemet));
-		Sleep(250);
+		System.out.println(HighlightsElemet);
+		Sleep(300);
 		click(HighlightsTabs);
 	}
 	public void SelectCategory(String event)
 	{
+		Sleep(300);
 		String CategoryElemet = ("Text1");
 		CategoryElemet = CategoryElemet.replace("Text1", event);
 		WebElement CategoryTabs = driver.findElement(By.id(CategoryElemet));
-		Sleep(250);
+		System.out.println(CategoryElemet);
+		Sleep(300);
 		click(CategoryTabs);
 	}
 	public void ClickTopPlus() 
 	{		
-		//Sleep(150);
+		Sleep(150);
 		click(topplus);
-		//Sleep(150);
+		Sleep(150);
 	}
-	
+
 	public void ClickBackButton() 
 	{		
-		//Sleep(150);
+		Sleep(150);
 		click(BackButton);
-		//Sleep(150);
+		Sleep(150);
 	}
 	public void ClickStylistTab() 
 	{		
-		//Sleep(150);
+		Sleep(150);
 		click(StylistTab);
-		//Sleep(150);
+		Sleep(150);
 	}
 	public void ClickJeansPlus() 
 	{		
-		//Sleep(150);
+		Sleep(150);
 		click(jeansplus);
-		//Sleep(150);
+		Sleep(150);
 	}
 	public void ClickDressPlus() 
 	{		
-		//Sleep(150);
+		Sleep(150);
 		click(dressplus);
-		//Sleep(150);
+		Sleep(150);
 	}
 	public void ClickShoesPlus() 
 	{		
-		//Sleep(150);
+		Sleep(150);
 		click(shoesplus);
-		//Sleep(150);
+		Sleep(150);
 	}
 	public void ClickTopMinus() 
 	{		
-		//Sleep(150);
+		Sleep(150);
 		click(topminus);
-		//Sleep(150);
+		Sleep(150);
 	}
 	public void ClickJeansMinus() 
 	{		
-		//Sleep(150);
+		Sleep(150);
 		click(jeansminus);
-		//Sleep(150);
+		Sleep(150);
 	}
 	public void ClickDressMinus() 
 	{		
-		//Sleep(150);
+		Sleep(150);
 		click(dressminus);
-		//Sleep(150);
+		Sleep(150);
 	}
 	public void ClickShoesMinus() 
 	{		
-		//Sleep(150);
+		Sleep(150);
 		click(shoesminus);
-		//Sleep(150);
+		Sleep(150);
 	}
 	public void ClickNOtNow() 
 	{		
@@ -165,27 +177,27 @@ public class QuizPage extends BasePage
 	}
 	public void ClickNextw() 
 	{		
-		//Sleep(150);
+		Sleep(150);
 		click(NextButtonID);
-		//Sleep(150);
+		Sleep(150);
 	}
 	public void ClickAddFullBody() 
 	{		
-		//Sleep(150);
+		Sleep(150);
 		click(AddFullBody);
-		//Sleep(150);
+		Sleep(150);
 	}
 	public void ClickAddItems() 
 	{		
-		//Sleep(150);
+		Sleep(150);
 		click(AddItems);
-		//Sleep(150);
+		Sleep(150);
 	}
 	public void ClickShowState() 
 	{		
-		//Sleep(150);
+		Sleep(150);
 		click(ShowState);
-		//Sleep(150);
+		Sleep(150);
 	}
 	public void FillSearchCountry(String text) 
 	{
@@ -194,11 +206,11 @@ public class QuizPage extends BasePage
 	}
 	public void SelectCountry(String event) 
 	{		
-		Sleep(150);
+		Sleep(300);
 		String StylistElemet = ("text");
 		StylistElemet = StylistElemet.replace("text", event);
 		WebElement StylistButton = driver.findElement(By.xpath(StylistElemet));
-		Sleep(250);
+		Sleep(300);
 		System.out.println(StylistButton);
 		click(StylistButton);
 	}
@@ -206,5 +218,12 @@ public class QuizPage extends BasePage
 	{
 		filltext(PhoneField, text);
 		Sleep(250);
+	}
+	public void Selectimage(String brand)
+	{
+		String BrandElemet = ("(//*[@class='UIAImage'])[text1]");//*[@class='UIAImage'])[30]
+		BrandElemet = BrandElemet.replace("text1", brand);
+		WebElement BrandButton = driver.findElement(By.xpath(BrandElemet));
+		click(BrandButton);
 	}
 }

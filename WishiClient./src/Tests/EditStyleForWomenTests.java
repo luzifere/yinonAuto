@@ -163,30 +163,34 @@ public class EditStyleForWomenTests extends BaseTest
 	public void EditJeans() 
 	{
 		SettingPage setting = new SettingPage(driver);
+		setting.scrollDownXpath();
 		setting.ClickJeans();
 		setting.SelectJeans("Flair");
 		setting.SelectJeans("Skinny");
 		setting.ClickDone();
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
+		setting.scrollDownXpath();
 		Assert.assertTrue(setting.ElementDisplay("//*[@name='Skinny, Flair']"));
 	}
 	@Test(priority = 9,groups={"sanity-group"})
 	public void EditFabric() 
 	{
 		SettingPage setting = new SettingPage(driver);
+		setting.scrollDownXpath();
 		setting.ClickFabric();
 		setting.SelectFromPicker("Fur");
 		setting.ClickDoneOfPicker();
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
-		Assert.assertTrue(setting.ElementEnable("//*[@name='Fur']"));
 		setting.scrollDownXpath();
+		Assert.assertTrue(setting.ElementEnable("//*[@name='Fur']"));
 	}
 	@Test(priority = 10,groups={"sanity-group"})
 	public void EditBudget() 
 	{
 		SettingPage setting = new SettingPage(driver);
+		setting.scrollDownXpath();
 		setting.ClickBudget();
 		setting.SelectFromPicker("2");
 		setting.SelectFromPicker("0");
@@ -195,19 +199,21 @@ public class EditStyleForWomenTests extends BaseTest
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
 		setting.scrollDownXpath();
-		setting.Sleep(300);
+		setting.Sleep(600);
 		Assert.assertTrue(setting.ElementDisplay("//*[@value='200']"));
 	}
 	@Test(priority = 11,groups={"sanity-group"})
 	public void EditColor() 
 	{
 		SettingPage setting = new SettingPage(driver);
+		setting.scrollDownXpath();
 		setting.ClickColor();
 		setting.SelectFromPicker("Black");
 		setting.SelectFromPicker("Green");
 		setting.ClickDoneOfPicker();
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
+		setting.scrollDownXpath();
 		Assert.assertTrue(setting.ElementEnable("//*[@name='Black']"));
 	}
 	@Test(priority = 12,groups={"sanity-group"})
@@ -256,6 +262,7 @@ public class EditStyleForWomenTests extends BaseTest
 	public void EditSocialMedia() 
 	{
 		SettingPage setting = new SettingPage(driver);
+		setting.scrollDownXpath();
 		setting.ClickSocialMedia();
 		setting.FillPrinterest("printrest");
 		setting.ClickDone();

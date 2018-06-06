@@ -60,63 +60,86 @@ public class BestMutch extends BasePage
 
 	public void ClickMoreStylistsButton() 
 	{	
+		Sleep(250);
 		click(MoreStylistsButton);
+		Sleep(250);
 	}
 	public void ClickHoeToWork() 
-	{	
+	{	Sleep(250);
 		click(how_it_workst);
+		Sleep(250);
 	}
 	public void ClickBodyType() 
 	{		
-		Sleep(150);
+		Sleep(250);
 		click(BodyType);
-		Sleep(150);
+		Sleep(250);
 	}
 	public void ClickHoeToWorkoutfit() 
 	{
-		Sleep(150);
+		Sleep(250);
 		click(how_it_works_outfit);
-		Sleep(150);
+		Sleep(250);
 	}
 	public void ClickFamle() 
 	{
+		Sleep(250);
 		click(FemaleButtonID);
+		Sleep(250);
 	}
 	public void ClickMale() 
 	{
+		Sleep(250);
 		click(MaleButtonID);
+		Sleep(250);
 	}
 	public void fillBirthday(String text) 
 	{
+		Sleep(250);
 		filltext(BirthdayTextFieldID, text);
+		Sleep(250);
 	}
 	public void SelectCheapButtonID() 
 	{
+		Sleep(250);
 		click(CheapButtonID);
+		Sleep(250);
 	}
 	public void SelectNormal() 
 	{
+		Sleep(250);
 		click(NormalButtonID);
+		Sleep(250);
 	}
 	public void SelectExpensiveButtonID() 
 	{
+		Sleep(250);
 		click(ExpensiveButtonID);
+		Sleep(250);
 	}
 	public void Selectinspiration() 
 	{
+		Sleep(250);
 		click(inspiration);
+		Sleep(250);
 	}
 	public void SelectBrands() 
 	{
+		Sleep(250);
 		click(Brands);
+		Sleep(250);
 	}
 	public void ClickNextbutton() 
 	{
+		Sleep(250);
 		click(NextButtonID);
+		Sleep(250);
 	}
 	public void Clickclose_image() 
 	{
+		Sleep(250);
 		click(close_image);
+		Sleep(250);
 	}
 	
 }

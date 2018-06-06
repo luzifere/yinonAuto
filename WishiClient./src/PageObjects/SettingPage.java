@@ -81,145 +81,147 @@ public class SettingPage extends BasePage
 	
 	public void SelectFromPicker(String Picker)
     {
+		Sleep(200);
     	String PickerElemet = ("Text1");
     	PickerElemet = PickerElemet.replace("Text1", Picker);
     	WebElement PickerTabs = driver.findElement(By.id(PickerElemet));
+    	Sleep(200);
     	click(PickerTabs);
     }
 	
 	public void ClickMeTab() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(MeTab);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickBackButton() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(BackButton);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickDoneOfPicker() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(DoneOfPicker);
-		//Sleep(150);
+		Sleep(200);
 	}
 	
 	public void ClickDone() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(Done);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickToolBarDone() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(ToolBarDone);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickSettingButton() 
 	{		
-		//Sleep(150);
+		Sleep(200);
 		click(SettingButton);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickEditStyleTab() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(EditStyleTab);
 		Sleep(250);
 	}
 	public void ClickBodyTypeTab() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(BodyTypeTab);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickStyle() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(Style);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickHeight() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(Height);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickSize() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(Size);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickTopSize() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(TopOfSize);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickJeansSize() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(JeansOfSize);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickDressSize() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(DressOfSize);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickSoesSize() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(ShoesOfSize);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickHighlights() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(Highlights);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickPreferences() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(Preferences);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickHeels() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(Heels);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickFitTop() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(FitTop);
-		//Sleep(150);
+		Sleep(200);
 	}
 	
 	public void ClickFitBottom() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(FitBottom);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickJeans() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(Jeans);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickFabric() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(Fabric);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickBudget() 
 	{		
@@ -229,33 +231,33 @@ public class SettingPage extends BasePage
 	}
 	public void ClickColor() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(Color);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickJewelry() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(Jewelry);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickZone() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(Zone);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickBrands() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(Brands);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void ClickSocialMedia() 
 	{		
-		Sleep(150);
+		Sleep(200);
 		click(SocialMedia);
-		//Sleep(150);
+		Sleep(200);
 	}
 	public void SelectJeans(String event)
     {
