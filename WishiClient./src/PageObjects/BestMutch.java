@@ -1,5 +1,6 @@
 package PageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -141,5 +142,15 @@ public class BestMutch extends BasePage
 		click(close_image);
 		Sleep(250);
 	}
+	
+	public void SelectTag(String Picker)
+    {
+		Sleep(200);
+    	String PickerElemet = ("Text1");
+    	PickerElemet = PickerElemet.replace("Text1", Picker);
+    	WebElement PickerTabs = driver.findElement(By.id(PickerElemet));
+    	Sleep(200);
+    	click(PickerTabs);
+    }
 	
 }

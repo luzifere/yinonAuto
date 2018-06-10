@@ -43,6 +43,9 @@ public class QuizForWomenTest extends BaseTest
 		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
 		best.ClickNextbutton();
 		sign.Sleep(200);
+		best.SelectTag("Petite");
+		best.ClickNextbutton();
+		sign.Sleep(200);
 		best.SelectBrands();
 		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
 		best.ClickNextbutton();
