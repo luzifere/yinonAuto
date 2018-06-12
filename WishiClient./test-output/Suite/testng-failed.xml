@@ -34,61 +34,6 @@
       </class> <!-- Tests.ReviseThirdLookTest -->
     </classes>
   </test> <!-- ReviseThirdLookTest(failed) -->
-  <test thread-count="5" name="EndSessionTest(failed)">
-    <classes>
-      <class name="Tests.EndSessionTest">
-        <methods>
-          <include name="CreateLook3"/>
-          <include name="EndSession"/>
-          <include name="ClientEndSession"/>
-          <include name="SelectEvents"/>
-          <include name="DoLogin"/>
-          <include name="VerifyCreateLook"/>
-          <include name="setup"/>
-          <include name="VerifyMoodBoard2"/>
-          <include name="CreateMoodBoard3"/>
-          <include name="VerifyMoodBoard3"/>
-          <include name="CreateMoodBoard"/>
-          <include name="CreateLook2"/>
-          <include name="VerifyCreateLook2"/>
-          <include name="VerifyCreateLook3"/>
-          <include name="CreateMoodBoard2"/>
-          <include name="SearchStylist"/>
-          <include name="VerifyEndSession"/>
-          <include name="VerifyMoodBoard"/>
-          <include name="CompileBooking"/>
-          <include name="CreateLook"/>
-          <include name="SelectSession"/>
-        </methods>
-      </class> <!-- Tests.EndSessionTest -->
-    </classes>
-  </test> <!-- EndSessionTest(failed) -->
-  <test thread-count="5" name="ReviseItems(failed)">
-    <classes>
-      <class name="Tests.ReviseItems">
-        <methods>
-          <include name="CreateReviseLook2"/>
-          <include name="VerifyCreateLook2"/>
-          <include name="SearchStylist"/>
-          <include name="setup"/>
-          <include name="CreateMoodBoard2"/>
-          <include name="CompileBooking"/>
-          <include name="CreateLook"/>
-          <include name="VerifyMoodBoard"/>
-          <include name="VerifyCreateLookrevise2"/>
-          <include name="VerifyCreateLook"/>
-          <include name="SelectEvents"/>
-          <include name="SelectSession"/>
-          <include name="DoLogin"/>
-          <include name="AskReviseLook"/>
-          <include name="CreateMoodBoard"/>
-          <include name="CreateLook2"/>
-          <include name="VerifyMoodBoard2"/>
-          <include name="CreateReviseLook"/>
-        </methods>
-      </class> <!-- Tests.ReviseItems -->
-    </classes>
-  </test> <!-- ReviseItems(failed) -->
   <test thread-count="5" name="BestMutch(failed)">
     <classes>
       <class name="Tests.BestMutch">
@@ -157,6 +102,35 @@
       </class> <!-- Tests.CheckOutSingleTest -->
     </classes>
   </test> <!-- CheckOutSingleTest(failed) -->
+  <test thread-count="5" name="EndSessionTest(failed)">
+    <classes>
+      <class name="Tests.EndSessionTest">
+        <methods>
+          <include name="CreateLook3"/>
+          <include name="EndSession"/>
+          <include name="ClientEndSession"/>
+          <include name="SelectEvents"/>
+          <include name="DoLogin"/>
+          <include name="VerifyCreateLook"/>
+          <include name="setup"/>
+          <include name="VerifyMoodBoard2"/>
+          <include name="CreateMoodBoard3"/>
+          <include name="VerifyMoodBoard3"/>
+          <include name="CreateMoodBoard"/>
+          <include name="CreateLook2"/>
+          <include name="VerifyCreateLook2"/>
+          <include name="VerifyCreateLook3"/>
+          <include name="CreateMoodBoard2"/>
+          <include name="SearchStylist"/>
+          <include name="VerifyEndSession"/>
+          <include name="VerifyMoodBoard"/>
+          <include name="CompileBooking"/>
+          <include name="CreateLook"/>
+          <include name="SelectSession"/>
+        </methods>
+      </class> <!-- Tests.EndSessionTest -->
+    </classes>
+  </test> <!-- EndSessionTest(failed) -->
   <test thread-count="5" name="EditStyleForMenTests(failed)">
     <classes>
       <class name="Tests.EditStyleForMenTests">
@@ -329,4 +303,30 @@
       </class> <!-- Tests.SignUpTest -->
     </classes>
   </test> <!-- SignUpTest(failed) -->
+  <test thread-count="5" name="ReviseItems(failed)">
+    <classes>
+      <class name="Tests.ReviseItems">
+        <methods>
+          <include name="CreateReviseLook2"/>
+          <include name="VerifyCreateLook2"/>
+          <include name="SearchStylist"/>
+          <include name="setup"/>
+          <include name="CreateMoodBoard2"/>
+          <include name="CompileBooking"/>
+          <include name="CreateLook"/>
+          <include name="VerifyMoodBoard"/>
+          <include name="VerifyCreateLookrevise2"/>
+          <include name="VerifyCreateLook"/>
+          <include name="SelectEvents"/>
+          <include name="SelectSession"/>
+          <include name="DoLogin"/>
+          <include name="AskReviseLook"/>
+          <include name="CreateMoodBoard"/>
+          <include name="CreateLook2"/>
+          <include name="VerifyMoodBoard2"/>
+          <include name="CreateReviseLook"/>
+        </methods>
+      </class> <!-- Tests.ReviseItems -->
+    </classes>
+  </test> <!-- ReviseItems(failed) -->
 </suite> <!-- Failed suite [Suite] -->

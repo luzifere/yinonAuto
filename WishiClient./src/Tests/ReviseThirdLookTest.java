@@ -473,7 +473,7 @@ public class ReviseThirdLookTest extends BaseTest
 		//driver.findElement(By.xpath("//*[@name='Party']")).click();
 		booking.FillLookDescription("revise1");
 		booking.ClickToolBarDone();
-		booking.ClickLookSaveButton();
+		booking.ClickReviseLookSaveButton();
 		driver.resetApp();
 	}
 	@Test(priority = 19,groups={"sanity-group"})
@@ -537,7 +537,7 @@ public class ReviseThirdLookTest extends BaseTest
 		driver.findElement(By.xpath("//*[@name='Party']")).click();
 		booking.FillLookDescription("revise2");
 		booking.ClickToolBarDone();
-		booking.ClickLookSaveButton();
+		booking.ClickReviseLookSaveButton();
 		driver.resetApp();
 	}
 	@Test(priority = 21,groups={"sanity-group"})

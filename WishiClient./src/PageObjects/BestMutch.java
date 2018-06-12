@@ -52,6 +52,8 @@ public class BestMutch extends BasePage
 	
 	@FindBy(xpath="//*[@name='NextButtonID']")
 	WebElement NextButtonID;
+	@FindBy(xpath="//*[@name='Next']")
+	WebElement NextTags;
 	
 	@FindBy(xpath="(//*[@name='close_image'])[1]")
 	WebElement close_image;
@@ -63,6 +65,13 @@ public class BestMutch extends BasePage
 	{	
 		Sleep(250);
 		click(MoreStylistsButton);
+		Sleep(250);
+	}
+	
+	public void ClickNextTags() 
+	{	
+		Sleep(250);
+		click(NextTags);
 		Sleep(250);
 	}
 	public void ClickHoeToWork() 

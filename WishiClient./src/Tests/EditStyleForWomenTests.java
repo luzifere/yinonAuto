@@ -43,7 +43,8 @@ public class EditStyleForWomenTests extends BaseTest
 		best.ClickNextbutton();
 		sign.Sleep(200);
 		best.SelectTag("Petite");
-		best.ClickNextbutton();
+		sign.Sleep(200);
+		best.ClickNextTags();
 		sign.Sleep(200);
 		best.SelectBrands();
 		best.CheckIfElementEnabled("//*[@name='NextButtonID']");

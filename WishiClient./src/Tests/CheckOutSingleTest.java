@@ -92,6 +92,7 @@ public class CheckOutSingleTest extends BaseTest
 		quiz.Sleep(200);
 		CeckOutPage.DismissAlert();
 		//Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
+		driver.resetApp();
 
 	}
 }

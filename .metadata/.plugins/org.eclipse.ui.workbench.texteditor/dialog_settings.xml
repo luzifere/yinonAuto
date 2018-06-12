@@ -2,29 +2,35 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="500" key="selection"/>
+		<item value="Up" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="up"/>
+			<item value="shop"/>
+			<item value="end"/>
+			<item value="rev"/>
+			<item value="//*[@name=&apos;My Bookings&apos;]"/>
+			<item value="save"/>
+			<item value="send"/>
+			<item value="1000"/>
 			<item value="500"/>
-			<item value="250"/>
-			<item value="Sleep(150);"/>
-			<item value="//Sleep(150);"/>
-			<item value="&#x09;&#x09;//Sleep(150);"/>
-			<item value="tak"/>
-			<item value="SelectImage"/>
-			<item value="SelectImage3"/>
-			<item value="quiz.ClickNOtNow();"/>
-			<item value="SelectImage2"/>
-			<item value="search"/>
-			<item value="&quot;wishsi&quot;,&quot;wishitestftt@wishi.com&quot; + number"/>
-			<item value="+ number"/>
-			<item value="client105"/>
-			<item value="client103"/>
+			<item value="170"/>
+			<item value="mood"/>
+			<item value="bool"/>
+			<item value="rate"/>
+			<item value="submit"/>
+			<item value="600"/>
 		</list>
 		<list key="replacehistory">
+			<item value="1200"/>
+			<item value="850"/>
+			<item value="300"/>
+			<item value="500"/>
+			<item value="170"/>
+			<item value="250"/>
 			<item value="650"/>
 			<item value="350"/>
 			<item value="Sleep(200);"/>
@@ -34,19 +40,13 @@
 			<item value="&#x09;&#x09;Sleep(200);&#x0A;"/>
 			<item value="&quot;wishsi&quot;,&quot;wishitestftt@wishi.com&quot; + "/>
 			<item value=""/>
-			<item value="client110"/>
-			<item value="client105"/>
-			<item value="client103"/>
-			<item value="client102"/>
-			<item value="client101"/>
-			<item value="client106"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="290" key="DIALOG_WIDTH"/>
 		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
 		<item value="409" key="DIALOG_HEIGHT"/>
-		<item value="962" key="DIALOG_X_ORIGIN"/>
+		<item value="466" key="DIALOG_X_ORIGIN"/>
 		<item value="127" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

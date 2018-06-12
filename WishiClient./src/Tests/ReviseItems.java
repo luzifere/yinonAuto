@@ -254,7 +254,7 @@ public class ReviseItems extends BaseTest
 		booking.ClickSave();
 		booking.FillLookDescription("revise1");
 		booking.ClickToolBarDone();
-		booking.ClickLookSaveButton();
+		booking.ClickReviseLookSaveButton();
 		driver.resetApp();
 	}
 	@Test(priority = 11,groups={"sanity-group"})
@@ -430,7 +430,7 @@ public class ReviseItems extends BaseTest
 		booking.ClickSave();
 		booking.FillLookDescription("revise2");
 		booking.ClickToolBarDone();
-		booking.ClickLookSaveButton();
+		booking.ClickReviseLookSaveButton();
 		driver.resetApp();
 	}
 	@Test(priority = 17,groups={"sanity-group"})

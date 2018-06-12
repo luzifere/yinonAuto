@@ -78,9 +78,32 @@ public class BasePage
 	{		
 		WebElement webElement= driver.findElement(By.xpath(elementString));
 		return webElement.isDisplayed();
-		
-
 	}
+	
+	
+	
+	
+	
+	public void WaitElementClickable(By by) 
+	{		
+		WebElement myDynamicElement = (new WebDriverWait(driver, 60))
+		.until(ExpectedConditions.elementToBeClickable(by));
+		myDynamicElement.click();
+	}
+	public void WaitElementNotDisplay(By by) 
+	{		
+		Boolean myDynamicElement = (new WebDriverWait(driver, 60))
+				.until(ExpectedConditions.not(ExpectedConditions.presenceOfElementLocated(by)));
+	}
+	public void WaitElementDisplay (By by) 
+	{		
+		WebElement myDynamicElement = (new WebDriverWait(driver, 60))
+		.until(ExpectedConditions.presenceOfElementLocated(by));
+		//return myDynamicElement.isDisplayed();
+	}
+	
+	
+	
 	public void clear (WebElement el) 
 	{
 		el.clear();
@@ -275,7 +298,7 @@ public class BasePage
 		int endY = (int) (startY * -1 * 0.75);
 		IOSTouchAction press = new IOSTouchAction(driver);
 		press.press(PointOption.point(startX, startY)).moveTo(PointOption.point (endX, endY)).release ().perform ();
-		*/
+		 */
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		HashMap<String, String> scrollObject = new HashMap<String, String>();
 		scrollObject.put("direction", "down");
@@ -291,7 +314,7 @@ public class BasePage
 		int endY = (int) (startY * 1 * 0.75);
 		IOSTouchAction press = new IOSTouchAction(driver);
 		press.press(PointOption.point(startX, startY)).moveTo(PointOption.point (endX, endY)).release ().perform ();
-		*/
+		 */
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		HashMap<String, String> scrollObject = new HashMap<String, String>();
 		scrollObject.put("direction", "up");
@@ -323,20 +346,20 @@ public class BasePage
 		IOSTouchAction press = new IOSTouchAction(driver);
 		press.tap(PointOption.point(x,y)).perform();
 	}	
-	
+
 	public void stam(int x,int y)
 	{
-		
+
 		IOSTouchAction press = new IOSTouchAction(driver);
 		press.tap(PointOption.point(x,y)).perform();	
 	}
-	
+
 
 }
-	
-	
-	
-	
-	
+
+
+
+
+
 
 

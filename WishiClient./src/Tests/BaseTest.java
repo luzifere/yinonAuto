@@ -23,7 +23,7 @@ public class BaseTest
 		DesiredCapabilities cap = new DesiredCapabilities();
 		//if (device.equals("emulator"))
 		//{
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone X");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 8 Plus");
 		//	}
 		//else if (device.equals("real"))
 		//{
@@ -61,7 +61,7 @@ public class BaseTest
 		DesiredCapabilities cap = new DesiredCapabilities();
 		//if (device.equals("emulator"))
 		//{
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone X");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 8 Plus");
 		//	}
 		//else if (device.equals("real"))
 		//{

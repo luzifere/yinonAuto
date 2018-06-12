@@ -45,6 +45,7 @@ public class EditStyleForMenTests extends BaseTest
 		best.ClickNextbutton();
 		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
 		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
+		best.scrollDownXpath();
 		best.ClickMoreStylistsButton();
 		best.Sleep(500);
 		BestMutch.AcceptAlert();
