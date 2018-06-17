@@ -118,7 +118,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateMoodBoardButton();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.ClickShop();
 		booking.ClickUpArrow();
@@ -154,6 +154,7 @@ public class ReviseThirdLookTest extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveItem();
 		driver.resetApp();
 		//driver.findElement(By.xpath("//*[@name='Love all your ideas!'][1]")).click();
@@ -174,7 +175,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -211,14 +212,15 @@ public class ReviseThirdLookTest extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveOutfit();
-		driver.resetApp();
-		BaseTest.capabileties2();	
+		driver.resetApp();	
 
 	}
 	@Test(priority = 10,groups={"sanity-group"})
 	public void CreateMoodBoard2() throws IOException 
 	{
+		BaseTest.capabileties2();
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
 		booking.ClickLoginStart();
@@ -230,7 +232,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateMoodBoardButton();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.ClickShop();
 		booking.ClickUpArrow();
@@ -266,6 +268,7 @@ public class ReviseThirdLookTest extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveItem();
 		driver.resetApp();
 	}
@@ -284,7 +287,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -321,6 +324,7 @@ public class ReviseThirdLookTest extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveOutfit();
 		driver.resetApp();
 		BaseTest.capabileties2();	
@@ -340,7 +344,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateMoodBoardButton();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.ClickShop();
 		booking.ClickUpArrow();
@@ -376,6 +380,7 @@ public class ReviseThirdLookTest extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveItem();
 		driver.resetApp();
 	}
@@ -394,7 +399,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -495,6 +500,7 @@ public class ReviseThirdLookTest extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveOutfit();
 		driver.resetApp();
 		BaseTest.capabileties2();	
@@ -559,6 +565,7 @@ public class ReviseThirdLookTest extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveOutfit();
 		driver.resetApp();
 		BaseTest.capabileties2();	
@@ -600,6 +607,7 @@ public class ReviseThirdLookTest extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		chat.Sleep(500);
 		BookingPage booking = new BookingPage(driver);
+		booking.scrollDownXpath();
 		booking.ApproveEndSession();
 		booking.RateStylist();
 		booking.ClickSubmit();

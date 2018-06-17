@@ -81,7 +81,7 @@ public class SettingPage extends BasePage
 	
 	public void SelectFromPicker(String Picker)
     {
-		Sleep(200);
+		Sleep(400);
     	String PickerElemet = ("Text1");
     	PickerElemet = PickerElemet.replace("Text1", Picker);
     	WebElement PickerTabs = driver.findElement(By.id(PickerElemet));

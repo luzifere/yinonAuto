@@ -55,12 +55,12 @@ public class EditStyleForMenTests extends BaseTest
 		SettingPage setting = new SettingPage(driver);
 		setting.ClickMeTab();
 		setting.ClickSettingButton();
+		setting.ClickEditStyleTab();
 	}
-	@Test(priority = 2,groups={"sanity-group"})
+	//@Test(priority = 2,groups={"sanity-group"})
 	public void EditStyle() 
 	{
 		SettingPage setting = new SettingPage(driver);
-		setting.ClickEditStyleTab();
 		setting.ClickStyle();
 		setting.SelectFromPicker("Sporty");
 		setting.SelectFromPicker("Bold");
@@ -72,7 +72,7 @@ public class EditStyleForMenTests extends BaseTest
 		//System.out.print(style);
 		Assert.assertTrue(setting.ElementDisplay("//*[@name='Sporty, Bold']"));
 	}
-	@Test(priority = 3,groups={"sanity-group"})
+	@Test(priority = 5,groups={"sanity-group"})
 	public void EditBodyType() 
 	{
 		SettingPage setting = new SettingPage(driver);
@@ -102,7 +102,7 @@ public class EditStyleForMenTests extends BaseTest
 		//setting.ClickHeels();
 		//setting.SelectFromPicker("Always");
 	}
-	@Test(priority = 5,groups={"sanity-group"})
+	@Test(priority = 3,groups={"sanity-group"})
 	public void EditSize() 
 	{
 		SettingPage setting = new SettingPage(driver);

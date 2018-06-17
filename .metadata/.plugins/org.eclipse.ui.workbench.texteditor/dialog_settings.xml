@@ -2,29 +2,31 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Up" key="selection"/>
+		<item value="Appr" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="up"/>
+			<item value="appr"/>
+			<item value="subm"/>
+			<item value="app"/>
+			<item value="iPhone 7"/>
 			<item value="shop"/>
+			<item value="driver.findElement(By.xpath(&quot;//*[@name=&apos;Got It&apos;]&quot;)).click();"/>
+			<item value="ElementDisplay"/>
+			<item value="element"/>
+			<item value="element di"/>
+			<item value="system"/>
+			<item value="up"/>
 			<item value="end"/>
 			<item value="rev"/>
 			<item value="//*[@name=&apos;My Bookings&apos;]"/>
 			<item value="save"/>
-			<item value="send"/>
-			<item value="1000"/>
-			<item value="500"/>
-			<item value="170"/>
-			<item value="mood"/>
-			<item value="bool"/>
-			<item value="rate"/>
-			<item value="submit"/>
-			<item value="600"/>
 		</list>
 		<list key="replacehistory">
+			<item value="iPhone 8"/>
+			<item value="driver.findElement(By.id(&quot;Got It&quot;)).click();"/>
 			<item value="1200"/>
 			<item value="850"/>
 			<item value="300"/>
@@ -38,15 +40,13 @@
 			<item value="                 Sleep(150);"/>
 			<item value="Sleep(200);&#x0A;"/>
 			<item value="&#x09;&#x09;Sleep(200);&#x0A;"/>
-			<item value="&quot;wishsi&quot;,&quot;wishitestftt@wishi.com&quot; + "/>
-			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="290" key="DIALOG_WIDTH"/>
 		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
 		<item value="409" key="DIALOG_HEIGHT"/>
-		<item value="466" key="DIALOG_X_ORIGIN"/>
-		<item value="127" key="DIALOG_Y_ORIGIN"/>
+		<item value="932" key="DIALOG_X_ORIGIN"/>
+		<item value="143" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

@@ -31,7 +31,7 @@ public class BaseTest3
 		//}
 
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11.1");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11.3");
 		//cap.setCapability("autoAcceptAlerts", true);
 		//cap.setCapability("autoDismissAlerts", true);
 		//cap.setCapability(MobileCapabilityType.UDID,"4acfefaa5a78272eb509b64a2f2efffabd0eda6c");
@@ -69,7 +69,7 @@ public class BaseTest3
 		//}
 
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11.1");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11.3");
 		//cap.setCapability(MobileCapabilityType.UDID,"4acfefaa5a78272eb509b64a2f2efffabd0eda6c");
 		//cap.setCapability(MobileCapabilityType.FULL_RESET,true);
 		//cap.setCapability(MobileCapabilityType.NO_RESET,true);

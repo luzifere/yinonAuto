@@ -118,7 +118,7 @@ public class ReviseItems extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateMoodBoardButton();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.ClickShop();
 		booking.ClickUpArrow();
@@ -154,6 +154,7 @@ public class ReviseItems extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveItem();
 		driver.resetApp();
 		//driver.findElement(By.xpath("//*[@name='Love all your ideas!'][1]")).click();
@@ -174,7 +175,7 @@ public class ReviseItems extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -232,7 +233,7 @@ public class ReviseItems extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickReviseLookStylist();
-		//driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		//driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -276,6 +277,7 @@ public class ReviseItems extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveOutfit();
 		driver.resetApp();
 		BaseTest.capabileties2();	
@@ -295,7 +297,7 @@ public class ReviseItems extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateMoodBoardButton();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.ClickShop();
 		booking.ClickUpArrow();
@@ -331,6 +333,7 @@ public class ReviseItems extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveItem();
 		driver.resetApp();
 	}
@@ -349,7 +352,7 @@ public class ReviseItems extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -408,7 +411,7 @@ public class ReviseItems extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickReviseLookStylist();
-		//driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		//driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -452,6 +455,7 @@ public class ReviseItems extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveOutfit();
 		driver.resetApp();
 		BaseTest.capabileties2();	
@@ -472,7 +476,7 @@ public class ReviseItems extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateMoodBoardButton();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.ClickShop();
 		booking.ClickUpArrow();
@@ -526,7 +530,7 @@ public class ReviseItems extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();

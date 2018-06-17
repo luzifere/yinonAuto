@@ -48,6 +48,7 @@ public class QuizForMaleTest extends BaseTest
 		best.ClickNextbutton();
 		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
 		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
+		best.scrollDownXpath();
 		best.ClickMoreStylistsButton();
 		best.Sleep(500);
 		BestMutch.AcceptAlert();
@@ -206,7 +207,8 @@ public class QuizForMaleTest extends BaseTest
 		quiz.SelectImage2(250,450);
 		quiz.SelectImage2(100,200);
 		quiz.SelectImage2(150,250);
-		quiz.ClickNextw();
+		driver.findElement(By.id("Add")).click();
+		//quiz.ClickNextw();
 		quiz.Sleep(250);
 	//	Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Mika RIssy']"));
 	}

@@ -13,7 +13,7 @@ import PageObjects.SettingPage;
 import PageObjects.SignUpPage;
 import io.appium.java_client.MobileBy;
 
-public class EditStyleForWomenTests extends BaseTest
+public class EditStyleForWomenTests extends BaseTest4
 {
 	@Test(priority = 1,groups={"sanity-group"})
 	public void DoSignUp()
@@ -51,6 +51,7 @@ public class EditStyleForWomenTests extends BaseTest
 		best.ClickNextbutton();
 		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
 		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
+		best.scrollDownXpath();
 		best.ClickMoreStylistsButton();
 		best.Sleep(500);
 		BestMutch.AcceptAlert();
@@ -61,7 +62,7 @@ public class EditStyleForWomenTests extends BaseTest
 		setting.ClickMeTab();
 		setting.ClickSettingButton();
 	}
-	@Test(priority = 5,groups={"sanity-group"})
+	//@Test(priority = 5,groups={"sanity-group"})
 	public void EditStyle() 
 	{
 		SettingPage setting = new SettingPage(driver);
@@ -292,7 +293,8 @@ public class EditStyleForWomenTests extends BaseTest
 		setting.ClickEditStyleTab();
 		setting.scrollDownXpath();
 		setting.scrollDownXpath();
-		Assert.assertTrue(setting.ElementEnable("//*[@name='setting_facebook']"));		
+		Assert.assertTrue(setting.ElementEnable("//*[@name='setting_facebook']"));	
+		driver.resetApp();
 
 
 	}

@@ -15,7 +15,7 @@ import io.appium.java_client.remote.AutomationName;
 import io.appium.java_client.remote.IOSMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 
-public class BaseTest 
+public class BaseTest4 
 {
 	static AppiumDriver<WebElement>driver;
 	public static  AppiumDriver<WebElement>capabileties() throws MalformedURLException   

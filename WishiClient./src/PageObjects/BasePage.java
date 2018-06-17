@@ -86,18 +86,18 @@ public class BasePage
 	
 	public void WaitElementClickable(By by) 
 	{		
-		WebElement myDynamicElement = (new WebDriverWait(driver, 60))
+		WebElement myDynamicElement = (new WebDriverWait(driver, 80))
 		.until(ExpectedConditions.elementToBeClickable(by));
 		myDynamicElement.click();
 	}
 	public void WaitElementNotDisplay(By by) 
 	{		
-		Boolean myDynamicElement = (new WebDriverWait(driver, 60))
+		Boolean myDynamicElement = (new WebDriverWait(driver, 80))
 				.until(ExpectedConditions.not(ExpectedConditions.presenceOfElementLocated(by)));
 	}
 	public void WaitElementDisplay (By by) 
 	{		
-		WebElement myDynamicElement = (new WebDriverWait(driver, 60))
+		WebElement myDynamicElement = (new WebDriverWait(driver, 80))
 		.until(ExpectedConditions.presenceOfElementLocated(by));
 		//return myDynamicElement.isDisplayed();
 	}

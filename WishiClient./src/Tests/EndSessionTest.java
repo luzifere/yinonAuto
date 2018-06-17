@@ -118,7 +118,8 @@ public class EndSessionTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateMoodBoardButton();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		//driver.findElement(By.id("Got It")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.ClickShop();
 		booking.ClickUpArrow();
@@ -154,6 +155,7 @@ public class EndSessionTest extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveItem();
 		driver.resetApp();
 		//driver.findElement(By.xpath("//*[@name='Love all your ideas!'][1]")).click();
@@ -174,7 +176,7 @@ public class EndSessionTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -211,6 +213,7 @@ public class EndSessionTest extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveOutfit();
 		driver.resetApp();
 		BaseTest.capabileties2();	
@@ -230,7 +233,7 @@ public class EndSessionTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateMoodBoardButton();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.ClickShop();
 		booking.ClickUpArrow();
@@ -266,6 +269,7 @@ public class EndSessionTest extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveItem();
 		driver.resetApp();
 	}
@@ -284,7 +288,7 @@ public class EndSessionTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -321,6 +325,7 @@ public class EndSessionTest extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveOutfit();
 		driver.resetApp();
 		BaseTest.capabileties2();	
@@ -340,7 +345,7 @@ public class EndSessionTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateMoodBoardButton();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.ClickShop();
 		booking.ClickUpArrow();
@@ -376,6 +381,7 @@ public class EndSessionTest extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveItem();
 		driver.resetApp();
 	}
@@ -394,7 +400,7 @@ public class EndSessionTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
-		driver.findElement(By.xpath("//*[@name='Got It']")).click();
+		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -431,6 +437,7 @@ public class EndSessionTest extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
 		booking.ClickLoveOutfit();
 		driver.resetApp();	
 
@@ -471,6 +478,7 @@ public class EndSessionTest extends BaseTest
 		chat.SelectStylist("//*[@name='stylist booking']");
 		chat.Sleep(500);
 		BookingPage booking = new BookingPage(driver);
+		booking.scrollDownXpath();
 		booking.ApproveEndSession();
 		booking.RateStylist();
 		booking.ClickSubmit();
