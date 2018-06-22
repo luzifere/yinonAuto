@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Appr" key="selection"/>
+		<item value="select" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="select"/>
 			<item value="appr"/>
 			<item value="subm"/>
 			<item value="app"/>
@@ -22,7 +23,6 @@
 			<item value="end"/>
 			<item value="rev"/>
 			<item value="//*[@name=&apos;My Bookings&apos;]"/>
-			<item value="save"/>
 		</list>
 		<list key="replacehistory">
 			<item value="iPhone 8"/>

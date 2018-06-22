@@ -60,10 +60,10 @@ public class SearchPage extends BasePage
 	{		
 		//Sleep(150);
 		click(StylistName);
-		Sleep(300);
+		WaitElementDisplay(By.id("responseTimeLabelID"));
 		click(StylistNameID);
 		//driver.findElement(By.id("stylistNameLabelID").click();
-		Sleep(250);
+		WaitElementDisplay(By.id("selectButtonID"));
 		/*
     	String StylistElemet = ("text");
     	StylistElemet = StylistElemet.replace("text", event);

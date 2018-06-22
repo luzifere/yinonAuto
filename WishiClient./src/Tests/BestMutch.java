@@ -270,5 +270,33 @@ public class BestMutch extends BaseTest
 		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
 		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
 		driver.resetApp();
+		best.WaitElementDisplay(By.id("signUpButton"));
+	}
+	@Test(priority = 8,groups={"sanity-group"})
+	public void BestMatchSelfIdentity()
+	{
+		Random num = new Random();
+		int number = 35600;
+		for (int counter = 50800; counter<=100000;counter++)
+			number = num.nextInt(70000);
+
+		SignUpPage sign = new SignUpPage(driver);
+		sign.ClickSignUpEmail();
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitest.best@wishi.com", "123456");
+		sign.Sleep(150);
+		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
+		best.ClickHoeToWork();
+		best.ClickHoeToWork();
+		best.ClickHoeToWork();
+		best.ClickSelfIdentityButtonID();
+		best.fillBirthday("12121985");
+		sign.Sleep(150);
+		best.Selectinspiration();
+		sign.Sleep(200);
+		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
+		best.ClickNextbutton();
+		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
+		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
+		driver.resetApp();
 	}
 }

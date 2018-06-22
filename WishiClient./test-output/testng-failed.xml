@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="SignUpTest(failed)">
     <classes>
-      <class name="Tests.EndSessionTest">
+      <class name="Tests.SignUpTest">
         <methods>
-          <include name="ClientEndSession"/>
+          <include name="SignupwithoutDotCom"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- Tests.EndSessionTest -->
+      </class> <!-- Tests.SignUpTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- SignUpTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

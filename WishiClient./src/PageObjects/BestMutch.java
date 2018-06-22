@@ -26,6 +26,9 @@ public class BestMutch extends BasePage
 	@FindBy(xpath="//*[@name='FemaleButtonID']")
 	WebElement FemaleButtonID;
 	
+	@FindBy(xpath="//*[@label='Self Identity']")
+	WebElement SelfIdentityButtonID;
+	
 	@FindBy(xpath="//*[@name='MaleButtonID']")
 	WebElement MaleButtonID;
 	
@@ -95,6 +98,12 @@ public class BestMutch extends BasePage
 	{
 		Sleep(250);
 		click(FemaleButtonID);
+		Sleep(250);
+	}
+	public void ClickSelfIdentityButtonID() 
+	{
+		Sleep(250);
+		click(SelfIdentityButtonID);
 		Sleep(250);
 	}
 	public void ClickMale() 

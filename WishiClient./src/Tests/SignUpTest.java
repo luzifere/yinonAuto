@@ -3,6 +3,7 @@ package Tests;
 import java.net.MalformedURLException;
 import java.util.Random;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -14,6 +15,7 @@ public class SignUpTest extends BaseTest
 	public void Signupwithoutshtudel()
 	{
 		SignUpPage sign = new SignUpPage(driver);
+		sign.WaitElementDisplay(By.id("signUpButton"));
 		sign.ClickSignUpEmail();
 		sign.doSignUpEmailClear("yinonwishi.me");
 		Assert.assertTrue(sign.ElementDisplay("//*[@name='Dismiss']"));
@@ -24,6 +26,7 @@ public class SignUpTest extends BaseTest
 	public void SignupwithoutDotCom()
 	{
 		SignUpPage sign = new SignUpPage(driver);
+		sign.WaitElementDisplay(By.id("signUpButton"));
 		sign.ClickSignUpEmail();
 		sign.doSignUpEmailClear("wishsi@mecom");
 		Assert.assertTrue(sign.ElementDisplay("//*[@name='Dismiss']"));
@@ -34,6 +37,7 @@ public class SignUpTest extends BaseTest
 	public void FillPsswordWithLessthan6Characters()
 	{
 		SignUpPage sign = new SignUpPage(driver);
+		sign.WaitElementDisplay(By.id("signUpButton"));
 		sign.ClickSignUpEmail();
 		sign.doSignUpClear("wishsi", "wishsi", "wishsi@me.com", "456");
 		Assert.assertTrue(sign.ElementDisplay("//*[@name='Dismiss']"));
@@ -50,6 +54,7 @@ public class SignUpTest extends BaseTest
 		number = num.nextInt(7000);
 	
 		SignUpPage sign = new SignUpPage(driver);
+		sign.WaitElementDisplay(By.id("signUpButton"));
 		sign.ClickSignUpEmail();
 		sign.doSignUpClear("wishsi", "wishsi",number +"wishitesttt@wishi.com", "123456");
 		Assert.assertTrue(sign.ElementEnable("//*[@name='HowItWorksID']"));
