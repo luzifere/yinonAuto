@@ -226,6 +226,7 @@ public class QuizForWomenTest extends BaseTest
 	{
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectCC("Tops");
+		quiz.scrollDownXpath();
 		quiz.SelectCC("Hats");
 		quiz.ClickNextw();
 	}
@@ -247,6 +248,7 @@ public class QuizForWomenTest extends BaseTest
 		//quiz.ClickNextw();
 		quiz.Sleep(250);
 		//Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Mika RIssy']"));
+		driver.resetApp();
 	}
 
 }

@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="select" key="selection"/>
+		<item value="clientchat@wishi.com&#x09;" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="clientchat@wishi.com"/>
 			<item value="select"/>
 			<item value="appr"/>
 			<item value="subm"/>
@@ -22,9 +23,9 @@
 			<item value="up"/>
 			<item value="end"/>
 			<item value="rev"/>
-			<item value="//*[@name=&apos;My Bookings&apos;]"/>
 		</list>
 		<list key="replacehistory">
+			<item value="clientchat@wishi.com&#x09;"/>
 			<item value="iPhone 8"/>
 			<item value="driver.findElement(By.id(&quot;Got It&quot;)).click();"/>
 			<item value="1200"/>
@@ -39,7 +40,6 @@
 			<item value="Sleep(250);"/>
 			<item value="                 Sleep(150);"/>
 			<item value="Sleep(200);&#x0A;"/>
-			<item value="&#x09;&#x09;Sleep(200);&#x0A;"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

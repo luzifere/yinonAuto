@@ -3,12 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.BestMutch">
+      <class name="Tests.SignUpByFacbookTest">
         <methods>
-          <include name="BestMatchSelfIdentity"/>
+          <include name="DoLoginWithFacbook"/>
+          <include name="LoginWithFacbookWithoutPassword"/>
+          <include name="LoginWithFacbookWrongPassword"/>
+          <include name="LoginWithFacbookWithoutUser"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- Tests.BestMutch -->
+      </class> <!-- Tests.SignUpByFacbookTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

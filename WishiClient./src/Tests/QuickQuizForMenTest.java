@@ -82,6 +82,7 @@ public class QuickQuizForMenTest extends BaseTest
 		quiz.FillPhoneField("0523334567");
 		quiz.ClickNextw();
 		quiz.Sleep(250);
+		/*
 		quiz.ClickNOtNow();
 		quiz.SelectTab("Loose");
 		quiz.ClickNextw();
@@ -90,6 +91,6 @@ public class QuickQuizForMenTest extends BaseTest
 		quiz.Sleep(200);
 		CeckOutPage.DismissAlert();
 		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
-
+*/
 	}
 }

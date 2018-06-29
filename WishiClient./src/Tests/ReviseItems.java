@@ -458,7 +458,7 @@ public class ReviseItems extends BaseTest
 		booking.scrollDownXpath();
 		booking.ClickLoveOutfit();
 		driver.resetApp();
-		BaseTest.capabileties2();	
+		//BaseTest.capabileties2();	
 
 	}
 	/*

@@ -33,10 +33,6 @@
       <class name="Tests.EditStyleForWomenTests"/>
     </classes>
   </test> <!-- Test -->
- 
- 
-  
- 
   <test thread-count="5" name="CheckOutByCoponTest">
     <classes>
       <class name="Tests.CheckOutByCoponTest"/>
@@ -67,9 +63,15 @@
       <class name="Tests.QuickQuizForWomenTest"/>
     </classes>
   </test> <!-- Test -->
+  
   <test thread-count="5" name="QuickQuizMale">
     <classes>
       <class name="Tests.QuickQuizForMenTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="QuizForSelfIdentityTest">
+    <classes>
+      <class name="Tests.QuizForSelfIdentityTest"/>
     </classes>
   </test> <!-- Test -->
   <test thread-count="5" name="QuizForMaleTest">

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="174" passed="174">
+<testng-results skipped="0" failed="0" ignored="0" total="195" passed="195">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14078569" started-at="2018-06-21T21:32:03Z" finished-at="2018-06-22T01:26:42Z">
+  <suite name="Suite" duration-ms="14912219" started-at="2018-06-28T20:42:39Z" finished-at="2018-06-29T00:51:11Z">
     <groups>
       <group name="sanity-group">
         <method signature="ReviseThirdLookTest.ClientEndSession()[pri:23, instance:Tests.ReviseThirdLookTest@11758f2a]" name="ClientEndSession" class="Tests.ReviseThirdLookTest"/>
@@ -135,879 +135,992 @@
         <method signature="QuickQuizForMenTest.SearchStylist()[pri:2, instance:Tests.QuickQuizForMenTest@587c290d]" name="SearchStylist" class="Tests.QuickQuizForMenTest"/>
         <method signature="QuickQuizForMenTest.SelectEvents()[pri:3, instance:Tests.QuickQuizForMenTest@587c290d]" name="SelectEvents" class="Tests.QuickQuizForMenTest"/>
         <method signature="QuickQuizForMenTest.SelectSession()[pri:4, instance:Tests.QuickQuizForMenTest@587c290d]" name="SelectSession" class="Tests.QuickQuizForMenTest"/>
-        <method signature="QuizForMaleTest.DoSignUp()[pri:1, instance:Tests.QuizForMaleTest@44a3ec6b]" name="DoSignUp" class="Tests.QuizForMaleTest"/>
-        <method signature="QuizForMaleTest.SearchStylist()[pri:2, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SearchStylist" class="Tests.QuizForMaleTest"/>
-        <method signature="QuizForMaleTest.SelectBodyType()[pri:6, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectBodyType" class="Tests.QuizForMaleTest"/>
-        <method signature="QuizForMaleTest.SelectColor()[pri:9, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectColor" class="Tests.QuizForMaleTest"/>
-        <method signature="QuizForMaleTest.SelectCountry()[pri:5, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectCountry" class="Tests.QuizForMaleTest"/>
-        <method signature="QuizForMaleTest.SelectEvents()[pri:3, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectEvents" class="Tests.QuizForMaleTest"/>
-        <method signature="QuizForMaleTest.SelectFabrics()[pri:10, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectFabrics" class="Tests.QuizForMaleTest"/>
-        <method signature="QuizForMaleTest.SelectFitBottom()[pri:12, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectFitBottom" class="Tests.QuizForMaleTest"/>
-        <method signature="QuizForMaleTest.SelectFitTop()[pri:11, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectFitTop" class="Tests.QuizForMaleTest"/>
-        <method signature="QuizForMaleTest.SelectHeight()[pri:7, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectHeight" class="Tests.QuizForMaleTest"/>
-        <method signature="QuizForMaleTest.SelectJewelry()[pri:13, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectJewelry" class="Tests.QuizForMaleTest"/>
-        <method signature="QuizForMaleTest.SelectSession()[pri:4, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectSession" class="Tests.QuizForMaleTest"/>
-        <method signature="QuizForMaleTest.SelectSize()[pri:8, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectSize" class="Tests.QuizForMaleTest"/>
-        <method signature="QuizForMaleTest.SelectYourCloset()[pri:15, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectYourCloset" class="Tests.QuizForMaleTest"/>
-        <method signature="QuizForMaleTest.SelectZone()[pri:14, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectZone" class="Tests.QuizForMaleTest"/>
-        <method signature="QuizForWomenTest.DoSignUp()[pri:1, instance:Tests.QuizForWomenTest@4bb4de6a]" name="DoSignUp" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SearchStylist()[pri:2, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SearchStylist" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectBodyType()[pri:6, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectBodyType" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectClothingCategories()[pri:19, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectClothingCategories" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectClothingPreferences()[pri:18, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectClothingPreferences" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectColor()[pri:9, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectColor" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectCountry()[pri:5, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectCountry" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectEvents()[pri:3, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectEvents" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectFabrics()[pri:10, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectFabrics" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectFitBottom()[pri:12, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectFitBottom" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectFitTop()[pri:11, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectFitTop" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectHeels()[pri:14, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectHeels" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectHeight()[pri:7, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectHeight" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectHighlights()[pri:16, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectHighlights" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectJeansp()[pri:13, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectJeansp" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectJewelry()[pri:15, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectJewelry" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectSession()[pri:4, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectSession" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectSize()[pri:8, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectSize" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectYourCloset()[pri:20, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectYourCloset" class="Tests.QuizForWomenTest"/>
-        <method signature="QuizForWomenTest.SelectZone()[pri:17, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectZone" class="Tests.QuizForWomenTest"/>
-        <method signature="SignUpByFacbookTest.DoLoginWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTest@b9afc07]" name="DoLoginWithFacbook" class="Tests.SignUpByFacbookTest"/>
-        <method signature="SignUpByFacbookTest.LoginWithFacbookWithoutPassword()[pri:3, instance:Tests.SignUpByFacbookTest@b9afc07]" name="LoginWithFacbookWithoutPassword" class="Tests.SignUpByFacbookTest"/>
-        <method signature="SignUpByFacbookTest.LoginWithFacbookWithoutUser()[pri:4, instance:Tests.SignUpByFacbookTest@b9afc07]" name="LoginWithFacbookWithoutUser" class="Tests.SignUpByFacbookTest"/>
-        <method signature="SignUpByFacbookTest.LoginWithFacbookWrongPassword()[pri:2, instance:Tests.SignUpByFacbookTest@b9afc07]" name="LoginWithFacbookWrongPassword" class="Tests.SignUpByFacbookTest"/>
-        <method signature="SignUpByFacbookTest.LoginWithFacbookWrongUserName()[pri:1, instance:Tests.SignUpByFacbookTest@b9afc07]" name="LoginWithFacbookWrongUserName" class="Tests.SignUpByFacbookTest"/>
-        <method signature="SignUpTest.DoSignUp()[pri:4, instance:Tests.SignUpTest@6366ebe0]" name="DoSignUp" class="Tests.SignUpTest"/>
-        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:3, instance:Tests.SignUpTest@6366ebe0]" name="FillPsswordWithLessthan6Characters" class="Tests.SignUpTest"/>
-        <method signature="SignUpTest.SignupwithoutDotCom()[pri:1, instance:Tests.SignUpTest@6366ebe0]" name="SignupwithoutDotCom" class="Tests.SignUpTest"/>
-        <method signature="SignUpTest.Signupwithoutshtudel()[pri:2, instance:Tests.SignUpTest@6366ebe0]" name="Signupwithoutshtudel" class="Tests.SignUpTest"/>
+        <method signature="QuizForSelfIdentityTest.DoSignUp()[pri:1, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="DoSignUp" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SearchStylist()[pri:2, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SearchStylist" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectBodyType()[pri:6, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectBodyType" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectClothingCategories()[pri:19, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectClothingCategories" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectClothingPreferences()[pri:18, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectClothingPreferences" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectColor()[pri:9, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectColor" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectCountry()[pri:5, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectCountry" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectEvents()[pri:3, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectEvents" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectFabrics()[pri:10, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectFabrics" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectFitBottom()[pri:12, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectFitBottom" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectFitTop()[pri:11, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectFitTop" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectHeels()[pri:14, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectHeels" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectHeight()[pri:7, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectHeight" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectHighlights()[pri:16, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectHighlights" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectJeansp()[pri:13, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectJeansp" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectJewelry()[pri:15, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectJewelry" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectSession()[pri:4, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectSession" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectSize()[pri:8, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectSize" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectYourCloset()[pri:20, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectYourCloset" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForSelfIdentityTest.SelectZone()[pri:17, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectZone" class="Tests.QuizForSelfIdentityTest"/>
+        <method signature="QuizForMaleTest.DoSignUp()[pri:1, instance:Tests.QuizForMaleTest@4bb4de6a]" name="DoSignUp" class="Tests.QuizForMaleTest"/>
+        <method signature="QuizForMaleTest.SearchStylist()[pri:2, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SearchStylist" class="Tests.QuizForMaleTest"/>
+        <method signature="QuizForMaleTest.SelectBodyType()[pri:6, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectBodyType" class="Tests.QuizForMaleTest"/>
+        <method signature="QuizForMaleTest.SelectClothingCategories()[pri:15, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectClothingCategories" class="Tests.QuizForMaleTest"/>
+        <method signature="QuizForMaleTest.SelectColor()[pri:9, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectColor" class="Tests.QuizForMaleTest"/>
+        <method signature="QuizForMaleTest.SelectCountry()[pri:5, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectCountry" class="Tests.QuizForMaleTest"/>
+        <method signature="QuizForMaleTest.SelectEvents()[pri:3, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectEvents" class="Tests.QuizForMaleTest"/>
+        <method signature="QuizForMaleTest.SelectFabrics()[pri:10, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectFabrics" class="Tests.QuizForMaleTest"/>
+        <method signature="QuizForMaleTest.SelectFitBottom()[pri:12, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectFitBottom" class="Tests.QuizForMaleTest"/>
+        <method signature="QuizForMaleTest.SelectFitTop()[pri:11, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectFitTop" class="Tests.QuizForMaleTest"/>
+        <method signature="QuizForMaleTest.SelectHeight()[pri:7, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectHeight" class="Tests.QuizForMaleTest"/>
+        <method signature="QuizForMaleTest.SelectJewelry()[pri:13, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectJewelry" class="Tests.QuizForMaleTest"/>
+        <method signature="QuizForMaleTest.SelectSession()[pri:4, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectSession" class="Tests.QuizForMaleTest"/>
+        <method signature="QuizForMaleTest.SelectSize()[pri:8, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectSize" class="Tests.QuizForMaleTest"/>
+        <method signature="QuizForMaleTest.SelectYourCloset()[pri:16, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectYourCloset" class="Tests.QuizForMaleTest"/>
+        <method signature="QuizForMaleTest.SelectZone()[pri:14, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectZone" class="Tests.QuizForMaleTest"/>
+        <method signature="QuizForWomenTest.DoSignUp()[pri:1, instance:Tests.QuizForWomenTest@6483f5ae]" name="DoSignUp" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SearchStylist()[pri:2, instance:Tests.QuizForWomenTest@6483f5ae]" name="SearchStylist" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectBodyType()[pri:6, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectBodyType" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectClothingCategories()[pri:19, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectClothingCategories" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectClothingPreferences()[pri:18, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectClothingPreferences" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectColor()[pri:9, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectColor" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectCountry()[pri:5, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectCountry" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectEvents()[pri:3, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectEvents" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectFabrics()[pri:10, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectFabrics" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectFitBottom()[pri:12, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectFitBottom" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectFitTop()[pri:11, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectFitTop" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectHeels()[pri:14, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectHeels" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectHeight()[pri:7, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectHeight" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectHighlights()[pri:16, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectHighlights" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectJeansp()[pri:13, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectJeansp" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectJewelry()[pri:15, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectJewelry" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectSession()[pri:4, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectSession" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectSize()[pri:8, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectSize" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectYourCloset()[pri:20, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectYourCloset" class="Tests.QuizForWomenTest"/>
+        <method signature="QuizForWomenTest.SelectZone()[pri:17, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectZone" class="Tests.QuizForWomenTest"/>
+        <method signature="SignUpByFacbookTest.DoLoginWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTest@6366ebe0]" name="DoLoginWithFacbook" class="Tests.SignUpByFacbookTest"/>
+        <method signature="SignUpByFacbookTest.LoginWithFacbookWithoutPassword()[pri:3, instance:Tests.SignUpByFacbookTest@6366ebe0]" name="LoginWithFacbookWithoutPassword" class="Tests.SignUpByFacbookTest"/>
+        <method signature="SignUpByFacbookTest.LoginWithFacbookWithoutUser()[pri:4, instance:Tests.SignUpByFacbookTest@6366ebe0]" name="LoginWithFacbookWithoutUser" class="Tests.SignUpByFacbookTest"/>
+        <method signature="SignUpByFacbookTest.LoginWithFacbookWrongPassword()[pri:2, instance:Tests.SignUpByFacbookTest@6366ebe0]" name="LoginWithFacbookWrongPassword" class="Tests.SignUpByFacbookTest"/>
+        <method signature="SignUpByFacbookTest.LoginWithFacbookWrongUserName()[pri:1, instance:Tests.SignUpByFacbookTest@6366ebe0]" name="LoginWithFacbookWrongUserName" class="Tests.SignUpByFacbookTest"/>
+        <method signature="SignUpTest.DoSignUp()[pri:4, instance:Tests.SignUpTest@1d7acb34]" name="DoSignUp" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:3, instance:Tests.SignUpTest@1d7acb34]" name="FillPsswordWithLessthan6Characters" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.SignupwithoutDotCom()[pri:1, instance:Tests.SignUpTest@1d7acb34]" name="SignupwithoutDotCom" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.Signupwithoutshtudel()[pri:2, instance:Tests.SignUpTest@1d7acb34]" name="Signupwithoutshtudel" class="Tests.SignUpTest"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="ReviseThirdLookTest" duration-ms="2762917" started-at="2018-06-21T21:32:03Z" finished-at="2018-06-21T22:18:06Z">
+    <test name="ReviseThirdLookTest" duration-ms="2982648" started-at="2018-06-28T20:42:39Z" finished-at="2018-06-28T21:32:22Z">
       <class name="Tests.ReviseThirdLookTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ReviseThirdLookTest@11758f2a]" name="setup" is-config="true" duration-ms="17167" started-at="2018-06-21T21:32:03Z" finished-at="2018-06-21T21:32:20Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ReviseThirdLookTest@11758f2a]" name="setup" is-config="true" duration-ms="19279" started-at="2018-06-28T20:42:39Z" finished-at="2018-06-28T20:42:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.ReviseThirdLookTest@11758f2a]" name="DoLogin" duration-ms="45427" started-at="2018-06-21T21:32:20Z" finished-at="2018-06-21T21:33:06Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.ReviseThirdLookTest@11758f2a]" name="DoLogin" duration-ms="47946" started-at="2018-06-28T20:42:58Z" finished-at="2018-06-28T20:43:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.ReviseThirdLookTest@11758f2a]" name="SearchStylist" duration-ms="14001" started-at="2018-06-21T21:33:06Z" finished-at="2018-06-21T21:33:20Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.ReviseThirdLookTest@11758f2a]" name="SearchStylist" duration-ms="16041" started-at="2018-06-28T20:43:46Z" finished-at="2018-06-28T20:44:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.ReviseThirdLookTest@11758f2a]" name="SelectEvents" duration-ms="33854" started-at="2018-06-21T21:33:20Z" finished-at="2018-06-21T21:33:54Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.ReviseThirdLookTest@11758f2a]" name="SelectEvents" duration-ms="33877" started-at="2018-06-28T20:44:02Z" finished-at="2018-06-28T20:44:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.ReviseThirdLookTest@11758f2a]" name="SelectSession" duration-ms="42046" started-at="2018-06-21T21:33:54Z" finished-at="2018-06-21T21:34:36Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.ReviseThirdLookTest@11758f2a]" name="SelectSession" duration-ms="42990" started-at="2018-06-28T20:44:36Z" finished-at="2018-06-28T20:45:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.ReviseThirdLookTest@11758f2a]" name="CompileBooking" duration-ms="104639" started-at="2018-06-21T21:34:36Z" finished-at="2018-06-21T21:36:20Z">
+        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.ReviseThirdLookTest@11758f2a]" name="CompileBooking" duration-ms="110871" started-at="2018-06-28T20:45:19Z" finished-at="2018-06-28T20:47:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompileBooking -->
-        <test-method status="PASS" signature="CreateMoodBoard()[pri:6, instance:Tests.ReviseThirdLookTest@11758f2a]" name="CreateMoodBoard" duration-ms="131370" started-at="2018-06-21T21:36:20Z" finished-at="2018-06-21T21:38:32Z">
+        <test-method status="PASS" signature="CreateMoodBoard()[pri:6, instance:Tests.ReviseThirdLookTest@11758f2a]" name="CreateMoodBoard" duration-ms="143092" started-at="2018-06-28T20:47:10Z" finished-at="2018-06-28T20:49:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateMoodBoard -->
-        <test-method status="PASS" signature="VerifyMoodBoard()[pri:7, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyMoodBoard" duration-ms="116641" started-at="2018-06-21T21:38:32Z" finished-at="2018-06-21T21:40:28Z">
+        <test-method status="PASS" signature="VerifyMoodBoard()[pri:7, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyMoodBoard" duration-ms="122811" started-at="2018-06-28T20:49:33Z" finished-at="2018-06-28T20:51:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMoodBoard -->
-        <test-method status="PASS" signature="CreateLook()[pri:8, instance:Tests.ReviseThirdLookTest@11758f2a]" name="CreateLook" duration-ms="150826" started-at="2018-06-21T21:40:28Z" finished-at="2018-06-21T21:42:59Z">
+        <test-method status="PASS" signature="CreateLook()[pri:8, instance:Tests.ReviseThirdLookTest@11758f2a]" name="CreateLook" duration-ms="166791" started-at="2018-06-28T20:51:36Z" finished-at="2018-06-28T20:54:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateLook -->
-        <test-method status="PASS" signature="VerifyCreateLook()[pri:9, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyCreateLook" duration-ms="120784" started-at="2018-06-21T21:42:59Z" finished-at="2018-06-21T21:45:00Z">
+        <test-method status="PASS" signature="VerifyCreateLook()[pri:9, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyCreateLook" duration-ms="128030" started-at="2018-06-28T20:54:23Z" finished-at="2018-06-28T20:56:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCreateLook -->
-        <test-method status="PASS" signature="CreateMoodBoard2()[pri:10, instance:Tests.ReviseThirdLookTest@11758f2a]" name="CreateMoodBoard2" duration-ms="128798" started-at="2018-06-21T21:45:00Z" finished-at="2018-06-21T21:47:09Z">
+        <test-method status="PASS" signature="CreateMoodBoard2()[pri:10, instance:Tests.ReviseThirdLookTest@11758f2a]" name="CreateMoodBoard2" duration-ms="146324" started-at="2018-06-28T20:56:31Z" finished-at="2018-06-28T20:58:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateMoodBoard2 -->
-        <test-method status="PASS" signature="VerifyMoodBoard2()[pri:11, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyMoodBoard2" duration-ms="121550" started-at="2018-06-21T21:47:09Z" finished-at="2018-06-21T21:49:10Z">
+        <test-method status="PASS" signature="VerifyMoodBoard2()[pri:11, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyMoodBoard2" duration-ms="125727" started-at="2018-06-28T20:58:57Z" finished-at="2018-06-28T21:01:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMoodBoard2 -->
-        <test-method status="PASS" signature="CreateLook2()[pri:12, instance:Tests.ReviseThirdLookTest@11758f2a]" name="CreateLook2" duration-ms="148257" started-at="2018-06-21T21:49:10Z" finished-at="2018-06-21T21:51:38Z">
+        <test-method status="PASS" signature="CreateLook2()[pri:12, instance:Tests.ReviseThirdLookTest@11758f2a]" name="CreateLook2" duration-ms="168776" started-at="2018-06-28T21:01:03Z" finished-at="2018-06-28T21:03:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateLook2 -->
-        <test-method status="PASS" signature="VerifyCreateLook2()[pri:13, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyCreateLook2" duration-ms="135517" started-at="2018-06-21T21:51:38Z" finished-at="2018-06-21T21:53:54Z">
+        <test-method status="PASS" signature="VerifyCreateLook2()[pri:13, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyCreateLook2" duration-ms="147367" started-at="2018-06-28T21:03:52Z" finished-at="2018-06-28T21:06:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCreateLook2 -->
-        <test-method status="PASS" signature="CreateMoodBoard3()[pri:14, instance:Tests.ReviseThirdLookTest@11758f2a]" name="CreateMoodBoard3" duration-ms="115833" started-at="2018-06-21T21:53:54Z" finished-at="2018-06-21T21:55:50Z">
+        <test-method status="PASS" signature="CreateMoodBoard3()[pri:14, instance:Tests.ReviseThirdLookTest@11758f2a]" name="CreateMoodBoard3" duration-ms="131105" started-at="2018-06-28T21:06:19Z" finished-at="2018-06-28T21:08:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateMoodBoard3 -->
-        <test-method status="PASS" signature="VerifyMoodBoard3()[pri:15, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyMoodBoard3" duration-ms="122967" started-at="2018-06-21T21:55:50Z" finished-at="2018-06-21T21:57:53Z">
+        <test-method status="PASS" signature="VerifyMoodBoard3()[pri:15, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyMoodBoard3" duration-ms="128425" started-at="2018-06-28T21:08:30Z" finished-at="2018-06-28T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMoodBoard3 -->
-        <test-method status="PASS" signature="CreateLook3()[pri:16, instance:Tests.ReviseThirdLookTest@11758f2a]" name="CreateLook3" duration-ms="150886" started-at="2018-06-21T21:57:53Z" finished-at="2018-06-21T22:00:24Z">
+        <test-method status="PASS" signature="CreateLook3()[pri:16, instance:Tests.ReviseThirdLookTest@11758f2a]" name="CreateLook3" duration-ms="168973" started-at="2018-06-28T21:10:39Z" finished-at="2018-06-28T21:13:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateLook3 -->
-        <test-method status="PASS" signature="VerifyCreateLook3()[pri:17, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyCreateLook3" duration-ms="206485" started-at="2018-06-21T22:00:24Z" finished-at="2018-06-21T22:03:50Z">
+        <test-method status="PASS" signature="VerifyCreateLook3()[pri:17, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyCreateLook3" duration-ms="214995" started-at="2018-06-28T21:13:28Z" finished-at="2018-06-28T21:17:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCreateLook3 -->
-        <test-method status="PASS" signature="ReviseLook()[pri:18, instance:Tests.ReviseThirdLookTest@11758f2a]" name="ReviseLook" duration-ms="129292" started-at="2018-06-21T22:03:50Z" finished-at="2018-06-21T22:05:59Z">
+        <test-method status="PASS" signature="ReviseLook()[pri:18, instance:Tests.ReviseThirdLookTest@11758f2a]" name="ReviseLook" duration-ms="140547" started-at="2018-06-28T21:17:03Z" finished-at="2018-06-28T21:19:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReviseLook -->
-        <test-method status="PASS" signature="VerifyCreateRevise1()[pri:19, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyCreateRevise1" duration-ms="140146" started-at="2018-06-21T22:05:59Z" finished-at="2018-06-21T22:08:20Z">
+        <test-method status="PASS" signature="VerifyCreateRevise1()[pri:19, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyCreateRevise1" duration-ms="145257" started-at="2018-06-28T21:19:23Z" finished-at="2018-06-28T21:21:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCreateRevise1 -->
-        <test-method status="PASS" signature="ReviseLook2()[pri:20, instance:Tests.ReviseThirdLookTest@11758f2a]" name="ReviseLook2" duration-ms="150313" started-at="2018-06-21T22:08:20Z" finished-at="2018-06-21T22:10:50Z">
+        <test-method status="PASS" signature="ReviseLook2()[pri:20, instance:Tests.ReviseThirdLookTest@11758f2a]" name="ReviseLook2" duration-ms="164708" started-at="2018-06-28T21:21:48Z" finished-at="2018-06-28T21:24:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReviseLook2 -->
-        <test-method status="PASS" signature="VerifyCreateRevise2()[pri:21, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyCreateRevise2" duration-ms="139770" started-at="2018-06-21T22:10:50Z" finished-at="2018-06-21T22:13:10Z">
+        <test-method status="PASS" signature="VerifyCreateRevise2()[pri:21, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyCreateRevise2" duration-ms="146005" started-at="2018-06-28T21:24:33Z" finished-at="2018-06-28T21:26:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCreateRevise2 -->
-        <test-method status="PASS" signature="EndSession()[pri:22, instance:Tests.ReviseThirdLookTest@11758f2a]" name="EndSession" duration-ms="92934" started-at="2018-06-21T22:13:10Z" finished-at="2018-06-21T22:14:43Z">
+        <test-method status="PASS" signature="EndSession()[pri:22, instance:Tests.ReviseThirdLookTest@11758f2a]" name="EndSession" duration-ms="106604" started-at="2018-06-28T21:26:59Z" finished-at="2018-06-28T21:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndSession -->
-        <test-method status="PASS" signature="ClientEndSession()[pri:23, instance:Tests.ReviseThirdLookTest@11758f2a]" name="ClientEndSession" duration-ms="139832" started-at="2018-06-21T22:14:43Z" finished-at="2018-06-21T22:17:02Z">
+        <test-method status="PASS" signature="ClientEndSession()[pri:23, instance:Tests.ReviseThirdLookTest@11758f2a]" name="ClientEndSession" duration-ms="144368" started-at="2018-06-28T21:28:46Z" finished-at="2018-06-28T21:31:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClientEndSession -->
-        <test-method status="PASS" signature="VerifyEndSession()[pri:24, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyEndSession" duration-ms="63540" started-at="2018-06-21T22:17:02Z" finished-at="2018-06-21T22:18:06Z">
+        <test-method status="PASS" signature="VerifyEndSession()[pri:24, instance:Tests.ReviseThirdLookTest@11758f2a]" name="VerifyEndSession" duration-ms="71691" started-at="2018-06-28T21:31:10Z" finished-at="2018-06-28T21:32:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEndSession -->
       </class> <!-- Tests.ReviseThirdLookTest -->
     </test> <!-- ReviseThirdLookTest -->
-    <test name="EndSessionTest" duration-ms="2228947" started-at="2018-06-21T22:18:06Z" finished-at="2018-06-21T22:55:15Z">
+    <test name="EndSessionTest" duration-ms="2214546" started-at="2018-06-28T21:32:22Z" finished-at="2018-06-28T22:09:16Z">
       <class name="Tests.EndSessionTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.EndSessionTest@1fc2b765]" name="setup" is-config="true" duration-ms="16460" started-at="2018-06-21T22:18:06Z" finished-at="2018-06-21T22:18:22Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.EndSessionTest@1fc2b765]" name="setup" is-config="true" duration-ms="18139" started-at="2018-06-28T21:32:22Z" finished-at="2018-06-28T21:32:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.EndSessionTest@1fc2b765]" name="DoLogin" duration-ms="48113" started-at="2018-06-21T22:18:22Z" finished-at="2018-06-21T22:19:11Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.EndSessionTest@1fc2b765]" name="DoLogin" duration-ms="49086" started-at="2018-06-28T21:32:40Z" finished-at="2018-06-28T21:33:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.EndSessionTest@1fc2b765]" name="SearchStylist" duration-ms="14243" started-at="2018-06-21T22:19:11Z" finished-at="2018-06-21T22:19:25Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.EndSessionTest@1fc2b765]" name="SearchStylist" duration-ms="14594" started-at="2018-06-28T21:33:29Z" finished-at="2018-06-28T21:33:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.EndSessionTest@1fc2b765]" name="SelectEvents" duration-ms="35957" started-at="2018-06-21T22:19:25Z" finished-at="2018-06-21T22:20:01Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.EndSessionTest@1fc2b765]" name="SelectEvents" duration-ms="34276" started-at="2018-06-28T21:33:44Z" finished-at="2018-06-28T21:34:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.EndSessionTest@1fc2b765]" name="SelectSession" duration-ms="43765" started-at="2018-06-21T22:20:01Z" finished-at="2018-06-21T22:20:45Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.EndSessionTest@1fc2b765]" name="SelectSession" duration-ms="43635" started-at="2018-06-28T21:34:18Z" finished-at="2018-06-28T21:35:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.EndSessionTest@1fc2b765]" name="CompileBooking" duration-ms="105947" started-at="2018-06-21T22:20:45Z" finished-at="2018-06-21T22:22:30Z">
+        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.EndSessionTest@1fc2b765]" name="CompileBooking" duration-ms="108138" started-at="2018-06-28T21:35:01Z" finished-at="2018-06-28T21:36:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompileBooking -->
-        <test-method status="PASS" signature="CreateMoodBoard()[pri:6, instance:Tests.EndSessionTest@1fc2b765]" name="CreateMoodBoard" duration-ms="129193" started-at="2018-06-21T22:22:30Z" finished-at="2018-06-21T22:24:40Z">
+        <test-method status="PASS" signature="CreateMoodBoard()[pri:6, instance:Tests.EndSessionTest@1fc2b765]" name="CreateMoodBoard" duration-ms="136044" started-at="2018-06-28T21:36:50Z" finished-at="2018-06-28T21:39:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateMoodBoard -->
-        <test-method status="PASS" signature="VerifyMoodBoard()[pri:7, instance:Tests.EndSessionTest@1fc2b765]" name="VerifyMoodBoard" duration-ms="124512" started-at="2018-06-21T22:24:40Z" finished-at="2018-06-21T22:26:44Z">
+        <test-method status="PASS" signature="VerifyMoodBoard()[pri:7, instance:Tests.EndSessionTest@1fc2b765]" name="VerifyMoodBoard" duration-ms="121815" started-at="2018-06-28T21:39:06Z" finished-at="2018-06-28T21:41:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMoodBoard -->
-        <test-method status="PASS" signature="CreateLook()[pri:8, instance:Tests.EndSessionTest@1fc2b765]" name="CreateLook" duration-ms="148580" started-at="2018-06-21T22:26:44Z" finished-at="2018-06-21T22:29:13Z">
+        <test-method status="PASS" signature="CreateLook()[pri:8, instance:Tests.EndSessionTest@1fc2b765]" name="CreateLook" duration-ms="154496" started-at="2018-06-28T21:41:07Z" finished-at="2018-06-28T21:43:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateLook -->
-        <test-method status="PASS" signature="VerifyCreateLook()[pri:9, instance:Tests.EndSessionTest@1fc2b765]" name="VerifyCreateLook" duration-ms="145380" started-at="2018-06-21T22:29:13Z" finished-at="2018-06-21T22:31:38Z">
+        <test-method status="PASS" signature="VerifyCreateLook()[pri:9, instance:Tests.EndSessionTest@1fc2b765]" name="VerifyCreateLook" duration-ms="139549" started-at="2018-06-28T21:43:42Z" finished-at="2018-06-28T21:46:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCreateLook -->
-        <test-method status="PASS" signature="CreateMoodBoard2()[pri:10, instance:Tests.EndSessionTest@1fc2b765]" name="CreateMoodBoard2" duration-ms="113703" started-at="2018-06-21T22:31:38Z" finished-at="2018-06-21T22:33:32Z">
+        <test-method status="PASS" signature="CreateMoodBoard2()[pri:10, instance:Tests.EndSessionTest@1fc2b765]" name="CreateMoodBoard2" duration-ms="117620" started-at="2018-06-28T21:46:01Z" finished-at="2018-06-28T21:47:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateMoodBoard2 -->
-        <test-method status="PASS" signature="VerifyMoodBoard2()[pri:11, instance:Tests.EndSessionTest@1fc2b765]" name="VerifyMoodBoard2" duration-ms="128434" started-at="2018-06-21T22:33:32Z" finished-at="2018-06-21T22:35:40Z">
+        <test-method status="PASS" signature="VerifyMoodBoard2()[pri:11, instance:Tests.EndSessionTest@1fc2b765]" name="VerifyMoodBoard2" duration-ms="120106" started-at="2018-06-28T21:47:59Z" finished-at="2018-06-28T21:49:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMoodBoard2 -->
-        <test-method status="PASS" signature="CreateLook2()[pri:12, instance:Tests.EndSessionTest@1fc2b765]" name="CreateLook2" duration-ms="150750" started-at="2018-06-21T22:35:40Z" finished-at="2018-06-21T22:38:11Z">
+        <test-method status="PASS" signature="CreateLook2()[pri:12, instance:Tests.EndSessionTest@1fc2b765]" name="CreateLook2" duration-ms="155634" started-at="2018-06-28T21:49:59Z" finished-at="2018-06-28T21:52:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateLook2 -->
-        <test-method status="PASS" signature="VerifyCreateLook2()[pri:13, instance:Tests.EndSessionTest@1fc2b765]" name="VerifyCreateLook2" duration-ms="150317" started-at="2018-06-21T22:38:11Z" finished-at="2018-06-21T22:40:41Z">
+        <test-method status="PASS" signature="VerifyCreateLook2()[pri:13, instance:Tests.EndSessionTest@1fc2b765]" name="VerifyCreateLook2" duration-ms="142623" started-at="2018-06-28T21:52:35Z" finished-at="2018-06-28T21:54:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCreateLook2 -->
-        <test-method status="PASS" signature="CreateMoodBoard3()[pri:14, instance:Tests.EndSessionTest@1fc2b765]" name="CreateMoodBoard3" duration-ms="120393" started-at="2018-06-21T22:40:41Z" finished-at="2018-06-21T22:42:42Z">
+        <test-method status="PASS" signature="CreateMoodBoard3()[pri:14, instance:Tests.EndSessionTest@1fc2b765]" name="CreateMoodBoard3" duration-ms="119394" started-at="2018-06-28T21:54:57Z" finished-at="2018-06-28T21:56:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateMoodBoard3 -->
-        <test-method status="PASS" signature="VerifyMoodBoard3()[pri:15, instance:Tests.EndSessionTest@1fc2b765]" name="VerifyMoodBoard3" duration-ms="130751" started-at="2018-06-21T22:42:42Z" finished-at="2018-06-21T22:44:53Z">
+        <test-method status="PASS" signature="VerifyMoodBoard3()[pri:15, instance:Tests.EndSessionTest@1fc2b765]" name="VerifyMoodBoard3" duration-ms="123421" started-at="2018-06-28T21:56:57Z" finished-at="2018-06-28T21:59:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMoodBoard3 -->
-        <test-method status="PASS" signature="CreateLook3()[pri:16, instance:Tests.EndSessionTest@1fc2b765]" name="CreateLook3" duration-ms="158109" started-at="2018-06-21T22:44:53Z" finished-at="2018-06-21T22:47:31Z">
+        <test-method status="PASS" signature="CreateLook3()[pri:16, instance:Tests.EndSessionTest@1fc2b765]" name="CreateLook3" duration-ms="160069" started-at="2018-06-28T21:59:00Z" finished-at="2018-06-28T22:01:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateLook3 -->
-        <test-method status="PASS" signature="VerifyCreateLook3()[pri:17, instance:Tests.EndSessionTest@1fc2b765]" name="VerifyCreateLook3" duration-ms="133987" started-at="2018-06-21T22:47:31Z" finished-at="2018-06-21T22:49:45Z">
+        <test-method status="PASS" signature="VerifyCreateLook3()[pri:17, instance:Tests.EndSessionTest@1fc2b765]" name="VerifyCreateLook3" duration-ms="128178" started-at="2018-06-28T22:01:40Z" finished-at="2018-06-28T22:03:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCreateLook3 -->
-        <test-method status="PASS" signature="EndSession()[pri:18, instance:Tests.EndSessionTest@1fc2b765]" name="EndSession" duration-ms="109425" started-at="2018-06-21T22:49:45Z" finished-at="2018-06-21T22:51:34Z">
+        <test-method status="PASS" signature="EndSession()[pri:18, instance:Tests.EndSessionTest@1fc2b765]" name="EndSession" duration-ms="108262" started-at="2018-06-28T22:03:49Z" finished-at="2018-06-28T22:05:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndSession -->
-        <test-method status="PASS" signature="ClientEndSession()[pri:19, instance:Tests.EndSessionTest@1fc2b765]" name="ClientEndSession" duration-ms="148233" started-at="2018-06-21T22:51:34Z" finished-at="2018-06-21T22:54:02Z">
+        <test-method status="PASS" signature="ClientEndSession()[pri:19, instance:Tests.EndSessionTest@1fc2b765]" name="ClientEndSession" duration-ms="145695" started-at="2018-06-28T22:05:37Z" finished-at="2018-06-28T22:08:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClientEndSession -->
-        <test-method status="PASS" signature="VerifyEndSession()[pri:20, instance:Tests.EndSessionTest@1fc2b765]" name="VerifyEndSession" duration-ms="72675" started-at="2018-06-21T22:54:02Z" finished-at="2018-06-21T22:55:15Z">
+        <test-method status="PASS" signature="VerifyEndSession()[pri:20, instance:Tests.EndSessionTest@1fc2b765]" name="VerifyEndSession" duration-ms="73751" started-at="2018-06-28T22:08:03Z" finished-at="2018-06-28T22:09:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEndSession -->
       </class> <!-- Tests.EndSessionTest -->
     </test> <!-- EndSessionTest -->
-    <test name="BestMutch" duration-ms="1426473" started-at="2018-06-21T22:55:15Z" finished-at="2018-06-21T23:19:01Z">
+    <test name="BestMutch" duration-ms="1415346" started-at="2018-06-28T22:09:16Z" finished-at="2018-06-28T22:32:52Z">
       <class name="Tests.BestMutch">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMutch@2de8284b]" name="setup" is-config="true" duration-ms="18859" started-at="2018-06-21T22:55:15Z" finished-at="2018-06-21T22:55:34Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMutch@2de8284b]" name="setup" is-config="true" duration-ms="18781" started-at="2018-06-28T22:09:16Z" finished-at="2018-06-28T22:09:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BestMatchCheepFamle()[pri:1, instance:Tests.BestMutch@2de8284b]" name="BestMatchCheepFamle" duration-ms="172286" started-at="2018-06-21T22:55:34Z" finished-at="2018-06-21T22:58:26Z">
+        <test-method status="PASS" signature="BestMatchCheepFamle()[pri:1, instance:Tests.BestMutch@2de8284b]" name="BestMatchCheepFamle" duration-ms="169970" started-at="2018-06-28T22:09:35Z" finished-at="2018-06-28T22:12:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BestMatchCheepFamle -->
-        <test-method status="PASS" signature="BestMatchFeMaleExpensive()[pri:2, instance:Tests.BestMutch@2de8284b]" name="BestMatchFeMaleExpensive" duration-ms="195020" started-at="2018-06-21T22:58:26Z" finished-at="2018-06-21T23:01:41Z">
+        <test-method status="PASS" signature="BestMatchFeMaleExpensive()[pri:2, instance:Tests.BestMutch@2de8284b]" name="BestMatchFeMaleExpensive" duration-ms="192759" started-at="2018-06-28T22:12:25Z" finished-at="2018-06-28T22:15:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BestMatchFeMaleExpensive -->
-        <test-method status="PASS" signature="BestMatchFeMaleNormal()[pri:3, instance:Tests.BestMutch@2de8284b]" name="BestMatchFeMaleNormal" duration-ms="195571" started-at="2018-06-21T23:01:41Z" finished-at="2018-06-21T23:04:57Z">
+        <test-method status="PASS" signature="BestMatchFeMaleNormal()[pri:3, instance:Tests.BestMutch@2de8284b]" name="BestMatchFeMaleNormal" duration-ms="192876" started-at="2018-06-28T22:15:38Z" finished-at="2018-06-28T22:18:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BestMatchFeMaleNormal -->
-        <test-method status="PASS" signature="BestMatchFeMaleCheepExpensive()[pri:4, instance:Tests.BestMutch@2de8284b]" name="BestMatchFeMaleCheepExpensive" duration-ms="196982" started-at="2018-06-21T23:04:57Z" finished-at="2018-06-21T23:08:14Z">
+        <test-method status="PASS" signature="BestMatchFeMaleCheepExpensive()[pri:4, instance:Tests.BestMutch@2de8284b]" name="BestMatchFeMaleCheepExpensive" duration-ms="194090" started-at="2018-06-28T22:18:51Z" finished-at="2018-06-28T22:22:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BestMatchFeMaleCheepExpensive -->
-        <test-method status="PASS" signature="BestMatchExpensiveMale()[pri:5, instance:Tests.BestMutch@2de8284b]" name="BestMatchExpensiveMale" duration-ms="172083" started-at="2018-06-21T23:08:14Z" finished-at="2018-06-21T23:11:06Z">
+        <test-method status="PASS" signature="BestMatchExpensiveMale()[pri:5, instance:Tests.BestMutch@2de8284b]" name="BestMatchExpensiveMale" duration-ms="174121" started-at="2018-06-28T22:22:05Z" finished-at="2018-06-28T22:24:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BestMatchExpensiveMale -->
-        <test-method status="PASS" signature="BestMatchNormalMale()[pri:6, instance:Tests.BestMutch@2de8284b]" name="BestMatchNormalMale" duration-ms="177299" started-at="2018-06-21T23:11:06Z" finished-at="2018-06-21T23:14:03Z">
+        <test-method status="PASS" signature="BestMatchNormalMale()[pri:6, instance:Tests.BestMutch@2de8284b]" name="BestMatchNormalMale" duration-ms="177529" started-at="2018-06-28T22:24:59Z" finished-at="2018-06-28T22:27:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BestMatchNormalMale -->
-        <test-method status="PASS" signature="BestMatchCheepMale()[pri:7, instance:Tests.BestMutch@2de8284b]" name="BestMatchCheepMale" duration-ms="176335" started-at="2018-06-21T23:14:03Z" finished-at="2018-06-21T23:16:59Z">
+        <test-method status="PASS" signature="BestMatchCheepMale()[pri:7, instance:Tests.BestMutch@2de8284b]" name="BestMatchCheepMale" duration-ms="173896" started-at="2018-06-28T22:27:56Z" finished-at="2018-06-28T22:30:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BestMatchCheepMale -->
-        <test-method status="PASS" signature="BestMatchSelfIdentity()[pri:8, instance:Tests.BestMutch@2de8284b]" name="BestMatchSelfIdentity" duration-ms="122032" started-at="2018-06-21T23:16:59Z" finished-at="2018-06-21T23:19:01Z">
+        <test-method status="PASS" signature="BestMatchSelfIdentity()[pri:8, instance:Tests.BestMutch@2de8284b]" name="BestMatchSelfIdentity" duration-ms="121320" started-at="2018-06-28T22:30:50Z" finished-at="2018-06-28T22:32:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BestMatchSelfIdentity -->
       </class> <!-- Tests.BestMutch -->
     </test> <!-- BestMutch -->
-    <test name="ChatTest" duration-ms="574812" started-at="2018-06-21T23:19:01Z" finished-at="2018-06-21T23:28:36Z">
+    <test name="ChatTest" duration-ms="572900" started-at="2018-06-28T22:32:52Z" finished-at="2018-06-28T22:42:25Z">
       <class name="Tests.ChatTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ChatTest@42607a4f]" name="setup" is-config="true" duration-ms="19194" started-at="2018-06-21T23:19:01Z" finished-at="2018-06-21T23:19:21Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ChatTest@42607a4f]" name="setup" is-config="true" duration-ms="18853" started-at="2018-06-28T22:32:52Z" finished-at="2018-06-28T22:33:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="StylistSendToClient()[pri:1, instance:Tests.ChatTest@42607a4f]" name="StylistSendToClient" duration-ms="309453" started-at="2018-06-21T23:19:21Z" finished-at="2018-06-21T23:24:30Z">
+        <test-method status="PASS" signature="StylistSendToClient()[pri:1, instance:Tests.ChatTest@42607a4f]" name="StylistSendToClient" duration-ms="312909" started-at="2018-06-28T22:33:10Z" finished-at="2018-06-28T22:38:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StylistSendToClient -->
-        <test-method status="PASS" signature="ClientToStylist()[pri:2, instance:Tests.ChatTest@42607a4f]" name="ClientToStylist" duration-ms="246163" started-at="2018-06-21T23:24:30Z" finished-at="2018-06-21T23:28:36Z">
+        <test-method status="PASS" signature="ClientToStylist()[pri:2, instance:Tests.ChatTest@42607a4f]" name="ClientToStylist" duration-ms="241136" started-at="2018-06-28T22:38:23Z" finished-at="2018-06-28T22:42:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClientToStylist -->
       </class> <!-- Tests.ChatTest -->
     </test> <!-- ChatTest -->
-    <test name="EditStyleForMenTests" duration-ms="989353" started-at="2018-06-21T23:28:36Z" finished-at="2018-06-21T23:45:06Z">
+    <test name="EditStyleForMenTests" duration-ms="899379" started-at="2018-06-28T22:42:25Z" finished-at="2018-06-28T22:57:24Z">
       <class name="Tests.EditStyleForMenTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.EditStyleForMenTests@2e3fc542]" name="setup" is-config="true" duration-ms="18104" started-at="2018-06-21T23:28:36Z" finished-at="2018-06-21T23:28:54Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.EditStyleForMenTests@2e3fc542]" name="setup" is-config="true" duration-ms="18657" started-at="2018-06-28T22:42:25Z" finished-at="2018-06-28T22:42:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.EditStyleForMenTests@2e3fc542]" name="DoSignUp" duration-ms="192270" started-at="2018-06-21T23:28:54Z" finished-at="2018-06-21T23:32:07Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.EditStyleForMenTests@2e3fc542]" name="DoSignUp" duration-ms="199245" started-at="2018-06-28T22:42:43Z" finished-at="2018-06-28T22:46:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="EditSize()[pri:3, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditSize" duration-ms="81861" started-at="2018-06-21T23:32:07Z" finished-at="2018-06-21T23:33:29Z">
+        <test-method status="PASS" signature="EditSize()[pri:3, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditSize" duration-ms="76368" started-at="2018-06-28T22:46:02Z" finished-at="2018-06-28T22:47:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditSize -->
-        <test-method status="PASS" signature="EditHeight()[pri:4, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditHeight" duration-ms="35981" started-at="2018-06-21T23:33:29Z" finished-at="2018-06-21T23:34:04Z">
+        <test-method status="PASS" signature="EditHeight()[pri:4, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditHeight" duration-ms="30486" started-at="2018-06-28T22:47:19Z" finished-at="2018-06-28T22:47:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditHeight -->
-        <test-method status="PASS" signature="EditBodyType()[pri:5, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditBodyType" duration-ms="36171" started-at="2018-06-21T23:34:04Z" finished-at="2018-06-21T23:34:41Z">
+        <test-method status="PASS" signature="EditBodyType()[pri:5, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditBodyType" duration-ms="30777" started-at="2018-06-28T22:47:49Z" finished-at="2018-06-28T22:48:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditBodyType -->
-        <test-method status="PASS" signature="EditFitTop()[pri:6, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditFitTop" duration-ms="36030" started-at="2018-06-21T23:34:41Z" finished-at="2018-06-21T23:35:17Z">
+        <test-method status="PASS" signature="EditFitTop()[pri:6, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditFitTop" duration-ms="30944" started-at="2018-06-28T22:48:20Z" finished-at="2018-06-28T22:48:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditFitTop -->
-        <test-method status="PASS" signature="EditFitBottom()[pri:7, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditFitBottom" duration-ms="36311" started-at="2018-06-21T23:35:17Z" finished-at="2018-06-21T23:35:53Z">
+        <test-method status="PASS" signature="EditFitBottom()[pri:7, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditFitBottom" duration-ms="31239" started-at="2018-06-28T22:48:51Z" finished-at="2018-06-28T22:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditFitBottom -->
-        <test-method status="PASS" signature="EditBudget()[pri:8, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditBudget" duration-ms="66770" started-at="2018-06-21T23:35:53Z" finished-at="2018-06-21T23:37:00Z">
+        <test-method status="PASS" signature="EditBudget()[pri:8, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditBudget" duration-ms="60884" started-at="2018-06-28T22:49:22Z" finished-at="2018-06-28T22:50:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditBudget -->
-        <test-method status="PASS" signature="EditColor()[pri:9, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditColor" duration-ms="51875" started-at="2018-06-21T23:37:00Z" finished-at="2018-06-21T23:37:52Z">
+        <test-method status="PASS" signature="EditColor()[pri:9, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditColor" duration-ms="45911" started-at="2018-06-28T22:50:23Z" finished-at="2018-06-28T22:51:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditColor -->
-        <test-method status="PASS" signature="EditJewelry()[pri:10, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditJewelry" duration-ms="52117" started-at="2018-06-21T23:37:52Z" finished-at="2018-06-21T23:38:44Z">
+        <test-method status="PASS" signature="EditJewelry()[pri:10, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditJewelry" duration-ms="46479" started-at="2018-06-28T22:51:09Z" finished-at="2018-06-28T22:51:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditJewelry -->
-        <test-method status="PASS" signature="EditZone()[pri:11, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditZone" duration-ms="63635" started-at="2018-06-21T23:38:44Z" finished-at="2018-06-21T23:39:47Z">
+        <test-method status="PASS" signature="EditZone()[pri:11, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditZone" duration-ms="53548" started-at="2018-06-28T22:51:56Z" finished-at="2018-06-28T22:52:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditZone -->
-        <test-method status="PASS" signature="EditBrands()[pri:12, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditBrands" duration-ms="79540" started-at="2018-06-21T23:39:47Z" finished-at="2018-06-21T23:41:07Z">
+        <test-method status="PASS" signature="EditBrands()[pri:12, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditBrands" duration-ms="69641" started-at="2018-06-28T22:52:49Z" finished-at="2018-06-28T22:53:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditBrands -->
-        <test-method status="PASS" signature="EditSocialMedia()[pri:13, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditSocialMedia" duration-ms="238678" started-at="2018-06-21T23:41:07Z" finished-at="2018-06-21T23:45:06Z">
+        <test-method status="PASS" signature="EditSocialMedia()[pri:13, instance:Tests.EditStyleForMenTests@2e3fc542]" name="EditSocialMedia" duration-ms="205191" started-at="2018-06-28T22:53:59Z" finished-at="2018-06-28T22:57:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditSocialMedia -->
       </class> <!-- Tests.EditStyleForMenTests -->
     </test> <!-- EditStyleForMenTests -->
-    <test name="EditStyleForWomenTests" duration-ms="1166764" started-at="2018-06-21T23:45:06Z" finished-at="2018-06-22T00:04:32Z">
+    <test name="EditStyleForWomenTests" duration-ms="1125509" started-at="2018-06-28T22:57:24Z" finished-at="2018-06-28T23:16:09Z">
       <class name="Tests.EditStyleForWomenTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.EditStyleForWomenTests@2eda0940]" name="setup" is-config="true" duration-ms="19079" started-at="2018-06-21T23:45:06Z" finished-at="2018-06-21T23:45:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.EditStyleForWomenTests@2eda0940]" name="setup" is-config="true" duration-ms="18889" started-at="2018-06-28T22:57:24Z" finished-at="2018-06-28T22:57:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.EditStyleForWomenTests@2eda0940]" name="DoSignUp" duration-ms="198273" started-at="2018-06-21T23:45:25Z" finished-at="2018-06-21T23:48:43Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.EditStyleForWomenTests@2eda0940]" name="DoSignUp" duration-ms="210485" started-at="2018-06-28T22:57:43Z" finished-at="2018-06-28T23:01:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="EditSize()[pri:2, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditSize" duration-ms="81690" started-at="2018-06-21T23:48:43Z" finished-at="2018-06-21T23:50:05Z">
+        <test-method status="PASS" signature="EditSize()[pri:2, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditSize" duration-ms="78545" started-at="2018-06-28T23:01:13Z" finished-at="2018-06-28T23:02:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditSize -->
-        <test-method status="PASS" signature="EditBodyType()[pri:3, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditBodyType" duration-ms="30337" started-at="2018-06-21T23:50:05Z" finished-at="2018-06-21T23:50:35Z">
+        <test-method status="PASS" signature="EditBodyType()[pri:3, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditBodyType" duration-ms="27803" started-at="2018-06-28T23:02:32Z" finished-at="2018-06-28T23:03:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditBodyType -->
-        <test-method status="PASS" signature="EditHeight()[pri:4, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditHeight" duration-ms="30469" started-at="2018-06-21T23:50:35Z" finished-at="2018-06-21T23:51:05Z">
+        <test-method status="PASS" signature="EditHeight()[pri:4, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditHeight" duration-ms="27851" started-at="2018-06-28T23:03:00Z" finished-at="2018-06-28T23:03:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditHeight -->
-        <test-method status="PASS" signature="EditHighlights()[pri:6, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditHighlights" duration-ms="67059" started-at="2018-06-21T23:51:05Z" finished-at="2018-06-21T23:52:13Z">
+        <test-method status="PASS" signature="EditHighlights()[pri:6, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditHighlights" duration-ms="62045" started-at="2018-06-28T23:03:28Z" finished-at="2018-06-28T23:04:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditHighlights -->
-        <test-method status="PASS" signature="EditFitBottom()[pri:7, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditFitBottom" duration-ms="31098" started-at="2018-06-21T23:52:13Z" finished-at="2018-06-21T23:52:44Z">
+        <test-method status="PASS" signature="EditFitBottom()[pri:7, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditFitBottom" duration-ms="28676" started-at="2018-06-28T23:04:30Z" finished-at="2018-06-28T23:04:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditFitBottom -->
-        <test-method status="PASS" signature="EditHeels()[pri:7, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditHeels" duration-ms="31266" started-at="2018-06-21T23:52:44Z" finished-at="2018-06-21T23:53:15Z">
+        <test-method status="PASS" signature="EditHeels()[pri:7, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditHeels" duration-ms="28726" started-at="2018-06-28T23:04:58Z" finished-at="2018-06-28T23:05:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditHeels -->
-        <test-method status="PASS" signature="EditFitTop()[pri:8, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditFitTop" duration-ms="31493" started-at="2018-06-21T23:53:15Z" finished-at="2018-06-21T23:53:46Z">
+        <test-method status="PASS" signature="EditFitTop()[pri:8, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditFitTop" duration-ms="29286" started-at="2018-06-28T23:05:27Z" finished-at="2018-06-28T23:05:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditFitTop -->
-        <test-method status="PASS" signature="EditJeans()[pri:8, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditJeans" duration-ms="50061" started-at="2018-06-21T23:53:46Z" finished-at="2018-06-21T23:54:36Z">
+        <test-method status="PASS" signature="EditJeans()[pri:8, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditJeans" duration-ms="47231" started-at="2018-06-28T23:05:56Z" finished-at="2018-06-28T23:06:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditJeans -->
-        <test-method status="PASS" signature="EditFabric()[pri:9, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditFabric" duration-ms="55525" started-at="2018-06-21T23:54:36Z" finished-at="2018-06-21T23:55:32Z">
+        <test-method status="PASS" signature="EditFabric()[pri:9, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditFabric" duration-ms="52986" started-at="2018-06-28T23:06:43Z" finished-at="2018-06-28T23:07:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditFabric -->
-        <test-method status="PASS" signature="EditBudget()[pri:10, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditBudget" duration-ms="78032" started-at="2018-06-21T23:55:32Z" finished-at="2018-06-21T23:56:50Z">
+        <test-method status="PASS" signature="EditBudget()[pri:10, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditBudget" duration-ms="75374" started-at="2018-06-28T23:07:36Z" finished-at="2018-06-28T23:08:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditBudget -->
-        <test-method status="PASS" signature="EditColor()[pri:11, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditColor" duration-ms="65384" started-at="2018-06-21T23:56:50Z" finished-at="2018-06-21T23:57:55Z">
+        <test-method status="PASS" signature="EditColor()[pri:11, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditColor" duration-ms="62443" started-at="2018-06-28T23:08:52Z" finished-at="2018-06-28T23:09:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditColor -->
-        <test-method status="PASS" signature="EditJewelry()[pri:12, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditJewelry" duration-ms="58747" started-at="2018-06-21T23:57:55Z" finished-at="2018-06-21T23:58:54Z">
+        <test-method status="PASS" signature="EditJewelry()[pri:12, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditJewelry" duration-ms="55575" started-at="2018-06-28T23:09:54Z" finished-at="2018-06-28T23:10:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditJewelry -->
-        <test-method status="PASS" signature="EditZone()[pri:13, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditZone" duration-ms="63764" started-at="2018-06-21T23:58:54Z" finished-at="2018-06-21T23:59:58Z">
+        <test-method status="PASS" signature="EditZone()[pri:13, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditZone" duration-ms="60125" started-at="2018-06-28T23:10:50Z" finished-at="2018-06-28T23:11:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditZone -->
-        <test-method status="PASS" signature="EditBrands()[pri:14, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditBrands" duration-ms="74456" started-at="2018-06-21T23:59:58Z" finished-at="2018-06-22T00:01:12Z">
+        <test-method status="PASS" signature="EditBrands()[pri:14, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditBrands" duration-ms="70375" started-at="2018-06-28T23:11:50Z" finished-at="2018-06-28T23:13:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditBrands -->
-        <test-method status="PASS" signature="EditSocialMedia()[pri:15, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditSocialMedia" duration-ms="200017" started-at="2018-06-22T00:01:12Z" finished-at="2018-06-22T00:04:32Z">
+        <test-method status="PASS" signature="EditSocialMedia()[pri:15, instance:Tests.EditStyleForWomenTests@2eda0940]" name="EditSocialMedia" duration-ms="189079" started-at="2018-06-28T23:13:00Z" finished-at="2018-06-28T23:16:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditSocialMedia -->
       </class> <!-- Tests.EditStyleForWomenTests -->
     </test> <!-- EditStyleForWomenTests -->
-    <test name="CheckOutByCoponTest" duration-ms="263330" started-at="2018-06-22T00:04:32Z" finished-at="2018-06-22T00:08:56Z">
+    <test name="CheckOutByCoponTest" duration-ms="260839" started-at="2018-06-28T23:16:09Z" finished-at="2018-06-28T23:20:30Z">
       <class name="Tests.CheckOutByCoponTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.CheckOutByCoponTest@4d1b0d2a]" name="setup" is-config="true" duration-ms="17557" started-at="2018-06-22T00:04:32Z" finished-at="2018-06-22T00:04:50Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.CheckOutByCoponTest@4d1b0d2a]" name="setup" is-config="true" duration-ms="17316" started-at="2018-06-28T23:16:09Z" finished-at="2018-06-28T23:16:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.CheckOutByCoponTest@4d1b0d2a]" name="DoLogin" duration-ms="48680" started-at="2018-06-22T00:04:50Z" finished-at="2018-06-22T00:05:39Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.CheckOutByCoponTest@4d1b0d2a]" name="DoLogin" duration-ms="46631" started-at="2018-06-28T23:16:27Z" finished-at="2018-06-28T23:17:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.CheckOutByCoponTest@4d1b0d2a]" name="SearchStylist" duration-ms="15361" started-at="2018-06-22T00:05:39Z" finished-at="2018-06-22T00:05:54Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.CheckOutByCoponTest@4d1b0d2a]" name="SearchStylist" duration-ms="13481" started-at="2018-06-28T23:17:13Z" finished-at="2018-06-28T23:17:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.CheckOutByCoponTest@4d1b0d2a]" name="SelectEvents" duration-ms="36643" started-at="2018-06-22T00:05:54Z" finished-at="2018-06-22T00:06:31Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.CheckOutByCoponTest@4d1b0d2a]" name="SelectEvents" duration-ms="33224" started-at="2018-06-28T23:17:27Z" finished-at="2018-06-28T23:18:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.CheckOutByCoponTest@4d1b0d2a]" name="SelectSession" duration-ms="145086" started-at="2018-06-22T00:06:31Z" finished-at="2018-06-22T00:08:56Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.CheckOutByCoponTest@4d1b0d2a]" name="SelectSession" duration-ms="150184" started-at="2018-06-28T23:18:00Z" finished-at="2018-06-28T23:20:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectSession -->
       </class> <!-- Tests.CheckOutByCoponTest -->
     </test> <!-- CheckOutByCoponTest -->
-    <test name="CheckOutMounthTest" duration-ms="253512" started-at="2018-06-22T00:08:56Z" finished-at="2018-06-22T00:13:09Z">
+    <test name="CheckOutMounthTest" duration-ms="241347" started-at="2018-06-28T23:20:30Z" finished-at="2018-06-28T23:24:32Z">
       <class name="Tests.CheckOutMounthTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.CheckOutMounthTest@545997b1]" name="setup" is-config="true" duration-ms="16703" started-at="2018-06-22T00:08:56Z" finished-at="2018-06-22T00:09:12Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.CheckOutMounthTest@545997b1]" name="setup" is-config="true" duration-ms="16495" started-at="2018-06-28T23:20:30Z" finished-at="2018-06-28T23:20:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.CheckOutMounthTest@545997b1]" name="DoLogin" duration-ms="47073" started-at="2018-06-22T00:09:12Z" finished-at="2018-06-22T00:10:00Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.CheckOutMounthTest@545997b1]" name="DoLogin" duration-ms="47034" started-at="2018-06-28T23:20:47Z" finished-at="2018-06-28T23:21:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.CheckOutMounthTest@545997b1]" name="SearchStylist" duration-ms="13688" started-at="2018-06-22T00:10:00Z" finished-at="2018-06-22T00:10:13Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.CheckOutMounthTest@545997b1]" name="SearchStylist" duration-ms="13399" started-at="2018-06-28T23:21:34Z" finished-at="2018-06-28T23:21:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.CheckOutMounthTest@545997b1]" name="SelectEvents" duration-ms="35870" started-at="2018-06-22T00:10:13Z" finished-at="2018-06-22T00:10:49Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.CheckOutMounthTest@545997b1]" name="SelectEvents" duration-ms="34026" started-at="2018-06-28T23:21:47Z" finished-at="2018-06-28T23:22:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.CheckOutMounthTest@545997b1]" name="SelectSession" duration-ms="20436" started-at="2018-06-22T00:10:49Z" finished-at="2018-06-22T00:11:10Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.CheckOutMounthTest@545997b1]" name="SelectSession" duration-ms="19910" started-at="2018-06-28T23:22:21Z" finished-at="2018-06-28T23:22:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.CheckOutMounthTest@545997b1]" name="CompileBooking" duration-ms="119736" started-at="2018-06-22T00:11:10Z" finished-at="2018-06-22T00:13:09Z">
+        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.CheckOutMounthTest@545997b1]" name="CompileBooking" duration-ms="110477" started-at="2018-06-28T23:22:41Z" finished-at="2018-06-28T23:24:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompileBooking -->
       </class> <!-- Tests.CheckOutMounthTest -->
     </test> <!-- CheckOutMounthTest -->
-    <test name="CheckOutSingleTest" duration-ms="262636" started-at="2018-06-22T00:13:09Z" finished-at="2018-06-22T00:17:32Z">
+    <test name="CheckOutSingleTest" duration-ms="234098" started-at="2018-06-28T23:24:32Z" finished-at="2018-06-28T23:28:26Z">
       <class name="Tests.CheckOutSingleTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.CheckOutSingleTest@df27fae]" name="setup" is-config="true" duration-ms="16473" started-at="2018-06-22T00:13:09Z" finished-at="2018-06-22T00:13:26Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.CheckOutSingleTest@df27fae]" name="setup" is-config="true" duration-ms="16572" started-at="2018-06-28T23:24:32Z" finished-at="2018-06-28T23:24:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.CheckOutSingleTest@df27fae]" name="DoLogin" duration-ms="46808" started-at="2018-06-22T00:13:26Z" finished-at="2018-06-22T00:14:13Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.CheckOutSingleTest@df27fae]" name="DoLogin" duration-ms="46001" started-at="2018-06-28T23:24:48Z" finished-at="2018-06-28T23:25:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.CheckOutSingleTest@df27fae]" name="SearchStylist" duration-ms="12838" started-at="2018-06-22T00:14:13Z" finished-at="2018-06-22T00:14:25Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.CheckOutSingleTest@df27fae]" name="SearchStylist" duration-ms="12499" started-at="2018-06-28T23:25:34Z" finished-at="2018-06-28T23:25:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.CheckOutSingleTest@df27fae]" name="SelectEvents" duration-ms="35690" started-at="2018-06-22T00:14:25Z" finished-at="2018-06-22T00:15:01Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.CheckOutSingleTest@df27fae]" name="SelectEvents" duration-ms="32817" started-at="2018-06-28T23:25:47Z" finished-at="2018-06-28T23:26:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.CheckOutSingleTest@df27fae]" name="SelectSession" duration-ms="17693" started-at="2018-06-22T00:15:01Z" finished-at="2018-06-22T00:15:19Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.CheckOutSingleTest@df27fae]" name="SelectSession" duration-ms="16931" started-at="2018-06-28T23:26:20Z" finished-at="2018-06-28T23:26:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.CheckOutSingleTest@df27fae]" name="CompileBooking" duration-ms="133129" started-at="2018-06-22T00:15:19Z" finished-at="2018-06-22T00:17:32Z">
+        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.CheckOutSingleTest@df27fae]" name="CompileBooking" duration-ms="109273" started-at="2018-06-28T23:26:36Z" finished-at="2018-06-28T23:28:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompileBooking -->
       </class> <!-- Tests.CheckOutSingleTest -->
     </test> <!-- CheckOutSingleTest -->
-    <test name="LoginTests" duration-ms="206221" started-at="2018-06-22T00:17:32Z" finished-at="2018-06-22T00:20:58Z">
+    <test name="LoginTests" duration-ms="206750" started-at="2018-06-28T23:28:26Z" finished-at="2018-06-28T23:31:53Z">
       <class name="Tests.LoginTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginTests@31f924f5]" name="setup" is-config="true" duration-ms="16490" started-at="2018-06-22T00:17:32Z" finished-at="2018-06-22T00:17:48Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginTests@31f924f5]" name="setup" is-config="true" duration-ms="16574" started-at="2018-06-28T23:28:26Z" finished-at="2018-06-28T23:28:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="FillPasswordWithOutToFillEmail()[pri:1, instance:Tests.LoginTests@31f924f5]" name="FillPasswordWithOutToFillEmail" duration-ms="17360" started-at="2018-06-22T00:17:48Z" finished-at="2018-06-22T00:18:06Z">
+        <test-method status="PASS" signature="FillPasswordWithOutToFillEmail()[pri:1, instance:Tests.LoginTests@31f924f5]" name="FillPasswordWithOutToFillEmail" duration-ms="17440" started-at="2018-06-28T23:28:42Z" finished-at="2018-06-28T23:29:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillPasswordWithOutToFillEmail -->
-        <test-method status="PASS" signature="FillPasswordWithOutToFillPassword()[pri:2, instance:Tests.LoginTests@31f924f5]" name="FillPasswordWithOutToFillPassword" duration-ms="18604" started-at="2018-06-22T00:18:06Z" finished-at="2018-06-22T00:18:24Z">
+        <test-method status="PASS" signature="FillPasswordWithOutToFillPassword()[pri:2, instance:Tests.LoginTests@31f924f5]" name="FillPasswordWithOutToFillPassword" duration-ms="18571" started-at="2018-06-28T23:29:00Z" finished-at="2018-06-28T23:29:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillPasswordWithOutToFillPassword -->
-        <test-method status="PASS" signature="FillPasswordWithWrongEmail()[pri:3, instance:Tests.LoginTests@31f924f5]" name="FillPasswordWithWrongEmail" duration-ms="34845" started-at="2018-06-22T00:18:24Z" finished-at="2018-06-22T00:18:59Z">
+        <test-method status="PASS" signature="FillPasswordWithWrongEmail()[pri:3, instance:Tests.LoginTests@31f924f5]" name="FillPasswordWithWrongEmail" duration-ms="35041" started-at="2018-06-28T23:29:18Z" finished-at="2018-06-28T23:29:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillPasswordWithWrongEmail -->
-        <test-method status="PASS" signature="FillPasswordWithWrongPassword()[pri:4, instance:Tests.LoginTests@31f924f5]" name="FillPasswordWithWrongPassword" duration-ms="38215" started-at="2018-06-22T00:18:59Z" finished-at="2018-06-22T00:19:37Z">
+        <test-method status="PASS" signature="FillPasswordWithWrongPassword()[pri:4, instance:Tests.LoginTests@31f924f5]" name="FillPasswordWithWrongPassword" duration-ms="38644" started-at="2018-06-28T23:29:53Z" finished-at="2018-06-28T23:30:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillPasswordWithWrongPassword -->
-        <test-method status="PASS" signature="ClickLoginwWithOutToFillAnyFields()[pri:5, instance:Tests.LoginTests@31f924f5]" name="ClickLoginwWithOutToFillAnyFields" duration-ms="24873" started-at="2018-06-22T00:19:37Z" finished-at="2018-06-22T00:20:02Z">
+        <test-method status="PASS" signature="ClickLoginwWithOutToFillAnyFields()[pri:5, instance:Tests.LoginTests@31f924f5]" name="ClickLoginwWithOutToFillAnyFields" duration-ms="25086" started-at="2018-06-28T23:30:32Z" finished-at="2018-06-28T23:30:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickLoginwWithOutToFillAnyFields -->
-        <test-method status="PASS" signature="DoLogin()[pri:6, instance:Tests.LoginTests@31f924f5]" name="DoLogin" duration-ms="55830" started-at="2018-06-22T00:20:02Z" finished-at="2018-06-22T00:20:58Z">
+        <test-method status="PASS" signature="DoLogin()[pri:6, instance:Tests.LoginTests@31f924f5]" name="DoLogin" duration-ms="55389" started-at="2018-06-28T23:30:57Z" finished-at="2018-06-28T23:31:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLogin -->
       </class> <!-- Tests.LoginTests -->
     </test> <!-- LoginTests -->
-    <test name="ReviseItems" duration-ms="2031320" started-at="2018-06-22T00:20:58Z" finished-at="2018-06-22T00:54:49Z">
+    <test name="ReviseItems" duration-ms="1993984" started-at="2018-06-28T23:31:53Z" finished-at="2018-06-29T00:05:07Z">
       <class name="Tests.ReviseItems">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ReviseItems@17211155]" name="setup" is-config="true" duration-ms="16554" started-at="2018-06-22T00:20:58Z" finished-at="2018-06-22T00:21:15Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ReviseItems@17211155]" name="setup" is-config="true" duration-ms="16424" started-at="2018-06-28T23:31:53Z" finished-at="2018-06-28T23:32:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.ReviseItems@17211155]" name="DoLogin" duration-ms="47212" started-at="2018-06-22T00:21:15Z" finished-at="2018-06-22T00:22:02Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.ReviseItems@17211155]" name="DoLogin" duration-ms="46121" started-at="2018-06-28T23:32:09Z" finished-at="2018-06-28T23:32:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.ReviseItems@17211155]" name="SearchStylist" duration-ms="16167" started-at="2018-06-22T00:22:02Z" finished-at="2018-06-22T00:22:18Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.ReviseItems@17211155]" name="SearchStylist" duration-ms="12626" started-at="2018-06-28T23:32:55Z" finished-at="2018-06-28T23:33:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.ReviseItems@17211155]" name="SelectEvents" duration-ms="35183" started-at="2018-06-22T00:22:18Z" finished-at="2018-06-22T00:22:53Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.ReviseItems@17211155]" name="SelectEvents" duration-ms="32047" started-at="2018-06-28T23:33:08Z" finished-at="2018-06-28T23:33:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.ReviseItems@17211155]" name="SelectSession" duration-ms="43362" started-at="2018-06-22T00:22:53Z" finished-at="2018-06-22T00:23:37Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.ReviseItems@17211155]" name="SelectSession" duration-ms="42229" started-at="2018-06-28T23:33:40Z" finished-at="2018-06-28T23:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.ReviseItems@17211155]" name="CompileBooking" duration-ms="108480" started-at="2018-06-22T00:23:37Z" finished-at="2018-06-22T00:25:25Z">
+        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.ReviseItems@17211155]" name="CompileBooking" duration-ms="107455" started-at="2018-06-28T23:34:22Z" finished-at="2018-06-28T23:36:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompileBooking -->
-        <test-method status="PASS" signature="CreateMoodBoard()[pri:6, instance:Tests.ReviseItems@17211155]" name="CreateMoodBoard" duration-ms="128511" started-at="2018-06-22T00:25:25Z" finished-at="2018-06-22T00:27:34Z">
+        <test-method status="PASS" signature="CreateMoodBoard()[pri:6, instance:Tests.ReviseItems@17211155]" name="CreateMoodBoard" duration-ms="132262" started-at="2018-06-28T23:36:09Z" finished-at="2018-06-28T23:38:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateMoodBoard -->
-        <test-method status="PASS" signature="VerifyMoodBoard()[pri:7, instance:Tests.ReviseItems@17211155]" name="VerifyMoodBoard" duration-ms="123709" started-at="2018-06-22T00:27:34Z" finished-at="2018-06-22T00:29:37Z">
+        <test-method status="PASS" signature="VerifyMoodBoard()[pri:7, instance:Tests.ReviseItems@17211155]" name="VerifyMoodBoard" duration-ms="117703" started-at="2018-06-28T23:38:22Z" finished-at="2018-06-28T23:40:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMoodBoard -->
-        <test-method status="PASS" signature="CreateLook()[pri:8, instance:Tests.ReviseItems@17211155]" name="CreateLook" duration-ms="154116" started-at="2018-06-22T00:29:37Z" finished-at="2018-06-22T00:32:11Z">
+        <test-method status="PASS" signature="CreateLook()[pri:8, instance:Tests.ReviseItems@17211155]" name="CreateLook" duration-ms="152225" started-at="2018-06-28T23:40:19Z" finished-at="2018-06-28T23:42:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateLook -->
-        <test-method status="PASS" signature="AskReviseLook()[pri:9, instance:Tests.ReviseItems@17211155]" name="AskReviseLook" duration-ms="217919" started-at="2018-06-22T00:32:11Z" finished-at="2018-06-22T00:35:49Z">
+        <test-method status="PASS" signature="AskReviseLook()[pri:9, instance:Tests.ReviseItems@17211155]" name="AskReviseLook" duration-ms="209395" started-at="2018-06-28T23:42:52Z" finished-at="2018-06-28T23:46:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AskReviseLook -->
-        <test-method status="PASS" signature="CreateReviseLook()[pri:10, instance:Tests.ReviseItems@17211155]" name="CreateReviseLook" duration-ms="117460" started-at="2018-06-22T00:35:49Z" finished-at="2018-06-22T00:37:47Z">
+        <test-method status="PASS" signature="CreateReviseLook()[pri:10, instance:Tests.ReviseItems@17211155]" name="CreateReviseLook" duration-ms="116904" started-at="2018-06-28T23:46:21Z" finished-at="2018-06-28T23:48:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateReviseLook -->
-        <test-method status="PASS" signature="VerifyCreateLook()[pri:11, instance:Tests.ReviseItems@17211155]" name="VerifyCreateLook" duration-ms="140847" started-at="2018-06-22T00:37:47Z" finished-at="2018-06-22T00:40:08Z">
+        <test-method status="PASS" signature="VerifyCreateLook()[pri:11, instance:Tests.ReviseItems@17211155]" name="VerifyCreateLook" duration-ms="132640" started-at="2018-06-28T23:48:18Z" finished-at="2018-06-28T23:50:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCreateLook -->
-        <test-method status="PASS" signature="CreateMoodBoard2()[pri:12, instance:Tests.ReviseItems@17211155]" name="CreateMoodBoard2" duration-ms="114486" started-at="2018-06-22T00:40:08Z" finished-at="2018-06-22T00:42:02Z">
+        <test-method status="PASS" signature="CreateMoodBoard2()[pri:12, instance:Tests.ReviseItems@17211155]" name="CreateMoodBoard2" duration-ms="117799" started-at="2018-06-28T23:50:31Z" finished-at="2018-06-28T23:52:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateMoodBoard2 -->
-        <test-method status="PASS" signature="VerifyMoodBoard2()[pri:13, instance:Tests.ReviseItems@17211155]" name="VerifyMoodBoard2" duration-ms="126009" started-at="2018-06-22T00:42:02Z" finished-at="2018-06-22T00:44:08Z">
+        <test-method status="PASS" signature="VerifyMoodBoard2()[pri:13, instance:Tests.ReviseItems@17211155]" name="VerifyMoodBoard2" duration-ms="119578" started-at="2018-06-28T23:52:28Z" finished-at="2018-06-28T23:54:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMoodBoard2 -->
-        <test-method status="PASS" signature="CreateLook2()[pri:14, instance:Tests.ReviseItems@17211155]" name="CreateLook2" duration-ms="150304" started-at="2018-06-22T00:44:08Z" finished-at="2018-06-22T00:46:38Z">
+        <test-method status="PASS" signature="CreateLook2()[pri:14, instance:Tests.ReviseItems@17211155]" name="CreateLook2" duration-ms="156085" started-at="2018-06-28T23:54:28Z" finished-at="2018-06-28T23:57:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateLook2 -->
-        <test-method status="PASS" signature="VerifyCreateLook2()[pri:15, instance:Tests.ReviseItems@17211155]" name="VerifyCreateLook2" duration-ms="231513" started-at="2018-06-22T00:46:38Z" finished-at="2018-06-22T00:50:30Z">
+        <test-method status="PASS" signature="VerifyCreateLook2()[pri:15, instance:Tests.ReviseItems@17211155]" name="VerifyCreateLook2" duration-ms="231332" started-at="2018-06-28T23:57:04Z" finished-at="2018-06-29T00:00:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCreateLook2 -->
-        <test-method status="PASS" signature="CreateReviseLook2()[pri:16, instance:Tests.ReviseItems@17211155]" name="CreateReviseLook2" duration-ms="116527" started-at="2018-06-22T00:50:30Z" finished-at="2018-06-22T00:52:27Z">
+        <test-method status="PASS" signature="CreateReviseLook2()[pri:16, instance:Tests.ReviseItems@17211155]" name="CreateReviseLook2" duration-ms="123889" started-at="2018-06-29T00:00:55Z" finished-at="2018-06-29T00:02:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateReviseLook2 -->
-        <test-method status="PASS" signature="VerifyCreateLookrevise2()[pri:17, instance:Tests.ReviseItems@17211155]" name="VerifyCreateLookrevise2" duration-ms="142948" started-at="2018-06-22T00:52:27Z" finished-at="2018-06-22T00:54:49Z">
+        <test-method status="PASS" signature="VerifyCreateLookrevise2()[pri:17, instance:Tests.ReviseItems@17211155]" name="VerifyCreateLookrevise2" duration-ms="127256" started-at="2018-06-29T00:02:59Z" finished-at="2018-06-29T00:05:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCreateLookrevise2 -->
       </class> <!-- Tests.ReviseItems -->
     </test> <!-- ReviseItems -->
-    <test name="QuickQuizForWomenTest" duration-ms="264941" started-at="2018-06-22T00:54:49Z" finished-at="2018-06-22T00:59:14Z">
+    <test name="QuickQuizForWomenTest" duration-ms="261057" started-at="2018-06-29T00:05:07Z" finished-at="2018-06-29T00:09:28Z">
       <class name="Tests.QuickQuizForWomenTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuickQuizForWomenTest@52525845]" name="setup" is-config="true" duration-ms="19055" started-at="2018-06-22T00:54:49Z" finished-at="2018-06-22T00:55:09Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuickQuizForWomenTest@52525845]" name="setup" is-config="true" duration-ms="17576" started-at="2018-06-29T00:05:07Z" finished-at="2018-06-29T00:05:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.QuickQuizForWomenTest@52525845]" name="DoLogin" duration-ms="49060" started-at="2018-06-22T00:55:09Z" finished-at="2018-06-22T00:55:58Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.QuickQuizForWomenTest@52525845]" name="DoLogin" duration-ms="46999" started-at="2018-06-29T00:05:24Z" finished-at="2018-06-29T00:06:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuickQuizForWomenTest@52525845]" name="SearchStylist" duration-ms="13545" started-at="2018-06-22T00:55:58Z" finished-at="2018-06-22T00:56:11Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuickQuizForWomenTest@52525845]" name="SearchStylist" duration-ms="12241" started-at="2018-06-29T00:06:11Z" finished-at="2018-06-29T00:06:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuickQuizForWomenTest@52525845]" name="SelectEvents" duration-ms="36825" started-at="2018-06-22T00:56:11Z" finished-at="2018-06-22T00:56:48Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuickQuizForWomenTest@52525845]" name="SelectEvents" duration-ms="33653" started-at="2018-06-29T00:06:23Z" finished-at="2018-06-29T00:06:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuickQuizForWomenTest@52525845]" name="SelectSession" duration-ms="18041" started-at="2018-06-22T00:56:48Z" finished-at="2018-06-22T00:57:06Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuickQuizForWomenTest@52525845]" name="SelectSession" duration-ms="17089" started-at="2018-06-29T00:06:57Z" finished-at="2018-06-29T00:07:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.QuickQuizForWomenTest@52525845]" name="CompileBooking" duration-ms="128412" started-at="2018-06-22T00:57:06Z" finished-at="2018-06-22T00:59:14Z">
+        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.QuickQuizForWomenTest@52525845]" name="CompileBooking" duration-ms="133494" started-at="2018-06-29T00:07:14Z" finished-at="2018-06-29T00:09:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompileBooking -->
       </class> <!-- Tests.QuickQuizForWomenTest -->
     </test> <!-- QuickQuizForWomenTest -->
-    <test name="QuickQuizMale" duration-ms="228316" started-at="2018-06-22T00:59:14Z" finished-at="2018-06-22T01:03:03Z">
+    <test name="QuickQuizMale" duration-ms="185620" started-at="2018-06-29T00:09:28Z" finished-at="2018-06-29T00:12:33Z">
       <class name="Tests.QuickQuizForMenTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuickQuizForMenTest@587c290d]" name="setup" is-config="true" duration-ms="16682" started-at="2018-06-22T00:59:14Z" finished-at="2018-06-22T00:59:31Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuickQuizForMenTest@587c290d]" name="setup" is-config="true" duration-ms="17597" started-at="2018-06-29T00:09:28Z" finished-at="2018-06-29T00:09:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.QuickQuizForMenTest@587c290d]" name="DoLogin" duration-ms="46978" started-at="2018-06-22T00:59:31Z" finished-at="2018-06-22T01:00:18Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.QuickQuizForMenTest@587c290d]" name="DoLogin" duration-ms="47196" started-at="2018-06-29T00:09:45Z" finished-at="2018-06-29T00:10:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuickQuizForMenTest@587c290d]" name="SearchStylist" duration-ms="12152" started-at="2018-06-22T01:00:18Z" finished-at="2018-06-22T01:00:30Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuickQuizForMenTest@587c290d]" name="SearchStylist" duration-ms="12298" started-at="2018-06-29T00:10:32Z" finished-at="2018-06-29T00:10:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuickQuizForMenTest@587c290d]" name="SelectEvents" duration-ms="36375" started-at="2018-06-22T01:00:30Z" finished-at="2018-06-22T01:01:07Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuickQuizForMenTest@587c290d]" name="SelectEvents" duration-ms="33873" started-at="2018-06-29T00:10:45Z" finished-at="2018-06-29T00:11:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuickQuizForMenTest@587c290d]" name="SelectSession" duration-ms="17990" started-at="2018-06-22T01:01:07Z" finished-at="2018-06-22T01:01:25Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuickQuizForMenTest@587c290d]" name="SelectSession" duration-ms="17117" started-at="2018-06-29T00:11:19Z" finished-at="2018-06-29T00:11:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.QuickQuizForMenTest@587c290d]" name="CompileBooking" duration-ms="26590" started-at="2018-06-22T01:01:25Z" finished-at="2018-06-22T01:01:51Z">
+        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.QuickQuizForMenTest@587c290d]" name="CompileBooking" duration-ms="24351" started-at="2018-06-29T00:11:36Z" finished-at="2018-06-29T00:12:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompileBooking -->
-        <test-method status="PASS" signature="MadeQuiz()[pri:6, instance:Tests.QuickQuizForMenTest@587c290d]" name="MadeQuiz" duration-ms="71542" started-at="2018-06-22T01:01:51Z" finished-at="2018-06-22T01:03:03Z">
+        <test-method status="PASS" signature="MadeQuiz()[pri:6, instance:Tests.QuickQuizForMenTest@587c290d]" name="MadeQuiz" duration-ms="33181" started-at="2018-06-29T00:12:00Z" finished-at="2018-06-29T00:12:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MadeQuiz -->
       </class> <!-- Tests.QuickQuizForMenTest -->
     </test> <!-- QuickQuizMale -->
-    <test name="QuizForMaleTest" duration-ms="506281" started-at="2018-06-22T01:03:03Z" finished-at="2018-06-22T01:11:29Z">
-      <class name="Tests.QuizForMaleTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuizForMaleTest@44a3ec6b]" name="setup" is-config="true" duration-ms="16917" started-at="2018-06-22T01:03:03Z" finished-at="2018-06-22T01:03:20Z">
+    <test name="QuizForSelfIdentityTest" duration-ms="559228" started-at="2018-06-29T00:12:33Z" finished-at="2018-06-29T00:21:52Z">
+      <class name="Tests.QuizForSelfIdentityTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="setup" is-config="true" duration-ms="17883" started-at="2018-06-29T00:12:33Z" finished-at="2018-06-29T00:12:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.QuizForMaleTest@44a3ec6b]" name="DoSignUp" duration-ms="159906" started-at="2018-06-22T01:03:20Z" finished-at="2018-06-22T01:06:00Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="DoSignUp" duration-ms="133088" started-at="2018-06-29T00:12:51Z" finished-at="2018-06-29T00:15:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SearchStylist" duration-ms="12270" started-at="2018-06-22T01:06:00Z" finished-at="2018-06-22T01:06:12Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SearchStylist" duration-ms="9103" started-at="2018-06-29T00:15:04Z" finished-at="2018-06-29T00:15:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectEvents" duration-ms="44303" started-at="2018-06-22T01:06:12Z" finished-at="2018-06-22T01:06:56Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectEvents" duration-ms="35574" started-at="2018-06-29T00:15:13Z" finished-at="2018-06-29T00:15:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectSession" duration-ms="44350" started-at="2018-06-22T01:06:56Z" finished-at="2018-06-22T01:07:41Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectSession" duration-ms="42189" started-at="2018-06-29T00:15:49Z" finished-at="2018-06-29T00:16:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="SelectCountry()[pri:5, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectCountry" duration-ms="43869" started-at="2018-06-22T01:07:41Z" finished-at="2018-06-22T01:08:24Z">
+        <test-method status="PASS" signature="SelectCountry()[pri:5, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectCountry" duration-ms="41435" started-at="2018-06-29T00:16:31Z" finished-at="2018-06-29T00:17:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectCountry -->
-        <test-method status="PASS" signature="SelectBodyType()[pri:6, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectBodyType" duration-ms="6967" started-at="2018-06-22T01:08:24Z" finished-at="2018-06-22T01:08:31Z">
+        <test-method status="PASS" signature="SelectBodyType()[pri:6, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectBodyType" duration-ms="6853" started-at="2018-06-29T00:17:13Z" finished-at="2018-06-29T00:17:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectBodyType -->
-        <test-method status="PASS" signature="SelectHeight()[pri:7, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectHeight" duration-ms="6866" started-at="2018-06-22T01:08:31Z" finished-at="2018-06-22T01:08:38Z">
+        <test-method status="PASS" signature="SelectHeight()[pri:7, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectHeight" duration-ms="6930" started-at="2018-06-29T00:17:19Z" finished-at="2018-06-29T00:17:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectHeight -->
-        <test-method status="PASS" signature="SelectSize()[pri:8, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectSize" duration-ms="52291" started-at="2018-06-22T01:08:38Z" finished-at="2018-06-22T01:09:31Z">
+        <test-method status="PASS" signature="SelectSize()[pri:8, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectSize" duration-ms="52399" started-at="2018-06-29T00:17:26Z" finished-at="2018-06-29T00:18:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectSize -->
-        <test-method status="PASS" signature="SelectColor()[pri:9, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectColor" duration-ms="25534" started-at="2018-06-22T01:09:31Z" finished-at="2018-06-22T01:09:56Z">
+        <test-method status="PASS" signature="SelectColor()[pri:9, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectColor" duration-ms="25627" started-at="2018-06-29T00:18:19Z" finished-at="2018-06-29T00:18:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectColor -->
-        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectFabrics" duration-ms="12601" started-at="2018-06-22T01:09:56Z" finished-at="2018-06-22T01:10:09Z">
+        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectFabrics" duration-ms="12385" started-at="2018-06-29T00:18:44Z" finished-at="2018-06-29T00:18:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFabrics -->
-        <test-method status="PASS" signature="SelectFitTop()[pri:11, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectFitTop" duration-ms="10983" started-at="2018-06-22T01:10:09Z" finished-at="2018-06-22T01:10:20Z">
+        <test-method status="PASS" signature="SelectFitTop()[pri:11, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectFitTop" duration-ms="10747" started-at="2018-06-29T00:18:57Z" finished-at="2018-06-29T00:19:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFitTop -->
-        <test-method status="PASS" signature="SelectFitBottom()[pri:12, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectFitBottom" duration-ms="10971" started-at="2018-06-22T01:10:20Z" finished-at="2018-06-22T01:10:31Z">
+        <test-method status="PASS" signature="SelectFitBottom()[pri:12, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectFitBottom" duration-ms="12395" started-at="2018-06-29T00:19:07Z" finished-at="2018-06-29T00:19:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFitBottom -->
-        <test-method status="PASS" signature="SelectJewelry()[pri:13, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectJewelry" duration-ms="18043" started-at="2018-06-22T01:10:31Z" finished-at="2018-06-22T01:10:49Z">
+        <test-method status="PASS" signature="SelectJeansp()[pri:13, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectJeansp" duration-ms="17894" started-at="2018-06-29T00:19:20Z" finished-at="2018-06-29T00:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectJeansp -->
+        <test-method status="PASS" signature="SelectHeels()[pri:14, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectHeels" duration-ms="6874" started-at="2018-06-29T00:19:38Z" finished-at="2018-06-29T00:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectHeels -->
+        <test-method status="PASS" signature="SelectJewelry()[pri:15, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectJewelry" duration-ms="17446" started-at="2018-06-29T00:19:45Z" finished-at="2018-06-29T00:20:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectJewelry -->
-        <test-method status="PASS" signature="SelectZone()[pri:14, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectZone" duration-ms="6979" started-at="2018-06-22T01:10:49Z" finished-at="2018-06-22T01:10:56Z">
+        <test-method status="PASS" signature="SelectHighlights()[pri:16, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectHighlights" duration-ms="17879" started-at="2018-06-29T00:20:02Z" finished-at="2018-06-29T00:20:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectHighlights -->
+        <test-method status="PASS" signature="SelectZone()[pri:17, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectZone" duration-ms="6981" started-at="2018-06-29T00:20:20Z" finished-at="2018-06-29T00:20:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectZone -->
-        <test-method status="PASS" signature="SelectYourCloset()[pri:15, instance:Tests.QuizForMaleTest@44a3ec6b]" name="SelectYourCloset" duration-ms="33421" started-at="2018-06-22T01:10:56Z" finished-at="2018-06-22T01:11:29Z">
+        <test-method status="PASS" signature="SelectClothingPreferences()[pri:18, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectClothingPreferences" duration-ms="6847" started-at="2018-06-29T00:20:27Z" finished-at="2018-06-29T00:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectClothingPreferences -->
+        <test-method status="PASS" signature="SelectClothingCategories()[pri:19, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectClothingCategories" duration-ms="29549" started-at="2018-06-29T00:20:34Z" finished-at="2018-06-29T00:21:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectClothingCategories -->
+        <test-method status="PASS" signature="SelectYourCloset()[pri:20, instance:Tests.QuizForSelfIdentityTest@44a3ec6b]" name="SelectYourCloset" duration-ms="49133" started-at="2018-06-29T00:21:03Z" finished-at="2018-06-29T00:21:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectYourCloset -->
+      </class> <!-- Tests.QuizForSelfIdentityTest -->
+    </test> <!-- QuizForSelfIdentityTest -->
+    <test name="QuizForMaleTest" duration-ms="537893" started-at="2018-06-29T00:21:52Z" finished-at="2018-06-29T00:30:50Z">
+      <class name="Tests.QuizForMaleTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuizForMaleTest@4bb4de6a]" name="setup" is-config="true" duration-ms="18376" started-at="2018-06-29T00:21:52Z" finished-at="2018-06-29T00:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.QuizForMaleTest@4bb4de6a]" name="DoSignUp" duration-ms="166610" started-at="2018-06-29T00:22:11Z" finished-at="2018-06-29T00:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SearchStylist" duration-ms="11278" started-at="2018-06-29T00:24:57Z" finished-at="2018-06-29T00:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchStylist -->
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectEvents" duration-ms="34864" started-at="2018-06-29T00:25:09Z" finished-at="2018-06-29T00:25:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectEvents -->
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectSession" duration-ms="41833" started-at="2018-06-29T00:25:44Z" finished-at="2018-06-29T00:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSession -->
+        <test-method status="PASS" signature="SelectCountry()[pri:5, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectCountry" duration-ms="40369" started-at="2018-06-29T00:26:25Z" finished-at="2018-06-29T00:27:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCountry -->
+        <test-method status="PASS" signature="SelectBodyType()[pri:6, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectBodyType" duration-ms="6852" started-at="2018-06-29T00:27:06Z" finished-at="2018-06-29T00:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBodyType -->
+        <test-method status="PASS" signature="SelectHeight()[pri:7, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectHeight" duration-ms="6844" started-at="2018-06-29T00:27:13Z" finished-at="2018-06-29T00:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectHeight -->
+        <test-method status="PASS" signature="SelectSize()[pri:8, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectSize" duration-ms="50442" started-at="2018-06-29T00:27:20Z" finished-at="2018-06-29T00:28:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSize -->
+        <test-method status="PASS" signature="SelectColor()[pri:9, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectColor" duration-ms="25076" started-at="2018-06-29T00:28:10Z" finished-at="2018-06-29T00:28:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectColor -->
+        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectFabrics" duration-ms="12234" started-at="2018-06-29T00:28:35Z" finished-at="2018-06-29T00:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFabrics -->
+        <test-method status="PASS" signature="SelectFitTop()[pri:11, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectFitTop" duration-ms="10741" started-at="2018-06-29T00:28:47Z" finished-at="2018-06-29T00:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFitTop -->
+        <test-method status="PASS" signature="SelectFitBottom()[pri:12, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectFitBottom" duration-ms="10751" started-at="2018-06-29T00:28:58Z" finished-at="2018-06-29T00:29:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFitBottom -->
+        <test-method status="PASS" signature="SelectJewelry()[pri:13, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectJewelry" duration-ms="17530" started-at="2018-06-29T00:29:09Z" finished-at="2018-06-29T00:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectJewelry -->
+        <test-method status="PASS" signature="SelectZone()[pri:14, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectZone" duration-ms="6733" started-at="2018-06-29T00:29:26Z" finished-at="2018-06-29T00:29:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectZone -->
+        <test-method status="PASS" signature="SelectClothingCategories()[pri:15, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectClothingCategories" duration-ms="35643" started-at="2018-06-29T00:29:33Z" finished-at="2018-06-29T00:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectClothingCategories -->
+        <test-method status="PASS" signature="SelectYourCloset()[pri:16, instance:Tests.QuizForMaleTest@4bb4de6a]" name="SelectYourCloset" duration-ms="41707" started-at="2018-06-29T00:30:09Z" finished-at="2018-06-29T00:30:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectYourCloset -->
       </class> <!-- Tests.QuizForMaleTest -->
     </test> <!-- QuizForMaleTest -->
-    <test name="QuizForWomenTest" duration-ms="624805" started-at="2018-06-22T01:11:29Z" finished-at="2018-06-22T01:21:54Z">
+    <test name="QuizForWomenTest" duration-ms="621162" started-at="2018-06-29T00:30:50Z" finished-at="2018-06-29T00:41:12Z">
       <class name="Tests.QuizForWomenTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuizForWomenTest@4bb4de6a]" name="setup" is-config="true" duration-ms="17770" started-at="2018-06-22T01:11:29Z" finished-at="2018-06-22T01:11:47Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuizForWomenTest@6483f5ae]" name="setup" is-config="true" duration-ms="17361" started-at="2018-06-29T00:30:50Z" finished-at="2018-06-29T00:31:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.QuizForWomenTest@4bb4de6a]" name="DoSignUp" duration-ms="185877" started-at="2018-06-22T01:11:47Z" finished-at="2018-06-22T01:14:53Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.QuizForWomenTest@6483f5ae]" name="DoSignUp" duration-ms="194594" started-at="2018-06-29T00:31:08Z" finished-at="2018-06-29T00:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SearchStylist" duration-ms="18418" started-at="2018-06-22T01:14:53Z" finished-at="2018-06-22T01:15:11Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuizForWomenTest@6483f5ae]" name="SearchStylist" duration-ms="16343" started-at="2018-06-29T00:34:22Z" finished-at="2018-06-29T00:34:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectEvents" duration-ms="49732" started-at="2018-06-22T01:15:11Z" finished-at="2018-06-22T01:16:01Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectEvents" duration-ms="35316" started-at="2018-06-29T00:34:39Z" finished-at="2018-06-29T00:35:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectSession" duration-ms="46387" started-at="2018-06-22T01:16:01Z" finished-at="2018-06-22T01:16:47Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectSession" duration-ms="42083" started-at="2018-06-29T00:35:14Z" finished-at="2018-06-29T00:35:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="SelectCountry()[pri:5, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectCountry" duration-ms="45633" started-at="2018-06-22T01:16:47Z" finished-at="2018-06-22T01:17:33Z">
+        <test-method status="PASS" signature="SelectCountry()[pri:5, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectCountry" duration-ms="40439" started-at="2018-06-29T00:35:56Z" finished-at="2018-06-29T00:36:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectCountry -->
-        <test-method status="PASS" signature="SelectBodyType()[pri:6, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectBodyType" duration-ms="7010" started-at="2018-06-22T01:17:33Z" finished-at="2018-06-22T01:17:40Z">
+        <test-method status="PASS" signature="SelectBodyType()[pri:6, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectBodyType" duration-ms="6882" started-at="2018-06-29T00:36:37Z" finished-at="2018-06-29T00:36:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectBodyType -->
-        <test-method status="PASS" signature="SelectHeight()[pri:7, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectHeight" duration-ms="7076" started-at="2018-06-22T01:17:40Z" finished-at="2018-06-22T01:17:47Z">
+        <test-method status="PASS" signature="SelectHeight()[pri:7, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectHeight" duration-ms="6830" started-at="2018-06-29T00:36:43Z" finished-at="2018-06-29T00:36:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectHeight -->
-        <test-method status="PASS" signature="SelectSize()[pri:8, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectSize" duration-ms="53878" started-at="2018-06-22T01:17:47Z" finished-at="2018-06-22T01:18:41Z">
+        <test-method status="PASS" signature="SelectSize()[pri:8, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectSize" duration-ms="50731" started-at="2018-06-29T00:36:50Z" finished-at="2018-06-29T00:37:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectSize -->
-        <test-method status="PASS" signature="SelectColor()[pri:9, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectColor" duration-ms="26322" started-at="2018-06-22T01:18:41Z" finished-at="2018-06-22T01:19:07Z">
+        <test-method status="PASS" signature="SelectColor()[pri:9, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectColor" duration-ms="25698" started-at="2018-06-29T00:37:41Z" finished-at="2018-06-29T00:38:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectColor -->
-        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectFabrics" duration-ms="12861" started-at="2018-06-22T01:19:07Z" finished-at="2018-06-22T01:19:20Z">
+        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectFabrics" duration-ms="12346" started-at="2018-06-29T00:38:07Z" finished-at="2018-06-29T00:38:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFabrics -->
-        <test-method status="PASS" signature="SelectFitTop()[pri:11, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectFitTop" duration-ms="11256" started-at="2018-06-22T01:19:20Z" finished-at="2018-06-22T01:19:31Z">
+        <test-method status="PASS" signature="SelectFitTop()[pri:11, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectFitTop" duration-ms="10761" started-at="2018-06-29T00:38:19Z" finished-at="2018-06-29T00:38:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFitTop -->
-        <test-method status="PASS" signature="SelectFitBottom()[pri:12, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectFitBottom" duration-ms="12648" started-at="2018-06-22T01:19:31Z" finished-at="2018-06-22T01:19:44Z">
+        <test-method status="PASS" signature="SelectFitBottom()[pri:12, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectFitBottom" duration-ms="12226" started-at="2018-06-29T00:38:30Z" finished-at="2018-06-29T00:38:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFitBottom -->
-        <test-method status="PASS" signature="SelectJeansp()[pri:13, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectJeansp" duration-ms="18670" started-at="2018-06-22T01:19:44Z" finished-at="2018-06-22T01:20:03Z">
+        <test-method status="PASS" signature="SelectJeansp()[pri:13, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectJeansp" duration-ms="17881" started-at="2018-06-29T00:38:42Z" finished-at="2018-06-29T00:39:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectJeansp -->
-        <test-method status="PASS" signature="SelectHeels()[pri:14, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectHeels" duration-ms="7184" started-at="2018-06-22T01:20:03Z" finished-at="2018-06-22T01:20:10Z">
+        <test-method status="PASS" signature="SelectHeels()[pri:14, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectHeels" duration-ms="6774" started-at="2018-06-29T00:39:00Z" finished-at="2018-06-29T00:39:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectHeels -->
-        <test-method status="PASS" signature="SelectJewelry()[pri:15, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectJewelry" duration-ms="18323" started-at="2018-06-22T01:20:10Z" finished-at="2018-06-22T01:20:28Z">
+        <test-method status="PASS" signature="SelectJewelry()[pri:15, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectJewelry" duration-ms="17831" started-at="2018-06-29T00:39:07Z" finished-at="2018-06-29T00:39:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectJewelry -->
-        <test-method status="PASS" signature="SelectHighlights()[pri:16, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectHighlights" duration-ms="18554" started-at="2018-06-22T01:20:28Z" finished-at="2018-06-22T01:20:47Z">
+        <test-method status="PASS" signature="SelectHighlights()[pri:16, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectHighlights" duration-ms="17883" started-at="2018-06-29T00:39:24Z" finished-at="2018-06-29T00:39:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectHighlights -->
-        <test-method status="PASS" signature="SelectZone()[pri:17, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectZone" duration-ms="7095" started-at="2018-06-22T01:20:47Z" finished-at="2018-06-22T01:20:54Z">
+        <test-method status="PASS" signature="SelectZone()[pri:17, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectZone" duration-ms="6992" started-at="2018-06-29T00:39:42Z" finished-at="2018-06-29T00:39:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectZone -->
-        <test-method status="PASS" signature="SelectClothingPreferences()[pri:18, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectClothingPreferences" duration-ms="7096" started-at="2018-06-22T01:20:54Z" finished-at="2018-06-22T01:21:01Z">
+        <test-method status="PASS" signature="SelectClothingPreferences()[pri:18, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectClothingPreferences" duration-ms="6778" started-at="2018-06-29T00:39:49Z" finished-at="2018-06-29T00:39:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectClothingPreferences -->
-        <test-method status="PASS" signature="SelectClothingCategories()[pri:19, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectClothingCategories" duration-ms="18942" started-at="2018-06-22T01:21:01Z" finished-at="2018-06-22T01:21:20Z">
+        <test-method status="PASS" signature="SelectClothingCategories()[pri:19, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectClothingCategories" duration-ms="26689" started-at="2018-06-29T00:39:56Z" finished-at="2018-06-29T00:40:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectClothingCategories -->
-        <test-method status="PASS" signature="SelectYourCloset()[pri:20, instance:Tests.QuizForWomenTest@4bb4de6a]" name="SelectYourCloset" duration-ms="34066" started-at="2018-06-22T01:21:20Z" finished-at="2018-06-22T01:21:54Z">
+        <test-method status="PASS" signature="SelectYourCloset()[pri:20, instance:Tests.QuizForWomenTest@6483f5ae]" name="SelectYourCloset" duration-ms="48711" started-at="2018-06-29T00:40:23Z" finished-at="2018-06-29T00:41:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectYourCloset -->
       </class> <!-- Tests.QuizForWomenTest -->
     </test> <!-- QuizForWomenTest -->
-    <test name="SignUpByFacbookTest" duration-ms="136035" started-at="2018-06-22T01:21:54Z" finished-at="2018-06-22T01:24:10Z">
+    <test name="SignUpByFacbookTest" duration-ms="447953" started-at="2018-06-29T00:41:12Z" finished-at="2018-06-29T00:48:40Z">
       <class name="Tests.SignUpByFacbookTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTest@b9afc07]" name="setup" is-config="true" duration-ms="67315" started-at="2018-06-22T01:21:54Z" finished-at="2018-06-22T01:23:01Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTest@6366ebe0]" name="setup" is-config="true" duration-ms="62067" started-at="2018-06-29T00:41:12Z" finished-at="2018-06-29T00:42:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginWithFacbookWrongUserName()[pri:1, instance:Tests.SignUpByFacbookTest@b9afc07]" name="LoginWithFacbookWrongUserName" duration-ms="22978" started-at="2018-06-22T01:23:01Z" finished-at="2018-06-22T01:23:24Z">
+        <test-method status="PASS" signature="LoginWithFacbookWrongUserName()[pri:1, instance:Tests.SignUpByFacbookTest@6366ebe0]" name="LoginWithFacbookWrongUserName" duration-ms="85460" started-at="2018-06-29T00:42:14Z" finished-at="2018-06-29T00:43:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWrongUserName -->
-        <test-method status="PASS" signature="LoginWithFacbookWrongPassword()[pri:2, instance:Tests.SignUpByFacbookTest@b9afc07]" name="LoginWithFacbookWrongPassword" duration-ms="6309" started-at="2018-06-22T01:23:24Z" finished-at="2018-06-22T01:23:30Z">
+        <test-method status="PASS" signature="LoginWithFacbookWrongPassword()[pri:2, instance:Tests.SignUpByFacbookTest@6366ebe0]" name="LoginWithFacbookWrongPassword" duration-ms="84283" started-at="2018-06-29T00:43:39Z" finished-at="2018-06-29T00:45:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWrongPassword -->
-        <test-method status="PASS" signature="LoginWithFacbookWithoutPassword()[pri:3, instance:Tests.SignUpByFacbookTest@b9afc07]" name="LoginWithFacbookWithoutPassword" duration-ms="6267" started-at="2018-06-22T01:23:30Z" finished-at="2018-06-22T01:23:37Z">
+        <test-method status="PASS" signature="LoginWithFacbookWithoutPassword()[pri:3, instance:Tests.SignUpByFacbookTest@6366ebe0]" name="LoginWithFacbookWithoutPassword" duration-ms="88364" started-at="2018-06-29T00:45:03Z" finished-at="2018-06-29T00:46:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWithoutPassword -->
-        <test-method status="PASS" signature="LoginWithFacbookWithoutUser()[pri:4, instance:Tests.SignUpByFacbookTest@b9afc07]" name="LoginWithFacbookWithoutUser" duration-ms="4205" started-at="2018-06-22T01:23:37Z" finished-at="2018-06-22T01:23:41Z">
+        <test-method status="PASS" signature="LoginWithFacbookWithoutUser()[pri:4, instance:Tests.SignUpByFacbookTest@6366ebe0]" name="LoginWithFacbookWithoutUser" duration-ms="81942" started-at="2018-06-29T00:46:32Z" finished-at="2018-06-29T00:47:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWithoutUser -->
-        <test-method status="PASS" signature="DoLoginWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTest@b9afc07]" name="DoLoginWithFacbook" duration-ms="28958" started-at="2018-06-22T01:23:41Z" finished-at="2018-06-22T01:24:10Z">
+        <test-method status="PASS" signature="DoLoginWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTest@6366ebe0]" name="DoLoginWithFacbook" duration-ms="45835" started-at="2018-06-29T00:47:54Z" finished-at="2018-06-29T00:48:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLoginWithFacbook -->
       </class> <!-- Tests.SignUpByFacbookTest -->
     </test> <!-- SignUpByFacbookTest -->
-    <test name="SignUpTest" duration-ms="151705" started-at="2018-06-22T01:24:10Z" finished-at="2018-06-22T01:26:42Z">
+    <test name="SignUpTest" duration-ms="151732" started-at="2018-06-29T00:48:40Z" finished-at="2018-06-29T00:51:11Z">
       <class name="Tests.SignUpTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpTest@6366ebe0]" name="setup" is-config="true" duration-ms="13507" started-at="2018-06-22T01:24:10Z" finished-at="2018-06-22T01:24:23Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpTest@1d7acb34]" name="setup" is-config="true" duration-ms="14617" started-at="2018-06-29T00:48:40Z" finished-at="2018-06-29T00:48:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="SignupwithoutDotCom()[pri:1, instance:Tests.SignUpTest@6366ebe0]" name="SignupwithoutDotCom" duration-ms="24382" started-at="2018-06-22T01:24:23Z" finished-at="2018-06-22T01:24:48Z">
+        <test-method status="PASS" signature="SignupwithoutDotCom()[pri:1, instance:Tests.SignUpTest@1d7acb34]" name="SignupwithoutDotCom" duration-ms="24756" started-at="2018-06-29T00:48:54Z" finished-at="2018-06-29T00:49:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignupwithoutDotCom -->
-        <test-method status="PASS" signature="Signupwithoutshtudel()[pri:2, instance:Tests.SignUpTest@6366ebe0]" name="Signupwithoutshtudel" duration-ms="24901" started-at="2018-06-22T01:24:48Z" finished-at="2018-06-22T01:25:13Z">
+        <test-method status="PASS" signature="Signupwithoutshtudel()[pri:2, instance:Tests.SignUpTest@1d7acb34]" name="Signupwithoutshtudel" duration-ms="24934" started-at="2018-06-29T00:49:19Z" finished-at="2018-06-29T00:49:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Signupwithoutshtudel -->
-        <test-method status="PASS" signature="FillPsswordWithLessthan6Characters()[pri:3, instance:Tests.SignUpTest@6366ebe0]" name="FillPsswordWithLessthan6Characters" duration-ms="52564" started-at="2018-06-22T01:25:13Z" finished-at="2018-06-22T01:26:05Z">
+        <test-method status="PASS" signature="FillPsswordWithLessthan6Characters()[pri:3, instance:Tests.SignUpTest@1d7acb34]" name="FillPsswordWithLessthan6Characters" duration-ms="52028" started-at="2018-06-29T00:49:44Z" finished-at="2018-06-29T00:50:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillPsswordWithLessthan6Characters -->
-        <test-method status="PASS" signature="DoSignUp()[pri:4, instance:Tests.SignUpTest@6366ebe0]" name="DoSignUp" duration-ms="36347" started-at="2018-06-22T01:26:05Z" finished-at="2018-06-22T01:26:42Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:4, instance:Tests.SignUpTest@1d7acb34]" name="DoSignUp" duration-ms="35393" started-at="2018-06-29T00:50:36Z" finished-at="2018-06-29T00:51:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoSignUp -->

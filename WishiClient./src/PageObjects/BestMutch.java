@@ -69,6 +69,7 @@ public class BestMutch extends BasePage
 		Sleep(250);
 		click(MoreStylistsButton);
 		Sleep(250);
+		WaitElementDisplay(By.xpath("//*[@name='Allow']"));
 	}
 	
 	public void ClickNextTags() 

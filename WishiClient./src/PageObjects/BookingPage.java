@@ -108,8 +108,8 @@ public class BookingPage extends BasePage {
 		System.out.println(last);
 		Sleep(170);
 		elements.get(count-1).click();
-		Sleep(500);
-
+		Sleep(200);
+		WaitElementDisplay(By.id("WriteMessageID"));
 	}
 	public void ClickLoveOutfit() 
 	{
@@ -123,8 +123,8 @@ public class BookingPage extends BasePage {
 		System.out.println(last);
 		Sleep(170);
 		elements.get(count-1).click();
-		Sleep(500);
-
+		Sleep(200);
+		WaitElementDisplay(By.id("WriteMessageID"));
 	}
 	public void ClickCreateLook() 
 	{

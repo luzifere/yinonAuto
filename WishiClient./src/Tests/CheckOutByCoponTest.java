@@ -80,6 +80,7 @@ public class CheckOutByCoponTest extends BaseTest
 		quiz.SelectJeans("Skinny");
 		quiz.ClickNextw();
 		quiz.SelectCC("Tops");
+		quiz.scrollDownXpath();
 		quiz.SelectCC("Hats");
 		quiz.ClickNextw();
 		quiz.Sleep(200);

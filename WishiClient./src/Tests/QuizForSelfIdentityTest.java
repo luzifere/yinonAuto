@@ -134,6 +134,7 @@ public class QuizForSelfIdentityTest extends BaseTest
 		quiz.ClickJeansMinus();
 		quiz.ClickDressMinus();
 		quiz.ClickShoesMinus();
+		quiz.Sleep(150);
 		quiz.ClickNextw();
 	}
 	@Test(priority = 9,groups={"sanity-group"})
@@ -214,8 +215,11 @@ public class QuizForSelfIdentityTest extends BaseTest
 	public void SelectClothingCategories() 
 	{
 		QuizPage quiz = new QuizPage(driver);
+		quiz.Sleep(150);
 		quiz.SelectCC("Tops");
+		quiz.scrollDownXpath();
 		quiz.SelectCC("Hats");
+		quiz.Sleep(150);
 		quiz.ClickNextw();
 	}
 	@Test(priority = 20,groups={"sanity-group"})
@@ -236,6 +240,7 @@ public class QuizForSelfIdentityTest extends BaseTest
 		//quiz.ClickNextw();
 		quiz.Sleep(250);
 		//Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Mika RIssy']"));
+		driver.resetApp();
 	}
 
 }

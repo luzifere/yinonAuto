@@ -27,7 +27,7 @@ public class ChatTest extends BaseTest
 
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickLoginStart();
-		chat.LoginStylistApp("staylistchat@wishi.me", "123456");
+		chat.LoginStylistApp("staylistchat@wishi.com", "123456");
 		chat.ClickLoginButton();
 		chat.Sleep(200);
 		BasePage.AcceptAlert();
@@ -42,7 +42,7 @@ public class ChatTest extends BaseTest
 		BaseTest.capabileties();	
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("clientchat@wishi.me");
+		login.Fillusername("clientchat@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(100);
@@ -68,7 +68,7 @@ public class ChatTest extends BaseTest
 		textforchat = "test"+number;
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("clientchat@wishi.me");
+		login.Fillusername("clientchat@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(100);
@@ -92,7 +92,7 @@ public class ChatTest extends BaseTest
 		ChatPage chat1 = new ChatPage(driver);
 		chat.Sleep(250);
 		chat1.ClickLoginStart();
-		chat1.LoginStylistApp("staylistchat@wishi.me", "123456");
+		chat1.LoginStylistApp("staylistchat@wishi.com", "123456");
 		chat1.ClickLoginButton();
 		chat1.Sleep(200);
 		BasePage.AcceptAlert();

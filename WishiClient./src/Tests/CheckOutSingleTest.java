@@ -16,7 +16,7 @@ public class CheckOutSingleTest extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("wishitestftt@wishi.com4199");
+		login.Fillusername("single@gmail.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -86,9 +86,9 @@ public class CheckOutSingleTest extends BaseTest
 		quiz.ClickNextw();
 		quiz.SelectJeans("Skinny");
 		quiz.ClickNextw();
-		quiz.SelectCC("Tops");
-		quiz.SelectCC("Hats");
-		quiz.ClickNextw();
+		//quiz.SelectCC("Tops");
+		//quiz.SelectCC("Hats");
+		//quiz.ClickNextw();
 		quiz.Sleep(200);
 		CeckOutPage.DismissAlert();
 		//Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));

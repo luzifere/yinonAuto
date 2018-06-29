@@ -17,7 +17,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class BaseTest4 
 {
-	static AppiumDriver<WebElement>driver;
+	static AppiumDriver driver;
 	public static  AppiumDriver<WebElement>capabileties() throws MalformedURLException   
 	{
 		DesiredCapabilities cap = new DesiredCapabilities();

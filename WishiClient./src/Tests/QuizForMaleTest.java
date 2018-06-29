@@ -34,9 +34,9 @@ public class QuizForMaleTest extends BaseTest
 		best.ClickHoeToWork();
 		best.ClickMale();
 		best.fillBirthday("12121985");
-		best.SelectExpensiveButtonID();
+		best.SelectNormal();
 		sign.Sleep(150);
-		best.SelectExpensiveButtonID();
+		best.SelectNormal();
 		sign.Sleep(150);
 		best.Selectinspiration();
 		sign.Sleep(200);
@@ -194,11 +194,22 @@ public class QuizForMaleTest extends BaseTest
 		//quiz.SelectTab("Healthy mix of both");
 	}
 	@Test(priority = 15,groups={"sanity-group"})
+	public void SelectClothingCategories() 
+	{
+		QuizPage quiz = new QuizPage(driver);
+		quiz.Sleep(150);
+		quiz.ClickAddFullBody();
+		quiz.DismissAlert();
+		quiz.SelectCC("Tops");
+		quiz.scrollDownXpath();
+		quiz.SelectCC("Hats");
+		quiz.Sleep(150);
+		quiz.ClickNextw();
+	}
+	@Test(priority = 16,groups={"sanity-group"})
 	public void SelectYourCloset() 
 	{
 		QuizPage quiz = new QuizPage(driver);
-		quiz.ClickAddFullBody();
-		QuizPage.AcceptAlert();
 		quiz.Sleep(250);
 		quiz.SelectCategory("shorts");
 		quiz.Sleep(250);
@@ -211,6 +222,7 @@ public class QuizForMaleTest extends BaseTest
 		//quiz.ClickNextw();
 		quiz.Sleep(250);
 	//	Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Mika RIssy']"));
+		driver.resetApp();
 	}
 
 }

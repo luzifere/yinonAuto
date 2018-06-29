@@ -32,8 +32,12 @@ public class FacbookPage extends BasePage {
 
 	public void DoLoginWithFacbook () 
 	{
+		click(ConnectWithFacbook);
+		Sleep(500);
+		BasePage.AcceptAlert();
+		Sleep(500);
 		ContextToWebView();
-		filltextclear(UserOfFacbook, "aya@wishi.me");
+		filltextclear(UserOfFacbook, "luzifere@gmail.com");
 		filltextclear(PassOfFacbook, "inonab1565");
 		Sleep(500);
 		click(LoginButtonOfFacbook);
@@ -51,40 +55,62 @@ public class FacbookPage extends BasePage {
 		filltextclear(UserOfFacbook, "yinon@luzifere11.me");
 		filltextclear(PassOfFacbook, "inonab1565");
 		click(LoginButtonOfFacbook);
-		Assert.assertTrue(ElementEnable("//div[@class='_5yd0 _2ph- _5yd1']"));
+		ContextToWebView();
+		//WaitElementDisplay(By.xpath("//div[@class='_3-rj']"));
+		//Assert.assertTrue(ElementEnable("//div[@class='_3-rj']"));
+		WaitElementDisplay(By.xpath("//div[@class='_5yd0 _2ph- _5yd1']"));
+		Assert.assertTrue(ElementEnable("//div[@class='_5yd0 _2ph- _5yd1']"));//div[@class='_3-rj']
 		Sleep(200);
-		click(UserOfFacbook);
+		//click(UserOfFacbook);
+		driver.resetApp();
+		//Sleep(200);
+		//click(UserOfFacbook);
 	}
 
 	public void LoginWithFacbookWrongPassword () 
 	{
+		click(ConnectWithFacbook);
+		Sleep(500);
+		BasePage.AcceptAlert();
+		Sleep(500);
 		ContextToWebView();
 		filltextclear(UserOfFacbook, "yinon@wishi.me");
 		filltextclear(PassOfFacbook, "inonadddddb1565");
 		click(LoginButtonOfFacbook);
 		Assert.assertTrue(ElementEnable("//div[@class='_5yd0 _2ph- _5yd1']"));
 		Sleep(200);
-		click(UserOfFacbook);
+		//click(UserOfFacbook);
+		driver.resetApp();
 	}
 	public void LoginWithFacbookWithoutUser () 
-	{		
+	{	
+		click(ConnectWithFacbook);
+		Sleep(500);
+		BasePage.AcceptAlert();
+		Sleep(500);
 		ContextToWebView();
 		clear(UserOfFacbook);
 		filltextclear(PassOfFacbook, "inonadddddb1565");
 		click(LoginButtonOfFacbook);
 		Assert.assertTrue(ElementEnable("//div[@class='_5yd0 _2ph- _5yd1']"));
 		Sleep(200);
-		click(UserOfFacbook);
+		//click(UserOfFacbook);
+		driver.resetApp();
 	}
 	public void LoginWithFacbookWithoutPassword () 
 	{
+		click(ConnectWithFacbook);
+		Sleep(500);
+		BasePage.AcceptAlert();
+		Sleep(500);
 		ContextToWebView();
 		filltextclear(UserOfFacbook, "yinon@wishi.me");
 		clear(PassOfFacbook);
 		click(LoginButtonOfFacbook);
 		Assert.assertTrue(ElementEnable("//div[@class='_5yd0 _2ph- _5yd1']"));
 		Sleep(200);
-		click(UserOfFacbook);
+		//click(UserOfFacbook);
+		driver.resetApp();
 	}
 
 }

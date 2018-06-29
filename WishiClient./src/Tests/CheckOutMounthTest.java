@@ -16,7 +16,7 @@ public class CheckOutMounthTest extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("5389wishitestftt@wishi.com");
+		login.Fillusername("272wishitestftt@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -67,7 +67,7 @@ public class CheckOutMounthTest extends BaseTest
 	public void CompileBooking()
 	{
 		CeckOutPage co = new CeckOutPage(driver);
-		co.Fillemail("jhgjhg@fgcgf.jg");
+		//co.Fillemail("jhgjhg@fgcgf.jg");
 		co.Fillnumbercard("4242424242424242424242");
 		co.ClickCompileBooking();
 		co.ClickTakeYourStyleQwiz();
@@ -84,9 +84,10 @@ public class CheckOutMounthTest extends BaseTest
 		quiz.ClickNextw();
 		quiz.SelectTab("Oversized");
 		quiz.ClickNextw();
-		quiz.SelectJeans("Skinny");
-		quiz.ClickNextw();
+		//quiz.SelectJeans("Skinny");
+		//quiz.ClickNextw();
 		quiz.SelectCC("Tops");
+		quiz.scrollDownXpath();
 		quiz.SelectCC("Hats");
 		quiz.ClickNextw();
 		quiz.Sleep(200);
