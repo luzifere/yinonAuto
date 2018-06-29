@@ -40,4 +40,3 @@ INDEX VERSION 1.130+/Users/yinonwishi/git/yinonAuto/workspace/.metadata/.plugins
 3705148372.index
 4013403962.index
 1293050207.index
-2325905428.index

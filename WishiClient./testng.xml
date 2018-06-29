@@ -84,9 +84,9 @@
       <class name="Tests.QuizForWomenTest"/>
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="SignUpByFacbookTest">
+  <test thread-count="5" name="SignUpByFacbookTest2">
     <classes>
-      <class name="Tests.SignUpByFacbookTest"/>
+      <class name="Tests.SignUpByFacbookTest2"/>
     </classes>
   </test> <!-- Test -->
   <test thread-count="5" name="SignUpTest">
