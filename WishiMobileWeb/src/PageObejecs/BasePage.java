@@ -1,11 +1,23 @@
 package PageObejecs;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Random;
+
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
@@ -113,6 +125,66 @@ public class BasePage
 	public void SwitchToFrame(int num)
 	{
 		driver.switchTo().frame(num);
+	}
+	public void waitForPageLoaded() {
+        ExpectedCondition<Boolean> expectation = new
+                ExpectedCondition<Boolean>() {
+                    public Boolean apply(WebDriver driver) {
+                        return ((JavascriptExecutor) driver).executeScript("return document.readyState").toString().equals("complete");
+                    }
+                };
+        try {
+            Thread.sleep(1000);
+            WebDriverWait wait = new WebDriverWait(driver, 30);
+            wait.until(expectation);
+        } catch (Throwable error) {
+            Assert.fail("Timeout waiting for Page Load Request to complete.");
+        }
+    }
+	public void WaitElementDisplay (By by) 
+	{		
+		WebElement myDynamicElement = (new WebDriverWait(driver, 60))
+		.until(ExpectedConditions.presenceOfElementLocated(by));
+		//return myDynamicElement.isDisplayed();
+	}
+	public static void r ()throws IOException
+	{
+		String folder_name ="/Users/yinonwishi/Downloads/screenshoots";
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		// Now you can do whatever you need to do with it, for example copy somewhere
+		SimpleDateFormat df=new SimpleDateFormat("dd-mm-yyyy__hh_mm_ssaa");
+		new File(folder_name).mkdir();
+		String file_name=df.format(new Date())+".png";
+		FileUtils.copyFile(scrFile, new File(folder_name+ "/"+file_name));
+	}
+	public static void TakeScreenShot() throws IOException 
+	{
+		/*
+		Random num = new Random();
+		int number = 35600;
+		for (int counter = 58000; counter<=100000;counter++)
+			number = num.nextInt(7000);
+	
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		// Now you can do whatever you need to do with it, for example copy somewhere
+		File target = new File ("/Users/yinonwishi/Downloads/screenshoots/"+number+".png");
+		try {
+			FileUtils.copyFile(scrFile,target);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println(target);
+	}
+	*/
+
+		String folder_name ="/Users/yinonwishi/Downloads/screenshoots";
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		// Now you can do whatever you need to do with it, for example copy somewhere
+		SimpleDateFormat df=new SimpleDateFormat("dd-mm-yyyy__hh_mm_ssaa");
+		new File(folder_name).mkdir();
+		String file_name=df.format(new Date())+".png";
+		FileUtils.copyFile(scrFile, new File(folder_name+ "/"+file_name));
 	}
 	
 	

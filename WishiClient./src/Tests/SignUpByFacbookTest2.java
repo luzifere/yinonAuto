@@ -1,10 +1,16 @@
 package Tests;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObjects.BasePage;
 import PageObjects.FacbookPage;
 import PageObjects.FacbookPage2;
+
+
+
+
+@Listeners(Tests.Listener.class)
 
 public class SignUpByFacbookTest2 extends BaseTest3
 {

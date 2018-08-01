@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="SignUpByFacbookTest2(failed)">
     <classes>
       <class name="Tests.SignUpByFacbookTest2">
         <methods>
-          <include name="LoginWithFacbookWithoutUser"/>
-          <include name="LoginWithFacbookWrongUserName"/>
-          <include name="LoginWithFacbookWrongPassword"/>
-          <include name="LoginWithFacbookWithoutPassword"/>
           <include name="DoLoginWithFacbook"/>
           <include name="setup"/>
         </methods>
       </class> <!-- Tests.SignUpByFacbookTest2 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- SignUpByFacbookTest2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

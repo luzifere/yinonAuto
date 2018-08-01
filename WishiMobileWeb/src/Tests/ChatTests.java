@@ -4,23 +4,28 @@ import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObejecs.ChatPage;
 import PageObejecs.LoginPages;
 import PageObejecs.LoginPages2;
+
+
+
+@Listeners(Tests.Listener.class)
 public class ChatTests extends BaseTest
 {
 	String textforchat ;
 
 	@Test(priority = 1,groups={"sanity-group"})
-	   public void LoginAsStylist() 
-		{
+	public void LoginAsStylist() 
+	{
 		LoginPages2 login = new LoginPages2(driver);
-			login.ClickLoginButton();
-			login.doLogin("clea+4@wishi.me", "Wishime1");
+		login.ClickLoginButton();
+		login.doLogin("staylistchat@wishi.com", "123456");
 
-		}
+	}
 	@Test(priority = 2,groups={"sanity-group"})
 	public void SendChatToclient ()
 	{
@@ -31,19 +36,20 @@ public class ChatTests extends BaseTest
 		textforchat = "test for yinon"+number;
 		ChatPage chat = new ChatPage(driver);
 		chat.Sleep(150);
-		chat.SelectUser("chat");
+		chat.WaitElementDisplay(By.xpath("//div [text()[contains(.,'Client')]]"));
+		chat.SelectUser("Client");
 		chat.Sleep(100);
 		chat.FillChat(textforchat);
 		chat.SendChat();
 		Assert.assertTrue(chat.ChatDisplay(textforchat));	
 		chat.Sleep(200);
-	 	//driver.findElement(By.xpath("(//nav//div//img)[1]")).click();
+		//driver.findElement(By.xpath("(//nav//div//img)[1]")).click();
 		chat.ClickOnProfileClientButton();
 		chat.ClickOnLogOut();
 		LoginPages2 login = new LoginPages2(driver);
 		login.ClickLoginButton();
 		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
-		login.doLogin("chattest@wishi.me", "123456");
+		login.doLogin("clientchat@wishi.com", "123456");
 		login.Sleep(250);
 		chat.RefreshPage();
 		Assert.assertTrue(chat.ChatDisplay(textforchat));
@@ -65,7 +71,7 @@ public class ChatTests extends BaseTest
 		chat.ClickOnLogOut();
 		LoginPages2 login = new LoginPages2(driver);
 		login.ClickLoginButton();
-		login.doLogin("clea+4@wishi.me", "Wishime1");
+		login.doLogin("staylistchat@wishi.com", "123456");
 		login.Sleep(300);
 		chat.RefreshPage();
 		Assert.assertTrue(chat.ChatDisplay(textforchat));

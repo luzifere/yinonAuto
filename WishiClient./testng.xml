@@ -7,11 +7,6 @@
       <class name="Tests.ReviseThirdLookTest"/>
     </classes>
   </test> <!-- Test -->
-   <test thread-count="5" name="EndSessionTest">
-    <classes>
-      <class name="Tests.EndSessionTest"/>
-    </classes>
-  </test> <!-- Test -->
   <test thread-count="5" name="BestMutch">
     <classes>
       <class name="Tests.BestMutch"/>
@@ -22,7 +17,11 @@
       <class name="Tests.ChatTest"/>
     </classes>
   </test> <!-- Test -->
-  
+   <test thread-count="5" name="ContactStylistTest">
+    <classes>
+      <class name="Tests.ContactStylistTest"/>
+    </classes>
+  </test> <!-- Test -->
 <test thread-count="5" name="EditStyleForMenTests">
     <classes>
       <class name="Tests.EditStyleForMenTests"/>
@@ -53,11 +52,6 @@
       <class name="Tests.LoginTests"/>
     </classes>
   </test> <!-- Test --> 
-  <test thread-count="5" name="ReviseItems">
-    <classes>
-      <class name="Tests.ReviseItems"/>
-    </classes>
-  </test> <!-- Test -->
   <test thread-count="5" name="QuickQuizForWomenTest">
     <classes>
       <class name="Tests.QuickQuizForWomenTest"/>

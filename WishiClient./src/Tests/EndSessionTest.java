@@ -7,6 +7,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObjects.BasePage;
@@ -17,6 +18,11 @@ import PageObjects.LoginPage;
 import PageObjects.QuizPage;
 import PageObjects.SearchPage;
 import PageObjects.SettingPage;
+
+
+
+
+@Listeners(Tests.Listener.class)
 
 public class EndSessionTest extends BaseTest
 {

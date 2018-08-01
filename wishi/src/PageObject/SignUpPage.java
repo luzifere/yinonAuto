@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class SignUpPage extends BasePage 
 {
-	@FindBy(xpath="(//div[@class='connect-email'])")
+	@FindBy(xpath="//div[@class='logged-in-header-container ng-scope']//div[@class='get-your-style ng-binding']")
 	WebElement SignUpEmail;
 	
 	@FindBy(xpath="//div//input[@id='signUpEmail']")
@@ -43,10 +43,15 @@ public class SignUpPage extends BasePage
 	public void doSignUp(String user,String firstname,String lastname,String pass)
 	{
 		ExplicityWaitIsClickable(By.xpath("//div//input[@id='signUpEmail']"));
+		Sleep(100);
 		filltext(userName, user);
+		Sleep(100);
 		filltext(FirstName, firstname);
+		Sleep(100);
 		filltext(LastName, lastname);
+		Sleep(100);
 		filltext(password, pass);
+		Sleep(100);
 		click(SignUpBtn);			
 	} 
 	public void ClickOnSignUpEmail() 

@@ -269,8 +269,8 @@ public class BookingPage extends BasePage {
 	{		
 		Sleep(170);
 		click(SendEndSession);
-		Sleep(500);
-	}
+		WaitElementDisplay(By.xpath("//*[@name='Waiting for your client to confirm ending the session']"));
+		}
 	public void ClickLookSaveButton()
 	{		
 		Sleep(170);
@@ -325,7 +325,7 @@ public class BookingPage extends BasePage {
 		Sleep(170);
 		click(Shop);
 		Sleep(170);
-		//WaitElementDisplay(By.xpath("(//*[@name='itemCellID'])[1]"));
+		WaitElementDisplay(By.xpath("//XCUIElementTypeApplication[@name=\"Wishi-Stylist\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[1]"));
 	}
 	public void ClickCreateMoodBoardButton()
 	{		
@@ -357,7 +357,7 @@ public class BookingPage extends BasePage {
 		Sleep(170);
 		filltext(UserNAme, user);
 		filltext(Password, password);
-		Sleep(170);
+		Sleep(250);
 	}
 	public void ClickLoginButton() 
 	{

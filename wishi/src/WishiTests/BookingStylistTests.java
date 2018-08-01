@@ -11,6 +11,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import PageObject.BasePage;
+import PageObject.BestMatchPage;
 import PageObject.BookingPage;
 import PageObject.LoginPage;
 import PageObject.SignUpPage;
@@ -25,18 +26,37 @@ public class BookingStylistTests extends BaseTest
 	{
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
-		int number = 356;
-		for (int counter = 1000; counter<=100000;counter++)
-			number = num.nextInt(2500);
+		int number = 35600;
+		for (int counter = 58000; counter<=100000;counter++)
+			number = num.nextInt(7000);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitesttt@wishi.com" + number, "inon", "av", "ab1565");
-		BasePage.ExplicityWaitIsClickable(By.xpath("//div[@class='closeXLeft ng-scope']"));
+		signup.doSignUp("wishitestr@wishi.com" + number, "inon", "av", "ab1565");
+		signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
+		BestMatchPage best = new BestMatchPage(driver);
+		best.ClickontinueButton();
+		best.ClickFamle();
+		best.selectMounts(3);
+		best.selectDays(16);
+		best.selectYears(9);
+		best.ClickNextbutton();
+		best.SelectNormal();
+		best.SelectNormal2();
+		best.WaitElementDisplay(By.xpath("//a[text()[contains(.,'Petite')]]"));
+		best.SelectTags("Petite");
+		best.ClickNextbutton();
+		best.SelectInspiration("2");
+		best.ClickNextbutton();
+		best.Selectbrands("2");
+		best.ClickNextbutton();
+		best.WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'VIEW MORE STYLISTS')]]"));
+		best.ClickMoreStylistsButton();
 	}
 
 	@Test(priority = 2,groups={"sanity-group"})
 	public void CheckOutSession ()
 	{
 		BookingPage booking = new BookingPage(driver);
+		booking.ClickBookingstylist();
 		booking.SearchStylist("Casey Huth");
 		booking.SelectStylist();
 		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Per Session')]]"));
@@ -55,7 +75,7 @@ public class BookingStylistTests extends BaseTest
 		booking.ClickApllay();
 		booking.SearchStylist("Casey Huth");
 		booking.SelectStylist();
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
+		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
 		booking.BookStylist();
 		booking.UseCodCoopon("wishitest");
 		booking.ClickFinishCheckout();
@@ -76,11 +96,14 @@ public class BookingStylistTests extends BaseTest
 		booking.FillLastName("aba");
 		booking.SwitchToFrame(0);
 		booking.FillCardNumber("4242424242424242");
-		booking.FillCardDate("0218");
+		booking.FillCardDate("0222");
 		booking.FillCardCVC("424");
-		booking.Sleep(50);
+		booking.Sleep(500);
 		booking.switchWindow();
-		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
+		booking.Sleep(200);
+		booking.WaitElementDisplay(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]"));
+		//BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
+		driver.findElement(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]")).click();
 		booking.ClickBookingstylist();	
 		driver.quit();
 	}

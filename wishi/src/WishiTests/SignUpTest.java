@@ -58,7 +58,7 @@ public class SignUpTest extends BaseTest
 		for (int counter = 58000; counter<=100000;counter++)
 			number = num.nextInt(7000);
 		signup.doSignUp("wishitestr@wishi.com" + number, "inon", "av", "ab1565");
-		Assert.assertTrue(BasePage.isatpage("//div[contains(text(), 'Male')]"));
+		Assert.assertTrue(BasePage.isatpage("//div//a[@class='btn-start']"));
 		driver.quit();
 	}
 	

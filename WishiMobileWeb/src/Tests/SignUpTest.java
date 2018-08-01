@@ -3,11 +3,16 @@ package Tests;
 import java.util.Random;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObejecs.BasePage;
 import PageObejecs.SignUpPage;
 
+
+
+
+@Listeners(Tests.Listener.class)
 public class SignUpTest extends BaseTest
 {
 	@Test(priority = 1,groups={"sanity-group"})

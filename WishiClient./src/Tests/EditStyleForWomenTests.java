@@ -5,6 +5,7 @@ import java.util.Random;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObjects.BestMutch;
@@ -12,6 +13,10 @@ import PageObjects.LoginPage;
 import PageObjects.SettingPage;
 import PageObjects.SignUpPage;
 import io.appium.java_client.MobileBy;
+
+
+
+@Listeners(Tests.Listener.class)
 
 public class EditStyleForWomenTests extends BaseTest4
 {
@@ -32,7 +37,8 @@ public class EditStyleForWomenTests extends BaseTest4
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
 		best.ClickFamle();
-		best.fillBirthday("12121985");
+		best.fillBirthday("45");
+		best.ClickNextbutton();
 		best.SelectCheapButtonID();
 		sign.Sleep(150);
 		best.SelectCheapButtonID();

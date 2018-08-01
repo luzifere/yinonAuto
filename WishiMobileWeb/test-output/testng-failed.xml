@@ -1,19 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Tests.Listener"/>
+  </listeners>
+  <test thread-count="5" name="BestMatchTests(failed)">
     <classes>
-      <class name="Tests.OnBoadingTests2">
+      <class name="Tests.BestMatchTests">
         <methods>
-          <include name="MaleCheep"/>
+          <include name="BMExpensiveMale"/>
+          <include name="BMNatural"/>
+          <include name="BMLowFeamle"/>
+          <include name="BMNormalFeamle"/>
           <include name="setup"/>
-          <include name="MaleExpensive"/>
-          <include name="FamleNOrmal"/>
-          <include name="FamleCheep"/>
-          <include name="MaleNOrmal"/>
-          <include name="FamleExpensive"/>
+          <include name="BMExpensiveFeamle"/>
+          <include name="BMLowMale"/>
+          <include name="BMNormalMale"/>
         </methods>
-      </class> <!-- Tests.OnBoadingTests2 -->
+      </class> <!-- Tests.BestMatchTests -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- BestMatchTests(failed) -->
+  <test thread-count="5" name="ChatTests(failed)">
+    <classes>
+      <class name="Tests.ChatTests">
+        <methods>
+          <include name="setup"/>
+          <include name="SendChatToStylist"/>
+        </methods>
+      </class> <!-- Tests.ChatTests -->
+    </classes>
+  </test> <!-- ChatTests(failed) -->
+  <test thread-count="5" name="qwizTests(failed)">
+    <classes>
+      <class name="Tests.qwizTests">
+        <methods>
+          <include name="SelectEvent"/>
+          <include name="SelectHighlight"/>
+          <include name="setup"/>
+          <include name="SelectClothingPreferences"/>
+          <include name="SelectComfortZone"/>
+          <include name="SelectPrints"/>
+          <include name="SelectBrands"/>
+          <include name="SelectSize"/>
+          <include name="SelectHeels"/>
+          <include name="SelectInventory"/>
+          <include name="DoSignUp"/>
+          <include name="SelectBodyType"/>
+          <include name="SelectHeight"/>
+          <include name="SelectJEWELRY"/>
+          <include name="CheckOutSession"/>
+          <include name="SelectFabrics"/>
+          <include name="SelectColors"/>
+        </methods>
+      </class> <!-- Tests.qwizTests -->
+    </classes>
+  </test> <!-- qwizTests(failed) -->
+  <test thread-count="5" name="BookingTests(failed)">
+    <classes>
+      <class name="Tests.BookingTests">
+        <methods>
+          <include name="CheckOutSession"/>
+          <include name="CheckoutUnlimited"/>
+          <include name="setup"/>
+          <include name="CheckoutByCreditCard"/>
+          <include name="DoSignUp"/>
+        </methods>
+      </class> <!-- Tests.BookingTests -->
+    </classes>
+  </test> <!-- BookingTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

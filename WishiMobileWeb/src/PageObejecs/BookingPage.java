@@ -82,7 +82,7 @@ public class BookingPage extends BasePage
 	@FindBy(xpath="//button[@class='mobileBookme_payment_form_button']")
 	WebElement FinishCheckout;
 
-	@FindBy(xpath="//div[@class='thank-u-btn']")
+	@FindBy(xpath="//div[@class='thank-u-btn-mob']")
 	WebElement TakeYourStyleQuiz;
 
 	@FindBy(css ="[name='cardnumber']")
@@ -113,28 +113,44 @@ public class BookingPage extends BasePage
 		click(BookBtn);	
 	}
 	public void ClickSearchButton() 
-	{	Sleep(300);
-	click(SearchBarButton);	
+	{	
+		//Sleep(300);
+		//click(SearchBarButton);	
+		driver.findElement(By.xpath("//img[@src='../images/search.png']")).click();
 	}
 
 	public void SearchStylist(String name) 
 
-	{  
+	{  /*
 		Sleep(300);
 		click(SearchBar);
 		Sleep(300);
 		filltext(SearchBar, name);
+		Sleep(300);
+		driver.findElement(By.xpath("//a[@title='Casey Huth']")).click();
+		/*
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.ENTER).perform();
 		Sleep(300);
+		*/
+		driver.findElement(By.xpath("//div//input[@type='text']")).click();
+		driver.findElement(By.xpath("//div//input[@type='text']")).sendKeys(name);
+		WaitElementDisplay(By.xpath("//li[@class='uib-typeahead-match ng-scope active']"));
+		driver.findElement(By.xpath("//li[@class='uib-typeahead-match ng-scope active']")).click();
+		Sleep(300);
+		//WaitElementDisplay(By.xpath("//div[@class='name-city ng-binding']"));
 	}
 	public void UseCodCoopon(String promocod) 
 	{ 
 		//click(FirstNameCheckout);
 		ExplicityWaitIsClickable(By.xpath("//div[@class='mobile_use_promo']"));
 		filltext(PromoCode,promocod);
-		Actions act = new Actions(driver);
-		act.sendKeys(Keys.ENTER).perform();
+		driver.hideKeyboard();
+		driver.findElement(By.xpath("//span[@class='apply_promo_code']")).click();
+		WaitElementDisplay(By.xpath("//button[@class='mobileBookme_payment_form_button']"));
+		
+		//Actions act = new Actions(driver);
+		//act.sendKeys(Keys.ENTER).perform();
 	}
 
 	public void SelectStylist() 
@@ -157,8 +173,9 @@ public class BookingPage extends BasePage
 
 	public void FilterIcon() 
 	{		
-	Sleep(300);
-	click(FilterIcon);	
+		Sleep(300);
+		click(FilterIcon);	
+		WaitElementDisplay(By.xpath("(//div[@class='entry-sub ng-binding'])[1]"));
 	}
 
 	public void ClickBookingstylist() 

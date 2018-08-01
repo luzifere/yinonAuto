@@ -21,9 +21,9 @@ public class BaseTest
 	(groups={"sanity-group"})
 	public void setup()
 	{
-		System.setProperty("webdriver.chrome.driver", "/Users/yinonwishi/Downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/yinonwishi/Downloads/chromedriver 3");
 	    driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 		driver.get("https://stage.wishi.me/app/");
 		driver.manage().window().maximize();
 		

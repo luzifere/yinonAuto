@@ -3,16 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.SignUpByFacbookTest2">
+      <class name="Tests.ReviseThirdLookTest">
         <methods>
-          <include name="LoginWithFacbookWithoutUser"/>
-          <include name="LoginWithFacbookWrongUserName"/>
-          <include name="LoginWithFacbookWrongPassword"/>
-          <include name="LoginWithFacbookWithoutPassword"/>
-          <include name="DoLoginWithFacbook"/>
           <include name="setup"/>
+          <include name="ReviseLook"/>
         </methods>
-      </class> <!-- Tests.SignUpByFacbookTest2 -->
+      </class> <!-- Tests.ReviseThirdLookTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

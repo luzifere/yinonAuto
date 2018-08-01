@@ -4,8 +4,14 @@ import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import PageObejecs.BestMatchPage;
+
+
+
+@Listeners(Tests.Listener.class)
 public class qwizTests extends BaseTest
 {
 	@Test(priority = 1,groups={"sanity-group"})
@@ -17,12 +23,25 @@ public class qwizTests extends BaseTest
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitesttt@wishi.com" + number, "inon", "av", "ab1565");
-		signup.
-		//driver.findElement(By.xpath("//input[@class='sign-up-btn ng-scope']")).click();
-		//PageObejecs.BasePage.ExplicityWaitIsClickable(By.xpath("//div[@class='closeXLeft ng-scope']"));
-		Sleep(200);		
-		signup.RefreshPage();
+		signup.doSignUp("wishitesttt@wishitesttt.com" + number, "inon", "av", "ab1565");
+		BestMatchPage best = new BestMatchPage(driver);
+		best.ClickontinueButton();
+		best.ClickFamle();
+		best.selectMounts(3);
+		best.selectDays(16);
+		best.selectYears(9);
+		best.ClickNextbutton();
+		best.SelectNormal();
+		best.SelectNormal2();
+		best.WaitElementDisplay(By.xpath("//a[text()[contains(.,'Petite')]]"));
+		best.SelectTags("Petite");
+		best.ClickTagsNextButton();
+		best.SelectInspiration("2");
+		best.ClickTagsNextButton();
+		best.Selectbrands("2");
+		best.ClickTagsNextButton();
+		best.WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'VIEW MORE STYLISTS')]]"));
+		best.ClickMoreStylistsButton();
 	}
 	@Test(priority = 2,groups={"sanity-group"})
 	public void CheckOutSession ()

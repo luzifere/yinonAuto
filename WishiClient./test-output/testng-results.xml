@@ -1,41 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
+    <line>
+      <![CDATA[About to begin executing Test Default test]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest3.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest3.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpByFacbookTest2.LoginWithFacbookWrongUserName]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpByFacbookTest2.LoginWithFacbookWrongUserName]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite LoginWithFacbookWrongUserName]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpByFacbookTest2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpByFacbookTest2.LoginWithFacbookWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpByFacbookTest2.LoginWithFacbookWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite LoginWithFacbookWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpByFacbookTest2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpByFacbookTest2.LoginWithFacbookWithoutPassword]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpByFacbookTest2.LoginWithFacbookWithoutPassword]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite LoginWithFacbookWithoutPassword]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpByFacbookTest2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpByFacbookTest2.LoginWithFacbookWithoutUser]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpByFacbookTest2.LoginWithFacbookWithoutUser]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite LoginWithFacbookWithoutUser]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpByFacbookTest2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpByFacbookTest2.DoLoginWithFacbook]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpByFacbookTest2.DoLoginWithFacbook]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite DoLoginWithFacbook]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpByFacbookTest2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="132353" started-at="2018-06-29T06:12:41Z" finished-at="2018-06-29T06:14:53Z">
+  <suite name="Default suite" duration-ms="128105" started-at="2018-08-01T09:20:28Z" finished-at="2018-08-01T09:22:36Z">
     <groups>
       <group name="sanity-group">
-        <method signature="SignUpByFacbookTest2.DoLoginWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTest2@612679d6]" name="DoLoginWithFacbook" class="Tests.SignUpByFacbookTest2"/>
-        <method signature="SignUpByFacbookTest2.LoginWithFacbookWithoutPassword()[pri:3, instance:Tests.SignUpByFacbookTest2@612679d6]" name="LoginWithFacbookWithoutPassword" class="Tests.SignUpByFacbookTest2"/>
-        <method signature="SignUpByFacbookTest2.LoginWithFacbookWithoutUser()[pri:4, instance:Tests.SignUpByFacbookTest2@612679d6]" name="LoginWithFacbookWithoutUser" class="Tests.SignUpByFacbookTest2"/>
-        <method signature="SignUpByFacbookTest2.LoginWithFacbookWrongPassword()[pri:2, instance:Tests.SignUpByFacbookTest2@612679d6]" name="LoginWithFacbookWrongPassword" class="Tests.SignUpByFacbookTest2"/>
-        <method signature="SignUpByFacbookTest2.LoginWithFacbookWrongUserName()[pri:1, instance:Tests.SignUpByFacbookTest2@612679d6]" name="LoginWithFacbookWrongUserName" class="Tests.SignUpByFacbookTest2"/>
+        <method signature="SignUpByFacbookTest2.DoLoginWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTest2@1b26f7b2]" name="DoLoginWithFacbook" class="Tests.SignUpByFacbookTest2"/>
+        <method signature="SignUpByFacbookTest2.LoginWithFacbookWithoutPassword()[pri:3, instance:Tests.SignUpByFacbookTest2@1b26f7b2]" name="LoginWithFacbookWithoutPassword" class="Tests.SignUpByFacbookTest2"/>
+        <method signature="SignUpByFacbookTest2.LoginWithFacbookWithoutUser()[pri:4, instance:Tests.SignUpByFacbookTest2@1b26f7b2]" name="LoginWithFacbookWithoutUser" class="Tests.SignUpByFacbookTest2"/>
+        <method signature="SignUpByFacbookTest2.LoginWithFacbookWrongPassword()[pri:2, instance:Tests.SignUpByFacbookTest2@1b26f7b2]" name="LoginWithFacbookWrongPassword" class="Tests.SignUpByFacbookTest2"/>
+        <method signature="SignUpByFacbookTest2.LoginWithFacbookWrongUserName()[pri:1, instance:Tests.SignUpByFacbookTest2@1b26f7b2]" name="LoginWithFacbookWrongUserName" class="Tests.SignUpByFacbookTest2"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="132353" started-at="2018-06-29T06:12:41Z" finished-at="2018-06-29T06:14:53Z">
+    <test name="Default test" duration-ms="128105" started-at="2018-08-01T09:20:28Z" finished-at="2018-08-01T09:22:36Z">
       <class name="Tests.SignUpByFacbookTest2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTest2@612679d6]" name="setup" is-config="true" duration-ms="64706" started-at="2018-06-29T06:12:41Z" finished-at="2018-06-29T06:13:45Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTest2@1b26f7b2]" name="setup" is-config="true" duration-ms="62674" started-at="2018-08-01T09:20:28Z" finished-at="2018-08-01T09:21:31Z">
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest3.setup]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginWithFacbookWrongUserName()[pri:1, instance:Tests.SignUpByFacbookTest2@612679d6]" name="LoginWithFacbookWrongUserName" duration-ms="19833" started-at="2018-06-29T06:13:45Z" finished-at="2018-06-29T06:14:05Z">
+        <test-method status="PASS" signature="LoginWithFacbookWrongUserName()[pri:1, instance:Tests.SignUpByFacbookTest2@1b26f7b2]" name="LoginWithFacbookWrongUserName" duration-ms="23480" started-at="2018-08-01T09:21:31Z" finished-at="2018-08-01T09:21:54Z">
           <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpByFacbookTest2.LoginWithFacbookWrongUserName]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpByFacbookTest2.LoginWithFacbookWrongUserName]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite LoginWithFacbookWrongUserName]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpByFacbookTest2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWrongUserName -->
-        <test-method status="PASS" signature="LoginWithFacbookWrongPassword()[pri:2, instance:Tests.SignUpByFacbookTest2@612679d6]" name="LoginWithFacbookWrongPassword" duration-ms="6332" started-at="2018-06-29T06:14:05Z" finished-at="2018-06-29T06:14:12Z">
+        <test-method status="PASS" signature="LoginWithFacbookWrongPassword()[pri:2, instance:Tests.SignUpByFacbookTest2@1b26f7b2]" name="LoginWithFacbookWrongPassword" duration-ms="6559" started-at="2018-08-01T09:21:54Z" finished-at="2018-08-01T09:22:01Z">
           <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpByFacbookTest2.LoginWithFacbookWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpByFacbookTest2.LoginWithFacbookWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite LoginWithFacbookWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpByFacbookTest2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWrongPassword -->
-        <test-method status="PASS" signature="LoginWithFacbookWithoutPassword()[pri:3, instance:Tests.SignUpByFacbookTest2@612679d6]" name="LoginWithFacbookWithoutPassword" duration-ms="6377" started-at="2018-06-29T06:14:12Z" finished-at="2018-06-29T06:14:18Z">
+        <test-method status="PASS" signature="LoginWithFacbookWithoutPassword()[pri:3, instance:Tests.SignUpByFacbookTest2@1b26f7b2]" name="LoginWithFacbookWithoutPassword" duration-ms="6534" started-at="2018-08-01T09:22:01Z" finished-at="2018-08-01T09:22:07Z">
           <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpByFacbookTest2.LoginWithFacbookWithoutPassword]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpByFacbookTest2.LoginWithFacbookWithoutPassword]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite LoginWithFacbookWithoutPassword]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpByFacbookTest2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWithoutPassword -->
-        <test-method status="PASS" signature="LoginWithFacbookWithoutUser()[pri:4, instance:Tests.SignUpByFacbookTest2@612679d6]" name="LoginWithFacbookWithoutUser" duration-ms="4268" started-at="2018-06-29T06:14:18Z" finished-at="2018-06-29T06:14:22Z">
+        <test-method status="PASS" signature="LoginWithFacbookWithoutUser()[pri:4, instance:Tests.SignUpByFacbookTest2@1b26f7b2]" name="LoginWithFacbookWithoutUser" duration-ms="4294" started-at="2018-08-01T09:22:07Z" finished-at="2018-08-01T09:22:11Z">
           <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpByFacbookTest2.LoginWithFacbookWithoutUser]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpByFacbookTest2.LoginWithFacbookWithoutUser]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite LoginWithFacbookWithoutUser]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpByFacbookTest2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWithoutUser -->
-        <test-method status="PASS" signature="DoLoginWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTest2@612679d6]" name="DoLoginWithFacbook" duration-ms="30813" started-at="2018-06-29T06:14:22Z" finished-at="2018-06-29T06:14:53Z">
+        <test-method status="PASS" signature="DoLoginWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTest2@1b26f7b2]" name="DoLoginWithFacbook" duration-ms="24545" started-at="2018-08-01T09:22:11Z" finished-at="2018-08-01T09:22:36Z">
           <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpByFacbookTest2.DoLoginWithFacbook]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpByFacbookTest2.DoLoginWithFacbook]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite DoLoginWithFacbook]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpByFacbookTest2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- DoLoginWithFacbook -->
       </class> <!-- Tests.SignUpByFacbookTest2 -->

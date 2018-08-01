@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginWithFacbookTests(failed)">
     <classes>
-      <class name="WishiTests.CrateLookTests">
+      <class name="WishiTests.LoginWithFacbookTests">
         <methods>
-          <include name="CrateRegularLook"/>
+          <include name="LoginWithFacbookWrongUserName"/>
           <include name="tearDown"/>
-          <include name="PersonalShopping"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- WishiTests.CrateLookTests -->
+      </class> <!-- WishiTests.LoginWithFacbookTests -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- LoginWithFacbookTests(failed) -->
+  <test thread-count="5" name="SignUpByFacbook(failed)">
+    <classes>
+      <class name="WishiTests.SignUpByFacbook">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SignUpWithFacbook"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.SignUpByFacbook -->
+    </classes>
+  </test> <!-- SignUpByFacbook(failed) -->
+  <test thread-count="5" name="SignUpByFacbookfailes(failed)">
+    <classes>
+      <class name="WishiTests.SignUpByFacbookfailes">
+        <methods>
+          <include name="SignUpWithFacbookWrongUserName"/>
+          <include name="tearDown"/>
+          <include name="SignUpWithFacbookWitOutEmail"/>
+          <include name="SignUpWithFacbookWrongPassword"/>
+          <include name="SignUpWithFacbookWitOutPassword"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.SignUpByFacbookfailes -->
+    </classes>
+  </test> <!-- SignUpByFacbookfailes(failed) -->
+</suite> <!-- Failed suite [Suite] -->

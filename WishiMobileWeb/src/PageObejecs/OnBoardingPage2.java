@@ -40,7 +40,7 @@ public class OnBoardingPage2 extends BasePage
 	WebElement AddPhotoButton;
 	@FindBy(xpath="//div[@class='match-more-stylists']")
 	WebElement MorestylistBUtton;
-	@FindBy(xpath="//nav//div//span[@class='inner-credentials ng-binding']")
+	@FindBy(xpath="//span[@class='inner-credentials ng-binding credentials-mob']")
 	WebElement ProfileButton;
 	@FindBy(xpath="//div//li//a[text()[contains(.,'Log Out')]]")
 	WebElement LogOut;

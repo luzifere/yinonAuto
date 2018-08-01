@@ -1,11 +1,19 @@
 package PageObjects;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Set;
+
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
@@ -79,15 +87,15 @@ public class BasePage
 		WebElement webElement= driver.findElement(By.xpath(elementString));
 		return webElement.isDisplayed();
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	public void WaitElementClickable(By by) 
 	{		
 		WebElement myDynamicElement = (new WebDriverWait(driver, 80))
-		.until(ExpectedConditions.elementToBeClickable(by));
+				.until(ExpectedConditions.elementToBeClickable(by));
 		myDynamicElement.click();
 	}
 	public void WaitElementNotDisplay(By by) 
@@ -98,12 +106,12 @@ public class BasePage
 	public void WaitElementDisplay (By by) 
 	{		
 		WebElement myDynamicElement = (new WebDriverWait(driver, 80))
-		.until(ExpectedConditions.presenceOfElementLocated(by));
+				.until(ExpectedConditions.presenceOfElementLocated(by));
 		//return myDynamicElement.isDisplayed();
 	}
-	
-	
-	
+
+
+
 	public void clear (WebElement el) 
 	{
 		el.clear();
@@ -353,8 +361,56 @@ public class BasePage
 		IOSTouchAction press = new IOSTouchAction(driver);
 		press.tap(PointOption.point(x,y)).perform();	
 	}
+	public static void TakeScreenShot() throws IOException 
+	{
+		/*
+		Random num = new Random();
+		int number = 35600;
+		for (int counter = 58000; counter<=100000;counter++)
+			number = num.nextInt(7000);
 
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		// Now you can do whatever you need to do with it, for example copy somewhere
+		File target = new File ("/Users/yinonwishi/Downloads/screenshoots/"+number+".png");
+		try {
+			FileUtils.copyFile(scrFile,target);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println(target);
+	}
+		 */
 
+		String folder_name ="/Users/yinonwishi/Downloads/screenshoots";
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		// Now you can do whatever you need to do with it, for example copy somewhere
+		SimpleDateFormat df=new SimpleDateFormat("dd-mm-yyyy__hh_mm_ssaa");
+		new File(folder_name).mkdir();
+		String file_name=df.format(new Date())+".png";
+		FileUtils.copyFile(scrFile, new File(folder_name+ "/"+file_name));
+	}
+
+	public void ScrollToElement(String element) {
+		Sleep(170);
+		String ImageElemet = ("text1");
+		ImageElemet = ImageElemet.replace("text1", element);
+		WebElement ImageButton = driver.findElement(By.xpath(ImageElemet));
+
+		while (true) 
+		{
+			if(ImageButton.isDisplayed())
+			{
+				ImageButton.click();
+				break;
+			}
+			else 
+			{
+				scrollDownXpath();
+			}			
+
+		}
+	}
 }
 
 

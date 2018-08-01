@@ -30,6 +30,7 @@ public class ChatPage extends BasePage {
 	
 	public void FillChat(String text)
     {
+		WaitElementDisplay(By.xpath("//div//form//textarea[@class='autoExpand ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required']"));
     	filltext(Chatfield, text);
     }
     public void SendChat()

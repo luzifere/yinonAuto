@@ -1,8 +1,13 @@
 package Tests;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+
+
+
+@Listeners(Tests.Listener.class)
 public class SignUpByFacbookTestsFail extends BaseTest
 {
 	//
@@ -10,6 +15,7 @@ public class SignUpByFacbookTestsFail extends BaseTest
 	public void SignUpWithFacbookWitOutEmail()
 	{
 		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
+		signup.ClickOnSignUpEmail();
 		signup.ConnectWithFB();
 		signup.Sleep(200);
 		signup.switchWindow();

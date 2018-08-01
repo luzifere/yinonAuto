@@ -33,7 +33,7 @@ public class FacbookPage2 extends BasePage {
 	public void DoLoginWithFacbook () 
 	{
 		ContextToWebView();
-		filltextclear(UserOfFacbook, "aya@wishi.me");
+		filltextclear(UserOfFacbook, "luzifere@gmail.com");
 		filltextclear(PassOfFacbook, "inonab1565");
 		Sleep(500);
 		click(LoginButtonOfFacbook);

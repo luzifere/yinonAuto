@@ -10,8 +10,8 @@
 		<item value=".xml" key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="750" key="dialogHeight"/>
-		<item value="1200" key="dialogWidth"/>
+		<item value="657" key="dialogHeight"/>
+		<item value="1050" key="dialogWidth"/>
 		<list key="textEntries">
 		</list>
 		<list key="orderedElements">
@@ -27,9 +27,11 @@
 			<item value="org.eclipse.wst.XMLCategory"/>
 		</list>
 	</section>
+	<section name="FileSystemExportWizard">
+	</section>
 	<section name="ImportExportAction">
 		<item value="org.eclipse.ui.wizards.export.ZipFile" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
-		<item value="org.eclipse.ui.wizards.import.ZipFile" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 		</list>
@@ -42,6 +44,8 @@
 		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
 			<item value="C:\Users\Vali\Downloads\wishi2.zip"/>
 		</list>
+	</section>
+	<section name="FileSystemImportWizard">
 	</section>
 	<section name="ZipFileExportWizard">
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>

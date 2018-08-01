@@ -1,12 +1,18 @@
 package Tests;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObjects.CeckOutPage;
 import PageObjects.LoginPage;
 import PageObjects.QuizPage;
 import PageObjects.SearchPage;
+
+
+
+
+@Listeners(Tests.Listener.class)
 
 public class QuickQuizForWomenTest extends BaseTest
 {

@@ -1,14 +1,21 @@
 package Tests;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+
+
+
+@Listeners(Tests.Listener.class)
 public class SignUpByFacbookTestsSucses extends BaseTest
 {
 	@Test(priority = 5,groups={"sanity-group"})
 	public void SignUpWithFacbook()
 	{
 		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
+		signup.ClickOnSignUpEmail();
+
 		signup.ConnectWithFB();
 		signup.Sleep(200);
 		signup.switchWindow();	

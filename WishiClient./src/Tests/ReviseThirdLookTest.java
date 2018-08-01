@@ -7,6 +7,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObjects.BasePage;
@@ -17,6 +18,12 @@ import PageObjects.LoginPage;
 import PageObjects.QuizPage;
 import PageObjects.SearchPage;
 import PageObjects.SettingPage;
+
+
+
+
+
+@Listeners(Tests.Listener.class)
 
 public class ReviseThirdLookTest extends BaseTest
 {
@@ -175,7 +182,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
-		driver.findElement(By.id("Got It")).click();
+		//driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -287,7 +294,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
-		driver.findElement(By.id("Got It")).click();
+		//driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -306,7 +313,7 @@ public class ReviseThirdLookTest extends BaseTest
 		driver.resetApp();
 	}
 	@Test(priority = 13,groups={"sanity-group"})
-	public void VerifyCreateLook2() throws IOException 
+	public void AskRevise1() throws IOException 
 	{
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
@@ -323,16 +330,68 @@ public class ReviseThirdLookTest extends BaseTest
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'look2')]"));
 		chat.SelectStylist("//*[@name='stylist booking']");
 		BookingPage booking = new BookingPage(driver);
+		booking.ClickReviseLookClient();
+		booking.SelectImageForRevise();
+		booking.scrollDownXpath();
+		booking.ClickSendReviseClient();
+		driver.resetApp();	
+
+	}
+	@Test(priority = 14,groups={"sanity-group"})
+	public void CreateReviseLook1() throws IOException 
+	{
+		BaseTest.capabileties2();	
+		BookingPage booking = new BookingPage(driver);
+		booking.Sleep(250);
+		booking.ClickLoginStart();
+		booking.LoginStylistApp("stylist.booking@wishi.com", "123456");
+		booking.ClickLoginButton();
+		booking.Sleep(200);
+		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
+		booking.Sleep(200);
+		BasePage.AcceptAlert();
+		booking.Clickclose_menu4Button();
+		booking.ClickReviseLookStylist();
+		//driver.findElement(By.id("Got It")).click();
+		booking.Sleep(200);
+		booking.Clickclose_menu4Button();
+		booking.ClickShop();
+		booking.Sleep(200);
+		booking.ClickSave();
+		booking.FillLookDescription("revise2");
+		booking.ClickToolBarDone();
+		booking.ClickReviseLookSaveButton();
+		driver.resetApp();
+	}
+	@Test(priority = 15,groups={"sanity-group"})
+	public void VerifyCreateLookrevise1() throws IOException 
+	{
+		BaseTest.capabileties();
+		LoginPage login = new LoginPage(driver);
+		login.Clickloginbutton1();
+		login.Fillusername("client106@wishi.com");
+		login.Fillpassword("123456");
+		login.ClickLoginButton2();
+		login.Sleep(500);
+		LoginPage.DismissAlert();
+		login.Sleep(500);
+		//login.SelectImage3(250,450);
+		ChatPage chat = new ChatPage(driver);
+		chat.ClickcChatTab();
+		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'revise2')]"));
+		chat.SelectStylist("//*[@name='stylist booking']");
+		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
 		booking.scrollDownXpath();
 		booking.ClickLoveOutfit();
 		driver.resetApp();
-		BaseTest.capabileties2();	
+		//BaseTest.capabileties2();	
 
 	}
-	@Test(priority = 14,groups={"sanity-group"})
+	@Test(priority = 16,groups={"sanity-group"})
 	public void CreateMoodBoard3() throws IOException 
 	{
+		BaseTest.capabileties2();	
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
 		booking.ClickLoginStart();
@@ -361,7 +420,7 @@ public class ReviseThirdLookTest extends BaseTest
 		booking.ClickSendMoodBoard();
 		driver.resetApp();
 	}
-	@Test(priority = 15,groups={"sanity-group"})
+	@Test(priority = 17,groups={"sanity-group"})
 	public void VerifyMoodBoard3() throws IOException 
 	{
 		BaseTest.capabileties();
@@ -384,7 +443,7 @@ public class ReviseThirdLookTest extends BaseTest
 		booking.ClickLoveItem();
 		driver.resetApp();
 	}
-	@Test(priority = 16,groups={"sanity-group"})
+	@Test(priority = 18,groups={"sanity-group"})
 	public void CreateLook3() throws IOException 
 	{
 		BaseTest.capabileties2();	
@@ -399,7 +458,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
-		driver.findElement(By.id("Got It")).click();
+		//driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -417,7 +476,7 @@ public class ReviseThirdLookTest extends BaseTest
 		booking.ClickLookSaveButton();
 		driver.resetApp();
 	}
-	@Test(priority = 17,groups={"sanity-group"})
+	@Test(priority = 19,groups={"sanity-group"})
 	public void VerifyCreateLook3() throws IOException 
 	{
 		BaseTest.capabileties();
@@ -442,7 +501,7 @@ public class ReviseThirdLookTest extends BaseTest
 		driver.resetApp();	
 
 	}
-	@Test(priority = 18,groups={"sanity-group"})
+	@Test(priority = 20,groups={"sanity-group"})
 	public void ReviseLook() throws IOException 
 	{
 		BaseTest.capabileties2();	
@@ -481,7 +540,7 @@ public class ReviseThirdLookTest extends BaseTest
 		booking.ClickReviseLookSaveButton();
 		driver.resetApp();
 	}
-	@Test(priority = 19,groups={"sanity-group"})
+	@Test(priority = 21,groups={"sanity-group"})
 	public void VerifyCreateRevise1() throws IOException 
 	{
 		BaseTest.capabileties();
@@ -506,7 +565,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties2();	
 
 	}
-	@Test(priority = 20,groups={"sanity-group"})
+	@Test(priority = 22,groups={"sanity-group"})
 	public void ReviseLook2() throws IOException 
 	{
 		BaseTest.capabileties2();	
@@ -546,7 +605,7 @@ public class ReviseThirdLookTest extends BaseTest
 		booking.ClickReviseLookSaveButton();
 		driver.resetApp();
 	}
-	@Test(priority = 21,groups={"sanity-group"})
+	@Test(priority = 23,groups={"sanity-group"})
 	public void VerifyCreateRevise2() throws IOException 
 	{
 		BaseTest.capabileties();
@@ -571,7 +630,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties2();	
 
 	}
-	@Test(priority = 22,groups={"sanity-group"})
+	@Test(priority = 24,groups={"sanity-group"})
 	public void EndSession() throws IOException 
 	{
 		BaseTest.capabileties2();	
@@ -589,7 +648,7 @@ public class ReviseThirdLookTest extends BaseTest
 		booking.ClickSendEndSession();
 		driver.resetApp();
 	}
-	@Test(priority = 23,groups={"sanity-group"})
+	@Test(priority = 25,groups={"sanity-group"})
 	public void ClientEndSession() throws IOException 
 	{
 		BaseTest.capabileties();
@@ -613,7 +672,7 @@ public class ReviseThirdLookTest extends BaseTest
 		booking.ClickSubmit();
 		driver.resetApp();
 	}
-	@Test(priority = 24,groups={"sanity-group"})
+	@Test(priority = 26,groups={"sanity-group"})
 	public void VerifyEndSession() throws IOException 
 	{
 

@@ -1,69 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="QuizForMaleTest(failed)">
+  <test thread-count="5" name="SignUpByFacbookTest2(failed)">
     <classes>
-      <class name="Tests.QuizForMaleTest">
-        <methods>
-          <include name="SelectFitBottom"/>
-          <include name="SelectColor"/>
-          <include name="SelectEvents"/>
-          <include name="SelectHeight"/>
-          <include name="SelectSession"/>
-          <include name="setup"/>
-          <include name="SelectYourCloset"/>
-          <include name="SelectBodyType"/>
-          <include name="SearchStylist"/>
-          <include name="SelectFitTop"/>
-          <include name="SelectJewelry"/>
-          <include name="SelectSize"/>
-          <include name="SelectFabrics"/>
-          <include name="SelectZone"/>
-          <include name="SelectCountry"/>
-        </methods>
-      </class> <!-- Tests.QuizForMaleTest -->
-    </classes>
-  </test> <!-- QuizForMaleTest(failed) -->
-  <test thread-count="5" name="QuizForWomenTest(failed)">
-    <classes>
-      <class name="Tests.QuizForWomenTest">
-        <methods>
-          <include name="SelectYourCloset"/>
-          <include name="SelectJeansp"/>
-          <include name="setup"/>
-          <include name="SelectBodyType"/>
-          <include name="SelectColor"/>
-          <include name="SelectSession"/>
-          <include name="SearchStylist"/>
-          <include name="SelectHeight"/>
-          <include name="SelectEvents"/>
-          <include name="SelectFitBottom"/>
-          <include name="SelectHighlights"/>
-          <include name="SelectZone"/>
-          <include name="SelectCountry"/>
-          <include name="SelectJewelry"/>
-          <include name="SelectClothingCategories"/>
-          <include name="SelectFabrics"/>
-          <include name="SelectClothingPreferences"/>
-          <include name="SelectSize"/>
-          <include name="SelectHeels"/>
-          <include name="SelectFitTop"/>
-        </methods>
-      </class> <!-- Tests.QuizForWomenTest -->
-    </classes>
-  </test> <!-- QuizForWomenTest(failed) -->
-  <test thread-count="5" name="SignUpByFacbookTest(failed)">
-    <classes>
-      <class name="Tests.SignUpByFacbookTest">
+      <class name="Tests.SignUpByFacbookTest2">
         <methods>
           <include name="DoLoginWithFacbook"/>
-          <include name="LoginWithFacbookWithoutPassword"/>
-          <include name="LoginWithFacbookWrongPassword"/>
-          <include name="LoginWithFacbookWithoutUser"/>
-          <include name="LoginWithFacbookWrongUserName"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- Tests.SignUpByFacbookTest -->
+      </class> <!-- Tests.SignUpByFacbookTest2 -->
     </classes>
-  </test> <!-- SignUpByFacbookTest(failed) -->
+  </test> <!-- SignUpByFacbookTest2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

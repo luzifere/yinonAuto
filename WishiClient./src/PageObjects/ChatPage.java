@@ -46,12 +46,55 @@ public class ChatPage extends BasePage {
 	WebElement SendButtonClient;
 	@FindBy(xpath="//*[@name='closeButtonID']")
 	WebElement CloseButton;
+	@FindBy(xpath="//*[@name='Send Message']")
+	WebElement SendContact;
+	@FindBy(xpath="//*[@name='ContactIconID']")
+	WebElement ContactIcon;
+	@FindBy(xpath="//*[@name='ContactMessageID']")
+	WebElement ContactMessage;
+	@FindBy(xpath="//*[@name='ContactButtonID']")
+	WebElement ContactButton;
 
 	public void ClickChatButton() 
 	{		
 		Sleep(250);
 		click(ChatButton);
 		Sleep(250);
+	}
+	
+	public void OpenChat(String stylist)
+	{
+		Sleep(250);
+		String StylistElemet = ("//*[@name='test1']");
+		StylistElemet = StylistElemet.replace("test1", stylist);
+		WebElement StylistButton = driver.findElement(By.xpath(StylistElemet));
+		Sleep(250);
+		System.out.println(StylistButton);
+		click(StylistButton);
+	}
+	public void ClickContactButton() 
+	{		
+		Sleep(250);
+		click(ContactButton);
+		Sleep(250);
+	}
+	public void FillContactMessage(String text) 
+	{		
+		Sleep(250);
+		filltext(ContactMessage,text);
+		Sleep(250);
+	}
+	public void ClickContactIcon() 
+	{		
+		Sleep(250);
+		click(ContactIcon);
+		Sleep(250);
+	}
+	public void ClickSendContact() 
+	{		
+		Sleep(250);
+		click(SendContact);
+		WaitElementDisplay(By.id("WriteMessageID"));
 	}
 	public void ClickCloseButton() 
 	{		

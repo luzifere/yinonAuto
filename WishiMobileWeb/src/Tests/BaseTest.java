@@ -23,13 +23,14 @@ public class BaseTest
 		DesiredCapabilities cap = new DesiredCapabilities();
 		if (device.equals("emulator"))
 		{
-			cap.setCapability(MobileCapabilityType.DEVICE_NAME, "demo");    
+			
+			cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus1");    
 		}
 		else if(device.equals("real"))
 		{
 			cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android device");
 		}
-
+		cap.setCapability(MobileCapabilityType.NO_RESET,true);
 		cap.setCapability(MobileCapabilityType.BROWSER_NAME,"Chrome");
 		driver = new AndroidDriver<>(new URL ("http://127.0.0.1:4723/wd/hub") ,cap);
 		return driver;

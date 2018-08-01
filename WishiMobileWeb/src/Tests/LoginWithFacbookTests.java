@@ -1,10 +1,15 @@
 package Tests;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObejecs.LoginPages2;
 
+
+
+
+@Listeners(Tests.Listener.class)
 public class LoginWithFacbookTests extends BaseTest
 {
 	//@Test(priority = 2,groups={"sanity-group"})

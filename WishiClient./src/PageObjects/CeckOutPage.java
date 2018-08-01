@@ -162,7 +162,14 @@ public class CeckOutPage extends BasePage
 		Sleep(200);
 		click(SelectSingleButton);
 		Sleep(200);
-	}public void ClickSelectStylist() 
+	}
+	public void ClickSelectStylistButton() 
+	{		
+		Sleep(200);
+		click(SelectStylistButton);
+		Sleep(200);
+	}
+	public void ClickSelectStylist() 
 	{	
 
 		click(SelectStylistButton);

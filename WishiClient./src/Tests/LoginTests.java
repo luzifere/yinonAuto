@@ -2,10 +2,12 @@ package Tests;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObjects.LoginPage;
 
+@Listeners(Tests.Listener.class)
 
 public class LoginTests extends BaseTest
 {

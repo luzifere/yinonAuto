@@ -61,6 +61,23 @@ public class BasePage
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy(0,-250)", "");
 	}
+	public void WaitElementDisplay (By by) 
+	{		
+		WebElement myDynamicElement = (new WebDriverWait(driver, 60))
+		.until(ExpectedConditions.presenceOfElementLocated(by));
+		//return myDynamicElement.isDisplayed();
+	}
+	public void WaitElementNotDisplay(By by) 
+	{		
+		Boolean myDynamicElement = (new WebDriverWait(driver, 80))
+				.until(ExpectedConditions.not(ExpectedConditions.presenceOfElementLocated(by)));
+	}
+	public void WaitElementClickable(By by) 
+	{		
+		WebElement myDynamicElement = (new WebDriverWait(driver, 80))
+		.until(ExpectedConditions.elementToBeClickable(by));
+		myDynamicElement.click();
+	}
 
 	public void click (WebElement el) 
 	{

@@ -5,9 +5,14 @@ import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObjects.SignUpPage;
+
+
+
+@Listeners(Tests.Listener.class)
 
 public class BestMutch extends BaseTest 
 {
@@ -28,7 +33,8 @@ public class BestMutch extends BaseTest
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
 		best.ClickFamle();
-		best.fillBirthday("12121985");
+		best.fillBirthday("45");
+		best.ClickNextbutton();
 		best.SelectCheapButtonID();
 		sign.Sleep(150);
 		best.SelectCheapButtonID();
@@ -67,7 +73,8 @@ public class BestMutch extends BaseTest
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
 		best.ClickFamle();
-		best.fillBirthday("12121985");
+		best.fillBirthday("45");
+		best.ClickNextbutton();
 		best.SelectCheapButtonID();
 		sign.Sleep(150);
 		best.SelectExpensiveButtonID();
@@ -106,7 +113,8 @@ public class BestMutch extends BaseTest
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
 		best.ClickFamle();
-		best.fillBirthday("12121985");
+		best.fillBirthday("45");
+		best.ClickNextbutton();
 		best.SelectNormal();
 		sign.Sleep(150);
 		best.SelectNormal();
@@ -145,7 +153,8 @@ public class BestMutch extends BaseTest
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
 		best.ClickFamle();
-		best.fillBirthday("12121985");
+		best.fillBirthday("45");
+		best.ClickNextbutton();
 		best.SelectCheapButtonID();
 		sign.Sleep(150);
 		best.SelectExpensiveButtonID();
@@ -184,7 +193,8 @@ public class BestMutch extends BaseTest
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
 		best.ClickMale();
-		best.fillBirthday("12121985");
+		best.fillBirthday("45");
+		best.ClickNextbutton();
 		best.SelectExpensiveButtonID();
 		sign.Sleep(150);
 		best.SelectExpensiveButtonID();
@@ -219,7 +229,8 @@ public class BestMutch extends BaseTest
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
 		best.ClickMale();
-		best.fillBirthday("12121985");
+		best.fillBirthday("45");
+		best.ClickNextbutton();
 		best.SelectNormal();
 		sign.Sleep(150);
 		best.SelectNormal();
@@ -254,7 +265,8 @@ public class BestMutch extends BaseTest
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
 		best.ClickMale();
-		best.fillBirthday("12121985");
+		best.fillBirthday("45");
+		best.ClickNextbutton();
 		best.SelectCheapButtonID();
 		sign.Sleep(150);
 		best.SelectCheapButtonID();
@@ -289,7 +301,8 @@ public class BestMutch extends BaseTest
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
 		best.ClickSelfIdentityButtonID();
-		best.fillBirthday("12121985");
+		best.fillBirthday("45");
+		best.ClickNextbutton();
 		sign.Sleep(150);
 		best.Selectinspiration();
 		sign.Sleep(200);

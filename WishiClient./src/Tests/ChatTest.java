@@ -5,12 +5,16 @@ import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObjects.BasePage;
 import PageObjects.ChatPage;
 import PageObjects.LoginPage;
 import PageObjects.SettingPage;
+
+
+@Listeners(Tests.Listener.class)
 
 public class ChatTest extends BaseTest
 {

@@ -79,6 +79,10 @@ public class SearchPage extends BasePage
 		
 		//click(SelectStylistButton);
 	}
+	public void SelectStylistName(String event) 
+	{		
+		click(StylistName);
+	}
 	public void SelectviewProfileID() 
 	{		
 		//Sleep(150);

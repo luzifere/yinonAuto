@@ -4,12 +4,17 @@ import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObjects.BestMutch;
 import PageObjects.LoginPage;
 import PageObjects.SettingPage;
 import PageObjects.SignUpPage;
+
+
+
+@Listeners(Tests.Listener.class)
 
 public class EditStyleForMenTests extends BaseTest
 {
@@ -30,7 +35,8 @@ public class EditStyleForMenTests extends BaseTest
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
 		best.ClickMale();
-		best.fillBirthday("12121985");
+		best.fillBirthday("45");
+		best.ClickNextbutton();
 		best.SelectNormal();
 		sign.Sleep(150);
 		best.SelectNormal();

@@ -11,6 +11,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import PageObject.BasePage;
+import PageObject.BestMatchPage;
 import PageObject.BookingPage;
 import PageObject.LoginPage;
 import PageObject.OnBoardingPage;
@@ -26,30 +27,30 @@ public class QwizTests extends BaseTest
 	{
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
-		int number = 356;
-		for (int counter = 1000; counter<=100000;counter++)
-			number = num.nextInt(2500);
+		int number = 35600;
+		for (int counter = 58000; counter<=100000;counter++)
+			number = num.nextInt(7000);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitestttt@wishi.com" + number, "inon", "av", "ab1565");
-		SignUpPage.ExplicityWaitIsClickable(By.xpath("//div//button[@type='submit']"));
-		OnBoardingPage2 ob = new OnBoardingPage2(driver);
-		ob.SelectGender("Female");
-		ob.selectMounts(3);
-		ob.selectDays(16);
-		ob.selectYears(9);
-		ob.FillCountry("israel");
-		ob.FillCity("tel aviv");
-		ob.ClickNext();
-		Assert.assertTrue(ob.ElementDisplay("//div[text()[contains(.,'BRANDS')]]"));
-		ob.ClickBacktOfStyle();
-		ob.ClickNext();
-		ob.SelectBrands1("1");
-		ob.ClickNext();
-		ob.SelectInspiration("4");
-		ob.ClickNext();
-		Assert.assertTrue(ob.ElementDisplay("//div[@class='match-image']"));
-		ob.ClickMoreStylists();
-		ob.Sleep(300);
+		signup.doSignUp("wishitestr@wishi.com" + number, "inon", "av", "ab1565");
+		signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
+		BestMatchPage best = new BestMatchPage(driver);
+		best.ClickontinueButton();
+		best.ClickFamle();
+		best.selectMounts(3);
+		best.selectDays(16);
+		best.selectYears(9);
+		best.ClickNextbutton();
+		best.SelectNormal();
+		best.SelectNormal2();
+		best.WaitElementDisplay(By.xpath("//a[text()[contains(.,'Petite')]]"));
+		best.SelectTags("Petite");
+		best.ClickNextbutton();
+		best.SelectInspiration("2");
+		best.ClickNextbutton();
+		best.Selectbrands("2");
+		best.ClickNextbutton();
+		best.WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'VIEW MORE STYLISTS')]]"));
+		best.ClickMoreStylistsButton();
 	}
 	@Test(priority = 2,groups={"sanity-group"})
 	public void CheckOutSession ()
@@ -160,6 +161,8 @@ public class QwizTests extends BaseTest
 		qwiz.scrollDown();
 		qwiz.ClickMinus("2");
 		qwiz.ClickPlus("3");
+		WebElement element = driver.findElement(By.xpath("(//div[@class='increase-size'])[4]"));
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 		qwiz.ClickMinus("4");
 		qwiz.ClickNext();
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'COMFORT ZONE')]]"));

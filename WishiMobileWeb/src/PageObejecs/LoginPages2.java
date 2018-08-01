@@ -18,7 +18,7 @@ public class LoginPages2 extends BasePage
 	@FindBy(xpath="//div[text()[contains(.,'Email is required.')]]")
 	WebElement Emailisrequired;
 	
-	@FindBy(xpath="//div//p[text()[contains(.,'Log In')]]")
+	@FindBy(xpath="//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']")
 	WebElement btnLogin;
 
 	@FindBy(xpath="//div//input[@id='signInEmail']")
@@ -30,7 +30,7 @@ public class LoginPages2 extends BasePage
 	@FindBy(xpath="//div//input[@value='Log in']")
 	WebElement LoginButtonOfModel; 
 			
-	@FindBy(xpath="//div//input[@value='äúçáø']")
+	@FindBy(xpath="//div//input[@value='ï¿½ï¿½ï¿½ï¿½ï¿½']")
 	WebElement ButtonOfLogin;
 	
 	@FindBy(xpath="//div[@class='closeXLeft ng-scope']")
