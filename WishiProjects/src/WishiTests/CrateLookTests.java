@@ -35,7 +35,7 @@ public class CrateLookTests extends BaseTest
 		booking.WaitElementDisplay(By.xpath("//div[@class='page-title']"));
 		booking.Sleep(200);
 		booking.ClickBookingstylist();
-		booking.SearchStylist("Stylist Booking");
+		booking.SearchStylist("YAstylist Booking");
 		booking.SelectStylist();
 		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Per Session')]]"));
 		booking.BookStylist();
@@ -82,7 +82,9 @@ public class CrateLookTests extends BaseTest
 		driver.findElement(By.xpath("//textarea[@id='TextArea']")).sendKeys("test");
 		//look.FillDescription("test");
 		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//button[@class='save ng-binding']"));
+		look.WaitElementDisplay(By.xpath("//button[@class='save ng-binding']"));
 		Assert.assertTrue(look.ElementDisplay("//button[@class='input_btn']"));
+		look.Sleep(250);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickOnProfileClientButton();
 		chat.ClickOnLogOut();
@@ -134,6 +136,7 @@ public class CrateLookTests extends BaseTest
 		//look.FillDescription("test");
 		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//button[@class='save ng-binding']"));
 		Assert.assertTrue(look.ElementDisplay("//button[@class='input_btn']"));
+		look.Sleep(250);
 		ChatPage chat = new ChatPage(driver);
 		chat.Sleep(200);
 		chat.ClickOnProfileClientButton();
@@ -187,6 +190,7 @@ public class CrateLookTests extends BaseTest
 		//look.FillDescription("test");
 		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//button[@class='save ng-binding']"));
 		Assert.assertTrue(look.ElementDisplay("//button[@class='input_btn']"));
+		look.Sleep(250);
 		ChatPage chat = new ChatPage(driver);
 		chat.Sleep(200);
 		chat.ClickOnProfileClientButton();
@@ -239,6 +243,7 @@ public class CrateLookTests extends BaseTest
 		//look.FillDescription("test");
 		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//button[@class='save ng-binding']"));
 		Assert.assertTrue(look.ElementDisplay("//button[@class='input_btn']"));
+		look.Sleep(250);
 		ChatPage chat = new ChatPage(driver);
 		look.Sleep(200);
 		chat.ClickOnProfileClientButton();
@@ -291,6 +296,7 @@ public class CrateLookTests extends BaseTest
 		//look.FillDescription("test");
 		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//button[@class='save ng-binding']"));
 		Assert.assertTrue(look.ElementDisplay("//button[@class='input_btn']"));
+		look.Sleep(250);
 		ChatPage chat = new ChatPage(driver);
 		chat.Sleep(200);
 		chat.ClickOnProfileClientButton();
@@ -341,6 +347,7 @@ public class CrateLookTests extends BaseTest
 		//look.FillDescription("test");
 		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//button[@class='save ng-binding']"));
 		Assert.assertTrue(look.ElementDisplay("//button[@class='input_btn']"));
+		look.Sleep(250);
 		ChatPage chat = new ChatPage(driver);
 		look.Sleep(200);
 		chat.ClickOnProfileClientButton();
@@ -393,6 +400,7 @@ public class CrateLookTests extends BaseTest
 		//look.FillDescription("test");
 		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//button[@class='save ng-binding']"));
 		Assert.assertTrue(look.ElementDisplay("//button[@class='input_btn']"));
+		look.Sleep(250);
 		ChatPage chat = new ChatPage(driver);
 		chat.Sleep(200);
 		chat.ClickOnProfileClientButton();
@@ -427,7 +435,7 @@ public class CrateLookTests extends BaseTest
 		booking.Sleep(200);
 		booking.ClickMyBooking();
 		CrateLookPage look = new CrateLookPage(driver);
-		booking.WaitElementDisplay(By.xpath("(//button[@class='create-look-btn ng-scope cta-btn big'])[1]"));
+		booking.WaitElementDisplay(By.xpath("(//button[text()[contains(.,'End Session')]])[1]"));
 		look.ClickEndSeesionButton();
 		look.WaitElementDisplay(By.xpath("//button[text()[contains(.,'Send')]]"));
 		look.ClickSendEndSeesionButton();
@@ -468,6 +476,7 @@ public class CrateLookTests extends BaseTest
 		booking.Sleep(200);
 		booking.ClickMyBooking();
 		Assert.assertTrue(booking.ElementDisplay("(//p[text()[contains(.,'Session Ended, payment sent')]])[1]"));
+		driver.quit();
 	}
 	//@Test(priority = 88,groups={"sanity-group"})
 	public void PersonalShopping ()

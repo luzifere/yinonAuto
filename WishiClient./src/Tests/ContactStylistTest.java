@@ -31,7 +31,7 @@ public class ContactStylistTest extends BaseTest
 		textforchat = "test"+number;
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("2362wishitestftt@wishi.com");
+		login.Fillusername("3448wishitesttt@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(100);
@@ -41,8 +41,8 @@ public class ContactStylistTest extends BaseTest
 		login.Sleep(200);
 		SearchPage search = new SearchPage(driver);
 		search.ClickSearch();
-		search.FillStylist("stylistt");
-		search.SelectStylist("//*[@name='stylistt booking']");
+		search.FillStylist("CRstylist");
+		search.SelectStylist("//*[@name='CRstylist booking']");
 		//driver.findElement(By.xpath("//*[@name='Meet Inon']")).click();
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickContactIcon();
@@ -73,7 +73,7 @@ public class ContactStylistTest extends BaseTest
 		textforchat = "test"+number;
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("2362wishitestftt@wishi.com");
+		login.Fillusername("3448wishitesttt@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(100);
@@ -83,8 +83,8 @@ public class ContactStylistTest extends BaseTest
 		login.Sleep(200);
 		SearchPage search = new SearchPage(driver);
 		search.ClickSearch();
-		search.FillStylist("stylistt");
-		search.SelectStylist("//*[@name='stylistt booking']");
+		search.FillStylist("CRstylist");
+		search.SelectStylist("//*[@name='CRstylist booking']");
 		CeckOutPage co = new CeckOutPage(driver);
 		//driver.findElement(By.xpath("//*[@name='Meet Inon']")).click();
 		ChatPage chat = new ChatPage(driver);

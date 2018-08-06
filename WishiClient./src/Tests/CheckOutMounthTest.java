@@ -1,5 +1,6 @@
 package Tests;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -97,7 +98,8 @@ public class CheckOutMounthTest extends BaseTest
 		quiz.ClickNextw();
 		quiz.Sleep(200);
 		CeckOutPage.DismissAlert();
-		//Assert.assertTrue(quiz.ElementDisplay("//*[@name='Subscription with Oren Oren']"));
+		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with Oren Oren']"));
+		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
 
 	}
 }

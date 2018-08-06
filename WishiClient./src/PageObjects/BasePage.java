@@ -411,6 +411,24 @@ public class BasePage
 
 		}
 	}
+	public void ScrollTooElement(WebElement element) {
+
+
+		while (true) 
+		{
+			if(!element.isDisplayed())
+			{
+				scrollDownXpath();
+
+			}
+			else 
+			{
+				element.click();
+				break;
+			}			
+
+		}
+	}
 }
 
 

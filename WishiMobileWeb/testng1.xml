@@ -24,11 +24,41 @@
       <class name="Tests.SignUpByFacbookTestsSucses"/>
     </classes>
   </test> <!-- Test -->
- <test name="BestMatchTests">
+ <test name="BestExpensiveMaleMatchTests">
     <classes>
-      <class name="Tests.BestMatchTests"/>
+      <class name="Tests.BestExpensiveMaleMatchTests"/>
     </classes>
-  </test> <!-- Test -->
+    </test> <!-- Test -->
+     <test name="BestMatchExpensiveFeamleTests">
+    <classes>
+      <class name="Tests.BestMatchExpensiveFeamleTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchLowFeamleTests">
+    <classes>
+      <class name="Tests.BestMatchLowFeamleTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchLowMaleTests">
+    <classes>
+      <class name="Tests.BestMatchLowMaleTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchNaturalTests">
+    <classes>
+      <class name="Tests.BestMatchNaturalTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchNormalFeamleTests">
+    <classes>
+      <class name="Tests.BestMatchNormalFeamleTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchNormalMaleTests">
+    <classes>
+      <class name="Tests.BestMatchNormalMaleTests"/>
+    </classes>
+    </test> <!-- Test -->
    <test name="ChatTests">
     <classes>
       <class name="Tests.ChatTests"/>

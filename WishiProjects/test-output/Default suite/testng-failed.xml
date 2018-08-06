@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WishiTests.ChatTests">
+      <class name="WishiTests.BestMatchNaturalTests">
         <methods>
-          <include name="SendChatToStylist"/>
           <include name="tearDown"/>
-          <include name="SendChatToclient"/>
+          <include name="BMNatural"/>
           <include name="setup"/>
-          <include name="LoginAsStylist"/>
         </methods>
-      </class> <!-- WishiTests.ChatTests -->
+      </class> <!-- WishiTests.BestMatchNaturalTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

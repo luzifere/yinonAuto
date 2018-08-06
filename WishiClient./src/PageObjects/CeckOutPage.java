@@ -177,6 +177,14 @@ public class CeckOutPage extends BasePage
 		driver.findElement(By.xpath("(//*[@name='purcaseButtonID'])[1]")).click();
 		Sleep(200);
 	}
+	public void ClickSelectStylistPS() 
+	{	
+
+		click(SelectStylistButton);
+		Sleep(200);
+		driver.findElement(By.xpath("(//*[@name='purcaseButtonID'])[2]")).click();
+		Sleep(200);
+	}
 
 	public void ClickpurcaseButton() 
 	{		

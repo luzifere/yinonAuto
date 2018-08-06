@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.ChatTests">
+      <class name="Tests.BookingTests">
         <methods>
+          <include name="CheckOutSession"/>
           <include name="setup"/>
-          <include name="LoginAsStylist"/>
-          <include name="SendChatToStylist"/>
-          <include name="SendChatToclient"/>
+          <include name="CheckoutUnlimitedCreditCard"/>
+          <include name="DoSignUp"/>
         </methods>
-      </class> <!-- Tests.ChatTests -->
+      </class> <!-- Tests.BookingTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

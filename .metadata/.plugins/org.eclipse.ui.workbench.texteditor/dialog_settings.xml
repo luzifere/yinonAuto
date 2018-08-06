@@ -2,29 +2,37 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="driver.findElement(By.id(&quot;Got It&quot;)).click();" key="selection"/>
+		<item value="//a[@class=&apos;vis&apos;]" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="//a[@class=&apos;vis&apos;]"/>
+			<item value="ClickReviseLookClient"/>
+			<item value="LMstylist book"/>
+			<item value="stylist.book@wishitest.com"/>
+			<item value="stylist"/>
+			<item value="stylistt"/>
+			<item value="end"/>
+			<item value="event"/>
+			<item value="Stylist Booking"/>
+			<item value="stylist.booking@wishi.com"/>
+			<item value="stylist booking"/>
+			<item value="ClickSelectStylist"/>
 			<item value="driver.findElement(By.id(&quot;Got It&quot;)).click();"/>
 			<item value="start"/>
 			<item value="select"/>
-			<item value="fillBirthday"/>
-			<item value="login"/>
-			<item value="shop"/>
-			<item value="end"/>
-			<item value="best.ClickNextbutton();"/>
-			<item value="//div//p[text()[contains(.,&apos;Log In&apos;)]]"/>
-			<item value="clea+4@wishitest.me"/>
-			<item value="switch"/>
-			<item value="name"/>
-			<item value="filter"/>
-			<item value="sub"/>
-			<item value="(//div[@class=&apos;entry-sub ng-binding&apos;])[1]"/>
 		</list>
 		<list key="replacehistory">
+			<item value="leo stylist"/>
+			<item value="LEOstylist@wishitest.com"/>
+			<item value="LMstylist"/>
+			<item value="CRstylist"/>
+			<item value="stylistt"/>
+			<item value="stylist book"/>
+			<item value="Stylist Book"/>
+			<item value="stylist.book@wishitest.com"/>
 			<item value="//driver.findElement(By.id(&quot;Got It&quot;)).click();"/>
 			<item value="best.ClickTagsNextButton();"/>
 			<item value="//div[@class=&apos;logged-in-header-container ng-scope&apos;]//div[@class=&apos;log-in&apos;]"/>
@@ -32,21 +40,13 @@
 			<item value="wishitesttt"/>
 			<item value="clientchat@wishi.com&#x09;"/>
 			<item value="iPhone 8"/>
-			<item value="driver.findElement(By.id(&quot;Got It&quot;)).click();"/>
-			<item value="1200"/>
-			<item value="850"/>
-			<item value="300"/>
-			<item value="500"/>
-			<item value="170"/>
-			<item value="250"/>
-			<item value="650"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="290" key="DIALOG_WIDTH"/>
 		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
 		<item value="409" key="DIALOG_HEIGHT"/>
-		<item value="813" key="DIALOG_X_ORIGIN"/>
-		<item value="500" key="DIALOG_Y_ORIGIN"/>
+		<item value="899" key="DIALOG_X_ORIGIN"/>
+		<item value="287" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

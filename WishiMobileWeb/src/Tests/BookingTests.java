@@ -28,9 +28,12 @@ public class BookingTests extends BaseTest
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickMale();
+		best.FillAge("45");
+		/*
 		best.selectMounts(3);
 		best.selectDays(16);
 		best.selectYears(9);
+		*/
 		best.ClickNextbutton();
 		best.SelectNormal();
 		best.SelectNormal2();
@@ -68,7 +71,7 @@ public class BookingTests extends BaseTest
 	}
 
 	@Test(priority = 3,groups={"sanity-group"})
-	public void CheckoutUnlimited ()
+	public void CheckoutUnlimitedCreditCard ()
 	{
 		PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);
 		booking.FilterIcon();
@@ -78,15 +81,21 @@ public class BookingTests extends BaseTest
 		booking.SearchStylist("Casey Huth");
 		booking.SelectStylist();
 		booking.BookStylist();
-		booking.UseCodCoopon("wishitest");
-		booking.ClickFinishCheckout();
+		booking.ClickName();
 		booking.Sleep(250);
+		booking.SwitchToFrame(1);
+		booking.Sleep(200);
+		booking.FillCardNumber("4242424242424242");
+		booking.FillCardDate("0225");
+		booking.FillCardCVC("424");
+		booking.Sleep(50);
+		booking.switchWindow();
 		PageObejecs.BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn-mob']"));
 		booking.ClickBookingstylist();			
 
 	}
 
-	@Test(priority = 4,groups={"sanity-group"})
+	//@Test(priority = 4,groups={"sanity-group"})
 	public void CheckoutByCreditCard ()
 	{
 		PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);

@@ -27,9 +27,12 @@ public class qwizTests extends BaseTest
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();
+		best.FillAge("45");
+		/*
 		best.selectMounts(3);
 		best.selectDays(16);
 		best.selectYears(9);
+		*/
 		best.ClickNextbutton();
 		best.SelectNormal();
 		best.SelectNormal2();

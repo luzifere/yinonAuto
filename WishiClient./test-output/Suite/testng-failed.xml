@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="SignUpByFacbookTest2(failed)">
+  <test thread-count="5" name="QuizForMaleTest(failed)">
     <classes>
-      <class name="Tests.SignUpByFacbookTest2">
+      <class name="Tests.QuizForMaleTest">
         <methods>
-          <include name="DoLoginWithFacbook"/>
+          <include name="SelectFitBottom"/>
+          <include name="SelectColor"/>
+          <include name="SelectHeight"/>
+          <include name="SelectSession"/>
           <include name="setup"/>
+          <include name="SelectYourCloset"/>
+          <include name="SelectBodyType"/>
+          <include name="SelectFitTop"/>
+          <include name="SelectJewelry"/>
+          <include name="SelectSize"/>
+          <include name="SelectFabrics"/>
+          <include name="SelectZone"/>
+          <include name="SelectClothingCategories"/>
+          <include name="SelectCountry"/>
         </methods>
-      </class> <!-- Tests.SignUpByFacbookTest2 -->
+      </class> <!-- Tests.QuizForMaleTest -->
     </classes>
-  </test> <!-- SignUpByFacbookTest2(failed) -->
+  </test> <!-- QuizForMaleTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

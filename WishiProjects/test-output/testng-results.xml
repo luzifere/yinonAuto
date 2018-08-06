@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Test Default test]]>
@@ -11,16 +11,46 @@
       <![CDATA[Completed executing following method : BaseTest.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : SignUpByFacbook.SignUpWithFacbook]]>
+      <![CDATA[About to begin executing following method : QwizSkipedTests.DoSignUp]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : SignUpByFacbook.SignUpWithFacbook]]>
+      <![CDATA[Completed executing following method : QwizSkipedTests.DoSignUp]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite SignUpWithFacbook]]>
+      <![CDATA[About to Success executing Suite DoSignUp]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.SignUpByFacbook]]>
+      <![CDATA[Test Method resides in WishiTests.QwizSkipedTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizSkipedTests.CheckOutSessionskip]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizSkipedTests.CheckOutSessionskip]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite CheckOutSessionskip]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizSkipedTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizSkipedTests.ClickSkip]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizSkipedTests.ClickSkip]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite ClickSkip]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizSkipedTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
@@ -32,48 +62,88 @@
       <![CDATA[Completed executing following method : BaseTest.tearDown]]>
     </line>
   </reporter-output>
-  <suite started-at="2018-07-26T23:25:52Z" name="Default suite" finished-at="2018-07-26T23:26:16Z" duration-ms="23872">
+  <suite started-at="2018-08-06T17:36:52Z" name="Default suite" finished-at="2018-08-06T17:38:43Z" duration-ms="111528">
     <groups>
       <group name="sanity-group">
-        <method signature="SignUpByFacbook.SignUpWithFacbook()[pri:5, instance:WishiTests.SignUpByFacbook@21b2e768]" name="SignUpWithFacbook" class="WishiTests.SignUpByFacbook"/>
+        <method signature="QwizSkipedTests.CheckOutSessionskip()[pri:2, instance:WishiTests.QwizSkipedTests@623a8092]" name="CheckOutSessionskip" class="WishiTests.QwizSkipedTests"/>
+        <method signature="QwizSkipedTests.ClickSkip()[pri:3, instance:WishiTests.QwizSkipedTests@623a8092]" name="ClickSkip" class="WishiTests.QwizSkipedTests"/>
+        <method signature="QwizSkipedTests.DoSignUp()[pri:1, instance:WishiTests.QwizSkipedTests@623a8092]" name="DoSignUp" class="WishiTests.QwizSkipedTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test started-at="2018-07-26T23:25:52Z" name="Default test" finished-at="2018-07-26T23:26:16Z" duration-ms="23872">
-      <class name="WishiTests.SignUpByFacbook">
-        <test-method is-config="true" signature="setup()[pri:0, instance:WishiTests.SignUpByFacbook@21b2e768]" started-at="2018-07-26T23:25:52Z" name="setup" finished-at="2018-07-26T23:26:06Z" duration-ms="13142" status="PASS">
+    <test started-at="2018-08-06T17:36:52Z" name="Default test" finished-at="2018-08-06T17:38:43Z" duration-ms="111528">
+      <class name="WishiTests.QwizSkipedTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:WishiTests.QwizSkipedTests@623a8092]" started-at="2018-08-06T17:36:52Z" name="setup" finished-at="2018-08-06T17:37:05Z" duration-ms="13090" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SignUpWithFacbook()[pri:5, instance:WishiTests.SignUpByFacbook@21b2e768]" started-at="2018-07-26T23:26:06Z" name="SignUpWithFacbook" finished-at="2018-07-26T23:26:16Z" duration-ms="10712" status="PASS">
+        <test-method signature="DoSignUp()[pri:1, instance:WishiTests.QwizSkipedTests@623a8092]" started-at="2018-08-06T17:37:05Z" name="DoSignUp" finished-at="2018-08-06T17:38:08Z" duration-ms="62883" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : SignUpByFacbook.SignUpWithFacbook]]>
+              <![CDATA[About to begin executing following method : QwizSkipedTests.DoSignUp]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : SignUpByFacbook.SignUpWithFacbook]]>
+              <![CDATA[Completed executing following method : QwizSkipedTests.DoSignUp]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite SignUpWithFacbook]]>
+              <![CDATA[About to Success executing Suite DoSignUp]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.SignUpByFacbook]]>
+              <![CDATA[Test Method resides in WishiTests.QwizSkipedTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- SignUpWithFacbook -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:WishiTests.SignUpByFacbook@21b2e768]" started-at="2018-07-26T23:26:16Z" name="tearDown" finished-at="2018-07-26T23:26:16Z" duration-ms="1" status="PASS">
+        </test-method> <!-- DoSignUp -->
+        <test-method signature="CheckOutSessionskip()[pri:2, instance:WishiTests.QwizSkipedTests@623a8092]" started-at="2018-08-06T17:38:08Z" name="CheckOutSessionskip" finished-at="2018-08-06T17:38:27Z" duration-ms="18957" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizSkipedTests.CheckOutSessionskip]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizSkipedTests.CheckOutSessionskip]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite CheckOutSessionskip]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizSkipedTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckOutSessionskip -->
+        <test-method signature="ClickSkip()[pri:3, instance:WishiTests.QwizSkipedTests@623a8092]" started-at="2018-08-06T17:38:27Z" name="ClickSkip" finished-at="2018-08-06T17:38:43Z" duration-ms="16577" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizSkipedTests.ClickSkip]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizSkipedTests.ClickSkip]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite ClickSkip]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizSkipedTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ClickSkip -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WishiTests.QwizSkipedTests@623a8092]" started-at="2018-08-06T17:38:43Z" name="tearDown" finished-at="2018-08-06T17:38:43Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.tearDown]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.SignUpByFacbook -->
+      </class> <!-- WishiTests.QwizSkipedTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

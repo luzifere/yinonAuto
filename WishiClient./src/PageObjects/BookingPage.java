@@ -140,6 +140,20 @@ public class BookingPage extends BasePage {
 		Sleep(500);
 
 	}
+	public void ClickStyleLook() 
+	{
+		Sleep(170);
+		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Style']"));
+		//List<WebElement> elements= driver.findElements(By.id("Create Look"));
+		System.out.println(elements);
+		int count=elements.size();
+		Sleep(170);
+		String last =	elements.get(count-1).getText();
+		System.out.println(last);
+		elements.get(count-1).click();
+		Sleep(500);
+
+	}
 	public void ClickReviseLookStylist() 
 	{
 		Sleep(170);
@@ -259,6 +273,7 @@ public class BookingPage extends BasePage {
 		//WaitElementNotDisplay(By.xpath("//*[@name='Send Mood Board']"));
 		WaitElementDisplay(By.id("BackButton"));
 	}
+	
 	public void ClickSendReviseClient1() 
 	{		
 		Sleep(170);
@@ -270,6 +285,12 @@ public class BookingPage extends BasePage {
 		Sleep(170);
 		click(SendEndSession);
 		WaitElementDisplay(By.xpath("//*[@name='Waiting for your client to confirm ending the session']"));
+		}
+	public void ClickSendEndSessionStyle() 
+	{		
+		Sleep(170);
+		click(SendEndSession);
+		WaitElementDisplay(By.xpath("//*[@name='ChatButton']"));
 		}
 	public void ClickLookSaveButton()
 	{		

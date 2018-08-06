@@ -15,6 +15,8 @@ public class BestMatchPage extends BasePage
 	WebElement Mount;
 	@FindBy(xpath="//a[@class='vis']")
 	WebElement Back;
+	@FindBy(xpath="//input[@type='text']")
+	WebElement Age;
 	@FindBy(xpath="(//div[@class='fld-select'])[2]")
 	WebElement Day;
 	@FindBy(xpath="(//div[@class='fld-select'])[3]")
@@ -70,6 +72,7 @@ public class BestMatchPage extends BasePage
 
 	@FindBy(xpath="//div//a[text()[contains(.,'VIEW MORE STYLISTS')]]")
 	WebElement ViewMoreStylist;
+	
 
 
 
@@ -155,6 +158,12 @@ public class BestMatchPage extends BasePage
 		click(Back);
 		Sleep(250);
 	}
+	public void FillAge (String text) 
+	{
+		Sleep(250);
+		filltext(Age,text);
+		Sleep(250);
+	}
 	public void ClickMale() 
 	{
 		Sleep(250);
@@ -217,6 +226,7 @@ public class BestMatchPage extends BasePage
 		click(SkipButton);
 		Sleep(250);
 	}
+	
 
 
 }

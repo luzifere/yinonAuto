@@ -32,14 +32,17 @@ public class BookingStylistTests extends BaseTest
 		for (int counter = 58000; counter<=100000;counter++)
 			number = num.nextInt(7000);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitesttr@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishites111@wishi.com" + number, "inon", "av", "ab1565");
 		signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();
+		best.FillAge("45");
+		/*
 		best.selectMounts(3);
 		best.selectDays(16);
 		best.selectYears(9);
+		*/
 		best.ClickNextbutton();
 		best.SelectNormal();
 		best.SelectNormal2();
@@ -79,14 +82,24 @@ public class BookingStylistTests extends BaseTest
 		booking.SelectStylist();
 		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
 		booking.BookStylist();
-		booking.UseCodCoopon("wishitest");
-		booking.ClickFinishCheckout();
-		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
+		booking.switchWindow();
+		booking.FillFirstName("yinon");
+		booking.FillLastName("aba");
+		booking.SwitchToFrame(0);
+		booking.FillCardNumber("4242424242424242");
+		booking.FillCardDate("0222");
+		booking.FillCardCVC("424");
+		booking.Sleep(500);
+		booking.switchWindow();
+		booking.Sleep(200);
+		booking.WaitElementDisplay(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]"));
+		//BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
+		driver.findElement(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]")).click();
 		booking.ClickBookingstylist();		
 
 	}
 
-	@Test(priority = 4,groups={"sanity-group"})
+	//@Test(priority = 4,groups={"sanity-group"})
 	public void CheckoutByCreditCard ()
 	{
 		BookingPage booking = new BookingPage(driver);

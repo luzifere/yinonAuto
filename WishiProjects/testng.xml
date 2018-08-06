@@ -4,6 +4,46 @@
 <listeners>
         <listener class-name="WishiTests.Listener"></listener>
     </listeners>
+    <test name="CrateLookTests">
+    <classes>
+      <class name="WishiTests.CrateLookTests"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="BestExpensiveMaleMatchTests">
+    <classes>
+      <class name="WishiTests.BestExpensiveMaleMatchTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchExpensiveFeamleTests">
+    <classes>
+      <class name="WishiTests.BestMatchExpensiveFeamleTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchLowFeamleTests">
+    <classes>
+      <class name="WishiTests.BestMatchLowFeamleTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchLowMaleTests">
+    <classes>
+      <class name="WishiTests.BestMatchLowMaleTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchNaturalTests">
+    <classes>
+      <class name="WishiTests.BestMatchNaturalTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchNormalFeamleTests">
+    <classes>
+      <class name="WishiTests.BestMatchNormalFeamleTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchNormalMaleTests">
+    <classes>
+      <class name="WishiTests.BestMatchNormalMaleTests"/>
+    </classes>
+    </test> <!-- Test -->
  <test name="LoginWithFacbookFailsTests">
     <classes>
       <class name="WishiTests.LoginWithFacbookFailsTests"/>
@@ -24,11 +64,7 @@
       <class name="WishiTests.SignUpByFacbookfailes"/>
     </classes>
   </test> <!-- Test -->
- <test name="BestMatchTests">
-    <classes>
-      <class name="WishiTests.BestMatchTests"/>
-    </classes>
-    </test> <!-- Test -->
+ 
   <test name="Login">
     <classes>
       <class name="WishiTests.LoginTest"/>
@@ -41,11 +77,7 @@
   </test> <!-- Test -->
   
  
-  <test name="CrateLookTests">
-    <classes>
-      <class name="WishiTests.CrateLookTests"/>
-    </classes>
-  </test> <!-- Test -->
+  
   <test name="ChatTests">
     <classes>
       <class name="WishiTests.ChatTests"/>

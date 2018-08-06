@@ -1,5 +1,6 @@
 package Tests;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -21,8 +22,8 @@ public class CheckOutSingleTest extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("single@gmail.com");
-		login.Fillpassword("123456");
+		login.Fillusername("singletest@wishitest.com");
+		login.Fillpassword("123455");
 		login.ClickLoginButton2();
 		login.Sleep(500);
 		LoginPage.DismissAlert();
@@ -60,21 +61,18 @@ public class CheckOutSingleTest extends BaseTest
 	public void SelectSession()
 	{
 		CeckOutPage co = new CeckOutPage(driver);
-		co.ClickMonthButton();
 		co.ClickSingleButton();
-		//co.ClickMonthButton();
-		co.Sleep(100);
-		//co.scrollDownXpath();
-		co.ClickPayWithCreditCard();
-
 	}
 	@Test(priority = 5,groups={"sanity-group"})
-	public void CompileBooking()
+	public void CheckOut()
 	{
 		CeckOutPage co = new CeckOutPage(driver);
-		co.Fillemail("jhgjhg@fgcgf.jg");
-		co.Fillnumbercard("4242424242424242424242");
-		co.ClickCompileBooking();
+		co.scrollDownXpath();
+		co.ClickAddCode();
+		co.FillCode("wishitest");
+		co.Sleep(200);
+		co.ClickDoneOfCode();
+		co.ClickApplePayButton();
 		co.ClickTakeYourStyleQwiz();
 		QuizPage quiz = new QuizPage(driver);
 		QuizPage.DismissAlert();
@@ -91,13 +89,13 @@ public class CheckOutSingleTest extends BaseTest
 		quiz.ClickNextw();
 		quiz.SelectJeans("Skinny");
 		quiz.ClickNextw();
-		//quiz.SelectCC("Tops");
-		//quiz.SelectCC("Hats");
-		//quiz.ClickNextw();
+		quiz.SelectCC("Tops");
+		quiz.scrollDownXpath();
+		quiz.SelectCC("Hats");
+		quiz.ClickNextw();
 		quiz.Sleep(200);
 		CeckOutPage.DismissAlert();
-		//Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
-		driver.resetApp();
-
+		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with Oren Oren']"));
+		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
 	}
 }

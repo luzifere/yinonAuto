@@ -21,8 +21,10 @@ public class BestMatchPage extends BasePage
 	}
 	@FindBy(xpath="(//div[@class='fld-select'])[1]")
 	WebElement Mount;
-	@FindBy(xpath="//div[@class='back-button ng-scope']")
+	@FindBy(xpath="//a[@class='vis']")
 	WebElement Back;
+	@FindBy(xpath="//input[@type='text']")
+	WebElement Age;
 	@FindBy(xpath="(//div[@class='fld-select'])[2]")
 	WebElement Day;
 	@FindBy(xpath="(//div[@class='fld-select'])[3]")
@@ -152,12 +154,7 @@ public class BestMatchPage extends BasePage
 		click(SelfIdentity);
 		Sleep(250);
 	}
-	public void ClickBack() 
-	{
-		Sleep(250);
-		click(Back);
-		Sleep(250);
-	}
+	
 	public void ClickMale() 
 	{
 		Sleep(250);
@@ -218,6 +215,18 @@ public class BestMatchPage extends BasePage
 	{
 		Sleep(250);
 		click(SkipButton);
+		Sleep(250);
+	}
+	public void ClickBack() 
+	{
+		Sleep(250);
+		click(Back);
+		Sleep(250);
+	}
+	public void FillAge (String text) 
+	{
+		Sleep(250);
+		filltext(Age,text);
 		Sleep(250);
 	}
 
