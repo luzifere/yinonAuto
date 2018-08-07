@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
     <line>
-      <![CDATA[About to begin executing Test Default test]]>
+      <![CDATA[About to begin executing Test BestExpensiveMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestExpensiveMaleMatchTests]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : BaseTest.setup]]>
@@ -11,126 +14,566 @@
       <![CDATA[Completed executing following method : BaseTest.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : BookingTests.DoSignUp]]>
+      <![CDATA[About to begin executing following method : BestExpensiveMaleMatchTests.BMExpensiveMale]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : BookingTests.DoSignUp]]>
+      <![CDATA[Completed executing following method : BestExpensiveMaleMatchTests.BMExpensiveMale]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite DoSignUp]]>
+      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.BookingTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookingTests.CheckOutSession]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookingTests.CheckOutSession]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite CheckOutSession]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.BookingTests]]>
+      <![CDATA[Test Method resides in Tests.BestExpensiveMaleMatchTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : BookingTests.CheckoutUnlimitedCreditCard]]>
+      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : BookingTests.CheckoutUnlimitedCreditCard]]>
+      <![CDATA[Test Method resides in Tests.BestExpensiveMaleMatchTests]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite CheckoutUnlimitedCreditCard]]>
+      <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.BookingTests]]>
+      <![CDATA[Completed executing test BestExpensiveMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestExpensiveMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchExpensiveFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchExpensiveFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BestMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BestMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchExpensiveFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchExpensiveFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchExpensiveFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchExpensiveFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchLowFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchLowFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BestMatchLowFeamleTests.BMLowFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BestMatchLowFeamleTests.BMLowFeamle]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMLowFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchLowFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMLowFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchLowFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchLowFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchLowFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchLowMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchLowMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BestMatchLowMaleTests.BMLowMale]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BestMatchLowMaleTests.BMLowMale]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMLowMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchLowMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMLowMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchLowMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchLowMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchLowMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchNaturalTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchNaturalTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BestMatchNaturalTests.BMNatural]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BestMatchNaturalTests.BMNatural]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMNatural]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchNaturalTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMNatural]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchNaturalTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchNaturalTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchNaturalTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchNormalFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchNormalFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BestMatchNormalFeamleTests.BMNormalFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BestMatchNormalFeamleTests.BMNormalFeamle]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMNormalFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchNormalFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMNormalFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchNormalFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchNormalFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchNormalFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchNormalMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchNormalMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BestMatchNormalMaleTests.BMNormalMale]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BestMatchNormalMaleTests.BMNormalMale]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMNormalMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchNormalMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMNormalMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchNormalMaleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="151583" started-at="2018-08-06T18:24:58Z" finished-at="2018-08-06T18:27:30Z">
+  <suite name="Suite" duration-ms="1118679" started-at="2018-08-07T11:52:54Z" finished-at="2018-08-07T12:11:32Z">
     <groups>
       <group name="sanity-group">
-        <method signature="BookingTests.CheckOutSession()[pri:2, instance:Tests.BookingTests@50d0686]" name="CheckOutSession" class="Tests.BookingTests"/>
-        <method signature="BookingTests.CheckoutUnlimitedCreditCard()[pri:3, instance:Tests.BookingTests@50d0686]" name="CheckoutUnlimitedCreditCard" class="Tests.BookingTests"/>
-        <method signature="BookingTests.DoSignUp()[pri:1, instance:Tests.BookingTests@50d0686]" name="DoSignUp" class="Tests.BookingTests"/>
+        <method signature="BestExpensiveMaleMatchTests.BMExpensiveMale()[pri:6, instance:Tests.BestExpensiveMaleMatchTests@77ec78b9]" name="BMExpensiveMale" class="Tests.BestExpensiveMaleMatchTests"/>
+        <method signature="BestMatchExpensiveFeamleTests.BMExpensiveFeamle()[pri:3, instance:Tests.BestMatchExpensiveFeamleTests@74a10858]" name="BMExpensiveFeamle" class="Tests.BestMatchExpensiveFeamleTests"/>
+        <method signature="BestMatchLowFeamleTests.BMLowFeamle()[pri:2, instance:Tests.BestMatchLowFeamleTests@51c8530f]" name="BMLowFeamle" class="Tests.BestMatchLowFeamleTests"/>
+        <method signature="BestMatchLowMaleTests.BMLowMale()[pri:5, instance:Tests.BestMatchLowMaleTests@22eeefeb]" name="BMLowMale" class="Tests.BestMatchLowMaleTests"/>
+        <method signature="BestMatchNaturalTests.BMNatural()[pri:7, instance:Tests.BestMatchNaturalTests@7e0e6aa2]" name="BMNatural" class="Tests.BestMatchNaturalTests"/>
+        <method signature="BestMatchNormalFeamleTests.BMNormalFeamle()[pri:1, instance:Tests.BestMatchNormalFeamleTests@25bbf683]" name="BMNormalFeamle" class="Tests.BestMatchNormalFeamleTests"/>
+        <method signature="BestMatchNormalMaleTests.BMNormalMale()[pri:4, instance:Tests.BestMatchNormalMaleTests@10dba097]" name="BMNormalMale" class="Tests.BestMatchNormalMaleTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="151583" started-at="2018-08-06T18:24:58Z" finished-at="2018-08-06T18:27:30Z">
-      <class name="Tests.BookingTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BookingTests@50d0686]" name="setup" is-config="true" duration-ms="19010" started-at="2018-08-06T18:24:58Z" finished-at="2018-08-06T18:25:17Z">
+    <test name="BestExpensiveMaleMatchTests" duration-ms="156883" started-at="2018-08-07T11:52:54Z" finished-at="2018-08-07T11:55:30Z">
+      <class name="Tests.BestExpensiveMaleMatchTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestExpensiveMaleMatchTests@77ec78b9]" name="setup" is-config="true" duration-ms="26031" started-at="2018-08-07T11:52:54Z" finished-at="2018-08-07T11:53:20Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.BookingTests@50d0686]" name="DoSignUp" duration-ms="66658" started-at="2018-08-06T18:25:17Z" finished-at="2018-08-06T18:26:24Z">
+        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.BestExpensiveMaleMatchTests@77ec78b9]" name="BMExpensiveMale" duration-ms="130837" started-at="2018-08-07T11:53:20Z" finished-at="2018-08-07T11:55:30Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : BookingTests.DoSignUp]]>
+              <![CDATA[About to begin executing following method : BestExpensiveMaleMatchTests.BMExpensiveMale]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : BookingTests.DoSignUp]]>
+              <![CDATA[Completed executing following method : BestExpensiveMaleMatchTests.BMExpensiveMale]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite DoSignUp]]>
+              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.BookingTests]]>
+              <![CDATA[Test Method resides in Tests.BestExpensiveMaleMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestExpensiveMaleMatchTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:Tests.BookingTests@50d0686]" name="CheckOutSession" duration-ms="25633" started-at="2018-08-06T18:26:24Z" finished-at="2018-08-06T18:26:49Z">
+        </test-method> <!-- BMExpensiveMale -->
+      </class> <!-- Tests.BestExpensiveMaleMatchTests -->
+    </test> <!-- BestExpensiveMaleMatchTests -->
+    <test name="BestMatchExpensiveFeamleTests" duration-ms="185619" started-at="2018-08-07T11:55:30Z" finished-at="2018-08-07T11:58:36Z">
+      <class name="Tests.BestMatchExpensiveFeamleTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchExpensiveFeamleTests@74a10858]" name="setup" is-config="true" duration-ms="21460" started-at="2018-08-07T11:55:30Z" finished-at="2018-08-07T11:55:52Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : BookingTests.CheckOutSession]]>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMExpensiveFeamle()[pri:3, instance:Tests.BestMatchExpensiveFeamleTests@74a10858]" name="BMExpensiveFeamle" duration-ms="164157" started-at="2018-08-07T11:55:52Z" finished-at="2018-08-07T11:58:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BestMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : BookingTests.CheckOutSession]]>
+              <![CDATA[Completed executing following method : BestMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite CheckOutSession]]>
+              <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.BookingTests]]>
+              <![CDATA[Test Method resides in Tests.BestMatchExpensiveFeamleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchExpensiveFeamleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- CheckOutSession -->
-        <test-method status="PASS" signature="CheckoutUnlimitedCreditCard()[pri:3, instance:Tests.BookingTests@50d0686]" name="CheckoutUnlimitedCreditCard" duration-ms="40250" started-at="2018-08-06T18:26:49Z" finished-at="2018-08-06T18:27:30Z">
+        </test-method> <!-- BMExpensiveFeamle -->
+      </class> <!-- Tests.BestMatchExpensiveFeamleTests -->
+    </test> <!-- BestMatchExpensiveFeamleTests -->
+    <test name="BestMatchLowFeamleTests" duration-ms="182054" started-at="2018-08-07T11:58:36Z" finished-at="2018-08-07T12:01:38Z">
+      <class name="Tests.BestMatchLowFeamleTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchLowFeamleTests@51c8530f]" name="setup" is-config="true" duration-ms="23554" started-at="2018-08-07T11:58:36Z" finished-at="2018-08-07T11:59:00Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : BookingTests.CheckoutUnlimitedCreditCard]]>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMLowFeamle()[pri:2, instance:Tests.BestMatchLowFeamleTests@51c8530f]" name="BMLowFeamle" duration-ms="158497" started-at="2018-08-07T11:59:00Z" finished-at="2018-08-07T12:01:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BestMatchLowFeamleTests.BMLowFeamle]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : BookingTests.CheckoutUnlimitedCreditCard]]>
+              <![CDATA[Completed executing following method : BestMatchLowFeamleTests.BMLowFeamle]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite CheckoutUnlimitedCreditCard]]>
+              <![CDATA[About to Success executing Suite BMLowFeamle]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.BookingTests]]>
+              <![CDATA[Test Method resides in Tests.BestMatchLowFeamleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMLowFeamle]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchLowFeamleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- CheckoutUnlimitedCreditCard -->
-      </class> <!-- Tests.BookingTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- BMLowFeamle -->
+      </class> <!-- Tests.BestMatchLowFeamleTests -->
+    </test> <!-- BestMatchLowFeamleTests -->
+    <test name="BestMatchLowMaleTests" duration-ms="165407" started-at="2018-08-07T12:01:38Z" finished-at="2018-08-07T12:04:24Z">
+      <class name="Tests.BestMatchLowMaleTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchLowMaleTests@22eeefeb]" name="setup" is-config="true" duration-ms="34159" started-at="2018-08-07T12:01:38Z" finished-at="2018-08-07T12:02:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMLowMale()[pri:5, instance:Tests.BestMatchLowMaleTests@22eeefeb]" name="BMLowMale" duration-ms="131246" started-at="2018-08-07T12:02:12Z" finished-at="2018-08-07T12:04:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BestMatchLowMaleTests.BMLowMale]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BestMatchLowMaleTests.BMLowMale]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMLowMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchLowMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMLowMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchLowMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMLowMale -->
+      </class> <!-- Tests.BestMatchLowMaleTests -->
+    </test> <!-- BestMatchLowMaleTests -->
+    <test name="BestMatchNaturalTests" duration-ms="98572" started-at="2018-08-07T12:04:24Z" finished-at="2018-08-07T12:06:02Z">
+      <class name="Tests.BestMatchNaturalTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchNaturalTests@7e0e6aa2]" name="setup" is-config="true" duration-ms="22396" started-at="2018-08-07T12:04:24Z" finished-at="2018-08-07T12:04:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMNatural()[pri:7, instance:Tests.BestMatchNaturalTests@7e0e6aa2]" name="BMNatural" duration-ms="76173" started-at="2018-08-07T12:04:46Z" finished-at="2018-08-07T12:06:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BestMatchNaturalTests.BMNatural]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BestMatchNaturalTests.BMNatural]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMNatural]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchNaturalTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMNatural]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchNaturalTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMNatural -->
+      </class> <!-- Tests.BestMatchNaturalTests -->
+    </test> <!-- BestMatchNaturalTests -->
+    <test name="BestMatchNormalFeamleTests" duration-ms="180435" started-at="2018-08-07T12:06:02Z" finished-at="2018-08-07T12:09:03Z">
+      <class name="Tests.BestMatchNormalFeamleTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchNormalFeamleTests@25bbf683]" name="setup" is-config="true" duration-ms="18004" started-at="2018-08-07T12:06:02Z" finished-at="2018-08-07T12:06:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMNormalFeamle()[pri:1, instance:Tests.BestMatchNormalFeamleTests@25bbf683]" name="BMNormalFeamle" duration-ms="162429" started-at="2018-08-07T12:06:20Z" finished-at="2018-08-07T12:09:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BestMatchNormalFeamleTests.BMNormalFeamle]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BestMatchNormalFeamleTests.BMNormalFeamle]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMNormalFeamle]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchNormalFeamleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMNormalFeamle]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchNormalFeamleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMNormalFeamle -->
+      </class> <!-- Tests.BestMatchNormalFeamleTests -->
+    </test> <!-- BestMatchNormalFeamleTests -->
+    <test name="BestMatchNormalMaleTests" duration-ms="149657" started-at="2018-08-07T12:09:03Z" finished-at="2018-08-07T12:11:32Z">
+      <class name="Tests.BestMatchNormalMaleTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchNormalMaleTests@10dba097]" name="setup" is-config="true" duration-ms="18846" started-at="2018-08-07T12:09:03Z" finished-at="2018-08-07T12:09:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMNormalMale()[pri:4, instance:Tests.BestMatchNormalMaleTests@10dba097]" name="BMNormalMale" duration-ms="130810" started-at="2018-08-07T12:09:21Z" finished-at="2018-08-07T12:11:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BestMatchNormalMaleTests.BMNormalMale]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BestMatchNormalMaleTests.BMNormalMale]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMNormalMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchNormalMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMNormalMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchNormalMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMNormalMale -->
+      </class> <!-- Tests.BestMatchNormalMaleTests -->
+    </test> <!-- BestMatchNormalMaleTests -->
+  </suite> <!-- Suite -->
 </testng-results>

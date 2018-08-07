@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="BestMutch(failed)">
     <classes>
-      <class name="Tests.QuizForMaleTest">
+      <class name="Tests.BestMutch">
         <methods>
-          <include name="SelectFitBottom"/>
-          <include name="SelectColor"/>
-          <include name="SelectEvents"/>
-          <include name="SelectHeight"/>
-          <include name="SelectSession"/>
+          <include name="BestMatchSelfIdentity"/>
           <include name="setup"/>
-          <include name="SelectYourCloset"/>
-          <include name="DoSignUp"/>
-          <include name="SelectBodyType"/>
-          <include name="SearchStylist"/>
-          <include name="SelectFitTop"/>
-          <include name="SelectJewelry"/>
-          <include name="SelectSize"/>
-          <include name="SelectFabrics"/>
-          <include name="SelectZone"/>
-          <include name="SelectClothingCategories"/>
-          <include name="SelectCountry"/>
         </methods>
-      </class> <!-- Tests.QuizForMaleTest -->
+      </class> <!-- Tests.BestMutch -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- BestMutch(failed) -->
+  <test thread-count="5" name="CheckOutMounthTest(failed)">
+    <classes>
+      <class name="Tests.CheckOutMounthTest">
+        <methods>
+          <include name="setup"/>
+          <include name="CompileBooking"/>
+        </methods>
+      </class> <!-- Tests.CheckOutMounthTest -->
+    </classes>
+  </test> <!-- CheckOutMounthTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

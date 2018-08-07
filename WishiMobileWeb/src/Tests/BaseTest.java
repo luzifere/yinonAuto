@@ -40,7 +40,7 @@ public class BaseTest
 	public void setup() throws MalformedURLException
 	{
 		Capabilities("emulator");
-		driver.get("https://stage.wishi.me/app/");
+		driver.get("https://www.wishi.me/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	

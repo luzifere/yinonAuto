@@ -309,6 +309,7 @@ public class BestMutch extends BaseTest
 		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
 		best.ClickNextbutton();
 		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
+		best.WaitElementDisplay(By.xpath("//*[@name='viewProfileButtonID']"));
 		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
 		driver.resetApp();
 	}

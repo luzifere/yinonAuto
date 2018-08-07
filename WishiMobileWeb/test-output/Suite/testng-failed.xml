@@ -4,36 +4,6 @@
   <listeners>
     <listener class-name="Tests.Listener"/>
   </listeners>
-  <test thread-count="5" name="BestExpensiveMaleMatchTests(failed)">
-    <classes>
-      <class name="Tests.BestExpensiveMaleMatchTests">
-        <methods>
-          <include name="setup"/>
-          <include name="BMExpensiveMale"/>
-        </methods>
-      </class> <!-- Tests.BestExpensiveMaleMatchTests -->
-    </classes>
-  </test> <!-- BestExpensiveMaleMatchTests(failed) -->
-  <test thread-count="5" name="BestMatchExpensiveFeamleTests(failed)">
-    <classes>
-      <class name="Tests.BestMatchExpensiveFeamleTests">
-        <methods>
-          <include name="setup"/>
-          <include name="BMExpensiveFeamle"/>
-        </methods>
-      </class> <!-- Tests.BestMatchExpensiveFeamleTests -->
-    </classes>
-  </test> <!-- BestMatchExpensiveFeamleTests(failed) -->
-  <test thread-count="5" name="BestMatchLowFeamleTests(failed)">
-    <classes>
-      <class name="Tests.BestMatchLowFeamleTests">
-        <methods>
-          <include name="BMLowFeamle"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- Tests.BestMatchLowFeamleTests -->
-    </classes>
-  </test> <!-- BestMatchLowFeamleTests(failed) -->
   <test thread-count="5" name="BestMatchLowMaleTests(failed)">
     <classes>
       <class name="Tests.BestMatchLowMaleTests">
@@ -44,34 +14,4 @@
       </class> <!-- Tests.BestMatchLowMaleTests -->
     </classes>
   </test> <!-- BestMatchLowMaleTests(failed) -->
-  <test thread-count="5" name="BestMatchNaturalTests(failed)">
-    <classes>
-      <class name="Tests.BestMatchNaturalTests">
-        <methods>
-          <include name="BMNatural"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- Tests.BestMatchNaturalTests -->
-    </classes>
-  </test> <!-- BestMatchNaturalTests(failed) -->
-  <test thread-count="5" name="BestMatchNormalFeamleTests(failed)">
-    <classes>
-      <class name="Tests.BestMatchNormalFeamleTests">
-        <methods>
-          <include name="BMNormalFeamle"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- Tests.BestMatchNormalFeamleTests -->
-    </classes>
-  </test> <!-- BestMatchNormalFeamleTests(failed) -->
-  <test thread-count="5" name="BestMatchNormalMaleTests(failed)">
-    <classes>
-      <class name="Tests.BestMatchNormalMaleTests">
-        <methods>
-          <include name="setup"/>
-          <include name="BMNormalMale"/>
-        </methods>
-      </class> <!-- Tests.BestMatchNormalMaleTests -->
-    </classes>
-  </test> <!-- BestMatchNormalMaleTests(failed) -->
 </suite> <!-- Failed suite [Suite] -->
