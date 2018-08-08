@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>15/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Aug 07 14:34:08 IDT 2018</td>
+<td>Started on:</td><td>Tue Aug 07 22:48:37 IDT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>156 seconds (156261 ms)</td>
+<tr><td>Total time:</td><td>217 seconds (217978 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,163 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Tests.qwizTests.SelectInventory()'><b>SelectInventory</b><br>Test class: Tests.qwizTests<br/>
+<a href="#Output-234250762" onClick='toggleBox("Output-234250762", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-234250762" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-234250762">
+About to begin executing following method : qwizTests.SelectInventory<br/>
+Completed executing following method : qwizTests.SelectInventory<br/>
+About to Failure executing Suite SelectInventory<br/>
+Test Method resides in Tests.qwizTests<br/>
+Test Status: Failed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div//label[text()[contains(.,&apos;Mix&apos;)]]&quot;}
+  (Session info: chrome=68.0.3440.85)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP&apos;, ip: &apos;fdae:dd1:2aa6:0:6d38:1f83:6a85:e66c&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: Nexus1, noReset: true, platformName: Android}, deviceManufacturer: samsung, deviceModel: SM-G928C, deviceName: 83f0444635375636, deviceScreenSize: 1440x2560, deviceUDID: 83f0444635375636, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: LINUX, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 9fc0e99b-f658-4278-965c-19417fb14781
+*** Element info: {Using=xpath, value=//div//label[text()[contains(.,&apos;Mix&apos;)]]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at PageObejecs.QwizPage.SelectTab(QwizPage.java:38)
+	at Tests.qwizTests.SelectInventory(qwizTests.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace234250762", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace234250762'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div//label[text()[contains(.,&apos;Mix&apos;)]]&quot;}
+  (Session info: chrome=68.0.3440.85)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP&apos;, ip: &apos;fdae:dd1:2aa6:0:6d38:1f83:6a85:e66c&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: Nexus1, noReset: true, platformName: Android}, deviceManufacturer: samsung, deviceModel: SM-G928C, deviceName: 83f0444635375636, deviceScreenSize: 1440x2560, deviceUDID: 83f0444635375636, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: LINUX, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 9fc0e99b-f658-4278-965c-19417fb14781
+*** Element info: {Using=xpath, value=//div//label[text()[contains(.,&apos;Mix&apos;)]]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at PageObejecs.QwizPage.SelectTab(QwizPage.java:38)
+	at Tests.qwizTests.SelectInventory(qwizTests.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>Tests.qwizTests@7a3d45bd</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,21 +232,245 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Tests.BestMatchLowMaleTests.BMLowMale()'><b>BMLowMale</b><br>Test class: Tests.BestMatchLowMaleTests<br/>
-<a href="#Output-362827515" onClick='toggleBox("Output-362827515", this, "Show output", "Hide output");'>Show output</a>
+<td title='Tests.qwizTests.CheckOutSession()'><b>CheckOutSession</b><br>Test class: Tests.qwizTests<br/>
+<a href="#Output-62343880" onClick='toggleBox("Output-62343880", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-362827515" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-362827515">
-About to begin executing following method : BestMatchLowMaleTests.BMLowMale<br/>
-Completed executing following method : BestMatchLowMaleTests.BMLowMale<br/>
-About to Success executing Suite BMLowMale<br/>
-Test Method resides in Tests.BestMatchLowMaleTests<br/>
+<a href="#Output-62343880" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-62343880">
+About to begin executing following method : qwizTests.CheckOutSession<br/>
+Completed executing following method : qwizTests.CheckOutSession<br/>
+About to Success executing Suite CheckOutSession<br/>
+Test Method resides in Tests.qwizTests<br/>
 Test Status: Pass<br/>
 </div>
 </td>
 <td></td>
-<td>129</td>
-<td>Tests.BestMatchLowMaleTests@50d0686</td></tr>
+<td>27</td>
+<td>Tests.qwizTests@7a3d45bd</td></tr>
+<tr>
+<td title='Tests.qwizTests.DoSignUp()'><b>DoSignUp</b><br>Test class: Tests.qwizTests<br/>
+<a href="#Output-859236022" onClick='toggleBox("Output-859236022", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-859236022" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-859236022">
+About to begin executing following method : qwizTests.DoSignUp<br/>
+Completed executing following method : qwizTests.DoSignUp<br/>
+About to Success executing Suite DoSignUp<br/>
+Test Method resides in Tests.qwizTests<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>67</td>
+<td>Tests.qwizTests@7a3d45bd</td></tr>
+<tr>
+<td title='Tests.qwizTests.SelectBodyType()'><b>SelectBodyType</b><br>Test class: Tests.qwizTests<br/>
+<a href="#Output-722951168" onClick='toggleBox("Output-722951168", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-722951168" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-722951168">
+About to begin executing following method : qwizTests.SelectBodyType<br/>
+Completed executing following method : qwizTests.SelectBodyType<br/>
+About to Success executing Suite SelectBodyType<br/>
+Test Method resides in Tests.qwizTests<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Tests.qwizTests@7a3d45bd</td></tr>
+<tr>
+<td title='Tests.qwizTests.SelectBrands()'><b>SelectBrands</b><br>Test class: Tests.qwizTests<br/>
+<a href="#Output-672313607" onClick='toggleBox("Output-672313607", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-672313607" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-672313607">
+About to begin executing following method : qwizTests.SelectBrands<br/>
+Completed executing following method : qwizTests.SelectBrands<br/>
+About to Success executing Suite SelectBrands<br/>
+Test Method resides in Tests.qwizTests<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Tests.qwizTests@7a3d45bd</td></tr>
+<tr>
+<td title='Tests.qwizTests.SelectClothingPreferences()'><b>SelectClothingPreferences</b><br>Test class: Tests.qwizTests<br/>
+<a href="#Output-51152513" onClick='toggleBox("Output-51152513", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-51152513" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-51152513">
+About to begin executing following method : qwizTests.SelectClothingPreferences<br/>
+Completed executing following method : qwizTests.SelectClothingPreferences<br/>
+About to Success executing Suite SelectClothingPreferences<br/>
+Test Method resides in Tests.qwizTests<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>Tests.qwizTests@7a3d45bd</td></tr>
+<tr>
+<td title='Tests.qwizTests.SelectColors()'><b>SelectColors</b><br>Test class: Tests.qwizTests<br/>
+<a href="#Output-1826334428" onClick='toggleBox("Output-1826334428", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1826334428" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1826334428">
+About to begin executing following method : qwizTests.SelectColors<br/>
+Completed executing following method : qwizTests.SelectColors<br/>
+About to Success executing Suite SelectColors<br/>
+Test Method resides in Tests.qwizTests<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Tests.qwizTests@7a3d45bd</td></tr>
+<tr>
+<td title='Tests.qwizTests.SelectComfortZone()'><b>SelectComfortZone</b><br>Test class: Tests.qwizTests<br/>
+<a href="#Output-1661210650" onClick='toggleBox("Output-1661210650", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1661210650" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1661210650">
+About to begin executing following method : qwizTests.SelectComfortZone<br/>
+Completed executing following method : qwizTests.SelectComfortZone<br/>
+About to Success executing Suite SelectComfortZone<br/>
+Test Method resides in Tests.qwizTests<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Tests.qwizTests@7a3d45bd</td></tr>
+<tr>
+<td title='Tests.qwizTests.SelectEvent()'><b>SelectEvent</b><br>Test class: Tests.qwizTests<br/>
+<a href="#Output-638169719" onClick='toggleBox("Output-638169719", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-638169719" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-638169719">
+About to begin executing following method : qwizTests.SelectEvent<br/>
+Completed executing following method : qwizTests.SelectEvent<br/>
+About to Success executing Suite SelectEvent<br/>
+Test Method resides in Tests.qwizTests<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>Tests.qwizTests@7a3d45bd</td></tr>
+<tr>
+<td title='Tests.qwizTests.SelectFabrics()'><b>SelectFabrics</b><br>Test class: Tests.qwizTests<br/>
+<a href="#Output-1828873985" onClick='toggleBox("Output-1828873985", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1828873985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1828873985">
+About to begin executing following method : qwizTests.SelectFabrics<br/>
+Completed executing following method : qwizTests.SelectFabrics<br/>
+About to Success executing Suite SelectFabrics<br/>
+Test Method resides in Tests.qwizTests<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Tests.qwizTests@7a3d45bd</td></tr>
+<tr>
+<td title='Tests.qwizTests.SelectHeels()'><b>SelectHeels</b><br>Test class: Tests.qwizTests<br/>
+<a href="#Output-1558103808" onClick='toggleBox("Output-1558103808", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1558103808" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1558103808">
+About to begin executing following method : qwizTests.SelectHeels<br/>
+Completed executing following method : qwizTests.SelectHeels<br/>
+About to Success executing Suite SelectHeels<br/>
+Test Method resides in Tests.qwizTests<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Tests.qwizTests@7a3d45bd</td></tr>
+<tr>
+<td title='Tests.qwizTests.SelectHeight()'><b>SelectHeight</b><br>Test class: Tests.qwizTests<br/>
+<a href="#Output-451460284" onClick='toggleBox("Output-451460284", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-451460284" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-451460284">
+About to begin executing following method : qwizTests.SelectHeight<br/>
+Completed executing following method : qwizTests.SelectHeight<br/>
+About to Success executing Suite SelectHeight<br/>
+Test Method resides in Tests.qwizTests<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Tests.qwizTests@7a3d45bd</td></tr>
+<tr>
+<td title='Tests.qwizTests.SelectHighlight()'><b>SelectHighlight</b><br>Test class: Tests.qwizTests<br/>
+<a href="#Output-2101153819" onClick='toggleBox("Output-2101153819", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2101153819" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2101153819">
+About to begin executing following method : qwizTests.SelectHighlight<br/>
+Completed executing following method : qwizTests.SelectHighlight<br/>
+About to Success executing Suite SelectHighlight<br/>
+Test Method resides in Tests.qwizTests<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Tests.qwizTests@7a3d45bd</td></tr>
+<tr>
+<td title='Tests.qwizTests.SelectJEWELRY()'><b>SelectJEWELRY</b><br>Test class: Tests.qwizTests<br/>
+<a href="#Output-1366342900" onClick='toggleBox("Output-1366342900", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1366342900" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1366342900">
+About to begin executing following method : qwizTests.SelectJEWELRY<br/>
+Completed executing following method : qwizTests.SelectJEWELRY<br/>
+About to Success executing Suite SelectJEWELRY<br/>
+Test Method resides in Tests.qwizTests<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Tests.qwizTests@7a3d45bd</td></tr>
+<tr>
+<td title='Tests.qwizTests.SelectPrints()'><b>SelectPrints</b><br>Test class: Tests.qwizTests<br/>
+<a href="#Output-2024415090" onClick='toggleBox("Output-2024415090", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2024415090" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2024415090">
+About to begin executing following method : qwizTests.SelectPrints<br/>
+Completed executing following method : qwizTests.SelectPrints<br/>
+About to Success executing Suite SelectPrints<br/>
+Test Method resides in Tests.qwizTests<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Tests.qwizTests@7a3d45bd</td></tr>
+<tr>
+<td title='Tests.qwizTests.SelectSize()'><b>SelectSize</b><br>Test class: Tests.qwizTests<br/>
+<a href="#Output-527804008" onClick='toggleBox("Output-527804008", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-527804008" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-527804008">
+About to begin executing following method : qwizTests.SelectSize<br/>
+Completed executing following method : qwizTests.SelectSize<br/>
+About to Success executing Suite SelectSize<br/>
+Test Method resides in Tests.qwizTests<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>Tests.qwizTests@7a3d45bd</td></tr>
 </table><p>
 </body>
 </html>

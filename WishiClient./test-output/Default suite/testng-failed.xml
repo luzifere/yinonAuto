@@ -3,27 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.QuizForMaleTest">
+      <class name="Tests.CheckOutMounthTest">
         <methods>
-          <include name="SelectFitBottom"/>
-          <include name="SelectColor"/>
-          <include name="SelectEvents"/>
-          <include name="SelectHeight"/>
-          <include name="SelectSession"/>
           <include name="setup"/>
-          <include name="SelectYourCloset"/>
-          <include name="DoSignUp"/>
-          <include name="SelectBodyType"/>
-          <include name="SearchStylist"/>
-          <include name="SelectFitTop"/>
-          <include name="SelectJewelry"/>
-          <include name="SelectSize"/>
-          <include name="SelectFabrics"/>
-          <include name="SelectZone"/>
-          <include name="SelectClothingCategories"/>
-          <include name="SelectCountry"/>
+          <include name="CompileBooking"/>
         </methods>
-      </class> <!-- Tests.QuizForMaleTest -->
+      </class> <!-- Tests.CheckOutMounthTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

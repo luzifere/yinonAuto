@@ -36,7 +36,7 @@ public class BaseTest
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		driver.get("https://www.wishi.me/");
+		driver.get("https://stage.wishi.me");
 		  try {
 				Thread.sleep(1500);
 			} catch (InterruptedException e) {

@@ -53,6 +53,11 @@
       <class name="Tests.CheckOutPSTest"/>
     </classes>
   </test> <!-- Test -->
+  <test thread-count="5" name="CheckOutByCoponTest">
+    <classes>
+      <class name="Tests.CheckOutByCoponTest"/>
+    </classes>
+  </test> <!-- Test -->
   <test thread-count="5" name="LoginTests">
     <classes>
       <class name="Tests.LoginTests"/>

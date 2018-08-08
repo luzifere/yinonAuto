@@ -56,11 +56,9 @@ public class CheckOutPSTest extends BaseTest
 	public void CheckOut()
 	{
 		CeckOutPage co = new CeckOutPage(driver);
-		co.ClickAddCode();
-		co.FillCode("wishitest");
-		co.Sleep(200);
-		co.ClickDoneOfCode();
-		co.ClickApplePayButton();
+		co.ClickPayWithCreditCard();
+		co.Fillnumbercard("4242424242424242424242");
+		co.ClickCompileBooking();
 		co.ClickTakeYourStyleQwiz();
 		QuizPage quiz = new QuizPage(driver);
 		QuizPage.DismissAlert();
@@ -69,9 +67,24 @@ public class CheckOutPSTest extends BaseTest
 		quiz.SelectCountry("//*[@name='Israel']");
 		quiz.FillPhoneField("0523334567");
 		quiz.ClickNextw();
+		quiz.Sleep(250);
+		/*
+		quiz.ClickNOtNow();
+		quiz.SelectTab("Loose");
+		quiz.ClickNextw();
+		quiz.SelectTab("Oversized");
+		quiz.ClickNextw();
+		quiz.SelectJeans("Skinny");
+		quiz.ClickNextw();
+		quiz.SelectCC("Tops");
+		quiz.scrollDownXpath();
+		quiz.SelectCC("Hats");
+		quiz.ClickNextw();
+		*/
 		quiz.Sleep(200);
 		CeckOutPage.DismissAlert();
 		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with Oren Oren']"));
 		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
+
 	}
 }
