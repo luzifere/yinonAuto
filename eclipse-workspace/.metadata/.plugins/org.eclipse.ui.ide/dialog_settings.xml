@@ -5,15 +5,10 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="/Users/yinonwishi/git/yinonAuto/eclipse-workspace/IosWishiWebMobile"/>
-			<item value="/Users/yinonwishi/git/yinonAuto/eclipse-workspace/WishiChromeMobileWeb"/>
-			<item value="/Users/yinonwishi/git/yinonAuto/eclipse-workspace/WishiAppClient"/>
-			<item value="/Users/yinonwishi/git/yinonAuto/eclipse-workspace/WishiWeb"/>
-			<item value="/Users/yinonwishi/git/yinonAuto/eclipse-workspace/WishiWebProjects"/>
-			<item value="/Users/yinonwishi/git/yinonAuto/eclipse-workspace/WishiClientApp"/>
-			<item value="/Users/yinonwishi/eclipse-workspace"/>
-			<item value="/Users/yinonwishi/Desktop/&apos;ISHIy/WishiClient."/>
-			<item value="/Users/yinonwishi/eclipse-workspace/WishiProjects"/>
+			<item value="/Users/yinonwishi/git/yinonAuto/eclipse-workspace/IosWebMobile"/>
+			<item value="/Users/yinonwishi/git/yinonAuto/eclipse-workspace/WishiMobileWeb"/>
+			<item value="/Users/yinonwishi/git/yinonAuto/eclipse-workspace/WishiClient."/>
+			<item value="/Users/yinonwishi/git/yinonAuto/eclipse-workspace/WishiProjects"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
