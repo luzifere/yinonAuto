@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login(failed)">
+    <classes>
+      <class name="WishiTests.LoginTest">
+        <methods>
+          <include name="FillPasswordWithOutToFillEmail"/>
+          <include name="FillEmailWithOutToFillPassword"/>
+          <include name="LoginClickable"/>
+          <include name="ClickLoginwWithOutToFillAnyFields"/>
+          <include name="DoLogin"/>
+          <include name="tearDown"/>
+          <include name="FillCorrectEmailWithWrongPassword"/>
+          <include name="FillCorrectPasswordWithWrongEmail"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.LoginTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test thread-count="5" name="SignUp(failed)">
+    <classes>
+      <class name="WishiTests.SignUpTest">
+        <methods>
+          <include name="FillPsswordWithLessthan6Characters"/>
+          <include name="FillEmailWitoutShtudel"/>
+          <include name="tearDown"/>
+          <include name="DoSignUp"/>
+          <include name="SignUpClickable"/>
+          <include name="FillEmailWithoutDotCom"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.SignUpTest -->
+    </classes>
+  </test> <!-- SignUp(failed) -->
+  <test thread-count="5" name="LoginWithFacbookTests(failed)">
+    <classes>
+      <class name="WishiTests.LoginWithFacbookTests">
+        <methods>
+          <include name="LoginWithFacbookWrongUserName"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.LoginWithFacbookTests -->
+    </classes>
+  </test> <!-- LoginWithFacbookTests(failed) -->
+  <test thread-count="5" name="SignUpByFacbook(failed)">
+    <classes>
+      <class name="WishiTests.SignUpByFacbook">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SignUpWithFacbook"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.SignUpByFacbook -->
+    </classes>
+  </test> <!-- SignUpByFacbook(failed) -->
+  <test thread-count="5" name="CrateLookTests(failed)">
+    <classes>
+      <class name="WishiTests.CrateLookTests">
+        <methods>
+          <include name="CreateLook1"/>
+          <include name="CreatePS"/>
+          <include name="CreateLook2"/>
+          <include name="VerifyLook3"/>
+          <include name="CreateMoodBoard"/>
+          <include name="CreateMoodBoard3"/>
+          <include name="VerifyLook2"/>
+          <include name="tearDown"/>
+          <include name="AskEndSession"/>
+          <include name="LoginAsClient"/>
+          <include name="LoginAsStylist"/>
+          <include name="VerifyLook1"/>
+          <include name="VerifyMoodBoard2"/>
+          <include name="VerifyMoodBoard3"/>
+          <include name="CreateLook3"/>
+          <include name="setup"/>
+          <include name="ClientEndSession"/>
+          <include name="CheckOutSession"/>
+          <include name="VerifyEndSession"/>
+          <include name="VerifyMoodBoard"/>
+          <include name="CreateMoodBoard2"/>
+          <include name="AskRevise"/>
+        </methods>
+      </class> <!-- WishiTests.CrateLookTests -->
+    </classes>
+  </test> <!-- CrateLookTests(failed) -->
+  <test thread-count="5" name="ChatTests(failed)">
+    <classes>
+      <class name="WishiTests.ChatTests">
+        <methods>
+          <include name="SendChatToStylist"/>
+          <include name="tearDown"/>
+          <include name="SendChatToclient"/>
+          <include name="setup"/>
+          <include name="LoginAsStylist"/>
+        </methods>
+      </class> <!-- WishiTests.ChatTests -->
+    </classes>
+  </test> <!-- ChatTests(failed) -->
+  <test thread-count="5" name="BestMatchTests(failed)">
+    <classes>
+      <class name="WishiTests.BestMatchTests">
+        <methods>
+          <include name="BMNormalMale"/>
+          <include name="BMExpensiveFeamle"/>
+          <include name="BMLowMale"/>
+          <include name="tearDown"/>
+          <include name="BMNormalFeamle"/>
+          <include name="BMExpensiveMale"/>
+          <include name="BMLowFeamle"/>
+          <include name="setup"/>
+          <include name="BMNatural"/>
+        </methods>
+      </class> <!-- WishiTests.BestMatchTests -->
+    </classes>
+  </test> <!-- BestMatchTests(failed) -->
+  <test thread-count="5" name="BookingStylistTests(failed)">
+    <classes>
+      <class name="WishiTests.BookingStylistTests">
+        <methods>
+          <include name="CheckoutByCreditCard"/>
+          <include name="CheckOutSession"/>
+          <include name="CheckoutUnlimited"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="DoSignUp"/>
+        </methods>
+      </class> <!-- WishiTests.BookingStylistTests -->
+    </classes>
+  </test> <!-- BookingStylistTests(failed) -->
+  <test thread-count="5" name="QwizTests(failed)">
+    <classes>
+      <class name="WishiTests.QwizTests">
+        <methods>
+          <include name="CheckOutSession"/>
+          <include name="SelectPrints"/>
+          <include name="SelectClothingPreferences"/>
+          <include name="SelectHeight"/>
+          <include name="SelectJEWELRY"/>
+          <include name="tearDown"/>
+          <include name="SelectColors"/>
+          <include name="SelectBodyType"/>
+          <include name="DoSignUp"/>
+          <include name="SelectInventory"/>
+          <include name="setup"/>
+          <include name="SelectComfortZone"/>
+          <include name="SelectSize"/>
+          <include name="SelectBrands"/>
+          <include name="SelectHeels"/>
+          <include name="SelectFabrics"/>
+          <include name="SelectEvent"/>
+          <include name="SelectHighlight"/>
+        </methods>
+      </class> <!-- WishiTests.QwizTests -->
+    </classes>
+  </test> <!-- QwizTests(failed) -->
+  <test thread-count="5" name="QwizSkipedTests(failed)">
+    <classes>
+      <class name="WishiTests.QwizSkipedTests">
+        <methods>
+          <include name="DoSignUp2"/>
+          <include name="CheckOutSessionskip"/>
+          <include name="tearDown"/>
+          <include name="ClickSkip"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.QwizSkipedTests -->
+    </classes>
+  </test> <!-- QwizSkipedTests(failed) -->
+  <test thread-count="5" name="UploadItemTest(failed)">
+    <classes>
+      <class name="WishiTests.UploadItemTest">
+        <methods>
+          <include name="DoLogin"/>
+          <include name="Uploaditem"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.UploadItemTest -->
+    </classes>
+  </test> <!-- UploadItemTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

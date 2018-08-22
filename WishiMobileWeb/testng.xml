@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+        <listener class-name="Tests.Listener"></listener>
+    </listeners>
+ <test name="BestExpensiveMaleMatchTests">
+    <classes>
+      <class name="Tests.BestExpensiveMaleMatchTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchExpensiveFeamleTests">
+    <classes>
+      <class name="Tests.BestMatchExpensiveFeamleTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchLowFeamleTests">
+    <classes>
+      <class name="Tests.BestMatchLowFeamleTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchLowMaleTests">
+    <classes>
+      <class name="Tests.BestMatchLowMaleTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchNaturalTests">
+    <classes>
+      <class name="Tests.BestMatchNaturalTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchNormalFeamleTests">
+    <classes>
+      <class name="Tests.BestMatchNormalFeamleTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchNormalMaleTests">
+    <classes>
+      <class name="Tests.BestMatchNormalMaleTests"/>
+    </classes>
+    </test> <!-- Test -->
+</suite> 
