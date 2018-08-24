@@ -49,7 +49,7 @@ public class EndSessionTest extends BaseTest
 		//search.ScrollLeft();
 		//search.ScrollLeft();
 		search.ClickSearch();
-		search.FillStylist("Stylist Booking");
+		search.FillStylist("YAstylist Booking");
 		search.SelectStylist("//*[@name='stylist booking']");
 	}	
 	@Test(priority = 3,groups={"sanity-group"})
@@ -136,6 +136,9 @@ public class EndSessionTest extends BaseTest
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
+		quiz.SelectCategory("pants");
+		quiz.Sleep(250);
+		quiz.SelectImage3(100,200);
 		booking.ClickSave();
 		booking.FillDescription("moodboard1");
 		booking.ClickToolBarDone();
@@ -182,7 +185,7 @@ public class EndSessionTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
-		driver.findElement(By.id("Got It")).click();
+		//driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -194,6 +197,8 @@ public class EndSessionTest extends BaseTest
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
+		quiz.SelectCategory("pants");
+		quiz.Sleep(250);
 		booking.ClickSave();
 		booking.FillLookDescription("look1");
 		booking.ClickToolBarDone();
@@ -250,6 +255,8 @@ public class EndSessionTest extends BaseTest
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
+		quiz.SelectCategory("pants");
+		quiz.Sleep(250);
 		booking.ClickSave();
 		booking.FillDescription("moodboard2");
 		booking.ClickToolBarDone();
@@ -294,7 +301,7 @@ public class EndSessionTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
-		driver.findElement(By.id("Got It")).click();
+		//driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -306,6 +313,8 @@ public class EndSessionTest extends BaseTest
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
+		quiz.SelectCategory("pants");
+		quiz.Sleep(250);
 		booking.ClickSave();
 		booking.FillLookDescription("look2");
 		booking.ClickToolBarDone();
@@ -362,6 +371,8 @@ public class EndSessionTest extends BaseTest
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
+		quiz.SelectCategory("pants");
+		quiz.Sleep(250);
 		booking.ClickSave();
 		booking.FillDescription("moodboard3");
 		booking.ClickToolBarDone();
@@ -406,7 +417,7 @@ public class EndSessionTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
-		driver.findElement(By.id("Got It")).click();
+		//driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();

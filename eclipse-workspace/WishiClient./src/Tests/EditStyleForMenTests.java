@@ -63,7 +63,7 @@ public class EditStyleForMenTests extends BaseTest
 		setting.ClickSettingButton();
 		setting.ClickEditStyleTab();
 	}
-	//@Test(priority = 2,groups={"sanity-group"})
+	@Test(priority = 2,groups={"sanity-group"})
 	public void EditStyle() 
 	{
 		SettingPage setting = new SettingPage(driver);

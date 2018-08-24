@@ -68,20 +68,20 @@ public class EditStyleForWomenTests extends BaseTest4
 		setting.ClickMeTab();
 		setting.ClickSettingButton();
 	}
-	//@Test(priority = 5,groups={"sanity-group"})
+	@Test(priority = 5,groups={"sanity-group"})
 	public void EditStyle() 
 	{
 		SettingPage setting = new SettingPage(driver);
 		//setting.ClickEditStyleTab();
 		setting.ClickStyle();
 		setting.Sleep(150);
-		setting.SelectFromPicker("Boho");
+		//setting.SelectFromPicker("Boho");
 		setting.SelectFromPicker("Classic");
 		setting.ClickDoneOfPicker();
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
 		setting.Sleep(200);
-		Assert.assertTrue(setting.ElementDisplay("//*[contains(@name, 'Classic') or contains(@name, 'Boho')]"));
+		Assert.assertTrue(setting.ElementDisplay("//*[contains(@name, 'Classic') or contains(@name, 'Petite')]"));
 	}
 	@Test(priority = 3,groups={"sanity-group"})
 	public void EditBodyType() 

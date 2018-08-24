@@ -267,7 +267,7 @@ public class BookingPage extends BasePage {
 	}
 	public void ClickSendMoodBoard() 
 	{		
-		Sleep(170);
+		Sleep(250);
 		click(SendMoodBoard);
 		Sleep(150);
 		//WaitElementNotDisplay(By.xpath("//*[@name='Send Mood Board']"));
@@ -350,7 +350,7 @@ public class BookingPage extends BasePage {
 	}
 	public void ClickCreateMoodBoardButton()
 	{		
-		Sleep(170);
+		Sleep(250);
 		click(CreateMoodBoardButton);
 		Sleep(170);
 	}

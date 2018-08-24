@@ -51,6 +51,7 @@ public class ReviseThirdLookTest extends BaseTest
 		//search.ScrollLeft();
 		search.ClickSearch();
 		search.FillStylist("stylistt book");
+		search.Sleep(200);
 		search.SelectStylist("//*[@name='stylistt book']");
 	}	
 	@Test(priority = 3,groups={"sanity-group"})
@@ -125,6 +126,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		booking.ClickCreateMoodBoardButton();
+		//driver.findElement(By.id("Got It")).click();
 		driver.findElement(By.id("Got It")).click();
 		booking.Sleep(200);
 		booking.ClickShop();
@@ -136,6 +138,9 @@ public class ReviseThirdLookTest extends BaseTest
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
+		quiz.SelectCategory("pants");
+		quiz.Sleep(250);
+		quiz.SelectImage3(100,200);
 		booking.ClickSave();
 		booking.FillDescription("moodboard1");
 		booking.ClickToolBarDone();
@@ -507,15 +512,15 @@ public class ReviseThirdLookTest extends BaseTest
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'look3')]"));
 		chat.SelectStylist("//*[@name='stylistt book']");
 		BookingPage booking = new BookingPage(driver);
-		booking.ClickReviseLookClient();
+		booking.Sleep(250);
 		booking.scrollDownXpath();
-		booking.SelectImageForRevise();
-		booking.scrollDownXpath();
-		booking.ClickSendReviseClient();
+		booking.ClickLoveOutfit();
+		driver.resetApp();
+		//BaseTest.capabileties2();	
 		//driver.resetApp();	
 
 	}
-	@Test(priority = 20,groups={"sanity-group"})
+	//@Test(priority = 20,groups={"sanity-group"})
 	public void ReviseLook() throws IOException 
 	{
 		BaseTest.capabileties2();	
@@ -556,7 +561,7 @@ public class ReviseThirdLookTest extends BaseTest
 		booking.ClickReviseLookSaveButton();
 		driver.resetApp();
 	}
-	@Test(priority = 21,groups={"sanity-group"})
+	//@Test(priority = 21,groups={"sanity-group"})
 	public void VerifyCreateRevise1() throws IOException 
 	{
 		BaseTest.capabileties();
@@ -578,7 +583,7 @@ public class ReviseThirdLookTest extends BaseTest
 		booking.scrollDownXpath();
 		booking.ClickLoveOutfit();
 		driver.resetApp();
-		BaseTest.capabileties2();	
+		//BaseTest.capabileties2();	
 
 	}
 	@Test(priority = 22,groups={"sanity-group"})
@@ -614,8 +619,8 @@ public class ReviseThirdLookTest extends BaseTest
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
 		booking.ClickSave();
-		driver.findElement(By.xpath("//*[@name='Add an event']")).click();
-		driver.findElement(By.xpath("//*[@name='Party']")).click();
+		//driver.findElement(By.xpath("//*[@name='Add an event']")).click();
+		//driver.findElement(By.xpath("//*[@name='Party']")).click();
 		booking.FillLookDescription("revise2");
 		booking.ClickToolBarDone();
 		booking.ClickReviseLookSaveButton();
@@ -705,7 +710,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BasePage.AcceptAlert();
 		booking.Clickclose_menu4Button();
 		ChatPage chat = new ChatPage(driver);
-		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'Session Ended, payment sent')]"));
+		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'Payment Sent')]"));
 		driver.resetApp();
 
 

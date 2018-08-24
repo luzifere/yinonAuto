@@ -1,5 +1,6 @@
 package Tests;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -96,6 +97,7 @@ public class QuickQuizForWomenTest extends BaseTest
 		quiz.ClickNextw();
 		quiz.Sleep(200);
 		CeckOutPage.DismissAlert();
+		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with Oren Oren']"));
 		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
 		driver.resetApp();
 	}

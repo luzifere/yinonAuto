@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="19" total="20" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Test Default test]]>
@@ -11,16 +11,61 @@
       <![CDATA[Completed executing following method : BaseTest.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.AskRevise]]>
+      <![CDATA[About to begin executing following method : SignUpByFacbookfailes.SignUpWithFacbookWrongUserName]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.AskRevise]]>
+      <![CDATA[Completed executing following method : SignUpByFacbookfailes.SignUpWithFacbookWrongUserName]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite AskRevise]]>
+      <![CDATA[About to Success executing Suite SignUpWithFacbookWrongUserName]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.SignUpByFacbookfailes]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpByFacbookfailes.SignUpWithFacbookWitOutEmail]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpByFacbookfailes.SignUpWithFacbookWitOutEmail]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SignUpWithFacbookWitOutEmail]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.SignUpByFacbookfailes]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpByFacbookfailes.SignUpWithFacbookWitOutPassword]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpByFacbookfailes.SignUpWithFacbookWitOutPassword]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SignUpWithFacbookWitOutPassword]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.SignUpByFacbookfailes]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpByFacbookfailes.SignUpWithFacbookWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpByFacbookfailes.SignUpWithFacbookWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SignUpWithFacbookWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.SignUpByFacbookfailes]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
@@ -32,48 +77,108 @@
       <![CDATA[Completed executing following method : BaseTest.tearDown]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23836" started-at="2018-08-21T18:21:27Z" finished-at="2018-08-21T18:21:51Z">
+  <suite name="Default suite" duration-ms="31093" started-at="2018-08-23T08:12:58Z" finished-at="2018-08-23T08:13:29Z">
     <groups>
       <group name="sanity-group">
-        <method signature="CrateLookTests.AskRevise()[pri:7, instance:WishiTests.CrateLookTests@5b275dab]" name="AskRevise" class="WishiTests.CrateLookTests"/>
+        <method signature="SignUpByFacbookfailes.SignUpWithFacbookWitOutEmail()[pri:2, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="SignUpWithFacbookWitOutEmail" class="WishiTests.SignUpByFacbookfailes"/>
+        <method signature="SignUpByFacbookfailes.SignUpWithFacbookWitOutPassword()[pri:3, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="SignUpWithFacbookWitOutPassword" class="WishiTests.SignUpByFacbookfailes"/>
+        <method signature="SignUpByFacbookfailes.SignUpWithFacbookWrongPassword()[pri:4, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="SignUpWithFacbookWrongPassword" class="WishiTests.SignUpByFacbookfailes"/>
+        <method signature="SignUpByFacbookfailes.SignUpWithFacbookWrongUserName()[pri:1, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="SignUpWithFacbookWrongUserName" class="WishiTests.SignUpByFacbookfailes"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="23836" started-at="2018-08-21T18:21:27Z" finished-at="2018-08-21T18:21:51Z">
-      <class name="WishiTests.CrateLookTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.CrateLookTests@5b275dab]" name="setup" is-config="true" duration-ms="12256" started-at="2018-08-21T18:21:27Z" finished-at="2018-08-21T18:21:39Z">
+    <test name="Default test" duration-ms="31093" started-at="2018-08-23T08:12:58Z" finished-at="2018-08-23T08:13:29Z">
+      <class name="WishiTests.SignUpByFacbookfailes">
+        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="setup" is-config="true" duration-ms="13764" started-at="2018-08-23T08:12:58Z" finished-at="2018-08-23T08:13:12Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="AskRevise()[pri:7, instance:WishiTests.CrateLookTests@5b275dab]" name="AskRevise" duration-ms="11564" started-at="2018-08-21T18:21:39Z" finished-at="2018-08-21T18:21:51Z">
+        <test-method status="PASS" signature="SignUpWithFacbookWrongUserName()[pri:1, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="SignUpWithFacbookWrongUserName" duration-ms="7671" started-at="2018-08-23T08:13:12Z" finished-at="2018-08-23T08:13:19Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.AskRevise]]>
+              <![CDATA[About to begin executing following method : SignUpByFacbookfailes.SignUpWithFacbookWrongUserName]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.AskRevise]]>
+              <![CDATA[Completed executing following method : SignUpByFacbookfailes.SignUpWithFacbookWrongUserName]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite AskRevise]]>
+              <![CDATA[About to Success executing Suite SignUpWithFacbookWrongUserName]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.SignUpByFacbookfailes]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- AskRevise -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.CrateLookTests@5b275dab]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-08-21T18:21:51Z" finished-at="2018-08-21T18:21:51Z">
+        </test-method> <!-- SignUpWithFacbookWrongUserName -->
+        <test-method status="PASS" signature="SignUpWithFacbookWitOutEmail()[pri:2, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="SignUpWithFacbookWitOutEmail" duration-ms="2624" started-at="2018-08-23T08:13:19Z" finished-at="2018-08-23T08:13:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpByFacbookfailes.SignUpWithFacbookWitOutEmail]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpByFacbookfailes.SignUpWithFacbookWitOutEmail]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SignUpWithFacbookWitOutEmail]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.SignUpByFacbookfailes]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignUpWithFacbookWitOutEmail -->
+        <test-method status="PASS" signature="SignUpWithFacbookWitOutPassword()[pri:3, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="SignUpWithFacbookWitOutPassword" duration-ms="3218" started-at="2018-08-23T08:13:22Z" finished-at="2018-08-23T08:13:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpByFacbookfailes.SignUpWithFacbookWitOutPassword]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpByFacbookfailes.SignUpWithFacbookWitOutPassword]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SignUpWithFacbookWitOutPassword]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.SignUpByFacbookfailes]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignUpWithFacbookWitOutPassword -->
+        <test-method status="PASS" signature="SignUpWithFacbookWrongPassword()[pri:4, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="SignUpWithFacbookWrongPassword" duration-ms="3795" started-at="2018-08-23T08:13:25Z" finished-at="2018-08-23T08:13:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpByFacbookfailes.SignUpWithFacbookWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpByFacbookfailes.SignUpWithFacbookWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SignUpWithFacbookWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.SignUpByFacbookfailes]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignUpWithFacbookWrongPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-08-23T08:13:29Z" finished-at="2018-08-23T08:13:29Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.tearDown]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.CrateLookTests -->
+      </class> <!-- WishiTests.SignUpByFacbookfailes -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

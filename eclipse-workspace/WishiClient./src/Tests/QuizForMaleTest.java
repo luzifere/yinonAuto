@@ -228,6 +228,7 @@ public class QuizForMaleTest extends BaseTest
 		driver.findElement(By.id("Add")).click();
 		//quiz.ClickNextw();
 		quiz.Sleep(250);
+		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with Oren Oren']"));
 		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
 		driver.resetApp();
 	}

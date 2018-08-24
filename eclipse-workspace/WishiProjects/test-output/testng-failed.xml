@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="WishiTests.Listener"/>
-  </listeners>
-  <test thread-count="5" name="BestMatchNaturalTests(failed)">
-    <classes>
-      <class name="WishiTests.BestMatchNaturalTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="BMNatural"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- WishiTests.BestMatchNaturalTests -->
-    </classes>
-  </test> <!-- BestMatchNaturalTests(failed) -->
-  <test thread-count="5" name="BookingStylistTests(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="WishiTests.BookingStylistTests">
         <methods>
+          <include name="CheckOutSession"/>
           <include name="CheckoutUnlimited"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="DoSignUp"/>
         </methods>
       </class> <!-- WishiTests.BookingStylistTests -->
     </classes>
-  </test> <!-- BookingStylistTests(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

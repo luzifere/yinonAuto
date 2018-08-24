@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="DoSignUp">DoSignUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SearchStylist">SearchStylist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectBodyType">SelectBodyType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectClothingCategories">SelectClothingCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectClothingPreferences">SelectClothingPreferences</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectColor">SelectColor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectCountry">SelectCountry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectEvents">SelectEvents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectFabrics">SelectFabrics</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectFitBottom">SelectFitBottom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectFitTop">SelectFitTop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectHeels">SelectHeels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectHeight">SelectHeight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectHighlights">SelectHighlights</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectJeansp">SelectJeansp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectJewelry">SelectJewelry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectSession">SelectSession</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectSize">SelectSize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectYourCloset">SelectYourCloset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.QuizForSelfIdentityTest" hash-for-method="SelectZone">SelectZone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.QuizForSelfIdentityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DoSignUp">
+                  </a> <!-- DoSignUp -->
+                  <span class="method-name">DoSignUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchStylist">
+                  </a> <!-- SearchStylist -->
+                  <span class="method-name">SearchStylist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectBodyType">
+                  </a> <!-- SelectBodyType -->
+                  <span class="method-name">SelectBodyType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectClothingCategories">
+                  </a> <!-- SelectClothingCategories -->
+                  <span class="method-name">SelectClothingCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectClothingPreferences">
+                  </a> <!-- SelectClothingPreferences -->
+                  <span class="method-name">SelectClothingPreferences</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectColor">
+                  </a> <!-- SelectColor -->
+                  <span class="method-name">SelectColor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectCountry">
+                  </a> <!-- SelectCountry -->
+                  <span class="method-name">SelectCountry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectEvents">
+                  </a> <!-- SelectEvents -->
+                  <span class="method-name">SelectEvents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectFabrics">
+                  </a> <!-- SelectFabrics -->
+                  <span class="method-name">SelectFabrics</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectFitBottom">
+                  </a> <!-- SelectFitBottom -->
+                  <span class="method-name">SelectFitBottom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectFitTop">
+                  </a> <!-- SelectFitTop -->
+                  <span class="method-name">SelectFitTop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectHeels">
+                  </a> <!-- SelectHeels -->
+                  <span class="method-name">SelectHeels</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectHeight">
+                  </a> <!-- SelectHeight -->
+                  <span class="method-name">SelectHeight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectHighlights">
+                  </a> <!-- SelectHighlights -->
+                  <span class="method-name">SelectHighlights</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectJeansp">
+                  </a> <!-- SelectJeansp -->
+                  <span class="method-name">SelectJeansp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectJewelry">
+                  </a> <!-- SelectJewelry -->
+                  <span class="method-name">SelectJewelry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectSession">
+                  </a> <!-- SelectSession -->
+                  <span class="method-name">SelectSession</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectSize">
+                  </a> <!-- SelectSize -->
+                  <span class="method-name">SelectSize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectYourCloset">
+                  </a> <!-- SelectYourCloset -->
+                  <span class="method-name">SelectYourCloset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectZone">
+                  </a> <!-- SelectZone -->
+                  <span class="method-name">SelectZone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/private/var/folders/xz/jk5hy2jd3sb1_2b_tghyzylw0000gn/T/testng-eclipse-1365536122/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.QuizForSelfIdentityTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">sanity-group</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">DoSignUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SearchStylist</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectBodyType</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectClothingCategories</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectClothingPreferences</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectColor</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectCountry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectEvents</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectFabrics</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectFitBottom</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectFitTop</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectHeels</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectHeight</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectHighlights</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectJeansp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectJewelry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectSession</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectSize</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectYourCloset</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectZone</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'DoSignUp')
+data.setCell(0, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(0, 3, 129704);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SelectYourCloset')
+data.setCell(1, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(1, 3, 51383);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SelectSize')
+data.setCell(2, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(2, 3, 50498);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SelectCountry')
+data.setCell(3, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(3, 3, 39452);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SelectSession')
+data.setCell(4, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(4, 3, 35679);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SelectEvents')
+data.setCell(5, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(5, 3, 33659);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'SelectClothingCategories')
+data.setCell(6, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(6, 3, 28335);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'SelectColor')
+data.setCell(7, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(7, 3, 25203);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'SelectHighlights')
+data.setCell(8, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(8, 3, 17398);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'SelectJeansp')
+data.setCell(9, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(9, 3, 17253);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'SelectJewelry')
+data.setCell(10, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(10, 3, 17095);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'SelectFabrics')
+data.setCell(11, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(11, 3, 11948);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'SelectFitBottom')
+data.setCell(12, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(12, 3, 11896);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'SelectFitTop')
+data.setCell(13, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(13, 3, 10455);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'SearchStylist')
+data.setCell(14, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(14, 3, 8792);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'SelectHeight')
+data.setCell(15, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(15, 3, 6806);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'SelectBodyType')
+data.setCell(16, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(16, 3, 6761);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'SelectClothingPreferences')
+data.setCell(17, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(17, 3, 6729);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'SelectHeels')
+data.setCell(18, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(18, 3, 6655);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'SelectZone')
+data.setCell(19, 2, 'Tests.QuizForSelfIdentityTest')
+data.setCell(19, 3, 6638);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectHeels</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectHeels</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectHeels</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectHeels</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectBodyType</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectBodyType</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectBodyType</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectBodyType</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DoSignUp</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.DoSignUp</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.DoSignUp</span>
+                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectJeansp</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectJeansp</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectJeansp</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectJeansp</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectFitTop</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectFitTop</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectFitTop</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectFitTop</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectHighlights</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectHighlights</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectHighlights</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectHighlights</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectSize</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectSize</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectSize</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectSize</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectColor</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectColor</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectColor</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectColor</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectJewelry</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectJewelry</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectJewelry</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectJewelry</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectClothingPreferences</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectClothingPreferences</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectClothingPreferences</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectClothingPreferences</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectYourCloset</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectYourCloset</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectYourCloset</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectYourCloset</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectSession</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectSession</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectSession</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectSession</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectClothingCategories</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectClothingCategories</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectClothingCategories</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectClothingCategories</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectCountry</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectCountry</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectCountry</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectCountry</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectEvents</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectEvents</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectEvents</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectEvents</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchStylist</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SearchStylist</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SearchStylist</span>
+                <span class="reporter-method-output">About to Success executing Suite SearchStylist</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectHeight</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectHeight</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectHeight</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectHeight</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectFabrics</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectFabrics</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectFabrics</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectFabrics</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectZone</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectZone</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectZone</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectZone</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectFitBottom</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : QuizForSelfIdentityTest.SelectFitBottom</span>
+                <span class="reporter-method-output">Completed executing following method : QuizForSelfIdentityTest.SelectFitBottom</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectFitBottom</span>
+                <span class="reporter-method-output">Test Method resides in Tests.QuizForSelfIdentityTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.QuizForSelfIdentityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">DoSignUp</span>
+                <span class="method-start">15829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchStylist</span>
+                <span class="method-start">145539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectEvents</span>
+                <span class="method-start">154332 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectSession</span>
+                <span class="method-start">187993 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectCountry</span>
+                <span class="method-start">223674 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectBodyType</span>
+                <span class="method-start">263127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectHeight</span>
+                <span class="method-start">269890 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectSize</span>
+                <span class="method-start">276698 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectColor</span>
+                <span class="method-start">327198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectFabrics</span>
+                <span class="method-start">352403 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectFitTop</span>
+                <span class="method-start">364352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectFitBottom</span>
+                <span class="method-start">374809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectJeansp</span>
+                <span class="method-start">386707 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectHeels</span>
+                <span class="method-start">403962 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectJewelry</span>
+                <span class="method-start">410618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectHighlights</span>
+                <span class="method-start">427714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectZone</span>
+                <span class="method-start">445113 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectClothingPreferences</span>
+                <span class="method-start">451752 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectClothingCategories</span>
+                <span class="method-start">458482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectYourCloset</span>
+                <span class="method-start">486818 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

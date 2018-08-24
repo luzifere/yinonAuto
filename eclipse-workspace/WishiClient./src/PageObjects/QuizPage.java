@@ -171,7 +171,7 @@ public class QuizPage extends BasePage
 	}
 	public void ClickNOtNow() 
 	{		
-		Sleep(150);
+		Sleep(300);
 		click(NotNow);
 		Sleep(250);
 	}

@@ -351,8 +351,10 @@ public class BasePage
 	}
 	public void SelectImage3(int x,int y) 
 	{
+		Sleep(300);
 		IOSTouchAction press = new IOSTouchAction(driver);
 		press.tap(PointOption.point(x,y)).perform();
+		Sleep(300);
 	}	
 
 	public void stam(int x,int y)

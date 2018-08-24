@@ -60,6 +60,7 @@ public class BestMatchLowFeamleTests extends BaseTest
 		best.ClickBack();
 		best.SelectTags("Petite");
 		best.ClickTagsNextButton();
+		best.Sleep(150);
 		best.SelectInspiration("2");
 		best.ClickTagsNextButton();
 		best.ClickBack();

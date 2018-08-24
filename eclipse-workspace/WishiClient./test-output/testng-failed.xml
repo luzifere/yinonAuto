@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Tests.Listener"/>
+  </listeners>
+  <test thread-count="5" name="CheckOutSingleTest(failed)">
     <classes>
-      <class name="Tests.CheckOutByCoponTest">
+      <class name="Tests.CheckOutSingleTest">
         <methods>
+          <include name="CompileBooking"/>
           <include name="setup"/>
-          <include name="SelectSession"/>
         </methods>
-      </class> <!-- Tests.CheckOutByCoponTest -->
+      </class> <!-- Tests.CheckOutSingleTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- CheckOutSingleTest(failed) -->
+  <test thread-count="5" name="QuizForSelfIdentityTest(failed)">
+    <classes>
+      <class name="Tests.QuizForSelfIdentityTest">
+        <methods>
+          <include name="SelectClothingPreferences"/>
+          <include name="setup"/>
+          <include name="SelectHeels"/>
+          <include name="SelectJewelry"/>
+          <include name="SelectClothingCategories"/>
+          <include name="SelectHighlights"/>
+          <include name="SelectYourCloset"/>
+          <include name="SelectZone"/>
+        </methods>
+      </class> <!-- Tests.QuizForSelfIdentityTest -->
+    </classes>
+  </test> <!-- QuizForSelfIdentityTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

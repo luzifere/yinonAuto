@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+<listeners>
+        <listener class-name="Tests.Listener"></listener>
+    </listeners>
+ 
+  
+  
+  
   
 
-  
+  <test thread-count="5" name="ReviseThirdLookTest">
+    <classes>
+      <class name="Tests.ReviseThirdLookTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="BookPSTest">
+    <classes>
+      <class name="Tests.BookPSTest"/>
+    </classes>
+  </test> <!-- Test -->
  
+  <test thread-count="5" name="BestMutch">
+    <classes>
+      <class name="Tests.BestMutch"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="ContactStylistTest">
+    <classes>
+      <class name="Tests.ContactStylistTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="EditStyleForMenTests">
+    <classes>
+      <class name="Tests.EditStyleForMenTests"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="EditStyleForWomenTests">
+    <classes>
+      <class name="Tests.EditStyleForWomenTests"/>
+    </classes>
+  </test> <!-- Test -->
   <test thread-count="5" name="CheckOutMounthTest">
     <classes>
       <class name="Tests.CheckOutMounthTest"/>
@@ -30,13 +67,12 @@
       <class name="Tests.LoginTests"/>
     </classes>
   </test> <!-- Test --> 
-  <test thread-count="5" name="QuickQuizForWomenTest">
+   <test thread-count="5" name="QuickQuizForWomenTest">
     <classes>
       <class name="Tests.QuickQuizForWomenTest"/>
     </classes>
   </test> <!-- Test -->
-  
-  <test thread-count="5" name="QuickQuizMale">
+   <test thread-count="5" name="QuickQuizMale">
     <classes>
       <class name="Tests.QuickQuizForMenTest"/>
     </classes>
@@ -66,40 +102,10 @@
       <class name="Tests.SignUpTest"/>
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="ReviseThirdLookTest">
-    <classes>
-      <class name="Tests.ReviseThirdLookTest"/>
-    </classes>
-  </test> <!-- Test -->
-  <test thread-count="5" name="BookPSTest">
-    <classes>
-      <class name="Tests.BookPSTest"/>
-    </classes>
-  </test> <!-- Test -->
- 
-  <test thread-count="5" name="BestMutch">
-    <classes>
-      <class name="Tests.BestMutch"/>
-    </classes>
-  </test> <!-- Test -->
   <test thread-count="5" name="ChatTest">
     <classes>
       <class name="Tests.ChatTest"/>
     </classes>
   </test> <!-- Test -->
-   <test thread-count="5" name="ContactStylistTest">
-    <classes>
-      <class name="Tests.ContactStylistTest"/>
-    </classes>
-  </test> <!-- Test -->
-<test thread-count="5" name="EditStyleForMenTests">
-    <classes>
-      <class name="Tests.EditStyleForMenTests"/>
-    </classes>
-  </test> <!-- Test -->
-  <test thread-count="5" name="EditStyleForWomenTests">
-    <classes>
-      <class name="Tests.EditStyleForWomenTests"/>
-    </classes>
-  </test> <!-- Test -->
+  
 </suite> <!-- Suite -->
