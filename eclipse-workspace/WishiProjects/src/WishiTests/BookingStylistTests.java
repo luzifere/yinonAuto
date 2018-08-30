@@ -28,9 +28,9 @@ public class BookingStylistTests extends BaseTest
 		SignUpPage signup = new SignUpPage(driver);
 		signup.waitForPageLoaded();
 		Random num = new Random();
-		int number = 35600;
-		for (int counter = 58000; counter<=100000;counter++)
-			number = num.nextInt(7000);
+		int number = 3560000;
+		for (int counter = 5800000; counter<=10000000;counter++)
+			number = num.nextInt(700000);
 		signup.ClickOnSignUpEmail();
 		signup.doSignUp("wishites111@wishi.com" + number, "inon", "av", "ab1565");
 		signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
@@ -120,7 +120,7 @@ public class BookingStylistTests extends BaseTest
 		//BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
 		driver.findElement(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]")).click();
 		booking.ClickBookingstylist();	
-		driver.quit();
+		driver.close();
 	}
 
 

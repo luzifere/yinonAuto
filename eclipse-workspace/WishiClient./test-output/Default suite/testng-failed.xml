@@ -3,13 +3,23 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.ChatTest">
+      <class name="Tests.BookPSTest">
         <methods>
+          <include name="CreateStyle"/>
           <include name="setup"/>
-          <include name="StylistSendToClient"/>
-          <include name="ClientToStylist"/>
+          <include name="CreateStyle2"/>
+          <include name="ClientEndSession"/>
+          <include name="EndSession"/>
+          <include name="DoLogin"/>
+          <include name="VerifyEndSession"/>
+          <include name="VerifyStyle2"/>
+          <include name="VerifyStyle1"/>
+          <include name="CheckOut"/>
+          <include name="CompileBooking"/>
+          <include name="SelectEvents"/>
+          <include name="SearchStylist"/>
         </methods>
-      </class> <!-- Tests.ChatTest -->
+      </class> <!-- Tests.BookPSTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

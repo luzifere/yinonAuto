@@ -72,7 +72,7 @@ public class BestMatchExpensiveFeamleTests extends BaseTest
 		best.ClickMoreStylistsButton();
 		OnBoardingPage2 ob = new OnBoardingPage2(driver);
 		ob.Sleep(300);
-		driver.quit();
+		driver.close();
 		
 	}
 

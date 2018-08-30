@@ -33,7 +33,7 @@ public class LoginWithFacbookTests extends BaseTest
 		//login.switchWindow();
 		login.WaitElementDisplay(By.xpath("//div//span[text()[contains(.,'My Bookings')]]"));
 		Assert.assertTrue(login.ElementDisplay("//div//span[text()[contains(.,'My Bookings')]]"));
-		driver.quit();
+		driver.close();
 	}
 
 }

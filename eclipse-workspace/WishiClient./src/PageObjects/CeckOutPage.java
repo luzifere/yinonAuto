@@ -112,7 +112,8 @@ public class CeckOutPage extends BasePage
 	{		
 		Sleep(500);
 		click(TakeYourStyleQwiz);
-		Sleep(500);
+		//WaitElementDisplay(By.xpath("//*[@name='Allow']"));
+		Sleep(200);
 	}
 	public void ClickNext() 
 	{		

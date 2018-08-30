@@ -4,30 +4,24 @@
   <listeners>
     <listener class-name="Tests.Listener"/>
   </listeners>
-  <test thread-count="5" name="CheckOutSingleTest(failed)">
+  <test thread-count="5" name="CheckOutPSTest(failed)">
     <classes>
-      <class name="Tests.CheckOutSingleTest">
+      <class name="Tests.CheckOutPSTest">
         <methods>
-          <include name="CompileBooking"/>
           <include name="setup"/>
+          <include name="CheckOut"/>
         </methods>
-      </class> <!-- Tests.CheckOutSingleTest -->
+      </class> <!-- Tests.CheckOutPSTest -->
     </classes>
-  </test> <!-- CheckOutSingleTest(failed) -->
-  <test thread-count="5" name="QuizForSelfIdentityTest(failed)">
+  </test> <!-- CheckOutPSTest(failed) -->
+  <test thread-count="5" name="CheckOutByCoponTest(failed)">
     <classes>
-      <class name="Tests.QuizForSelfIdentityTest">
+      <class name="Tests.CheckOutByCoponTest">
         <methods>
-          <include name="SelectClothingPreferences"/>
           <include name="setup"/>
-          <include name="SelectHeels"/>
-          <include name="SelectJewelry"/>
-          <include name="SelectClothingCategories"/>
-          <include name="SelectHighlights"/>
-          <include name="SelectYourCloset"/>
-          <include name="SelectZone"/>
+          <include name="SelectSession"/>
         </methods>
-      </class> <!-- Tests.QuizForSelfIdentityTest -->
+      </class> <!-- Tests.CheckOutByCoponTest -->
     </classes>
-  </test> <!-- QuizForSelfIdentityTest(failed) -->
+  </test> <!-- CheckOutByCoponTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

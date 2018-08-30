@@ -84,6 +84,7 @@ public class BookPSTest extends BaseTest
 		quiz.SelectCountry("//*[@name='Israel']");
 		quiz.FillPhoneField("0523334567");
 		quiz.ClickNextw();
+		CeckOutPage.DismissAlert();
 		//driver.resetApp();
 	}
 	@Test(priority = 6,groups={"sanity-group"})

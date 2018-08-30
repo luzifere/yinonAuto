@@ -98,7 +98,7 @@ public class OnBoadingTests extends BaseTest
 		ob.SelectLevel("2");
 		ob.ClickNext();
 		Assert.assertTrue(ob.ElementDisplay("//div[@class='match-image']"));
-		driver.quit();
+		driver.close();
 	}
 	
 

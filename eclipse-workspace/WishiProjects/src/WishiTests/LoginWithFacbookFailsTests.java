@@ -67,7 +67,7 @@ public class LoginWithFacbookFailsTests extends BaseTest
 		login.ClickLoginButtonOfFacbook();
 		//login.ClickLoginButtonOfFacbook();
 		Assert.assertTrue(login.ElementDisplay("//div[@class='fsl fwb fcb']"));
-		driver.quit();
+		driver.close();
 
 	}
 

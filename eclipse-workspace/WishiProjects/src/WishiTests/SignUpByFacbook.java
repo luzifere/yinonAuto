@@ -20,6 +20,8 @@ public class SignUpByFacbook extends BaseTest
 		//signup.Sleep(1000);
 		String winhandleBefore = driver.getWindowHandle();
 		signup.ClickOnSignUpEmail();
+		signup.WaitElementDisplay(By.xpath("//div[@class='fb ng-binding ng-isolate-scope']"));
+		signup.ConnectWithFB();
 		signup.ConnectWithFB();
 		signup.Sleep(200);
 		signup.switchWindow();
@@ -31,7 +33,7 @@ public class SignUpByFacbook extends BaseTest
 		driver.switchTo().window(winhandleBefore);
 		//signup.switchWindow();
 		Assert.assertTrue(signup.ElementDisplay("//div//span[text()[contains(.,'My Bookings')]]"));
-		driver.quit();
+		driver.close();
 
 	}
 

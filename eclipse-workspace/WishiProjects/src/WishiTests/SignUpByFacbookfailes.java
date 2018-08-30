@@ -19,11 +19,12 @@ public class SignUpByFacbookfailes extends BaseTest
 		signup.waitForPageLoaded();
 		//signup.Sleep(1000);
 		signup.ClickOnSignUpEmail();
+		signup.WaitElementDisplay(By.xpath("//div[@class='fb ng-binding ng-isolate-scope']"));
 		signup.ConnectWithFB();
 		signup.Sleep(200);
 		signup.switchWindow();
 		driver.manage().window().maximize();		
-		signup.FillusernameOfFacbook("luzifere11@gmail.com");
+		signup.FillusernameOfFacbook("ariel@gmail.com");
 		signup.FillPasswordOfFacbook("inonab1565");
 		signup.ClickLoginButtonOfFacbook();
 		Assert.assertTrue(signup.ElementDisplay("//div[@class='fsl fwb fcb']"));
@@ -52,7 +53,7 @@ public class SignUpByFacbookfailes extends BaseTest
 		signup.FillPasswordOfFacbook("inon44ab1565");
 		signup.ClickLoginButtonOfFacbook();
 		Assert.assertTrue(signup.ElementDisplay("//div[@class='fsl fwb fcb']"));
-		driver.quit();
+		driver.close();
 	}
 
 

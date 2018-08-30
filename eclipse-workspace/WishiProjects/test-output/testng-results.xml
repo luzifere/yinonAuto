@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Test Default test]]>
@@ -11,61 +11,31 @@
       <![CDATA[Completed executing following method : BaseTest.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : SignUpByFacbookfailes.SignUpWithFacbookWrongUserName]]>
+      <![CDATA[About to begin executing following method : BookingMembershipTests.DoLogin]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : SignUpByFacbookfailes.SignUpWithFacbookWrongUserName]]>
+      <![CDATA[Completed executing following method : BookingMembershipTests.DoLogin]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite SignUpWithFacbookWrongUserName]]>
+      <![CDATA[About to Success executing Suite DoLogin]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.SignUpByFacbookfailes]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : SignUpByFacbookfailes.SignUpWithFacbookWitOutEmail]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : SignUpByFacbookfailes.SignUpWithFacbookWitOutEmail]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SignUpWithFacbookWitOutEmail]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.SignUpByFacbookfailes]]>
+      <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : SignUpByFacbookfailes.SignUpWithFacbookWitOutPassword]]>
+      <![CDATA[About to begin executing following method : BookingMembershipTests.CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : SignUpByFacbookfailes.SignUpWithFacbookWitOutPassword]]>
+      <![CDATA[Completed executing following method : BookingMembershipTests.CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite SignUpWithFacbookWitOutPassword]]>
+      <![CDATA[About to Success executing Suite CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.SignUpByFacbookfailes]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : SignUpByFacbookfailes.SignUpWithFacbookWrongPassword]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : SignUpByFacbookfailes.SignUpWithFacbookWrongPassword]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SignUpWithFacbookWrongPassword]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.SignUpByFacbookfailes]]>
+      <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
@@ -77,108 +47,68 @@
       <![CDATA[Completed executing following method : BaseTest.tearDown]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31093" started-at="2018-08-23T08:12:58Z" finished-at="2018-08-23T08:13:29Z">
+  <suite name="Default suite" duration-ms="63928" started-at="2018-08-30T12:23:55Z" finished-at="2018-08-30T12:24:59Z">
     <groups>
       <group name="sanity-group">
-        <method signature="SignUpByFacbookfailes.SignUpWithFacbookWitOutEmail()[pri:2, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="SignUpWithFacbookWitOutEmail" class="WishiTests.SignUpByFacbookfailes"/>
-        <method signature="SignUpByFacbookfailes.SignUpWithFacbookWitOutPassword()[pri:3, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="SignUpWithFacbookWitOutPassword" class="WishiTests.SignUpByFacbookfailes"/>
-        <method signature="SignUpByFacbookfailes.SignUpWithFacbookWrongPassword()[pri:4, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="SignUpWithFacbookWrongPassword" class="WishiTests.SignUpByFacbookfailes"/>
-        <method signature="SignUpByFacbookfailes.SignUpWithFacbookWrongUserName()[pri:1, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="SignUpWithFacbookWrongUserName" class="WishiTests.SignUpByFacbookfailes"/>
+        <method signature="BookingMembershipTests.CheckOutSession()[pri:2, instance:WishiTests.BookingMembershipTests@d8355a8]" name="CheckOutSession" class="WishiTests.BookingMembershipTests"/>
+        <method signature="BookingMembershipTests.DoLogin()[pri:1, instance:WishiTests.BookingMembershipTests@d8355a8]" name="DoLogin" class="WishiTests.BookingMembershipTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="31093" started-at="2018-08-23T08:12:58Z" finished-at="2018-08-23T08:13:29Z">
-      <class name="WishiTests.SignUpByFacbookfailes">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="setup" is-config="true" duration-ms="13764" started-at="2018-08-23T08:12:58Z" finished-at="2018-08-23T08:13:12Z">
+    <test name="Default test" duration-ms="63928" started-at="2018-08-30T12:23:55Z" finished-at="2018-08-30T12:24:59Z">
+      <class name="WishiTests.BookingMembershipTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.BookingMembershipTests@d8355a8]" name="setup" is-config="true" duration-ms="19779" started-at="2018-08-30T12:23:55Z" finished-at="2018-08-30T12:24:14Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="SignUpWithFacbookWrongUserName()[pri:1, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="SignUpWithFacbookWrongUserName" duration-ms="7671" started-at="2018-08-23T08:13:12Z" finished-at="2018-08-23T08:13:19Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:WishiTests.BookingMembershipTests@d8355a8]" name="DoLogin" duration-ms="12336" started-at="2018-08-30T12:24:14Z" finished-at="2018-08-30T12:24:27Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : SignUpByFacbookfailes.SignUpWithFacbookWrongUserName]]>
+              <![CDATA[About to begin executing following method : BookingMembershipTests.DoLogin]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : SignUpByFacbookfailes.SignUpWithFacbookWrongUserName]]>
+              <![CDATA[Completed executing following method : BookingMembershipTests.DoLogin]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite SignUpWithFacbookWrongUserName]]>
+              <![CDATA[About to Success executing Suite DoLogin]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.SignUpByFacbookfailes]]>
+              <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- SignUpWithFacbookWrongUserName -->
-        <test-method status="PASS" signature="SignUpWithFacbookWitOutEmail()[pri:2, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="SignUpWithFacbookWitOutEmail" duration-ms="2624" started-at="2018-08-23T08:13:19Z" finished-at="2018-08-23T08:13:22Z">
+        </test-method> <!-- DoLogin -->
+        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:WishiTests.BookingMembershipTests@d8355a8]" name="CheckOutSession" duration-ms="31793" started-at="2018-08-30T12:24:27Z" finished-at="2018-08-30T12:24:59Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : SignUpByFacbookfailes.SignUpWithFacbookWitOutEmail]]>
+              <![CDATA[About to begin executing following method : BookingMembershipTests.CheckOutSession]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : SignUpByFacbookfailes.SignUpWithFacbookWitOutEmail]]>
+              <![CDATA[Completed executing following method : BookingMembershipTests.CheckOutSession]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite SignUpWithFacbookWitOutEmail]]>
+              <![CDATA[About to Success executing Suite CheckOutSession]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.SignUpByFacbookfailes]]>
+              <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- SignUpWithFacbookWitOutEmail -->
-        <test-method status="PASS" signature="SignUpWithFacbookWitOutPassword()[pri:3, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="SignUpWithFacbookWitOutPassword" duration-ms="3218" started-at="2018-08-23T08:13:22Z" finished-at="2018-08-23T08:13:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : SignUpByFacbookfailes.SignUpWithFacbookWitOutPassword]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : SignUpByFacbookfailes.SignUpWithFacbookWitOutPassword]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SignUpWithFacbookWitOutPassword]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.SignUpByFacbookfailes]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SignUpWithFacbookWitOutPassword -->
-        <test-method status="PASS" signature="SignUpWithFacbookWrongPassword()[pri:4, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="SignUpWithFacbookWrongPassword" duration-ms="3795" started-at="2018-08-23T08:13:25Z" finished-at="2018-08-23T08:13:29Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : SignUpByFacbookfailes.SignUpWithFacbookWrongPassword]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : SignUpByFacbookfailes.SignUpWithFacbookWrongPassword]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SignUpWithFacbookWrongPassword]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.SignUpByFacbookfailes]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SignUpWithFacbookWrongPassword -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.SignUpByFacbookfailes@d8355a8]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-08-23T08:13:29Z" finished-at="2018-08-23T08:13:29Z">
+        </test-method> <!-- CheckOutSession -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.BookingMembershipTests@d8355a8]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-08-30T12:24:59Z" finished-at="2018-08-30T12:24:59Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.tearDown]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.SignUpByFacbookfailes -->
+      </class> <!-- WishiTests.BookingMembershipTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

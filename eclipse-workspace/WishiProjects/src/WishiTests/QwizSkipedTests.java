@@ -83,7 +83,7 @@ public class QwizSkipedTests extends BaseTest
 		qwiz.ClickSkip();
 		qwiz.ClickNext();
 		Assert.assertTrue(qwiz.ElementDisplay("//button[@class='input_btn']"));
-		driver.quit();
+		driver.close();
 
 	}
 

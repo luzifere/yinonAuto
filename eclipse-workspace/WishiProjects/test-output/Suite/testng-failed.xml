@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="WishiTests.Listener"/>
   </listeners>
-  <test thread-count="5" name="BestMatchNaturalTests(failed)">
+  <test thread-count="5" name="BestMatchExpensiveFeamleTests(failed)">
     <classes>
-      <class name="WishiTests.BestMatchNaturalTests">
+      <class name="WishiTests.BestMatchExpensiveFeamleTests">
         <methods>
           <include name="tearDown"/>
-          <include name="BMNatural"/>
+          <include name="BMExpensiveFeamle"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- WishiTests.BestMatchNaturalTests -->
+      </class> <!-- WishiTests.BestMatchExpensiveFeamleTests -->
     </classes>
-  </test> <!-- BestMatchNaturalTests(failed) -->
-  <test thread-count="5" name="BookingStylistTests(failed)">
+  </test> <!-- BestMatchExpensiveFeamleTests(failed) -->
+  <test thread-count="5" name="UploadItemTest(failed)">
     <classes>
-      <class name="WishiTests.BookingStylistTests">
+      <class name="WishiTests.UploadItemTest">
         <methods>
-          <include name="CheckoutUnlimited"/>
+          <include name="Uploaditem"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- WishiTests.BookingStylistTests -->
+      </class> <!-- WishiTests.UploadItemTest -->
     </classes>
-  </test> <!-- BookingStylistTests(failed) -->
+  </test> <!-- UploadItemTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
