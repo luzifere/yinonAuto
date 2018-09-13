@@ -33,7 +33,7 @@ public class SignUpByFacbook extends BaseTest
 		driver.switchTo().window(winhandleBefore);
 		//signup.switchWindow();
 		Assert.assertTrue(signup.ElementDisplay("//div//span[text()[contains(.,'My Bookings')]]"));
-		driver.close();
+		signup.close();
 
 	}
 

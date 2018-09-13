@@ -59,7 +59,7 @@ public class BookingPage extends BasePage {
 
 	@FindBy(xpath="//*[@name='Username']")
 	WebElement UserNAme;
-	@FindBy(xpath="//*[@name='SAVE LOOK']")
+	@FindBy(xpath="//*[@name='Save']")
 	WebElement LookSaveButton;
 	@FindBy(xpath="//*[@name='Password']")
 	WebElement Password;
@@ -93,9 +93,67 @@ public class BookingPage extends BasePage {
 	WebElement ApproveEndSession;
 	@FindBy(xpath="(//*[@name='Star grey'])[5]")
 	WebElement RateStylist;
+	@FindBy(xpath="//*[@name='FourButtonID']")
+	WebElement FourButtonID;
+	@FindBy(xpath="//*[@name='SixButtonID']")
+	WebElement SixButtonID;
+	@FindBy(xpath="//*[@name='TenButtonID']")
+	WebElement TenButtonID;
+	@FindBy(xpath="//*[@name='NoneButtonID']")
+	WebElement NoneButtonID;
+	@FindBy(xpath="//*[@name='DoneButtonID']")
+	WebElement DoneButtonID;
+	@FindBy(xpath="//*[@name='NextButtinID']")
+	WebElement NextButtonID;
 	//@FindBy(xpath="//*[@name='Submit']")
 	@FindBy(id="Submit")
 	WebElement Submit;
+	
+	
+	public void TipToStylist() 
+	{
+		Sleep(170);
+		click(FourButtonID);
+		Sleep(170);
+		click(DoneButtonID);
+		WaitElementDisplay(By.xpath("//*[@name='Feed']"));
+	}
+	public void ClickFourButtonID() 
+	{
+		Sleep(170);
+		click(FourButtonID);
+		Sleep(170);
+	}
+	public void ClickSixButtonID() 
+	{
+		Sleep(170);
+		click(SixButtonID);
+		Sleep(170);
+	}
+	public void ClickTenButtonID() 
+	{
+		Sleep(170);
+		click(TenButtonID);
+		Sleep(170);
+	}
+	public void ClickNoneButtonID() 
+	{
+		Sleep(170);
+		click(NoneButtonID);
+		Sleep(170);
+	}
+	public void ClickDoneButtonID() 
+	{
+		Sleep(170);
+		click(DoneButtonID);
+		Sleep(170);
+	}
+	public void ClickNextButtonID() 
+	{
+		Sleep(170);
+		click(NextButtonID);
+		Sleep(170);
+	}
 
 	public void ClickLoveItem() 
 	{
@@ -108,6 +166,10 @@ public class BookingPage extends BasePage {
 		System.out.println(last);
 		Sleep(170);
 		elements.get(count-1).click();
+		//WebElement loveitem = elements.get(count-1);
+		//ScrollTooElement2(loveitem);
+		//loveitem.click();
+
 		Sleep(200);
 		WaitElementDisplay(By.id("WriteMessageID"));
 	}
@@ -191,11 +253,11 @@ public class BookingPage extends BasePage {
 	}
 	public void ClickReviseLookClient() 
 	{
+		
 		Sleep(170);
+		
 		scrollUp();
 		scrollUp();
-		scrollUp();
-		scrollDownXpath();
 		scrollDownXpath();
 		scrollDownXpath();
 		scrollDownXpath();
@@ -290,25 +352,29 @@ public class BookingPage extends BasePage {
 	{		
 		Sleep(170);
 		click(SendEndSession);
-		WaitElementDisplay(By.xpath("//*[@name='ChatButton']"));
+		WaitElementDisplay(By.xpath("//*[@name='No Action Needed']"));
 		}
 	public void ClickLookSaveButton()
 	{		
 		Sleep(170);
 		click(LookSaveButton);
+		BasePage.AcceptAlert();
 		WaitElementDisplay(By.id("BackButton"));
 	}
 	public void ClickReviseLookSaveButton()
 	{		
 		Sleep(170);
 		click(LookSaveButton);
+		BasePage.AcceptAlert();
 		WaitElementDisplay(By.id("My Bookings"));
 	}
 	public void RateStylist()
 	{		
 		Sleep(170);
 		click(RateStylist);
-		Sleep(700);
+		WaitElementDisplay(By.xpath("//*[@name='Your review will be public']"));
+		click(NextButtonID);
+		WaitElementDisplay(By.xpath("//*[@name='Add Tip']"));
 	}
 	public void ClickSubmit()
 	{		

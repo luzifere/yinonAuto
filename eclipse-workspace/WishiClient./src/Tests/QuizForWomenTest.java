@@ -116,7 +116,9 @@ public class QuizForWomenTest extends BaseTest
 	public void SelectCountry() 
 	{
 		QuizPage quiz = new QuizPage(driver);
+		CeckOutPage co = new CeckOutPage(driver);
 		QuizPage.DismissAlert();
+		co.HowDidYouHearAboutUs("yinon");
 		quiz.ClickShowState();
 		quiz.FillSearchCountry("israel");
 		quiz.SelectCountry("//*[@name='Israel']");

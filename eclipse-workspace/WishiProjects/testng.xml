@@ -4,7 +4,17 @@
 <listeners>
         <listener class-name="WishiTests.Listener"></listener>
     </listeners>
-   
+     <test name="BookingsingleTests">
+    <classes>
+       <class name="WishiTests.BookingsingleTests"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="BookingMembershipTests">
+    <classes>
+       <class name="WishiTests.BookingMembershipTests"/>
+    </classes>
+  </test> <!-- Test -->
+  
    <test name="LoginWithFacbookFailsTests">
     <classes>
       <class name="WishiTests.LoginWithFacbookFailsTests"/>
@@ -75,16 +85,7 @@
       <class name="WishiTests.ChatTests"/>
     </classes>
     </test> <!-- Test -->
-    <test name="BookingMembershipTests">
-    <classes>
-       <class name="WishiTests.BookingMembershipTests"/>
-    </classes>
-  </test> <!-- Test -->
-   <test name="BookingsingleTests">
-    <classes>
-       <class name="WishiTests.BookingsingleTests"/>
-    </classes>
-  </test> <!-- Test -->
+   
     <test name="QwizTests">
     <classes>
       <class name="WishiTests.QwizTests"/>

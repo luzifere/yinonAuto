@@ -79,6 +79,7 @@ public class QuickQuizForWomenTest extends BaseTest
 		co.ClickTakeYourStyleQwiz();
 		QuizPage quiz = new QuizPage(driver);
 		QuizPage.DismissAlert();
+		co.HowDidYouHearAboutUs("yinon");
 		quiz.ClickShowState();
 		quiz.FillSearchCountry("israel");
 		quiz.SelectCountry("//*[@name='Israel']");

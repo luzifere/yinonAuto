@@ -11,31 +11,31 @@
       <![CDATA[Completed executing following method : BaseTest.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : BookingMembershipTests.DoLogin]]>
+      <![CDATA[About to begin executing following method : BookingsingleTests.DoSignUp]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : BookingMembershipTests.DoLogin]]>
+      <![CDATA[Completed executing following method : BookingsingleTests.DoSignUp]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite DoLogin]]>
+      <![CDATA[About to Success executing Suite DoSignUp]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookingsingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : BookingMembershipTests.CheckOutSession]]>
+      <![CDATA[About to begin executing following method : BookingsingleTests.CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : BookingMembershipTests.CheckOutSession]]>
+      <![CDATA[Completed executing following method : BookingsingleTests.CheckOutSession]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookingsingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
@@ -47,68 +47,68 @@
       <![CDATA[Completed executing following method : BaseTest.tearDown]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="63928" started-at="2018-08-30T12:23:55Z" finished-at="2018-08-30T12:24:59Z">
+  <suite name="Default suite" duration-ms="162351" started-at="2018-09-02T09:19:19Z" finished-at="2018-09-02T09:22:01Z">
     <groups>
       <group name="sanity-group">
-        <method signature="BookingMembershipTests.CheckOutSession()[pri:2, instance:WishiTests.BookingMembershipTests@d8355a8]" name="CheckOutSession" class="WishiTests.BookingMembershipTests"/>
-        <method signature="BookingMembershipTests.DoLogin()[pri:1, instance:WishiTests.BookingMembershipTests@d8355a8]" name="DoLogin" class="WishiTests.BookingMembershipTests"/>
+        <method signature="BookingsingleTests.CheckOutSession()[pri:2, instance:WishiTests.BookingsingleTests@9353778]" name="CheckOutSession" class="WishiTests.BookingsingleTests"/>
+        <method signature="BookingsingleTests.DoSignUp()[pri:1, instance:WishiTests.BookingsingleTests@9353778]" name="DoSignUp" class="WishiTests.BookingsingleTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="63928" started-at="2018-08-30T12:23:55Z" finished-at="2018-08-30T12:24:59Z">
-      <class name="WishiTests.BookingMembershipTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.BookingMembershipTests@d8355a8]" name="setup" is-config="true" duration-ms="19779" started-at="2018-08-30T12:23:55Z" finished-at="2018-08-30T12:24:14Z">
+    <test name="Default test" duration-ms="162351" started-at="2018-09-02T09:19:19Z" finished-at="2018-09-02T09:22:01Z">
+      <class name="WishiTests.BookingsingleTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.BookingsingleTests@9353778]" name="setup" is-config="true" duration-ms="19497" started-at="2018-09-02T09:19:19Z" finished-at="2018-09-02T09:19:38Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:WishiTests.BookingMembershipTests@d8355a8]" name="DoLogin" duration-ms="12336" started-at="2018-08-30T12:24:14Z" finished-at="2018-08-30T12:24:27Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:WishiTests.BookingsingleTests@9353778]" name="DoSignUp" duration-ms="65066" started-at="2018-09-02T09:19:38Z" finished-at="2018-09-02T09:20:43Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : BookingMembershipTests.DoLogin]]>
+              <![CDATA[About to begin executing following method : BookingsingleTests.DoSignUp]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : BookingMembershipTests.DoLogin]]>
+              <![CDATA[Completed executing following method : BookingsingleTests.DoSignUp]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite DoLogin]]>
+              <![CDATA[About to Success executing Suite DoSignUp]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookingsingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:WishiTests.BookingMembershipTests@d8355a8]" name="CheckOutSession" duration-ms="31793" started-at="2018-08-30T12:24:27Z" finished-at="2018-08-30T12:24:59Z">
+        </test-method> <!-- DoSignUp -->
+        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:WishiTests.BookingsingleTests@9353778]" name="CheckOutSession" duration-ms="77759" started-at="2018-09-02T09:20:43Z" finished-at="2018-09-02T09:22:01Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : BookingMembershipTests.CheckOutSession]]>
+              <![CDATA[About to begin executing following method : BookingsingleTests.CheckOutSession]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : BookingMembershipTests.CheckOutSession]]>
+              <![CDATA[Completed executing following method : BookingsingleTests.CheckOutSession]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite CheckOutSession]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookingsingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- CheckOutSession -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.BookingMembershipTests@d8355a8]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-08-30T12:24:59Z" finished-at="2018-08-30T12:24:59Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.BookingsingleTests@9353778]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-09-02T09:22:01Z" finished-at="2018-09-02T09:22:01Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.tearDown]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.BookingMembershipTests -->
+      </class> <!-- WishiTests.BookingsingleTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

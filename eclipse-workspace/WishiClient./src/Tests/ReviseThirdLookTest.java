@@ -32,7 +32,7 @@ public class ReviseThirdLookTest extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client106@wishi.com");
+		login.Fillusername("yinontesting@wishitest.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -89,7 +89,9 @@ public class ReviseThirdLookTest extends BaseTest
 	public void CompileBooking()
 	{
 		QuizPage quiz = new QuizPage(driver);
+		CeckOutPage co = new CeckOutPage(driver);
 		QuizPage.DismissAlert();
+		co.HowDidYouHearAboutUs("yinon");
 		quiz.ClickShowState();
 		quiz.FillSearchCountry("israel");
 		quiz.SelectCountry("//*[@name='Israel']");
@@ -104,6 +106,7 @@ public class ReviseThirdLookTest extends BaseTest
 		quiz.SelectJeans("Skinny");
 		quiz.ClickNextw();
 		quiz.SelectCC("Tops");
+		quiz.scrollDownXpath();
 		quiz.SelectCC("Hats");
 		quiz.ClickNextw();
 		quiz.Sleep(200);
@@ -134,11 +137,11 @@ public class ReviseThirdLookTest extends BaseTest
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
-		quiz.SelectCategory("shorts");
+		quiz.SelectCategory("shorts_new");
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
-		quiz.SelectCategory("pants");
+		quiz.SelectCategory("pants_new");
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		booking.ClickSave();
@@ -153,7 +156,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client106@wishi.com");
+		login.Fillusername("yinontesting@wishitest.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -166,7 +169,6 @@ public class ReviseThirdLookTest extends BaseTest
 		chat.SelectStylist("//*[@name='stylistt book']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
-		booking.scrollDownXpath();
 		booking.ClickLoveItem();
 		//driver.resetApp();
 		//driver.findElement(By.xpath("//*[@name='Love all your ideas!'][1]")).click();
@@ -195,7 +197,7 @@ public class ReviseThirdLookTest extends BaseTest
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
-		quiz.SelectCategory("shorts");
+		quiz.SelectCategory("shorts_new");
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
@@ -211,7 +213,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client106@wishi.com");
+		login.Fillusername("yinontesting@wishitest.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -251,7 +253,7 @@ public class ReviseThirdLookTest extends BaseTest
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
-		quiz.SelectCategory("shorts");
+		quiz.SelectCategory("shorts_new");
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
@@ -267,7 +269,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client106@wishi.com");
+		login.Fillusername("yinontesting@wishitest.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -307,7 +309,7 @@ public class ReviseThirdLookTest extends BaseTest
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
-		quiz.SelectCategory("shorts");
+		quiz.SelectCategory("shorts_new");
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
@@ -323,7 +325,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client106@wishi.com");
+		login.Fillusername("yinontesting@wishitest.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -335,6 +337,8 @@ public class ReviseThirdLookTest extends BaseTest
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'look2')]"));
 		chat.SelectStylist("//*[@name='stylistt book']");
 		BookingPage booking = new BookingPage(driver);
+		booking.Sleep(150);
+		booking.scrollDownXpath();
 		booking.ClickReviseLookClient();
 		booking.scrollDownXpath();
 		booking.SelectImageForRevise();
@@ -365,12 +369,12 @@ public class ReviseThirdLookTest extends BaseTest
 		booking.Sleep(200);
 		booking.ClickUpArrow();
 		QuizPage quiz = new QuizPage(driver);
-		quiz.SelectCategory("pants");
+		quiz.SelectCategory("pants_new");
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
 		booking.Sleep(200);
-		quiz.SelectCategory("shoes");
+		quiz.SelectCategory("shoes_new");
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
@@ -387,7 +391,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client106@wishi.com");
+		login.Fillusername("yinontesting@wishitest.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -428,7 +432,7 @@ public class ReviseThirdLookTest extends BaseTest
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
-		quiz.SelectCategory("shorts");
+		quiz.SelectCategory("shorts_new");
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
@@ -444,7 +448,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client106@wishi.com");
+		login.Fillusername("yinontesting@wishitest.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -484,7 +488,7 @@ public class ReviseThirdLookTest extends BaseTest
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
-		quiz.SelectCategory("shorts");
+		quiz.SelectCategory("shorts_new");
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
@@ -500,7 +504,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client106@wishi.com");
+		login.Fillusername("yinontesting@wishitest.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -543,7 +547,7 @@ public class ReviseThirdLookTest extends BaseTest
 		booking.Sleep(200);
 		booking.ClickUpArrow();
 		QuizPage quiz = new QuizPage(driver);
-		quiz.SelectCategory("pants");
+		quiz.SelectCategory("pants_new");
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
@@ -567,7 +571,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client106@wishi.com");
+		login.Fillusername("yinontesting@wishitest.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -610,12 +614,12 @@ public class ReviseThirdLookTest extends BaseTest
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
-		quiz.SelectCategory("shorts");
+		quiz.SelectCategory("shorts_new");
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
 		quiz.Sleep(250);
-		quiz.SelectCategory("pants");
+		quiz.SelectCategory("pants_new");
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
 		booking.ClickSave();
@@ -632,7 +636,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client106@wishi.com");
+		login.Fillusername("yinontesting@wishitest.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -675,7 +679,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client106@wishi.com");
+		login.Fillusername("yinontesting@wishitest.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -688,10 +692,9 @@ public class ReviseThirdLookTest extends BaseTest
 		chat.Sleep(500);
 		BookingPage booking = new BookingPage(driver);
 		booking.scrollDownXpath();
-		booking.scrollDownXpath();
 		booking.ApproveEndSession();
 		booking.RateStylist();
-		booking.ClickSubmit();
+		booking.TipToStylist();
 		driver.resetApp();
 	}
 	@Test(priority = 26,groups={"sanity-group"})

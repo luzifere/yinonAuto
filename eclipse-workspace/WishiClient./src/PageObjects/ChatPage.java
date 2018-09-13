@@ -36,9 +36,9 @@ public class ChatPage extends BasePage {
 	WebElement ChatButton;
 	@FindBy(id="close_menu4")
 	WebElement close_menu4Button;
-	@FindBy(xpath="//*[@name='WriteMessage']")
+	@FindBy(xpath="//*[@name='WriteMessageID']")
 	WebElement WriteMessage;
-	@FindBy(xpath="//*[@name='SendButton']")
+	@FindBy(xpath="//*[@name='Send']")
 	WebElement SendButton;
 	@FindBy(xpath="//*[@name='WriteMessageID']")
 	WebElement WriteMessageClient;

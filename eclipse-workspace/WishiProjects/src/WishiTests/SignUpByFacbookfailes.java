@@ -53,7 +53,7 @@ public class SignUpByFacbookfailes extends BaseTest
 		signup.FillPasswordOfFacbook("inon44ab1565");
 		signup.ClickLoginButtonOfFacbook();
 		Assert.assertTrue(signup.ElementDisplay("//div[@class='fsl fwb fcb']"));
-		driver.close();
+		signup.close();
 	}
 
 

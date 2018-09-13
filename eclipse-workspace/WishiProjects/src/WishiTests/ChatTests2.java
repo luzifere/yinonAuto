@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.Random;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -12,25 +13,25 @@ import PageObject.ChatPage;
 import PageObject.CrateLookPage;
 import PageObject.LoginPage;
 @Listeners(WishiTests.Listener.class)
-public class ChatTests extends BaseTest
+public class ChatTests2 extends BaseTest
 {
 	String textforchat ;
 
 	@Test(priority = 1,groups={"sanity-group"})
-	   public void LoginAsStylist() 
-		{
-			LoginPage login = new LoginPage(driver);
-			login.waitForPageLoaded();
-			login.ClickLoginButton();
-			try {
-				login.r();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			login.doLogin("staylistchat@wishi.com", "123456");
-
+	public void LoginAsStylist() 
+	{
+		LoginPage login = new LoginPage(driver);
+		login.waitForPageLoaded();
+		login.ClickLoginButton();
+		try {
+			login.r();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
+		login.doLogin("wishi.test@wishi.com", "123456");
+
+	}
 	@Test(priority = 2,groups={"sanity-group"})
 	public void SendChatToclient ()
 	{
@@ -44,6 +45,8 @@ public class ChatTests extends BaseTest
 		driver.findElement(By.xpath("(//button[@class='create-look-btn'])[1]")).click();
 		//chat.SelectUser("Client");
 		chat.Sleep(100);
+		WebElement text = driver.findElement(By.xpath("(//div[@class='all-reply-items-look']//div[text()[contains(.,'I love it')]])[3]"));
+		chat.ScrollTooElement(text);
 		chat.FillChat(textforchat);
 		chat.SendChat();
 		Assert.assertTrue(chat.ChatDisplay(textforchat));	

@@ -19,6 +19,14 @@ public class CeckOutPage extends BasePage
 	}
 	@FindBy(xpath="//*[@name='plusButtonID']")
 	WebElement PlusButtonOfEvents;
+	@FindBy(xpath="//*[@name='Instagram']")
+	WebElement Instagram;
+	@FindBy(xpath="//*[@name='Another account']")
+	WebElement Another_account;
+	@FindBy(xpath="//*[@name='AnotherAccountTextFieldID']")
+	WebElement AnotherAccountTextFieldID;
+	@FindBy(xpath="//*[@name='NextButtonID']")
+	WebElement NextButtonID;
 	@FindBy(xpath="//*[@name='minusButtonID']")
 	WebElement MinusButtonOfEvents;
 	@FindBy(xpath="//*[@name='Remind me later']")
@@ -74,7 +82,18 @@ public class CeckOutPage extends BasePage
 	@FindBy(id="back")
 	WebElement backButton;
 
-
+	public void HowDidYouHearAboutUs(String instegram) 
+	{		
+		Sleep(200);
+		click(Instagram);
+		Sleep(200);
+		click(Another_account);
+		Sleep(200);
+		filltext(AnotherAccountTextFieldID,instegram);
+		click(NextButtonID);
+		WaitElementDisplay(By.xpath("//*[@name='Phone number']"));
+		
+	}
 	public void SelectCellOfStylist(String cell) 
 	{
 		String CellElemet = ("Text1");

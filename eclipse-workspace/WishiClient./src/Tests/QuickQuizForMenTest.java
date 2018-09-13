@@ -63,7 +63,7 @@ public class QuickQuizForMenTest extends BaseTest
 		CeckOutPage co = new CeckOutPage(driver);
 		co.ClickMonthButton();
 		co.ClickSingleButton();
-		//co.ClickMonthButton();
+		co.ClickMonthButton();
 		co.Sleep(100);
 		//co.scrollDownXpath();
 		co.ClickPayWithCreditCard();
@@ -83,6 +83,9 @@ public class QuickQuizForMenTest extends BaseTest
 	{
 		QuizPage quiz = new QuizPage(driver);
 		QuizPage.DismissAlert();
+		CeckOutPage co = new CeckOutPage(driver);
+		QuizPage.DismissAlert();
+		co.HowDidYouHearAboutUs("yinon");
 		quiz.ClickShowState();
 		quiz.FillSearchCountry("israel");
 		quiz.SelectCountry("//*[@name='Israel']");

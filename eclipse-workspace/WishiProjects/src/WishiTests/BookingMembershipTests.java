@@ -24,13 +24,38 @@ public class BookingMembershipTests extends BaseTest
 {
 
 	@Test(priority = 1,groups={"sanity-group"})
-	public void DoLogin() 
+	public void DoSignUp()
 	{
-		LoginPage login = new LoginPage(driver);
-		login.waitForPageLoaded();
-		login.ClickLoginButton();
-		login.doLogin("wishites111@wishi.com343230", "ab1565");
-		login.Sleep(200);
+		SignUpPage signup = new SignUpPage(driver);
+		signup.waitForPageLoaded();
+		Random num = new Random();
+		int number = 3560000;
+		for (int counter = 5800000; counter<=10000000;counter++)
+			number = num.nextInt(700000);
+		signup.ClickOnSignUpEmail();
+		signup.doSignUp("wishites111@wishi.com" + number, "inon", "av", "ab1565");
+		signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
+		BestMatchPage best = new BestMatchPage(driver);
+		best.ClickontinueButton();
+		best.ClickFamle();
+		best.FillAge("45");
+		/*
+		best.selectMounts(3);
+		best.selectDays(16);
+		best.selectYears(9);
+		*/
+		best.ClickNextbutton();
+		best.SelectNormal();
+		best.SelectNormal2();
+		best.WaitElementDisplay(By.xpath("//a[text()[contains(.,'Petite')]]"));
+		best.SelectTags("Petite");
+		best.ClickNextbutton();
+		best.SelectInspiration("2");
+		best.ClickNextbutton();
+		best.Selectbrands("2");
+		best.ClickNextbutton();
+		best.WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'VIEW MORE STYLISTS')]]"));
+		best.ClickMoreStylistsButton();
 		BookingPage booking = new BookingPage(driver);
 		booking.ClickBookingstylist();
 		booking.SelectService();
@@ -73,6 +98,7 @@ public class BookingMembershipTests extends BaseTest
 		booking.RefreshPage();
 		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Casey Huth')]]/..//span[text()[contains(.,'membership')]]"));
 		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Casey Huth')]]/..//span[text()[contains(.,'membership')]]"));
+		booking.close();
 	}
 	//@Test(priority = 3,groups={"sanity-group"})
 	public void CheckoutUnlimited ()

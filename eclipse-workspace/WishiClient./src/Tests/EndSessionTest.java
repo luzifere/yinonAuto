@@ -87,7 +87,9 @@ public class EndSessionTest extends BaseTest
 	public void CompileBooking()
 	{
 		QuizPage quiz = new QuizPage(driver);
+		CeckOutPage co = new CeckOutPage(driver);
 		QuizPage.DismissAlert();
+		co.HowDidYouHearAboutUs("yinon");
 		quiz.ClickShowState();
 		quiz.FillSearchCountry("israel");
 		quiz.SelectCountry("//*[@name='Israel']");

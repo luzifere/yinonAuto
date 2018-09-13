@@ -295,6 +295,7 @@ public class BasePage
 			System.out.print("Element is disabled. Take your action.\n");
 		}
 	}
+	
 
 	public void scrollDownXpath()
 	{
@@ -421,6 +422,7 @@ public class BasePage
 			if(!element.isDisplayed())
 			{
 				scrollDownXpath();
+				Sleep(500);
 
 			}
 			else 
@@ -429,6 +431,31 @@ public class BasePage
 				break;
 			}			
 
+		}
+	}
+	public void ScrollTooElement2(WebElement element) {
+
+		while (element.isDisplayed()==false) 
+		{
+			Sleep(200);
+			scrollDownXpath();
+			Sleep(200);
+			
+		}
+		String textelement = element.getText();
+		System.out.println(textelement);
+		element.click();
+
+	}
+	public void CheckIfElementdisplayed(WebElement  elementString) 
+	{
+		if(elementString.isDisplayed())
+		{
+			System.out.print("Element is enabled. Take your action.\n");
+		}
+		else
+		{
+			System.out.print("Element is disabled. Take your action.\n");
 		}
 	}
 }

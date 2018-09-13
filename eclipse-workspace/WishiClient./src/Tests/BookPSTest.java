@@ -31,7 +31,7 @@ public class BookPSTest extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client110@wishi.com");
+		login.Fillusername("yinonvoice@wishitest.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -78,6 +78,9 @@ public class BookPSTest extends BaseTest
 	public void CompileBooking()
 	{
 		QuizPage quiz = new QuizPage(driver);
+		CeckOutPage co = new CeckOutPage(driver);
+		QuizPage.DismissAlert();
+		co.HowDidYouHearAboutUs("yinon");
 		QuizPage.DismissAlert();
 		quiz.ClickShowState();
 		quiz.FillSearchCountry("israel");
@@ -113,7 +116,7 @@ public class BookPSTest extends BaseTest
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
-		quiz.SelectCategory("shorts");
+		quiz.SelectCategory("shorts_new");
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
@@ -129,7 +132,7 @@ public class BookPSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client110@wishi.com");
+		login.Fillusername("yinonvoice@wishitest.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -142,6 +145,8 @@ public class BookPSTest extends BaseTest
 		chat.SelectStylist("//*[@name='leo stylist']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
+		booking.scrollDownXpath();
+		booking.scrollDownXpath();
 		booking.scrollDownXpath();
 		booking.ClickLoveOutfit();
 		//driver.resetApp();
@@ -174,7 +179,7 @@ public class BookPSTest extends BaseTest
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
-		quiz.SelectCategory("shorts");
+		quiz.SelectCategory("shorts_new");
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
@@ -189,7 +194,7 @@ public class BookPSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client110@wishi.com");
+		login.Fillusername("yinonvoice@wishitest.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -203,8 +208,10 @@ public class BookPSTest extends BaseTest
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
 		booking.scrollDownXpath();
+		booking.scrollDownXpath();
+		booking.scrollDownXpath();
 		booking.ClickLoveOutfit();
-		//driver.resetApp();
+		driver.resetApp();
 		//driver.findElement(By.xpath("//*[@name='Love all your ideas!'][1]")).click();
 		//booking.ClickLoveIteme();
 	}
@@ -232,7 +239,7 @@ public class BookPSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("client110@wishi.com");
+		login.Fillusername("yinonvoice@wishitest.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -246,9 +253,10 @@ public class BookPSTest extends BaseTest
 		BookingPage booking = new BookingPage(driver);
 		booking.scrollDownXpath();
 		booking.scrollDownXpath();
+		booking.scrollDownXpath();
 		booking.ApproveEndSession();
 		booking.RateStylist();
-		booking.ClickSubmit();
+		booking.TipToStylist();
 		driver.resetApp();
 	}
 	@Test(priority = 12,groups={"sanity-group"})

@@ -39,7 +39,7 @@ public class LoginTest extends BaseTest
 		//login.WaitElementClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
 		//login.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
 		//login.WaitElementClickable(By.xpath("//div//input[@id='signInEmail']"));
-		//driver.quit();
+		login.close();
 	}	
 
 	@Test(priority = 3,groups={"sanity-group"})

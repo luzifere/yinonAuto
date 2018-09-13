@@ -325,5 +325,30 @@ public class BasePage
 		String file_name=df.format(new Date())+".png";
 		FileUtils.copyFile(scrFile, new File(folder_name+ "/"+file_name));
 	}
+	public void close () 
+	{
+		Sleep(150);
+		driver.close();
+	}
+	public void ScrollTooElement(WebElement element) {
+
+
+		while (true) 
+		{
+			if(!element.isDisplayed())
+			{
+				scrollDown();
+				Sleep(500);
+
+			}
+			else 
+			{
+				element.click();
+				break;
+			}			
+
+		}
+	}
+	
 
 }

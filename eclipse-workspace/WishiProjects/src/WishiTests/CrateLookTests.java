@@ -530,7 +530,7 @@ public class CrateLookTests extends BaseTest
 		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//button[@class='save ng-binding']"));
 		look.WaitElementDisplay(By.xpath("(//p[text()[contains(.,'Session Ended, payment sent')]])[1]"));
 		Assert.assertTrue(look.ElementDisplay("(//p[text()[contains(.,'Session Ended, payment sent')]])[1]"));
-		driver.close();
+		look.close();
 
 	}
 
