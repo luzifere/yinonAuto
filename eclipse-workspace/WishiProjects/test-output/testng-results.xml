@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Test Default test]]>
@@ -11,31 +11,16 @@
       <![CDATA[Completed executing following method : BaseTest.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : BookingsingleTests.DoSignUp]]>
+      <![CDATA[About to begin executing following method : BestMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : BookingsingleTests.DoSignUp]]>
+      <![CDATA[Completed executing following method : BestMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite DoSignUp]]>
+      <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.BookingsingleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookingsingleTests.CheckOutSession]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookingsingleTests.CheckOutSession]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite CheckOutSession]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.BookingsingleTests]]>
+      <![CDATA[Test Method resides in WishiTests.BestMatchExpensiveFeamleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
@@ -47,68 +32,48 @@
       <![CDATA[Completed executing following method : BaseTest.tearDown]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="162351" started-at="2018-09-02T09:19:19Z" finished-at="2018-09-02T09:22:01Z">
+  <suite name="Default suite" duration-ms="155592" started-at="2018-09-27T13:35:37Z" finished-at="2018-09-27T13:38:13Z">
     <groups>
       <group name="sanity-group">
-        <method signature="BookingsingleTests.CheckOutSession()[pri:2, instance:WishiTests.BookingsingleTests@9353778]" name="CheckOutSession" class="WishiTests.BookingsingleTests"/>
-        <method signature="BookingsingleTests.DoSignUp()[pri:1, instance:WishiTests.BookingsingleTests@9353778]" name="DoSignUp" class="WishiTests.BookingsingleTests"/>
+        <method signature="BestMatchExpensiveFeamleTests.BMExpensiveFeamle()[pri:3, instance:WishiTests.BestMatchExpensiveFeamleTests@d8355a8]" name="BMExpensiveFeamle" class="WishiTests.BestMatchExpensiveFeamleTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="162351" started-at="2018-09-02T09:19:19Z" finished-at="2018-09-02T09:22:01Z">
-      <class name="WishiTests.BookingsingleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.BookingsingleTests@9353778]" name="setup" is-config="true" duration-ms="19497" started-at="2018-09-02T09:19:19Z" finished-at="2018-09-02T09:19:38Z">
+    <test name="Default test" duration-ms="155592" started-at="2018-09-27T13:35:37Z" finished-at="2018-09-27T13:38:13Z">
+      <class name="WishiTests.BestMatchExpensiveFeamleTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.BestMatchExpensiveFeamleTests@d8355a8]" name="setup" is-config="true" duration-ms="16010" started-at="2018-09-27T13:35:37Z" finished-at="2018-09-27T13:35:53Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:WishiTests.BookingsingleTests@9353778]" name="DoSignUp" duration-ms="65066" started-at="2018-09-02T09:19:38Z" finished-at="2018-09-02T09:20:43Z">
+        <test-method status="PASS" signature="BMExpensiveFeamle()[pri:3, instance:WishiTests.BestMatchExpensiveFeamleTests@d8355a8]" name="BMExpensiveFeamle" duration-ms="139565" started-at="2018-09-27T13:35:53Z" finished-at="2018-09-27T13:38:13Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : BookingsingleTests.DoSignUp]]>
+              <![CDATA[About to begin executing following method : BestMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : BookingsingleTests.DoSignUp]]>
+              <![CDATA[Completed executing following method : BestMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite DoSignUp]]>
+              <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.BookingsingleTests]]>
+              <![CDATA[Test Method resides in WishiTests.BestMatchExpensiveFeamleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:WishiTests.BookingsingleTests@9353778]" name="CheckOutSession" duration-ms="77759" started-at="2018-09-02T09:20:43Z" finished-at="2018-09-02T09:22:01Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BookingsingleTests.CheckOutSession]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BookingsingleTests.CheckOutSession]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite CheckOutSession]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.BookingsingleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CheckOutSession -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.BookingsingleTests@9353778]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-09-02T09:22:01Z" finished-at="2018-09-02T09:22:01Z">
+        </test-method> <!-- BMExpensiveFeamle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.BestMatchExpensiveFeamleTests@d8355a8]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-09-27T13:38:13Z" finished-at="2018-09-27T13:38:13Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.tearDown]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.BookingsingleTests -->
+      </class> <!-- WishiTests.BestMatchExpensiveFeamleTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

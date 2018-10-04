@@ -61,9 +61,10 @@ public class QwizTests extends BaseTest
 	public void CheckOutSession ()
 	{
 		BookingPage booking = new BookingPage(driver);
-		booking.SearchStylist("Casey Huth");
+		booking.SearchStylist("Oren Oren");
 		booking.SelectStylist();
-		booking.BookStylist();
+		booking.scrollDown();
+		booking.SelectSingle();
 		booking.UseCodCoopon("wishitest");
 		booking.ClickFinishCheckout();
 		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
@@ -72,7 +73,7 @@ public class QwizTests extends BaseTest
 	public void SelectEvent ()
 	{
 		QwizPage qwiz = new QwizPage(driver);
-		qwiz.SelectTab("No Specific Event");
+		qwiz.SelectTab("Work / Business Casual");
 		qwiz.ClickNextOfevent();
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'BODY TYPE')]]"));
 
@@ -213,6 +214,7 @@ public class QwizTests extends BaseTest
 		qwiz.selectBudget(2);
 		qwiz.ClickNext();
 		Assert.assertTrue(qwiz.ElementDisplay("//button[@class='input_btn']"));
+		qwiz.Sleep(300);
 		qwiz.close();
 
 	}

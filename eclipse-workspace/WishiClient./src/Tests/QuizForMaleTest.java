@@ -214,8 +214,11 @@ public class QuizForMaleTest extends BaseTest
 		quiz.SelectCC("Hats");
 		quiz.Sleep(150);
 		quiz.ClickNextw();
+		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with Oren Oren']"));
+		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
+		driver.resetApp();
 	}
-	@Test(priority = 16,groups={"sanity-group"})
+	//@Test(priority = 16,groups={"sanity-group"})
 	public void SelectYourCloset() 
 	{
 		QuizPage quiz = new QuizPage(driver);

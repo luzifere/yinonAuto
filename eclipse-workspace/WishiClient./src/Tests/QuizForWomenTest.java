@@ -246,6 +246,7 @@ public class QuizForWomenTest extends BaseTest
 		QuizPage quiz = new QuizPage(driver);
 		quiz.ClickAddFullBody();
 		QuizPage.AcceptAlert();
+		/*
 		quiz.Sleep(250);
 		quiz.SelectCategory("shorts");
 		quiz.Sleep(250);
@@ -255,8 +256,10 @@ public class QuizForWomenTest extends BaseTest
 		quiz.SelectImage2(100,200);
 		quiz.SelectImage2(150,250);
 		driver.findElement(By.id("Add")).click();
-		//quiz.ClickNextw();
+		
+		quiz.ClickNextw();
 		quiz.Sleep(250);
+		*/
 		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with Oren Oren']"));
 		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
 		driver.resetApp();

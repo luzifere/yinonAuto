@@ -374,7 +374,7 @@ public class BookingPage extends BasePage {
 		click(RateStylist);
 		WaitElementDisplay(By.xpath("//*[@name='Your review will be public']"));
 		click(NextButtonID);
-		WaitElementDisplay(By.xpath("//*[@name='Add Tip']"));
+		WaitElementDisplay(By.xpath("//*[@name='Add a tip']"));
 	}
 	public void ClickSubmit()
 	{		
@@ -410,7 +410,8 @@ public class BookingPage extends BasePage {
 	public void ClickShop() 
 	{		
 		Sleep(170);
-		click(Shop);
+		driver.findElement(By.xpath("//*[@name='SHOP']")).click();//*[@name='SHOP']
+		//click(Shop);
 		Sleep(170);
 		WaitElementDisplay(By.xpath("//XCUIElementTypeApplication[@name=\"Wishi-Stylist\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell[1]"));
 	}

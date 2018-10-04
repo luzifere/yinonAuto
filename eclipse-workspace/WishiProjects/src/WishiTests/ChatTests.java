@@ -89,6 +89,7 @@ public class ChatTests extends BaseTest
 		//chat.SelectUser("Client");
 		ChatPage.ExplicityWaitIsClickable(By.xpath("//div//button//span[@class='ng-scope']"));
 		Assert.assertTrue(chat.ChatDisplay(textforchat));
+		chat.Sleep(300);
 		chat.close();
 
 	}

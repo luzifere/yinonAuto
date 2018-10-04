@@ -4,6 +4,16 @@
 <listeners>
         <listener class-name="WishiTests.Listener"></listener>
     </listeners>
+    <test name="UploadItemTest">
+    <classes>
+      <class name="WishiTests.UploadItemTest"/>
+       </classes>
+  </test> <!-- Test -->
+   <test name="CrateLookTests">
+    <classes>
+      <class name="WishiTests.CrateLookTests"/>
+    </classes>
+  </test> <!-- Test -->
      <test name="BookingsingleTests">
     <classes>
        <class name="WishiTests.BookingsingleTests"/>
@@ -96,14 +106,4 @@
       <class name="WishiTests.QwizSkipedTests"/>
     </classes>
   </test> <!-- Test -->
-   <test name="UploadItemTest">
-    <classes>
-      <class name="WishiTests.UploadItemTest"/>
-       </classes>
-  </test> <!-- Test -->
-   <test name="CrateLookTests">
-    <classes>
-      <class name="WishiTests.CrateLookTests"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+ </suite> <!-- Suite -->

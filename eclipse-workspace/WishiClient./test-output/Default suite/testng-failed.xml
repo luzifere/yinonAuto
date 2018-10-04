@@ -3,12 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.QuickQuizForMenTest">
+      <class name="Tests.QuizForMaleTest">
         <methods>
+          <include name="SelectFitBottom"/>
+          <include name="SelectColor"/>
           <include name="setup"/>
-          <include name="MadeQuiz"/>
+          <include name="SelectFitTop"/>
+          <include name="SelectJewelry"/>
+          <include name="SelectSize"/>
+          <include name="SelectFabrics"/>
+          <include name="SelectZone"/>
+          <include name="SelectClothingCategories"/>
         </methods>
-      </class> <!-- Tests.QuickQuizForMenTest -->
+      </class> <!-- Tests.QuizForMaleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

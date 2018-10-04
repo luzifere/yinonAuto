@@ -115,6 +115,7 @@ public class BestMatchPage extends BasePage
 		String GoalElemet = ("(//div[@class='brand-item ng-scope'])[text1]");
 		GoalElemet = GoalElemet.replace("text1", inspiration);
 		WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+		Sleep(250);
 		click(GoalButton);
 	} 
 	public void SelectTags(String inspiration)

@@ -6,15 +6,7 @@
     </listeners>
  
   
-  
-  
-  
-
-  <test thread-count="5" name="ReviseThirdLookTest">
-    <classes>
-      <class name="Tests.ReviseThirdLookTest"/>
-    </classes>
-  </test> <!-- Test -->
+ 
   <test thread-count="5" name="BookPSTest">
     <classes>
       <class name="Tests.BookPSTest"/>
@@ -62,7 +54,8 @@
       <class name="Tests.CheckOutByCoponTest"/>
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="LoginTests">
+  
+   <test thread-count="5" name="LoginTests">
     <classes>
       <class name="Tests.LoginTests"/>
     </classes>
@@ -107,5 +100,12 @@
       <class name="Tests.ChatTest"/>
     </classes>
   </test> <!-- Test -->
+   <test thread-count="5" name="ReviseThirdLookTest">
+    <classes>
+      <class name="Tests.ReviseThirdLookTest"/>
+    </classes>
+  </test> <!-- Test -->
+
   
+ 
 </suite> <!-- Suite -->

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>BookingTests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 27 15:12:56 IDT 2018</td>
+<td>Started on:</td><td>Thu Sep 27 17:24:24 IDT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>124 seconds (124052 ms)</td>
+<tr><td>Total time:</td><td>444 seconds (444596 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,10 +76,10 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='Tests.BookingTests.CheckOutSession()'><b>CheckOutSession</b><br>Test class: Tests.BookingTests<br/>
-<a href="#Output-1076071888" onClick='toggleBox("Output-1076071888", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1855261647" onClick='toggleBox("Output-1855261647", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1076071888" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1076071888">
+<a href="#Output-1855261647" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1855261647">
 About to begin executing following method : BookingTests.CheckOutSession<br/>
 Completed executing following method : BookingTests.CheckOutSession<br/>
 About to Failure executing Suite CheckOutSession<br/>
@@ -90,17 +90,17 @@ Test Method resides in Tests.BookingTests<br/>
 Test Status: Failed<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@src=&apos;../images/search.png&apos;]&quot;}
-  (Session info: chrome=68.0.3440.91)
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@class=&apos;form-control ng-pristine ng-untouched ng-valid ng-empty&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
   (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;192.168.14.154&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_181&apos;
+System info: host: &apos;yinons-MacBook-Pro-2.local&apos;, ip: &apos;10.0.0.21&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_181&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: Nexus1, noReset: true, platformName: Android}, deviceManufacturer: samsung, deviceModel: SM-G928C, deviceName: 83f0444635375636, deviceScreenSize: 1440x2560, deviceUDID: 83f0444635375636, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: LINUX, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: c6fba69f-69fa-4b4d-b343-115b06fc32f0
-*** Element info: {Using=xpath, value=//img[@src=&apos;../images/search.png&apos;]}
+Session ID: 3ad1c286-a839-4d4b-8b09-9cd4dfd62994
+*** Element info: {Using=xpath, value=//input[@class=&apos;form-control ng-pristine ng-untouched ng-valid ng-empty&apos;]}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -125,22 +125,25 @@ Session ID: c6fba69f-69fa-4b4d-b343-115b06fc32f0
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at PageObejecs.BookingPage.ClickSearchButton(BookingPage.java:119)
-	at Tests.BookingTests.CheckOutSession(BookingTests.java:62)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1076071888", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1076071888'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@src=&apos;../images/search.png&apos;]&quot;}
-  (Session info: chrome=68.0.3440.91)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at PageObejecs.BasePage.filltext(BasePage.java:39)
+	at PageObejecs.BookingPage.UseCodCoopon(BookingPage.java:147)
+	at Tests.BookingTests.CheckOutSession(BookingTests.java:66)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1855261647", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1855261647'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@class=&apos;form-control ng-pristine ng-untouched ng-valid ng-empty&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
   (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;192.168.14.154&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_181&apos;
+System info: host: &apos;yinons-MacBook-Pro-2.local&apos;, ip: &apos;10.0.0.21&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_181&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: Nexus1, noReset: true, platformName: Android}, deviceManufacturer: samsung, deviceModel: SM-G928C, deviceName: 83f0444635375636, deviceScreenSize: 1440x2560, deviceUDID: 83f0444635375636, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: LINUX, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: c6fba69f-69fa-4b4d-b343-115b06fc32f0
-*** Element info: {Using=xpath, value=//img[@src=&apos;../images/search.png&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+Session ID: 3ad1c286-a839-4d4b-8b09-9cd4dfd62994
+*** Element info: {Using=xpath, value=//input[@class=&apos;form-control ng-pristine ng-untouched ng-valid ng-empty&apos;]}
+	at sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
@@ -167,8 +170,12 @@ Session ID: c6fba69f-69fa-4b4d-b343-115b06fc32f0
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at PageObejecs.BookingPage.ClickSearchButton(BookingPage.java:119)
-	at Tests.BookingTests.CheckOutSession(BookingTests.java:62)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at PageObejecs.BasePage.filltext(BasePage.java:39)
+	at PageObejecs.BookingPage.UseCodCoopon(BookingPage.java:147)
+	at Tests.BookingTests.CheckOutSession(BookingTests.java:66)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -195,14 +202,14 @@ Session ID: c6fba69f-69fa-4b4d-b343-115b06fc32f0
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>10</td>
+<td>339</td>
 <td>Tests.BookingTests@4b53f538</td></tr>
 <tr>
 <td title='Tests.BookingTests.CheckoutUnlimitedCreditCard()'><b>CheckoutUnlimitedCreditCard</b><br>Test class: Tests.BookingTests<br/>
-<a href="#Output-1048434276" onClick='toggleBox("Output-1048434276", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-413218476" onClick='toggleBox("Output-413218476", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1048434276" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1048434276">
+<a href="#Output-413218476" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-413218476">
 About to begin executing following method : BookingTests.CheckoutUnlimitedCreditCard<br/>
 Completed executing following method : BookingTests.CheckoutUnlimitedCreditCard<br/>
 About to Failure executing Suite CheckoutUnlimitedCreditCard<br/>
@@ -214,15 +221,15 @@ Test Status: Failed<br/>
 </div>
 </td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div [@class=&apos;filter-icon&apos;]&quot;}
-  (Session info: chrome=68.0.3440.91)
+  (Session info: chrome=69.0.3497.100)
   (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;192.168.14.154&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_181&apos;
+System info: host: &apos;yinons-MacBook-Pro-2.local&apos;, ip: &apos;10.0.0.21&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_181&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: Nexus1, noReset: true, platformName: Android}, deviceManufacturer: samsung, deviceModel: SM-G928C, deviceName: 83f0444635375636, deviceScreenSize: 1440x2560, deviceUDID: 83f0444635375636, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: LINUX, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: c6fba69f-69fa-4b4d-b343-115b06fc32f0
+Session ID: 3ad1c286-a839-4d4b-8b09-9cd4dfd62994
 *** Element info: {Using=xpath, value=//div [@class=&apos;filter-icon&apos;]}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
@@ -254,20 +261,19 @@ Session ID: c6fba69f-69fa-4b4d-b343-115b06fc32f0
 	at PageObejecs.BasePage.click(BasePage.java:35)
 	at PageObejecs.BookingPage.FilterIcon(BookingPage.java:177)
 	at Tests.BookingTests.CheckoutUnlimitedCreditCard(BookingTests.java:77)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1048434276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1048434276'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div [@class=&apos;filter-icon&apos;]&quot;}
-  (Session info: chrome=68.0.3440.91)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace413218476", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace413218476'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div [@class=&apos;filter-icon&apos;]&quot;}
+  (Session info: chrome=69.0.3497.100)
   (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;192.168.14.154&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_181&apos;
+System info: host: &apos;yinons-MacBook-Pro-2.local&apos;, ip: &apos;10.0.0.21&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_181&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: Nexus1, noReset: true, platformName: Android}, deviceManufacturer: samsung, deviceModel: SM-G928C, deviceName: 83f0444635375636, deviceScreenSize: 1440x2560, deviceUDID: 83f0444635375636, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: LINUX, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: c6fba69f-69fa-4b4d-b343-115b06fc32f0
+Session ID: 3ad1c286-a839-4d4b-8b09-9cd4dfd62994
 *** Element info: {Using=xpath, value=//div [@class=&apos;filter-icon&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
@@ -328,86 +334,32 @@ Session ID: c6fba69f-69fa-4b4d-b343-115b06fc32f0
 </pre></div></td>
 <td>13</td>
 <td>Tests.BookingTests@4b53f538</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
 <td title='Tests.BookingTests.DoSignUp()'><b>DoSignUp</b><br>Test class: Tests.BookingTests<br/>
-<a href="#Output-393996856" onClick='toggleBox("Output-393996856", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1528741718" onClick='toggleBox("Output-1528741718", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-393996856" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-393996856">
+<a href="#Output-1528741718" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1528741718">
 About to begin executing following method : BookingTests.DoSignUp<br/>
 Completed executing following method : BookingTests.DoSignUp<br/>
-About to Failure executing Suite DoSignUp<br/>
+About to Success executing Suite DoSignUp<br/>
 Test Method resides in Tests.BookingTests<br/>
-Test Status: Failed<br/>
-About to Failure executing Suite DoSignUp<br/>
+Test Status: Pass<br/>
+About to Success executing Suite DoSignUp<br/>
 Test Method resides in Tests.BookingTests<br/>
-Test Status: Failed<br/>
+Test Status: Pass<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div//a[@class=&apos;btn-start&apos;] (tried for 60 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at PageObejecs.BasePage.WaitElementDisplay(BasePage.java:147)
-	at Tests.BookingTests.DoSignUp(BookingTests.java:27)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div//a[@class=&apos;btn-start&apos;]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;192.168.14.154&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 27 more
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace393996856", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace393996856'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div//a[@class=&apos;btn-start&apos;] (tried for 60 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at PageObejecs.BasePage.WaitElementDisplay(BasePage.java:147)
-	at Tests.BookingTests.DoSignUp(BookingTests.java:27)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div//a[@class=&apos;btn-start&apos;]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;192.168.14.154&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
-	at java.util.Optional.orElseThrow(Optional.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 27 more
-</pre></div></td>
-<td>70</td>
+<td></td>
+<td>69</td>
 <td>Tests.BookingTests@4b53f538</td></tr>
 </table><p>
 </body>

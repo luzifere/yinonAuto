@@ -96,6 +96,8 @@ public class BookingStylistTests extends BaseTest
 		//BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
 		driver.findElement(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]")).click();
 		booking.ClickBookingstylist();		
+		booking.Sleep(300);
+		booking.close();
 
 	}
 

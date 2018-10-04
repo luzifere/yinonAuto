@@ -56,10 +56,10 @@ public class QwizSkipedTests extends BaseTest
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(200);
 		booking.ClickBookingstylist();
-		booking.SearchStylist("clea");
+		booking.SearchStylist("Oren Oren");
 		booking.SelectStylist();
 		booking.scrollDown();
-		booking.BookStylist();
+		booking.SelectSingle();
 		booking.UseCodCoopon("wishitest");
 		booking.ClickFinishCheckout();
 		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
@@ -83,6 +83,7 @@ public class QwizSkipedTests extends BaseTest
 		qwiz.ClickSkip();
 		qwiz.ClickNext();
 		Assert.assertTrue(qwiz.ElementDisplay("//button[@class='input_btn']"));
+		qwiz.Sleep(300);
 		qwiz.close();
 
 	}

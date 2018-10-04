@@ -56,7 +56,7 @@ public class ContactStylistTest extends BaseTest
 		chat1.Sleep(200);
 		BasePage.AcceptAlert();
 		//chat.CheckIfElementEnabled("(//XCUIElementTypeCell[@name=\"0\"])[2]//*[@name='Client⎜Session, Paid $20']");
-		chat1.Clickclose_menu4Button();
+		//chat1.Clickclose_menu4Button();
 		chat1.OpenChat(textforchat);
 		Assert.assertTrue(chat1.ChatDisplay(textforchat));
 		BaseTest.capabileties();
@@ -103,7 +103,7 @@ public class ContactStylistTest extends BaseTest
 		chat1.Sleep(200);
 		BasePage.AcceptAlert();
 		//chat.CheckIfElementEnabled("(//XCUIElementTypeCell[@name=\"0\"])[2]//*[@name='Client⎜Session, Paid $20']");
-		chat1.Clickclose_menu4Button();
+		//chat1.Clickclose_menu4Button();
 		chat1.OpenChat(textforchat);
 		Assert.assertTrue(chat1.ChatDisplay(textforchat));
 		driver.resetApp();

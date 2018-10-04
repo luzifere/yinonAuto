@@ -58,19 +58,20 @@ public class BookingMembershipTests extends BaseTest
 		best.ClickMoreStylistsButton();
 		BookingPage booking = new BookingPage(driver);
 		booking.ClickBookingstylist();
-		booking.SelectService();
-		booking.SelectUnlimited();
-		booking.ClickApllay();
+		//booking.SelectService();
+		//booking.SelectUnlimited();
+		//booking.ClickApllay();
 	}	
 
 	@Test(priority = 2,groups={"sanity-group"})
 	public void CheckOutSession ()
 	{
 		BookingPage booking = new BookingPage(driver);
-		booking.SearchStylist("Casey Huth");
+		booking.SearchStylist("Oren Oren");
 		booking.SelectStylist();
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
-		booking.BookStylist();
+		booking.SelectMemberShip();
+		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
+		//booking.BookStylist();
 		booking.switchWindow();
 		booking.FillFirstName("yinon");
 		booking.FillLastName("aba");
@@ -96,21 +97,23 @@ public class BookingMembershipTests extends BaseTest
 		*/
 		booking.ClickMyBooking();
 		booking.RefreshPage();
-		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Casey Huth')]]/..//span[text()[contains(.,'membership')]]"));
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Casey Huth')]]/..//span[text()[contains(.,'membership')]]"));
+		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Oren Oren')]]/..//span[text()[contains(.,'membership')]]"));
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Oren Oren')]]/..//span[text()[contains(.,'membership')]]"));
+		booking.Sleep(300);
 		booking.close();
 	}
 	//@Test(priority = 3,groups={"sanity-group"})
 	public void CheckoutUnlimited ()
 	{
 		BookingPage booking = new BookingPage(driver);
-		booking.SelectService();
-		booking.SelectUnlimited();
-		booking.ClickApllay();
-		booking.SearchStylist("Casey Huth");
+		//booking.SelectService();
+		//booking.SelectUnlimited();
+		//booking.ClickApllay();
+		booking.SearchStylist("Oren Oren");
 		booking.SelectStylist();
+		booking.SelectMemberShip();
 		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
-		booking.BookStylist();
+		//booking.BookStylist();
 		booking.switchWindow();
 		booking.FillFirstName("yinon");
 		booking.FillLastName("aba");

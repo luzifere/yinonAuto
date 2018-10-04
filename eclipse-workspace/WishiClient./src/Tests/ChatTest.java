@@ -36,7 +36,7 @@ public class ChatTest extends BaseTest
 		chat.Sleep(200);
 		BasePage.AcceptAlert();
 		//chat.CheckIfElementEnabled("(//XCUIElementTypeCell[@name=\"0\"])[2]//*[@name='Client⎜Session, Paid $20']");
-		chat.Clickclose_menu4Button();
+		//chat.Clickclose_menu4Button();
 		chat.ClickChatButton();
 		chat.WaitElementDisplay(By.xpath("//*[@name='Got It!']"));
 		driver.findElement(By.xpath("//*[@name='Got It!']")).click();
@@ -103,7 +103,7 @@ public class ChatTest extends BaseTest
 		chat1.Sleep(200);
 		BasePage.AcceptAlert();
 		//chat1.CheckIfElementEnabled("(//XCUIElementTypeCell[@name=\"0\"])[2]//*[@name='Client⎜Session, Paid $20']");
-		chat1.Clickclose_menu4Button();
+		//chat1.Clickclose_menu4Button();
 		chat1.ClickChatButton();
 		chat.WaitElementDisplay(By.xpath("//*[@name='Got It!']"));
 		driver.findElement(By.xpath("//*[@name='Got It!']")).click();

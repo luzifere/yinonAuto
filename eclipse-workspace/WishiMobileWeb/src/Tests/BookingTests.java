@@ -60,7 +60,7 @@ public class BookingTests extends BaseTest
 
 		PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);
 		booking.ClickSearchButton();
-		booking.SearchStylist("Casey Huth");
+		booking.SearchStylist("Oren Oren");
 		booking.SelectStylist();
 		booking.BookStylist();
 		booking.UseCodCoopon("wishitest");
@@ -78,7 +78,7 @@ public class BookingTests extends BaseTest
 		booking.SelectUnlimited();
 		booking.ClickApllay();
 		booking.ClickSearchButton();
-		booking.SearchStylist("Casey Huth");
+		booking.SearchStylist("Oren Oren");
 		booking.SelectStylist();
 		booking.BookStylist();
 		booking.ClickName();

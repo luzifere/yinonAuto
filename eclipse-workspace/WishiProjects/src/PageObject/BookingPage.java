@@ -20,6 +20,10 @@ public class BookingPage extends BasePage
 	@FindBy(xpath="//span[text()[contains(.,'Book A Stylist')]]")
 	WebElement BookStylist;
 
+	@FindBy(xpath="//a//div[text()[contains(.,'Start 7 day free trial')]]")
+	WebElement MemberShip;
+	@FindBy(xpath="//a//div[text()[contains(.,'Single session')]]")
+	WebElement Single;
 
 	@FindBy(xpath="//div[@ng-click='ok()']")
 	WebElement Applay;
@@ -124,11 +128,19 @@ public class BookingPage extends BasePage
 		
 	}
 
+	public void SelectMemberShip() 
+	{	
+		click(MemberShip);	
+	}
+
+	public void SelectSingle() 
+	{	
+		click(Single);	
+	}
 	public void BookStylist() 
 	{	
 		click(SelectStylist);	
 	}
-
 	public void CloseCheckout() 
 	{		
 		click(CloseBtnCheckout);	

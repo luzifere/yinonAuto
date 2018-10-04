@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ReviseThirdLookTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/11/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Sep 13 09:58:31 IDT 2018</td>
+<td>Started on:</td><td>Tue Oct 02 23:21:21 IDT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>2775 seconds (2775042 ms)</td>
+<tr><td>Total time:</td><td>1461 seconds (1461060 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,1102 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Tests.ReviseThirdLookTest.AskRevise1()'><b>AskRevise1</b><br>Test class: Tests.ReviseThirdLookTest<br/>
+<a href="#Output-1531200408" onClick='toggleBox("Output-1531200408", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1531200408" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1531200408">
+About to begin executing following method : ReviseThirdLookTest.AskRevise1<br/>
+Completed executing following method : ReviseThirdLookTest.AskRevise1<br/>
+About to Failure executing Suite AskRevise1<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+About to Failure executing Suite AskRevise1<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;fe80:0:0:0:1019:7b27:b1b7:21b5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 8 Plus, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.3, startIWDP: true, takesScreenshot: true, udid: 5B321DD7-CF13-4D1F-A5AE-6E3..., webStorageEnabled: false}
+Session ID: 4e18f583-2b3c-413a-b66e-edcf589ca6a6
+*** Element info: {Using=xpath, value=//*[contains(@name, &apos;look2&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at PageObjects.BasePage.ElementDisplay(BasePage.java:60)
+	at Tests.ReviseThirdLookTest.AskRevise1(ReviseThirdLookTest.java:347)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1531200408", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1531200408'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;fe80:0:0:0:1019:7b27:b1b7:21b5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 8 Plus, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.3, startIWDP: true, takesScreenshot: true, udid: 5B321DD7-CF13-4D1F-A5AE-6E3..., webStorageEnabled: false}
+Session ID: 4e18f583-2b3c-413a-b66e-edcf589ca6a6
+*** Element info: {Using=xpath, value=//*[contains(@name, &apos;look2&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at PageObjects.BasePage.ElementDisplay(BasePage.java:60)
+	at Tests.ReviseThirdLookTest.AskRevise1(ReviseThirdLookTest.java:347)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>65</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
+<tr>
+<td title='Tests.ReviseThirdLookTest.ClientEndSession()'><b>ClientEndSession</b><br>Test class: Tests.ReviseThirdLookTest<br/>
+<a href="#Output-316335490" onClick='toggleBox("Output-316335490", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-316335490" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-316335490">
+About to begin executing following method : ReviseThirdLookTest.ClientEndSession<br/>
+Completed executing following method : ReviseThirdLookTest.ClientEndSession<br/>
+About to Failure executing Suite ClientEndSession<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+About to Failure executing Suite ClientEndSession<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.ArrayIndexOutOfBoundsException
+</pre></div><a href='#' onClick='toggleBox("stack-trace316335490", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace316335490'><pre>java.lang.ArrayIndexOutOfBoundsException
+</pre></div></td>
+<td>93</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
+<tr>
+<td title='Tests.ReviseThirdLookTest.CreateLook2()'><b>CreateLook2</b><br>Test class: Tests.ReviseThirdLookTest<br/>
+<a href="#Output-1489193907" onClick='toggleBox("Output-1489193907", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1489193907" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1489193907">
+About to begin executing following method : ReviseThirdLookTest.CreateLook2<br/>
+Completed executing following method : ReviseThirdLookTest.CreateLook2<br/>
+About to Failure executing Suite CreateLook2<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+About to Failure executing Suite CreateLook2<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;fe80:0:0:0:1019:7b27:b1b7:21b5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 8 Plus, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.3, startIWDP: true, takesScreenshot: true, udid: 5B321DD7-CF13-4D1F-A5AE-6E3..., webStorageEnabled: false}
+Session ID: fa502292-c6da-4fb0-b525-5af1349dec42
+*** Element info: {Using=xpath, value=//*[@name=&apos;Amazing!&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at Tests.ReviseThirdLookTest.CreateLook2(ReviseThirdLookTest.java:314)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1489193907", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1489193907'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;fe80:0:0:0:1019:7b27:b1b7:21b5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 8 Plus, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.3, startIWDP: true, takesScreenshot: true, udid: 5B321DD7-CF13-4D1F-A5AE-6E3..., webStorageEnabled: false}
+Session ID: fa502292-c6da-4fb0-b525-5af1349dec42
+*** Element info: {Using=xpath, value=//*[@name=&apos;Amazing!&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at Tests.ReviseThirdLookTest.CreateLook2(ReviseThirdLookTest.java:314)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>60</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
+<tr>
+<td title='Tests.ReviseThirdLookTest.CreateLook3()'><b>CreateLook3</b><br>Test class: Tests.ReviseThirdLookTest<br/>
+<a href="#Output-1547398254" onClick='toggleBox("Output-1547398254", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1547398254" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1547398254">
+About to begin executing following method : ReviseThirdLookTest.CreateLook3<br/>
+Completed executing following method : ReviseThirdLookTest.CreateLook3<br/>
+About to Failure executing Suite CreateLook3<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+About to Failure executing Suite CreateLook3<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;fe80:0:0:0:1019:7b27:b1b7:21b5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 8 Plus, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.3, startIWDP: true, takesScreenshot: true, udid: 5B321DD7-CF13-4D1F-A5AE-6E3..., webStorageEnabled: false}
+Session ID: 2865d9b1-910d-463d-bde9-680c2a955c1d
+*** Element info: {Using=xpath, value=//*[@name=&apos;Amazing!&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at Tests.ReviseThirdLookTest.CreateLook3(ReviseThirdLookTest.java:499)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1547398254", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1547398254'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;fe80:0:0:0:1019:7b27:b1b7:21b5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 8 Plus, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.3, startIWDP: true, takesScreenshot: true, udid: 5B321DD7-CF13-4D1F-A5AE-6E3..., webStorageEnabled: false}
+Session ID: 2865d9b1-910d-463d-bde9-680c2a955c1d
+*** Element info: {Using=xpath, value=//*[@name=&apos;Amazing!&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at Tests.ReviseThirdLookTest.CreateLook3(ReviseThirdLookTest.java:499)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>60</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
+<tr>
+<td title='Tests.ReviseThirdLookTest.CreateReviseLook1()'><b>CreateReviseLook1</b><br>Test class: Tests.ReviseThirdLookTest<br/>
+<a href="#Output-347091104" onClick='toggleBox("Output-347091104", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-347091104" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-347091104">
+About to begin executing following method : ReviseThirdLookTest.CreateReviseLook1<br/>
+Completed executing following method : ReviseThirdLookTest.CreateReviseLook1<br/>
+About to Failure executing Suite CreateReviseLook1<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+About to Failure executing Suite CreateReviseLook1<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:422)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at PageObjects.BookingPage.ClickReviseLookStylist(BookingPage.java:226)
+	at Tests.ReviseThirdLookTest.CreateReviseLook1(ReviseThirdLookTest.java:374)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace347091104", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace347091104'><pre>java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:422)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at PageObjects.BookingPage.ClickReviseLookStylist(BookingPage.java:226)
+	at Tests.ReviseThirdLookTest.CreateReviseLook1(ReviseThirdLookTest.java:374)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>46</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
+<tr>
+<td title='Tests.ReviseThirdLookTest.EndSession()'><b>EndSession</b><br>Test class: Tests.ReviseThirdLookTest<br/>
+<a href="#Output-1628551735" onClick='toggleBox("Output-1628551735", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1628551735" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1628551735">
+About to begin executing following method : ReviseThirdLookTest.EndSession<br/>
+Completed executing following method : ReviseThirdLookTest.EndSession<br/>
+About to Failure executing Suite EndSession<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+About to Failure executing Suite EndSession<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;fe80:0:0:0:1019:7b27:b1b7:21b5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 8 Plus, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.3, startIWDP: true, takesScreenshot: true, udid: 5B321DD7-CF13-4D1F-A5AE-6E3..., webStorageEnabled: false}
+Session ID: 230411e5-f58b-42dc-b21f-bfd117eba81b
+*** Element info: {Using=xpath, value=//*[@name=&apos;Send&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at PageObjects.BasePage.click(BasePage.java:37)
+	at PageObjects.BookingPage.ClickSendEndSession(BookingPage.java:348)
+	at Tests.ReviseThirdLookTest.EndSession(ReviseThirdLookTest.java:693)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1628551735", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1628551735'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;fe80:0:0:0:1019:7b27:b1b7:21b5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 8 Plus, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.3, startIWDP: true, takesScreenshot: true, udid: 5B321DD7-CF13-4D1F-A5AE-6E3..., webStorageEnabled: false}
+Session ID: 230411e5-f58b-42dc-b21f-bfd117eba81b
+*** Element info: {Using=xpath, value=//*[@name=&apos;Send&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at PageObjects.BasePage.click(BasePage.java:37)
+	at PageObjects.BookingPage.ClickSendEndSession(BookingPage.java:348)
+	at Tests.ReviseThirdLookTest.EndSession(ReviseThirdLookTest.java:693)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>61</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
+<tr>
+<td title='Tests.ReviseThirdLookTest.ReviseLook2()'><b>ReviseLook2</b><br>Test class: Tests.ReviseThirdLookTest<br/>
+<a href="#Output-1724814719" onClick='toggleBox("Output-1724814719", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1724814719" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1724814719">
+About to begin executing following method : ReviseThirdLookTest.ReviseLook2<br/>
+Completed executing following method : ReviseThirdLookTest.ReviseLook2<br/>
+About to Failure executing Suite ReviseLook2<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+About to Failure executing Suite ReviseLook2<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:422)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at PageObjects.BookingPage.ClickReviseLookStylist(BookingPage.java:226)
+	at Tests.ReviseThirdLookTest.ReviseLook2(ReviseThirdLookTest.java:626)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1724814719", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1724814719'><pre>java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:422)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at PageObjects.BookingPage.ClickReviseLookStylist(BookingPage.java:226)
+	at Tests.ReviseThirdLookTest.ReviseLook2(ReviseThirdLookTest.java:626)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>49</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
+<tr>
+<td title='Tests.ReviseThirdLookTest.VerifyCreateLook3()'><b>VerifyCreateLook3</b><br>Test class: Tests.ReviseThirdLookTest<br/>
+<a href="#Output-1552400354" onClick='toggleBox("Output-1552400354", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1552400354" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1552400354">
+About to begin executing following method : ReviseThirdLookTest.VerifyCreateLook3<br/>
+Completed executing following method : ReviseThirdLookTest.VerifyCreateLook3<br/>
+About to Failure executing Suite VerifyCreateLook3<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+About to Failure executing Suite VerifyCreateLook3<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;fe80:0:0:0:1019:7b27:b1b7:21b5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 8 Plus, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.3, startIWDP: true, takesScreenshot: true, udid: 5B321DD7-CF13-4D1F-A5AE-6E3..., webStorageEnabled: false}
+Session ID: db3a4ba9-463b-46f5-b4f3-e2b0bd3b8c98
+*** Element info: {Using=xpath, value=//*[contains(@name, &apos;look3&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at PageObjects.BasePage.ElementDisplay(BasePage.java:60)
+	at Tests.ReviseThirdLookTest.VerifyCreateLook3(ReviseThirdLookTest.java:532)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1552400354", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1552400354'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;fe80:0:0:0:1019:7b27:b1b7:21b5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 8 Plus, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.3, startIWDP: true, takesScreenshot: true, udid: 5B321DD7-CF13-4D1F-A5AE-6E3..., webStorageEnabled: false}
+Session ID: db3a4ba9-463b-46f5-b4f3-e2b0bd3b8c98
+*** Element info: {Using=xpath, value=//*[contains(@name, &apos;look3&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at PageObjects.BasePage.ElementDisplay(BasePage.java:60)
+	at Tests.ReviseThirdLookTest.VerifyCreateLook3(ReviseThirdLookTest.java:532)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>66</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
+<tr>
+<td title='Tests.ReviseThirdLookTest.VerifyCreateLookrevise1()'><b>VerifyCreateLookrevise1</b><br>Test class: Tests.ReviseThirdLookTest<br/>
+<a href="#Output-533415944" onClick='toggleBox("Output-533415944", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-533415944" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-533415944">
+About to begin executing following method : ReviseThirdLookTest.VerifyCreateLookrevise1<br/>
+Completed executing following method : ReviseThirdLookTest.VerifyCreateLookrevise1<br/>
+About to Failure executing Suite VerifyCreateLookrevise1<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+About to Failure executing Suite VerifyCreateLookrevise1<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;fe80:0:0:0:1019:7b27:b1b7:21b5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 8 Plus, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.3, startIWDP: true, takesScreenshot: true, udid: 5B321DD7-CF13-4D1F-A5AE-6E3..., webStorageEnabled: false}
+Session ID: 7c00445a-5679-4d47-ae84-d71d5c830bd2
+*** Element info: {Using=xpath, value=//*[contains(@name, &apos;revise2&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at PageObjects.BasePage.ElementDisplay(BasePage.java:60)
+	at Tests.ReviseThirdLookTest.VerifyCreateLookrevise1(ReviseThirdLookTest.java:415)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace533415944", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace533415944'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;fe80:0:0:0:1019:7b27:b1b7:21b5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 8 Plus, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.3, startIWDP: true, takesScreenshot: true, udid: 5B321DD7-CF13-4D1F-A5AE-6E3..., webStorageEnabled: false}
+Session ID: 7c00445a-5679-4d47-ae84-d71d5c830bd2
+*** Element info: {Using=xpath, value=//*[contains(@name, &apos;revise2&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at PageObjects.BasePage.ElementDisplay(BasePage.java:60)
+	at Tests.ReviseThirdLookTest.VerifyCreateLookrevise1(ReviseThirdLookTest.java:415)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>65</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
+<tr>
+<td title='Tests.ReviseThirdLookTest.VerifyCreateRevise2()'><b>VerifyCreateRevise2</b><br>Test class: Tests.ReviseThirdLookTest<br/>
+<a href="#Output-369805307" onClick='toggleBox("Output-369805307", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-369805307" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-369805307">
+About to begin executing following method : ReviseThirdLookTest.VerifyCreateRevise2<br/>
+Completed executing following method : ReviseThirdLookTest.VerifyCreateRevise2<br/>
+About to Failure executing Suite VerifyCreateRevise2<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+About to Failure executing Suite VerifyCreateRevise2<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;fe80:0:0:0:1019:7b27:b1b7:21b5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 8 Plus, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.3, startIWDP: true, takesScreenshot: true, udid: 5B321DD7-CF13-4D1F-A5AE-6E3..., webStorageEnabled: false}
+Session ID: b379f79f-dd2b-4e7a-852a-beb12c0c2873
+*** Element info: {Using=xpath, value=//*[contains(@name, &apos;revise2&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at PageObjects.BasePage.ElementDisplay(BasePage.java:60)
+	at Tests.ReviseThirdLookTest.VerifyCreateRevise2(ReviseThirdLookTest.java:668)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace369805307", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace369805307'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;fe80:0:0:0:1019:7b27:b1b7:21b5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 8 Plus, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.3, startIWDP: true, takesScreenshot: true, udid: 5B321DD7-CF13-4D1F-A5AE-6E3..., webStorageEnabled: false}
+Session ID: b379f79f-dd2b-4e7a-852a-beb12c0c2873
+*** Element info: {Using=xpath, value=//*[contains(@name, &apos;revise2&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at PageObjects.BasePage.ElementDisplay(BasePage.java:60)
+	at Tests.ReviseThirdLookTest.VerifyCreateRevise2(ReviseThirdLookTest.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>66</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
+<tr>
+<td title='Tests.ReviseThirdLookTest.VerifyEndSession()'><b>VerifyEndSession</b><br>Test class: Tests.ReviseThirdLookTest<br/>
+<a href="#Output-176955204" onClick='toggleBox("Output-176955204", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-176955204" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-176955204">
+About to begin executing following method : ReviseThirdLookTest.VerifyEndSession<br/>
+Completed executing following method : ReviseThirdLookTest.VerifyEndSession<br/>
+About to Failure executing Suite VerifyEndSession<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+About to Failure executing Suite VerifyEndSession<br/>
+Test Method resides in Tests.ReviseThirdLookTest<br/>
+Test Status: Failed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;fe80:0:0:0:1019:7b27:b1b7:21b5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 8 Plus, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.3, startIWDP: true, takesScreenshot: true, udid: 5B321DD7-CF13-4D1F-A5AE-6E3..., webStorageEnabled: false}
+Session ID: 48133515-e349-4b14-8b4d-55ea4f24b95b
+*** Element info: {Using=xpath, value=//*[contains(@name, &apos;Payment Sent&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at PageObjects.BasePage.ElementDisplay(BasePage.java:60)
+	at Tests.ReviseThirdLookTest.VerifyEndSession(ReviseThirdLookTest.java:737)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace176955204", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace176955204'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;yinons-MBP-2&apos;, ip: &apos;fe80:0:0:0:1019:7b27:b1b7:21b5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 8 Plus, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 11.3, startIWDP: true, takesScreenshot: true, udid: 5B321DD7-CF13-4D1F-A5AE-6E3..., webStorageEnabled: false}
+Session ID: 48133515-e349-4b14-8b4d-55ea4f24b95b
+*** Element info: {Using=xpath, value=//*[contains(@name, &apos;Payment Sent&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at PageObjects.BasePage.ElementDisplay(BasePage.java:60)
+	at Tests.ReviseThirdLookTest.VerifyEndSession(ReviseThirdLookTest.java:737)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>50</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,49 +1171,11 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Tests.ReviseThirdLookTest.AskRevise1()'><b>AskRevise1</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-1688470144" onClick='toggleBox("Output-1688470144", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1688470144" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1688470144">
-About to begin executing following method : ReviseThirdLookTest.AskRevise1<br/>
-Completed executing following method : ReviseThirdLookTest.AskRevise1<br/>
-About to Success executing Suite AskRevise1<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-About to Success executing Suite AskRevise1<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>183</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
-<tr>
-<td title='Tests.ReviseThirdLookTest.ClientEndSession()'><b>ClientEndSession</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-692743054" onClick='toggleBox("Output-692743054", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-692743054" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-692743054">
-About to begin executing following method : ReviseThirdLookTest.ClientEndSession<br/>
-Completed executing following method : ReviseThirdLookTest.ClientEndSession<br/>
-About to Success executing Suite ClientEndSession<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-About to Success executing Suite ClientEndSession<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>149</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
-<tr>
 <td title='Tests.ReviseThirdLookTest.CompileBooking()'><b>CompileBooking</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-199657303" onClick='toggleBox("Output-199657303", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1563053805" onClick='toggleBox("Output-1563053805", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-199657303" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-199657303">
+<a href="#Output-1563053805" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1563053805">
 About to begin executing following method : ReviseThirdLookTest.CompileBooking<br/>
 Completed executing following method : ReviseThirdLookTest.CompileBooking<br/>
 About to Success executing Suite CompileBooking<br/>
@@ -129,14 +1187,14 @@ Test Status: Pass<br/>
 </div>
 </td>
 <td></td>
-<td>138</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
+<td>136</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
 <tr>
 <td title='Tests.ReviseThirdLookTest.CreateLook()'><b>CreateLook</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-1604052588" onClick='toggleBox("Output-1604052588", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-713898436" onClick='toggleBox("Output-713898436", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1604052588" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1604052588">
+<a href="#Output-713898436" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-713898436">
 About to begin executing following method : ReviseThirdLookTest.CreateLook<br/>
 Completed executing following method : ReviseThirdLookTest.CreateLook<br/>
 About to Success executing Suite CreateLook<br/>
@@ -148,52 +1206,14 @@ Test Status: Pass<br/>
 </div>
 </td>
 <td></td>
-<td>152</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
-<tr>
-<td title='Tests.ReviseThirdLookTest.CreateLook2()'><b>CreateLook2</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-1990385139" onClick='toggleBox("Output-1990385139", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1990385139" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1990385139">
-About to begin executing following method : ReviseThirdLookTest.CreateLook2<br/>
-Completed executing following method : ReviseThirdLookTest.CreateLook2<br/>
-About to Success executing Suite CreateLook2<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-About to Success executing Suite CreateLook2<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>154</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
-<tr>
-<td title='Tests.ReviseThirdLookTest.CreateLook3()'><b>CreateLook3</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-640808588" onClick='toggleBox("Output-640808588", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-640808588" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-640808588">
-About to begin executing following method : ReviseThirdLookTest.CreateLook3<br/>
-Completed executing following method : ReviseThirdLookTest.CreateLook3<br/>
-About to Success executing Suite CreateLook3<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-About to Success executing Suite CreateLook3<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>156</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
+<td>150</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
 <tr>
 <td title='Tests.ReviseThirdLookTest.CreateMoodBoard()'><b>CreateMoodBoard</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-838812606" onClick='toggleBox("Output-838812606", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-270661321" onClick='toggleBox("Output-270661321", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-838812606" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-838812606">
+<a href="#Output-270661321" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-270661321">
 About to begin executing following method : ReviseThirdLookTest.CreateMoodBoard<br/>
 Completed executing following method : ReviseThirdLookTest.CreateMoodBoard<br/>
 About to Success executing Suite CreateMoodBoard<br/>
@@ -205,71 +1225,14 @@ Test Status: Pass<br/>
 </div>
 </td>
 <td></td>
-<td>158</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
-<tr>
-<td title='Tests.ReviseThirdLookTest.CreateMoodBoard2()'><b>CreateMoodBoard2</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-1731977615" onClick='toggleBox("Output-1731977615", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1731977615" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1731977615">
-About to begin executing following method : ReviseThirdLookTest.CreateMoodBoard2<br/>
-Completed executing following method : ReviseThirdLookTest.CreateMoodBoard2<br/>
-About to Success executing Suite CreateMoodBoard2<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-About to Success executing Suite CreateMoodBoard2<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>139</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
-<tr>
-<td title='Tests.ReviseThirdLookTest.CreateMoodBoard3()'><b>CreateMoodBoard3</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-1070157899" onClick='toggleBox("Output-1070157899", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1070157899" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1070157899">
-About to begin executing following method : ReviseThirdLookTest.CreateMoodBoard3<br/>
-Completed executing following method : ReviseThirdLookTest.CreateMoodBoard3<br/>
-About to Success executing Suite CreateMoodBoard3<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-About to Success executing Suite CreateMoodBoard3<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>143</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
-<tr>
-<td title='Tests.ReviseThirdLookTest.CreateReviseLook1()'><b>CreateReviseLook1</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-1408695561" onClick='toggleBox("Output-1408695561", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1408695561" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1408695561">
-About to begin executing following method : ReviseThirdLookTest.CreateReviseLook1<br/>
-Completed executing following method : ReviseThirdLookTest.CreateReviseLook1<br/>
-About to Success executing Suite CreateReviseLook1<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-About to Success executing Suite CreateReviseLook1<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>167</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
+<td>152</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
 <tr>
 <td title='Tests.ReviseThirdLookTest.DoLogin()'><b>DoLogin</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-1080476785" onClick='toggleBox("Output-1080476785", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1262110193" onClick='toggleBox("Output-1262110193", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1080476785" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1080476785">
+<a href="#Output-1262110193" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1262110193">
 About to begin executing following method : ReviseThirdLookTest.DoLogin<br/>
 Completed executing following method : ReviseThirdLookTest.DoLogin<br/>
 About to Success executing Suite DoLogin<br/>
@@ -281,52 +1244,14 @@ Test Status: Pass<br/>
 </div>
 </td>
 <td></td>
-<td>40</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
-<tr>
-<td title='Tests.ReviseThirdLookTest.EndSession()'><b>EndSession</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-1034094674" onClick='toggleBox("Output-1034094674", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1034094674" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1034094674">
-About to begin executing following method : ReviseThirdLookTest.EndSession<br/>
-Completed executing following method : ReviseThirdLookTest.EndSession<br/>
-About to Success executing Suite EndSession<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-About to Success executing Suite EndSession<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>86</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
-<tr>
-<td title='Tests.ReviseThirdLookTest.ReviseLook2()'><b>ReviseLook2</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-1409092880" onClick='toggleBox("Output-1409092880", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1409092880" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1409092880">
-About to begin executing following method : ReviseThirdLookTest.ReviseLook2<br/>
-Completed executing following method : ReviseThirdLookTest.ReviseLook2<br/>
-About to Success executing Suite ReviseLook2<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-About to Success executing Suite ReviseLook2<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>180</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
+<td>39</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
 <tr>
 <td title='Tests.ReviseThirdLookTest.SearchStylist()'><b>SearchStylist</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-252738640" onClick='toggleBox("Output-252738640", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1839206329" onClick='toggleBox("Output-1839206329", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-252738640" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-252738640">
+<a href="#Output-1839206329" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1839206329">
 About to begin executing following method : ReviseThirdLookTest.SearchStylist<br/>
 Completed executing following method : ReviseThirdLookTest.SearchStylist<br/>
 About to Success executing Suite SearchStylist<br/>
@@ -338,14 +1263,14 @@ Test Status: Pass<br/>
 </div>
 </td>
 <td></td>
-<td>8</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
+<td>18</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
 <tr>
 <td title='Tests.ReviseThirdLookTest.SelectEvents()'><b>SelectEvents</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-917768476" onClick='toggleBox("Output-917768476", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-552674617" onClick='toggleBox("Output-552674617", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-917768476" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-917768476">
+<a href="#Output-552674617" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-552674617">
 About to begin executing following method : ReviseThirdLookTest.SelectEvents<br/>
 Completed executing following method : ReviseThirdLookTest.SelectEvents<br/>
 About to Success executing Suite SelectEvents<br/>
@@ -357,14 +1282,14 @@ Test Status: Pass<br/>
 </div>
 </td>
 <td></td>
-<td>33</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
+<td>31</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
 <tr>
 <td title='Tests.ReviseThirdLookTest.SelectSession()'><b>SelectSession</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-1209770703" onClick='toggleBox("Output-1209770703", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-402808045" onClick='toggleBox("Output-402808045", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1209770703" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1209770703">
+<a href="#Output-402808045" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-402808045">
 About to begin executing following method : ReviseThirdLookTest.SelectSession<br/>
 Completed executing following method : ReviseThirdLookTest.SelectSession<br/>
 About to Success executing Suite SelectSession<br/>
@@ -376,14 +1301,14 @@ Test Status: Pass<br/>
 </div>
 </td>
 <td></td>
-<td>39</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
+<td>38</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
 <tr>
 <td title='Tests.ReviseThirdLookTest.VerifyCreateLook()'><b>VerifyCreateLook</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-1537772520" onClick='toggleBox("Output-1537772520", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-173791568" onClick='toggleBox("Output-173791568", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1537772520" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1537772520">
+<a href="#Output-173791568" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-173791568">
 About to begin executing following method : ReviseThirdLookTest.VerifyCreateLook<br/>
 Completed executing following method : ReviseThirdLookTest.VerifyCreateLook<br/>
 About to Success executing Suite VerifyCreateLook<br/>
@@ -395,90 +1320,14 @@ Test Status: Pass<br/>
 </div>
 </td>
 <td></td>
-<td>97</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
-<tr>
-<td title='Tests.ReviseThirdLookTest.VerifyCreateLook3()'><b>VerifyCreateLook3</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-573926093" onClick='toggleBox("Output-573926093", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-573926093" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-573926093">
-About to begin executing following method : ReviseThirdLookTest.VerifyCreateLook3<br/>
-Completed executing following method : ReviseThirdLookTest.VerifyCreateLook3<br/>
-About to Success executing Suite VerifyCreateLook3<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-About to Success executing Suite VerifyCreateLook3<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>117</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
-<tr>
-<td title='Tests.ReviseThirdLookTest.VerifyCreateLookrevise1()'><b>VerifyCreateLookrevise1</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-438314766" onClick='toggleBox("Output-438314766", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-438314766" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-438314766">
-About to begin executing following method : ReviseThirdLookTest.VerifyCreateLookrevise1<br/>
-Completed executing following method : ReviseThirdLookTest.VerifyCreateLookrevise1<br/>
-About to Success executing Suite VerifyCreateLookrevise1<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-About to Success executing Suite VerifyCreateLookrevise1<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>103</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
-<tr>
-<td title='Tests.ReviseThirdLookTest.VerifyCreateRevise2()'><b>VerifyCreateRevise2</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-125844477" onClick='toggleBox("Output-125844477", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-125844477" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-125844477">
-About to begin executing following method : ReviseThirdLookTest.VerifyCreateRevise2<br/>
-Completed executing following method : ReviseThirdLookTest.VerifyCreateRevise2<br/>
-About to Success executing Suite VerifyCreateRevise2<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-About to Success executing Suite VerifyCreateRevise2<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>142</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
-<tr>
-<td title='Tests.ReviseThirdLookTest.VerifyEndSession()'><b>VerifyEndSession</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-1830745997" onClick='toggleBox("Output-1830745997", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1830745997" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1830745997">
-About to begin executing following method : ReviseThirdLookTest.VerifyEndSession<br/>
-Completed executing following method : ReviseThirdLookTest.VerifyEndSession<br/>
-About to Success executing Suite VerifyEndSession<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-About to Success executing Suite VerifyEndSession<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>72</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
+<td>96</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
 <tr>
 <td title='Tests.ReviseThirdLookTest.VerifyMoodBoard()'><b>VerifyMoodBoard</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-1625252058" onClick='toggleBox("Output-1625252058", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1756819670" onClick='toggleBox("Output-1756819670", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1625252058" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1625252058">
+<a href="#Output-1756819670" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1756819670">
 About to begin executing following method : ReviseThirdLookTest.VerifyMoodBoard<br/>
 Completed executing following method : ReviseThirdLookTest.VerifyMoodBoard<br/>
 About to Success executing Suite VerifyMoodBoard<br/>
@@ -490,46 +1339,8 @@ Test Status: Pass<br/>
 </div>
 </td>
 <td></td>
-<td>87</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
-<tr>
-<td title='Tests.ReviseThirdLookTest.VerifyMoodBoard2()'><b>VerifyMoodBoard2</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-1212191909" onClick='toggleBox("Output-1212191909", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1212191909" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1212191909">
-About to begin executing following method : ReviseThirdLookTest.VerifyMoodBoard2<br/>
-Completed executing following method : ReviseThirdLookTest.VerifyMoodBoard2<br/>
-About to Success executing Suite VerifyMoodBoard2<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-About to Success executing Suite VerifyMoodBoard2<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>96</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
-<tr>
-<td title='Tests.ReviseThirdLookTest.VerifyMoodBoard3()'><b>VerifyMoodBoard3</b><br>Test class: Tests.ReviseThirdLookTest<br/>
-<a href="#Output-1016860054" onClick='toggleBox("Output-1016860054", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1016860054" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1016860054">
-About to begin executing following method : ReviseThirdLookTest.VerifyMoodBoard3<br/>
-Completed executing following method : ReviseThirdLookTest.VerifyMoodBoard3<br/>
-About to Success executing Suite VerifyMoodBoard3<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-About to Success executing Suite VerifyMoodBoard3<br/>
-Test Method resides in Tests.ReviseThirdLookTest<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>103</td>
-<td>Tests.ReviseThirdLookTest@74ad1f1f</td></tr>
+<td>85</td>
+<td>Tests.ReviseThirdLookTest@71d15f18</td></tr>
 </table><p>
 </body>
 </html>

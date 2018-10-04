@@ -8,7 +8,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
 public class SignUpPage extends BasePage {
-	@FindBy(xpath="//div[@class='logged-in-header-container ng-scope']//div[@class='get-your-style ng-binding']")
+	@FindBy(xpath="//div[@class='logged-in-header-container ng-scope']//div[@class='get-your-style']")
 	WebElement SignUpEmail;
 	
 	@FindBy(xpath="//div//input[@id='signUpEmail']")

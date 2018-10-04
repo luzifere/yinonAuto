@@ -52,7 +52,7 @@ public class BookingPage extends BasePage
 	@FindBy(xpath="//div[@class='name-city ng-binding']")
 	WebElement TitleOfStylist;
 
-	@FindBy(xpath="//button[@class='fix-bookMe ng-scope']")
+	@FindBy(xpath="//div[@class='next-btn ng-binding']")
 	WebElement SelectStylist;
 
 	@FindBy(xpath="(//div[@class='entry-sub ng-binding'])[1]")

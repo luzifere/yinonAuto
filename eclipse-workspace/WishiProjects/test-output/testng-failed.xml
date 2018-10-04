@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="WishiTests.Listener"/>
+  </listeners>
+  <test thread-count="5" name="BookingMembershipTests(failed)">
     <classes>
       <class name="WishiTests.BookingMembershipTests">
         <methods>
@@ -11,5 +14,47 @@
         </methods>
       </class> <!-- WishiTests.BookingMembershipTests -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- BookingMembershipTests(failed) -->
+  <test thread-count="5" name="UploadItemTest(failed)">
+    <classes>
+      <class name="WishiTests.UploadItemTest">
+        <methods>
+          <include name="DoLogin"/>
+          <include name="Uploaditem"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.UploadItemTest -->
+    </classes>
+  </test> <!-- UploadItemTest(failed) -->
+  <test thread-count="5" name="CrateLookTests(failed)">
+    <classes>
+      <class name="WishiTests.CrateLookTests">
+        <methods>
+          <include name="CreateLook1"/>
+          <include name="CreatePS"/>
+          <include name="CreateLook2"/>
+          <include name="VerifyLook3"/>
+          <include name="CreateMoodBoard"/>
+          <include name="CreateMoodBoard3"/>
+          <include name="VerifyLook2"/>
+          <include name="tearDown"/>
+          <include name="AskEndSession"/>
+          <include name="LoginAsClient"/>
+          <include name="LoginAsStylist"/>
+          <include name="VerifyLook1"/>
+          <include name="VerifyMoodBoard2"/>
+          <include name="VerifyMoodBoard3"/>
+          <include name="CreateLook3"/>
+          <include name="setup"/>
+          <include name="ClientEndSession"/>
+          <include name="CheckOutSession"/>
+          <include name="VerifyEndSession"/>
+          <include name="VerifyMoodBoard"/>
+          <include name="CreateMoodBoard2"/>
+          <include name="AskRevise"/>
+        </methods>
+      </class> <!-- WishiTests.CrateLookTests -->
+    </classes>
+  </test> <!-- CrateLookTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

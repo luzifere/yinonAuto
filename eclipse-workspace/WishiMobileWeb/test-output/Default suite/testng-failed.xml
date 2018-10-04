@@ -5,8 +5,23 @@
     <classes>
       <class name="Tests.qwizTests">
         <methods>
-          <include name="SelectInventory"/>
+          <include name="SelectEvent"/>
+          <include name="SelectHighlight"/>
           <include name="setup"/>
+          <include name="SelectClothingPreferences"/>
+          <include name="SelectComfortZone"/>
+          <include name="SelectPrints"/>
+          <include name="SelectBrands"/>
+          <include name="SelectSize"/>
+          <include name="SelectHeels"/>
+          <include name="SelectInventory"/>
+          <include name="DoSignUp"/>
+          <include name="SelectBodyType"/>
+          <include name="SelectHeight"/>
+          <include name="SelectJEWELRY"/>
+          <include name="CheckOutSession"/>
+          <include name="SelectFabrics"/>
+          <include name="SelectColors"/>
         </methods>
       </class> <!-- Tests.qwizTests -->
     </classes>

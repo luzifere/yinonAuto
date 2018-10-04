@@ -92,6 +92,8 @@ public class ReviseThirdLookTest extends BaseTest
 		CeckOutPage co = new CeckOutPage(driver);
 		QuizPage.DismissAlert();
 		co.HowDidYouHearAboutUs("yinon");
+		quiz.Sleep(100);
+		QuizPage.DismissAlert();
 		quiz.ClickShowState();
 		quiz.FillSearchCountry("israel");
 		quiz.SelectCountry("//*[@name='Israel']");
@@ -127,10 +129,12 @@ public class ReviseThirdLookTest extends BaseTest
 		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
-		booking.Clickclose_menu4Button();
+		//booking.Clickclose_menu4Button();
 		booking.ClickCreateMoodBoardButton();
 		//driver.findElement(By.id("Got It")).click();
 		driver.findElement(By.id("Got It")).click();
+		booking.Sleep(200);
+		driver.findElement(By.xpath("//*[@name='Amazing!']")).click();
 		booking.Sleep(200);
 		booking.ClickShop();
 		booking.ClickUpArrow();
@@ -187,9 +191,11 @@ public class ReviseThirdLookTest extends BaseTest
 		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
-		booking.Clickclose_menu4Button();
+		//booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
 		//driver.findElement(By.id("Got It")).click();
+		booking.Sleep(200);
+		driver.findElement(By.xpath("//*[@name='Amazing!']")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -231,6 +237,7 @@ public class ReviseThirdLookTest extends BaseTest
 		//driver.resetApp();	
 
 	}
+	/*
 	@Test(priority = 10,groups={"sanity-group"})
 	public void CreateMoodBoard2() throws IOException 
 	{
@@ -286,6 +293,7 @@ public class ReviseThirdLookTest extends BaseTest
 		booking.ClickLoveItem();
 		//driver.resetApp();
 	}
+	*/
 	@Test(priority = 12,groups={"sanity-group"})
 	public void CreateLook2() throws IOException 
 	{
@@ -299,9 +307,11 @@ public class ReviseThirdLookTest extends BaseTest
 		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
-		booking.Clickclose_menu4Button();
+		//booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
 		//driver.findElement(By.id("Got It")).click();
+		booking.Sleep(200);
+		driver.findElement(By.xpath("//*[@name='Amazing!']")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -360,9 +370,11 @@ public class ReviseThirdLookTest extends BaseTest
 		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
-		booking.Clickclose_menu4Button();
+		//booking.Clickclose_menu4Button();
 		booking.ClickReviseLookStylist();
 		//driver.findElement(By.id("Got It")).click();
+		booking.Sleep(200);
+		driver.findElement(By.xpath("//*[@name='Amazing!']")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -410,6 +422,7 @@ public class ReviseThirdLookTest extends BaseTest
 		//BaseTest.capabileties2();	
 
 	}
+	/*
 	@Test(priority = 16,groups={"sanity-group"})
 	public void CreateMoodBoard3() throws IOException 
 	{
@@ -465,6 +478,7 @@ public class ReviseThirdLookTest extends BaseTest
 		booking.ClickLoveItem();
 		//driver.resetApp();
 	}
+	*/
 	@Test(priority = 18,groups={"sanity-group"})
 	public void CreateLook3() throws IOException 
 	{
@@ -478,9 +492,11 @@ public class ReviseThirdLookTest extends BaseTest
 		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
-		booking.Clickclose_menu4Button();
+		//booking.Clickclose_menu4Button();
 		booking.ClickCreateLook();
 		//driver.findElement(By.id("Got It")).click();
+		booking.Sleep(200);
+		driver.findElement(By.xpath("//*[@name='Amazing!']")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -538,9 +554,11 @@ public class ReviseThirdLookTest extends BaseTest
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
 		booking.Sleep(200);
-		booking.Clickclose_menu4Button();
+	//	booking.Clickclose_menu4Button();
 		booking.Sleep(200);
 		booking.ClickReviseLookStylist();
+		booking.Sleep(200);
+		driver.findElement(By.xpath("//*[@name='Amazing!']")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -603,9 +621,11 @@ public class ReviseThirdLookTest extends BaseTest
 		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
-		booking.Clickclose_menu4Button();
+		//booking.Clickclose_menu4Button();
 		booking.Sleep(200);
 		booking.ClickReviseLookStylist();
+		booking.Sleep(200);
+		driver.findElement(By.xpath("//*[@name='Amazing!']")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -668,7 +688,7 @@ public class ReviseThirdLookTest extends BaseTest
 		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
-		booking.Clickclose_menu4Button();
+	//	booking.Clickclose_menu4Button();
 		booking.ClickEndSession();
 		booking.ClickSendEndSession();
 		driver.resetApp();
@@ -711,8 +731,9 @@ public class ReviseThirdLookTest extends BaseTest
 		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
 		booking.Sleep(250);
 		BasePage.AcceptAlert();
-		booking.Clickclose_menu4Button();
+		//booking.Clickclose_menu4Button();
 		ChatPage chat = new ChatPage(driver);
+		booking.Sleep(250);
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'Payment Sent')]"));
 		driver.resetApp();
 

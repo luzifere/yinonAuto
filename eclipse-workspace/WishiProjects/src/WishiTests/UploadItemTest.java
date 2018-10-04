@@ -33,6 +33,7 @@ public class UploadItemTest extends BaseTest
 		add.SubmitItem();
 		add.WaitElementDisplay(By.xpath("//div//p[text()[contains(.,'Your image has been uploaded successfully.')]]"));
 		Assert.assertTrue(add.ElementDisplay("//div//p[text()[contains(.,'Your image has been uploaded successfully.')]]"));
+		add.Sleep(300);
 		add.close();
 	}
 }

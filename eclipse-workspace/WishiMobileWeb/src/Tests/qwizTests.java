@@ -65,7 +65,7 @@ public class qwizTests extends BaseTest
 	{
 		PageObejecs.QwizPage qwiz = new PageObejecs.QwizPage(driver);
 		qwiz.Sleep(250);
-		qwiz.SelectTab("No Specific Event");
+		qwiz.SelectTab("Work / Business Casual");
 		qwiz.ClickNextOfevent();
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'BODY TYPE')]]"));
 

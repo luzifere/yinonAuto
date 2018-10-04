@@ -64,6 +64,7 @@ public class BasePage
 	}
 	public void scrollDown()
 	{
+		Sleep(250);
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy(0,450)", "");
 	}

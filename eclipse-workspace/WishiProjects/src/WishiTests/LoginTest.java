@@ -38,6 +38,7 @@ public class LoginTest extends BaseTest
 		//login.Closebuttonoflogin();
 		//login.WaitElementClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
 		//login.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
+		login.Sleep(300);
 		//login.WaitElementClickable(By.xpath("//div//input[@id='signInEmail']"));
 		login.close();
 	}	

@@ -103,13 +103,17 @@ public class BookPSTest extends BaseTest
 		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
-		booking.Clickclose_menu4Button();
+		//booking.Clickclose_menu4Button();
 		booking.Sleep(250);
 		//WebElement style = driver.findElement(By.xpath("(//*[@name='STYLE'])[1]"));
 		//String styletext = style.getText();
 		//System.out.println(styletext);
 		booking.ClickStyleLook();
 		//driver.findElement(By.id("Got It")).click();
+		booking.Sleep(200);
+		driver.findElement(By.xpath("//*[@name='Amazing!']")).click();
+		booking.Sleep(200);
+		booking.Clickclose_menu4Button();
 		booking.Sleep(200);
 		booking.ClickShop();
 		booking.ClickUpArrow();
@@ -166,13 +170,17 @@ public class BookPSTest extends BaseTest
 		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
-		booking.Clickclose_menu4Button();
+		//booking.Clickclose_menu4Button();
 		booking.Sleep(250);
 		//WebElement style = driver.findElement(By.xpath("(//*[@name='STYLE'])[1]"));
 		//String styletext = style.getText();
 		//System.out.println(styletext);
 		booking.ClickStyleLook();
 		//driver.findElement(By.id("Got It")).click();
+		booking.Sleep(200);
+		driver.findElement(By.xpath("//*[@name='Amazing!']")).click();
+		booking.Sleep(200);
+		booking.Clickclose_menu4Button();
 		booking.Sleep(200);
 		booking.ClickShop();
 		booking.ClickUpArrow();
@@ -228,7 +236,7 @@ public class BookPSTest extends BaseTest
 		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
-		booking.Clickclose_menu4Button();
+		//booking.Clickclose_menu4Button();
 		booking.ClickEndSession();
 		booking.ClickSendEndSessionStyle();
 		driver.resetApp();
@@ -273,8 +281,9 @@ public class BookPSTest extends BaseTest
 		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
-		booking.Clickclose_menu4Button();
+		//booking.Clickclose_menu4Button();
 		ChatPage chat = new ChatPage(driver);
+		booking.Sleep(200);
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'thanks for booking me, you were a pleasure to work with!')]"));
 		driver.resetApp();
 

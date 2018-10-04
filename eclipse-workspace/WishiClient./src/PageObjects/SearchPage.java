@@ -41,6 +41,8 @@ public class SearchPage extends BasePage
 	public void ClickSearch() 
 	{		
 		//Sleep(150);
+		driver.findElement(By.xpath("//*[@name='Stylists']")).click();
+		Sleep(150);
 		click(SearchButton);
 		//Sleep(150);
 	}

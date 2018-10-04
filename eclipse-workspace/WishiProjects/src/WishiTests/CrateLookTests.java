@@ -37,12 +37,12 @@ public class CrateLookTests extends BaseTest
 		booking.ClickBookingstylist();
 		booking.SearchStylist("YAstylist Booking");
 		booking.SelectStylist();
-		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Per Session')]]"));
-		booking.BookStylist();
+		booking.scrollDown();
+		booking.SelectSingle();
 		booking.UseCodCoopon("wishitest");
 		booking.ClickFinishCheckout();
 		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
-		booking.ClickBookingstylist();	
+		booking.ClickBookingstylist();
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickOnProfileClientButton();
 		chat.ClickOnLogOut();
@@ -530,6 +530,7 @@ public class CrateLookTests extends BaseTest
 		CrateLookPage.ExplicityWaitIsClickable(By.xpath("//button[@class='save ng-binding']"));
 		look.WaitElementDisplay(By.xpath("(//p[text()[contains(.,'Session Ended, payment sent')]])[1]"));
 		Assert.assertTrue(look.ElementDisplay("(//p[text()[contains(.,'Session Ended, payment sent')]])[1]"));
+		look.Sleep(300);
 		look.close();
 
 	}

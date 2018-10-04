@@ -65,10 +65,12 @@ public class BookingsingleTests extends BaseTest
 	public void CheckOutSession ()
 	{
 		BookingPage booking = new BookingPage(driver);
-		booking.SearchStylist("Casey Huth");
+		booking.SearchStylist("Oren Oren");
 		booking.SelectStylist();
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Per Session')]]"));
-		booking.BookStylist();
+		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Per Session')]]"));
+		//booking.BookStylist();
+		booking.scrollDown();
+		booking.SelectSingle();
 		booking.UseCodCoopon("wishitest");
 		booking.ClickFinishCheckout();
 		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
@@ -85,8 +87,9 @@ public class BookingsingleTests extends BaseTest
 		*/
 		booking.ClickMyBooking();
 		booking.RefreshPage();
-		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Casey Huth')]]/..//span[text()[contains(.,'session')]]"));
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Casey Huth')]]/..//span[text()[contains(.,'session')]]"));
+		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Oren Oren')]]/..//span[text()[contains(.,'session')]]"));
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Oren Oren')]]/..//span[text()[contains(.,'session')]]"));
+		booking.Sleep(300);
 		booking.close();
 	}
 	//@Test(priority = 3,groups={"sanity-group"})
