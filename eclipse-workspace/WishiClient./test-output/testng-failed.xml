@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="Tests.Listener"/>
-  </listeners>
-  <test thread-count="5" name="ReviseThirdLookTest(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.ReviseThirdLookTest">
+      <class name="Tests.BookPSTest">
         <methods>
-          <include name="VerifyEndSession"/>
-          <include name="CreateLook3"/>
-          <include name="VerifyCreateRevise2"/>
-          <include name="AskRevise1"/>
-          <include name="ClientEndSession"/>
+          <include name="CreateStyle"/>
           <include name="setup"/>
-          <include name="EndSession"/>
-          <include name="VerifyCreateLook3"/>
-          <include name="CreateReviseLook1"/>
-          <include name="CreateLook2"/>
-          <include name="VerifyCreateLookrevise1"/>
-          <include name="ReviseLook2"/>
         </methods>
-      </class> <!-- Tests.ReviseThirdLookTest -->
+      </class> <!-- Tests.BookPSTest -->
     </classes>
-  </test> <!-- ReviseThirdLookTest(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

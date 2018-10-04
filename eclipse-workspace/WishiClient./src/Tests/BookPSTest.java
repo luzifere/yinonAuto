@@ -125,7 +125,7 @@ public class BookPSTest extends BaseTest
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
 		booking.ClickSave();
-		booking.FillDescription("style1");
+		booking.FillLookDescription("style1");
 		booking.ClickToolBarDone();
 		booking.ClickLookSaveButton();
 		//driver.resetApp();
@@ -192,7 +192,7 @@ public class BookPSTest extends BaseTest
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
 		booking.ClickSave();
-		booking.FillDescription("style2");
+		booking.FillLookDescription("style2");
 		booking.ClickToolBarDone();
 		booking.ClickLookSaveButton();
 	}

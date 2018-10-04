@@ -136,18 +136,23 @@ public class ReviseThirdLookTest extends BaseTest
 		booking.Sleep(200);
 		driver.findElement(By.xpath("//*[@name='Amazing!']")).click();
 		booking.Sleep(200);
+		booking.AddMoodBord();
 		booking.ClickShop();
 		booking.ClickUpArrow();
 		QuizPage quiz = new QuizPage(driver);
+		quiz.scrollDownXpath();
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
+		/*
 		quiz.SelectCategory("shorts_new");
+		quiz.scrollDownXpath();
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
 		quiz.SelectCategory("pants_new");
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
+		*/
 		booking.ClickSave();
 		booking.FillDescription("moodboard1");
 		booking.ClickToolBarDone();
@@ -198,12 +203,15 @@ public class ReviseThirdLookTest extends BaseTest
 		driver.findElement(By.xpath("//*[@name='Amazing!']")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
+		booking.AddLooks();
 		booking.ClickShop();
 		booking.ClickUpArrow();
 		QuizPage quiz = new QuizPage(driver);
+		quiz.scrollDownXpath();
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);
 		quiz.SelectCategory("shorts_new");
+		quiz.scrollDownXpath();
 		quiz.Sleep(250);
 		quiz.SelectImage3(100,200);
 		quiz.SelectImage3(150,250);

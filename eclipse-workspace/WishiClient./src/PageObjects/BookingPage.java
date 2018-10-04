@@ -30,10 +30,10 @@ public class BookingPage extends BasePage {
 	@FindBy(id="Toolbar Done Button")
 	WebElement ToolBarDone;
 
-	@FindBy(id="Add a description")//*[@value='Add a description']
+	@FindBy(xpath="(//*[@name='MBDescription'])[2]")
 	WebElement MBDescription;
 
-	@FindBy(xpath="//*[@value='Add a description']")//*[@value='Add a description']
+	@FindBy(xpath="//*[@name='LookDescription']")//*[@value='Add a description']
 	WebElement LookDescription;
 	@FindBy(id="Save")//*[@id='Chat']
 	WebElement Save;
@@ -46,7 +46,7 @@ public class BookingPage extends BasePage {
 
 	@FindBy(xpath="//*[@name='Create Look']")
 	WebElement CreateLook;
-	
+
 	//@FindBy(xpath="//*[@name='Create Mood Board']")
 	@FindBy(id="Create Mood Board")
 	WebElement CreateMoodBoardButton;
@@ -105,11 +105,15 @@ public class BookingPage extends BasePage {
 	WebElement DoneButtonID;
 	@FindBy(xpath="//*[@name='NextButtinID']")
 	WebElement NextButtonID;
+	@FindBy(xpath="//*[@name='MOODBOARDS']")
+	WebElement MoodBordTab;
+	@FindBy(xpath="//*[@name='LOOKS']")
+	WebElement LooksTab;
 	//@FindBy(xpath="//*[@name='Submit']")
 	@FindBy(id="Submit")
 	WebElement Submit;
-	
-	
+
+
 	public void TipToStylist() 
 	{
 		Sleep(170);
@@ -123,6 +127,18 @@ public class BookingPage extends BasePage {
 		Sleep(170);
 		click(FourButtonID);
 		Sleep(170);
+	}
+	public void AddMoodBord() 
+	{
+		click(UpArrow);
+		click(MoodBordTab);
+		SelectImage3(100,200);
+	}
+	public void AddLooks() 
+	{
+		click(UpArrow);
+		click(LooksTab);
+		SelectImage3(100,200);
 	}
 	public void ClickSixButtonID() 
 	{
@@ -253,9 +269,9 @@ public class BookingPage extends BasePage {
 	}
 	public void ClickReviseLookClient() 
 	{
-		
+
 		Sleep(170);
-		
+
 		scrollUp();
 		scrollUp();
 		scrollDownXpath();
@@ -318,12 +334,16 @@ public class BookingPage extends BasePage {
 	public void FillDescription(String description ) 
 	{
 		Sleep(170);
+		click(MBDescription);
+		clear(MBDescription);
 		filltext(MBDescription, description);
 		Sleep(170);
 	}
 	public void FillLookDescription(String description ) 
 	{
 		Sleep(170);
+		click(LookDescription);
+		clear(LookDescription);
 		filltext(LookDescription, description);
 		Sleep(170);
 	}
@@ -335,7 +355,7 @@ public class BookingPage extends BasePage {
 		//WaitElementNotDisplay(By.xpath("//*[@name='Send Mood Board']"));
 		WaitElementDisplay(By.id("BackButton"));
 	}
-	
+
 	public void ClickSendReviseClient1() 
 	{		
 		Sleep(170);
@@ -347,13 +367,13 @@ public class BookingPage extends BasePage {
 		Sleep(170);
 		click(SendEndSession);
 		WaitElementDisplay(By.xpath("//*[@name='Waiting for your client to confirm ending the session']"));
-		}
+	}
 	public void ClickSendEndSessionStyle() 
 	{		
 		Sleep(170);
 		click(SendEndSession);
 		WaitElementDisplay(By.xpath("//*[@name='No Action Needed']"));
-		}
+	}
 	public void ClickLookSaveButton()
 	{		
 		Sleep(170);
