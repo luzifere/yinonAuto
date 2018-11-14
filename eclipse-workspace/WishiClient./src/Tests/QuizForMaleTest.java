@@ -53,10 +53,10 @@ public class QuizForMaleTest extends BaseTest
 		best.SelectBrands();
 		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
 		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
+		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
 		best.scrollDownXpath();
-		best.ClickMoreStylistsButton();
+		best.CloseBestMatch();
 		best.Sleep(500);
 		BestMutch.AcceptAlert();
 		best.Sleep(500);
@@ -214,6 +214,8 @@ public class QuizForMaleTest extends BaseTest
 		quiz.SelectCC("Hats");
 		quiz.Sleep(150);
 		quiz.ClickNextw();
+		quiz.Sleep(250);
+		quiz.SelectImage3(150,250);
 		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with Oren Oren']"));
 		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
 		driver.resetApp();
@@ -233,6 +235,7 @@ public class QuizForMaleTest extends BaseTest
 		driver.findElement(By.id("Add")).click();
 		//quiz.ClickNextw();
 		quiz.Sleep(250);
+		quiz.SelectImage3(150,250);
 		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with Oren Oren']"));
 		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
 		driver.resetApp();

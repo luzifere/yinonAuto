@@ -100,7 +100,7 @@ public class BookPSTest extends BaseTest
 		booking.LoginStylistApp("LEOstylist@wishitest.com", "123456");
 		booking.ClickLoginButton();
 		booking.Sleep(200);
-		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
+		driver.findElement(By.xpath("//*[@name='CloseOnboarding']")).click();
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
 		//booking.Clickclose_menu4Button();
@@ -115,19 +115,21 @@ public class BookPSTest extends BaseTest
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.Sleep(200);
+		driver.findElement(By.xpath("//*[@name='collectionCanvasPS']")).click();
+		booking.Sleep(200);
 		booking.ClickShop();
 		booking.ClickUpArrow();
 		QuizPage quiz = new QuizPage(driver);
-		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(110,210);
 		quiz.SelectImage3(150,250);
 		quiz.SelectCategory("shorts_new");
 		quiz.Sleep(250);
-		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(110,210);
 		quiz.SelectImage3(150,250);
 		booking.ClickSave();
-		booking.FillLookDescription("style1");
-		booking.ClickToolBarDone();
-		booking.ClickLookSaveButton();
+		booking.FillCollectionDescription("style1");
+		//booking.ClickToolBarDone();
+		booking.ClickCollectionSaveButton();
 		//driver.resetApp();
 	}
 	@Test(priority = 7,groups={"sanity-group"})
@@ -150,9 +152,7 @@ public class BookPSTest extends BaseTest
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
 		booking.scrollDownXpath();
-		booking.scrollDownXpath();
-		booking.scrollDownXpath();
-		booking.ClickLoveOutfit();
+		booking.ClickLoveAllOfThis();
 		//driver.resetApp();
 		//driver.findElement(By.xpath("//*[@name='Love all your ideas!'][1]")).click();
 		//booking.ClickLoveIteme();
@@ -167,7 +167,7 @@ public class BookPSTest extends BaseTest
 		booking.LoginStylistApp("LEOstylist@wishitest.com", "123456");
 		booking.ClickLoginButton();
 		booking.Sleep(200);
-		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
+		driver.findElement(By.xpath("//*[@name='CloseOnboarding']")).click();
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
 		//booking.Clickclose_menu4Button();
@@ -185,15 +185,15 @@ public class BookPSTest extends BaseTest
 		booking.ClickShop();
 		booking.ClickUpArrow();
 		QuizPage quiz = new QuizPage(driver);
-		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(110,210);
 		quiz.SelectImage3(150,250);
 		quiz.SelectCategory("shorts_new");
 		quiz.Sleep(250);
-		quiz.SelectImage3(100,200);
+		quiz.SelectImage3(110,210);
 		quiz.SelectImage3(150,250);
 		booking.ClickSave();
 		booking.FillLookDescription("style2");
-		booking.ClickToolBarDone();
+		//booking.ClickToolBarDone();
 		booking.ClickLookSaveButton();
 	}
 	@Test(priority = 9,groups={"sanity-group"})
@@ -216,8 +216,6 @@ public class BookPSTest extends BaseTest
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
 		booking.scrollDownXpath();
-		booking.scrollDownXpath();
-		booking.scrollDownXpath();
 		booking.ClickLoveOutfit();
 		driver.resetApp();
 		//driver.findElement(By.xpath("//*[@name='Love all your ideas!'][1]")).click();
@@ -233,7 +231,7 @@ public class BookPSTest extends BaseTest
 		booking.LoginStylistApp("LEOstylist@wishitest.com", "123456");
 		booking.ClickLoginButton();
 		booking.Sleep(200);
-		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
+		driver.findElement(By.xpath("//*[@name='CloseOnboarding']")).click();
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
 		//booking.Clickclose_menu4Button();
@@ -278,7 +276,7 @@ public class BookPSTest extends BaseTest
 		booking.LoginStylistApp("LEOstylist@wishitest.com", "123456");
 		booking.ClickLoginButton();
 		booking.Sleep(200);
-		driver.findElement(By.xpath("//*[@name='close_menu7']")).click();
+		driver.findElement(By.xpath("//*[@name='CloseOnboarding']")).click();
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
 		//booking.Clickclose_menu4Button();

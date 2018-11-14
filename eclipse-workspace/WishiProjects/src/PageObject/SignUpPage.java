@@ -40,18 +40,38 @@ public class SignUpPage extends BasePage
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
+	public void doSignUpSH(String user,String firstname,String lastname,String pass)
+	{
+		//ExplicityWaitIsClickable(By.xpath("//div//input[@id='signUpEmail']"));
+		Sleep(250);	
+		WaitElementDisplay(By.xpath("//div//input[@class='sign-up-btn ng-scope']"));
+		click(FirstName);
+		Sleep(150);
+		filltext(FirstName, firstname);
+		Sleep(150);
+		filltext(LastName, lastname);
+		Sleep(150);
+		filltext(userName, user);
+		Sleep(150);
+		filltext(password, pass);
+		Sleep(150);
+		click(SignUpBtn);			
+	} 
 	public void doSignUp(String user,String firstname,String lastname,String pass)
 	{
 		ExplicityWaitIsClickable(By.xpath("//div//input[@id='signUpEmail']"));
-		Sleep(100);
-		filltext(userName, user);
-		Sleep(100);
+		Sleep(250);	
+		WaitElementDisplay(By.xpath("//div//input[@class='sign-up-btn ng-scope']"));
+		click(FirstName);
+		Sleep(150);
 		filltext(FirstName, firstname);
-		Sleep(100);
+		Sleep(150);
 		filltext(LastName, lastname);
-		Sleep(100);
+		Sleep(150);
+		filltext(userName, user);
+		Sleep(150);
 		filltext(password, pass);
-		Sleep(100);
+		Sleep(150);
 		click(SignUpBtn);			
 	} 
 	public void ClickOnSignUpEmail() 

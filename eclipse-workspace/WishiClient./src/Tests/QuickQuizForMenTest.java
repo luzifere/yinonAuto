@@ -104,6 +104,7 @@ public class QuickQuizForMenTest extends BaseTest
 		quiz.ClickNextw();
 		quiz.Sleep(200);
 		QuizPage.DismissAlert();
+		quiz.SelectImage3(150,250);
 		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with Oren Oren']"));
 		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
 		driver.resetApp();

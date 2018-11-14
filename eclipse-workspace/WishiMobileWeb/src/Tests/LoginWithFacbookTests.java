@@ -50,7 +50,7 @@ public class LoginWithFacbookTests extends BaseTest
 		login.ClickLoginButtonOfFacbook();
 		login.Sleep(300);
 		login.switchWindow();
-		Assert.assertTrue(login.ElementDisplay("//div//span[text()[contains(.,'Book A Stylist')]]"));
+		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Your Stylist Match')]]"));
 	}
 
 }

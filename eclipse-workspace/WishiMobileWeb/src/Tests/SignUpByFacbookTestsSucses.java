@@ -25,7 +25,7 @@ public class SignUpByFacbookTestsSucses extends BaseTest
 		signup.ClickLoginButtonOfFacbook();
 		signup.Sleep(300);
 		signup.switchWindow();
-		Assert.assertTrue(signup.ElementDisplay("//div//span[text()[contains(.,'Book A Stylist')]]"));
+		Assert.assertTrue(signup.ElementDisplay("//div[text()[contains(.,'Your Stylist Match')]]"));
 	}
 
 }

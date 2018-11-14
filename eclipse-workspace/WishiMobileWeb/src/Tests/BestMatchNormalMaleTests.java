@@ -53,8 +53,8 @@ public class BestMatchNormalMaleTests extends BaseTest
 		best.ClickTagsNextButton();
 		best.Selectbrands("2");
 		best.ClickTagsNextButton();
-		best.WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'VIEW MORE STYLISTS')]]"));
-		best.ClickMoreStylistsButton();
+		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match')]]"));
+		//best.ClickMoreStylistsButton();
 		PageObejecs.OnBoardingPage2 ob = new PageObejecs.OnBoardingPage2(driver);
 		ob.Sleep(300);
 		driver.quit();

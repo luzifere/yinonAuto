@@ -21,7 +21,7 @@ public class CeckOutPage extends BasePage
 	WebElement PlusButtonOfEvents;
 	@FindBy(xpath="//*[@name='Instagram']")
 	WebElement Instagram;
-	@FindBy(xpath="//*[@name='Another account']")
+	@FindBy(xpath="//*[@name='AnotherAccountButtonID']")
 	WebElement Another_account;
 	@FindBy(xpath="//*[@name='AnotherAccountTextFieldID']")
 	WebElement AnotherAccountTextFieldID;
@@ -36,7 +36,7 @@ public class CeckOutPage extends BasePage
 	//@FindBy(xpath="//*[@name='selectButtonID']")
 	@FindBy(id="selectButtonID")
 	WebElement SelectStylistButton;//*[@name='selectButtonID']
-	@FindBy(id="Add Code")
+	@FindBy(xpath="//*[@name='AddCodeButtonID']")
 	WebElement addcode;
 	@FindBy(id="ApplePayButtonID")
 	WebElement ApplePay;
@@ -46,7 +46,7 @@ public class CeckOutPage extends BasePage
 	WebElement doneofcode;
 	@FindBy(id="completeBookingID")
 	WebElement compilebooking;
-	@FindBy(xpath="//XCUIElementTypeStaticText[@name=\"Pay with Credit Card \"]")
+	@FindBy(xpath="//*[@name='CreditCardButtonID']")
 	WebElement credit;
 	@FindBy(xpath="//*[@name='stripeTextFieldID']")
 	WebElement cardnumber;

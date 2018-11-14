@@ -108,13 +108,18 @@ public class BasePage
 			System.out.println("winHandle: " +winHandle);
 		}
 	}
+	public void returnToWindowdefault() {
+		//driver.close();
+		driver.switchTo().defaultContent();
+	}
+
 	public void scrollDown()
 	{
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy(0,450)", "");
 	}
 	public void returnToWindow() {
-		driver.close();
+		//driver.close();
 		driver.switchTo().window(winHandleBefore);
 	}
 	public void RefreshPage()
@@ -127,24 +132,24 @@ public class BasePage
 		driver.switchTo().frame(num);
 	}
 	public void waitForPageLoaded() {
-        ExpectedCondition<Boolean> expectation = new
-                ExpectedCondition<Boolean>() {
-                    public Boolean apply(WebDriver driver) {
-                        return ((JavascriptExecutor) driver).executeScript("return document.readyState").toString().equals("complete");
-                    }
-                };
-        try {
-            Thread.sleep(1000);
-            WebDriverWait wait = new WebDriverWait(driver, 30);
-            wait.until(expectation);
-        } catch (Throwable error) {
-            Assert.fail("Timeout waiting for Page Load Request to complete.");
-        }
-    }
+		ExpectedCondition<Boolean> expectation = new
+				ExpectedCondition<Boolean>() {
+			public Boolean apply(WebDriver driver) {
+				return ((JavascriptExecutor) driver).executeScript("return document.readyState").toString().equals("complete");
+			}
+		};
+		try {
+			Thread.sleep(1000);
+			WebDriverWait wait = new WebDriverWait(driver, 30);
+			wait.until(expectation);
+		} catch (Throwable error) {
+			Assert.fail("Timeout waiting for Page Load Request to complete.");
+		}
+	}
 	public void WaitElementDisplay (By by) 
 	{		
 		WebElement myDynamicElement = (new WebDriverWait(driver, 60))
-		.until(ExpectedConditions.presenceOfElementLocated(by));
+				.until(ExpectedConditions.presenceOfElementLocated(by));
 		//return myDynamicElement.isDisplayed();
 	}
 	public static void r ()throws IOException
@@ -164,7 +169,7 @@ public class BasePage
 		int number = 35600;
 		for (int counter = 58000; counter<=100000;counter++)
 			number = num.nextInt(7000);
-	
+
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		// Now you can do whatever you need to do with it, for example copy somewhere
 		File target = new File ("/Users/yinonwishi/Downloads/screenshoots/"+number+".png");
@@ -176,7 +181,7 @@ public class BasePage
 		}
 		System.out.println(target);
 	}
-	*/
+		 */
 
 		String folder_name ="/Users/yinonwishi/Downloads/screenshoots";
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
@@ -186,6 +191,10 @@ public class BasePage
 		String file_name=df.format(new Date())+".png";
 		FileUtils.copyFile(scrFile, new File(folder_name+ "/"+file_name));
 	}
-	
-	
+	public void Switch_to_strype () 
+	{
+		WebElement fr = driver.findElement(By.xpath("//iframe[@title='Secure payment input frame']"));
+		driver.switchTo().frame(fr);
+
+	}
 }

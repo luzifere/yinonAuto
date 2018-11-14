@@ -23,7 +23,7 @@ public class BaseTest4
 		DesiredCapabilities cap = new DesiredCapabilities();
 		//if (device.equals("emulator"))
 		//{
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 8 Plus");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone XS Max");
 		//	}
 		//else if (device.equals("real"))
 		//{
@@ -31,7 +31,7 @@ public class BaseTest4
 		//}
 
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11.3");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12.0");
 		//cap.setCapability("autoAcceptAlerts", true);
 		//cap.setCapability("autoDismissAlerts", true);
 		//cap.setCapability(MobileCapabilityType.UDID,"4acfefaa5a78272eb509b64a2f2efffabd0eda6c");
@@ -61,7 +61,7 @@ public class BaseTest4
 		DesiredCapabilities cap = new DesiredCapabilities();
 		//if (device.equals("emulator"))
 		//{
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 8 Plus");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone XS Max");
 		//	}
 		//else if (device.equals("real"))
 		//{
@@ -69,7 +69,7 @@ public class BaseTest4
 		//}
 
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11.3");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12.0");
 		//cap.setCapability(MobileCapabilityType.UDID,"4acfefaa5a78272eb509b64a2f2efffabd0eda6c");
 		//cap.setCapability(MobileCapabilityType.FULL_RESET,true);
 		//cap.setCapability(MobileCapabilityType.NO_RESET,true);

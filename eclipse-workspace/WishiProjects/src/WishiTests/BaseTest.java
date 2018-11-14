@@ -1,5 +1,6 @@
 package WishiTests;
 
+import java.awt.Dimension;
 import java.util.concurrent.TimeUnit;
 
 
@@ -21,7 +22,7 @@ public class BaseTest
 	(groups={"sanity-group"})
 	public void setup()
 	{
-		System.setProperty("webdriver.chrome.driver", "/Users/yinonwishi/Downloads/chromedriver3");
+		System.setProperty("webdriver.chrome.driver", "/Users/yinonwishi/Downloads/chromedriver 6");
 	    driver = new ChromeDriver();
         try {
 			Thread.sleep(2000);
@@ -43,7 +44,11 @@ public class BaseTest
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		driver.manage().window().maximize();
+		  //driver.manage().window().setSize(new Dimension(2560,1440));
+
+		//driver.manage().window().maximize();
+		  //driver.manage().window().setSize(new Dimension(1600,900));
+
 		
 	}
 	

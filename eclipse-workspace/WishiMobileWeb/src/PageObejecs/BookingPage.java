@@ -8,6 +8,8 @@ import org.openqa.selenium.support.FindBy;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.android.AndroidKeyCode;
+import io.appium.java_client.android.AndroidKeyMetastate;
 
 public class BookingPage extends BasePage
 {
@@ -26,11 +28,11 @@ public class BookingPage extends BasePage
 	@FindBy(xpath="//div [@class='filter-icon']")
 	WebElement FilterIcon;
 
-	@FindBy(xpath="//div//span[text()[contains(.,'Book A Stylist')]]")
+	@FindBy(xpath="//span[text()[contains(.,'Stylists')]]")
 	WebElement BookStylisk;
 
 
-	@FindBy(xpath="//div//input[@type='text']")
+	@FindBy(xpath="//div[@class='search-bar pull-left']")
 	WebElement SearchBar;
 
 	@FindBy(xpath="//div[@class='img-box']")
@@ -103,10 +105,15 @@ public class BookingPage extends BasePage
 
 	public void ClickName() 
 	{
-		click(FirstNameCheckout);
+		//click(FirstNameCheckout);
+		driver.findElement(By.xpath("//div[@id='card-element']")).click();
+		/*
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.TAB).perform();
-		Sleep(300);
+		Sleep(200);
+		act.sendKeys(Keys.TAB).perform();
+		*/
+		//Sleep(300);
 	}
 	public void ClickMyBooking() 
 	{
@@ -114,9 +121,9 @@ public class BookingPage extends BasePage
 	}
 	public void ClickSearchButton() 
 	{	
-		//Sleep(300);
+		Sleep(300);
 		//click(SearchBarButton);	
-		driver.findElement(By.xpath("//img[@src='../images/search.png']")).click();
+		driver.findElement(By.xpath("//div[@class='search-bar pull-left']")).click();
 	}
 
 	public void SearchStylist(String name) 
@@ -133,20 +140,21 @@ public class BookingPage extends BasePage
 		act.sendKeys(Keys.ENTER).perform();
 		Sleep(300);
 		*/
-		driver.findElement(By.xpath("//div//input[@type='text']")).click();
+		driver.findElement(By.xpath("//div[@class='search-bar pull-left']")).click();
 		driver.findElement(By.xpath("//div//input[@type='text']")).sendKeys(name);
-		WaitElementDisplay(By.xpath("//li[@class='uib-typeahead-match ng-scope active']"));
-		driver.findElement(By.xpath("//li[@class='uib-typeahead-match ng-scope active']")).click();
+		WaitElementDisplay(By.xpath("//li//a[@class='ng-binding ng-scope']"));
+		driver.findElement(By.xpath("//li//a[@class='ng-binding ng-scope']")).click();
 		Sleep(300);
 		//WaitElementDisplay(By.xpath("//div[@class='name-city ng-binding']"));
 	}
 	public void UseCodCoopon(String promocod) 
 	{ 
 		//click(FirstNameCheckout);
-		ExplicityWaitIsClickable(By.xpath("//div[@class='mobile_use_promo']"));
+		//ExplicityWaitIsClickable(By.xpath("//div[@class='mobile_use_promo']"));
+		driver.findElement(By.xpath("//span[@class='mobile_use_promo']")).click();
 		filltext(PromoCode,promocod);
 		driver.hideKeyboard();
-		driver.findElement(By.xpath("//span[@class='apply_promo_code']")).click();
+		driver.findElement(By.xpath("//button[@class='btn mobileBookme_payment_form_button']")).click();
 		WaitElementDisplay(By.xpath("//button[@class='mobileBookme_payment_form_button']"));
 		
 		//Actions act = new Actions(driver);
@@ -163,6 +171,7 @@ public class BookingPage extends BasePage
 
 	public void BookStylist() 
 	{	
+		Sleep(300);
 		click(SelectStylist);	
 	}
 
@@ -246,10 +255,21 @@ public class BookingPage extends BasePage
 	public void FillCardCVC(String cvc)
 	{
 		filltext(CVCCard, cvc);
+		/*
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.TAB).perform();
 		act.sendKeys(Keys.ENTER).perform();
-		Sleep(50);
+		*/
+		Sleep(250);
+		//driver.pressKeyCode(AndroidKeyCode.KEYCODE_TAB, AndroidKeyMetastate.META_SHIFT_ON);
+		//driver.pressKeyCode(AndroidKeyCode.KEYCODE_TAB, AndroidKeyMetastate.META_SHIFT_ON);
+		//driver.pressKeyCode(AndroidKeyCode.KEYCODE_ENTER, AndroidKeyMetastate.META_SHIFT_ON);
+		driver.switchTo().defaultContent();
+		//Sleep(250);
+		driver.findElement(By.xpath("//button[@class='btn mobileBookme_payment_form_button ng-binding']")).click();
+		Sleep(250);
+		driver.findElement(By.xpath("//button[@class='btn mobileBookme_payment_form_button ng-binding']")).click();
+
 	}
 	public void ClickTakeYourStyleQuiz() 
 	{

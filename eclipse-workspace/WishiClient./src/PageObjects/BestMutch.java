@@ -61,6 +61,10 @@ public class BestMutch extends BasePage
 	@FindBy(xpath="(//*[@name='close_image'])[1]")
 	WebElement close_image;
 	
+
+	@FindBy(xpath="//*[@name='CloseButtonID']")
+	WebElement CloseBestMatch;
+	
 	@FindBy(id="ViewMoreStylistsButtonID")
 	WebElement MoreStylistsButton;
 
@@ -70,6 +74,13 @@ public class BestMutch extends BasePage
 		click(MoreStylistsButton);
 		Sleep(250);
 		WaitElementDisplay(By.xpath("//*[@name='Allow']"));
+	}
+	public void CloseBestMatch() 
+	{	
+		Sleep(250);
+		click(CloseBestMatch);
+		Sleep(250);
+		//WaitElementDisplay(By.xpath("//*[@name='Allow']"));
 	}
 	
 	public void ClickNextTags() 

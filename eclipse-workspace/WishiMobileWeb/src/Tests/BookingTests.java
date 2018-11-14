@@ -23,7 +23,7 @@ public class BookingTests extends BaseTest
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitestttt@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishitesty@wishi.com" + number, "inon", "av", "ab1565");
 		signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
@@ -41,8 +41,8 @@ public class BookingTests extends BaseTest
 		best.ClickTagsNextButton();
 		best.Selectbrands("2");
 		best.ClickTagsNextButton();
-		best.WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'VIEW MORE STYLISTS')]]"));
-		best.ClickMoreStylistsButton();
+		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match')]]"));
+		//best.ClickMoreStylistsButton();
 		/*
 		driver.findElement(By.xpath("//img[@src='../images/search.png']")).click();
 		
@@ -61,7 +61,7 @@ public class BookingTests extends BaseTest
 		PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);
 		booking.ClickSearchButton();
 		booking.SearchStylist("Oren Oren");
-		booking.SelectStylist();
+		//booking.SelectStylist();
 		booking.BookStylist();
 		booking.UseCodCoopon("wishitest");
 		booking.ClickFinishCheckout();
@@ -70,16 +70,16 @@ public class BookingTests extends BaseTest
 		booking.ClickBookingstylist();		
 	}
 
-	@Test(priority = 3,groups={"sanity-group"})
+	//@Test(priority = 3,groups={"sanity-group"})
 	public void CheckoutUnlimitedCreditCard ()
 	{
 		PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);
-		booking.FilterIcon();
-		booking.SelectUnlimited();
-		booking.ClickApllay();
+		//booking.FilterIcon();
+		//booking.SelectUnlimited();
+		//booking.ClickApllay();
 		booking.ClickSearchButton();
 		booking.SearchStylist("Oren Oren");
-		booking.SelectStylist();
+		//booking.SelectStylist();
 		booking.BookStylist();
 		booking.ClickName();
 		booking.Sleep(250);
@@ -90,6 +90,7 @@ public class BookingTests extends BaseTest
 		booking.FillCardCVC("424");
 		booking.Sleep(50);
 		booking.switchWindow();
+		booking.ClickFinishCheckout();
 		PageObejecs.BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn-mob']"));
 		booking.ClickBookingstylist();			
 

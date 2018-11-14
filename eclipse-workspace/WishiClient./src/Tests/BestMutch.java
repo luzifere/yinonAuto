@@ -26,7 +26,7 @@ public class BestMutch extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitest.best@wishi.com", "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbestt.best@wishi.com", "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -51,8 +51,8 @@ public class BestMutch extends BaseTest
 		best.SelectBrands();
 		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
 		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
+		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
 		driver.resetApp();
 	}
 	@Test(priority = 2,groups={"sanity-group"})
@@ -66,7 +66,7 @@ public class BestMutch extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitest.best@wishi.com" , "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbestt.best@wishi.com" , "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -91,8 +91,8 @@ public class BestMutch extends BaseTest
 		best.SelectBrands();
 		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
 		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
+		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
 		driver.resetApp();
 	}
 	@Test(priority = 3,groups={"sanity-group"})
@@ -106,7 +106,7 @@ public class BestMutch extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitest.best@wishi.com" , "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbestt.best@wishi.com" , "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -131,8 +131,8 @@ public class BestMutch extends BaseTest
 		best.SelectBrands();
 		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
 		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
+		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
 		driver.resetApp();
 	}
 	@Test(priority = 4,groups={"sanity-group"})
@@ -146,7 +146,7 @@ public class BestMutch extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitest.best@wishi.com" , "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbestt.best@wishi.com" , "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -171,8 +171,8 @@ public class BestMutch extends BaseTest
 		best.SelectBrands();
 		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
 		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
+		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
 		driver.resetApp();
 	}
 	@Test(priority = 5,groups={"sanity-group"})
@@ -186,7 +186,7 @@ public class BestMutch extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitest.best@wishi.com" , "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbestt.best@wishi.com" , "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -207,8 +207,8 @@ public class BestMutch extends BaseTest
 		best.SelectBrands();
 		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
 		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
+		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
 		driver.resetApp();
 	}
 	@Test(priority = 6,groups={"sanity-group"})
@@ -222,7 +222,7 @@ public class BestMutch extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitest.best@wishi.com" , "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbestt.best@wishi.com" , "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -243,8 +243,8 @@ public class BestMutch extends BaseTest
 		best.SelectBrands();
 		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
 		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
+		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
 		driver.resetApp();
 	}
 	@Test(priority = 7,groups={"sanity-group"})
@@ -258,7 +258,7 @@ public class BestMutch extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitest.best@wishi.com" , "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbestt.best@wishi.com" , "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -279,8 +279,8 @@ public class BestMutch extends BaseTest
 		best.SelectBrands();
 		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
 		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
+		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
 		driver.resetApp();
 		best.WaitElementDisplay(By.id("signUpButton"));
 	}
@@ -294,7 +294,7 @@ public class BestMutch extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitest.best@wishi.com", "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbestt.best@wishi.com", "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -308,9 +308,9 @@ public class BestMutch extends BaseTest
 		sign.Sleep(200);
 		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
 		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
-		best.WaitElementDisplay(By.xpath("//*[@name='viewProfileButtonID']"));
-		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
+		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
+		best.WaitElementDisplay(By.xpath("//*[@name='Your Stylists Match!']"));
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
 		driver.resetApp();
 	}
 }

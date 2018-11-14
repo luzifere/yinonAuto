@@ -43,8 +43,8 @@ public class qwizTests extends BaseTest
 		best.ClickTagsNextButton();
 		best.Selectbrands("2");
 		best.ClickTagsNextButton();
-		best.WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'VIEW MORE STYLISTS')]]"));
-		best.ClickMoreStylistsButton();
+		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match')]]"));
+		//best.ClickMoreStylistsButton();
 	}
 	@Test(priority = 2,groups={"sanity-group"})
 	public void CheckOutSession ()
@@ -52,7 +52,7 @@ public class qwizTests extends BaseTest
 		PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);
 		booking.ClickSearchButton();
 		booking.SearchStylist("Casey Huth");
-		booking.SelectStylist();
+		//booking.SelectStylist();
 		booking.BookStylist();
 		booking.UseCodCoopon("wishitest");
 		booking.ClickFinishCheckout();

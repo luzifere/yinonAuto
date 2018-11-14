@@ -43,7 +43,7 @@ public class QuizPage extends BasePage
 	WebElement shoesminus;
 	@FindBy(id="NextButtonID")
 	WebElement NextButtonID;
-	@FindBy(id="add_full_body_photo")
+	@FindBy(xpath="//*[@name='AddFullBodyButtonID']")
 	WebElement AddFullBody;
 	@FindBy(id="Add 3 items")
 	WebElement AddItems;
@@ -58,55 +58,119 @@ public class QuizPage extends BasePage
 		Sleep(300);
 		click(QwizTabs);
 	}
+	public void SelectClothingPreferences(String event)
+	{
+		Sleep(300);
+		/*
+		String QwizElemet = ("Text1");
+		QwizElemet = QwizElemet.replace("Text1", event);
+		WebElement QwizTabs = driver.findElement(By.id(QwizElemet));
+		System.out.println(QwizElemet);
+		Sleep(300);
+		click(QwizTabs);
+		*/
+		String PlusElemet = ("(//*[@name='Text1'])[2]");
+		PlusElemet = PlusElemet.replace("Text1", event);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
+	}
 	public void SelectColor(String event)
 	{
 		Sleep(300);
+		/*
 		String ColorElemet = ("Text1");
 		ColorElemet = ColorElemet.replace("Text1", event);
 		WebElement colorTabs = driver.findElement(By.id(ColorElemet));
 		System.out.println(ColorElemet);
 		Sleep(300);
 		click(colorTabs);
+		*/
+		String PlusElemet = ("(//*[@name='Text1'])[1]");
+		PlusElemet = PlusElemet.replace("Text1", event);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
+	}
+	public void SelectFabrics(String event)
+	{
+		Sleep(300);
+		/*
+		String ColorElemet = ("Text1");
+		ColorElemet = ColorElemet.replace("Text1", event);
+		WebElement colorTabs = driver.findElement(By.id(ColorElemet));
+		System.out.println(ColorElemet);
+		Sleep(300);
+		click(colorTabs);
+		*/
+		String PlusElemet = ("(//*[@name='Text1'])[1]");
+		PlusElemet = PlusElemet.replace("Text1", event);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
 	}
 	public void SelectJeans(String event)
 	{
+	
 		Sleep(300);
+		/*
 		String JeansElemet = ("Text1");
 		JeansElemet = JeansElemet.replace("Text1", event);
 		WebElement JeansTabs = driver.findElement(By.id(JeansElemet));
 		System.out.println(JeansElemet);
 		Sleep(300);
 		click(JeansTabs);
+		*/
+		String PlusElemet = ("(//*[@name='Text1'])[1]");
+		PlusElemet = PlusElemet.replace("Text1", event);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
 	}
 	public void SelectCC(String event)
 	{
 		Sleep(300);
+		/*
 		String CCElemet = ("Text1");
 		CCElemet = CCElemet.replace("Text1", event);
 		WebElement CCTabs = driver.findElement(By.id(CCElemet));
 		System.out.println(CCElemet);
 		Sleep(300);
 		click(CCTabs);
+		*/
+		String PlusElemet = ("(//*[@name='Text1'])[1]");
+		PlusElemet = PlusElemet.replace("Text1", event);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
+		
 	}
 	public void SelectHighlights(String event)
 	{
 		Sleep(300);
+		/*
 		String HighlightsElemet = ("Text1");
 		HighlightsElemet = HighlightsElemet.replace("Text1", event);
 		WebElement HighlightsTabs = driver.findElement(By.id(HighlightsElemet));
 		System.out.println(HighlightsElemet);
 		Sleep(300);
 		click(HighlightsTabs);
+		*/
+		String PlusElemet = ("(//*[@name='Text1'])[1]");
+		PlusElemet = PlusElemet.replace("Text1", event);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
 	}
 	public void SelectCategory(String event)
 	{
 		Sleep(300);
+		/*
 		String CategoryElemet = ("Text1");
 		CategoryElemet = CategoryElemet.replace("Text1", event);
 		WebElement CategoryTabs = driver.findElement(By.id(CategoryElemet));
 		System.out.println(CategoryElemet);
 		Sleep(300);
 		click(CategoryTabs);
+		*/
+		String PlusElemet = ("(//*[@name='Text1'])[1]");
+		PlusElemet = PlusElemet.replace("Text1", event);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
 	}
 	public void ClickTopPlus() 
 	{		
@@ -185,6 +249,11 @@ public class QuizPage extends BasePage
 	{		
 		Sleep(150);
 		click(AddFullBody);
+		AcceptAlert();
+		Sleep(200);
+		SelectImage3(73,88);
+		driver.findElement(By.id("Done (1)")).click();
+		driver.findElement(By.id("NextButtonID")).click();
 		Sleep(150);
 	}
 	public void ClickAddItems() 
@@ -196,6 +265,7 @@ public class QuizPage extends BasePage
 	public void ClickShowState() 
 	{		
 		Sleep(150);
+		DismissAlert();
 		click(ShowState);
 		Sleep(150);
 	}

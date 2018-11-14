@@ -21,7 +21,7 @@ public class LoginWithFacbookFailsTests extends BaseTest
 		login.WaitElementDisplay(By.xpath("//div[@class='fb ng-binding ng-isolate-scope']"));
 		login.ClickLoginWithFacbook();
 		login.Sleep(300);
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		login.switchWindow();
 		login.ClickLoginButtonOfFacbook();
 		Assert.assertTrue(login.ElementDisplay("//div[@class='fsl fwb fcb']"));
@@ -62,8 +62,8 @@ public class LoginWithFacbookFailsTests extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.switchWindow();
-		login.FillusernameOfFacbook("luzifere@gmail.com");
-		login.FillPasswordOfFacbook("inonakjhgjhgb1565");
+		login.FillusernameOfFacbook("luzifegggggre@gmail.com");
+		login.FillPasswordOfFacbook("inonab1565");
 		login.ClickLoginButtonOfFacbook();
 		//login.ClickLoginButtonOfFacbook();
 		Assert.assertTrue(login.ElementDisplay("//div[@class='fsl fwb fcb']"));

@@ -143,6 +143,10 @@ public class ChatPage extends BasePage {
 		Sleep(250);
 		System.out.println(StylistButton);
 		click(StylistButton);
+		Sleep(350);
+		SelectImage3(150,250);
+		Sleep(150);
+		scrollDownXpath();
 	}
 	public void SelectTab(String tab)
 	{

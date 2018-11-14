@@ -4,19 +4,47 @@
 <listeners>
         <listener class-name="Tests.Listener"></listener>
     </listeners>
- 
   
+  <test thread-count="5" name="QuizForMaleTest">
+    <classes>
+      <class name="Tests.QuizForMaleTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="QuizForWomenTest">
+    <classes>
+      <class name="Tests.QuizForWomenTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="SignUpByFacbookTest2">
+    <classes>
+      <class name="Tests.SignUpByFacbookTest2"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="SignUpTest">
+    <classes>
+      <class name="Tests.SignUpTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="ChatTest">
+    <classes>
+      <class name="Tests.ChatTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="RetakeBestMatch">
+    <classes>
+      <class name="Tests.RetakeBestMatch"/>
+    </classes>
+  </test> <!-- Test -->
   <test thread-count="5" name="ReviseThirdLookTest">
     <classes>
       <class name="Tests.ReviseThirdLookTest"/>
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="BookPSTest">
+   <test thread-count="5" name="BookPSTest">
     <classes>
       <class name="Tests.BookPSTest"/>
     </classes>
   </test> <!-- Test -->
- 
   <test thread-count="5" name="BestMutch">
     <classes>
       <class name="Tests.BestMutch"/>
@@ -53,7 +81,7 @@
       <class name="Tests.CheckOutPSTest"/>
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="CheckOutByCoponTest">
+   <test thread-count="5" name="CheckOutByCoponTest">
     <classes>
       <class name="Tests.CheckOutByCoponTest"/>
     </classes>
@@ -64,7 +92,7 @@
       <class name="Tests.LoginTests"/>
     </classes>
   </test> <!-- Test --> 
-   <test thread-count="5" name="QuickQuizForWomenTest">
+  <test thread-count="5" name="QuickQuizForWomenTest">
     <classes>
       <class name="Tests.QuickQuizForWomenTest"/>
     </classes>
@@ -79,32 +107,7 @@
       <class name="Tests.QuizForSelfIdentityTest"/>
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="QuizForMaleTest">
-    <classes>
-      <class name="Tests.QuizForMaleTest"/>
-    </classes>
-  </test> <!-- Test -->
-  <test thread-count="5" name="QuizForWomenTest">
-    <classes>
-      <class name="Tests.QuizForWomenTest"/>
-    </classes>
-  </test> <!-- Test -->
-  <test thread-count="5" name="SignUpByFacbookTest2">
-    <classes>
-      <class name="Tests.SignUpByFacbookTest2"/>
-    </classes>
-  </test> <!-- Test -->
-  <test thread-count="5" name="SignUpTest">
-    <classes>
-      <class name="Tests.SignUpTest"/>
-    </classes>
-  </test> <!-- Test -->
-  <test thread-count="5" name="ChatTest">
-    <classes>
-      <class name="Tests.ChatTest"/>
-    </classes>
-  </test> <!-- Test -->
-  
+ 
 
   
  

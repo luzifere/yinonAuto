@@ -17,7 +17,7 @@ public class BookingPage extends BasePage
 	@FindBy(xpath="//div//span[text()[contains(.,'My Bookings')]]")
 	WebElement BookBtn;
 	
-	@FindBy(xpath="//span[text()[contains(.,'Book A Stylist')]]")
+	@FindBy(xpath="//span[text()[contains(.,'Stylists')]]")
 	WebElement BookStylist;
 
 	@FindBy(xpath="//a//div[text()[contains(.,'Start 7 day free trial')]]")
@@ -48,7 +48,7 @@ public class BookingPage extends BasePage
 	@FindBy(xpath="//div//ul[@class='dropdown-menu ng-isolate-scope']")
 	WebElement Dropdown;
 
-	@FindBy(xpath="//div[@class='name-city ng-binding']")
+	@FindBy(xpath="//li//a[@class='ng-binding ng-scope']")
 	WebElement TitleOfStylist;
 
 	@FindBy(xpath="//div//button[@class='stickyButton ng-binding']")
@@ -72,7 +72,7 @@ public class BookingPage extends BasePage
 	@FindBy(xpath="//div[@class='closeXRight']")
 	WebElement CloseBtnCheckout;
 
-	@FindBy(xpath="(//div//input[@class='form-control'])[1]")
+	@FindBy(xpath="(//div//input[@class='form-control ng-pristine ng-untouched ng-not-empty ng-valid ng-valid-required'])[1]")
 	WebElement FirstNameCheckout;
 
 	@FindBy(xpath="(//div//input[@class='form-control'])[2]")
@@ -107,15 +107,20 @@ public class BookingPage extends BasePage
 		Sleep(300);
 		click(SearchBar);
 		filltext(SearchBar, name);
-		Actions act = new Actions(driver);
-		act.sendKeys(Keys.ENTER).perform();
+		//Actions act = new Actions(driver);
+		//act.sendKeys(Keys.ENTER).perform();
 		Sleep(300);
 	}
 	public void UseCodCoopon(String promocod) 
 	{ 
-		click(FirstNameCheckout);
-		ExplicityWaitIsClickable(By.xpath("//div//input[@class='no-border bgTransparent ng-pristine ng-valid ng-empty ng-touched']"));
-		filltext(PromoCode,promocod);
+		//click(FirstNameCheckout);
+		//ExplicityWaitIsClickable(By.xpath("//div//input[@class='no-border bgTransparent ng-pristine ng-valid ng-empty ng-touched']"));
+		//driver.findElement(By.xpath("(//div//input[@class='form-control ng-pristine ng-untouched ng-valid ng-not-empty'])[1]")).click();
+		//driver.findElement(By.xpath("//div//input[@class='no-border bgTransparent ng-pristine ng-valid ng-empty ng-touched']")).click();
+		driver.findElement(By.xpath("//div//input[@class='no-border bgTransparent ng-pristine ng-valid ng-empty ng-touched']")).sendKeys(promocod);
+		
+		//filltext(PromoCode,promocod);
+		Sleep(300);
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.ENTER).perform();
 	}
@@ -124,18 +129,21 @@ public class BookingPage extends BasePage
 	{		
 		click(TitleOfStylist);
 		Sleep(300);
+		WaitElementDisplay(By.xpath("//a//div[text()[contains(.,'Start 7 day free trial')]]"));
 		
 		
 	}
 
 	public void SelectMemberShip() 
 	{	
-		click(MemberShip);	
+		click(MemberShip);
+		Sleep(450);
 	}
 
 	public void SelectSingle() 
 	{	
 		click(Single);	
+		Sleep(450);
 	}
 	public void BookStylist() 
 	{	
@@ -202,6 +210,7 @@ public class BookingPage extends BasePage
 	}
 	public void FillCardNumber(String number)
 	{
+		Sleep(150);
 		filltext(CardNaumber, number);
 	}
 	public void FillCardDate(String date )
@@ -211,6 +220,7 @@ public class BookingPage extends BasePage
 	public void FillCardCVC(String cvc)
 	{
 		filltext(CVCCard, cvc);
+		Sleep(300);
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.TAB).perform();
 		act.sendKeys(Keys.ENTER).perform();

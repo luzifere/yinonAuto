@@ -34,7 +34,7 @@ public class LoginTest extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		//login.ClickLoginButton();
 		login.doLogin("wishi.test@wishi.com", "123456");
-		Assert.assertTrue(login.ElementDisplay("//div[@class='page-title']"));
+		Assert.assertTrue(login.ElementDisplay("//h2[text()[contains(.,'Style session - starting at $20')]]"));
 		//login.Closebuttonoflogin();
 		//login.WaitElementClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
 		//login.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
@@ -100,7 +100,7 @@ public class LoginTest extends BaseTest
 		login.Fillusername("yinon@wishi.me");
 		login.Fillpassword("123123123");
 		login.Clickloginbuttonn();
-		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'The password you entered is incorrect')]]"));
+		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Invalid email')]]"));
 		login.Closebuttonoflogin();
 		//login.WaitElementClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
 		login.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));

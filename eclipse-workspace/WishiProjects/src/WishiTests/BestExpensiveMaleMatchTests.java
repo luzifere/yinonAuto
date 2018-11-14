@@ -31,7 +31,7 @@ public class BestExpensiveMaleMatchTests extends BaseTest
 		for (int counter = 58000; counter<=100000;counter++)
 			number = num.nextInt(7000);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishites111@wishitesttt.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishitestyinon@wishitest.com" + number, "inon", "av", "ab1565");
 		signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
@@ -59,8 +59,8 @@ public class BestExpensiveMaleMatchTests extends BaseTest
 		best.ClickTagsNextButton();
 		best.Selectbrands("2");
 		best.ClickTagsNextButton();
-		best.WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'VIEW MORE STYLISTS')]]"));
-		best.ClickMoreStylistsButton();
+		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
+		//best.ClickMoreStylistsButton();
 		OnBoardingPage2 ob = new OnBoardingPage2(driver);
 		ob.Sleep(300);
 		ob.close();

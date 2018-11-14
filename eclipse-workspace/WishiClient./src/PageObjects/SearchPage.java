@@ -17,7 +17,7 @@ public class SearchPage extends BasePage
 	WebElement CloseButton;
 	@FindBy(id="search button")
 	WebElement SearchButton;
-	@FindBy(id="stylistNameLabelID")
+	@FindBy(xpath="(//*[@name='stylistInformationButtonID'])[2]")
 	WebElement StylistNameID;
 	@FindBy(id="closeButtonID")
 	WebElement CloseSearch;
@@ -62,10 +62,11 @@ public class SearchPage extends BasePage
 	{		
 		//Sleep(150);
 		click(StylistName);
-		WaitElementDisplay(By.id("responseTimeLabelID"));
-		click(StylistNameID);
+		//WaitElementDisplay(By.id("responseTimeLabelID"));
+		//Sleep(300);
+		//click(StylistNameID);
 		//driver.findElement(By.id("stylistNameLabelID").click();
-		WaitElementDisplay(By.id("selectButtonID"));
+		//WaitElementDisplay(By.id("selectButtonID"));
 		/*
     	String StylistElemet = ("text");
     	StylistElemet = StylistElemet.replace("text", event);

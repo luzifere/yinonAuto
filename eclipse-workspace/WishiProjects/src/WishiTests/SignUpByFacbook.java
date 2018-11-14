@@ -25,7 +25,7 @@ public class SignUpByFacbook extends BaseTest
 		signup.ConnectWithFB();
 		signup.Sleep(200);
 		signup.switchWindow();
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		signup.FillusernameOfFacbook("yinonwishi@gmail.com");
 		signup.FillPasswordOfFacbook("inonab1565");
 		signup.ClickLoginButtonOfFacbook();

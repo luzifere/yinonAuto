@@ -47,28 +47,39 @@ public class QwizSkipedTests extends BaseTest
 		best.ClickNextbutton();
 		best.Selectbrands("2");
 		best.ClickNextbutton();
-		best.WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'VIEW MORE STYLISTS')]]"));
-		best.ClickMoreStylistsButton();
+		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
+		//best.ClickMoreStylistsButton();
 	}
 	@Test(priority = 2,groups={"sanity-group"})
 	public void CheckOutSessionskip ()
 	{
 		BookingPage booking = new BookingPage(driver);
-		booking.Sleep(200);
-		booking.ClickBookingstylist();
 		booking.SearchStylist("Oren Oren");
 		booking.SelectStylist();
-		booking.scrollDown();
-		booking.SelectSingle();
-		booking.UseCodCoopon("wishitest");
-		booking.ClickFinishCheckout();
-		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
+		booking.Sleep(300);
+		booking.SelectMemberShip();
+		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
+		//booking.BookStylist();
+		//booking.switchWindow();
+		//booking.FillFirstName("yinon");
+	//	booking.FillLastName("aba");
+		//booking.Sleep(350);
+		booking.SwitchToFrame(0);
+		booking.FillCardNumber("4111111111111111");
+		booking.FillCardDate("0222");
+		booking.FillCardCVC("424");
+		booking.Sleep(800);
+		booking.switchWindow();
+		booking.Sleep(200);
+		booking.WaitElementDisplay(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]"));
+		//BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
+		driver.findElement(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]")).click();
 	}
 	@Test(priority = 3,groups={"sanity-group"})
 	public void ClickSkip ()
 	{
 		QwizPage qwiz = new QwizPage(driver);
-		qwiz.ClickNextOfevent();
+		//qwiz.ClickNextOfevent();
 		qwiz.ClickSkip();
 		qwiz.ClickSkip();
 		qwiz.ClickSkip();

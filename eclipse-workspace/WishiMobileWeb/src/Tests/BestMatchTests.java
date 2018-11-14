@@ -50,7 +50,7 @@ public class BestMatchTests extends BaseTest
 		best.Selectbrands("2");
 		best.ClickTagsNextButton();
 		best.WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'VIEW MORE STYLISTS')]]"));
-		best.ClickMoreStylistsButton();
+		//best.ClickMoreStylistsButton();
 		OnBoardingPage2 ob = new OnBoardingPage2(driver);
 		ob.Sleep(300);
 		ob.ClickOnProfileButton();

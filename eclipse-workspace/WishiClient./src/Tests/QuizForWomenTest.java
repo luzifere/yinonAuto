@@ -58,10 +58,10 @@ public class QuizForWomenTest extends BaseTest
 		best.SelectBrands();
 		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
 		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
+		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
 		best.scrollDownXpath();
-		best.ClickMoreStylistsButton();
+		best.CloseBestMatch();
 		best.Sleep(500);
 		BestMutch.AcceptAlert();
 		best.Sleep(500);
@@ -170,7 +170,7 @@ public class QuizForWomenTest extends BaseTest
 	public void SelectFabrics() 
 	{
 		QuizPage quiz = new QuizPage(driver);
-		quiz.SelectTab("Fur");
+		quiz.SelectFabrics("Fur");
 		quiz.ClickNextw();
 		quiz.Sleep(150);
 	}
@@ -216,7 +216,7 @@ public class QuizForWomenTest extends BaseTest
 	{
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectHighlights("Legs");
-		quiz.SelectHighlights("Back");
+ 		quiz.SelectHighlights("Back");
 		quiz.ClickNextw();
 	}
 	@Test(priority = 17,groups={"sanity-group"})
@@ -229,7 +229,7 @@ public class QuizForWomenTest extends BaseTest
 	public void SelectClothingPreferences() 
 	{
 		QuizPage quiz = new QuizPage(driver);
-		quiz.SelectTab("Healthy mix of both");
+		quiz.SelectClothingPreferences("Healthy mix of both");
 	}
 	@Test(priority = 19,groups={"sanity-group"})
 	public void SelectClothingCategories() 
@@ -260,6 +260,7 @@ public class QuizForWomenTest extends BaseTest
 		quiz.ClickNextw();
 		quiz.Sleep(250);
 		*/
+		quiz.SelectImage3(150,250);
 		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with Oren Oren']"));
 		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
 		driver.resetApp();

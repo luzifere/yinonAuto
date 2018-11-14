@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Test Default test]]>
@@ -11,581 +11,91 @@
       <![CDATA[Completed executing following method : BaseTest.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : qwizTests.DoSignUp]]>
+      <![CDATA[About to begin executing following method : BookingCCTests.DoSignUp]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : qwizTests.DoSignUp]]>
+      <![CDATA[Completed executing following method : BookingCCTests.DoSignUp]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite DoSignUp]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.qwizTests]]>
+      <![CDATA[Test Method resides in Tests.BookingCCTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : qwizTests.CheckOutSession]]>
+      <![CDATA[About to begin executing following method : BookingCCTests.CheckoutUnlimitedCreditCard]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : qwizTests.CheckOutSession]]>
+      <![CDATA[Completed executing following method : BookingCCTests.CheckoutUnlimitedCreditCard]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite CheckOutSession]]>
+      <![CDATA[About to Success executing Suite CheckoutUnlimitedCreditCard]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.qwizTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : qwizTests.SelectEvent]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : qwizTests.SelectEvent]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectEvent]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.qwizTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : qwizTests.SelectBodyType]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : qwizTests.SelectBodyType]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectBodyType]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.qwizTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : qwizTests.SelectHeight]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : qwizTests.SelectHeight]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectHeight]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.qwizTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : qwizTests.SelectColors]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : qwizTests.SelectColors]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectColors]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.qwizTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : qwizTests.SelectHighlight]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : qwizTests.SelectHighlight]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectHighlight]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.qwizTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : qwizTests.SelectClothingPreferences]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : qwizTests.SelectClothingPreferences]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectClothingPreferences]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.qwizTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : qwizTests.SelectHeels]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : qwizTests.SelectHeels]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectHeels]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.qwizTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : qwizTests.SelectFabrics]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : qwizTests.SelectFabrics]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectFabrics]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.qwizTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : qwizTests.SelectPrints]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : qwizTests.SelectPrints]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectPrints]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.qwizTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : qwizTests.SelectSize]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : qwizTests.SelectSize]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectSize]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.qwizTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : qwizTests.SelectComfortZone]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : qwizTests.SelectComfortZone]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectComfortZone]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.qwizTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : qwizTests.SelectJEWELRY]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : qwizTests.SelectJEWELRY]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectJEWELRY]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.qwizTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : qwizTests.SelectBrands]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : qwizTests.SelectBrands]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectBrands]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.qwizTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : qwizTests.SelectInventory]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : qwizTests.SelectInventory]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectInventory]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.qwizTests]]>
+      <![CDATA[Test Method resides in Tests.BookingCCTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="196152" started-at="2018-09-27T15:20:15Z" finished-at="2018-09-27T15:23:31Z">
+  <suite name="Default suite" duration-ms="138016" started-at="2018-11-14T12:15:06Z" finished-at="2018-11-14T12:17:24Z">
     <groups>
       <group name="sanity-group">
-        <method signature="qwizTests.CheckOutSession()[pri:2, instance:Tests.qwizTests@7a3d45bd]" name="CheckOutSession" class="Tests.qwizTests"/>
-        <method signature="qwizTests.DoSignUp()[pri:1, instance:Tests.qwizTests@7a3d45bd]" name="DoSignUp" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectBodyType()[pri:4, instance:Tests.qwizTests@7a3d45bd]" name="SelectBodyType" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectBrands()[pri:15, instance:Tests.qwizTests@7a3d45bd]" name="SelectBrands" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectClothingPreferences()[pri:8, instance:Tests.qwizTests@7a3d45bd]" name="SelectClothingPreferences" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectColors()[pri:6, instance:Tests.qwizTests@7a3d45bd]" name="SelectColors" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectComfortZone()[pri:13, instance:Tests.qwizTests@7a3d45bd]" name="SelectComfortZone" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectEvent()[pri:3, instance:Tests.qwizTests@7a3d45bd]" name="SelectEvent" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectFabrics()[pri:10, instance:Tests.qwizTests@7a3d45bd]" name="SelectFabrics" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectHeels()[pri:9, instance:Tests.qwizTests@7a3d45bd]" name="SelectHeels" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectHeight()[pri:5, instance:Tests.qwizTests@7a3d45bd]" name="SelectHeight" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectHighlight()[pri:7, instance:Tests.qwizTests@7a3d45bd]" name="SelectHighlight" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectInventory()[pri:16, instance:Tests.qwizTests@7a3d45bd]" name="SelectInventory" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectJEWELRY()[pri:14, instance:Tests.qwizTests@7a3d45bd]" name="SelectJEWELRY" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectPrints()[pri:11, instance:Tests.qwizTests@7a3d45bd]" name="SelectPrints" class="Tests.qwizTests"/>
-        <method signature="qwizTests.SelectSize()[pri:12, instance:Tests.qwizTests@7a3d45bd]" name="SelectSize" class="Tests.qwizTests"/>
+        <method signature="BookingCCTests.CheckoutUnlimitedCreditCard()[pri:3, instance:Tests.BookingCCTests@3aeaafa6]" name="CheckoutUnlimitedCreditCard" class="Tests.BookingCCTests"/>
+        <method signature="BookingCCTests.DoSignUp()[pri:1, instance:Tests.BookingCCTests@3aeaafa6]" name="DoSignUp" class="Tests.BookingCCTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="196152" started-at="2018-09-27T15:20:15Z" finished-at="2018-09-27T15:23:31Z">
-      <class name="Tests.qwizTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.qwizTests@7a3d45bd]" name="setup" is-config="true" duration-ms="24221" started-at="2018-09-27T15:20:15Z" finished-at="2018-09-27T15:20:39Z">
+    <test name="Default test" duration-ms="138016" started-at="2018-11-14T12:15:06Z" finished-at="2018-11-14T12:17:24Z">
+      <class name="Tests.BookingCCTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BookingCCTests@3aeaafa6]" name="setup" is-config="true" duration-ms="37336" started-at="2018-11-14T12:15:06Z" finished-at="2018-11-14T12:15:43Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.qwizTests@7a3d45bd]" name="DoSignUp" duration-ms="69431" started-at="2018-09-27T15:20:39Z" finished-at="2018-09-27T15:21:49Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.BookingCCTests@3aeaafa6]" name="DoSignUp" duration-ms="60064" started-at="2018-11-14T12:15:43Z" finished-at="2018-11-14T12:16:43Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : qwizTests.DoSignUp]]>
+              <![CDATA[About to begin executing following method : BookingCCTests.DoSignUp]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : qwizTests.DoSignUp]]>
+              <![CDATA[Completed executing following method : BookingCCTests.DoSignUp]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite DoSignUp]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.qwizTests]]>
+              <![CDATA[Test Method resides in Tests.BookingCCTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:Tests.qwizTests@7a3d45bd]" name="CheckOutSession" duration-ms="30446" started-at="2018-09-27T15:21:49Z" finished-at="2018-09-27T15:22:19Z">
+        <test-method status="PASS" signature="CheckoutUnlimitedCreditCard()[pri:3, instance:Tests.BookingCCTests@3aeaafa6]" name="CheckoutUnlimitedCreditCard" duration-ms="40595" started-at="2018-11-14T12:16:43Z" finished-at="2018-11-14T12:17:24Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : qwizTests.CheckOutSession]]>
+              <![CDATA[About to begin executing following method : BookingCCTests.CheckoutUnlimitedCreditCard]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : qwizTests.CheckOutSession]]>
+              <![CDATA[Completed executing following method : BookingCCTests.CheckoutUnlimitedCreditCard]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite CheckOutSession]]>
+              <![CDATA[About to Success executing Suite CheckoutUnlimitedCreditCard]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.qwizTests]]>
+              <![CDATA[Test Method resides in Tests.BookingCCTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- CheckOutSession -->
-        <test-method status="PASS" signature="SelectEvent()[pri:3, instance:Tests.qwizTests@7a3d45bd]" name="SelectEvent" duration-ms="4678" started-at="2018-09-27T15:22:19Z" finished-at="2018-09-27T15:22:24Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : qwizTests.SelectEvent]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : qwizTests.SelectEvent]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectEvent]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.qwizTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectEvent -->
-        <test-method status="PASS" signature="SelectBodyType()[pri:4, instance:Tests.qwizTests@7a3d45bd]" name="SelectBodyType" duration-ms="2043" started-at="2018-09-27T15:22:24Z" finished-at="2018-09-27T15:22:26Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : qwizTests.SelectBodyType]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : qwizTests.SelectBodyType]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectBodyType]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.qwizTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectBodyType -->
-        <test-method status="PASS" signature="SelectHeight()[pri:5, instance:Tests.qwizTests@7a3d45bd]" name="SelectHeight" duration-ms="5041" started-at="2018-09-27T15:22:26Z" finished-at="2018-09-27T15:22:31Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : qwizTests.SelectHeight]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : qwizTests.SelectHeight]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectHeight]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.qwizTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectHeight -->
-        <test-method status="PASS" signature="SelectColors()[pri:6, instance:Tests.qwizTests@7a3d45bd]" name="SelectColors" duration-ms="5068" started-at="2018-09-27T15:22:31Z" finished-at="2018-09-27T15:22:36Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : qwizTests.SelectColors]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : qwizTests.SelectColors]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectColors]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.qwizTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectColors -->
-        <test-method status="PASS" signature="SelectHighlight()[pri:7, instance:Tests.qwizTests@7a3d45bd]" name="SelectHighlight" duration-ms="5023" started-at="2018-09-27T15:22:36Z" finished-at="2018-09-27T15:22:41Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : qwizTests.SelectHighlight]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : qwizTests.SelectHighlight]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectHighlight]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.qwizTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectHighlight -->
-        <test-method status="PASS" signature="SelectClothingPreferences()[pri:8, instance:Tests.qwizTests@7a3d45bd]" name="SelectClothingPreferences" duration-ms="5012" started-at="2018-09-27T15:22:41Z" finished-at="2018-09-27T15:22:46Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : qwizTests.SelectClothingPreferences]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : qwizTests.SelectClothingPreferences]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectClothingPreferences]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.qwizTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectClothingPreferences -->
-        <test-method status="PASS" signature="SelectHeels()[pri:9, instance:Tests.qwizTests@7a3d45bd]" name="SelectHeels" duration-ms="5163" started-at="2018-09-27T15:22:46Z" finished-at="2018-09-27T15:22:51Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : qwizTests.SelectHeels]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : qwizTests.SelectHeels]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectHeels]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.qwizTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectHeels -->
-        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.qwizTests@7a3d45bd]" name="SelectFabrics" duration-ms="5047" started-at="2018-09-27T15:22:51Z" finished-at="2018-09-27T15:22:56Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : qwizTests.SelectFabrics]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : qwizTests.SelectFabrics]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectFabrics]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.qwizTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectFabrics -->
-        <test-method status="PASS" signature="SelectPrints()[pri:11, instance:Tests.qwizTests@7a3d45bd]" name="SelectPrints" duration-ms="5017" started-at="2018-09-27T15:22:56Z" finished-at="2018-09-27T15:23:01Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : qwizTests.SelectPrints]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : qwizTests.SelectPrints]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectPrints]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.qwizTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectPrints -->
-        <test-method status="PASS" signature="SelectSize()[pri:12, instance:Tests.qwizTests@7a3d45bd]" name="SelectSize" duration-ms="5986" started-at="2018-09-27T15:23:01Z" finished-at="2018-09-27T15:23:07Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : qwizTests.SelectSize]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : qwizTests.SelectSize]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectSize]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.qwizTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectSize -->
-        <test-method status="PASS" signature="SelectComfortZone()[pri:13, instance:Tests.qwizTests@7a3d45bd]" name="SelectComfortZone" duration-ms="4934" started-at="2018-09-27T15:23:07Z" finished-at="2018-09-27T15:23:12Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : qwizTests.SelectComfortZone]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : qwizTests.SelectComfortZone]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectComfortZone]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.qwizTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectComfortZone -->
-        <test-method status="PASS" signature="SelectJEWELRY()[pri:14, instance:Tests.qwizTests@7a3d45bd]" name="SelectJEWELRY" duration-ms="5676" started-at="2018-09-27T15:23:12Z" finished-at="2018-09-27T15:23:18Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : qwizTests.SelectJEWELRY]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : qwizTests.SelectJEWELRY]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectJEWELRY]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.qwizTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectJEWELRY -->
-        <test-method status="PASS" signature="SelectBrands()[pri:15, instance:Tests.qwizTests@7a3d45bd]" name="SelectBrands" duration-ms="5412" started-at="2018-09-27T15:23:18Z" finished-at="2018-09-27T15:23:23Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : qwizTests.SelectBrands]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : qwizTests.SelectBrands]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectBrands]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.qwizTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectBrands -->
-        <test-method status="PASS" signature="SelectInventory()[pri:16, instance:Tests.qwizTests@7a3d45bd]" name="SelectInventory" duration-ms="7917" started-at="2018-09-27T15:23:23Z" finished-at="2018-09-27T15:23:31Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : qwizTests.SelectInventory]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : qwizTests.SelectInventory]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectInventory]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.qwizTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectInventory -->
-      </class> <!-- Tests.qwizTests -->
+        </test-method> <!-- CheckoutUnlimitedCreditCard -->
+      </class> <!-- Tests.BookingCCTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

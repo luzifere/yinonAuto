@@ -53,7 +53,7 @@ public class BookingStylistTests extends BaseTest
 		best.ClickNextbutton();
 		best.Selectbrands("2");
 		best.ClickNextbutton();
-		best.WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'VIEW MORE STYLISTS')]]"));
+		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
 		best.ClickMoreStylistsButton();
 	}
 

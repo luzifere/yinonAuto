@@ -15,7 +15,7 @@ public class BestMatchPage extends BasePage
 	WebElement Mount;
 	@FindBy(xpath="//a[@class='vis']")
 	WebElement Back;
-	@FindBy(xpath="//input[@type='text']")
+	@FindBy(xpath="//input[@type='tel']")
 	WebElement Age;
 	@FindBy(xpath="(//div[@class='fld-select'])[2]")
 	WebElement Day;
@@ -23,6 +23,11 @@ public class BestMatchPage extends BasePage
 	WebElement Year;
 	@FindBy(xpath="//div//a[@class='btn-start']")
 	WebElement ContinueButton;
+	@FindBy(xpath="//div[@class='start']")
+	WebElement StartHere;
+	@FindBy(xpath="//div[@class='get-your-style ng-binding']")
+	WebElement GetStyle;
+
 
 	@FindBy(xpath="//div//button[text()[contains(.,'Female')]]")
 	WebElement Female;
@@ -70,7 +75,7 @@ public class BestMatchPage extends BasePage
 	@FindBy(xpath="//a[text()[contains(.,'Models')]]")
 	WebElement Models;
 
-	@FindBy(xpath="//div//a[text()[contains(.,'VIEW MORE STYLISTS')]]")
+	@FindBy(xpath="//div//button[text()[contains(.,'SEE MORE')]]")
 	WebElement ViewMoreStylist;
 	
 
@@ -105,9 +110,12 @@ public class BestMatchPage extends BasePage
 	}
 	public void SelectInspiration(String inspiration)
 	{
+		
 		String GoalElemet = ("(//span[@class='img-wrapper'])[text1]");
 		GoalElemet = GoalElemet.replace("text1", inspiration);
 		WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+		WaitElementDisplay(By.xpath("(//span[@class='img-wrapper'])[1]"));
+		Sleep(100);
 		click(GoalButton);
 	} 
 	public void Selectbrands(String inspiration)
@@ -115,117 +123,145 @@ public class BestMatchPage extends BasePage
 		String GoalElemet = ("(//div[@class='brand-item ng-scope'])[text1]");
 		GoalElemet = GoalElemet.replace("text1", inspiration);
 		WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
-		Sleep(250);
+		WaitElementDisplay(By.xpath("(//div[@class='brand-item ng-scope'])[1]"));
+		Sleep(100);
 		click(GoalButton);
 	} 
 	public void SelectTags(String inspiration)
 	{
+		
 		String GoalElemet = ("//a[text()[contains(.,'text1')]]");
 		GoalElemet = GoalElemet.replace("text1", inspiration);
 		WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+		WaitElementDisplay(By.xpath("//a[text()[contains(.,'Petite')]]"));
+		Sleep(100);
 		click(GoalButton);
 	}
 	public void ClickontinueButton() 
 	{	
-		Sleep(250);
+		WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
+		Sleep(100);
 		click(ContinueButton);
-		Sleep(250);
+		Sleep(100);
 		//WaitElementDisplay(By.xpath("//*[@name='Allow']"));
 	}
 	public void ClickMoreStylistsButton() 
 	{	
-		Sleep(250);
+		Sleep(100);
 		click(ViewMoreStylist);
-		Sleep(250);
+		Sleep(100);
 		//WaitElementDisplay(By.xpath("//*[@name='Allow']"));
 	}
 
 
 	public void ClickFamle() 
 	{
-		Sleep(250);
+		WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'Female')]]"));
+		Sleep(100);
 		click(Female);
-		Sleep(250);
+		Sleep(100);
 	}
 	public void ClickSelfIdentityButtonID() 
 	{
-		Sleep(250);
+		WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'Self Identity')]]"));
+		Sleep(100);
 		click(SelfIdentity);
-		Sleep(250);
+		Sleep(100);
 	}
 	public void ClickBack() 
 	{
-		Sleep(250);
+		Sleep(100);
 		click(Back);
-		Sleep(250);
+		Sleep(100);
 	}
 	public void FillAge (String text) 
 	{
-		Sleep(250);
+		WaitElementDisplay(By.xpath("//input[@type='tel']"));
+		Sleep(100);
 		filltext(Age,text);
-		Sleep(250);
+		Sleep(100);
 	}
 	public void ClickMale() 
 	{
-		Sleep(250);
+		WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'Male')]]"));
+		Sleep(100);
 		click(Male);
-		Sleep(250);
+		Sleep(100);
+	}
+	public void ClickStartHere() 
+	{
+		WaitElementDisplay(By.xpath("//div[@class='start']"));
+		Sleep(100);
+		click(StartHere);
+		Sleep(100);
+	}
+	public void ClickGetStyle() 
+	{
+		Sleep(100);
+		click(GetStyle);
+		Sleep(100);
 	}
 
 	public void SelectCheapButtonID() 
 	{
-		Sleep(250);
+		WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'$50-$100')]]"));
+		Sleep(100);
 		click(LowBudget);
-		Sleep(250);
+		Sleep(100);
 	}
 	public void SelectCheapButtonID2() 
 	{
-		Sleep(250);
+		WaitElementDisplay(By.xpath("(//div//a[text()[contains(.,'$50-$100')]])[2]"));
+		Sleep(100);
 		click(LowBudget2);
-		Sleep(250);
+		Sleep(100);
 	}
 	public void SelectNormal() 
 	{
-		Sleep(250);
+		WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'$100-$400')]]"));
+		Sleep(100);
 		click(MiddleBudget);
-		Sleep(250);
+		Sleep(100);
 	}
 	public void SelectNormal2() 
 	{
-		Sleep(250);
+		WaitElementDisplay(By.xpath("(//div//a[text()[contains(.,'$100-$400')]])[2]"));
+		Sleep(100);
 		click(MiddleBudget2);
-		Sleep(250);
+		Sleep(100);
 	}
 	public void SelectExpensiveButtonID() 
 	{
-		Sleep(250);
+		WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'$400-$1,000')]]"));
+		Sleep(100);
 		click(Expensive1);
-		Sleep(250);
+		Sleep(100);
 	}
 	public void SelectExpensiveButtonID2() 
 	{
-		Sleep(250);
+		WaitElementDisplay(By.xpath("(//div//a[text()[contains(.,'$400-$1,000')]])[2]"));
+		Sleep(100);
 		click(Expensive1_1);
-		Sleep(250);
+		Sleep(100);
 	}
 
 	public void ClickNextbutton() 
 	{
-		Sleep(250);
+		Sleep(100);
 		click(NextButton);
-		Sleep(250);
+		Sleep(100);
 	}
 	public void ClickTagsNextButton() 
 	{
-		Sleep(250);
+		Sleep(100);
 		click(TagsNextButton);
-		Sleep(250);
+		Sleep(100);
 	}
 	public void ClickSkipbutton() 
 	{
-		Sleep(250);
+		Sleep(100);
 		click(SkipButton);
-		Sleep(250);
+		Sleep(100);
 	}
 	
 

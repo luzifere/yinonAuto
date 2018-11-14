@@ -32,16 +32,28 @@ public class CrateLookTests extends BaseTest
 	public void CheckOutSession ()
 	{
 		BookingPage booking = new BookingPage(driver);
-		booking.WaitElementDisplay(By.xpath("//div[@class='page-title']"));
+		booking.WaitElementDisplay(By.xpath("//h2[text()[contains(.,'Style session - starting at $20')]]"));
 		booking.Sleep(200);
 		booking.ClickBookingstylist();
 		booking.SearchStylist("YAstylist Booking");
 		booking.SelectStylist();
-		booking.scrollDown();
-		booking.SelectSingle();
-		booking.UseCodCoopon("wishitest");
-		booking.ClickFinishCheckout();
-		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
+		booking.SelectMemberShip();
+		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
+		//booking.BookStylist();
+		//booking.switchWindow();
+		//booking.FillFirstName("yinon");
+	//	booking.FillLastName("aba");
+		//booking.Sleep(350);
+		booking.SwitchToFrame(0);
+		booking.FillCardNumber("4111111111111111");
+		booking.FillCardDate("0222");
+		booking.FillCardCVC("424");
+		booking.Sleep(800);
+		booking.switchWindow();
+		booking.Sleep(200);
+		booking.WaitElementDisplay(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]"));
+		//BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
+		driver.findElement(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]")).click();
 		booking.ClickBookingstylist();
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickOnProfileClientButton();
@@ -227,7 +239,7 @@ public class CrateLookTests extends BaseTest
 		chat.ClickOnProfileClientButton();
 		chat.ClickOnLogOut();
 	}
-	@Test(priority = 10,groups={"sanity-group"})
+	//@Test(priority = 10,groups={"sanity-group"})
 	public void CreateMoodBoard2 ()
 	{
 		LoginPage login = new LoginPage(driver);
@@ -267,7 +279,7 @@ public class CrateLookTests extends BaseTest
 
 
 	}
-	@Test(priority = 11,groups={"sanity-group"})
+	//@Test(priority = 11,groups={"sanity-group"})
 	public void VerifyMoodBoard2() 
 	{
 		LoginPage login = new LoginPage(driver);
@@ -339,7 +351,7 @@ public class CrateLookTests extends BaseTest
 		chat.ClickOnProfileClientButton();
 		chat.ClickOnLogOut();
 	}
-	@Test(priority = 14,groups={"sanity-group"})
+	//@Test(priority = 14,groups={"sanity-group"})
 	public void CreateMoodBoard3 ()
 	{
 		LoginPage login = new LoginPage(driver);
@@ -378,7 +390,7 @@ public class CrateLookTests extends BaseTest
 		chat.ClickOnLogOut();
 
 	}
-	@Test(priority = 15,groups={"sanity-group"})
+	//@Test(priority = 15,groups={"sanity-group"})
 	public void VerifyMoodBoard3() 
 	{
 		LoginPage login = new LoginPage(driver);

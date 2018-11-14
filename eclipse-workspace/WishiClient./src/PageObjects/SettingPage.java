@@ -20,13 +20,13 @@ public class SettingPage extends BasePage
 	WebElement MeTab;
 	@FindBy(id="Edit Style")
 	WebElement EditStyleTab;
-	@FindBy(id="body_type")
+	@FindBy(id="Fit")
 	WebElement BodyTypeTab;
-	@FindBy(id="bow_Icon")
+	@FindBy(id="Style")
 	WebElement Style;
-	@FindBy(id="height_icon")
+	@FindBy(id="Height")
 	WebElement Height;
-	@FindBy(id="roller_icon")
+	@FindBy(id="Clothing Size")
 	WebElement Size;
 	@FindBy(id="Top")
 	WebElement TopOfSize;
@@ -36,31 +36,31 @@ public class SettingPage extends BasePage
 	WebElement DressOfSize;
 	@FindBy(id="Shoes")
 	WebElement ShoesOfSize;
-	@FindBy(id="settings_highlights")
+	@FindBy(id="Highlights")
 	WebElement Highlights;
-	@FindBy(id="settings_preferences")
+	@FindBy(id="Preferences")
 	WebElement Preferences;
-	@FindBy(id="shoe_icon")
+	@FindBy(id="Heels")
 	WebElement Heels;
-	@FindBy(id="blank_shirt")
+	@FindBy(id="Fit - Top")
 	WebElement FitTop;
-	@FindBy(id="long_pants")
+	@FindBy(id="Fit - Bottom")
 	WebElement FitBottom;
-	@FindBy(id="jeans_dark_settings")
+	@FindBy(id="Jeans")
 	WebElement Jeans;
-	@FindBy(id="fabric_settings")
+	@FindBy(id="Fabrics")
 	WebElement Fabric;
-	@FindBy(id="dollar_icon")
+	@FindBy(id="BudgetCellID")
 	WebElement Budget;
-	@FindBy(id="color_icon")
+	@FindBy(id="Colors & Prints")
 	WebElement Color;
-	@FindBy(id="jewelry_icon")
+	@FindBy(id="Jewelry")
 	WebElement Jewelry;
-	@FindBy(id="zone_icon")
+	@FindBy(id="Comfort Zone")
 	WebElement Zone;
-	@FindBy(id="tag_icon")
+	@FindBy(id="Brands")
 	WebElement Brands;
-	@FindBy(id="network_icon")
+	@FindBy(id="Social Media")
 	WebElement SocialMedia;
 	@FindBy(id="DoneButtonID")
 	WebElement DoneOfPicker;
@@ -76,6 +76,8 @@ public class SettingPage extends BasePage
 	WebElement Instegram;
 	@FindBy(id="FacebookTextFieldID")
 	WebElement Facbook;
+	@FindBy(id="Retake Your Style Match")
+	WebElement Retake;
 	
 	
 	
@@ -85,6 +87,40 @@ public class SettingPage extends BasePage
     	String PickerElemet = ("Text1");
     	PickerElemet = PickerElemet.replace("Text1", Picker);
     	WebElement PickerTabs = driver.findElement(By.id(PickerElemet));
+    	Sleep(200);
+    	click(PickerTabs);
+    }
+	public void SelectFromPickerColor(String Picker)
+    {
+		Sleep(400);
+    	String PickerElemet = ("(//*[@name='Text1'])[2]");
+    	PickerElemet = PickerElemet.replace("Text1", Picker);
+    	WebElement PickerTabs = driver.findElement(By.xpath(PickerElemet));
+    	Sleep(200);
+    	click(PickerTabs);
+    }
+	public void SelectFromPickerJeans(String Picker)
+    {
+		Sleep(400);
+		/*
+    	String PickerElemet = ("(//*[@name='Text1'])[1]");
+    	PickerElemet = PickerElemet.replace("Text1", Picker);
+    	WebElement PickerTabs = driver.findElement(By.id(PickerElemet));
+    	Sleep(200);
+    	click(PickerTabs);
+    	*/
+		String PlusElemet = ("(//*[@name='Text1'])[1]");
+		PlusElemet = PlusElemet.replace("Text1", Picker);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		Sleep(200);
+		click(PlusTabs);
+    }
+	public void SelectFromPickerFabric(String Picker)
+    {
+		Sleep(400);
+    	String PickerElemet = ("(//*[@name='Text1'])");
+    	PickerElemet = PickerElemet.replace("Text1", Picker);
+    	WebElement PickerTabs = driver.findElement(By.xpath(PickerElemet));
     	Sleep(200);
     	click(PickerTabs);
     }
@@ -105,6 +141,12 @@ public class SettingPage extends BasePage
 	{		
 		Sleep(200);
 		click(DoneOfPicker);
+		Sleep(200);
+	}
+	public void ClickRetake() 
+	{		
+		Sleep(200);
+		click(Retake);
 		Sleep(200);
 	}
 	

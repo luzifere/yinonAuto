@@ -54,8 +54,8 @@ public class BookingMembershipTests extends BaseTest
 		best.ClickNextbutton();
 		best.Selectbrands("2");
 		best.ClickNextbutton();
-		best.WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'VIEW MORE STYLISTS')]]"));
-		best.ClickMoreStylistsButton();
+		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
+		//best.ClickMoreStylistsButton();
 		BookingPage booking = new BookingPage(driver);
 		booking.ClickBookingstylist();
 		//booking.SelectService();
@@ -72,11 +72,12 @@ public class BookingMembershipTests extends BaseTest
 		booking.SelectMemberShip();
 		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
 		//booking.BookStylist();
-		booking.switchWindow();
-		booking.FillFirstName("yinon");
-		booking.FillLastName("aba");
+		//booking.switchWindow();
+		//booking.FillFirstName("yinon");
+	//	booking.FillLastName("aba");
+		//booking.Sleep(350);
 		booking.SwitchToFrame(0);
-		booking.FillCardNumber("4242424242424242");
+		booking.FillCardNumber("4111111111111111");
 		booking.FillCardDate("0222");
 		booking.FillCardCVC("424");
 		booking.Sleep(800);
@@ -118,7 +119,7 @@ public class BookingMembershipTests extends BaseTest
 		booking.FillFirstName("yinon");
 		booking.FillLastName("aba");
 		booking.SwitchToFrame(0);
-		booking.FillCardNumber("4242424242424242");
+		booking.FillCardNumber("4111111111111111");
 		booking.FillCardDate("0222");
 		booking.FillCardCVC("424");
 		booking.Sleep(500);
@@ -142,7 +143,7 @@ public class BookingMembershipTests extends BaseTest
 		booking.FillFirstName("yinon");
 		booking.FillLastName("aba");
 		booking.SwitchToFrame(0);
-		booking.FillCardNumber("4242424242424242");
+		booking.FillCardNumber("4111111111111111");
 		booking.FillCardDate("0222");
 		booking.FillCardCVC("424");
 		booking.Sleep(500);

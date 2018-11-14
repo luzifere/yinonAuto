@@ -42,7 +42,13 @@ public class ContactStylistTest extends BaseTest
 		SearchPage search = new SearchPage(driver);
 		search.ClickSearch();
 		search.FillStylist("CRstylist");
+		/*
+		driver.findElement(By.id("stylistNameLabelID")).click();
+		search.Sleep(350);
+		driver.findElement(By.xpath("(//*[@name='stylistInformationButtonID'])[1]")).click();
+		*/
 		search.SelectStylist("//*[@name='CRstylist booking']");
+		//search.SelectStylist("//*[@name='CRstylist booking']");
 		//driver.findElement(By.xpath("//*[@name='Meet Inon']")).click();
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickContactIcon();
@@ -59,6 +65,7 @@ public class ContactStylistTest extends BaseTest
 		//chat1.Clickclose_menu4Button();
 		chat1.OpenChat(textforchat);
 		Assert.assertTrue(chat1.ChatDisplay(textforchat));
+		driver.resetApp();
 		BaseTest.capabileties();
 
 	}
@@ -84,6 +91,11 @@ public class ContactStylistTest extends BaseTest
 		SearchPage search = new SearchPage(driver);
 		search.ClickSearch();
 		search.FillStylist("CRstylist");
+		/*
+		driver.findElement(By.id("stylistNameLabelID")).click();
+		search.Sleep(350);
+		driver.findElement(By.xpath("(//*[@name='stylistInformationButtonID'])[1]")).click();
+		*/
 		search.SelectStylist("//*[@name='CRstylist booking']");
 		CeckOutPage co = new CeckOutPage(driver);
 		//driver.findElement(By.xpath("//*[@name='Meet Inon']")).click();
@@ -91,7 +103,8 @@ public class ContactStylistTest extends BaseTest
 		chat.scrollDownXpath();
 		chat.scrollDownXpath();
 		chat.scrollDownXpath();
-		driver.findElement(By.xpath("//*[@name='ContactButtonID']")).click();
+		chat.Sleep(200);
+		driver.findElement(By.xpath("//XCUIElementTypeApplication[@name=\"Wishi\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[12]/XCUIElementTypeButton")).click();
 		//chat.ScrollToElement("//*[@name='ContactButtonID']");
 		chat.FillContactMessage(textforchat);
 		chat.ClickSendContact();

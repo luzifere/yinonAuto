@@ -47,10 +47,10 @@ public class QuizForSelfIdentityTest extends BaseTest
 		sign.Sleep(200);
 		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
 		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
+		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
 		best.scrollDownXpath();
-		best.ClickMoreStylistsButton();
+		best.CloseBestMatch();
 		best.Sleep(500);
 		BestMutch.AcceptAlert();
 		best.Sleep(500);
@@ -69,8 +69,8 @@ public class QuizForSelfIdentityTest extends BaseTest
 		//search.ScrollLeft();
 		search.Sleep(200);
 		search.ClickSearch();
-		search.FillStylist("Oren Oren");
-		search.SelectStylist("//*[@name='Oren Oren']");
+		search.FillStylist("Casey Huth");
+		search.SelectStylist("//*[@name='Casey Huth']");
 		//search.SelectviewProfileID();
 	}	
 	@Test(priority = 3,groups={"sanity-group"})
@@ -160,7 +160,7 @@ public class QuizForSelfIdentityTest extends BaseTest
 	public void SelectFabrics() 
 	{
 		QuizPage quiz = new QuizPage(driver);
-		quiz.SelectTab("Fur");
+		quiz.SelectFabrics("Fur");
 		quiz.ClickNextw();
 		quiz.Sleep(150);
 	}
@@ -219,7 +219,7 @@ public class QuizForSelfIdentityTest extends BaseTest
 	public void SelectClothingPreferences() 
 	{
 		QuizPage quiz = new QuizPage(driver);
-		quiz.SelectTab("Healthy mix of both");
+		quiz.SelectClothingPreferences("Healthy mix of both");
 	}
 	@Test(priority = 19,groups={"sanity-group"})
 	public void SelectClothingCategories() 
@@ -252,8 +252,9 @@ public class QuizForSelfIdentityTest extends BaseTest
 		quiz.ClickNextw();
 		quiz.Sleep(250);
 		*/
-		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with Oren Oren']"));
-		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
+		quiz.SelectImage3(150,250);
+		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with Casey Huth']"));
+		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Casey Huth']"));
 		driver.resetApp();
 	}
 

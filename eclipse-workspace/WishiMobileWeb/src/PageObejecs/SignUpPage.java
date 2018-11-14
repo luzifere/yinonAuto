@@ -52,9 +52,20 @@ public class SignUpPage extends BasePage {
 		filltext(password, pass);
 		click(SignUpBtn);			
 	} 
+	public void doSignUpSH(String user,String firstname,String lastname,String pass)
+	{
+		//ExplicityWaitIsClickable(By.xpath("//div//input[@id='signUpEmail']"));
+		filltext(userName, user);
+		filltext(FirstName, firstname);
+		filltext(LastName, lastname);
+		filltext(password, pass);
+		click(SignUpBtn);			
+	} 
+	
 	public void ClickOnSignUpEmail() 
 	{
-		click(SignUpEmail);	
+		//click(SignUpEmail);
+		driver.findElement(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='get-your-style']")).click();
 	}
 	public void FillUsernName(String user)
 	{

@@ -46,13 +46,15 @@ public class EditStyleForMenTests extends BaseTest
 		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
 		best.ClickNextbutton();
 		sign.Sleep(200);
-		best.SelectBrands();
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
-		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='viewProfileButtonID']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='viewProfileButtonID']"));
+		//best.SelectBrands();
+		//best.CheckIfElementEnabled("//*[@name='NextButtonID']");
+		//best.ClickNextbutton();
+		driver.findElement(By.id("Skip")).click();
+		sign.Sleep(200);
+		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
 		best.scrollDownXpath();
-		best.ClickMoreStylistsButton();
+		best.CloseBestMatch();
 		best.Sleep(500);
 		BestMutch.AcceptAlert();
 		best.Sleep(500);
@@ -165,18 +167,18 @@ public class EditStyleForMenTests extends BaseTest
 		setting.SelectFromPicker("0");
 		setting.SelectFromPicker("0");
 		setting.ClickToolBarDone();
-		setting.ClickBackButton();
-		setting.ClickEditStyleTab();
-		setting.Sleep(600);
-		Assert.assertTrue(setting.ElementDisplay("//*[@value='200']"));
+		//setting.ClickBackButton();
+		//setting.ClickEditStyleTab();
+		//setting.Sleep(600);
+		//Assert.assertTrue(setting.ElementDisplay("//*[@value='200']"));
 	}
 	@Test(priority = 9,groups={"sanity-group"})
 	public void EditColor() 
 	{
 		SettingPage setting = new SettingPage(driver);
 		setting.ClickColor();
-		setting.SelectFromPicker("Black");
-		setting.SelectFromPicker("Green");
+		setting.SelectFromPickerColor("Black");
+		setting.SelectFromPickerColor("Green");
 		setting.ClickDoneOfPicker();
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();
@@ -212,7 +214,8 @@ public class EditStyleForMenTests extends BaseTest
 		SettingPage setting = new SettingPage(driver);
 		setting.scrollDownXpath();
 		setting.ClickBrands();
-		setting.SelectFromPicker("GAP");
+		driver.findElement(By.xpath("(//*[@name='BrandViewID'])[2]")).click();
+		//setting.SelectFromPicker("GAP");
 		setting.ClickDoneOfPicker();
 		setting.ClickBackButton();
 		setting.ClickEditStyleTab();

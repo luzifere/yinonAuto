@@ -23,7 +23,7 @@ public class BestMatchPage extends BasePage
 	WebElement Mount;
 	@FindBy(xpath="//a[@class='vis']")
 	WebElement Back;
-	@FindBy(xpath="//input[@type='text']")
+	@FindBy(xpath="//input[@type='tel']")
 	WebElement Age;
 	@FindBy(xpath="(//div[@class='fld-select'])[2]")
 	WebElement Day;
@@ -81,6 +81,10 @@ public class BestMatchPage extends BasePage
 
 	@FindBy(xpath="//div//a[text()[contains(.,'VIEW MORE STYLISTS')]]")
 	WebElement ViewMoreStylist;
+	@FindBy(xpath="//div[@class='start']")
+	WebElement StartHere;
+	@FindBy(xpath="//div[@class='get-your-style ng-binding']")
+	WebElement GetStyle;
 
 
 
@@ -159,6 +163,18 @@ public class BestMatchPage extends BasePage
 	{
 		Sleep(250);
 		click(Male);
+		Sleep(250);
+	}
+	public void ClickStartHere() 
+	{
+		Sleep(250);
+		click(StartHere);
+		Sleep(250);
+	}
+	public void ClickGetStyle() 
+	{
+		Sleep(250);
+		click(GetStyle);
 		Sleep(250);
 	}
 
