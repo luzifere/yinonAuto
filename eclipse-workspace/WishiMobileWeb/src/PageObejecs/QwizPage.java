@@ -31,6 +31,11 @@ public class QwizPage extends BasePage {
 	@FindBy(xpath="//nav//div//span[@class='inner-credentials ng-binding']")
 	WebElement ProfileClientButton;
 	
+	public void FillNumberPhone(String phone)
+	{
+		WaitElementDisplay(By.xpath("//div//input[@type='text']"));
+	driver.findElement(By.xpath("//div//input[@type='text']")).sendKeys(phone);
+	}
 	public void SelectTab(String event)
     {
     	String QwizElemet = ("//div//label[text()[contains(.,'Text1')]]");

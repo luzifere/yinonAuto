@@ -64,7 +64,7 @@ public class QwizTests extends BaseTest
 		booking.SearchStylist("Oren Oren");
 		booking.SelectStylist();
 		booking.Sleep(200);
-		booking.SelectMemberShip();
+		booking.SelectSingle();
 		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
 		//booking.BookStylist();
 		//booking.switchWindow();
@@ -158,9 +158,9 @@ public class QwizTests extends BaseTest
 		qwiz.ClickNext();
 		qwiz.SelectTab("Fur");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'PRINTS')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'SIZE')]]"));
 	}
-	@Test(priority = 11,groups={"sanity-group"})
+	//@Test(priority = 11,groups={"sanity-group"})
 	public void SelectPrints ()
 	{
 		QwizPage qwiz = new QwizPage(driver);
@@ -202,11 +202,26 @@ public class QwizTests extends BaseTest
 		QwizPage qwiz = new QwizPage(driver);
 		qwiz.ClickBack();
 		qwiz.ClickNext();
-		qwiz.SelectTab("Gold");
+		qwiz.SelectTab("Silver");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'BRANDS')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[@class='step-title ng-binding']"));
+		qwiz.Sleep(300);
+		//qwiz.close();
+		//Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'BRANDS')]]"));
 	}
 	@Test(priority = 15,groups={"sanity-group"})
+	public void FillNumberPhone ()
+	{
+		QwizPage qwiz = new QwizPage(driver);
+		qwiz.FillNumberPhone("0523365435");
+		qwiz.ClickNext();
+		Assert.assertTrue(qwiz.ElementDisplay("//button[@class='input_btn']"));
+		qwiz.Sleep(300);
+		qwiz.close();
+		//qwiz.close();
+		//Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'BRANDS')]]"));
+	}
+	//@Test(priority = 15,groups={"sanity-group"})
 	public void SelectBrands ()
 	{
 		QwizPage qwiz = new QwizPage(driver);
@@ -214,9 +229,10 @@ public class QwizTests extends BaseTest
 		qwiz.ClickNext();
 		qwiz.SelectBrands("3");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'INVENTORY')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//button[@class='input_btn']"));
+		//Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'INVENTORY')]]"));
 	}
-	@Test(priority = 16,groups={"sanity-group"})
+	//@Test(priority = 16,groups={"sanity-group"})
 	public void SelectInventory ()
 	{
 		QwizPage qwiz = new QwizPage(driver);

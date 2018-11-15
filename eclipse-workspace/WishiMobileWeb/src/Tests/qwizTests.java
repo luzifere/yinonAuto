@@ -23,7 +23,7 @@ public class qwizTests extends BaseTest
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitesttt@wishitesttt.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishiyinon@wishitesttt.com" + number, "vali", "av", "123456");
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();
@@ -51,7 +51,7 @@ public class qwizTests extends BaseTest
 	{
 		PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);
 		booking.ClickSearchButton();
-		booking.SearchStylist("Casey Huth");
+		booking.SearchStylist("Oren Oren");
 		//booking.SelectStylist();
 		booking.BookStylist();
 		booking.UseCodCoopon("wishitest");
@@ -60,7 +60,7 @@ public class qwizTests extends BaseTest
 		PageObejecs.BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn-mob']"));
 		//booking.ClickBookingstylist();		
 	}
-	@Test(priority = 3,groups={"sanity-group"})
+	//@Test(priority = 3,groups={"sanity-group"})
 	public void SelectEvent ()
 	{
 		PageObejecs.QwizPage qwiz = new PageObejecs.QwizPage(driver);
@@ -96,6 +96,7 @@ public class qwizTests extends BaseTest
 		qwiz.Sleep(10);
 		qwiz.ClickNext();
 		qwiz.SelectColors("3");
+		qwiz.SelectColors("5");
 		qwiz.ClickNext();
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'HIGHLIGHT')]]"));
 	}
@@ -137,9 +138,9 @@ public class qwizTests extends BaseTest
 		qwiz.ClickNext();
 		qwiz.SelectTab("Fur");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'PRINTS')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'SIZE')]]"));
 	}
-	@Test(priority = 11,groups={"sanity-group"})
+	//@Test(priority = 11,groups={"sanity-group"})
 	public void SelectPrints ()
 	{
 		PageObejecs.QwizPage qwiz = new PageObejecs.QwizPage(driver);
@@ -179,11 +180,11 @@ public class qwizTests extends BaseTest
 		PageObejecs.QwizPage qwiz = new PageObejecs.QwizPage(driver);
 		qwiz.ClickBack();
 		qwiz.ClickNext();
-		qwiz.SelectTab("Gold");
+		qwiz.SelectTab("Silver");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'BRANDS')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[@class='step-title ng-binding']"));
 	}
-	@Test(priority = 15,groups={"sanity-group"})
+	//@Test(priority = 15,groups={"sanity-group"})
 	public void SelectBrands ()
 	{
 		PageObejecs.QwizPage qwiz = new PageObejecs.QwizPage(driver);
@@ -193,7 +194,7 @@ public class qwizTests extends BaseTest
 		qwiz.ClickNext();
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'INVENTORY')]]"));
 	}
-	@Test(priority = 16,groups={"sanity-group"})
+	//@Test(priority = 16,groups={"sanity-group"})
 	public void SelectInventory ()
 	{
 		PageObejecs.QwizPage qwiz = new PageObejecs.QwizPage(driver);
@@ -205,5 +206,17 @@ public class qwizTests extends BaseTest
 		qwiz.ClickNext();
 		Assert.assertTrue(qwiz.ElementDisplay("//button[@class='input_btn']"));
 
+	}
+	@Test(priority = 15,groups={"sanity-group"})
+	public void FillNumberPhone ()
+	{
+		PageObejecs.QwizPage qwiz = new PageObejecs.QwizPage(driver);
+		qwiz.FillNumberPhone("0523365435");
+		qwiz.ClickNext();
+		Assert.assertTrue(qwiz.ElementDisplay("//button[@class='input_btn']"));
+		qwiz.Sleep(300);
+		driver.quit();
+		//qwiz.close();
+		//Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'BRANDS')]]"));
 	}
 }

@@ -4,21 +4,8 @@
 <listeners>
         <listener class-name="Tests.Listener"></listener>
     </listeners>
-     <test name="qwizTests">
-    <classes>
-      <class name="Tests.qwizTests"/>
-    </classes>
-  </test> <!-- Test -->
-   <test name="BookingTests">
-    <classes>
-      <class name="Tests.BookingTests"/>
-    </classes>
-  </test> <!-- Test -->
-   <test name="BookingCCTests">
-    <classes>
-      <class name="Tests.BookingCCTests"/>
-    </classes>
-  </test> <!-- Test -->
+    
+  
     <test name="LoginWithFacbookTests">
     <classes>
       <class name="Tests.LoginWithFacbookTests"/>
@@ -126,6 +113,26 @@
       <class name="Tests.StartHereNaturalMatchTests"/>
     </classes>
     </test> <!-- Test -->
+     <test name="qwizTests">
+    <classes>
+      <class name="Tests.qwizTests"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="qwizMaleTests">
+    <classes>
+      <class name="Tests.qwizMaleTests"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="BookingTests">
+    <classes>
+      <class name="Tests.BookingTests"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="BookingCCTests">
+    <classes>
+      <class name="Tests.BookingCCTests"/>
+    </classes>
+  </test> <!-- Test -->
    
   
 </suite> <!-- Suite -->

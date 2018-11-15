@@ -67,7 +67,7 @@ public class BookingPage extends BasePage
 	WebElement SelectService;
 
 	@FindBy(xpath="//div//input[@class='no-border bgTransparent ng-pristine ng-valid ng-empty ng-touched']")
-	WebElement PromoCode;
+	WebElement PromoCode;//input[@class='form-control ng-pristine ng-untouched ng-valid ng-empty']
 
 	@FindBy(xpath="//div[@class='closeXRight']")
 	WebElement CloseBtnCheckout;

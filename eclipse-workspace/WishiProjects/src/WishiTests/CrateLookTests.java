@@ -37,7 +37,7 @@ public class CrateLookTests extends BaseTest
 		booking.ClickBookingstylist();
 		booking.SearchStylist("YAstylist Booking");
 		booking.SelectStylist();
-		booking.SelectMemberShip();
+		booking.SelectSingle();
 		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
 		//booking.BookStylist();
 		//booking.switchWindow();

@@ -171,7 +171,8 @@ public class BookingPage extends BasePage
 
 	public void BookStylist() 
 	{	
-		Sleep(300);
+		WaitElementDisplay(By.xpath("//div[@class='next-btn ng-binding']"));
+		Sleep(100);
 		click(SelectStylist);	
 	}
 

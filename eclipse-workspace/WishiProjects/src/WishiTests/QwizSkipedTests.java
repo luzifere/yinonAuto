@@ -57,7 +57,7 @@ public class QwizSkipedTests extends BaseTest
 		booking.SearchStylist("Oren Oren");
 		booking.SelectStylist();
 		booking.Sleep(300);
-		booking.SelectMemberShip();
+		booking.SelectSingle();
 		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
 		//booking.BookStylist();
 		//booking.switchWindow();
@@ -85,13 +85,13 @@ public class QwizSkipedTests extends BaseTest
 		qwiz.ClickSkip();
 		qwiz.ClickSkip();
 		qwiz.ClickSkip();
-		qwiz.ClickSkip();
+		//qwiz.ClickSkip();
 		qwiz.ClickSkip();
 		qwiz.ClickSkip();
 		qwiz.ClickNext();
 		qwiz.ClickSkip();
 		qwiz.ClickSkip();
-		qwiz.ClickSkip();
+		//qwiz.ClickSkip();
 		qwiz.ClickNext();
 		Assert.assertTrue(qwiz.ElementDisplay("//button[@class='input_btn']"));
 		qwiz.Sleep(300);

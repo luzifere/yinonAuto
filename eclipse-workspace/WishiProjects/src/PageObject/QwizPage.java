@@ -31,7 +31,11 @@ public class QwizPage extends BasePage
 	
 	
 	
-	
+	public void FillNumberPhone(String phone)
+	{
+		WaitElementDisplay(By.xpath("//div//input[@type='text']"));
+	driver.findElement(By.xpath("//div//input[@type='text']")).sendKeys(phone);
+	}
 	public void SelectTab(String event)
     {
     	String QwizElemet = ("//div//label[text()[contains(.,'Text1')]]");

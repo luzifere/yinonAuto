@@ -9,9 +9,27 @@
  
  
    
-   
+    <test name="CrateLookTests">
+    <classes>
+      <class name="WishiTests.CrateLookTests"/>
+    </classes>
+  </test> <!-- Test -->
     
-    
+     <test name="QwizTests">
+    <classes>
+      <class name="WishiTests.QwizTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="QwizMaleTests">
+    <classes>
+      <class name="WishiTests.QwizMaleTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="QwizSkipedTests">
+    <classes>
+      <class name="WishiTests.QwizSkipedTests"/>
+    </classes>
+  </test> <!-- Test -->
   <test name="Login">
     <classes>
       <class name="WishiTests.LoginTest"/>
@@ -27,26 +45,13 @@
       <class name="WishiTests.ChatTests"/>
     </classes>
     </test> <!-- Test -->
-    <test name="QwizTests">
-    <classes>
-      <class name="WishiTests.QwizTests"/>
-    </classes>
-    </test> <!-- Test -->
-    <test name="QwizSkipedTests">
-    <classes>
-      <class name="WishiTests.QwizSkipedTests"/>
-    </classes>
-  </test> <!-- Test -->
+   
      <test name="UploadItemTest">
     <classes>
       <class name="WishiTests.UploadItemTest"/>
        </classes>
   </test> <!-- Test -->
-   <test name="CrateLookTests">
-    <classes>
-      <class name="WishiTests.CrateLookTests"/>
-    </classes>
-  </test> <!-- Test -->
+  
     
    <test name="LoginWithFacbookFailsTests">
     <classes>

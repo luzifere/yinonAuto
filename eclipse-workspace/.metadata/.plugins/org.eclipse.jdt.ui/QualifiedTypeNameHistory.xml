@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="PageObject.BasePage"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.interactions.touch.TouchActions"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="java.awt.Dimension"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
     <fullyQualifiedTypeName name="java.awt.Desktop.Action"/>
@@ -10,5 +9,6 @@
     <fullyQualifiedTypeName name="io.appium.java_client.android.AndroidKeyCode"/>
     <fullyQualifiedTypeName name="io.appium.java_client.android.AndroidKeyMetastate"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 </qualifiedTypeNameHistroy>

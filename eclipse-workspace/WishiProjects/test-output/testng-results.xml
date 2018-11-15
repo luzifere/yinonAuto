@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[About to begin executing Test RetakeMatchNormalFeamleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test RetakeMatchNormalFeamleTests]]>
+      <![CDATA[About to begin executing Test Default test]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : BaseTest.setup]]>
@@ -14,316 +11,34 @@
       <![CDATA[Completed executing following method : BaseTest.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : RetakeMatchNormalFeamleTests.BMNormalFeamle]]>
+      <![CDATA[About to begin executing following method : BookingMembershipTests.DoSignUp]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : RetakeMatchNormalFeamleTests.BMNormalFeamle]]>
+      <![CDATA[Completed executing following method : BookingMembershipTests.DoSignUp]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite BMNormalFeamle]]>
+      <![CDATA[About to Success executing Suite DoSignUp]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.RetakeMatchNormalFeamleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BMNormalFeamle]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.RetakeMatchNormalFeamleTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : BaseTest.tearDown]]>
+      <![CDATA[About to begin executing following method : BookingMembershipTests.CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : BaseTest.tearDown]]>
+      <![CDATA[Completed executing following method : BookingMembershipTests.CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[Completed executing test RetakeMatchNormalFeamleTests]]>
+      <![CDATA[About to Success executing Suite CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[Completed executing test RetakeMatchNormalFeamleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test RetakeExpensiveMaleMatchTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test RetakeExpensiveMaleMatchTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : RetakeExpensiveMaleMatchTests.BMExpensiveMale]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : RetakeExpensiveMaleMatchTests.BMExpensiveMale]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.RetakeExpensiveMaleMatchTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.RetakeExpensiveMaleMatchTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.tearDown]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.tearDown]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test RetakeExpensiveMaleMatchTests]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test RetakeExpensiveMaleMatchTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test RetakeMatchExpensiveFeamleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test RetakeMatchExpensiveFeamleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : RetakeMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : RetakeMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.RetakeMatchExpensiveFeamleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.RetakeMatchExpensiveFeamleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.tearDown]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.tearDown]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test RetakeMatchExpensiveFeamleTests]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test RetakeMatchExpensiveFeamleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test RetakeMatchLowFeamleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test RetakeMatchLowFeamleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : RetakeMatchLowFeamleTests.BMLowFeamle]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : RetakeMatchLowFeamleTests.BMLowFeamle]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BMLowFeamle]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.RetakeMatchLowFeamleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BMLowFeamle]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.RetakeMatchLowFeamleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.tearDown]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.tearDown]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test RetakeMatchLowFeamleTests]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test RetakeMatchLowFeamleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test RetakeMatchLowMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test RetakeMatchLowMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : RetakeMatchLowMaleTests.BMLowMale]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : RetakeMatchLowMaleTests.BMLowMale]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BMLowMale]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.RetakeMatchLowMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BMLowMale]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.RetakeMatchLowMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.tearDown]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.tearDown]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test RetakeMatchLowMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test RetakeMatchLowMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test RetakeMatchNormalMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test RetakeMatchNormalMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : RetakeMatchNormalMaleTests.BMNormalMale]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : RetakeMatchNormalMaleTests.BMNormalMale]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BMNormalMale]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.RetakeMatchNormalMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BMNormalMale]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.RetakeMatchNormalMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.tearDown]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.tearDown]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test RetakeMatchNormalMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test RetakeMatchNormalMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test RetakeMatchNaturalTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test RetakeMatchNaturalTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : RetakeMatchNaturalTests.BMNatural]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : RetakeMatchNaturalTests.BMNatural]]>
-    </line>
-    <line>
-      <![CDATA[About to Failure executing Suite BMNatural]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.RetakeMatchNaturalTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Failed]]>
-    </line>
-    <line>
-      <![CDATA[About to Failure executing Suite BMNatural]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.RetakeMatchNaturalTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Failed]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : BaseTest.tearDown]]>
@@ -332,391 +47,68 @@
       <![CDATA[Completed executing following method : BaseTest.tearDown]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="856946" started-at="2018-11-14T10:18:09Z" finished-at="2018-11-14T10:32:26Z">
+  <suite name="Default suite" duration-ms="88707" started-at="2018-11-15T15:06:22Z" finished-at="2018-11-15T15:07:51Z">
     <groups>
       <group name="sanity-group">
-        <method signature="RetakeMatchNormalFeamleTests.BMNormalFeamle()[pri:1, instance:WishiTests.RetakeMatchNormalFeamleTests@59fa1d9b]" name="BMNormalFeamle" class="WishiTests.RetakeMatchNormalFeamleTests"/>
-        <method signature="RetakeExpensiveMaleMatchTests.BMExpensiveMale()[pri:6, instance:WishiTests.RetakeExpensiveMaleMatchTests@77cd7a0]" name="BMExpensiveMale" class="WishiTests.RetakeExpensiveMaleMatchTests"/>
-        <method signature="RetakeMatchExpensiveFeamleTests.BMExpensiveFeamle()[pri:3, instance:WishiTests.RetakeMatchExpensiveFeamleTests@f6c48ac]" name="BMExpensiveFeamle" class="WishiTests.RetakeMatchExpensiveFeamleTests"/>
-        <method signature="RetakeMatchLowFeamleTests.BMLowFeamle()[pri:2, instance:WishiTests.RetakeMatchLowFeamleTests@14bf9759]" name="BMLowFeamle" class="WishiTests.RetakeMatchLowFeamleTests"/>
-        <method signature="RetakeMatchLowMaleTests.BMLowMale()[pri:5, instance:WishiTests.RetakeMatchLowMaleTests@402a079c]" name="BMLowMale" class="WishiTests.RetakeMatchLowMaleTests"/>
-        <method signature="RetakeMatchNormalMaleTests.BMNormalMale()[pri:4, instance:WishiTests.RetakeMatchNormalMaleTests@5700d6b1]" name="BMNormalMale" class="WishiTests.RetakeMatchNormalMaleTests"/>
-        <method signature="RetakeMatchNaturalTests.BMNatural()[pri:7, instance:WishiTests.RetakeMatchNaturalTests@490ab905]" name="BMNatural" class="WishiTests.RetakeMatchNaturalTests"/>
+        <method signature="BookingMembershipTests.CheckOutSession()[pri:2, instance:WishiTests.BookingMembershipTests@d8355a8]" name="CheckOutSession" class="WishiTests.BookingMembershipTests"/>
+        <method signature="BookingMembershipTests.DoSignUp()[pri:1, instance:WishiTests.BookingMembershipTests@d8355a8]" name="DoSignUp" class="WishiTests.BookingMembershipTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="RetakeMatchNormalFeamleTests" duration-ms="97207" started-at="2018-11-14T10:18:09Z" finished-at="2018-11-14T10:19:46Z">
-      <class name="WishiTests.RetakeMatchNormalFeamleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.RetakeMatchNormalFeamleTests@59fa1d9b]" name="setup" is-config="true" duration-ms="28626" started-at="2018-11-14T10:18:09Z" finished-at="2018-11-14T10:18:37Z">
+    <test name="Default test" duration-ms="88707" started-at="2018-11-15T15:06:22Z" finished-at="2018-11-15T15:07:51Z">
+      <class name="WishiTests.BookingMembershipTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.BookingMembershipTests@d8355a8]" name="setup" is-config="true" duration-ms="11825" started-at="2018-11-15T15:06:22Z" finished-at="2018-11-15T15:06:34Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMNormalFeamle()[pri:1, instance:WishiTests.RetakeMatchNormalFeamleTests@59fa1d9b]" name="BMNormalFeamle" duration-ms="68564" started-at="2018-11-14T10:18:37Z" finished-at="2018-11-14T10:19:46Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:WishiTests.BookingMembershipTests@d8355a8]" name="DoSignUp" duration-ms="36782" started-at="2018-11-15T15:06:34Z" finished-at="2018-11-15T15:07:11Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : RetakeMatchNormalFeamleTests.BMNormalFeamle]]>
+              <![CDATA[About to begin executing following method : BookingMembershipTests.DoSignUp]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : RetakeMatchNormalFeamleTests.BMNormalFeamle]]>
+              <![CDATA[Completed executing following method : BookingMembershipTests.DoSignUp]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite BMNormalFeamle]]>
+              <![CDATA[About to Success executing Suite DoSignUp]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.RetakeMatchNormalFeamleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BMNormalFeamle]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.RetakeMatchNormalFeamleTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- BMNormalFeamle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.RetakeMatchNormalFeamleTests@59fa1d9b]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-14T10:19:46Z" finished-at="2018-11-14T10:19:46Z">
+        </test-method> <!-- DoSignUp -->
+        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:WishiTests.BookingMembershipTests@d8355a8]" name="CheckOutSession" duration-ms="40081" started-at="2018-11-15T15:07:11Z" finished-at="2018-11-15T15:07:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BookingMembershipTests.CheckOutSession]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BookingMembershipTests.CheckOutSession]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite CheckOutSession]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckOutSession -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.BookingMembershipTests@d8355a8]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-11-15T15:07:51Z" finished-at="2018-11-15T15:07:51Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.tearDown]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.RetakeMatchNormalFeamleTests -->
-    </test> <!-- RetakeMatchNormalFeamleTests -->
-    <test name="RetakeExpensiveMaleMatchTests" duration-ms="100393" started-at="2018-11-14T10:19:46Z" finished-at="2018-11-14T10:21:27Z">
-      <class name="WishiTests.RetakeExpensiveMaleMatchTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.RetakeExpensiveMaleMatchTests@77cd7a0]" name="setup" is-config="true" duration-ms="45699" started-at="2018-11-14T10:19:46Z" finished-at="2018-11-14T10:20:32Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.setup]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:WishiTests.RetakeExpensiveMaleMatchTests@77cd7a0]" name="BMExpensiveMale" duration-ms="54692" started-at="2018-11-14T10:20:32Z" finished-at="2018-11-14T10:21:27Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : RetakeExpensiveMaleMatchTests.BMExpensiveMale]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : RetakeExpensiveMaleMatchTests.BMExpensiveMale]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.RetakeExpensiveMaleMatchTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.RetakeExpensiveMaleMatchTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BMExpensiveMale -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.RetakeExpensiveMaleMatchTests@77cd7a0]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-11-14T10:21:27Z" finished-at="2018-11-14T10:21:27Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.tearDown]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.RetakeExpensiveMaleMatchTests -->
-    </test> <!-- RetakeExpensiveMaleMatchTests -->
-    <test name="RetakeMatchExpensiveFeamleTests" duration-ms="164737" started-at="2018-11-14T10:21:27Z" finished-at="2018-11-14T10:24:11Z">
-      <class name="WishiTests.RetakeMatchExpensiveFeamleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.RetakeMatchExpensiveFeamleTests@f6c48ac]" name="setup" is-config="true" duration-ms="96826" started-at="2018-11-14T10:21:27Z" finished-at="2018-11-14T10:23:03Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.setup]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMExpensiveFeamle()[pri:3, instance:WishiTests.RetakeMatchExpensiveFeamleTests@f6c48ac]" name="BMExpensiveFeamle" duration-ms="67908" started-at="2018-11-14T10:23:03Z" finished-at="2018-11-14T10:24:11Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : RetakeMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : RetakeMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.RetakeMatchExpensiveFeamleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.RetakeMatchExpensiveFeamleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BMExpensiveFeamle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.RetakeMatchExpensiveFeamleTests@f6c48ac]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-11-14T10:24:11Z" finished-at="2018-11-14T10:24:11Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.tearDown]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.RetakeMatchExpensiveFeamleTests -->
-    </test> <!-- RetakeMatchExpensiveFeamleTests -->
-    <test name="RetakeMatchLowFeamleTests" duration-ms="100872" started-at="2018-11-14T10:24:11Z" finished-at="2018-11-14T10:25:52Z">
-      <class name="WishiTests.RetakeMatchLowFeamleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.RetakeMatchLowFeamleTests@14bf9759]" name="setup" is-config="true" duration-ms="31685" started-at="2018-11-14T10:24:11Z" finished-at="2018-11-14T10:24:43Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.setup]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMLowFeamle()[pri:2, instance:WishiTests.RetakeMatchLowFeamleTests@14bf9759]" name="BMLowFeamle" duration-ms="69185" started-at="2018-11-14T10:24:43Z" finished-at="2018-11-14T10:25:52Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : RetakeMatchLowFeamleTests.BMLowFeamle]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : RetakeMatchLowFeamleTests.BMLowFeamle]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BMLowFeamle]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.RetakeMatchLowFeamleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BMLowFeamle]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.RetakeMatchLowFeamleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BMLowFeamle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.RetakeMatchLowFeamleTests@14bf9759]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-14T10:25:52Z" finished-at="2018-11-14T10:25:52Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.tearDown]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.RetakeMatchLowFeamleTests -->
-    </test> <!-- RetakeMatchLowFeamleTests -->
-    <test name="RetakeMatchLowMaleTests" duration-ms="102749" started-at="2018-11-14T10:25:52Z" finished-at="2018-11-14T10:27:35Z">
-      <class name="WishiTests.RetakeMatchLowMaleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.RetakeMatchLowMaleTests@402a079c]" name="setup" is-config="true" duration-ms="47500" started-at="2018-11-14T10:25:52Z" finished-at="2018-11-14T10:26:40Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.setup]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMLowMale()[pri:5, instance:WishiTests.RetakeMatchLowMaleTests@402a079c]" name="BMLowMale" duration-ms="55247" started-at="2018-11-14T10:26:40Z" finished-at="2018-11-14T10:27:35Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : RetakeMatchLowMaleTests.BMLowMale]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : RetakeMatchLowMaleTests.BMLowMale]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BMLowMale]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.RetakeMatchLowMaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BMLowMale]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.RetakeMatchLowMaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BMLowMale -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.RetakeMatchLowMaleTests@402a079c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-14T10:27:35Z" finished-at="2018-11-14T10:27:35Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.tearDown]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.RetakeMatchLowMaleTests -->
-    </test> <!-- RetakeMatchLowMaleTests -->
-    <test name="RetakeMatchNormalMaleTests" duration-ms="78626" started-at="2018-11-14T10:27:35Z" finished-at="2018-11-14T10:28:54Z">
-      <class name="WishiTests.RetakeMatchNormalMaleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.RetakeMatchNormalMaleTests@5700d6b1]" name="setup" is-config="true" duration-ms="23707" started-at="2018-11-14T10:27:35Z" finished-at="2018-11-14T10:27:59Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.setup]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMNormalMale()[pri:4, instance:WishiTests.RetakeMatchNormalMaleTests@5700d6b1]" name="BMNormalMale" duration-ms="54917" started-at="2018-11-14T10:27:59Z" finished-at="2018-11-14T10:28:54Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : RetakeMatchNormalMaleTests.BMNormalMale]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : RetakeMatchNormalMaleTests.BMNormalMale]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BMNormalMale]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.RetakeMatchNormalMaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BMNormalMale]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.RetakeMatchNormalMaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BMNormalMale -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.RetakeMatchNormalMaleTests@5700d6b1]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-14T10:28:54Z" finished-at="2018-11-14T10:28:54Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.tearDown]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.RetakeMatchNormalMaleTests -->
-    </test> <!-- RetakeMatchNormalMaleTests -->
-    <test name="RetakeMatchNaturalTests" duration-ms="211946" started-at="2018-11-14T10:28:54Z" finished-at="2018-11-14T10:32:26Z">
-      <class name="WishiTests.RetakeMatchNaturalTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.RetakeMatchNaturalTests@490ab905]" name="setup" is-config="true" duration-ms="78932" started-at="2018-11-14T10:28:54Z" finished-at="2018-11-14T10:30:13Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.setup]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="BMNatural()[pri:7, instance:WishiTests.RetakeMatchNaturalTests@490ab905]" name="BMNatural" duration-ms="132507" started-at="2018-11-14T10:30:13Z" finished-at="2018-11-14T10:32:25Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: //div//button[text()[contains(.,'Self Identity')]] (tried for 60 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div//button[text()[contains(.,'Self Identity')]] (tried for 60 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-at PageObject.BasePage.WaitElementDisplay(BasePage.java:79)
-at PageObject.BestMatchPage.ClickSelfIdentityButtonID(BestMatchPage.java:166)
-at WishiTests.RetakeMatchNaturalTests.BMNatural(RetakeMatchNaturalTests.java:37)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div//button[text()[contains(.,'Self Identity')]]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:32:14.902Z'
-System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-... 28 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : RetakeMatchNaturalTests.BMNatural]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : RetakeMatchNaturalTests.BMNatural]]>
-            </line>
-            <line>
-              <![CDATA[About to Failure executing Suite BMNatural]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.RetakeMatchNaturalTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Failed]]>
-            </line>
-            <line>
-              <![CDATA[About to Failure executing Suite BMNatural]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.RetakeMatchNaturalTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Failed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BMNatural -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.RetakeMatchNaturalTests@490ab905]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-11-14T10:32:26Z" finished-at="2018-11-14T10:32:26Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.tearDown]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.RetakeMatchNaturalTests -->
-    </test> <!-- RetakeMatchNaturalTests -->
-  </suite> <!-- Suite -->
+      </class> <!-- WishiTests.BookingMembershipTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
