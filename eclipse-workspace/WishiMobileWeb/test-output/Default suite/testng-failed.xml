@@ -3,27 +3,24 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.qwizMaleTests">
+      <class name="Tests.qwizTests">
         <methods>
-          <include name="SelectBrands"/>
-          <include name="SelectHeels"/>
-          <include name="SelectSize"/>
-          <include name="setup"/>
           <include name="SelectHighlight"/>
-          <include name="SelectFabrics"/>
-          <include name="SelectEvent"/>
+          <include name="setup"/>
           <include name="SelectClothingPreferences"/>
           <include name="SelectComfortZone"/>
-          <include name="SelectPrints"/>
-          <include name="SelectColors"/>
+          <include name="SelectSize"/>
+          <include name="FillNumberPhone"/>
+          <include name="SelectHeels"/>
+          <include name="DoSignUp"/>
+          <include name="SelectBodyType"/>
+          <include name="SelectHeight"/>
           <include name="SelectJEWELRY"/>
           <include name="CheckOutSession"/>
-          <include name="SelectHeight"/>
-          <include name="DoSignUp"/>
-          <include name="SelectInventory"/>
-          <include name="SelectBodyType"/>
+          <include name="SelectFabrics"/>
+          <include name="SelectColors"/>
         </methods>
-      </class> <!-- Tests.qwizMaleTests -->
+      </class> <!-- Tests.qwizTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

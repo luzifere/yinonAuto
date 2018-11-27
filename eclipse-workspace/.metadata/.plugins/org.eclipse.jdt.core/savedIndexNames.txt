@@ -60,7 +60,6 @@ INDEX VERSION 1.131+/Users/yinonwishi/git/yinonAuto/eclipse-workspace/.metadata/
 1383498501.index
 2468038871.index
 1293050207.index
-515808075.index
 4044715751.index
 558823348.index
 2325905428.index

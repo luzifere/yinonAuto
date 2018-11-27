@@ -109,9 +109,12 @@ public class BestMatchPage extends BasePage
 	}
 	public void SelectInspiration(String inspiration)
 	{
+		
 		String GoalElemet = ("(//span[@class='img-wrapper'])[text1]");
 		GoalElemet = GoalElemet.replace("text1", inspiration);
 		WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+		WaitElementDisplay(By.xpath("(//span[@class='img-wrapper'])[1]"));
+		Sleep(100);
 		click(GoalButton);
 	} 
 	public void Selectbrands(String inspiration)
@@ -121,6 +124,8 @@ public class BestMatchPage extends BasePage
 		String GoalElemet = ("(//div[@class='brand-item ng-scope'])[text1]");
 		GoalElemet = GoalElemet.replace("text1", inspiration);
 		WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+		WaitElementDisplay(By.xpath("(//div[@class='brand-item ng-scope'])[1]"));
+		Sleep(100);
 		click(GoalButton);
 	} 
 	public void SelectTags(String inspiration)
@@ -128,6 +133,8 @@ public class BestMatchPage extends BasePage
 		String GoalElemet = ("//a[text()[contains(.,'text1')]]");
 		GoalElemet = GoalElemet.replace("text1", inspiration);
 		WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+		WaitElementDisplay(By.xpath("//a[text()[contains(.,'Petite')]]"));
+		Sleep(100);
 		click(GoalButton);
 	}
 	public void ClickontinueButton() 

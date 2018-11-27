@@ -32,7 +32,7 @@ public class ReviseThirdLookTest extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@wishitest.com");
+		login.Fillusername("yinontesting@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -166,7 +166,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@wishitest.com");
+		login.Fillusername("yinontesting@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -231,7 +231,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@wishitest.com");
+		login.Fillusername("yinontesting@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -289,7 +289,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@wishitest.com");
+		login.Fillusername("yinontesting@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -352,7 +352,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@wishitest.com");
+		login.Fillusername("yinontesting@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -426,7 +426,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@wishitest.com");
+		login.Fillusername("yinontesting@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -485,7 +485,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@wishitest.com");
+		login.Fillusername("yinontesting@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -548,7 +548,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@wishitest.com");
+		login.Fillusername("yinontesting@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -623,7 +623,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@wishitest.com");
+		login.Fillusername("yinontesting@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -694,7 +694,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@wishitest.com");
+		login.Fillusername("yinontesting@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -738,7 +738,7 @@ public class ReviseThirdLookTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@wishitest.com");
+		login.Fillusername("yinontesting@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);

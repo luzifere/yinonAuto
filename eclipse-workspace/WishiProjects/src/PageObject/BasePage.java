@@ -123,10 +123,27 @@ public class BasePage
 
 		return true;
 	}
+	
+	
+	
+	
+	
 	public void SwitchToFrame(int num)
 	{
 		driver.switchTo().frame(num);
 	}
+	public void returnToWindowdefault() {
+		driver.close();
+		driver.switchTo().defaultContent();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 
 	public void ElementIsEnable (String  elementString) 
 	{
@@ -221,6 +238,10 @@ public class BasePage
 	}
 	}
 	}
+	
+	
+	
+	
 
 
 
@@ -238,6 +259,16 @@ public class BasePage
 		driver.close();
 		driver.switchTo().window(winHandleBefore);
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	public void Sleep(int sec){
 		try {
 			Thread.sleep(sec*10);
@@ -266,10 +297,7 @@ public class BasePage
 		}
 	}
 
-	public void returnToWindowdefault() {
-		driver.close();
-		driver.switchTo().defaultContent();
-	}
+	
 	public void waitForPageLoaded() {
         ExpectedCondition<Boolean> expectation = new
                 ExpectedCondition<Boolean>() {

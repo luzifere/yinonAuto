@@ -22,7 +22,7 @@ public class CheckOutMounthTest extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("4415wishitest333@wishi.com");
+		login.Fillusername("AutomationtestuserM@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);

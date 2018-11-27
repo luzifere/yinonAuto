@@ -25,7 +25,7 @@ public class LoginWithFacbookTests extends BaseTest
 		login.Sleep(300);
 		login.switchWindow();
 		//driver.manage().window().maximize();	
-		login.FillusernameOfFacbook("yinonwishi@gmail.com");
+		login.FillusernameOfFacbook("luzifere@gmail.com");
 		login.FillPasswordOfFacbook("inonab1565");
 		login.ClickLoginButtonOfFacbook();
 		//login.Sleep(600);

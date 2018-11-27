@@ -22,9 +22,9 @@ public class QwizSkipedTests extends BaseTest
 		SignUpPage signup = new SignUpPage(driver);
 		signup.waitForPageLoaded();
 		Random num = new Random();
-		int number = 35600;
-		for (int counter = 58000; counter<=100000;counter++)
-			number = num.nextInt(7000);
+		int number = 3560000;
+		for (int counter = 5800000; counter<=10000000;counter++)
+			number = num.nextInt(700000);
 		signup.ClickOnSignUpEmail();
 		signup.doSignUp("wishitesttr@wishi.com" + number, "inon", "av", "ab1565");
 		signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
@@ -64,6 +64,7 @@ public class QwizSkipedTests extends BaseTest
 		//booking.FillFirstName("yinon");
 	//	booking.FillLastName("aba");
 		//booking.Sleep(350);
+		/*
 		booking.SwitchToFrame(0);
 		booking.FillCardNumber("4111111111111111");
 		booking.FillCardDate("0222");
@@ -74,6 +75,11 @@ public class QwizSkipedTests extends BaseTest
 		booking.WaitElementDisplay(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]"));
 		//BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
 		driver.findElement(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]")).click();
+		*/
+		String copun = this.configFileReader.getcopun();
+		booking.UseCodCoopon(copun);
+		booking.ClickFinishCheckout();
+		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
 	}
 	@Test(priority = 3,groups={"sanity-group"})
 	public void ClickSkip ()

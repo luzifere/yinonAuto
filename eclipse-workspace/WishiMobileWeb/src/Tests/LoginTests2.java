@@ -77,7 +77,7 @@ public class LoginTests2 extends BaseTest
 		login.Fillusername("yinon@wishi.me");
 		login.Fillpassword("123123123");
 		login.Clickloginbuttonn();
-		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'The password you entered is incorrect')]]"));
+		Assert.assertTrue(login.ElementDisplay("//div[@class='invalid-form ng-binding ng-scope']"));
 		login.Closebuttonoflogin();
 		LoginPages2.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
 	}

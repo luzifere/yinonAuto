@@ -16,7 +16,7 @@ public class UploadItemTest extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		login.waitForPageLoaded();
 		login.ClickLoginButton();
-		login.doLogin("wishitesttt@wishi.com1472", "ab1565");
+		login.doLogin("upload@wishi.com", "ab1565");
 		login.Sleep(200);
 	}	
 	@Test(priority = 2,groups={"sanity-group"})

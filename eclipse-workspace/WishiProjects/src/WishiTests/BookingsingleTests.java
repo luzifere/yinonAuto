@@ -22,16 +22,16 @@ import PageObject.SignUpPage;
 @Listeners(WishiTests.Listener.class)
 public class BookingsingleTests extends BaseTest 
 {
-
+	
 	@Test(priority = 1,groups={"sanity-group"})
 	public void DoSignUp()
 	{
 		SignUpPage signup = new SignUpPage(driver);
 		signup.waitForPageLoaded();
 		Random num = new Random();
-		int number = 3560000;
-		for (int counter = 5800000; counter<=10000000;counter++)
-			number = num.nextInt(700000);
+		int number = 356000000;
+		for (int counter = 580000000; counter<=1000000000;counter++)
+			number = num.nextInt(70000000);
 		signup.ClickOnSignUpEmail();
 		signup.doSignUp("wishites111@wishi.com" + number, "inon", "av", "ab1565");
 		signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
@@ -65,13 +65,15 @@ public class BookingsingleTests extends BaseTest
 	public void CheckOutSession ()
 	{
 		BookingPage booking = new BookingPage(driver);
-		booking.SearchStylist("Casey Huth");
+		String stylistName = this.configFileReader.getStylistName();
+		booking.SearchStylist(stylistName);
 		booking.SelectStylist();
 		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Per Session')]]"));
 		//booking.BookStylist();
 		booking.scrollDown();
 		booking.SelectSingle();
-		booking.UseCodCoopon("wishitest");
+		String copun = this.configFileReader.getcopun();
+		booking.UseCodCoopon(copun);
 		booking.ClickFinishCheckout();
 		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
 		booking.ClickBookingstylist();
@@ -87,8 +89,8 @@ public class BookingsingleTests extends BaseTest
 		*/
 		booking.ClickMyBooking();
 		booking.RefreshPage();
-		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Casey Huth')]]/..//span[text()[contains(.,'session')]]"));
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Casey Huth')]]/..//span[text()[contains(.,'session')]]"));
+		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Oren Oren')]]/..//span[text()[contains(.,'session')]]"));
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Oren Oren')]]/..//span[text()[contains(.,'session')]]"));
 		booking.Sleep(300);
 		booking.close();
 	}

@@ -28,7 +28,7 @@ public class BookingStylistTests extends BaseTest
 		SignUpPage signup = new SignUpPage(driver);
 		signup.waitForPageLoaded();
 		Random num = new Random();
-		int number = 3560000;
+		int number = 356000000;
 		for (int counter = 5800000; counter<=10000000;counter++)
 			number = num.nextInt(700000);
 		signup.ClickOnSignUpEmail();
@@ -62,7 +62,8 @@ public class BookingStylistTests extends BaseTest
 	{
 		BookingPage booking = new BookingPage(driver);
 		booking.ClickBookingstylist();
-		booking.SearchStylist("Casey Huth");
+		String stylistName = this.configFileReader.getStylistName();
+		booking.SearchStylist(stylistName);
 		booking.SelectStylist();
 		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Per Session')]]"));
 		booking.BookStylist();

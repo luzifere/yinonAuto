@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WishiTests.RetakeMatchExpensiveFeamleTests">
+      <class name="WishiTests.BookingsingleTests">
         <methods>
           <include name="tearDown"/>
-          <include name="BMExpensiveFeamle"/>
+          <include name="CheckOutSession"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- WishiTests.RetakeMatchExpensiveFeamleTests -->
+      </class> <!-- WishiTests.BookingsingleTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

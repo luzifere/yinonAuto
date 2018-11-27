@@ -1,8 +1,929 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="2" ignored="0" total="63" passed="61">
   <reporter-output>
     <line>
-      <![CDATA[About to begin executing Test Default test]]>
+      <![CDATA[About to begin executing Test BestExpensiveMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestExpensiveMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BestExpensiveMaleMatchTests.BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BestExpensiveMaleMatchTests.BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestExpensiveMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestExpensiveMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestExpensiveMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestExpensiveMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchExpensiveFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchExpensiveFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BestMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BestMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchExpensiveFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchExpensiveFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchExpensiveFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchExpensiveFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchLowFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchLowFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BestMatchLowFeamleTests.BMLowFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BestMatchLowFeamleTests.BMLowFeamle]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMLowFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchLowFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMLowFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchLowFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchLowFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchLowFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchLowMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchLowMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BestMatchLowMaleTests.BMLowMale]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BestMatchLowMaleTests.BMLowMale]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMLowMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchLowMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMLowMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchLowMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchLowMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchLowMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchNormalFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchNormalFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BestMatchNormalFeamleTests.BMNormalFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BestMatchNormalFeamleTests.BMNormalFeamle]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMNormalFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchNormalFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMNormalFeamle]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchNormalFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchNormalFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchNormalFeamleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchNormalMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchNormalMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BestMatchNormalMaleTests.BMNormalMale]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BestMatchNormalMaleTests.BMNormalMale]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMNormalMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchNormalMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMNormalMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchNormalMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchNormalMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchNormalMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchNaturalTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BestMatchNaturalTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BestMatchNaturalTests.BMNatural]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BestMatchNaturalTests.BMNatural]]>
+    </line>
+    <line>
+      <![CDATA[About to Failure executing Suite BMNatural]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchNaturalTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Failed]]>
+    </line>
+    <line>
+      <![CDATA[About to Failure executing Suite BMNatural]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMatchNaturalTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Failed]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchNaturalTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BestMatchNaturalTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test StartHereExpensiveFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test StartHereExpensiveFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : StartHereExpensiveFemaleMatchTests.BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : StartHereExpensiveFemaleMatchTests.BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.StartHereExpensiveFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.StartHereExpensiveFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test StartHereExpensiveFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test StartHereExpensiveFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test StartHereExpensiveMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test StartHereExpensiveMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : StartHereExpensiveMaleMatchTests.BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : StartHereExpensiveMaleMatchTests.BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.StartHereExpensiveMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.StartHereExpensiveMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test StartHereExpensiveMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test StartHereExpensiveMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test StartHereLowFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test StartHereLowFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : StartHereLowFemaleMatchTests.BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : StartHereLowFemaleMatchTests.BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.StartHereLowFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.StartHereLowFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test StartHereLowFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test StartHereLowFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test StartHereLowMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test StartHereLowMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : StartHereLowMaleMatchTests.BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : StartHereLowMaleMatchTests.BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.StartHereLowMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.StartHereLowMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test StartHereLowMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test StartHereLowMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test StartHereNormalFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test StartHereNormalFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : StartHereNormalFemaleMatchTests.BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : StartHereNormalFemaleMatchTests.BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.StartHereNormalFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.StartHereNormalFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test StartHereNormalFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test StartHereNormalFemaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test StartHereNormalMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test StartHereNormalMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : StartHereNormalMaleMatchTests.BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : StartHereNormalMaleMatchTests.BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.StartHereNormalMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.StartHereNormalMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test StartHereNormalMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test StartHereNormalMaleMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test StartHereNaturalMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test StartHereNaturalMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : StartHereNaturalMatchTests.BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : StartHereNaturalMatchTests.BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[About to Failure executing Suite BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.StartHereNaturalMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Failed]]>
+    </line>
+    <line>
+      <![CDATA[About to Failure executing Suite BMExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.StartHereNaturalMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Failed]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test StartHereNaturalMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test StartHereNaturalMatchTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : qwizTests.DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : qwizTests.DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : qwizTests.CheckOutSession]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : qwizTests.CheckOutSession]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite CheckOutSession]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite CheckOutSession]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : qwizTests.SelectBodyType]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : qwizTests.SelectBodyType]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectBodyType]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectBodyType]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : qwizTests.SelectHeight]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : qwizTests.SelectHeight]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectHeight]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectHeight]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : qwizTests.SelectColors]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : qwizTests.SelectColors]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectColors]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectColors]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : qwizTests.SelectHighlight]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : qwizTests.SelectHighlight]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectHighlight]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectHighlight]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : qwizTests.SelectClothingPreferences]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : qwizTests.SelectClothingPreferences]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectClothingPreferences]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectClothingPreferences]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : qwizTests.SelectHeels]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : qwizTests.SelectHeels]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectHeels]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectHeels]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : qwizTests.SelectFabrics]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : qwizTests.SelectFabrics]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectFabrics]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectFabrics]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : qwizTests.SelectSize]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : qwizTests.SelectSize]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectSize]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectSize]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : qwizTests.SelectComfortZone]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : qwizTests.SelectComfortZone]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectComfortZone]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectComfortZone]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : qwizTests.SelectJEWELRY]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : qwizTests.SelectJEWELRY]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectJEWELRY]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectJEWELRY]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : qwizTests.FillNumberPhone]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : qwizTests.FillNumberPhone]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillNumberPhone]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillNumberPhone]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test qwizTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test qwizMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test qwizMaleTests]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : BaseTest.setup]]>
@@ -15,6 +936,15 @@
     </line>
     <line>
       <![CDATA[Completed executing following method : qwizMaleTests.DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite DoSignUp]]>
@@ -41,10 +971,28 @@
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
+      <![CDATA[About to Success executing Suite CheckOutSession]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
       <![CDATA[About to begin executing following method : qwizMaleTests.SelectBodyType]]>
     </line>
     <line>
       <![CDATA[Completed executing following method : qwizMaleTests.SelectBodyType]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectBodyType]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite SelectBodyType]]>
@@ -71,10 +1019,28 @@
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
+      <![CDATA[About to Success executing Suite SelectHeight]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
       <![CDATA[About to begin executing following method : qwizMaleTests.SelectColors]]>
     </line>
     <line>
       <![CDATA[Completed executing following method : qwizMaleTests.SelectColors]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectColors]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite SelectColors]]>
@@ -101,10 +1067,28 @@
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
+      <![CDATA[About to Success executing Suite SelectFabrics]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
       <![CDATA[About to begin executing following method : qwizMaleTests.SelectSize]]>
     </line>
     <line>
       <![CDATA[Completed executing following method : qwizMaleTests.SelectSize]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectSize]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite SelectSize]]>
@@ -131,6 +1115,15 @@
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
+      <![CDATA[About to Success executing Suite SelectComfortZone]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
       <![CDATA[About to begin executing following method : qwizMaleTests.FillNumberPhone]]>
     </line>
     <line>
@@ -145,31 +1138,1993 @@
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillNumberPhone]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test qwizMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test qwizMaleTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BookingTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BookingTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BookingTests.DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BookingTests.DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BookingTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BookingTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BookingTests.CheckOutSession]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BookingTests.CheckOutSession]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite CheckOutSession]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BookingTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite CheckOutSession]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BookingTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BookingTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BookingTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BookingCCTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test BookingCCTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BookingCCTests.DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BookingCCTests.DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BookingCCTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BookingCCTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BookingCCTests.CheckoutUnlimitedCreditCard]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BookingCCTests.CheckoutUnlimitedCreditCard]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite CheckoutUnlimitedCreditCard]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BookingCCTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite CheckoutUnlimitedCreditCard]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BookingCCTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BookingCCTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test BookingCCTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test LoginWithFacbookTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test LoginWithFacbookTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : LoginWithFacbookTests.LoginWithFacbook]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : LoginWithFacbookTests.LoginWithFacbook]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite LoginWithFacbook]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginWithFacbookTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite LoginWithFacbook]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginWithFacbookTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test LoginWithFacbookTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test LoginWithFacbookTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test LoginWithFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test LoginWithFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite LoginWithFacbookWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginWithFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite LoginWithFacbookWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginWithFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongUserName]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongUserName]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite LoginWithFacbookWrongUserName]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginWithFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite LoginWithFacbookWrongUserName]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginWithFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test LoginWithFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test LoginWithFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test SignUpByFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test SignUpByFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutEmail]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutEmail]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SignUpWithFacbookWitOutEmail]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SignUpWithFacbookWitOutEmail]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutPassword]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutPassword]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SignUpWithFacbookWitOutPassword]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SignUpWithFacbookWitOutPassword]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SignUpWithFacbookWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SignUpWithFacbookWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongUserName]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongUserName]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SignUpWithFacbookWrongUserName]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SignUpWithFacbookWrongUserName]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test SignUpByFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test SignUpByFacbookTestsFail]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test SignUpByFacbookTestsSucses]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test SignUpByFacbookTestsSucses]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SignUpWithFacbook]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsSucses]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SignUpWithFacbook]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsSucses]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test SignUpByFacbookTestsSucses]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test SignUpByFacbookTestsSucses]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test ChatTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test ChatTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ChatTests.LoginAsStylist]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ChatTests.LoginAsStylist]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite LoginAsStylist]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.ChatTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite LoginAsStylist]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.ChatTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ChatTests.SendChatToclient]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ChatTests.SendChatToclient]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SendChatToclient]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.ChatTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SendChatToclient]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.ChatTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ChatTests.SendChatToStylist]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ChatTests.SendChatToStylist]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SendChatToStylist]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.ChatTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SendChatToStylist]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.ChatTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test ChatTests]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test ChatTests]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : LoginTests2.LoginClickable]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : LoginTests2.LoginClickable]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite LoginClickable]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite LoginClickable]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : LoginTests2.DoLogin]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : LoginTests2.DoLogin]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite DoLogin]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite DoLogin]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : LoginTests2.FillPasswordWithOutToFillEmail]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : LoginTests2.FillPasswordWithOutToFillEmail]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillPasswordWithOutToFillEmail]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillPasswordWithOutToFillEmail]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : LoginTests2.FillEmailWithOutToFillPassword]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : LoginTests2.FillEmailWithOutToFillPassword]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillEmailWithOutToFillPassword]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillEmailWithOutToFillPassword]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : LoginTests2.ClickLoginwWithOutToFillAnyFields]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : LoginTests2.ClickLoginwWithOutToFillAnyFields]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite ClickLoginwWithOutToFillAnyFields]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite ClickLoginwWithOutToFillAnyFields]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : LoginTests2.FillCorrectEmailWithWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : LoginTests2.FillCorrectEmailWithWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillCorrectEmailWithWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillCorrectEmailWithWrongPassword]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : LoginTests2.FillCorrectPasswordWithWrongEmail]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : LoginTests2.FillCorrectPasswordWithWrongEmail]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillCorrectPasswordWithWrongEmail]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillCorrectPasswordWithWrongEmail]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test LoginTests2]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseTest.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpTest.SignUpClickable]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpTest.SignUpClickable]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SignUpClickable]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SignUpClickable]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpTest.FillEmailWitoutShtudel]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpTest.FillEmailWitoutShtudel]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillEmailWitoutShtudel]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillEmailWitoutShtudel]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpTest.FillEmailWithoutDotCom]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpTest.FillEmailWithoutDotCom]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillEmailWithoutDotCom]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillEmailWithoutDotCom]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillPsswordWithLessthan6Characters]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillPsswordWithLessthan6Characters]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpTest.DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpTest.DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="138767" started-at="2018-11-15T11:30:03Z" finished-at="2018-11-15T11:32:22Z">
+  <suite name="Suite" duration-ms="2976703" started-at="2018-11-21T11:55:56Z" finished-at="2018-11-21T12:45:32Z">
     <groups>
       <group name="sanity-group">
-        <method signature="qwizMaleTests.CheckOutSession()[pri:2, instance:Tests.qwizMaleTests@76a3e297]" name="CheckOutSession" class="Tests.qwizMaleTests"/>
-        <method signature="qwizMaleTests.DoSignUp()[pri:1, instance:Tests.qwizMaleTests@76a3e297]" name="DoSignUp" class="Tests.qwizMaleTests"/>
-        <method signature="qwizMaleTests.FillNumberPhone()[pri:14, instance:Tests.qwizMaleTests@76a3e297]" name="FillNumberPhone" class="Tests.qwizMaleTests"/>
-        <method signature="qwizMaleTests.SelectBodyType()[pri:4, instance:Tests.qwizMaleTests@76a3e297]" name="SelectBodyType" class="Tests.qwizMaleTests"/>
-        <method signature="qwizMaleTests.SelectColors()[pri:6, instance:Tests.qwizMaleTests@76a3e297]" name="SelectColors" class="Tests.qwizMaleTests"/>
-        <method signature="qwizMaleTests.SelectComfortZone()[pri:13, instance:Tests.qwizMaleTests@76a3e297]" name="SelectComfortZone" class="Tests.qwizMaleTests"/>
-        <method signature="qwizMaleTests.SelectFabrics()[pri:10, instance:Tests.qwizMaleTests@76a3e297]" name="SelectFabrics" class="Tests.qwizMaleTests"/>
-        <method signature="qwizMaleTests.SelectHeight()[pri:5, instance:Tests.qwizMaleTests@76a3e297]" name="SelectHeight" class="Tests.qwizMaleTests"/>
-        <method signature="qwizMaleTests.SelectSize()[pri:12, instance:Tests.qwizMaleTests@76a3e297]" name="SelectSize" class="Tests.qwizMaleTests"/>
+        <method signature="BestExpensiveMaleMatchTests.BMExpensiveMale()[pri:6, instance:Tests.BestExpensiveMaleMatchTests@ed9d034]" name="BMExpensiveMale" class="Tests.BestExpensiveMaleMatchTests"/>
+        <method signature="BestMatchExpensiveFeamleTests.BMExpensiveFeamle()[pri:3, instance:Tests.BestMatchExpensiveFeamleTests@51c8530f]" name="BMExpensiveFeamle" class="Tests.BestMatchExpensiveFeamleTests"/>
+        <method signature="BestMatchLowFeamleTests.BMLowFeamle()[pri:2, instance:Tests.BestMatchLowFeamleTests@22eeefeb]" name="BMLowFeamle" class="Tests.BestMatchLowFeamleTests"/>
+        <method signature="BestMatchLowMaleTests.BMLowMale()[pri:5, instance:Tests.BestMatchLowMaleTests@7e0e6aa2]" name="BMLowMale" class="Tests.BestMatchLowMaleTests"/>
+        <method signature="BestMatchNormalFeamleTests.BMNormalFeamle()[pri:1, instance:Tests.BestMatchNormalFeamleTests@25bbf683]" name="BMNormalFeamle" class="Tests.BestMatchNormalFeamleTests"/>
+        <method signature="BestMatchNormalMaleTests.BMNormalMale()[pri:4, instance:Tests.BestMatchNormalMaleTests@10dba097]" name="BMNormalMale" class="Tests.BestMatchNormalMaleTests"/>
+        <method signature="BestMatchNaturalTests.BMNatural()[pri:7, instance:Tests.BestMatchNaturalTests@6eceb130]" name="BMNatural" class="Tests.BestMatchNaturalTests"/>
+        <method signature="StartHereExpensiveFemaleMatchTests.BMExpensiveMale()[pri:6, instance:Tests.StartHereExpensiveFemaleMatchTests@646007f4]" name="BMExpensiveMale" class="Tests.StartHereExpensiveFemaleMatchTests"/>
+        <method signature="StartHereExpensiveMaleMatchTests.BMExpensiveMale()[pri:6, instance:Tests.StartHereExpensiveMaleMatchTests@4c762604]" name="BMExpensiveMale" class="Tests.StartHereExpensiveMaleMatchTests"/>
+        <method signature="StartHereLowFemaleMatchTests.BMExpensiveMale()[pri:6, instance:Tests.StartHereLowFemaleMatchTests@319b92f3]" name="BMExpensiveMale" class="Tests.StartHereLowFemaleMatchTests"/>
+        <method signature="StartHereLowMaleMatchTests.BMExpensiveMale()[pri:6, instance:Tests.StartHereLowMaleMatchTests@376b4233]" name="BMExpensiveMale" class="Tests.StartHereLowMaleMatchTests"/>
+        <method signature="StartHereNormalFemaleMatchTests.BMExpensiveMale()[pri:6, instance:Tests.StartHereNormalFemaleMatchTests@fe18270]" name="BMExpensiveMale" class="Tests.StartHereNormalFemaleMatchTests"/>
+        <method signature="StartHereNormalMaleMatchTests.BMExpensiveMale()[pri:6, instance:Tests.StartHereNormalMaleMatchTests@281e3708]" name="BMExpensiveMale" class="Tests.StartHereNormalMaleMatchTests"/>
+        <method signature="StartHereNaturalMatchTests.BMExpensiveMale()[pri:6, instance:Tests.StartHereNaturalMatchTests@6d3af739]" name="BMExpensiveMale" class="Tests.StartHereNaturalMatchTests"/>
+        <method signature="qwizTests.CheckOutSession()[pri:2, instance:Tests.qwizTests@15b3e5b]" name="CheckOutSession" class="Tests.qwizTests"/>
+        <method signature="qwizTests.DoSignUp()[pri:1, instance:Tests.qwizTests@15b3e5b]" name="DoSignUp" class="Tests.qwizTests"/>
+        <method signature="qwizTests.FillNumberPhone()[pri:15, instance:Tests.qwizTests@15b3e5b]" name="FillNumberPhone" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectBodyType()[pri:4, instance:Tests.qwizTests@15b3e5b]" name="SelectBodyType" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectClothingPreferences()[pri:8, instance:Tests.qwizTests@15b3e5b]" name="SelectClothingPreferences" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectColors()[pri:6, instance:Tests.qwizTests@15b3e5b]" name="SelectColors" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectComfortZone()[pri:13, instance:Tests.qwizTests@15b3e5b]" name="SelectComfortZone" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectFabrics()[pri:10, instance:Tests.qwizTests@15b3e5b]" name="SelectFabrics" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectHeels()[pri:9, instance:Tests.qwizTests@15b3e5b]" name="SelectHeels" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectHeight()[pri:5, instance:Tests.qwizTests@15b3e5b]" name="SelectHeight" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectHighlight()[pri:7, instance:Tests.qwizTests@15b3e5b]" name="SelectHighlight" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectJEWELRY()[pri:14, instance:Tests.qwizTests@15b3e5b]" name="SelectJEWELRY" class="Tests.qwizTests"/>
+        <method signature="qwizTests.SelectSize()[pri:12, instance:Tests.qwizTests@15b3e5b]" name="SelectSize" class="Tests.qwizTests"/>
+        <method signature="qwizMaleTests.CheckOutSession()[pri:2, instance:Tests.qwizMaleTests@5fcd892a]" name="CheckOutSession" class="Tests.qwizMaleTests"/>
+        <method signature="qwizMaleTests.DoSignUp()[pri:1, instance:Tests.qwizMaleTests@5fcd892a]" name="DoSignUp" class="Tests.qwizMaleTests"/>
+        <method signature="qwizMaleTests.FillNumberPhone()[pri:14, instance:Tests.qwizMaleTests@5fcd892a]" name="FillNumberPhone" class="Tests.qwizMaleTests"/>
+        <method signature="qwizMaleTests.SelectBodyType()[pri:4, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectBodyType" class="Tests.qwizMaleTests"/>
+        <method signature="qwizMaleTests.SelectColors()[pri:6, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectColors" class="Tests.qwizMaleTests"/>
+        <method signature="qwizMaleTests.SelectComfortZone()[pri:13, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectComfortZone" class="Tests.qwizMaleTests"/>
+        <method signature="qwizMaleTests.SelectFabrics()[pri:10, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectFabrics" class="Tests.qwizMaleTests"/>
+        <method signature="qwizMaleTests.SelectHeight()[pri:5, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectHeight" class="Tests.qwizMaleTests"/>
+        <method signature="qwizMaleTests.SelectSize()[pri:12, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectSize" class="Tests.qwizMaleTests"/>
+        <method signature="BookingTests.CheckOutSession()[pri:2, instance:Tests.BookingTests@543e710e]" name="CheckOutSession" class="Tests.BookingTests"/>
+        <method signature="BookingTests.DoSignUp()[pri:1, instance:Tests.BookingTests@543e710e]" name="DoSignUp" class="Tests.BookingTests"/>
+        <method signature="BookingCCTests.CheckoutUnlimitedCreditCard()[pri:3, instance:Tests.BookingCCTests@69379752]" name="CheckoutUnlimitedCreditCard" class="Tests.BookingCCTests"/>
+        <method signature="BookingCCTests.DoSignUp()[pri:1, instance:Tests.BookingCCTests@69379752]" name="DoSignUp" class="Tests.BookingCCTests"/>
+        <method signature="LoginWithFacbookTests.LoginWithFacbook()[pri:3, instance:Tests.LoginWithFacbookTests@5e57643e]" name="LoginWithFacbook" class="Tests.LoginWithFacbookTests"/>
+        <method signature="LoginWithFacbookTestsFail.LoginWithFacbookWrongPassword()[pri:1, instance:Tests.LoginWithFacbookTestsFail@2473b9ce]" name="LoginWithFacbookWrongPassword" class="Tests.LoginWithFacbookTestsFail"/>
+        <method signature="LoginWithFacbookTestsFail.LoginWithFacbookWrongUserName()[pri:2, instance:Tests.LoginWithFacbookTestsFail@2473b9ce]" name="LoginWithFacbookWrongUserName" class="Tests.LoginWithFacbookTestsFail"/>
+        <method signature="SignUpByFacbookTestsFail.SignUpWithFacbookWitOutEmail()[pri:2, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="SignUpWithFacbookWitOutEmail" class="Tests.SignUpByFacbookTestsFail"/>
+        <method signature="SignUpByFacbookTestsFail.SignUpWithFacbookWitOutPassword()[pri:3, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="SignUpWithFacbookWitOutPassword" class="Tests.SignUpByFacbookTestsFail"/>
+        <method signature="SignUpByFacbookTestsFail.SignUpWithFacbookWrongPassword()[pri:4, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="SignUpWithFacbookWrongPassword" class="Tests.SignUpByFacbookTestsFail"/>
+        <method signature="SignUpByFacbookTestsFail.SignUpWithFacbookWrongUserName()[pri:5, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="SignUpWithFacbookWrongUserName" class="Tests.SignUpByFacbookTestsFail"/>
+        <method signature="SignUpByFacbookTestsSucses.SignUpWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTestsSucses@3bd94634]" name="SignUpWithFacbook" class="Tests.SignUpByFacbookTestsSucses"/>
+        <method signature="ChatTests.LoginAsStylist()[pri:1, instance:Tests.ChatTests@166fa74d]" name="LoginAsStylist" class="Tests.ChatTests"/>
+        <method signature="ChatTests.SendChatToStylist()[pri:3, instance:Tests.ChatTests@166fa74d]" name="SendChatToStylist" class="Tests.ChatTests"/>
+        <method signature="ChatTests.SendChatToclient()[pri:2, instance:Tests.ChatTests@166fa74d]" name="SendChatToclient" class="Tests.ChatTests"/>
+        <method signature="LoginTests2.ClickLoginwWithOutToFillAnyFields()[pri:5, instance:Tests.LoginTests2@6e2c9341]" name="ClickLoginwWithOutToFillAnyFields" class="Tests.LoginTests2"/>
+        <method signature="LoginTests2.DoLogin()[pri:2, instance:Tests.LoginTests2@6e2c9341]" name="DoLogin" class="Tests.LoginTests2"/>
+        <method signature="LoginTests2.FillCorrectEmailWithWrongPassword()[pri:6, instance:Tests.LoginTests2@6e2c9341]" name="FillCorrectEmailWithWrongPassword" class="Tests.LoginTests2"/>
+        <method signature="LoginTests2.FillCorrectPasswordWithWrongEmail()[pri:7, instance:Tests.LoginTests2@6e2c9341]" name="FillCorrectPasswordWithWrongEmail" class="Tests.LoginTests2"/>
+        <method signature="LoginTests2.FillEmailWithOutToFillPassword()[pri:4, instance:Tests.LoginTests2@6e2c9341]" name="FillEmailWithOutToFillPassword" class="Tests.LoginTests2"/>
+        <method signature="LoginTests2.FillPasswordWithOutToFillEmail()[pri:3, instance:Tests.LoginTests2@6e2c9341]" name="FillPasswordWithOutToFillEmail" class="Tests.LoginTests2"/>
+        <method signature="LoginTests2.LoginClickable()[pri:1, instance:Tests.LoginTests2@6e2c9341]" name="LoginClickable" class="Tests.LoginTests2"/>
+        <method signature="SignUpTest.DoSignUp()[pri:5, instance:Tests.SignUpTest@6cc7b4de]" name="DoSignUp" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.FillEmailWithoutDotCom()[pri:3, instance:Tests.SignUpTest@6cc7b4de]" name="FillEmailWithoutDotCom" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.FillEmailWitoutShtudel()[pri:2, instance:Tests.SignUpTest@6cc7b4de]" name="FillEmailWitoutShtudel" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:4, instance:Tests.SignUpTest@6cc7b4de]" name="FillPsswordWithLessthan6Characters" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.SignUpClickable()[pri:1, instance:Tests.SignUpTest@6cc7b4de]" name="SignUpClickable" class="Tests.SignUpTest"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="138767" started-at="2018-11-15T11:30:03Z" finished-at="2018-11-15T11:32:22Z">
-      <class name="Tests.qwizMaleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.qwizMaleTests@76a3e297]" name="setup" is-config="true" duration-ms="18380" started-at="2018-11-15T11:30:03Z" finished-at="2018-11-15T11:30:22Z">
+    <test name="BestExpensiveMaleMatchTests" duration-ms="147808" started-at="2018-11-21T11:55:56Z" finished-at="2018-11-21T11:58:24Z">
+      <class name="Tests.BestExpensiveMaleMatchTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestExpensiveMaleMatchTests@ed9d034]" name="setup" is-config="true" duration-ms="25575" started-at="2018-11-21T11:55:56Z" finished-at="2018-11-21T11:56:21Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.qwizMaleTests@76a3e297]" name="DoSignUp" duration-ms="54728" started-at="2018-11-15T11:30:22Z" finished-at="2018-11-15T11:31:17Z">
+        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.BestExpensiveMaleMatchTests@ed9d034]" name="BMExpensiveMale" duration-ms="122218" started-at="2018-11-21T11:56:21Z" finished-at="2018-11-21T11:58:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BestExpensiveMaleMatchTests.BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BestExpensiveMaleMatchTests.BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestExpensiveMaleMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestExpensiveMaleMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMExpensiveMale -->
+      </class> <!-- Tests.BestExpensiveMaleMatchTests -->
+    </test> <!-- BestExpensiveMaleMatchTests -->
+    <test name="BestMatchExpensiveFeamleTests" duration-ms="171188" started-at="2018-11-21T11:58:24Z" finished-at="2018-11-21T12:01:15Z">
+      <class name="Tests.BestMatchExpensiveFeamleTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchExpensiveFeamleTests@51c8530f]" name="setup" is-config="true" duration-ms="19965" started-at="2018-11-21T11:58:24Z" finished-at="2018-11-21T11:58:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMExpensiveFeamle()[pri:3, instance:Tests.BestMatchExpensiveFeamleTests@51c8530f]" name="BMExpensiveFeamle" duration-ms="151221" started-at="2018-11-21T11:58:44Z" finished-at="2018-11-21T12:01:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BestMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BestMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchExpensiveFeamleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchExpensiveFeamleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMExpensiveFeamle -->
+      </class> <!-- Tests.BestMatchExpensiveFeamleTests -->
+    </test> <!-- BestMatchExpensiveFeamleTests -->
+    <test name="BestMatchLowFeamleTests" duration-ms="170679" started-at="2018-11-21T12:01:15Z" finished-at="2018-11-21T12:04:06Z">
+      <class name="Tests.BestMatchLowFeamleTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchLowFeamleTests@22eeefeb]" name="setup" is-config="true" duration-ms="19691" started-at="2018-11-21T12:01:15Z" finished-at="2018-11-21T12:01:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMLowFeamle()[pri:2, instance:Tests.BestMatchLowFeamleTests@22eeefeb]" name="BMLowFeamle" duration-ms="150986" started-at="2018-11-21T12:01:35Z" finished-at="2018-11-21T12:04:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BestMatchLowFeamleTests.BMLowFeamle]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BestMatchLowFeamleTests.BMLowFeamle]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMLowFeamle]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchLowFeamleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMLowFeamle]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchLowFeamleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMLowFeamle -->
+      </class> <!-- Tests.BestMatchLowFeamleTests -->
+    </test> <!-- BestMatchLowFeamleTests -->
+    <test name="BestMatchLowMaleTests" duration-ms="140647" started-at="2018-11-21T12:04:06Z" finished-at="2018-11-21T12:06:27Z">
+      <class name="Tests.BestMatchLowMaleTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchLowMaleTests@7e0e6aa2]" name="setup" is-config="true" duration-ms="19960" started-at="2018-11-21T12:04:06Z" finished-at="2018-11-21T12:04:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMLowMale()[pri:5, instance:Tests.BestMatchLowMaleTests@7e0e6aa2]" name="BMLowMale" duration-ms="120684" started-at="2018-11-21T12:04:26Z" finished-at="2018-11-21T12:06:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BestMatchLowMaleTests.BMLowMale]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BestMatchLowMaleTests.BMLowMale]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMLowMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchLowMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMLowMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchLowMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMLowMale -->
+      </class> <!-- Tests.BestMatchLowMaleTests -->
+    </test> <!-- BestMatchLowMaleTests -->
+    <test name="BestMatchNormalFeamleTests" duration-ms="172334" started-at="2018-11-21T12:06:27Z" finished-at="2018-11-21T12:09:19Z">
+      <class name="Tests.BestMatchNormalFeamleTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchNormalFeamleTests@25bbf683]" name="setup" is-config="true" duration-ms="20020" started-at="2018-11-21T12:06:27Z" finished-at="2018-11-21T12:06:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMNormalFeamle()[pri:1, instance:Tests.BestMatchNormalFeamleTests@25bbf683]" name="BMNormalFeamle" duration-ms="152310" started-at="2018-11-21T12:06:47Z" finished-at="2018-11-21T12:09:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BestMatchNormalFeamleTests.BMNormalFeamle]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BestMatchNormalFeamleTests.BMNormalFeamle]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMNormalFeamle]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchNormalFeamleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMNormalFeamle]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchNormalFeamleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMNormalFeamle -->
+      </class> <!-- Tests.BestMatchNormalFeamleTests -->
+    </test> <!-- BestMatchNormalFeamleTests -->
+    <test name="BestMatchNormalMaleTests" duration-ms="141509" started-at="2018-11-21T12:09:20Z" finished-at="2018-11-21T12:11:41Z">
+      <class name="Tests.BestMatchNormalMaleTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchNormalMaleTests@10dba097]" name="setup" is-config="true" duration-ms="20556" started-at="2018-11-21T12:09:20Z" finished-at="2018-11-21T12:09:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMNormalMale()[pri:4, instance:Tests.BestMatchNormalMaleTests@10dba097]" name="BMNormalMale" duration-ms="120950" started-at="2018-11-21T12:09:40Z" finished-at="2018-11-21T12:11:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BestMatchNormalMaleTests.BMNormalMale]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BestMatchNormalMaleTests.BMNormalMale]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMNormalMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchNormalMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMNormalMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchNormalMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMNormalMale -->
+      </class> <!-- Tests.BestMatchNormalMaleTests -->
+    </test> <!-- BestMatchNormalMaleTests -->
+    <test name="BestMatchNaturalTests" duration-ms="50261" started-at="2018-11-21T12:11:41Z" finished-at="2018-11-21T12:12:32Z">
+      <class name="Tests.BestMatchNaturalTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchNaturalTests@6eceb130]" name="setup" is-config="true" duration-ms="20004" started-at="2018-11-21T12:11:41Z" finished-at="2018-11-21T12:12:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="BMNatural()[pri:7, instance:Tests.BestMatchNaturalTests@6eceb130]" name="BMNatural" duration-ms="28477" started-at="2018-11-21T12:12:01Z" finished-at="2018-11-21T12:12:30Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div//button[text()[contains(.,'Self Identity')]]"}
+  (Session info: chrome=70.0.3538.80)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: Android device, noReset: true, platformName: android}, deviceManufacturer: vernee, deviceModel: MIX 2, deviceName: K600A71511000001, deviceScreenSize: 1080x2160, deviceUDID: K600A71511000001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: LINUX, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 6a61eaa2-ed23-4b2e-afd0-4d45c8ee7226
+*** Element info: {Using=xpath, value=//div//button[text()[contains(.,'Self Identity')]]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//button[text()[contains(.,'Self Identity')]]"}
+  (Session info: chrome=70.0.3538.80)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: Android device, noReset: true, platformName: android}, deviceManufacturer: vernee, deviceModel: MIX 2, deviceName: K600A71511000001, deviceScreenSize: 1080x2160, deviceUDID: K600A71511000001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: LINUX, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 6a61eaa2-ed23-4b2e-afd0-4d45c8ee7226
+*** Element info: {Using=xpath, value=//div//button[text()[contains(.,'Self Identity')]]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at PageObejecs.BasePage.click(BasePage.java:35)
+at PageObejecs.BestMatchPage.ClickSelfIdentityButtonID(BestMatchPage.java:165)
+at Tests.BestMatchNaturalTests.BMNatural(BestMatchNaturalTests.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BestMatchNaturalTests.BMNatural]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BestMatchNaturalTests.BMNatural]]>
+            </line>
+            <line>
+              <![CDATA[About to Failure executing Suite BMNatural]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchNaturalTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Failed]]>
+            </line>
+            <line>
+              <![CDATA[About to Failure executing Suite BMNatural]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMatchNaturalTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMNatural -->
+      </class> <!-- Tests.BestMatchNaturalTests -->
+    </test> <!-- BestMatchNaturalTests -->
+    <test name="StartHereExpensiveFemaleMatchTests" duration-ms="174973" started-at="2018-11-21T12:12:32Z" finished-at="2018-11-21T12:15:27Z">
+      <class name="Tests.StartHereExpensiveFemaleMatchTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereExpensiveFemaleMatchTests@646007f4]" name="setup" is-config="true" duration-ms="22642" started-at="2018-11-21T12:12:32Z" finished-at="2018-11-21T12:12:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereExpensiveFemaleMatchTests@646007f4]" name="BMExpensiveMale" duration-ms="152329" started-at="2018-11-21T12:12:54Z" finished-at="2018-11-21T12:15:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : StartHereExpensiveFemaleMatchTests.BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : StartHereExpensiveFemaleMatchTests.BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.StartHereExpensiveFemaleMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.StartHereExpensiveFemaleMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMExpensiveMale -->
+      </class> <!-- Tests.StartHereExpensiveFemaleMatchTests -->
+    </test> <!-- StartHereExpensiveFemaleMatchTests -->
+    <test name="StartHereExpensiveMaleMatchTests" duration-ms="143969" started-at="2018-11-21T12:15:27Z" finished-at="2018-11-21T12:17:51Z">
+      <class name="Tests.StartHereExpensiveMaleMatchTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereExpensiveMaleMatchTests@4c762604]" name="setup" is-config="true" duration-ms="21449" started-at="2018-11-21T12:15:27Z" finished-at="2018-11-21T12:15:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereExpensiveMaleMatchTests@4c762604]" name="BMExpensiveMale" duration-ms="122518" started-at="2018-11-21T12:15:48Z" finished-at="2018-11-21T12:17:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : StartHereExpensiveMaleMatchTests.BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : StartHereExpensiveMaleMatchTests.BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.StartHereExpensiveMaleMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.StartHereExpensiveMaleMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMExpensiveMale -->
+      </class> <!-- Tests.StartHereExpensiveMaleMatchTests -->
+    </test> <!-- StartHereExpensiveMaleMatchTests -->
+    <test name="StartHereLowFemaleMatchTests" duration-ms="174898" started-at="2018-11-21T12:17:51Z" finished-at="2018-11-21T12:20:46Z">
+      <class name="Tests.StartHereLowFemaleMatchTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereLowFemaleMatchTests@319b92f3]" name="setup" is-config="true" duration-ms="21877" started-at="2018-11-21T12:17:51Z" finished-at="2018-11-21T12:18:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereLowFemaleMatchTests@319b92f3]" name="BMExpensiveMale" duration-ms="153020" started-at="2018-11-21T12:18:13Z" finished-at="2018-11-21T12:20:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : StartHereLowFemaleMatchTests.BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : StartHereLowFemaleMatchTests.BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.StartHereLowFemaleMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.StartHereLowFemaleMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMExpensiveMale -->
+      </class> <!-- Tests.StartHereLowFemaleMatchTests -->
+    </test> <!-- StartHereLowFemaleMatchTests -->
+    <test name="StartHereLowMaleMatchTests" duration-ms="144168" started-at="2018-11-21T12:20:46Z" finished-at="2018-11-21T12:23:10Z">
+      <class name="Tests.StartHereLowMaleMatchTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereLowMaleMatchTests@376b4233]" name="setup" is-config="true" duration-ms="21545" started-at="2018-11-21T12:20:46Z" finished-at="2018-11-21T12:21:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereLowMaleMatchTests@376b4233]" name="BMExpensiveMale" duration-ms="122621" started-at="2018-11-21T12:21:07Z" finished-at="2018-11-21T12:23:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : StartHereLowMaleMatchTests.BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : StartHereLowMaleMatchTests.BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.StartHereLowMaleMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.StartHereLowMaleMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMExpensiveMale -->
+      </class> <!-- Tests.StartHereLowMaleMatchTests -->
+    </test> <!-- StartHereLowMaleMatchTests -->
+    <test name="StartHereNormalFemaleMatchTests" duration-ms="175446" started-at="2018-11-21T12:23:10Z" finished-at="2018-11-21T12:26:06Z">
+      <class name="Tests.StartHereNormalFemaleMatchTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereNormalFemaleMatchTests@fe18270]" name="setup" is-config="true" duration-ms="22273" started-at="2018-11-21T12:23:10Z" finished-at="2018-11-21T12:23:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereNormalFemaleMatchTests@fe18270]" name="BMExpensiveMale" duration-ms="153172" started-at="2018-11-21T12:23:33Z" finished-at="2018-11-21T12:26:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : StartHereNormalFemaleMatchTests.BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : StartHereNormalFemaleMatchTests.BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.StartHereNormalFemaleMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.StartHereNormalFemaleMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMExpensiveMale -->
+      </class> <!-- Tests.StartHereNormalFemaleMatchTests -->
+    </test> <!-- StartHereNormalFemaleMatchTests -->
+    <test name="StartHereNormalMaleMatchTests" duration-ms="143744" started-at="2018-11-21T12:26:06Z" finished-at="2018-11-21T12:28:30Z">
+      <class name="Tests.StartHereNormalMaleMatchTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereNormalMaleMatchTests@281e3708]" name="setup" is-config="true" duration-ms="21044" started-at="2018-11-21T12:26:06Z" finished-at="2018-11-21T12:26:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereNormalMaleMatchTests@281e3708]" name="BMExpensiveMale" duration-ms="122698" started-at="2018-11-21T12:26:27Z" finished-at="2018-11-21T12:28:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : StartHereNormalMaleMatchTests.BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : StartHereNormalMaleMatchTests.BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.StartHereNormalMaleMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.StartHereNormalMaleMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMExpensiveMale -->
+      </class> <!-- Tests.StartHereNormalMaleMatchTests -->
+    </test> <!-- StartHereNormalMaleMatchTests -->
+    <test name="StartHereNaturalMatchTests" duration-ms="47361" started-at="2018-11-21T12:28:30Z" finished-at="2018-11-21T12:29:17Z">
+      <class name="Tests.StartHereNaturalMatchTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereNaturalMatchTests@6d3af739]" name="setup" is-config="true" duration-ms="21678" started-at="2018-11-21T12:28:30Z" finished-at="2018-11-21T12:28:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereNaturalMatchTests@6d3af739]" name="BMExpensiveMale" duration-ms="23876" started-at="2018-11-21T12:28:52Z" finished-at="2018-11-21T12:29:16Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div//button[text()[contains(.,'Self Identity')]]"}
+  (Session info: chrome=70.0.3538.80)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: Android device, noReset: true, platformName: android}, deviceManufacturer: vernee, deviceModel: MIX 2, deviceName: K600A71511000001, deviceScreenSize: 1080x2160, deviceUDID: K600A71511000001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: LINUX, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 4417f5cd-5845-4421-bea3-ab1c486de544
+*** Element info: {Using=xpath, value=//div//button[text()[contains(.,'Self Identity')]]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//button[text()[contains(.,'Self Identity')]]"}
+  (Session info: chrome=70.0.3538.80)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: Android device, noReset: true, platformName: android}, deviceManufacturer: vernee, deviceModel: MIX 2, deviceName: K600A71511000001, deviceScreenSize: 1080x2160, deviceUDID: K600A71511000001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: LINUX, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 4417f5cd-5845-4421-bea3-ab1c486de544
+*** Element info: {Using=xpath, value=//div//button[text()[contains(.,'Self Identity')]]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at PageObejecs.BasePage.click(BasePage.java:35)
+at PageObejecs.BestMatchPage.ClickSelfIdentityButtonID(BestMatchPage.java:165)
+at Tests.StartHereNaturalMatchTests.BMExpensiveMale(StartHereNaturalMatchTests.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : StartHereNaturalMatchTests.BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : StartHereNaturalMatchTests.BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[About to Failure executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.StartHereNaturalMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Failed]]>
+            </line>
+            <line>
+              <![CDATA[About to Failure executing Suite BMExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.StartHereNaturalMatchTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMExpensiveMale -->
+      </class> <!-- Tests.StartHereNaturalMatchTests -->
+    </test> <!-- StartHereNaturalMatchTests -->
+    <test name="qwizTests" duration-ms="183637" started-at="2018-11-21T12:29:17Z" finished-at="2018-11-21T12:32:21Z">
+      <class name="Tests.qwizTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.qwizTests@15b3e5b]" name="setup" is-config="true" duration-ms="22344" started-at="2018-11-21T12:29:17Z" finished-at="2018-11-21T12:29:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.qwizTests@15b3e5b]" name="DoSignUp" duration-ms="64770" started-at="2018-11-21T12:29:40Z" finished-at="2018-11-21T12:30:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : qwizTests.DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : qwizTests.DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:Tests.qwizTests@15b3e5b]" name="CheckOutSession" duration-ms="24582" started-at="2018-11-21T12:30:44Z" finished-at="2018-11-21T12:31:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : qwizTests.CheckOutSession]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : qwizTests.CheckOutSession]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite CheckOutSession]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite CheckOutSession]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckOutSession -->
+        <test-method status="PASS" signature="SelectBodyType()[pri:4, instance:Tests.qwizTests@15b3e5b]" name="SelectBodyType" duration-ms="4654" started-at="2018-11-21T12:31:09Z" finished-at="2018-11-21T12:31:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : qwizTests.SelectBodyType]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : qwizTests.SelectBodyType]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectBodyType]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectBodyType]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectBodyType -->
+        <test-method status="PASS" signature="SelectHeight()[pri:5, instance:Tests.qwizTests@15b3e5b]" name="SelectHeight" duration-ms="6313" started-at="2018-11-21T12:31:14Z" finished-at="2018-11-21T12:31:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : qwizTests.SelectHeight]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : qwizTests.SelectHeight]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectHeight]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectHeight]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectHeight -->
+        <test-method status="PASS" signature="SelectColors()[pri:6, instance:Tests.qwizTests@15b3e5b]" name="SelectColors" duration-ms="6458" started-at="2018-11-21T12:31:20Z" finished-at="2018-11-21T12:31:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : qwizTests.SelectColors]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : qwizTests.SelectColors]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectColors]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectColors]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectColors -->
+        <test-method status="PASS" signature="SelectHighlight()[pri:7, instance:Tests.qwizTests@15b3e5b]" name="SelectHighlight" duration-ms="6050" started-at="2018-11-21T12:31:27Z" finished-at="2018-11-21T12:31:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : qwizTests.SelectHighlight]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : qwizTests.SelectHighlight]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectHighlight]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectHighlight]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectHighlight -->
+        <test-method status="PASS" signature="SelectClothingPreferences()[pri:8, instance:Tests.qwizTests@15b3e5b]" name="SelectClothingPreferences" duration-ms="5618" started-at="2018-11-21T12:31:33Z" finished-at="2018-11-21T12:31:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : qwizTests.SelectClothingPreferences]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : qwizTests.SelectClothingPreferences]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectClothingPreferences]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectClothingPreferences]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectClothingPreferences -->
+        <test-method status="PASS" signature="SelectHeels()[pri:9, instance:Tests.qwizTests@15b3e5b]" name="SelectHeels" duration-ms="5561" started-at="2018-11-21T12:31:38Z" finished-at="2018-11-21T12:31:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : qwizTests.SelectHeels]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : qwizTests.SelectHeels]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectHeels]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectHeels]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectHeels -->
+        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.qwizTests@15b3e5b]" name="SelectFabrics" duration-ms="5436" started-at="2018-11-21T12:31:44Z" finished-at="2018-11-21T12:31:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : qwizTests.SelectFabrics]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : qwizTests.SelectFabrics]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectFabrics]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectFabrics]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectFabrics -->
+        <test-method status="PASS" signature="SelectSize()[pri:12, instance:Tests.qwizTests@15b3e5b]" name="SelectSize" duration-ms="6646" started-at="2018-11-21T12:31:49Z" finished-at="2018-11-21T12:31:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : qwizTests.SelectSize]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : qwizTests.SelectSize]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectSize]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectSize]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectSize -->
+        <test-method status="PASS" signature="SelectComfortZone()[pri:13, instance:Tests.qwizTests@15b3e5b]" name="SelectComfortZone" duration-ms="5680" started-at="2018-11-21T12:31:56Z" finished-at="2018-11-21T12:32:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : qwizTests.SelectComfortZone]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : qwizTests.SelectComfortZone]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectComfortZone]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectComfortZone]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectComfortZone -->
+        <test-method status="PASS" signature="SelectJEWELRY()[pri:14, instance:Tests.qwizTests@15b3e5b]" name="SelectJEWELRY" duration-ms="10261" started-at="2018-11-21T12:32:02Z" finished-at="2018-11-21T12:32:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : qwizTests.SelectJEWELRY]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : qwizTests.SelectJEWELRY]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectJEWELRY]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectJEWELRY]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectJEWELRY -->
+        <test-method status="PASS" signature="FillNumberPhone()[pri:15, instance:Tests.qwizTests@15b3e5b]" name="FillNumberPhone" duration-ms="9250" started-at="2018-11-21T12:32:12Z" finished-at="2018-11-21T12:32:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : qwizTests.FillNumberPhone]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : qwizTests.FillNumberPhone]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillNumberPhone]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillNumberPhone]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FillNumberPhone -->
+      </class> <!-- Tests.qwizTests -->
+    </test> <!-- qwizTests -->
+    <test name="qwizMaleTests" duration-ms="156414" started-at="2018-11-21T12:32:21Z" finished-at="2018-11-21T12:34:58Z">
+      <class name="Tests.qwizMaleTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.qwizMaleTests@5fcd892a]" name="setup" is-config="true" duration-ms="21485" started-at="2018-11-21T12:32:21Z" finished-at="2018-11-21T12:32:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.qwizMaleTests@5fcd892a]" name="DoSignUp" duration-ms="60606" started-at="2018-11-21T12:32:43Z" finished-at="2018-11-21T12:33:43Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.DoSignUp]]>
@@ -186,9 +3141,18 @@
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
+            <line>
+              <![CDATA[About to Success executing Suite DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:Tests.qwizMaleTests@76a3e297]" name="CheckOutSession" duration-ms="22321" started-at="2018-11-15T11:31:17Z" finished-at="2018-11-15T11:31:39Z">
+        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:Tests.qwizMaleTests@5fcd892a]" name="CheckOutSession" duration-ms="24782" started-at="2018-11-21T12:33:43Z" finished-at="2018-11-21T12:34:08Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.CheckOutSession]]>
@@ -205,9 +3169,18 @@
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
+            <line>
+              <![CDATA[About to Success executing Suite CheckOutSession]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- CheckOutSession -->
-        <test-method status="PASS" signature="SelectBodyType()[pri:4, instance:Tests.qwizMaleTests@76a3e297]" name="SelectBodyType" duration-ms="4308" started-at="2018-11-15T11:31:39Z" finished-at="2018-11-15T11:31:43Z">
+        <test-method status="PASS" signature="SelectBodyType()[pri:4, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectBodyType" duration-ms="5347" started-at="2018-11-21T12:34:08Z" finished-at="2018-11-21T12:34:13Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.SelectBodyType]]>
@@ -224,9 +3197,18 @@
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectBodyType]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- SelectBodyType -->
-        <test-method status="PASS" signature="SelectHeight()[pri:5, instance:Tests.qwizMaleTests@76a3e297]" name="SelectHeight" duration-ms="5482" started-at="2018-11-15T11:31:43Z" finished-at="2018-11-15T11:31:49Z">
+        <test-method status="PASS" signature="SelectHeight()[pri:5, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectHeight" duration-ms="5808" started-at="2018-11-21T12:34:13Z" finished-at="2018-11-21T12:34:19Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.SelectHeight]]>
@@ -243,9 +3225,18 @@
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectHeight]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- SelectHeight -->
-        <test-method status="PASS" signature="SelectColors()[pri:6, instance:Tests.qwizMaleTests@76a3e297]" name="SelectColors" duration-ms="5965" started-at="2018-11-15T11:31:49Z" finished-at="2018-11-15T11:31:55Z">
+        <test-method status="PASS" signature="SelectColors()[pri:6, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectColors" duration-ms="6410" started-at="2018-11-21T12:34:19Z" finished-at="2018-11-21T12:34:26Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.SelectColors]]>
@@ -262,9 +3253,18 @@
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectColors]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- SelectColors -->
-        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.qwizMaleTests@76a3e297]" name="SelectFabrics" duration-ms="5352" started-at="2018-11-15T11:31:55Z" finished-at="2018-11-15T11:32:00Z">
+        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectFabrics" duration-ms="6038" started-at="2018-11-21T12:34:26Z" finished-at="2018-11-21T12:34:32Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.SelectFabrics]]>
@@ -281,9 +3281,18 @@
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectFabrics]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- SelectFabrics -->
-        <test-method status="PASS" signature="SelectSize()[pri:12, instance:Tests.qwizMaleTests@76a3e297]" name="SelectSize" duration-ms="6362" started-at="2018-11-15T11:32:00Z" finished-at="2018-11-15T11:32:06Z">
+        <test-method status="PASS" signature="SelectSize()[pri:12, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectSize" duration-ms="6740" started-at="2018-11-21T12:34:32Z" finished-at="2018-11-21T12:34:38Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.SelectSize]]>
@@ -300,9 +3309,18 @@
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectSize]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- SelectSize -->
-        <test-method status="PASS" signature="SelectComfortZone()[pri:13, instance:Tests.qwizMaleTests@76a3e297]" name="SelectComfortZone" duration-ms="7882" started-at="2018-11-15T11:32:06Z" finished-at="2018-11-15T11:32:14Z">
+        <test-method status="PASS" signature="SelectComfortZone()[pri:13, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectComfortZone" duration-ms="5546" started-at="2018-11-21T12:34:38Z" finished-at="2018-11-21T12:34:44Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.SelectComfortZone]]>
@@ -319,9 +3337,18 @@
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectComfortZone]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- SelectComfortZone -->
-        <test-method status="PASS" signature="FillNumberPhone()[pri:14, instance:Tests.qwizMaleTests@76a3e297]" name="FillNumberPhone" duration-ms="7957" started-at="2018-11-15T11:32:14Z" finished-at="2018-11-15T11:32:22Z">
+        <test-method status="PASS" signature="FillNumberPhone()[pri:14, instance:Tests.qwizMaleTests@5fcd892a]" name="FillNumberPhone" duration-ms="13645" started-at="2018-11-21T12:34:44Z" finished-at="2018-11-21T12:34:58Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.FillNumberPhone]]>
@@ -338,9 +3365,873 @@
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillNumberPhone]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.qwizMaleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- FillNumberPhone -->
       </class> <!-- Tests.qwizMaleTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- qwizMaleTests -->
+    <test name="BookingTests" duration-ms="106298" started-at="2018-11-21T12:34:58Z" finished-at="2018-11-21T12:36:44Z">
+      <class name="Tests.BookingTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BookingTests@543e710e]" name="setup" is-config="true" duration-ms="20494" started-at="2018-11-21T12:34:58Z" finished-at="2018-11-21T12:35:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.BookingTests@543e710e]" name="DoSignUp" duration-ms="60412" started-at="2018-11-21T12:35:18Z" finished-at="2018-11-21T12:36:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BookingTests.DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BookingTests.DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BookingTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BookingTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:Tests.BookingTests@543e710e]" name="CheckOutSession" duration-ms="25390" started-at="2018-11-21T12:36:19Z" finished-at="2018-11-21T12:36:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BookingTests.CheckOutSession]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BookingTests.CheckOutSession]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite CheckOutSession]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BookingTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite CheckOutSession]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BookingTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckOutSession -->
+      </class> <!-- Tests.BookingTests -->
+    </test> <!-- BookingTests -->
+    <test name="BookingCCTests" duration-ms="119484" started-at="2018-11-21T12:36:44Z" finished-at="2018-11-21T12:38:44Z">
+      <class name="Tests.BookingCCTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BookingCCTests@69379752]" name="setup" is-config="true" duration-ms="22152" started-at="2018-11-21T12:36:44Z" finished-at="2018-11-21T12:37:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.BookingCCTests@69379752]" name="DoSignUp" duration-ms="61582" started-at="2018-11-21T12:37:06Z" finished-at="2018-11-21T12:38:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BookingCCTests.DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BookingCCTests.DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BookingCCTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BookingCCTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+        <test-method status="PASS" signature="CheckoutUnlimitedCreditCard()[pri:3, instance:Tests.BookingCCTests@69379752]" name="CheckoutUnlimitedCreditCard" duration-ms="35748" started-at="2018-11-21T12:38:08Z" finished-at="2018-11-21T12:38:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BookingCCTests.CheckoutUnlimitedCreditCard]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BookingCCTests.CheckoutUnlimitedCreditCard]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite CheckoutUnlimitedCreditCard]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BookingCCTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite CheckoutUnlimitedCreditCard]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.BookingCCTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckoutUnlimitedCreditCard -->
+      </class> <!-- Tests.BookingCCTests -->
+    </test> <!-- BookingCCTests -->
+    <test name="LoginWithFacbookTests" duration-ms="36982" started-at="2018-11-21T12:38:44Z" finished-at="2018-11-21T12:39:21Z">
+      <class name="Tests.LoginWithFacbookTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginWithFacbookTests@5e57643e]" name="setup" is-config="true" duration-ms="21399" started-at="2018-11-21T12:38:44Z" finished-at="2018-11-21T12:39:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginWithFacbook()[pri:3, instance:Tests.LoginWithFacbookTests@5e57643e]" name="LoginWithFacbook" duration-ms="15582" started-at="2018-11-21T12:39:06Z" finished-at="2018-11-21T12:39:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : LoginWithFacbookTests.LoginWithFacbook]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : LoginWithFacbookTests.LoginWithFacbook]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite LoginWithFacbook]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginWithFacbookTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite LoginWithFacbook]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginWithFacbookTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginWithFacbook -->
+      </class> <!-- Tests.LoginWithFacbookTests -->
+    </test> <!-- LoginWithFacbookTests -->
+    <test name="LoginWithFacbookTestsFail" duration-ms="39038" started-at="2018-11-21T12:39:21Z" finished-at="2018-11-21T12:40:00Z">
+      <class name="Tests.LoginWithFacbookTestsFail">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginWithFacbookTestsFail@2473b9ce]" name="setup" is-config="true" duration-ms="23991" started-at="2018-11-21T12:39:21Z" finished-at="2018-11-21T12:39:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginWithFacbookWrongPassword()[pri:1, instance:Tests.LoginWithFacbookTestsFail@2473b9ce]" name="LoginWithFacbookWrongPassword" duration-ms="12260" started-at="2018-11-21T12:39:45Z" finished-at="2018-11-21T12:39:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite LoginWithFacbookWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginWithFacbookTestsFail]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite LoginWithFacbookWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginWithFacbookTestsFail]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginWithFacbookWrongPassword -->
+        <test-method status="PASS" signature="LoginWithFacbookWrongUserName()[pri:2, instance:Tests.LoginWithFacbookTestsFail@2473b9ce]" name="LoginWithFacbookWrongUserName" duration-ms="2784" started-at="2018-11-21T12:39:57Z" finished-at="2018-11-21T12:40:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongUserName]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongUserName]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite LoginWithFacbookWrongUserName]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginWithFacbookTestsFail]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite LoginWithFacbookWrongUserName]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginWithFacbookTestsFail]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginWithFacbookWrongUserName -->
+      </class> <!-- Tests.LoginWithFacbookTestsFail -->
+    </test> <!-- LoginWithFacbookTestsFail -->
+    <test name="SignUpByFacbookTestsFail" duration-ms="41293" started-at="2018-11-21T12:40:00Z" finished-at="2018-11-21T12:40:42Z">
+      <class name="Tests.SignUpByFacbookTestsFail">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="setup" is-config="true" duration-ms="22584" started-at="2018-11-21T12:40:00Z" finished-at="2018-11-21T12:40:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SignUpWithFacbookWitOutEmail()[pri:2, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="SignUpWithFacbookWitOutEmail" duration-ms="7560" started-at="2018-11-21T12:40:23Z" finished-at="2018-11-21T12:40:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutEmail]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutEmail]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SignUpWithFacbookWitOutEmail]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsFail]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SignUpWithFacbookWitOutEmail]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsFail]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignUpWithFacbookWitOutEmail -->
+        <test-method status="PASS" signature="SignUpWithFacbookWitOutPassword()[pri:3, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="SignUpWithFacbookWitOutPassword" duration-ms="2064" started-at="2018-11-21T12:40:30Z" finished-at="2018-11-21T12:40:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutPassword]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutPassword]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SignUpWithFacbookWitOutPassword]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsFail]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SignUpWithFacbookWitOutPassword]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsFail]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignUpWithFacbookWitOutPassword -->
+        <test-method status="PASS" signature="SignUpWithFacbookWrongPassword()[pri:4, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="SignUpWithFacbookWrongPassword" duration-ms="4528" started-at="2018-11-21T12:40:32Z" finished-at="2018-11-21T12:40:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SignUpWithFacbookWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsFail]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SignUpWithFacbookWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsFail]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignUpWithFacbookWrongPassword -->
+        <test-method status="PASS" signature="SignUpWithFacbookWrongUserName()[pri:5, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="SignUpWithFacbookWrongUserName" duration-ms="4554" started-at="2018-11-21T12:40:37Z" finished-at="2018-11-21T12:40:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongUserName]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongUserName]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SignUpWithFacbookWrongUserName]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsFail]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SignUpWithFacbookWrongUserName]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsFail]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignUpWithFacbookWrongUserName -->
+      </class> <!-- Tests.SignUpByFacbookTestsFail -->
+    </test> <!-- SignUpByFacbookTestsFail -->
+    <test name="SignUpByFacbookTestsSucses" duration-ms="36495" started-at="2018-11-21T12:40:42Z" finished-at="2018-11-21T12:41:18Z">
+      <class name="Tests.SignUpByFacbookTestsSucses">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTestsSucses@3bd94634]" name="setup" is-config="true" duration-ms="21895" started-at="2018-11-21T12:40:42Z" finished-at="2018-11-21T12:41:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SignUpWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTestsSucses@3bd94634]" name="SignUpWithFacbook" duration-ms="14599" started-at="2018-11-21T12:41:03Z" finished-at="2018-11-21T12:41:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SignUpWithFacbook]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsSucses]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SignUpWithFacbook]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsSucses]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignUpWithFacbook -->
+      </class> <!-- Tests.SignUpByFacbookTestsSucses -->
+    </test> <!-- SignUpByFacbookTestsSucses -->
+    <test name="ChatTests" duration-ms="133295" started-at="2018-11-21T12:41:18Z" finished-at="2018-11-21T12:43:31Z">
+      <class name="Tests.ChatTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ChatTests@166fa74d]" name="setup" is-config="true" duration-ms="21615" started-at="2018-11-21T12:41:18Z" finished-at="2018-11-21T12:41:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginAsStylist()[pri:1, instance:Tests.ChatTests@166fa74d]" name="LoginAsStylist" duration-ms="5794" started-at="2018-11-21T12:41:40Z" finished-at="2018-11-21T12:41:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : ChatTests.LoginAsStylist]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : ChatTests.LoginAsStylist]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite LoginAsStylist]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.ChatTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite LoginAsStylist]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.ChatTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginAsStylist -->
+        <test-method status="PASS" signature="SendChatToclient()[pri:2, instance:Tests.ChatTests@166fa74d]" name="SendChatToclient" duration-ms="61126" started-at="2018-11-21T12:41:45Z" finished-at="2018-11-21T12:42:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : ChatTests.SendChatToclient]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : ChatTests.SendChatToclient]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SendChatToclient]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.ChatTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SendChatToclient]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.ChatTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SendChatToclient -->
+        <test-method status="PASS" signature="SendChatToStylist()[pri:3, instance:Tests.ChatTests@166fa74d]" name="SendChatToStylist" duration-ms="44757" started-at="2018-11-21T12:42:47Z" finished-at="2018-11-21T12:43:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : ChatTests.SendChatToStylist]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : ChatTests.SendChatToStylist]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SendChatToStylist]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.ChatTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SendChatToStylist]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.ChatTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SendChatToStylist -->
+      </class> <!-- Tests.ChatTests -->
+    </test> <!-- ChatTests -->
+    <test name="LoginTests2" duration-ms="58943" started-at="2018-11-21T12:43:32Z" finished-at="2018-11-21T12:44:30Z">
+      <class name="Tests.LoginTests2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginTests2@6e2c9341]" name="setup" is-config="true" duration-ms="22618" started-at="2018-11-21T12:43:32Z" finished-at="2018-11-21T12:43:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginClickable()[pri:1, instance:Tests.LoginTests2@6e2c9341]" name="LoginClickable" duration-ms="4073" started-at="2018-11-21T12:43:54Z" finished-at="2018-11-21T12:43:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : LoginTests2.LoginClickable]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : LoginTests2.LoginClickable]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite LoginClickable]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginTests2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite LoginClickable]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginTests2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginClickable -->
+        <test-method status="PASS" signature="DoLogin()[pri:2, instance:Tests.LoginTests2@6e2c9341]" name="DoLogin" duration-ms="4793" started-at="2018-11-21T12:43:58Z" finished-at="2018-11-21T12:44:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : LoginTests2.DoLogin]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : LoginTests2.DoLogin]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite DoLogin]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginTests2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite DoLogin]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginTests2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method status="PASS" signature="FillPasswordWithOutToFillEmail()[pri:3, instance:Tests.LoginTests2@6e2c9341]" name="FillPasswordWithOutToFillEmail" duration-ms="3696" started-at="2018-11-21T12:44:03Z" finished-at="2018-11-21T12:44:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : LoginTests2.FillPasswordWithOutToFillEmail]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : LoginTests2.FillPasswordWithOutToFillEmail]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillPasswordWithOutToFillEmail]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginTests2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillPasswordWithOutToFillEmail]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginTests2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FillPasswordWithOutToFillEmail -->
+        <test-method status="PASS" signature="FillEmailWithOutToFillPassword()[pri:4, instance:Tests.LoginTests2@6e2c9341]" name="FillEmailWithOutToFillPassword" duration-ms="6190" started-at="2018-11-21T12:44:07Z" finished-at="2018-11-21T12:44:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : LoginTests2.FillEmailWithOutToFillPassword]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : LoginTests2.FillEmailWithOutToFillPassword]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillEmailWithOutToFillPassword]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginTests2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillEmailWithOutToFillPassword]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginTests2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FillEmailWithOutToFillPassword -->
+        <test-method status="PASS" signature="ClickLoginwWithOutToFillAnyFields()[pri:5, instance:Tests.LoginTests2@6e2c9341]" name="ClickLoginwWithOutToFillAnyFields" duration-ms="2866" started-at="2018-11-21T12:44:13Z" finished-at="2018-11-21T12:44:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : LoginTests2.ClickLoginwWithOutToFillAnyFields]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : LoginTests2.ClickLoginwWithOutToFillAnyFields]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite ClickLoginwWithOutToFillAnyFields]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginTests2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite ClickLoginwWithOutToFillAnyFields]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginTests2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ClickLoginwWithOutToFillAnyFields -->
+        <test-method status="PASS" signature="FillCorrectEmailWithWrongPassword()[pri:6, instance:Tests.LoginTests2@6e2c9341]" name="FillCorrectEmailWithWrongPassword" duration-ms="8634" started-at="2018-11-21T12:44:16Z" finished-at="2018-11-21T12:44:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : LoginTests2.FillCorrectEmailWithWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : LoginTests2.FillCorrectEmailWithWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillCorrectEmailWithWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginTests2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillCorrectEmailWithWrongPassword]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginTests2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FillCorrectEmailWithWrongPassword -->
+        <test-method status="PASS" signature="FillCorrectPasswordWithWrongEmail()[pri:7, instance:Tests.LoginTests2@6e2c9341]" name="FillCorrectPasswordWithWrongEmail" duration-ms="6064" started-at="2018-11-21T12:44:24Z" finished-at="2018-11-21T12:44:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : LoginTests2.FillCorrectPasswordWithWrongEmail]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : LoginTests2.FillCorrectPasswordWithWrongEmail]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillCorrectPasswordWithWrongEmail]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginTests2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillCorrectPasswordWithWrongEmail]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.LoginTests2]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FillCorrectPasswordWithWrongEmail -->
+      </class> <!-- Tests.LoginTests2 -->
+    </test> <!-- LoginTests2 -->
+    <test name="SignUpTest" duration-ms="61997" started-at="2018-11-21T12:44:30Z" finished-at="2018-11-21T12:45:32Z">
+      <class name="Tests.SignUpTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpTest@6cc7b4de]" name="setup" is-config="true" duration-ms="22283" started-at="2018-11-21T12:44:30Z" finished-at="2018-11-21T12:44:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseTest.setup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SignUpClickable()[pri:1, instance:Tests.SignUpTest@6cc7b4de]" name="SignUpClickable" duration-ms="1589" started-at="2018-11-21T12:44:53Z" finished-at="2018-11-21T12:44:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpTest.SignUpClickable]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpTest.SignUpClickable]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SignUpClickable]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SignUpClickable]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignUpClickable -->
+        <test-method status="PASS" signature="FillEmailWitoutShtudel()[pri:2, instance:Tests.SignUpTest@6cc7b4de]" name="FillEmailWitoutShtudel" duration-ms="6821" started-at="2018-11-21T12:44:54Z" finished-at="2018-11-21T12:45:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpTest.FillEmailWitoutShtudel]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpTest.FillEmailWitoutShtudel]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillEmailWitoutShtudel]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillEmailWitoutShtudel]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FillEmailWitoutShtudel -->
+        <test-method status="PASS" signature="FillEmailWithoutDotCom()[pri:3, instance:Tests.SignUpTest@6cc7b4de]" name="FillEmailWithoutDotCom" duration-ms="11866" started-at="2018-11-21T12:45:01Z" finished-at="2018-11-21T12:45:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpTest.FillEmailWithoutDotCom]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpTest.FillEmailWithoutDotCom]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillEmailWithoutDotCom]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillEmailWithoutDotCom]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FillEmailWithoutDotCom -->
+        <test-method status="PASS" signature="FillPsswordWithLessthan6Characters()[pri:4, instance:Tests.SignUpTest@6cc7b4de]" name="FillPsswordWithLessthan6Characters" duration-ms="12164" started-at="2018-11-21T12:45:13Z" finished-at="2018-11-21T12:45:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillPsswordWithLessthan6Characters]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillPsswordWithLessthan6Characters]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FillPsswordWithLessthan6Characters -->
+        <test-method status="PASS" signature="DoSignUp()[pri:5, instance:Tests.SignUpTest@6cc7b4de]" name="DoSignUp" duration-ms="7271" started-at="2018-11-21T12:45:25Z" finished-at="2018-11-21T12:45:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpTest.DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpTest.DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+      </class> <!-- Tests.SignUpTest -->
+    </test> <!-- SignUpTest -->
+  </suite> <!-- Suite -->
 </testng-results>

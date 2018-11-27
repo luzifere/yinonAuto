@@ -22,7 +22,7 @@ public class CheckOutSingleTest extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("singletest@wishitest.com");
+		login.Fillusername("singletest@AutomationUser.com");
 		login.Fillpassword("123455");
 		login.ClickLoginButton2();
 		login.Sleep(500);

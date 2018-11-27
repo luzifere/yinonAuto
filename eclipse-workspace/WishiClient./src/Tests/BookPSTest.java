@@ -31,7 +31,7 @@ public class BookPSTest extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinonvoice@wishitest.com");
+		login.Fillusername("yinonvoice@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -97,7 +97,7 @@ public class BookPSTest extends BaseTest
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
 		booking.ClickLoginStart();
-		booking.LoginStylistApp("LEOstylist@wishitest.com", "123456");
+		booking.LoginStylistApp("LEOstylist@Automation.com", "123456");
 		booking.ClickLoginButton();
 		booking.Sleep(200);
 		driver.findElement(By.xpath("//*[@name='CloseOnboarding']")).click();
@@ -138,7 +138,7 @@ public class BookPSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinonvoice@wishitest.com");
+		login.Fillusername("yinonvoice@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -202,7 +202,7 @@ public class BookPSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinonvoice@wishitest.com");
+		login.Fillusername("yinonvoice@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -245,7 +245,7 @@ public class BookPSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinonvoice@wishitest.com");
+		login.Fillusername("yinonvoice@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);

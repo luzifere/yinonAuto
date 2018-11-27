@@ -29,9 +29,9 @@ public class BookingMembershipTests extends BaseTest
 		SignUpPage signup = new SignUpPage(driver);
 		signup.waitForPageLoaded();
 		Random num = new Random();
-		int number = 3560000;
-		for (int counter = 5800000; counter<=10000000;counter++)
-			number = num.nextInt(700000);
+		int number = 356000000;
+		for (int counter = 580000000; counter<=1000000000;counter++)
+			number = num.nextInt(70000000);
 		signup.ClickOnSignUpEmail();
 		signup.doSignUp("wishites111@wishi.com" + number, "inon", "av", "ab1565");
 		signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
@@ -67,7 +67,8 @@ public class BookingMembershipTests extends BaseTest
 	public void CheckOutSession ()
 	{
 		BookingPage booking = new BookingPage(driver);
-		booking.SearchStylist("Oren Oren");
+		String stylistName = this.configFileReader.getStylistName();
+		booking.SearchStylist(stylistName);
 		booking.SelectStylist();
 		booking.SelectMemberShip();
 		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
@@ -77,9 +78,13 @@ public class BookingMembershipTests extends BaseTest
 	//	booking.FillLastName("aba");
 		//booking.Sleep(350);
 		booking.SwitchToFrame(0);
-		booking.FillCardNumber("4111111111111111");
-		booking.FillCardDate("0222");
-		booking.FillCardCVC("424");
+		booking.Sleep(250);
+		String CardNumber = this.configFileReader.getCardNumber();
+		booking.FillCardNumber(CardNumber);
+		String CardDate = this.configFileReader.getCardDate();
+		booking.FillCardDate(CardDate);
+		String CardCVC = this.configFileReader.getCardCVC();
+		booking.FillCardCVC(CardCVC);
 		booking.Sleep(800);
 		booking.switchWindow();
 		booking.Sleep(200);
@@ -101,6 +106,11 @@ public class BookingMembershipTests extends BaseTest
 		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Oren Oren')]]/..//span[text()[contains(.,'membership')]]"));
 		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Oren Oren')]]/..//span[text()[contains(.,'membership')]]"));
 		booking.Sleep(300);
+		ChatPage chat = new ChatPage(driver);
+		chat.ClickOnProfileClientButton();
+		chat.DeactivateMemberShip();
+		booking.WaitElementDisplay(By.xpath("//div[@class='get-your-style']"));
+		Assert.assertTrue(booking.ElementDisplay("//div[@class='get-your-style']"));
 		booking.close();
 	}
 	//@Test(priority = 3,groups={"sanity-group"})

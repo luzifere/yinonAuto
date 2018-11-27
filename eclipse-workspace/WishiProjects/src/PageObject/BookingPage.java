@@ -32,8 +32,11 @@ public class BookingPage extends BasePage
 	WebElement BookStylisk;
 
 
-	@FindBy(xpath="//div//input[@type='text']")
+	@FindBy(xpath="//div[@class='img-box']")
 	WebElement SearchBar;
+	
+	@FindBy(xpath="//div//input[@type='text']")
+	WebElement TextBar;
 
 	@FindBy(xpath="//div//input[@placeholder='Add Promo Code']")                     
 	WebElement SearchInput;
@@ -106,7 +109,7 @@ public class BookingPage extends BasePage
 		WaitElementDisplay(By.xpath("//div//input[@type='text']"));
 		Sleep(300);
 		click(SearchBar);
-		filltext(SearchBar, name);
+		filltext(TextBar, name);
 		//Actions act = new Actions(driver);
 		//act.sendKeys(Keys.ENTER).perform();
 		Sleep(300);
@@ -117,7 +120,7 @@ public class BookingPage extends BasePage
 		//ExplicityWaitIsClickable(By.xpath("//div//input[@class='no-border bgTransparent ng-pristine ng-valid ng-empty ng-touched']"));
 		//driver.findElement(By.xpath("(//div//input[@class='form-control ng-pristine ng-untouched ng-valid ng-not-empty'])[1]")).click();
 		//driver.findElement(By.xpath("//div//input[@class='no-border bgTransparent ng-pristine ng-valid ng-empty ng-touched']")).click();
-		driver.findElement(By.xpath("//div//input[@class='no-border bgTransparent ng-pristine ng-valid ng-empty ng-touched']")).sendKeys(promocod);
+		driver.findElement(By.xpath("//input[@id='coupon-element']")).sendKeys(promocod);
 		
 		//filltext(PromoCode,promocod);
 		Sleep(300);
@@ -135,7 +138,8 @@ public class BookingPage extends BasePage
 	}
 
 	public void SelectMemberShip() 
-	{	
+	{
+		Sleep(250);
 		click(MemberShip);
 		Sleep(450);
 	}

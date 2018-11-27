@@ -56,13 +56,11 @@ public class StartHereExpensiveMaleMatchTests extends BaseTest
 		best.ClickTagsNextButton();
 		best.Selectbrands("2");
 		best.ClickTagsNextButton();
-		signup.doSignUpSH("wishites111@wishitesttt.com" + number, "inon", "av", "ab1565");
+		signup.doSignUpSH("wishitestoren@wishitesttt.com" + number, "inon", "av", "ab1565");
 		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match')]]"));
 		//best.ClickMoreStylistsButton();
 	
-		signup.WaitElementDisplay(By.xpath("//div[@class='page-title mob-title']"));
-		PageObejecs.OnBoardingPage2 ob = new PageObejecs.OnBoardingPage2(driver);
-		ob.Sleep(300);
-		//ob.close();
+		
+		driver.close();
 	}
 }

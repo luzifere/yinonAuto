@@ -4,6 +4,17 @@
   <listeners>
     <listener class-name="WishiTests.Listener"/>
   </listeners>
+  <test thread-count="5" name="StartHereNaturalMatchTests(failed)">
+    <classes>
+      <class name="WishiTests.StartHereNaturalMatchTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="BMExpensiveMale"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.StartHereNaturalMatchTests -->
+    </classes>
+  </test> <!-- StartHereNaturalMatchTests(failed) -->
   <test thread-count="5" name="RetakeMatchNaturalTests(failed)">
     <classes>
       <class name="WishiTests.RetakeMatchNaturalTests">
@@ -15,4 +26,26 @@
       </class> <!-- WishiTests.RetakeMatchNaturalTests -->
     </classes>
   </test> <!-- RetakeMatchNaturalTests(failed) -->
+  <test thread-count="5" name="BestMatchNormalFeamleTests(failed)">
+    <classes>
+      <class name="WishiTests.BestMatchNormalFeamleTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="BMNormalFeamle"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.BestMatchNormalFeamleTests -->
+    </classes>
+  </test> <!-- BestMatchNormalFeamleTests(failed) -->
+  <test thread-count="5" name="BestMatchNaturalTests(failed)">
+    <classes>
+      <class name="WishiTests.BestMatchNaturalTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="BMNatural"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.BestMatchNaturalTests -->
+    </classes>
+  </test> <!-- BestMatchNaturalTests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

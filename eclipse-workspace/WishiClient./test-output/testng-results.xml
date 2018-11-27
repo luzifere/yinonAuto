@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="177" passed="177">
+<testng-results skipped="0" failed="5" ignored="0" total="177" passed="172">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Test QuizForMaleTest]]>
@@ -1568,22 +1568,22 @@
       <![CDATA[Completed executing following method : ReviseThirdLookTest.AskRevise1]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite AskRevise1]]>
+      <![CDATA[About to Failure executing Suite AskRevise1]]>
     </line>
     <line>
       <![CDATA[Test Method resides in Tests.ReviseThirdLookTest]]>
     </line>
     <line>
-      <![CDATA[Test Status: Pass]]>
+      <![CDATA[Test Status: Failed]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite AskRevise1]]>
+      <![CDATA[About to Failure executing Suite AskRevise1]]>
     </line>
     <line>
       <![CDATA[Test Method resides in Tests.ReviseThirdLookTest]]>
     </line>
     <line>
-      <![CDATA[Test Status: Pass]]>
+      <![CDATA[Test Status: Failed]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : ReviseThirdLookTest.CreateReviseLook1]]>
@@ -3626,22 +3626,22 @@
       <![CDATA[Completed executing following method : CheckOutByCoponTest.SelectSession]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite SelectSession]]>
+      <![CDATA[About to Failure executing Suite SelectSession]]>
     </line>
     <line>
       <![CDATA[Test Method resides in Tests.CheckOutByCoponTest]]>
     </line>
     <line>
-      <![CDATA[Test Status: Pass]]>
+      <![CDATA[Test Status: Failed]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite SelectSession]]>
+      <![CDATA[About to Failure executing Suite SelectSession]]>
     </line>
     <line>
       <![CDATA[Test Method resides in Tests.CheckOutByCoponTest]]>
     </line>
     <line>
-      <![CDATA[Test Status: Pass]]>
+      <![CDATA[Test Status: Failed]]>
     </line>
     <line>
       <![CDATA[Completed executing test CheckOutByCoponTest]]>
@@ -4040,22 +4040,22 @@
       <![CDATA[Completed executing following method : QuickQuizForMenTest.SelectSession]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite SelectSession]]>
+      <![CDATA[About to Failure executing Suite SelectSession]]>
     </line>
     <line>
       <![CDATA[Test Method resides in Tests.QuickQuizForMenTest]]>
     </line>
     <line>
-      <![CDATA[Test Status: Pass]]>
+      <![CDATA[Test Status: Failed]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite SelectSession]]>
+      <![CDATA[About to Failure executing Suite SelectSession]]>
     </line>
     <line>
       <![CDATA[Test Method resides in Tests.QuickQuizForMenTest]]>
     </line>
     <line>
-      <![CDATA[Test Status: Pass]]>
+      <![CDATA[Test Status: Failed]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : QuickQuizForMenTest.CompileBooking]]>
@@ -4064,22 +4064,22 @@
       <![CDATA[Completed executing following method : QuickQuizForMenTest.CompileBooking]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite CompileBooking]]>
+      <![CDATA[About to Failure executing Suite CompileBooking]]>
     </line>
     <line>
       <![CDATA[Test Method resides in Tests.QuickQuizForMenTest]]>
     </line>
     <line>
-      <![CDATA[Test Status: Pass]]>
+      <![CDATA[Test Status: Failed]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite CompileBooking]]>
+      <![CDATA[About to Failure executing Suite CompileBooking]]>
     </line>
     <line>
       <![CDATA[Test Method resides in Tests.QuickQuizForMenTest]]>
     </line>
     <line>
-      <![CDATA[Test Status: Pass]]>
+      <![CDATA[Test Status: Failed]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : QuickQuizForMenTest.MadeQuiz]]>
@@ -4088,22 +4088,22 @@
       <![CDATA[Completed executing following method : QuickQuizForMenTest.MadeQuiz]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite MadeQuiz]]>
+      <![CDATA[About to Failure executing Suite MadeQuiz]]>
     </line>
     <line>
       <![CDATA[Test Method resides in Tests.QuickQuizForMenTest]]>
     </line>
     <line>
-      <![CDATA[Test Status: Pass]]>
+      <![CDATA[Test Status: Failed]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite MadeQuiz]]>
+      <![CDATA[About to Failure executing Suite MadeQuiz]]>
     </line>
     <line>
       <![CDATA[Test Method resides in Tests.QuickQuizForMenTest]]>
     </line>
     <line>
-      <![CDATA[Test Status: Pass]]>
+      <![CDATA[Test Status: Failed]]>
     </line>
     <line>
       <![CDATA[Completed executing test QuickQuizMale]]>
@@ -4604,7 +4604,7 @@
       <![CDATA[Test Status: Pass]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="13468139" started-at="2018-11-08T22:17:09Z" finished-at="2018-11-09T02:01:37Z">
+  <suite name="Suite" duration-ms="13054647" started-at="2018-11-17T19:08:08Z" finished-at="2018-11-17T22:45:43Z">
     <groups>
       <group name="sanity-group">
         <method signature="QuizForMaleTest.DoSignUp()[pri:1, instance:Tests.QuizForMaleTest@74ad1f1f]" name="DoSignUp" class="Tests.QuizForMaleTest"/>
@@ -4786,16 +4786,16 @@
         <method signature="QuizForSelfIdentityTest.SelectZone()[pri:17, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectZone" class="Tests.QuizForSelfIdentityTest"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="QuizForMaleTest" duration-ms="581008" started-at="2018-11-08T22:17:09Z" finished-at="2018-11-08T22:26:50Z">
+    <test name="QuizForMaleTest" duration-ms="560788" started-at="2018-11-17T19:08:08Z" finished-at="2018-11-17T19:17:29Z">
       <class name="Tests.QuizForMaleTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuizForMaleTest@74ad1f1f]" name="setup" is-config="true" duration-ms="16745" started-at="2018-11-08T22:17:09Z" finished-at="2018-11-08T22:17:26Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuizForMaleTest@74ad1f1f]" name="setup" is-config="true" duration-ms="13211" started-at="2018-11-17T19:08:08Z" finished-at="2018-11-17T19:08:21Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.QuizForMaleTest@74ad1f1f]" name="DoSignUp" duration-ms="171165" started-at="2018-11-08T22:17:26Z" finished-at="2018-11-08T22:20:17Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.QuizForMaleTest@74ad1f1f]" name="DoSignUp" duration-ms="164919" started-at="2018-11-17T19:08:21Z" finished-at="2018-11-17T19:11:06Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForMaleTest.DoSignUp]]>
@@ -4823,7 +4823,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SearchStylist" duration-ms="10700" started-at="2018-11-08T22:20:17Z" finished-at="2018-11-08T22:20:28Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SearchStylist" duration-ms="10320" started-at="2018-11-17T19:11:06Z" finished-at="2018-11-17T19:11:16Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForMaleTest.SearchStylist]]>
@@ -4851,7 +4851,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectEvents" duration-ms="37619" started-at="2018-11-08T22:20:28Z" finished-at="2018-11-08T22:21:06Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectEvents" duration-ms="36204" started-at="2018-11-17T19:11:16Z" finished-at="2018-11-17T19:11:53Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForMaleTest.SelectEvents]]>
@@ -4879,7 +4879,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectSession" duration-ms="36115" started-at="2018-11-08T22:21:06Z" finished-at="2018-11-08T22:21:42Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectSession" duration-ms="34786" started-at="2018-11-17T19:11:53Z" finished-at="2018-11-17T19:12:27Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForMaleTest.SelectSession]]>
@@ -4907,7 +4907,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="SelectCountry()[pri:5, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectCountry" duration-ms="75349" started-at="2018-11-08T22:21:42Z" finished-at="2018-11-08T22:22:57Z">
+        <test-method status="PASS" signature="SelectCountry()[pri:5, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectCountry" duration-ms="71937" started-at="2018-11-17T19:12:27Z" finished-at="2018-11-17T19:13:39Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForMaleTest.SelectCountry]]>
@@ -4935,7 +4935,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectCountry -->
-        <test-method status="PASS" signature="SelectBodyType()[pri:6, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectBodyType" duration-ms="6816" started-at="2018-11-08T22:22:57Z" finished-at="2018-11-08T22:23:04Z">
+        <test-method status="PASS" signature="SelectBodyType()[pri:6, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectBodyType" duration-ms="6735" started-at="2018-11-17T19:13:39Z" finished-at="2018-11-17T19:13:46Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForMaleTest.SelectBodyType]]>
@@ -4963,7 +4963,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectBodyType -->
-        <test-method status="PASS" signature="SelectHeight()[pri:7, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectHeight" duration-ms="6689" started-at="2018-11-08T22:23:04Z" finished-at="2018-11-08T22:23:11Z">
+        <test-method status="PASS" signature="SelectHeight()[pri:7, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectHeight" duration-ms="6665" started-at="2018-11-17T19:13:46Z" finished-at="2018-11-17T19:13:53Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForMaleTest.SelectHeight]]>
@@ -4991,7 +4991,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectHeight -->
-        <test-method status="PASS" signature="SelectSize()[pri:8, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectSize" duration-ms="49983" started-at="2018-11-08T22:23:11Z" finished-at="2018-11-08T22:24:01Z">
+        <test-method status="PASS" signature="SelectSize()[pri:8, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectSize" duration-ms="49487" started-at="2018-11-17T19:13:53Z" finished-at="2018-11-17T19:14:42Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForMaleTest.SelectSize]]>
@@ -5019,7 +5019,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectSize -->
-        <test-method status="PASS" signature="SelectColor()[pri:9, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectColor" duration-ms="29061" started-at="2018-11-08T22:24:01Z" finished-at="2018-11-08T22:24:30Z">
+        <test-method status="PASS" signature="SelectColor()[pri:9, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectColor" duration-ms="28305" started-at="2018-11-17T19:14:42Z" finished-at="2018-11-17T19:15:11Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForMaleTest.SelectColor]]>
@@ -5047,7 +5047,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectColor -->
-        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectFabrics" duration-ms="12053" started-at="2018-11-08T22:24:30Z" finished-at="2018-11-08T22:24:42Z">
+        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectFabrics" duration-ms="11903" started-at="2018-11-17T19:15:11Z" finished-at="2018-11-17T19:15:23Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForMaleTest.SelectFabrics]]>
@@ -5075,7 +5075,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectFabrics -->
-        <test-method status="PASS" signature="SelectFitTop()[pri:11, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectFitTop" duration-ms="10532" started-at="2018-11-08T22:24:42Z" finished-at="2018-11-08T22:24:52Z">
+        <test-method status="PASS" signature="SelectFitTop()[pri:11, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectFitTop" duration-ms="10534" started-at="2018-11-17T19:15:23Z" finished-at="2018-11-17T19:15:33Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForMaleTest.SelectFitTop]]>
@@ -5103,7 +5103,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectFitTop -->
-        <test-method status="PASS" signature="SelectFitBottom()[pri:12, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectFitBottom" duration-ms="10687" started-at="2018-11-08T22:24:52Z" finished-at="2018-11-08T22:25:03Z">
+        <test-method status="PASS" signature="SelectFitBottom()[pri:12, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectFitBottom" duration-ms="10616" started-at="2018-11-17T19:15:33Z" finished-at="2018-11-17T19:15:44Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForMaleTest.SelectFitBottom]]>
@@ -5131,7 +5131,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectFitBottom -->
-        <test-method status="PASS" signature="SelectJewelry()[pri:13, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectJewelry" duration-ms="17205" started-at="2018-11-08T22:25:03Z" finished-at="2018-11-08T22:25:20Z">
+        <test-method status="PASS" signature="SelectJewelry()[pri:13, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectJewelry" duration-ms="17356" started-at="2018-11-17T19:15:44Z" finished-at="2018-11-17T19:16:01Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForMaleTest.SelectJewelry]]>
@@ -5159,7 +5159,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectJewelry -->
-        <test-method status="PASS" signature="SelectZone()[pri:14, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectZone" duration-ms="6707" started-at="2018-11-08T22:25:20Z" finished-at="2018-11-08T22:25:27Z">
+        <test-method status="PASS" signature="SelectZone()[pri:14, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectZone" duration-ms="6761" started-at="2018-11-17T19:16:01Z" finished-at="2018-11-17T19:16:08Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForMaleTest.SelectZone]]>
@@ -5187,7 +5187,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectZone -->
-        <test-method status="PASS" signature="SelectClothingCategories()[pri:15, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectClothingCategories" duration-ms="83539" started-at="2018-11-08T22:25:27Z" finished-at="2018-11-08T22:26:50Z">
+        <test-method status="PASS" signature="SelectClothingCategories()[pri:15, instance:Tests.QuizForMaleTest@74ad1f1f]" name="SelectClothingCategories" duration-ms="80999" started-at="2018-11-17T19:16:08Z" finished-at="2018-11-17T19:17:29Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForMaleTest.SelectClothingCategories]]>
@@ -5217,16 +5217,16 @@
         </test-method> <!-- SelectClothingCategories -->
       </class> <!-- Tests.QuizForMaleTest -->
     </test> <!-- QuizForMaleTest -->
-    <test name="QuizForWomenTest" duration-ms="653155" started-at="2018-11-08T22:26:50Z" finished-at="2018-11-08T22:37:44Z">
+    <test name="QuizForWomenTest" duration-ms="646374" started-at="2018-11-17T19:17:29Z" finished-at="2018-11-17T19:28:15Z">
       <class name="Tests.QuizForWomenTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuizForWomenTest@2de8284b]" name="setup" is-config="true" duration-ms="14078" started-at="2018-11-08T22:26:50Z" finished-at="2018-11-08T22:27:04Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuizForWomenTest@2de8284b]" name="setup" is-config="true" duration-ms="12639" started-at="2018-11-17T19:17:29Z" finished-at="2018-11-17T19:17:41Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.QuizForWomenTest@2de8284b]" name="DoSignUp" duration-ms="191148" started-at="2018-11-08T22:27:04Z" finished-at="2018-11-08T22:30:16Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.QuizForWomenTest@2de8284b]" name="DoSignUp" duration-ms="187376" started-at="2018-11-17T19:17:41Z" finished-at="2018-11-17T19:20:49Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.DoSignUp]]>
@@ -5254,7 +5254,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuizForWomenTest@2de8284b]" name="SearchStylist" duration-ms="20012" started-at="2018-11-08T22:30:16Z" finished-at="2018-11-08T22:30:36Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuizForWomenTest@2de8284b]" name="SearchStylist" duration-ms="19960" started-at="2018-11-17T19:20:49Z" finished-at="2018-11-17T19:21:09Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SearchStylist]]>
@@ -5282,7 +5282,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectEvents" duration-ms="37049" started-at="2018-11-08T22:30:36Z" finished-at="2018-11-08T22:31:13Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectEvents" duration-ms="37942" started-at="2018-11-17T19:21:09Z" finished-at="2018-11-17T19:21:47Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectEvents]]>
@@ -5310,7 +5310,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectSession" duration-ms="34888" started-at="2018-11-08T22:31:13Z" finished-at="2018-11-08T22:31:48Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectSession" duration-ms="34952" started-at="2018-11-17T19:21:47Z" finished-at="2018-11-17T19:22:22Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectSession]]>
@@ -5338,7 +5338,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="SelectCountry()[pri:5, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectCountry" duration-ms="73480" started-at="2018-11-08T22:31:48Z" finished-at="2018-11-08T22:33:01Z">
+        <test-method status="PASS" signature="SelectCountry()[pri:5, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectCountry" duration-ms="72761" started-at="2018-11-17T19:22:22Z" finished-at="2018-11-17T19:23:34Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectCountry]]>
@@ -5366,7 +5366,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectCountry -->
-        <test-method status="PASS" signature="SelectBodyType()[pri:6, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectBodyType" duration-ms="6806" started-at="2018-11-08T22:33:01Z" finished-at="2018-11-08T22:33:08Z">
+        <test-method status="PASS" signature="SelectBodyType()[pri:6, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectBodyType" duration-ms="6795" started-at="2018-11-17T19:23:34Z" finished-at="2018-11-17T19:23:41Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectBodyType]]>
@@ -5394,7 +5394,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectBodyType -->
-        <test-method status="PASS" signature="SelectHeight()[pri:7, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectHeight" duration-ms="6751" started-at="2018-11-08T22:33:08Z" finished-at="2018-11-08T22:33:15Z">
+        <test-method status="PASS" signature="SelectHeight()[pri:7, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectHeight" duration-ms="6764" started-at="2018-11-17T19:23:41Z" finished-at="2018-11-17T19:23:48Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectHeight]]>
@@ -5422,7 +5422,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectHeight -->
-        <test-method status="PASS" signature="SelectSize()[pri:8, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectSize" duration-ms="49544" started-at="2018-11-08T22:33:15Z" finished-at="2018-11-08T22:34:04Z">
+        <test-method status="PASS" signature="SelectSize()[pri:8, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectSize" duration-ms="50232" started-at="2018-11-17T19:23:48Z" finished-at="2018-11-17T19:24:38Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectSize]]>
@@ -5450,7 +5450,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectSize -->
-        <test-method status="PASS" signature="SelectColor()[pri:9, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectColor" duration-ms="32333" started-at="2018-11-08T22:34:04Z" finished-at="2018-11-08T22:34:36Z">
+        <test-method status="PASS" signature="SelectColor()[pri:9, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectColor" duration-ms="32540" started-at="2018-11-17T19:24:38Z" finished-at="2018-11-17T19:25:11Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectColor]]>
@@ -5478,7 +5478,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectColor -->
-        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectFabrics" duration-ms="11979" started-at="2018-11-08T22:34:36Z" finished-at="2018-11-08T22:34:48Z">
+        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectFabrics" duration-ms="11741" started-at="2018-11-17T19:25:11Z" finished-at="2018-11-17T19:25:23Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectFabrics]]>
@@ -5506,7 +5506,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectFabrics -->
-        <test-method status="PASS" signature="SelectFitTop()[pri:11, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectFitTop" duration-ms="10700" started-at="2018-11-08T22:34:48Z" finished-at="2018-11-08T22:34:59Z">
+        <test-method status="PASS" signature="SelectFitTop()[pri:11, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectFitTop" duration-ms="10378" started-at="2018-11-17T19:25:23Z" finished-at="2018-11-17T19:25:33Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectFitTop]]>
@@ -5534,7 +5534,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectFitTop -->
-        <test-method status="PASS" signature="SelectFitBottom()[pri:12, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectFitBottom" duration-ms="11960" started-at="2018-11-08T22:34:59Z" finished-at="2018-11-08T22:35:11Z">
+        <test-method status="PASS" signature="SelectFitBottom()[pri:12, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectFitBottom" duration-ms="12033" started-at="2018-11-17T19:25:33Z" finished-at="2018-11-17T19:25:45Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectFitBottom]]>
@@ -5562,7 +5562,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectFitBottom -->
-        <test-method status="PASS" signature="SelectJeansp()[pri:13, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectJeansp" duration-ms="18022" started-at="2018-11-08T22:35:11Z" finished-at="2018-11-08T22:35:29Z">
+        <test-method status="PASS" signature="SelectJeansp()[pri:13, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectJeansp" duration-ms="18036" started-at="2018-11-17T19:25:45Z" finished-at="2018-11-17T19:26:03Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectJeansp]]>
@@ -5590,7 +5590,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectJeansp -->
-        <test-method status="PASS" signature="SelectHeels()[pri:14, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectHeels" duration-ms="6675" started-at="2018-11-08T22:35:29Z" finished-at="2018-11-08T22:35:36Z">
+        <test-method status="PASS" signature="SelectHeels()[pri:14, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectHeels" duration-ms="6686" started-at="2018-11-17T19:26:03Z" finished-at="2018-11-17T19:26:10Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectHeels]]>
@@ -5618,7 +5618,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectHeels -->
-        <test-method status="PASS" signature="SelectJewelry()[pri:15, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectJewelry" duration-ms="17351" started-at="2018-11-08T22:35:36Z" finished-at="2018-11-08T22:35:53Z">
+        <test-method status="PASS" signature="SelectJewelry()[pri:15, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectJewelry" duration-ms="17332" started-at="2018-11-17T19:26:10Z" finished-at="2018-11-17T19:26:27Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectJewelry]]>
@@ -5646,7 +5646,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectJewelry -->
-        <test-method status="PASS" signature="SelectHighlights()[pri:16, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectHighlights" duration-ms="17865" started-at="2018-11-08T22:35:53Z" finished-at="2018-11-08T22:36:11Z">
+        <test-method status="PASS" signature="SelectHighlights()[pri:16, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectHighlights" duration-ms="17809" started-at="2018-11-17T19:26:27Z" finished-at="2018-11-17T19:26:45Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectHighlights]]>
@@ -5674,7 +5674,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectHighlights -->
-        <test-method status="PASS" signature="SelectZone()[pri:17, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectZone" duration-ms="6662" started-at="2018-11-08T22:36:11Z" finished-at="2018-11-08T22:36:18Z">
+        <test-method status="PASS" signature="SelectZone()[pri:17, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectZone" duration-ms="6774" started-at="2018-11-17T19:26:45Z" finished-at="2018-11-17T19:26:52Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectZone]]>
@@ -5702,7 +5702,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectZone -->
-        <test-method status="PASS" signature="SelectClothingPreferences()[pri:18, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectClothingPreferences" duration-ms="5384" started-at="2018-11-08T22:36:18Z" finished-at="2018-11-08T22:36:23Z">
+        <test-method status="PASS" signature="SelectClothingPreferences()[pri:18, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectClothingPreferences" duration-ms="5454" started-at="2018-11-17T19:26:52Z" finished-at="2018-11-17T19:26:57Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectClothingPreferences]]>
@@ -5730,7 +5730,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectClothingPreferences -->
-        <test-method status="PASS" signature="SelectClothingCategories()[pri:19, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectClothingCategories" duration-ms="32085" started-at="2018-11-08T22:36:23Z" finished-at="2018-11-08T22:36:55Z">
+        <test-method status="PASS" signature="SelectClothingCategories()[pri:19, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectClothingCategories" duration-ms="32167" started-at="2018-11-17T19:26:57Z" finished-at="2018-11-17T19:27:29Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectClothingCategories]]>
@@ -5758,7 +5758,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectClothingCategories -->
-        <test-method status="PASS" signature="SelectYourCloset()[pri:20, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectYourCloset" duration-ms="48359" started-at="2018-11-08T22:36:55Z" finished-at="2018-11-08T22:37:44Z">
+        <test-method status="PASS" signature="SelectYourCloset()[pri:20, instance:Tests.QuizForWomenTest@2de8284b]" name="SelectYourCloset" duration-ms="45978" started-at="2018-11-17T19:27:29Z" finished-at="2018-11-17T19:28:15Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForWomenTest.SelectYourCloset]]>
@@ -5788,16 +5788,16 @@
         </test-method> <!-- SelectYourCloset -->
       </class> <!-- Tests.QuizForWomenTest -->
     </test> <!-- QuizForWomenTest -->
-    <test name="SignUpByFacbookTest2" duration-ms="119930" started-at="2018-11-08T22:37:44Z" finished-at="2018-11-08T22:39:43Z">
+    <test name="SignUpByFacbookTest2" duration-ms="113568" started-at="2018-11-17T19:28:15Z" finished-at="2018-11-17T19:30:09Z">
       <class name="Tests.SignUpByFacbookTest2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTest2@782663d3]" name="setup" is-config="true" duration-ms="43743" started-at="2018-11-08T22:37:44Z" finished-at="2018-11-08T22:38:27Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTest2@782663d3]" name="setup" is-config="true" duration-ms="39623" started-at="2018-11-17T19:28:15Z" finished-at="2018-11-17T19:28:55Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest3.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginWithFacbookWrongUserName()[pri:1, instance:Tests.SignUpByFacbookTest2@782663d3]" name="LoginWithFacbookWrongUserName" duration-ms="25100" started-at="2018-11-08T22:38:27Z" finished-at="2018-11-08T22:38:52Z">
+        <test-method status="PASS" signature="LoginWithFacbookWrongUserName()[pri:1, instance:Tests.SignUpByFacbookTest2@782663d3]" name="LoginWithFacbookWrongUserName" duration-ms="22455" started-at="2018-11-17T19:28:55Z" finished-at="2018-11-17T19:29:17Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpByFacbookTest2.LoginWithFacbookWrongUserName]]>
@@ -5825,7 +5825,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWrongUserName -->
-        <test-method status="PASS" signature="LoginWithFacbookWrongPassword()[pri:2, instance:Tests.SignUpByFacbookTest2@782663d3]" name="LoginWithFacbookWrongPassword" duration-ms="6674" started-at="2018-11-08T22:38:52Z" finished-at="2018-11-08T22:38:59Z">
+        <test-method status="PASS" signature="LoginWithFacbookWrongPassword()[pri:2, instance:Tests.SignUpByFacbookTest2@782663d3]" name="LoginWithFacbookWrongPassword" duration-ms="6935" started-at="2018-11-17T19:29:17Z" finished-at="2018-11-17T19:29:24Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpByFacbookTest2.LoginWithFacbookWrongPassword]]>
@@ -5853,7 +5853,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWrongPassword -->
-        <test-method status="PASS" signature="LoginWithFacbookWithoutPassword()[pri:3, instance:Tests.SignUpByFacbookTest2@782663d3]" name="LoginWithFacbookWithoutPassword" duration-ms="6444" started-at="2018-11-08T22:38:59Z" finished-at="2018-11-08T22:39:05Z">
+        <test-method status="PASS" signature="LoginWithFacbookWithoutPassword()[pri:3, instance:Tests.SignUpByFacbookTest2@782663d3]" name="LoginWithFacbookWithoutPassword" duration-ms="6678" started-at="2018-11-17T19:29:24Z" finished-at="2018-11-17T19:29:31Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpByFacbookTest2.LoginWithFacbookWithoutPassword]]>
@@ -5881,7 +5881,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWithoutPassword -->
-        <test-method status="PASS" signature="LoginWithFacbookWithoutUser()[pri:4, instance:Tests.SignUpByFacbookTest2@782663d3]" name="LoginWithFacbookWithoutUser" duration-ms="4435" started-at="2018-11-08T22:39:05Z" finished-at="2018-11-08T22:39:10Z">
+        <test-method status="PASS" signature="LoginWithFacbookWithoutUser()[pri:4, instance:Tests.SignUpByFacbookTest2@782663d3]" name="LoginWithFacbookWithoutUser" duration-ms="4437" started-at="2018-11-17T19:29:31Z" finished-at="2018-11-17T19:29:35Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpByFacbookTest2.LoginWithFacbookWithoutUser]]>
@@ -5909,7 +5909,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWithoutUser -->
-        <test-method status="PASS" signature="DoLoginWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTest2@782663d3]" name="DoLoginWithFacbook" duration-ms="33530" started-at="2018-11-08T22:39:10Z" finished-at="2018-11-08T22:39:43Z">
+        <test-method status="PASS" signature="DoLoginWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTest2@782663d3]" name="DoLoginWithFacbook" duration-ms="33438" started-at="2018-11-17T19:29:35Z" finished-at="2018-11-17T19:30:09Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpByFacbookTest2.DoLoginWithFacbook]]>
@@ -5939,16 +5939,16 @@
         </test-method> <!-- DoLoginWithFacbook -->
       </class> <!-- Tests.SignUpByFacbookTest2 -->
     </test> <!-- SignUpByFacbookTest2 -->
-    <test name="SignUpTest" duration-ms="179540" started-at="2018-11-08T22:39:43Z" finished-at="2018-11-08T22:42:43Z">
+    <test name="SignUpTest" duration-ms="177004" started-at="2018-11-17T19:30:09Z" finished-at="2018-11-17T19:33:06Z">
       <class name="Tests.SignUpTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpTest@150c158]" name="setup" is-config="true" duration-ms="13335" started-at="2018-11-08T22:39:43Z" finished-at="2018-11-08T22:39:57Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpTest@150c158]" name="setup" is-config="true" duration-ms="12599" started-at="2018-11-17T19:30:09Z" finished-at="2018-11-17T19:30:21Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="SignupwithoutDotCom()[pri:1, instance:Tests.SignUpTest@150c158]" name="SignupwithoutDotCom" duration-ms="29592" started-at="2018-11-08T22:39:57Z" finished-at="2018-11-08T22:40:26Z">
+        <test-method status="PASS" signature="SignupwithoutDotCom()[pri:1, instance:Tests.SignUpTest@150c158]" name="SignupwithoutDotCom" duration-ms="28416" started-at="2018-11-17T19:30:21Z" finished-at="2018-11-17T19:30:50Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpTest.SignupwithoutDotCom]]>
@@ -5976,7 +5976,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SignupwithoutDotCom -->
-        <test-method status="PASS" signature="Signupwithoutshtudel()[pri:2, instance:Tests.SignUpTest@150c158]" name="Signupwithoutshtudel" duration-ms="28131" started-at="2018-11-08T22:40:26Z" finished-at="2018-11-08T22:40:55Z">
+        <test-method status="PASS" signature="Signupwithoutshtudel()[pri:2, instance:Tests.SignUpTest@150c158]" name="Signupwithoutshtudel" duration-ms="28417" started-at="2018-11-17T19:30:50Z" finished-at="2018-11-17T19:31:18Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpTest.Signupwithoutshtudel]]>
@@ -6004,7 +6004,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Signupwithoutshtudel -->
-        <test-method status="PASS" signature="FillPsswordWithLessthan6Characters()[pri:3, instance:Tests.SignUpTest@150c158]" name="FillPsswordWithLessthan6Characters" duration-ms="55965" started-at="2018-11-08T22:40:55Z" finished-at="2018-11-08T22:41:50Z">
+        <test-method status="PASS" signature="FillPsswordWithLessthan6Characters()[pri:3, instance:Tests.SignUpTest@150c158]" name="FillPsswordWithLessthan6Characters" duration-ms="55657" started-at="2018-11-17T19:31:18Z" finished-at="2018-11-17T19:32:14Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
@@ -6032,7 +6032,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- FillPsswordWithLessthan6Characters -->
-        <test-method status="PASS" signature="DoSignUp()[pri:4, instance:Tests.SignUpTest@150c158]" name="DoSignUp" duration-ms="52514" started-at="2018-11-08T22:41:50Z" finished-at="2018-11-08T22:42:43Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:4, instance:Tests.SignUpTest@150c158]" name="DoSignUp" duration-ms="51909" started-at="2018-11-17T19:32:14Z" finished-at="2018-11-17T19:33:06Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpTest.DoSignUp]]>
@@ -6062,16 +6062,16 @@
         </test-method> <!-- DoSignUp -->
       </class> <!-- Tests.SignUpTest -->
     </test> <!-- SignUpTest -->
-    <test name="ChatTest" duration-ms="412938" started-at="2018-11-08T22:42:43Z" finished-at="2018-11-08T22:49:36Z">
+    <test name="ChatTest" duration-ms="408234" started-at="2018-11-17T19:33:06Z" finished-at="2018-11-17T19:39:54Z">
       <class name="Tests.ChatTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ChatTest@2eda0940]" name="setup" is-config="true" duration-ms="12613" started-at="2018-11-08T22:42:43Z" finished-at="2018-11-08T22:42:56Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ChatTest@2eda0940]" name="setup" is-config="true" duration-ms="12614" started-at="2018-11-17T19:33:06Z" finished-at="2018-11-17T19:33:18Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="StylistSendToClient()[pri:1, instance:Tests.ChatTest@2eda0940]" name="StylistSendToClient" duration-ms="189985" started-at="2018-11-08T22:42:56Z" finished-at="2018-11-08T22:46:06Z">
+        <test-method status="PASS" signature="StylistSendToClient()[pri:1, instance:Tests.ChatTest@2eda0940]" name="StylistSendToClient" duration-ms="190710" started-at="2018-11-17T19:33:18Z" finished-at="2018-11-17T19:36:29Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ChatTest.StylistSendToClient]]>
@@ -6099,7 +6099,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- StylistSendToClient -->
-        <test-method status="PASS" signature="ClientToStylist()[pri:2, instance:Tests.ChatTest@2eda0940]" name="ClientToStylist" duration-ms="210336" started-at="2018-11-08T22:46:06Z" finished-at="2018-11-08T22:49:36Z">
+        <test-method status="PASS" signature="ClientToStylist()[pri:2, instance:Tests.ChatTest@2eda0940]" name="ClientToStylist" duration-ms="204909" started-at="2018-11-17T19:36:29Z" finished-at="2018-11-17T19:39:54Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ChatTest.ClientToStylist]]>
@@ -6129,16 +6129,16 @@
         </test-method> <!-- ClientToStylist -->
       </class> <!-- Tests.ChatTest -->
     </test> <!-- ChatTest -->
-    <test name="RetakeBestMatch" duration-ms="580881" started-at="2018-11-08T22:49:36Z" finished-at="2018-11-08T22:59:17Z">
+    <test name="RetakeBestMatch" duration-ms="508848" started-at="2018-11-17T19:39:54Z" finished-at="2018-11-17T19:48:23Z">
       <class name="Tests.RetakeBestMatch">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.RetakeBestMatch@4d1b0d2a]" name="setup" is-config="true" duration-ms="73897" started-at="2018-11-08T22:49:36Z" finished-at="2018-11-08T22:50:50Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.RetakeBestMatch@4d1b0d2a]" name="setup" is-config="true" duration-ms="14438" started-at="2018-11-17T19:39:54Z" finished-at="2018-11-17T19:40:08Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="RetakeSetting()[pri:1, instance:Tests.RetakeBestMatch@4d1b0d2a]" name="RetakeSetting" duration-ms="190243" started-at="2018-11-08T22:50:50Z" finished-at="2018-11-08T22:54:00Z">
+        <test-method status="PASS" signature="RetakeSetting()[pri:1, instance:Tests.RetakeBestMatch@4d1b0d2a]" name="RetakeSetting" duration-ms="185560" started-at="2018-11-17T19:40:08Z" finished-at="2018-11-17T19:43:14Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : RetakeBestMatch.RetakeSetting]]>
@@ -6166,7 +6166,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- RetakeSetting -->
-        <test-method status="PASS" signature="RetakeFemale()[pri:2, instance:Tests.RetakeBestMatch@4d1b0d2a]" name="RetakeFemale" duration-ms="113004" started-at="2018-11-08T22:54:00Z" finished-at="2018-11-08T22:55:53Z">
+        <test-method status="PASS" signature="RetakeFemale()[pri:2, instance:Tests.RetakeBestMatch@4d1b0d2a]" name="RetakeFemale" duration-ms="110040" started-at="2018-11-17T19:43:14Z" finished-at="2018-11-17T19:45:04Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : RetakeBestMatch.RetakeFemale]]>
@@ -6194,7 +6194,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- RetakeFemale -->
-        <test-method status="PASS" signature="RetakeMale()[pri:3, instance:Tests.RetakeBestMatch@4d1b0d2a]" name="RetakeMale" duration-ms="97185" started-at="2018-11-08T22:55:53Z" finished-at="2018-11-08T22:57:30Z">
+        <test-method status="PASS" signature="RetakeMale()[pri:3, instance:Tests.RetakeBestMatch@4d1b0d2a]" name="RetakeMale" duration-ms="95792" started-at="2018-11-17T19:45:04Z" finished-at="2018-11-17T19:46:40Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : RetakeBestMatch.RetakeMale]]>
@@ -6222,7 +6222,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- RetakeMale -->
-        <test-method status="PASS" signature="RetakeNatural()[pri:4, instance:Tests.RetakeBestMatch@4d1b0d2a]" name="RetakeNatural" duration-ms="106545" started-at="2018-11-08T22:57:30Z" finished-at="2018-11-08T22:59:17Z">
+        <test-method status="PASS" signature="RetakeNatural()[pri:4, instance:Tests.RetakeBestMatch@4d1b0d2a]" name="RetakeNatural" duration-ms="103013" started-at="2018-11-17T19:46:40Z" finished-at="2018-11-17T19:48:23Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : RetakeBestMatch.RetakeNatural]]>
@@ -6252,16 +6252,16 @@
         </test-method> <!-- RetakeNatural -->
       </class> <!-- Tests.RetakeBestMatch -->
     </test> <!-- RetakeBestMatch -->
-    <test name="ReviseThirdLookTest" duration-ms="2801316" started-at="2018-11-08T22:59:17Z" finished-at="2018-11-08T23:45:58Z">
+    <test name="ReviseThirdLookTest" duration-ms="2697187" started-at="2018-11-17T19:48:23Z" finished-at="2018-11-17T20:33:20Z">
       <class name="Tests.ReviseThirdLookTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ReviseThirdLookTest@545997b1]" name="setup" is-config="true" duration-ms="13577" started-at="2018-11-08T22:59:17Z" finished-at="2018-11-08T22:59:30Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ReviseThirdLookTest@545997b1]" name="setup" is-config="true" duration-ms="12820" started-at="2018-11-17T19:48:23Z" finished-at="2018-11-17T19:48:36Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.ReviseThirdLookTest@545997b1]" name="DoLogin" duration-ms="41976" started-at="2018-11-08T22:59:30Z" finished-at="2018-11-08T23:00:12Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.ReviseThirdLookTest@545997b1]" name="DoLogin" duration-ms="41765" started-at="2018-11-17T19:48:36Z" finished-at="2018-11-17T19:49:17Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.DoLogin]]>
@@ -6289,7 +6289,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.ReviseThirdLookTest@545997b1]" name="SearchStylist" duration-ms="9465" started-at="2018-11-08T23:00:12Z" finished-at="2018-11-08T23:00:22Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.ReviseThirdLookTest@545997b1]" name="SearchStylist" duration-ms="9752" started-at="2018-11-17T19:49:17Z" finished-at="2018-11-17T19:49:27Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.SearchStylist]]>
@@ -6317,7 +6317,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.ReviseThirdLookTest@545997b1]" name="SelectEvents" duration-ms="34227" started-at="2018-11-08T23:00:22Z" finished-at="2018-11-08T23:00:56Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.ReviseThirdLookTest@545997b1]" name="SelectEvents" duration-ms="36051" started-at="2018-11-17T19:49:27Z" finished-at="2018-11-17T19:50:03Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.SelectEvents]]>
@@ -6345,7 +6345,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.ReviseThirdLookTest@545997b1]" name="SelectSession" duration-ms="40155" started-at="2018-11-08T23:00:56Z" finished-at="2018-11-08T23:01:36Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.ReviseThirdLookTest@545997b1]" name="SelectSession" duration-ms="41251" started-at="2018-11-17T19:50:03Z" finished-at="2018-11-17T19:50:45Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.SelectSession]]>
@@ -6373,7 +6373,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.ReviseThirdLookTest@545997b1]" name="CompileBooking" duration-ms="148839" started-at="2018-11-08T23:01:36Z" finished-at="2018-11-08T23:04:05Z">
+        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.ReviseThirdLookTest@545997b1]" name="CompileBooking" duration-ms="157044" started-at="2018-11-17T19:50:45Z" finished-at="2018-11-17T19:53:22Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.CompileBooking]]>
@@ -6401,7 +6401,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CompileBooking -->
-        <test-method status="PASS" signature="CreateMoodBoard()[pri:6, instance:Tests.ReviseThirdLookTest@545997b1]" name="CreateMoodBoard" duration-ms="152657" started-at="2018-11-08T23:04:05Z" finished-at="2018-11-08T23:06:38Z">
+        <test-method status="PASS" signature="CreateMoodBoard()[pri:6, instance:Tests.ReviseThirdLookTest@545997b1]" name="CreateMoodBoard" duration-ms="148209" started-at="2018-11-17T19:53:22Z" finished-at="2018-11-17T19:55:50Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.CreateMoodBoard]]>
@@ -6429,7 +6429,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CreateMoodBoard -->
-        <test-method status="PASS" signature="VerifyMoodBoard()[pri:7, instance:Tests.ReviseThirdLookTest@545997b1]" name="VerifyMoodBoard" duration-ms="108385" started-at="2018-11-08T23:06:38Z" finished-at="2018-11-08T23:08:26Z">
+        <test-method status="PASS" signature="VerifyMoodBoard()[pri:7, instance:Tests.ReviseThirdLookTest@545997b1]" name="VerifyMoodBoard" duration-ms="107308" started-at="2018-11-17T19:55:50Z" finished-at="2018-11-17T19:57:37Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.VerifyMoodBoard]]>
@@ -6457,7 +6457,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- VerifyMoodBoard -->
-        <test-method status="PASS" signature="CreateLook()[pri:8, instance:Tests.ReviseThirdLookTest@545997b1]" name="CreateLook" duration-ms="221130" started-at="2018-11-08T23:08:26Z" finished-at="2018-11-08T23:12:07Z">
+        <test-method status="PASS" signature="CreateLook()[pri:8, instance:Tests.ReviseThirdLookTest@545997b1]" name="CreateLook" duration-ms="217931" started-at="2018-11-17T19:57:37Z" finished-at="2018-11-17T20:01:15Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.CreateLook]]>
@@ -6485,7 +6485,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CreateLook -->
-        <test-method status="PASS" signature="VerifyCreateLook()[pri:9, instance:Tests.ReviseThirdLookTest@545997b1]" name="VerifyCreateLook" duration-ms="119194" started-at="2018-11-08T23:12:07Z" finished-at="2018-11-08T23:14:06Z">
+        <test-method status="PASS" signature="VerifyCreateLook()[pri:9, instance:Tests.ReviseThirdLookTest@545997b1]" name="VerifyCreateLook" duration-ms="117000" started-at="2018-11-17T20:01:15Z" finished-at="2018-11-17T20:03:12Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.VerifyCreateLook]]>
@@ -6513,7 +6513,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- VerifyCreateLook -->
-        <test-method status="PASS" signature="CreateLook2()[pri:12, instance:Tests.ReviseThirdLookTest@545997b1]" name="CreateLook2" duration-ms="178966" started-at="2018-11-08T23:14:06Z" finished-at="2018-11-08T23:17:05Z">
+        <test-method status="PASS" signature="CreateLook2()[pri:12, instance:Tests.ReviseThirdLookTest@545997b1]" name="CreateLook2" duration-ms="164689" started-at="2018-11-17T20:03:12Z" finished-at="2018-11-17T20:05:57Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.CreateLook2]]>
@@ -6541,7 +6541,45 @@
             </line>
           </reporter-output>
         </test-method> <!-- CreateLook2 -->
-        <test-method status="PASS" signature="AskRevise1()[pri:13, instance:Tests.ReviseThirdLookTest@545997b1]" name="AskRevise1" duration-ms="209514" started-at="2018-11-08T23:17:05Z" finished-at="2018-11-08T23:20:35Z">
+        <test-method status="FAIL" signature="AskRevise1()[pri:13, instance:Tests.ReviseThirdLookTest@545997b1]" name="AskRevise1" duration-ms="185166" started-at="2018-11-17T20:05:57Z" finished-at="2018-11-17T20:09:02Z">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[-1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: -1
+at java.util.ArrayList.elementData(ArrayList.java:422)
+at java.util.ArrayList.get(ArrayList.java:435)
+at PageObjects.BookingPage.SelectImageForRevise(BookingPage.java:287)
+at Tests.ReviseThirdLookTest.AskRevise1(ReviseThirdLookTest.java:372)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.AskRevise1]]>
@@ -6550,26 +6588,26 @@
               <![CDATA[Completed executing following method : ReviseThirdLookTest.AskRevise1]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite AskRevise1]]>
+              <![CDATA[About to Failure executing Suite AskRevise1]]>
             </line>
             <line>
               <![CDATA[Test Method resides in Tests.ReviseThirdLookTest]]>
             </line>
             <line>
-              <![CDATA[Test Status: Pass]]>
+              <![CDATA[Test Status: Failed]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite AskRevise1]]>
+              <![CDATA[About to Failure executing Suite AskRevise1]]>
             </line>
             <line>
               <![CDATA[Test Method resides in Tests.ReviseThirdLookTest]]>
             </line>
             <line>
-              <![CDATA[Test Status: Pass]]>
+              <![CDATA[Test Status: Failed]]>
             </line>
           </reporter-output>
         </test-method> <!-- AskRevise1 -->
-        <test-method status="PASS" signature="CreateReviseLook1()[pri:14, instance:Tests.ReviseThirdLookTest@545997b1]" name="CreateReviseLook1" duration-ms="276991" started-at="2018-11-08T23:20:35Z" finished-at="2018-11-08T23:25:12Z">
+        <test-method status="PASS" signature="CreateReviseLook1()[pri:14, instance:Tests.ReviseThirdLookTest@545997b1]" name="CreateReviseLook1" duration-ms="217499" started-at="2018-11-17T20:09:03Z" finished-at="2018-11-17T20:12:40Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.CreateReviseLook1]]>
@@ -6597,7 +6635,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CreateReviseLook1 -->
-        <test-method status="PASS" signature="VerifyCreateLookrevise1()[pri:15, instance:Tests.ReviseThirdLookTest@545997b1]" name="VerifyCreateLookrevise1" duration-ms="121619" started-at="2018-11-08T23:25:12Z" finished-at="2018-11-08T23:27:14Z">
+        <test-method status="PASS" signature="VerifyCreateLookrevise1()[pri:15, instance:Tests.ReviseThirdLookTest@545997b1]" name="VerifyCreateLookrevise1" duration-ms="123811" started-at="2018-11-17T20:12:40Z" finished-at="2018-11-17T20:14:44Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.VerifyCreateLookrevise1]]>
@@ -6625,7 +6663,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- VerifyCreateLookrevise1 -->
-        <test-method status="PASS" signature="CreateLook3()[pri:18, instance:Tests.ReviseThirdLookTest@545997b1]" name="CreateLook3" duration-ms="309007" started-at="2018-11-08T23:27:14Z" finished-at="2018-11-08T23:32:23Z">
+        <test-method status="PASS" signature="CreateLook3()[pri:18, instance:Tests.ReviseThirdLookTest@545997b1]" name="CreateLook3" duration-ms="189971" started-at="2018-11-17T20:14:44Z" finished-at="2018-11-17T20:17:54Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.CreateLook3]]>
@@ -6653,7 +6691,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CreateLook3 -->
-        <test-method status="PASS" signature="VerifyCreateLook3()[pri:19, instance:Tests.ReviseThirdLookTest@545997b1]" name="VerifyCreateLook3" duration-ms="136581" started-at="2018-11-08T23:32:23Z" finished-at="2018-11-08T23:34:39Z">
+        <test-method status="PASS" signature="VerifyCreateLook3()[pri:19, instance:Tests.ReviseThirdLookTest@545997b1]" name="VerifyCreateLook3" duration-ms="192352" started-at="2018-11-17T20:17:54Z" finished-at="2018-11-17T20:21:07Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.VerifyCreateLook3]]>
@@ -6681,7 +6719,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- VerifyCreateLook3 -->
-        <test-method status="PASS" signature="ReviseLook2()[pri:22, instance:Tests.ReviseThirdLookTest@545997b1]" name="ReviseLook2" duration-ms="215258" started-at="2018-11-08T23:34:39Z" finished-at="2018-11-08T23:38:14Z">
+        <test-method status="PASS" signature="ReviseLook2()[pri:22, instance:Tests.ReviseThirdLookTest@545997b1]" name="ReviseLook2" duration-ms="221288" started-at="2018-11-17T20:21:07Z" finished-at="2018-11-17T20:24:48Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.ReviseLook2]]>
@@ -6709,7 +6747,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- ReviseLook2 -->
-        <test-method status="PASS" signature="VerifyCreateRevise2()[pri:23, instance:Tests.ReviseThirdLookTest@545997b1]" name="VerifyCreateRevise2" duration-ms="155253" started-at="2018-11-08T23:38:14Z" finished-at="2018-11-08T23:40:50Z">
+        <test-method status="PASS" signature="VerifyCreateRevise2()[pri:23, instance:Tests.ReviseThirdLookTest@545997b1]" name="VerifyCreateRevise2" duration-ms="152154" started-at="2018-11-17T20:24:48Z" finished-at="2018-11-17T20:27:20Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.VerifyCreateRevise2]]>
@@ -6737,7 +6775,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- VerifyCreateRevise2 -->
-        <test-method status="PASS" signature="EndSession()[pri:24, instance:Tests.ReviseThirdLookTest@545997b1]" name="EndSession" duration-ms="76150" started-at="2018-11-08T23:40:50Z" finished-at="2018-11-08T23:42:06Z">
+        <test-method status="PASS" signature="EndSession()[pri:24, instance:Tests.ReviseThirdLookTest@545997b1]" name="EndSession" duration-ms="75651" started-at="2018-11-17T20:27:20Z" finished-at="2018-11-17T20:28:36Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.EndSession]]>
@@ -6765,7 +6803,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EndSession -->
-        <test-method status="PASS" signature="ClientEndSession()[pri:25, instance:Tests.ReviseThirdLookTest@545997b1]" name="ClientEndSession" duration-ms="165775" started-at="2018-11-08T23:42:06Z" finished-at="2018-11-08T23:44:52Z">
+        <test-method status="PASS" signature="ClientEndSession()[pri:25, instance:Tests.ReviseThirdLookTest@545997b1]" name="ClientEndSession" duration-ms="218160" started-at="2018-11-17T20:28:36Z" finished-at="2018-11-17T20:32:14Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.ClientEndSession]]>
@@ -6793,7 +6831,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- ClientEndSession -->
-        <test-method status="PASS" signature="VerifyEndSession()[pri:26, instance:Tests.ReviseThirdLookTest@545997b1]" name="VerifyEndSession" duration-ms="66572" started-at="2018-11-08T23:44:52Z" finished-at="2018-11-08T23:45:58Z">
+        <test-method status="PASS" signature="VerifyEndSession()[pri:26, instance:Tests.ReviseThirdLookTest@545997b1]" name="VerifyEndSession" duration-ms="66204" started-at="2018-11-17T20:32:14Z" finished-at="2018-11-17T20:33:20Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ReviseThirdLookTest.VerifyEndSession]]>
@@ -6823,16 +6861,16 @@
         </test-method> <!-- VerifyEndSession -->
       </class> <!-- Tests.ReviseThirdLookTest -->
     </test> <!-- ReviseThirdLookTest -->
-    <test name="BookPSTest" duration-ms="1118511" started-at="2018-11-08T23:45:58Z" finished-at="2018-11-09T00:04:37Z">
+    <test name="BookPSTest" duration-ms="1148708" started-at="2018-11-17T20:33:20Z" finished-at="2018-11-17T20:52:29Z">
       <class name="Tests.BookPSTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BookPSTest@df27fae]" name="setup" is-config="true" duration-ms="18345" started-at="2018-11-08T23:45:58Z" finished-at="2018-11-08T23:46:17Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BookPSTest@df27fae]" name="setup" is-config="true" duration-ms="74416" started-at="2018-11-17T20:33:20Z" finished-at="2018-11-17T20:34:35Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.BookPSTest@df27fae]" name="DoLogin" duration-ms="44722" started-at="2018-11-08T23:46:17Z" finished-at="2018-11-08T23:47:01Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.BookPSTest@df27fae]" name="DoLogin" duration-ms="44397" started-at="2018-11-17T20:34:35Z" finished-at="2018-11-17T20:35:19Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BookPSTest.DoLogin]]>
@@ -6860,7 +6898,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.BookPSTest@df27fae]" name="SearchStylist" duration-ms="8660" started-at="2018-11-08T23:47:01Z" finished-at="2018-11-08T23:47:10Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.BookPSTest@df27fae]" name="SearchStylist" duration-ms="8170" started-at="2018-11-17T20:35:19Z" finished-at="2018-11-17T20:35:27Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BookPSTest.SearchStylist]]>
@@ -6888,7 +6926,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.BookPSTest@df27fae]" name="SelectEvents" duration-ms="13082" started-at="2018-11-08T23:47:10Z" finished-at="2018-11-08T23:47:23Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.BookPSTest@df27fae]" name="SelectEvents" duration-ms="13276" started-at="2018-11-17T20:35:27Z" finished-at="2018-11-17T20:35:40Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BookPSTest.SelectEvents]]>
@@ -6916,7 +6954,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="CheckOut()[pri:4, instance:Tests.BookPSTest@df27fae]" name="CheckOut" duration-ms="32136" started-at="2018-11-08T23:47:23Z" finished-at="2018-11-08T23:47:55Z">
+        <test-method status="PASS" signature="CheckOut()[pri:4, instance:Tests.BookPSTest@df27fae]" name="CheckOut" duration-ms="32094" started-at="2018-11-17T20:35:40Z" finished-at="2018-11-17T20:36:12Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BookPSTest.CheckOut]]>
@@ -6944,7 +6982,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CheckOut -->
-        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.BookPSTest@df27fae]" name="CompileBooking" duration-ms="69763" started-at="2018-11-08T23:47:55Z" finished-at="2018-11-08T23:49:05Z">
+        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.BookPSTest@df27fae]" name="CompileBooking" duration-ms="68363" started-at="2018-11-17T20:36:12Z" finished-at="2018-11-17T20:37:21Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BookPSTest.CompileBooking]]>
@@ -6972,7 +7010,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CompileBooking -->
-        <test-method status="PASS" signature="CreateStyle()[pri:6, instance:Tests.BookPSTest@df27fae]" name="CreateStyle" duration-ms="160330" started-at="2018-11-08T23:49:05Z" finished-at="2018-11-08T23:51:45Z">
+        <test-method status="PASS" signature="CreateStyle()[pri:6, instance:Tests.BookPSTest@df27fae]" name="CreateStyle" duration-ms="157837" started-at="2018-11-17T20:37:21Z" finished-at="2018-11-17T20:39:59Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BookPSTest.CreateStyle]]>
@@ -7000,7 +7038,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CreateStyle -->
-        <test-method status="PASS" signature="VerifyStyle1()[pri:7, instance:Tests.BookPSTest@df27fae]" name="VerifyStyle1" duration-ms="122779" started-at="2018-11-08T23:51:45Z" finished-at="2018-11-08T23:53:48Z">
+        <test-method status="PASS" signature="VerifyStyle1()[pri:7, instance:Tests.BookPSTest@df27fae]" name="VerifyStyle1" duration-ms="119746" started-at="2018-11-17T20:39:59Z" finished-at="2018-11-17T20:41:58Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BookPSTest.VerifyStyle1]]>
@@ -7028,7 +7066,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- VerifyStyle1 -->
-        <test-method status="PASS" signature="CreateStyle2()[pri:8, instance:Tests.BookPSTest@df27fae]" name="CreateStyle2" duration-ms="162593" started-at="2018-11-08T23:53:48Z" finished-at="2018-11-08T23:56:31Z">
+        <test-method status="PASS" signature="CreateStyle2()[pri:8, instance:Tests.BookPSTest@df27fae]" name="CreateStyle2" duration-ms="160573" started-at="2018-11-17T20:41:58Z" finished-at="2018-11-17T20:44:39Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BookPSTest.CreateStyle2]]>
@@ -7056,7 +7094,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CreateStyle2 -->
-        <test-method status="PASS" signature="VerifyStyle2()[pri:9, instance:Tests.BookPSTest@df27fae]" name="VerifyStyle2" duration-ms="140778" started-at="2018-11-08T23:56:31Z" finished-at="2018-11-08T23:58:51Z">
+        <test-method status="PASS" signature="VerifyStyle2()[pri:9, instance:Tests.BookPSTest@df27fae]" name="VerifyStyle2" duration-ms="134739" started-at="2018-11-17T20:44:39Z" finished-at="2018-11-17T20:46:54Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BookPSTest.VerifyStyle2]]>
@@ -7084,7 +7122,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- VerifyStyle2 -->
-        <test-method status="PASS" signature="EndSession()[pri:10, instance:Tests.BookPSTest@df27fae]" name="EndSession" duration-ms="86357" started-at="2018-11-08T23:58:51Z" finished-at="2018-11-09T00:00:18Z">
+        <test-method status="PASS" signature="EndSession()[pri:10, instance:Tests.BookPSTest@df27fae]" name="EndSession" duration-ms="84640" started-at="2018-11-17T20:46:54Z" finished-at="2018-11-17T20:48:18Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BookPSTest.EndSession]]>
@@ -7112,7 +7150,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EndSession -->
-        <test-method status="PASS" signature="ClientEndSession()[pri:11, instance:Tests.BookPSTest@df27fae]" name="ClientEndSession" duration-ms="188172" started-at="2018-11-09T00:00:18Z" finished-at="2018-11-09T00:03:26Z">
+        <test-method status="PASS" signature="ClientEndSession()[pri:11, instance:Tests.BookPSTest@df27fae]" name="ClientEndSession" duration-ms="181993" started-at="2018-11-17T20:48:18Z" finished-at="2018-11-17T20:51:20Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BookPSTest.ClientEndSession]]>
@@ -7140,7 +7178,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- ClientEndSession -->
-        <test-method status="PASS" signature="VerifyEndSession()[pri:12, instance:Tests.BookPSTest@df27fae]" name="VerifyEndSession" duration-ms="70782" started-at="2018-11-09T00:03:26Z" finished-at="2018-11-09T00:04:37Z">
+        <test-method status="PASS" signature="VerifyEndSession()[pri:12, instance:Tests.BookPSTest@df27fae]" name="VerifyEndSession" duration-ms="68453" started-at="2018-11-17T20:51:20Z" finished-at="2018-11-17T20:52:29Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BookPSTest.VerifyEndSession]]>
@@ -7170,16 +7208,16 @@
         </test-method> <!-- VerifyEndSession -->
       </class> <!-- Tests.BookPSTest -->
     </test> <!-- BookPSTest -->
-    <test name="BestMutch" duration-ms="1648743" started-at="2018-11-09T00:04:37Z" finished-at="2018-11-09T00:32:05Z">
+    <test name="BestMutch" duration-ms="1553752" started-at="2018-11-17T20:52:29Z" finished-at="2018-11-17T21:18:23Z">
       <class name="Tests.BestMutch">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMutch@31f924f5]" name="setup" is-config="true" duration-ms="20429" started-at="2018-11-09T00:04:37Z" finished-at="2018-11-09T00:04:57Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMutch@31f924f5]" name="setup" is-config="true" duration-ms="75399" started-at="2018-11-17T20:52:29Z" finished-at="2018-11-17T20:53:44Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BestMatchCheepFamle()[pri:1, instance:Tests.BestMutch@31f924f5]" name="BestMatchCheepFamle" duration-ms="189732" started-at="2018-11-09T00:04:57Z" finished-at="2018-11-09T00:08:07Z">
+        <test-method status="PASS" signature="BestMatchCheepFamle()[pri:1, instance:Tests.BestMutch@31f924f5]" name="BestMatchCheepFamle" duration-ms="184656" started-at="2018-11-17T20:53:44Z" finished-at="2018-11-17T20:56:49Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BestMutch.BestMatchCheepFamle]]>
@@ -7207,7 +7245,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- BestMatchCheepFamle -->
-        <test-method status="PASS" signature="BestMatchFeMaleExpensive()[pri:2, instance:Tests.BestMutch@31f924f5]" name="BestMatchFeMaleExpensive" duration-ms="262075" started-at="2018-11-09T00:08:07Z" finished-at="2018-11-09T00:12:29Z">
+        <test-method status="PASS" signature="BestMatchFeMaleExpensive()[pri:2, instance:Tests.BestMutch@31f924f5]" name="BestMatchFeMaleExpensive" duration-ms="200460" started-at="2018-11-17T20:56:49Z" finished-at="2018-11-17T21:00:09Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BestMutch.BestMatchFeMaleExpensive]]>
@@ -7235,7 +7273,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- BestMatchFeMaleExpensive -->
-        <test-method status="PASS" signature="BestMatchFeMaleNormal()[pri:3, instance:Tests.BestMutch@31f924f5]" name="BestMatchFeMaleNormal" duration-ms="206049" started-at="2018-11-09T00:12:29Z" finished-at="2018-11-09T00:15:55Z">
+        <test-method status="PASS" signature="BestMatchFeMaleNormal()[pri:3, instance:Tests.BestMutch@31f924f5]" name="BestMatchFeMaleNormal" duration-ms="200406" started-at="2018-11-17T21:00:09Z" finished-at="2018-11-17T21:03:30Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BestMutch.BestMatchFeMaleNormal]]>
@@ -7263,7 +7301,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- BestMatchFeMaleNormal -->
-        <test-method status="PASS" signature="BestMatchFeMaleCheepExpensive()[pri:4, instance:Tests.BestMutch@31f924f5]" name="BestMatchFeMaleCheepExpensive" duration-ms="263624" started-at="2018-11-09T00:15:55Z" finished-at="2018-11-09T00:20:19Z">
+        <test-method status="PASS" signature="BestMatchFeMaleCheepExpensive()[pri:4, instance:Tests.BestMutch@31f924f5]" name="BestMatchFeMaleCheepExpensive" duration-ms="200753" started-at="2018-11-17T21:03:30Z" finished-at="2018-11-17T21:06:50Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BestMutch.BestMatchFeMaleCheepExpensive]]>
@@ -7291,7 +7329,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- BestMatchFeMaleCheepExpensive -->
-        <test-method status="PASS" signature="BestMatchExpensiveMale()[pri:5, instance:Tests.BestMutch@31f924f5]" name="BestMatchExpensiveMale" duration-ms="182747" started-at="2018-11-09T00:20:19Z" finished-at="2018-11-09T00:23:21Z">
+        <test-method status="PASS" signature="BestMatchExpensiveMale()[pri:5, instance:Tests.BestMutch@31f924f5]" name="BestMatchExpensiveMale" duration-ms="180333" started-at="2018-11-17T21:06:50Z" finished-at="2018-11-17T21:09:51Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BestMutch.BestMatchExpensiveMale]]>
@@ -7319,7 +7357,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- BestMatchExpensiveMale -->
-        <test-method status="PASS" signature="BestMatchNormalMale()[pri:6, instance:Tests.BestMutch@31f924f5]" name="BestMatchNormalMale" duration-ms="190300" started-at="2018-11-09T00:23:21Z" finished-at="2018-11-09T00:26:32Z">
+        <test-method status="PASS" signature="BestMatchNormalMale()[pri:6, instance:Tests.BestMutch@31f924f5]" name="BestMatchNormalMale" duration-ms="189356" started-at="2018-11-17T21:09:51Z" finished-at="2018-11-17T21:13:00Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BestMutch.BestMatchNormalMale]]>
@@ -7347,7 +7385,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- BestMatchNormalMale -->
-        <test-method status="PASS" signature="BestMatchCheepMale()[pri:7, instance:Tests.BestMutch@31f924f5]" name="BestMatchCheepMale" duration-ms="190495" started-at="2018-11-09T00:26:32Z" finished-at="2018-11-09T00:29:42Z">
+        <test-method status="PASS" signature="BestMatchCheepMale()[pri:7, instance:Tests.BestMutch@31f924f5]" name="BestMatchCheepMale" duration-ms="182635" started-at="2018-11-17T21:13:00Z" finished-at="2018-11-17T21:16:03Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BestMutch.BestMatchCheepMale]]>
@@ -7375,7 +7413,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- BestMatchCheepMale -->
-        <test-method status="PASS" signature="BestMatchSelfIdentity()[pri:8, instance:Tests.BestMutch@31f924f5]" name="BestMatchSelfIdentity" duration-ms="143285" started-at="2018-11-09T00:29:42Z" finished-at="2018-11-09T00:32:05Z">
+        <test-method status="PASS" signature="BestMatchSelfIdentity()[pri:8, instance:Tests.BestMutch@31f924f5]" name="BestMatchSelfIdentity" duration-ms="139747" started-at="2018-11-17T21:16:03Z" finished-at="2018-11-17T21:18:23Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BestMutch.BestMatchSelfIdentity]]>
@@ -7405,16 +7443,16 @@
         </test-method> <!-- BestMatchSelfIdentity -->
       </class> <!-- Tests.BestMutch -->
     </test> <!-- BestMutch -->
-    <test name="ContactStylistTest" duration-ms="386500" started-at="2018-11-09T00:32:05Z" finished-at="2018-11-09T00:38:32Z">
+    <test name="ContactStylistTest" duration-ms="443007" started-at="2018-11-17T21:18:23Z" finished-at="2018-11-17T21:25:46Z">
       <class name="Tests.ContactStylistTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ContactStylistTest@17211155]" name="setup" is-config="true" duration-ms="16379" started-at="2018-11-09T00:32:05Z" finished-at="2018-11-09T00:32:22Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ContactStylistTest@17211155]" name="setup" is-config="true" duration-ms="15992" started-at="2018-11-17T21:18:23Z" finished-at="2018-11-17T21:18:39Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="StylistSendToClient()[pri:1, instance:Tests.ContactStylistTest@17211155]" name="StylistSendToClient" duration-ms="180756" started-at="2018-11-09T00:32:22Z" finished-at="2018-11-09T00:35:23Z">
+        <test-method status="PASS" signature="StylistSendToClient()[pri:1, instance:Tests.ContactStylistTest@17211155]" name="StylistSendToClient" duration-ms="235276" started-at="2018-11-17T21:18:39Z" finished-at="2018-11-17T21:22:34Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ContactStylistTest.StylistSendToClient]]>
@@ -7442,7 +7480,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- StylistSendToClient -->
-        <test-method status="PASS" signature="ClientToStylist()[pri:2, instance:Tests.ContactStylistTest@17211155]" name="ClientToStylist" duration-ms="189363" started-at="2018-11-09T00:35:23Z" finished-at="2018-11-09T00:38:32Z">
+        <test-method status="PASS" signature="ClientToStylist()[pri:2, instance:Tests.ContactStylistTest@17211155]" name="ClientToStylist" duration-ms="191736" started-at="2018-11-17T21:22:34Z" finished-at="2018-11-17T21:25:46Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ContactStylistTest.ClientToStylist]]>
@@ -7472,16 +7510,16 @@
         </test-method> <!-- ClientToStylist -->
       </class> <!-- Tests.ContactStylistTest -->
     </test> <!-- ContactStylistTest -->
-    <test name="EditStyleForMenTests" duration-ms="960667" started-at="2018-11-09T00:38:32Z" finished-at="2018-11-09T00:54:33Z">
+    <test name="EditStyleForMenTests" duration-ms="952333" started-at="2018-11-17T21:25:46Z" finished-at="2018-11-17T21:41:38Z">
       <class name="Tests.EditStyleForMenTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.EditStyleForMenTests@52525845]" name="setup" is-config="true" duration-ms="20979" started-at="2018-11-09T00:38:32Z" finished-at="2018-11-09T00:38:53Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.EditStyleForMenTests@52525845]" name="setup" is-config="true" duration-ms="19045" started-at="2018-11-17T21:25:46Z" finished-at="2018-11-17T21:26:05Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.EditStyleForMenTests@52525845]" name="DoSignUp" duration-ms="203851" started-at="2018-11-09T00:38:53Z" finished-at="2018-11-09T00:42:17Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.EditStyleForMenTests@52525845]" name="DoSignUp" duration-ms="197752" started-at="2018-11-17T21:26:05Z" finished-at="2018-11-17T21:29:22Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForMenTests.DoSignUp]]>
@@ -7509,7 +7547,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="EditStyle()[pri:2, instance:Tests.EditStyleForMenTests@52525845]" name="EditStyle" duration-ms="42681" started-at="2018-11-09T00:42:17Z" finished-at="2018-11-09T00:42:59Z">
+        <test-method status="PASS" signature="EditStyle()[pri:2, instance:Tests.EditStyleForMenTests@52525845]" name="EditStyle" duration-ms="43696" started-at="2018-11-17T21:29:22Z" finished-at="2018-11-17T21:30:06Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForMenTests.EditStyle]]>
@@ -7537,7 +7575,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditStyle -->
-        <test-method status="PASS" signature="EditSize()[pri:3, instance:Tests.EditStyleForMenTests@52525845]" name="EditSize" duration-ms="76140" started-at="2018-11-09T00:42:59Z" finished-at="2018-11-09T00:44:16Z">
+        <test-method status="PASS" signature="EditSize()[pri:3, instance:Tests.EditStyleForMenTests@52525845]" name="EditSize" duration-ms="77438" started-at="2018-11-17T21:30:06Z" finished-at="2018-11-17T21:31:24Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForMenTests.EditSize]]>
@@ -7565,7 +7603,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditSize -->
-        <test-method status="PASS" signature="EditHeight()[pri:4, instance:Tests.EditStyleForMenTests@52525845]" name="EditHeight" duration-ms="29972" started-at="2018-11-09T00:44:16Z" finished-at="2018-11-09T00:44:46Z">
+        <test-method status="PASS" signature="EditHeight()[pri:4, instance:Tests.EditStyleForMenTests@52525845]" name="EditHeight" duration-ms="30296" started-at="2018-11-17T21:31:24Z" finished-at="2018-11-17T21:31:54Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForMenTests.EditHeight]]>
@@ -7593,7 +7631,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditHeight -->
-        <test-method status="PASS" signature="EditBodyType()[pri:5, instance:Tests.EditStyleForMenTests@52525845]" name="EditBodyType" duration-ms="30150" started-at="2018-11-09T00:44:46Z" finished-at="2018-11-09T00:45:16Z">
+        <test-method status="PASS" signature="EditBodyType()[pri:5, instance:Tests.EditStyleForMenTests@52525845]" name="EditBodyType" duration-ms="30822" started-at="2018-11-17T21:31:54Z" finished-at="2018-11-17T21:32:25Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForMenTests.EditBodyType]]>
@@ -7621,7 +7659,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditBodyType -->
-        <test-method status="PASS" signature="EditFitTop()[pri:6, instance:Tests.EditStyleForMenTests@52525845]" name="EditFitTop" duration-ms="30459" started-at="2018-11-09T00:45:16Z" finished-at="2018-11-09T00:45:46Z">
+        <test-method status="PASS" signature="EditFitTop()[pri:6, instance:Tests.EditStyleForMenTests@52525845]" name="EditFitTop" duration-ms="30955" started-at="2018-11-17T21:32:25Z" finished-at="2018-11-17T21:32:56Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForMenTests.EditFitTop]]>
@@ -7649,7 +7687,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditFitTop -->
-        <test-method status="PASS" signature="EditFitBottom()[pri:7, instance:Tests.EditStyleForMenTests@52525845]" name="EditFitBottom" duration-ms="30693" started-at="2018-11-09T00:45:46Z" finished-at="2018-11-09T00:46:17Z">
+        <test-method status="PASS" signature="EditFitBottom()[pri:7, instance:Tests.EditStyleForMenTests@52525845]" name="EditFitBottom" duration-ms="31051" started-at="2018-11-17T21:32:56Z" finished-at="2018-11-17T21:33:27Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForMenTests.EditFitBottom]]>
@@ -7677,7 +7715,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditFitBottom -->
-        <test-method status="PASS" signature="EditBudget()[pri:8, instance:Tests.EditStyleForMenTests@52525845]" name="EditBudget" duration-ms="36928" started-at="2018-11-09T00:46:17Z" finished-at="2018-11-09T00:46:54Z">
+        <test-method status="PASS" signature="EditBudget()[pri:8, instance:Tests.EditStyleForMenTests@52525845]" name="EditBudget" duration-ms="37870" started-at="2018-11-17T21:33:27Z" finished-at="2018-11-17T21:34:05Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForMenTests.EditBudget]]>
@@ -7705,7 +7743,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditBudget -->
-        <test-method status="PASS" signature="EditColor()[pri:9, instance:Tests.EditStyleForMenTests@52525845]" name="EditColor" duration-ms="56701" started-at="2018-11-09T00:46:54Z" finished-at="2018-11-09T00:47:51Z">
+        <test-method status="PASS" signature="EditColor()[pri:9, instance:Tests.EditStyleForMenTests@52525845]" name="EditColor" duration-ms="57614" started-at="2018-11-17T21:34:05Z" finished-at="2018-11-17T21:35:02Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForMenTests.EditColor]]>
@@ -7733,7 +7771,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditColor -->
-        <test-method status="PASS" signature="EditJewelry()[pri:10, instance:Tests.EditStyleForMenTests@52525845]" name="EditJewelry" duration-ms="45454" started-at="2018-11-09T00:47:51Z" finished-at="2018-11-09T00:48:36Z">
+        <test-method status="PASS" signature="EditJewelry()[pri:10, instance:Tests.EditStyleForMenTests@52525845]" name="EditJewelry" duration-ms="45840" started-at="2018-11-17T21:35:02Z" finished-at="2018-11-17T21:35:48Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForMenTests.EditJewelry]]>
@@ -7761,7 +7799,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditJewelry -->
-        <test-method status="PASS" signature="EditZone()[pri:11, instance:Tests.EditStyleForMenTests@52525845]" name="EditZone" duration-ms="54806" started-at="2018-11-09T00:48:36Z" finished-at="2018-11-09T00:49:31Z">
+        <test-method status="PASS" signature="EditZone()[pri:11, instance:Tests.EditStyleForMenTests@52525845]" name="EditZone" duration-ms="54153" started-at="2018-11-17T21:35:48Z" finished-at="2018-11-17T21:36:42Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForMenTests.EditZone]]>
@@ -7789,7 +7827,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditZone -->
-        <test-method status="PASS" signature="EditBrands()[pri:12, instance:Tests.EditStyleForMenTests@52525845]" name="EditBrands" duration-ms="75008" started-at="2018-11-09T00:49:31Z" finished-at="2018-11-09T00:50:46Z">
+        <test-method status="PASS" signature="EditBrands()[pri:12, instance:Tests.EditStyleForMenTests@52525845]" name="EditBrands" duration-ms="74243" started-at="2018-11-17T21:36:42Z" finished-at="2018-11-17T21:37:56Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForMenTests.EditBrands]]>
@@ -7817,7 +7855,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditBrands -->
-        <test-method status="PASS" signature="EditSocialMedia()[pri:13, instance:Tests.EditStyleForMenTests@52525845]" name="EditSocialMedia" duration-ms="226836" started-at="2018-11-09T00:50:46Z" finished-at="2018-11-09T00:54:33Z">
+        <test-method status="PASS" signature="EditSocialMedia()[pri:13, instance:Tests.EditStyleForMenTests@52525845]" name="EditSocialMedia" duration-ms="221546" started-at="2018-11-17T21:37:56Z" finished-at="2018-11-17T21:41:38Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForMenTests.EditSocialMedia]]>
@@ -7847,16 +7885,16 @@
         </test-method> <!-- EditSocialMedia -->
       </class> <!-- Tests.EditStyleForMenTests -->
     </test> <!-- EditStyleForMenTests -->
-    <test name="EditStyleForWomenTests" duration-ms="1200819" started-at="2018-11-09T00:54:33Z" finished-at="2018-11-09T01:14:33Z">
+    <test name="EditStyleForWomenTests" duration-ms="1186803" started-at="2018-11-17T21:41:38Z" finished-at="2018-11-17T22:01:25Z">
       <class name="Tests.EditStyleForWomenTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.EditStyleForWomenTests@4516af24]" name="setup" is-config="true" duration-ms="16512" started-at="2018-11-09T00:54:33Z" finished-at="2018-11-09T00:54:49Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.EditStyleForWomenTests@4516af24]" name="setup" is-config="true" duration-ms="16224" started-at="2018-11-17T21:41:38Z" finished-at="2018-11-17T21:41:54Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest4.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.EditStyleForWomenTests@4516af24]" name="DoSignUp" duration-ms="186848" started-at="2018-11-09T00:54:49Z" finished-at="2018-11-09T00:57:56Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.EditStyleForWomenTests@4516af24]" name="DoSignUp" duration-ms="182443" started-at="2018-11-17T21:41:54Z" finished-at="2018-11-17T21:44:57Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.DoSignUp]]>
@@ -7884,7 +7922,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="EditSize()[pri:2, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditSize" duration-ms="81359" started-at="2018-11-09T00:57:56Z" finished-at="2018-11-09T00:59:17Z">
+        <test-method status="PASS" signature="EditSize()[pri:2, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditSize" duration-ms="79930" started-at="2018-11-17T21:44:57Z" finished-at="2018-11-17T21:46:17Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.EditSize]]>
@@ -7912,7 +7950,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditSize -->
-        <test-method status="PASS" signature="EditBodyType()[pri:3, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditBodyType" duration-ms="28893" started-at="2018-11-09T00:59:17Z" finished-at="2018-11-09T00:59:46Z">
+        <test-method status="PASS" signature="EditBodyType()[pri:3, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditBodyType" duration-ms="28825" started-at="2018-11-17T21:46:17Z" finished-at="2018-11-17T21:46:45Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.EditBodyType]]>
@@ -7940,7 +7978,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditBodyType -->
-        <test-method status="PASS" signature="EditHeight()[pri:4, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditHeight" duration-ms="29507" started-at="2018-11-09T00:59:46Z" finished-at="2018-11-09T01:00:16Z">
+        <test-method status="PASS" signature="EditHeight()[pri:4, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditHeight" duration-ms="29434" started-at="2018-11-17T21:46:45Z" finished-at="2018-11-17T21:47:15Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.EditHeight]]>
@@ -7968,7 +8006,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditHeight -->
-        <test-method status="PASS" signature="EditStyle()[pri:5, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditStyle" duration-ms="39062" started-at="2018-11-09T01:00:16Z" finished-at="2018-11-09T01:00:55Z">
+        <test-method status="PASS" signature="EditStyle()[pri:5, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditStyle" duration-ms="39233" started-at="2018-11-17T21:47:15Z" finished-at="2018-11-17T21:47:54Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.EditStyle]]>
@@ -7996,7 +8034,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditStyle -->
-        <test-method status="PASS" signature="EditHighlights()[pri:6, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditHighlights" duration-ms="65644" started-at="2018-11-09T01:00:55Z" finished-at="2018-11-09T01:02:00Z">
+        <test-method status="PASS" signature="EditHighlights()[pri:6, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditHighlights" duration-ms="65341" started-at="2018-11-17T21:47:54Z" finished-at="2018-11-17T21:48:59Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.EditHighlights]]>
@@ -8024,7 +8062,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditHighlights -->
-        <test-method status="PASS" signature="EditFitBottom()[pri:7, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditFitBottom" duration-ms="30447" started-at="2018-11-09T01:02:00Z" finished-at="2018-11-09T01:02:31Z">
+        <test-method status="PASS" signature="EditFitBottom()[pri:7, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditFitBottom" duration-ms="30324" started-at="2018-11-17T21:48:59Z" finished-at="2018-11-17T21:49:30Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.EditFitBottom]]>
@@ -8052,7 +8090,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditFitBottom -->
-        <test-method status="PASS" signature="EditHeels()[pri:7, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditHeels" duration-ms="30718" started-at="2018-11-09T01:02:31Z" finished-at="2018-11-09T01:03:02Z">
+        <test-method status="PASS" signature="EditHeels()[pri:7, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditHeels" duration-ms="30514" started-at="2018-11-17T21:49:30Z" finished-at="2018-11-17T21:50:00Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.EditHeels]]>
@@ -8080,7 +8118,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditHeels -->
-        <test-method status="PASS" signature="EditFitTop()[pri:8, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditFitTop" duration-ms="31214" started-at="2018-11-09T01:03:02Z" finished-at="2018-11-09T01:03:33Z">
+        <test-method status="PASS" signature="EditFitTop()[pri:8, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditFitTop" duration-ms="30477" started-at="2018-11-17T21:50:00Z" finished-at="2018-11-17T21:50:31Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.EditFitTop]]>
@@ -8108,7 +8146,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditFitTop -->
-        <test-method status="PASS" signature="EditJeans()[pri:8, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditJeans" duration-ms="62136" started-at="2018-11-09T01:03:33Z" finished-at="2018-11-09T01:04:35Z">
+        <test-method status="PASS" signature="EditJeans()[pri:8, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditJeans" duration-ms="61455" started-at="2018-11-17T21:50:31Z" finished-at="2018-11-17T21:51:32Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.EditJeans]]>
@@ -8136,7 +8174,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditJeans -->
-        <test-method status="PASS" signature="EditFabric()[pri:9, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditFabric" duration-ms="72035" started-at="2018-11-09T01:04:35Z" finished-at="2018-11-09T01:05:47Z">
+        <test-method status="PASS" signature="EditFabric()[pri:9, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditFabric" duration-ms="71493" started-at="2018-11-17T21:51:32Z" finished-at="2018-11-17T21:52:44Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.EditFabric]]>
@@ -8164,7 +8202,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditFabric -->
-        <test-method status="PASS" signature="EditBudget()[pri:10, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditBudget" duration-ms="45849" started-at="2018-11-09T01:05:47Z" finished-at="2018-11-09T01:06:33Z">
+        <test-method status="PASS" signature="EditBudget()[pri:10, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditBudget" duration-ms="45825" started-at="2018-11-17T21:52:44Z" finished-at="2018-11-17T21:53:29Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.EditBudget]]>
@@ -8192,7 +8230,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditBudget -->
-        <test-method status="PASS" signature="EditColor()[pri:11, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditColor" duration-ms="80068" started-at="2018-11-09T01:06:33Z" finished-at="2018-11-09T01:07:53Z">
+        <test-method status="PASS" signature="EditColor()[pri:11, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditColor" duration-ms="79137" started-at="2018-11-17T21:53:29Z" finished-at="2018-11-17T21:54:49Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.EditColor]]>
@@ -8220,7 +8258,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditColor -->
-        <test-method status="PASS" signature="EditJewelry()[pri:12, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditJewelry" duration-ms="59527" started-at="2018-11-09T01:07:53Z" finished-at="2018-11-09T01:08:52Z">
+        <test-method status="PASS" signature="EditJewelry()[pri:12, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditJewelry" duration-ms="59470" started-at="2018-11-17T21:54:49Z" finished-at="2018-11-17T21:55:48Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.EditJewelry]]>
@@ -8248,7 +8286,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditJewelry -->
-        <test-method status="PASS" signature="EditZone()[pri:13, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditZone" duration-ms="64757" started-at="2018-11-09T01:08:52Z" finished-at="2018-11-09T01:09:57Z">
+        <test-method status="PASS" signature="EditZone()[pri:13, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditZone" duration-ms="64968" started-at="2018-11-17T21:55:48Z" finished-at="2018-11-17T21:56:53Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.EditZone]]>
@@ -8276,7 +8314,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditZone -->
-        <test-method status="PASS" signature="EditBrands()[pri:14, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditBrands" duration-ms="76364" started-at="2018-11-09T01:09:57Z" finished-at="2018-11-09T01:11:14Z">
+        <test-method status="PASS" signature="EditBrands()[pri:14, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditBrands" duration-ms="75710" started-at="2018-11-17T21:56:53Z" finished-at="2018-11-17T21:58:09Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.EditBrands]]>
@@ -8304,7 +8342,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- EditBrands -->
-        <test-method status="PASS" signature="EditSocialMedia()[pri:15, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditSocialMedia" duration-ms="199864" started-at="2018-11-09T01:11:14Z" finished-at="2018-11-09T01:14:33Z">
+        <test-method status="PASS" signature="EditSocialMedia()[pri:15, instance:Tests.EditStyleForWomenTests@4516af24]" name="EditSocialMedia" duration-ms="195982" started-at="2018-11-17T21:58:09Z" finished-at="2018-11-17T22:01:25Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : EditStyleForWomenTests.EditSocialMedia]]>
@@ -8334,16 +8372,16 @@
         </test-method> <!-- EditSocialMedia -->
       </class> <!-- Tests.EditStyleForWomenTests -->
     </test> <!-- EditStyleForWomenTests -->
-    <test name="CheckOutMounthTest" duration-ms="333979" started-at="2018-11-09T01:14:33Z" finished-at="2018-11-09T01:20:07Z">
+    <test name="CheckOutMounthTest" duration-ms="326090" started-at="2018-11-17T22:01:25Z" finished-at="2018-11-17T22:06:51Z">
       <class name="Tests.CheckOutMounthTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.CheckOutMounthTest@71623278]" name="setup" is-config="true" duration-ms="15313" started-at="2018-11-09T01:14:33Z" finished-at="2018-11-09T01:14:49Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.CheckOutMounthTest@71623278]" name="setup" is-config="true" duration-ms="14752" started-at="2018-11-17T22:01:25Z" finished-at="2018-11-17T22:01:40Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.CheckOutMounthTest@71623278]" name="DoLogin" duration-ms="44580" started-at="2018-11-09T01:14:49Z" finished-at="2018-11-09T01:15:33Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.CheckOutMounthTest@71623278]" name="DoLogin" duration-ms="44180" started-at="2018-11-17T22:01:40Z" finished-at="2018-11-17T22:02:24Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutMounthTest.DoLogin]]>
@@ -8371,7 +8409,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.CheckOutMounthTest@71623278]" name="SearchStylist" duration-ms="8807" started-at="2018-11-09T01:15:33Z" finished-at="2018-11-09T01:15:42Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.CheckOutMounthTest@71623278]" name="SearchStylist" duration-ms="8858" started-at="2018-11-17T22:02:24Z" finished-at="2018-11-17T22:02:33Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutMounthTest.SearchStylist]]>
@@ -8399,7 +8437,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.CheckOutMounthTest@71623278]" name="SelectEvents" duration-ms="41685" started-at="2018-11-09T01:15:42Z" finished-at="2018-11-09T01:16:24Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.CheckOutMounthTest@71623278]" name="SelectEvents" duration-ms="37167" started-at="2018-11-17T22:02:33Z" finished-at="2018-11-17T22:03:10Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutMounthTest.SelectEvents]]>
@@ -8427,7 +8465,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.CheckOutMounthTest@71623278]" name="SelectSession" duration-ms="21695" started-at="2018-11-09T01:16:24Z" finished-at="2018-11-09T01:16:46Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.CheckOutMounthTest@71623278]" name="SelectSession" duration-ms="21053" started-at="2018-11-17T22:03:10Z" finished-at="2018-11-17T22:03:31Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutMounthTest.SelectSession]]>
@@ -8455,7 +8493,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.CheckOutMounthTest@71623278]" name="CompileBooking" duration-ms="201894" started-at="2018-11-09T01:16:46Z" finished-at="2018-11-09T01:20:07Z">
+        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.CheckOutMounthTest@71623278]" name="CompileBooking" duration-ms="200075" started-at="2018-11-17T22:03:31Z" finished-at="2018-11-17T22:06:51Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutMounthTest.CompileBooking]]>
@@ -8485,16 +8523,16 @@
         </test-method> <!-- CompileBooking -->
       </class> <!-- Tests.CheckOutMounthTest -->
     </test> <!-- CheckOutMounthTest -->
-    <test name="CheckOutSingleTest" duration-ms="384619" started-at="2018-11-09T01:20:07Z" finished-at="2018-11-09T01:26:32Z">
+    <test name="CheckOutSingleTest" duration-ms="379718" started-at="2018-11-17T22:06:51Z" finished-at="2018-11-17T22:13:11Z">
       <class name="Tests.CheckOutSingleTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.CheckOutSingleTest@7ba18f1b]" name="setup" is-config="true" duration-ms="14946" started-at="2018-11-09T01:20:07Z" finished-at="2018-11-09T01:20:22Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.CheckOutSingleTest@7ba18f1b]" name="setup" is-config="true" duration-ms="72053" started-at="2018-11-17T22:06:51Z" finished-at="2018-11-17T22:08:03Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.CheckOutSingleTest@7ba18f1b]" name="DoLogin" duration-ms="43508" started-at="2018-11-09T01:20:22Z" finished-at="2018-11-09T01:21:06Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.CheckOutSingleTest@7ba18f1b]" name="DoLogin" duration-ms="42900" started-at="2018-11-17T22:08:03Z" finished-at="2018-11-17T22:08:46Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutSingleTest.DoLogin]]>
@@ -8522,7 +8560,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.CheckOutSingleTest@7ba18f1b]" name="SearchStylist" duration-ms="8957" started-at="2018-11-09T01:21:06Z" finished-at="2018-11-09T01:21:15Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.CheckOutSingleTest@7ba18f1b]" name="SearchStylist" duration-ms="8854" started-at="2018-11-17T22:08:46Z" finished-at="2018-11-17T22:08:55Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutSingleTest.SearchStylist]]>
@@ -8550,7 +8588,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.CheckOutSingleTest@7ba18f1b]" name="SelectEvents" duration-ms="36579" started-at="2018-11-09T01:21:15Z" finished-at="2018-11-09T01:21:51Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.CheckOutSingleTest@7ba18f1b]" name="SelectEvents" duration-ms="36414" started-at="2018-11-17T22:08:55Z" finished-at="2018-11-17T22:09:31Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutSingleTest.SelectEvents]]>
@@ -8578,7 +8616,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.CheckOutSingleTest@7ba18f1b]" name="SelectSession" duration-ms="25723" started-at="2018-11-09T01:21:51Z" finished-at="2018-11-09T01:22:17Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.CheckOutSingleTest@7ba18f1b]" name="SelectSession" duration-ms="25422" started-at="2018-11-17T22:09:31Z" finished-at="2018-11-17T22:09:56Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutSingleTest.SelectSession]]>
@@ -8606,7 +8644,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.CheckOutSingleTest@7ba18f1b]" name="CompileBooking" duration-ms="254900" started-at="2018-11-09T01:22:17Z" finished-at="2018-11-09T01:26:32Z">
+        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.CheckOutSingleTest@7ba18f1b]" name="CompileBooking" duration-ms="194069" started-at="2018-11-17T22:09:56Z" finished-at="2018-11-17T22:13:11Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutSingleTest.CompileBooking]]>
@@ -8636,16 +8674,16 @@
         </test-method> <!-- CompileBooking -->
       </class> <!-- Tests.CheckOutSingleTest -->
     </test> <!-- CheckOutSingleTest -->
-    <test name="CheckOutPSTest" duration-ms="210316" started-at="2018-11-09T01:26:32Z" finished-at="2018-11-09T01:30:02Z">
+    <test name="CheckOutPSTest" duration-ms="208456" started-at="2018-11-17T22:13:11Z" finished-at="2018-11-17T22:16:39Z">
       <class name="Tests.CheckOutPSTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.CheckOutPSTest@b9afc07]" name="setup" is-config="true" duration-ms="14861" started-at="2018-11-09T01:26:32Z" finished-at="2018-11-09T01:26:47Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.CheckOutPSTest@b9afc07]" name="setup" is-config="true" duration-ms="14225" started-at="2018-11-17T22:13:11Z" finished-at="2018-11-17T22:13:25Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.CheckOutPSTest@b9afc07]" name="DoLogin" duration-ms="43260" started-at="2018-11-09T01:26:47Z" finished-at="2018-11-09T01:27:30Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.CheckOutPSTest@b9afc07]" name="DoLogin" duration-ms="43283" started-at="2018-11-17T22:13:25Z" finished-at="2018-11-17T22:14:08Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutPSTest.DoLogin]]>
@@ -8673,7 +8711,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.CheckOutPSTest@b9afc07]" name="SearchStylist" duration-ms="8864" started-at="2018-11-09T01:27:30Z" finished-at="2018-11-09T01:27:39Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.CheckOutPSTest@b9afc07]" name="SearchStylist" duration-ms="8860" started-at="2018-11-17T22:14:08Z" finished-at="2018-11-17T22:14:17Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutPSTest.SearchStylist]]>
@@ -8701,7 +8739,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.CheckOutPSTest@b9afc07]" name="SelectEvents" duration-ms="14453" started-at="2018-11-09T01:27:39Z" finished-at="2018-11-09T01:27:54Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.CheckOutPSTest@b9afc07]" name="SelectEvents" duration-ms="14627" started-at="2018-11-17T22:14:17Z" finished-at="2018-11-17T22:14:32Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutPSTest.SelectEvents]]>
@@ -8729,7 +8767,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="CheckOut()[pri:4, instance:Tests.CheckOutPSTest@b9afc07]" name="CheckOut" duration-ms="128874" started-at="2018-11-09T01:27:54Z" finished-at="2018-11-09T01:30:02Z">
+        <test-method status="PASS" signature="CheckOut()[pri:4, instance:Tests.CheckOutPSTest@b9afc07]" name="CheckOut" duration-ms="127459" started-at="2018-11-17T22:14:32Z" finished-at="2018-11-17T22:16:39Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutPSTest.CheckOut]]>
@@ -8759,16 +8797,16 @@
         </test-method> <!-- CheckOut -->
       </class> <!-- Tests.CheckOutPSTest -->
     </test> <!-- CheckOutPSTest -->
-    <test name="CheckOutByCoponTest" duration-ms="377960" started-at="2018-11-09T01:30:02Z" finished-at="2018-11-09T01:36:20Z">
+    <test name="CheckOutByCoponTest" duration-ms="264048" started-at="2018-11-17T22:16:39Z" finished-at="2018-11-17T22:21:03Z">
       <class name="Tests.CheckOutByCoponTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.CheckOutByCoponTest@44f75083]" name="setup" is-config="true" duration-ms="72490" started-at="2018-11-09T01:30:02Z" finished-at="2018-11-09T01:31:15Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.CheckOutByCoponTest@44f75083]" name="setup" is-config="true" duration-ms="14056" started-at="2018-11-17T22:16:39Z" finished-at="2018-11-17T22:16:53Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.CheckOutByCoponTest@44f75083]" name="DoLogin" duration-ms="44232" started-at="2018-11-09T01:31:15Z" finished-at="2018-11-09T01:31:59Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.CheckOutByCoponTest@44f75083]" name="DoLogin" duration-ms="44725" started-at="2018-11-17T22:16:53Z" finished-at="2018-11-17T22:17:38Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutByCoponTest.DoLogin]]>
@@ -8796,7 +8834,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.CheckOutByCoponTest@44f75083]" name="SearchStylist" duration-ms="12136" started-at="2018-11-09T01:31:59Z" finished-at="2018-11-09T01:32:11Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.CheckOutByCoponTest@44f75083]" name="SearchStylist" duration-ms="11999" started-at="2018-11-17T22:17:38Z" finished-at="2018-11-17T22:17:50Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutByCoponTest.SearchStylist]]>
@@ -8824,7 +8862,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.CheckOutByCoponTest@44f75083]" name="SelectEvents" duration-ms="35789" started-at="2018-11-09T01:32:11Z" finished-at="2018-11-09T01:32:47Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.CheckOutByCoponTest@44f75083]" name="SelectEvents" duration-ms="37436" started-at="2018-11-17T22:17:50Z" finished-at="2018-11-17T22:18:27Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutByCoponTest.SelectEvents]]>
@@ -8852,7 +8890,83 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.CheckOutByCoponTest@44f75083]" name="SelectSession" duration-ms="213308" started-at="2018-11-09T01:32:47Z" finished-at="2018-11-09T01:36:20Z">
+        <test-method status="FAIL" signature="SelectSession()[pri:4, instance:Tests.CheckOutByCoponTest@44f75083]" name="SelectSession" duration-ms="155031" started-at="2018-11-17T22:18:27Z" finished-at="2018-11-17T22:21:02Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MBP-2', ip: 'fe80:0:0:0:a8:f662:860:dc94%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.0, startIWDP: true, takesScreenshot: true, udid: 3F0CEB71-FA1F-48BB-9D4E-087..., webStorageEnabled: false}
+Session ID: 6f6b31b5-7ff4-45da-a428-32ae298410f8
+*** Element info: {Using=xpath, value=(//*[@name='Skinny'])[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MBP-2', ip: 'fe80:0:0:0:a8:f662:860:dc94%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.0, startIWDP: true, takesScreenshot: true, udid: 3F0CEB71-FA1F-48BB-9D4E-087..., webStorageEnabled: false}
+Session ID: 6f6b31b5-7ff4-45da-a428-32ae298410f8
+*** Element info: {Using=xpath, value=(//*[@name='Skinny'])[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+at PageObjects.QuizPage.SelectJeans(QuizPage.java:123)
+at Tests.CheckOutByCoponTest.SelectSession(CheckOutByCoponTest.java:86)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CheckOutByCoponTest.SelectSession]]>
@@ -8861,37 +8975,37 @@
               <![CDATA[Completed executing following method : CheckOutByCoponTest.SelectSession]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite SelectSession]]>
+              <![CDATA[About to Failure executing Suite SelectSession]]>
             </line>
             <line>
               <![CDATA[Test Method resides in Tests.CheckOutByCoponTest]]>
             </line>
             <line>
-              <![CDATA[Test Status: Pass]]>
+              <![CDATA[Test Status: Failed]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite SelectSession]]>
+              <![CDATA[About to Failure executing Suite SelectSession]]>
             </line>
             <line>
               <![CDATA[Test Method resides in Tests.CheckOutByCoponTest]]>
             </line>
             <line>
-              <![CDATA[Test Status: Pass]]>
+              <![CDATA[Test Status: Failed]]>
             </line>
           </reporter-output>
         </test-method> <!-- SelectSession -->
       </class> <!-- Tests.CheckOutByCoponTest -->
     </test> <!-- CheckOutByCoponTest -->
-    <test name="LoginTests" duration-ms="212281" started-at="2018-11-09T01:36:20Z" finished-at="2018-11-09T01:39:53Z">
+    <test name="LoginTests" duration-ms="269162" started-at="2018-11-17T22:21:03Z" finished-at="2018-11-17T22:25:32Z">
       <class name="Tests.LoginTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginTests@1e4a7dd4]" name="setup" is-config="true" duration-ms="14872" started-at="2018-11-09T01:36:20Z" finished-at="2018-11-09T01:36:35Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginTests@1e4a7dd4]" name="setup" is-config="true" duration-ms="13406" started-at="2018-11-17T22:21:03Z" finished-at="2018-11-17T22:21:16Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="FillPasswordWithOutToFillEmail()[pri:1, instance:Tests.LoginTests@1e4a7dd4]" name="FillPasswordWithOutToFillEmail" duration-ms="19558" started-at="2018-11-09T01:36:35Z" finished-at="2018-11-09T01:36:55Z">
+        <test-method status="PASS" signature="FillPasswordWithOutToFillEmail()[pri:1, instance:Tests.LoginTests@1e4a7dd4]" name="FillPasswordWithOutToFillEmail" duration-ms="19536" started-at="2018-11-17T22:21:17Z" finished-at="2018-11-17T22:21:36Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : LoginTests.FillPasswordWithOutToFillEmail]]>
@@ -8919,7 +9033,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- FillPasswordWithOutToFillEmail -->
-        <test-method status="PASS" signature="FillPasswordWithOutToFillPassword()[pri:2, instance:Tests.LoginTests@1e4a7dd4]" name="FillPasswordWithOutToFillPassword" duration-ms="20180" started-at="2018-11-09T01:36:55Z" finished-at="2018-11-09T01:37:15Z">
+        <test-method status="PASS" signature="FillPasswordWithOutToFillPassword()[pri:2, instance:Tests.LoginTests@1e4a7dd4]" name="FillPasswordWithOutToFillPassword" duration-ms="20444" started-at="2018-11-17T22:21:36Z" finished-at="2018-11-17T22:21:56Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : LoginTests.FillPasswordWithOutToFillPassword]]>
@@ -8947,7 +9061,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- FillPasswordWithOutToFillPassword -->
-        <test-method status="PASS" signature="FillPasswordWithWrongEmail()[pri:3, instance:Tests.LoginTests@1e4a7dd4]" name="FillPasswordWithWrongEmail" duration-ms="37425" started-at="2018-11-09T01:37:15Z" finished-at="2018-11-09T01:37:52Z">
+        <test-method status="PASS" signature="FillPasswordWithWrongEmail()[pri:3, instance:Tests.LoginTests@1e4a7dd4]" name="FillPasswordWithWrongEmail" duration-ms="37628" started-at="2018-11-17T22:21:56Z" finished-at="2018-11-17T22:22:34Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : LoginTests.FillPasswordWithWrongEmail]]>
@@ -8975,7 +9089,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- FillPasswordWithWrongEmail -->
-        <test-method status="PASS" signature="FillPasswordWithWrongPassword()[pri:4, instance:Tests.LoginTests@1e4a7dd4]" name="FillPasswordWithWrongPassword" duration-ms="40355" started-at="2018-11-09T01:37:52Z" finished-at="2018-11-09T01:38:33Z">
+        <test-method status="PASS" signature="FillPasswordWithWrongPassword()[pri:4, instance:Tests.LoginTests@1e4a7dd4]" name="FillPasswordWithWrongPassword" duration-ms="40594" started-at="2018-11-17T22:22:34Z" finished-at="2018-11-17T22:23:15Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : LoginTests.FillPasswordWithWrongPassword]]>
@@ -9003,7 +9117,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- FillPasswordWithWrongPassword -->
-        <test-method status="PASS" signature="ClickLoginwWithOutToFillAnyFields()[pri:5, instance:Tests.LoginTests@1e4a7dd4]" name="ClickLoginwWithOutToFillAnyFields" duration-ms="26406" started-at="2018-11-09T01:38:33Z" finished-at="2018-11-09T01:38:59Z">
+        <test-method status="PASS" signature="ClickLoginwWithOutToFillAnyFields()[pri:5, instance:Tests.LoginTests@1e4a7dd4]" name="ClickLoginwWithOutToFillAnyFields" duration-ms="26452" started-at="2018-11-17T22:23:15Z" finished-at="2018-11-17T22:23:41Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : LoginTests.ClickLoginwWithOutToFillAnyFields]]>
@@ -9031,7 +9145,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- ClickLoginwWithOutToFillAnyFields -->
-        <test-method status="PASS" signature="DoLogin()[pri:6, instance:Tests.LoginTests@1e4a7dd4]" name="DoLogin" duration-ms="53478" started-at="2018-11-09T01:38:59Z" finished-at="2018-11-09T01:39:53Z">
+        <test-method status="PASS" signature="DoLogin()[pri:6, instance:Tests.LoginTests@1e4a7dd4]" name="DoLogin" duration-ms="111095" started-at="2018-11-17T22:23:41Z" finished-at="2018-11-17T22:25:32Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : LoginTests.DoLogin]]>
@@ -9061,16 +9175,16 @@
         </test-method> <!-- DoLogin -->
       </class> <!-- Tests.LoginTests -->
     </test> <!-- LoginTests -->
-    <test name="QuickQuizForWomenTest" duration-ms="305668" started-at="2018-11-09T01:39:53Z" finished-at="2018-11-09T01:44:58Z">
+    <test name="QuickQuizForWomenTest" duration-ms="419971" started-at="2018-11-17T22:25:32Z" finished-at="2018-11-17T22:32:32Z">
       <class name="Tests.QuickQuizForWomenTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuickQuizForWomenTest@1cab0bfb]" name="setup" is-config="true" duration-ms="14487" started-at="2018-11-09T01:39:53Z" finished-at="2018-11-09T01:40:07Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuickQuizForWomenTest@1cab0bfb]" name="setup" is-config="true" duration-ms="71833" started-at="2018-11-17T22:25:32Z" finished-at="2018-11-17T22:26:44Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.QuickQuizForWomenTest@1cab0bfb]" name="DoLogin" duration-ms="43230" started-at="2018-11-09T01:40:07Z" finished-at="2018-11-09T01:40:50Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.QuickQuizForWomenTest@1cab0bfb]" name="DoLogin" duration-ms="42937" started-at="2018-11-17T22:26:44Z" finished-at="2018-11-17T22:27:27Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuickQuizForWomenTest.DoLogin]]>
@@ -9098,7 +9212,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuickQuizForWomenTest@1cab0bfb]" name="SearchStylist" duration-ms="8539" started-at="2018-11-09T01:40:50Z" finished-at="2018-11-09T01:40:59Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuickQuizForWomenTest@1cab0bfb]" name="SearchStylist" duration-ms="8628" started-at="2018-11-17T22:27:27Z" finished-at="2018-11-17T22:27:36Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuickQuizForWomenTest.SearchStylist]]>
@@ -9126,7 +9240,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuickQuizForWomenTest@1cab0bfb]" name="SelectEvents" duration-ms="36286" started-at="2018-11-09T01:40:59Z" finished-at="2018-11-09T01:41:35Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuickQuizForWomenTest@1cab0bfb]" name="SelectEvents" duration-ms="37175" started-at="2018-11-17T22:27:36Z" finished-at="2018-11-17T22:28:13Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuickQuizForWomenTest.SelectEvents]]>
@@ -9154,7 +9268,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuickQuizForWomenTest@1cab0bfb]" name="SelectSession" duration-ms="17104" started-at="2018-11-09T01:41:35Z" finished-at="2018-11-09T01:41:52Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuickQuizForWomenTest@1cab0bfb]" name="SelectSession" duration-ms="17174" started-at="2018-11-17T22:28:13Z" finished-at="2018-11-17T22:28:30Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuickQuizForWomenTest.SelectSession]]>
@@ -9182,7 +9296,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.QuickQuizForWomenTest@1cab0bfb]" name="CompileBooking" duration-ms="186017" started-at="2018-11-09T01:41:52Z" finished-at="2018-11-09T01:44:58Z">
+        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.QuickQuizForWomenTest@1cab0bfb]" name="CompileBooking" duration-ms="242219" started-at="2018-11-17T22:28:30Z" finished-at="2018-11-17T22:32:32Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuickQuizForWomenTest.CompileBooking]]>
@@ -9212,16 +9326,16 @@
         </test-method> <!-- CompileBooking -->
       </class> <!-- Tests.QuickQuizForWomenTest -->
     </test> <!-- QuickQuizForWomenTest -->
-    <test name="QuickQuizMale" duration-ms="371749" started-at="2018-11-09T01:44:58Z" finished-at="2018-11-09T01:51:10Z">
+    <test name="QuickQuizMale" duration-ms="146823" started-at="2018-11-17T22:32:32Z" finished-at="2018-11-17T22:34:59Z">
       <class name="Tests.QuickQuizForMenTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuickQuizForMenTest@71d15f18]" name="setup" is-config="true" duration-ms="72568" started-at="2018-11-09T01:44:58Z" finished-at="2018-11-09T01:46:11Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuickQuizForMenTest@71d15f18]" name="setup" is-config="true" duration-ms="14003" started-at="2018-11-17T22:32:32Z" finished-at="2018-11-17T22:32:46Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.QuickQuizForMenTest@71d15f18]" name="DoLogin" duration-ms="42719" started-at="2018-11-09T01:46:11Z" finished-at="2018-11-09T01:46:54Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.QuickQuizForMenTest@71d15f18]" name="DoLogin" duration-ms="43046" started-at="2018-11-17T22:32:46Z" finished-at="2018-11-17T22:33:29Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuickQuizForMenTest.DoLogin]]>
@@ -9249,7 +9363,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuickQuizForMenTest@71d15f18]" name="SearchStylist" duration-ms="6724" started-at="2018-11-09T01:46:54Z" finished-at="2018-11-09T01:47:00Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuickQuizForMenTest@71d15f18]" name="SearchStylist" duration-ms="6568" started-at="2018-11-17T22:33:29Z" finished-at="2018-11-17T22:33:36Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuickQuizForMenTest.SearchStylist]]>
@@ -9277,7 +9391,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuickQuizForMenTest@71d15f18]" name="SelectEvents" duration-ms="40718" started-at="2018-11-09T01:47:00Z" finished-at="2018-11-09T01:47:41Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuickQuizForMenTest@71d15f18]" name="SelectEvents" duration-ms="35807" started-at="2018-11-17T22:33:36Z" finished-at="2018-11-17T22:34:12Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuickQuizForMenTest.SelectEvents]]>
@@ -9305,7 +9419,96 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuickQuizForMenTest@71d15f18]" name="SelectSession" duration-ms="22108" started-at="2018-11-09T01:47:41Z" finished-at="2018-11-09T01:48:03Z">
+        <test-method status="FAIL" signature="SelectSession()[pri:4, instance:Tests.QuickQuizForMenTest@71d15f18]" name="SelectSession" duration-ms="17509" started-at="2018-11-17T22:34:12Z" finished-at="2018-11-17T22:34:29Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[java.net.SocketException: Connection reset
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MBP-2', ip: 'fe80:0:0:0:a8:f662:860:dc94%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: driver.version: IOSDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MBP-2', ip: 'fe80:0:0:0:a8:f662:860:dc94%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: driver.version: IOSDriver
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:144)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at PageObjects.BasePage.click(BasePage.java:37)
+at PageObjects.CeckOutPage.ClickPayWithCreditCard(CeckOutPage.java:178)
+at Tests.QuickQuizForMenTest.SelectSession(QuickQuizForMenTest.java:69)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.SocketException: Connection reset
+at java.net.SocketInputStream.read(SocketInputStream.java:210)
+at java.net.SocketInputStream.read(SocketInputStream.java:141)
+at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
+at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:138)
+at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:86)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+... 48 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuickQuizForMenTest.SelectSession]]>
@@ -9314,26 +9517,106 @@
               <![CDATA[Completed executing following method : QuickQuizForMenTest.SelectSession]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite SelectSession]]>
+              <![CDATA[About to Failure executing Suite SelectSession]]>
             </line>
             <line>
               <![CDATA[Test Method resides in Tests.QuickQuizForMenTest]]>
             </line>
             <line>
-              <![CDATA[Test Status: Pass]]>
+              <![CDATA[Test Status: Failed]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite SelectSession]]>
+              <![CDATA[About to Failure executing Suite SelectSession]]>
             </line>
             <line>
               <![CDATA[Test Method resides in Tests.QuickQuizForMenTest]]>
             </line>
             <line>
-              <![CDATA[Test Status: Pass]]>
+              <![CDATA[Test Status: Failed]]>
             </line>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="CompileBooking()[pri:5, instance:Tests.QuickQuizForMenTest@71d15f18]" name="CompileBooking" duration-ms="26099" started-at="2018-11-09T01:48:03Z" finished-at="2018-11-09T01:48:29Z">
+        <test-method status="FAIL" signature="CompileBooking()[pri:5, instance:Tests.QuickQuizForMenTest@71d15f18]" name="CompileBooking" duration-ms="10680" started-at="2018-11-17T22:34:30Z" finished-at="2018-11-17T22:34:40Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MBP-2', ip: 'fe80:0:0:0:a8:f662:860:dc94%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.0, startIWDP: true, takesScreenshot: true, udid: 3F0CEB71-FA1F-48BB-9D4E-087..., webStorageEnabled: false}
+Session ID: 341814bc-552e-4e27-96b8-2306020e5d68
+*** Element info: {Using=xpath, value=//*[@name='stripeTextFieldID']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MBP-2', ip: 'fe80:0:0:0:a8:f662:860:dc94%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.0, startIWDP: true, takesScreenshot: true, udid: 3F0CEB71-FA1F-48BB-9D4E-087..., webStorageEnabled: false}
+Session ID: 341814bc-552e-4e27-96b8-2306020e5d68
+*** Element info: {Using=xpath, value=//*[@name='stripeTextFieldID']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at PageObjects.BasePage.click(BasePage.java:37)
+at PageObjects.CeckOutPage.Fillnumbercard(CeckOutPage.java:258)
+at Tests.QuickQuizForMenTest.CompileBooking(QuickQuizForMenTest.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuickQuizForMenTest.CompileBooking]]>
@@ -9342,26 +9625,106 @@
               <![CDATA[Completed executing following method : QuickQuizForMenTest.CompileBooking]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite CompileBooking]]>
+              <![CDATA[About to Failure executing Suite CompileBooking]]>
             </line>
             <line>
               <![CDATA[Test Method resides in Tests.QuickQuizForMenTest]]>
             </line>
             <line>
-              <![CDATA[Test Status: Pass]]>
+              <![CDATA[Test Status: Failed]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite CompileBooking]]>
+              <![CDATA[About to Failure executing Suite CompileBooking]]>
             </line>
             <line>
               <![CDATA[Test Method resides in Tests.QuickQuizForMenTest]]>
             </line>
             <line>
-              <![CDATA[Test Status: Pass]]>
+              <![CDATA[Test Status: Failed]]>
             </line>
           </reporter-output>
         </test-method> <!-- CompileBooking -->
-        <test-method status="PASS" signature="MadeQuiz()[pri:6, instance:Tests.QuickQuizForMenTest@71d15f18]" name="MadeQuiz" duration-ms="160808" started-at="2018-11-09T01:48:29Z" finished-at="2018-11-09T01:51:10Z">
+        <test-method status="FAIL" signature="MadeQuiz()[pri:6, instance:Tests.QuickQuizForMenTest@71d15f18]" name="MadeQuiz" duration-ms="17783" started-at="2018-11-17T22:34:41Z" finished-at="2018-11-17T22:34:59Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MBP-2', ip: 'fe80:0:0:0:a8:f662:860:dc94%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.0, startIWDP: true, takesScreenshot: true, udid: 3F0CEB71-FA1F-48BB-9D4E-087..., webStorageEnabled: false}
+Session ID: 341814bc-552e-4e27-96b8-2306020e5d68
+*** Element info: {Using=xpath, value=//*[@name='Instagram']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MBP-2', ip: 'fe80:0:0:0:a8:f662:860:dc94%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.0, startIWDP: true, takesScreenshot: true, udid: 3F0CEB71-FA1F-48BB-9D4E-087..., webStorageEnabled: false}
+Session ID: 341814bc-552e-4e27-96b8-2306020e5d68
+*** Element info: {Using=xpath, value=//*[@name='Instagram']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at PageObjects.BasePage.click(BasePage.java:37)
+at PageObjects.CeckOutPage.HowDidYouHearAboutUs(CeckOutPage.java:88)
+at Tests.QuickQuizForMenTest.MadeQuiz(QuickQuizForMenTest.java:88)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuickQuizForMenTest.MadeQuiz]]>
@@ -9370,37 +9733,37 @@
               <![CDATA[Completed executing following method : QuickQuizForMenTest.MadeQuiz]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite MadeQuiz]]>
+              <![CDATA[About to Failure executing Suite MadeQuiz]]>
             </line>
             <line>
               <![CDATA[Test Method resides in Tests.QuickQuizForMenTest]]>
             </line>
             <line>
-              <![CDATA[Test Status: Pass]]>
+              <![CDATA[Test Status: Failed]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite MadeQuiz]]>
+              <![CDATA[About to Failure executing Suite MadeQuiz]]>
             </line>
             <line>
               <![CDATA[Test Method resides in Tests.QuickQuizForMenTest]]>
             </line>
             <line>
-              <![CDATA[Test Status: Pass]]>
+              <![CDATA[Test Status: Failed]]>
             </line>
           </reporter-output>
         </test-method> <!-- MadeQuiz -->
       </class> <!-- Tests.QuickQuizForMenTest -->
     </test> <!-- QuickQuizMale -->
-    <test name="QuizForSelfIdentityTest" duration-ms="627369" started-at="2018-11-09T01:51:10Z" finished-at="2018-11-09T02:01:37Z">
+    <test name="QuizForSelfIdentityTest" duration-ms="643585" started-at="2018-11-17T22:34:59Z" finished-at="2018-11-17T22:45:43Z">
       <class name="Tests.QuizForSelfIdentityTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="setup" is-config="true" duration-ms="14754" started-at="2018-11-09T01:51:10Z" finished-at="2018-11-09T01:51:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="setup" is-config="true" duration-ms="13466" started-at="2018-11-17T22:34:59Z" finished-at="2018-11-17T22:35:13Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="DoSignUp" duration-ms="150638" started-at="2018-11-09T01:51:25Z" finished-at="2018-11-09T01:53:55Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="DoSignUp" duration-ms="153006" started-at="2018-11-17T22:35:13Z" finished-at="2018-11-17T22:37:46Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.DoSignUp]]>
@@ -9428,7 +9791,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SearchStylist" duration-ms="19161" started-at="2018-11-09T01:53:55Z" finished-at="2018-11-09T01:54:15Z">
+        <test-method status="PASS" signature="SearchStylist()[pri:2, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SearchStylist" duration-ms="19110" started-at="2018-11-17T22:37:46Z" finished-at="2018-11-17T22:38:05Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SearchStylist]]>
@@ -9456,7 +9819,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SearchStylist -->
-        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectEvents" duration-ms="36633" started-at="2018-11-09T01:54:15Z" finished-at="2018-11-09T01:54:51Z">
+        <test-method status="PASS" signature="SelectEvents()[pri:3, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectEvents" duration-ms="37344" started-at="2018-11-17T22:38:05Z" finished-at="2018-11-17T22:38:42Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectEvents]]>
@@ -9484,7 +9847,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectEvents -->
-        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectSession" duration-ms="35445" started-at="2018-11-09T01:54:51Z" finished-at="2018-11-09T01:55:27Z">
+        <test-method status="PASS" signature="SelectSession()[pri:4, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectSession" duration-ms="35803" started-at="2018-11-17T22:38:42Z" finished-at="2018-11-17T22:39:18Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectSession]]>
@@ -9512,7 +9875,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectSession -->
-        <test-method status="PASS" signature="SelectCountry()[pri:5, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectCountry" duration-ms="78379" started-at="2018-11-09T01:55:27Z" finished-at="2018-11-09T01:56:45Z">
+        <test-method status="PASS" signature="SelectCountry()[pri:5, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectCountry" duration-ms="78596" started-at="2018-11-17T22:39:18Z" finished-at="2018-11-17T22:40:36Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectCountry]]>
@@ -9540,7 +9903,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectCountry -->
-        <test-method status="PASS" signature="SelectBodyType()[pri:6, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectBodyType" duration-ms="6841" started-at="2018-11-09T01:56:45Z" finished-at="2018-11-09T01:56:52Z">
+        <test-method status="PASS" signature="SelectBodyType()[pri:6, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectBodyType" duration-ms="7053" started-at="2018-11-17T22:40:36Z" finished-at="2018-11-17T22:40:43Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectBodyType]]>
@@ -9568,7 +9931,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectBodyType -->
-        <test-method status="PASS" signature="SelectHeight()[pri:7, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectHeight" duration-ms="6830" started-at="2018-11-09T01:56:52Z" finished-at="2018-11-09T01:56:59Z">
+        <test-method status="PASS" signature="SelectHeight()[pri:7, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectHeight" duration-ms="6903" started-at="2018-11-17T22:40:43Z" finished-at="2018-11-17T22:40:50Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectHeight]]>
@@ -9596,7 +9959,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectHeight -->
-        <test-method status="PASS" signature="SelectSize()[pri:8, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectSize" duration-ms="51982" started-at="2018-11-09T01:56:59Z" finished-at="2018-11-09T01:57:51Z">
+        <test-method status="PASS" signature="SelectSize()[pri:8, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectSize" duration-ms="54230" started-at="2018-11-17T22:40:50Z" finished-at="2018-11-17T22:41:45Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectSize]]>
@@ -9624,7 +9987,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectSize -->
-        <test-method status="PASS" signature="SelectColor()[pri:9, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectColor" duration-ms="33368" started-at="2018-11-09T01:57:51Z" finished-at="2018-11-09T01:58:24Z">
+        <test-method status="PASS" signature="SelectColor()[pri:9, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectColor" duration-ms="36445" started-at="2018-11-17T22:41:45Z" finished-at="2018-11-17T22:42:21Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectColor]]>
@@ -9652,7 +10015,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectColor -->
-        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectFabrics" duration-ms="11929" started-at="2018-11-09T01:58:24Z" finished-at="2018-11-09T01:58:36Z">
+        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectFabrics" duration-ms="12350" started-at="2018-11-17T22:42:21Z" finished-at="2018-11-17T22:42:33Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectFabrics]]>
@@ -9680,7 +10043,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectFabrics -->
-        <test-method status="PASS" signature="SelectFitTop()[pri:11, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectFitTop" duration-ms="10567" started-at="2018-11-09T01:58:36Z" finished-at="2018-11-09T01:58:47Z">
+        <test-method status="PASS" signature="SelectFitTop()[pri:11, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectFitTop" duration-ms="10985" started-at="2018-11-17T22:42:33Z" finished-at="2018-11-17T22:42:44Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectFitTop]]>
@@ -9708,7 +10071,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectFitTop -->
-        <test-method status="PASS" signature="SelectFitBottom()[pri:12, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectFitBottom" duration-ms="12030" started-at="2018-11-09T01:58:47Z" finished-at="2018-11-09T01:58:59Z">
+        <test-method status="PASS" signature="SelectFitBottom()[pri:12, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectFitBottom" duration-ms="12503" started-at="2018-11-17T22:42:44Z" finished-at="2018-11-17T22:42:57Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectFitBottom]]>
@@ -9736,7 +10099,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectFitBottom -->
-        <test-method status="PASS" signature="SelectJeansp()[pri:13, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectJeansp" duration-ms="18321" started-at="2018-11-09T01:58:59Z" finished-at="2018-11-09T01:59:17Z">
+        <test-method status="PASS" signature="SelectJeansp()[pri:13, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectJeansp" duration-ms="20278" started-at="2018-11-17T22:42:57Z" finished-at="2018-11-17T22:43:17Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectJeansp]]>
@@ -9764,7 +10127,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectJeansp -->
-        <test-method status="PASS" signature="SelectHeels()[pri:14, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectHeels" duration-ms="6954" started-at="2018-11-09T01:59:17Z" finished-at="2018-11-09T01:59:24Z">
+        <test-method status="PASS" signature="SelectHeels()[pri:14, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectHeels" duration-ms="6860" started-at="2018-11-17T22:43:17Z" finished-at="2018-11-17T22:43:24Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectHeels]]>
@@ -9792,7 +10155,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectHeels -->
-        <test-method status="PASS" signature="SelectJewelry()[pri:15, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectJewelry" duration-ms="17562" started-at="2018-11-09T01:59:24Z" finished-at="2018-11-09T01:59:42Z">
+        <test-method status="PASS" signature="SelectJewelry()[pri:15, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectJewelry" duration-ms="17941" started-at="2018-11-17T22:43:24Z" finished-at="2018-11-17T22:43:42Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectJewelry]]>
@@ -9820,7 +10183,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectJewelry -->
-        <test-method status="PASS" signature="SelectHighlights()[pri:16, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectHighlights" duration-ms="18247" started-at="2018-11-09T01:59:42Z" finished-at="2018-11-09T02:00:00Z">
+        <test-method status="PASS" signature="SelectHighlights()[pri:16, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectHighlights" duration-ms="19504" started-at="2018-11-17T22:43:42Z" finished-at="2018-11-17T22:44:01Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectHighlights]]>
@@ -9848,7 +10211,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectHighlights -->
-        <test-method status="PASS" signature="SelectZone()[pri:17, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectZone" duration-ms="6723" started-at="2018-11-09T02:00:00Z" finished-at="2018-11-09T02:00:06Z">
+        <test-method status="PASS" signature="SelectZone()[pri:17, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectZone" duration-ms="6895" started-at="2018-11-17T22:44:01Z" finished-at="2018-11-17T22:44:08Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectZone]]>
@@ -9876,7 +10239,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectZone -->
-        <test-method status="PASS" signature="SelectClothingPreferences()[pri:18, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectClothingPreferences" duration-ms="5383" started-at="2018-11-09T02:00:06Z" finished-at="2018-11-09T02:00:12Z">
+        <test-method status="PASS" signature="SelectClothingPreferences()[pri:18, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectClothingPreferences" duration-ms="6204" started-at="2018-11-17T22:44:08Z" finished-at="2018-11-17T22:44:15Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectClothingPreferences]]>
@@ -9904,7 +10267,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectClothingPreferences -->
-        <test-method status="PASS" signature="SelectClothingCategories()[pri:19, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectClothingCategories" duration-ms="35275" started-at="2018-11-09T02:00:12Z" finished-at="2018-11-09T02:00:47Z">
+        <test-method status="PASS" signature="SelectClothingCategories()[pri:19, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectClothingCategories" duration-ms="38390" started-at="2018-11-17T22:44:15Z" finished-at="2018-11-17T22:44:53Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectClothingCategories]]>
@@ -9932,7 +10295,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SelectClothingCategories -->
-        <test-method status="PASS" signature="SelectYourCloset()[pri:20, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectYourCloset" duration-ms="50331" started-at="2018-11-09T02:00:47Z" finished-at="2018-11-09T02:01:37Z">
+        <test-method status="PASS" signature="SelectYourCloset()[pri:20, instance:Tests.QuizForSelfIdentityTest@530612ba]" name="SelectYourCloset" duration-ms="49702" started-at="2018-11-17T22:44:53Z" finished-at="2018-11-17T22:45:43Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : QuizForSelfIdentityTest.SelectYourCloset]]>

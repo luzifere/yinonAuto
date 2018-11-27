@@ -52,6 +52,7 @@ public class ChatTests extends BaseTest
 		login.doLogin("clientchat@wishi.com", "123456");
 		login.Sleep(250);
 		chat.RefreshPage();
+		chat.WaitElementDisplay(By.xpath("//button[@class='input_btn']"));
 		Assert.assertTrue(chat.ChatDisplay(textforchat));
 	}
 	@Test(priority = 3,groups={"sanity-group"})
@@ -74,6 +75,7 @@ public class ChatTests extends BaseTest
 		login.doLogin("staylistchat@wishi.com", "123456");
 		login.Sleep(300);
 		chat.RefreshPage();
+		chat.WaitElementDisplay(By.xpath("//button[@class='input_btn']"));
 		Assert.assertTrue(chat.ChatDisplay(textforchat));
 	}
 

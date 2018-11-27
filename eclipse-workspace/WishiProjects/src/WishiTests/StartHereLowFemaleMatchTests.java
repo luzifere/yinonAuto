@@ -27,9 +27,9 @@ public class StartHereLowFemaleMatchTests extends BaseTest
 	{
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
-		int number = 35600;
-		for (int counter = 58000; counter<=100000;counter++)
-			number = num.nextInt(7000);
+		int number = 3560000;
+		for (int counter = 5800000; counter<=10000000;counter++)
+			number = num.nextInt(700000);
 		//signup.ClickOnSignUpEmail();
 		
 		BestMatchPage best = new BestMatchPage(driver);

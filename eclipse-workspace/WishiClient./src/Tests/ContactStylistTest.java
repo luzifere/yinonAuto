@@ -31,7 +31,7 @@ public class ContactStylistTest extends BaseTest
 		textforchat = "test"+number;
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("3448wishitesttt@wishi.com");
+		login.Fillusername("contactuser@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(100);
@@ -80,7 +80,7 @@ public class ContactStylistTest extends BaseTest
 		textforchat = "test"+number;
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("3448wishitesttt@wishi.com");
+		login.Fillusername("contactuser@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(100);

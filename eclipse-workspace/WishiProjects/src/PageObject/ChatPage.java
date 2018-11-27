@@ -18,6 +18,18 @@ public class ChatPage extends BasePage
 	WebElement SendChatButton;
 	@FindBy(xpath="//div//span[text()[contains(.,'My Bookings')]]")
 	WebElement BookBtn;
+	@FindBy(xpath="//li//a[text()[contains(.,'Settings')]]")
+	WebElement SettingButton;
+	@FindBy(xpath="//li[text()[contains(.,'Deactivate Account')]]")
+	WebElement DeactivateAccount;
+	@FindBy(xpath="//button[@class='btn_deactivate']")
+	WebElement DeactivateAccountButton;
+	@FindBy(xpath="//button[@class='approve-btn btn-primary']")
+	WebElement DeactivateAccountButton_YEP;
+	@FindBy(xpath="//div//a[text()[contains(.,'Edit Membership')]]")
+	WebElement EditMemberShipButton;
+	@FindBy(xpath="(//div//button[@class='btn_membership ng-binding'])[1]")
+	WebElement PauseMemberShip;
 	@FindBy(xpath="(//nav//div//img)")
 	WebElement ProfileButton;
 	@FindBy(xpath="//div//li//a[text()[contains(.,'Log Out')]]")
@@ -71,5 +83,32 @@ public class ChatPage extends BasePage
 	{
 		click(LogOut);	
 	}
+    public void DeactivateMemberShip ()
+    {
+    	click(SettingButton);
+    	WaitElementDisplay(By.xpath("//li[text()[contains(.,'Deactivate Account')]]"));
+    	click(DeactivateAccount);
+    	WaitElementDisplay(By.xpath("//button[@class='btn_deactivate']"));
+    	click(DeactivateAccountButton);
+    	WaitElementDisplay(By.xpath("//button[@class='approve-btn btn-primary']"));
+    	click(DeactivateAccountButton_YEP);
+    	WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'Edit Membership')]]"));
+    	click(EditMemberShipButton);
+    	WaitElementDisplay(By.xpath("(//div//button[@class='btn_membership ng-binding'])[1]"));
+    	click(PauseMemberShip);
+    	WaitElementDisplay(By.xpath("//h4[@class='note_membership ng-scope']"));
+    	click(DeactivateAccount);
+    	WaitElementDisplay(By.xpath("//button[@class='btn_deactivate']"));
+    	click(DeactivateAccountButton);
+    	WaitElementDisplay(By.xpath("//button[@class='approve-btn btn-primary']"));
+    	click(DeactivateAccountButton_YEP);
+    }
+    public void CancelMemberShip()
+    {
+    	WaitElementDisplay(By.xpath("(//div//button[@class='btn_membership ng-binding'])[1]"));
+    	click(PauseMemberShip);
+    }
+    
+    
 
 }

@@ -44,6 +44,7 @@ public class CrateLookTests extends BaseTest
 		//booking.FillFirstName("yinon");
 	//	booking.FillLastName("aba");
 		//booking.Sleep(350);
+		/*
 		booking.SwitchToFrame(0);
 		booking.FillCardNumber("4111111111111111");
 		booking.FillCardDate("0222");
@@ -54,6 +55,11 @@ public class CrateLookTests extends BaseTest
 		booking.WaitElementDisplay(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]"));
 		//BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
 		driver.findElement(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]")).click();
+		*/
+		String copun = this.configFileReader.getcopun();
+		booking.UseCodCoopon(copun);
+		booking.ClickFinishCheckout();
+		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
 		booking.ClickBookingstylist();
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickOnProfileClientButton();
