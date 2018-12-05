@@ -89,8 +89,8 @@ public class BookingsingleTests extends BaseTest
 		*/
 		booking.ClickMyBooking();
 		booking.RefreshPage();
-		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Oren Oren')]]/..//span[text()[contains(.,'session')]]"));
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Oren Oren')]]/..//span[text()[contains(.,'session')]]"));
+		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'session')]]"));
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'session')]]"));
 		booking.Sleep(300);
 		booking.close();
 	}

@@ -32,7 +32,7 @@ public class QuizForMaleTest extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestxtt@wishi.com" , "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbesttya@wishi.com" , "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -75,8 +75,10 @@ public class QuizForMaleTest extends BaseTest
 		//search.ScrollLeft();
 		search.Sleep(200);
 		search.ClickSearch();
-		search.FillStylist("Oren Oren");
-		search.SelectStylist("//*[@name='Oren Oren']");
+		String stylistName = this.configFileReader.getStylistName();
+		search.FillStylist(stylistName);
+		//search.FillStylist("Oren Oren");
+		search.SelectStylist("//*[@name='"+stylistName+"']");
 	}	
 	@Test(priority = 3,groups={"sanity-group"})
 	public void SelectEvents() 
@@ -101,7 +103,9 @@ public class QuizForMaleTest extends BaseTest
 		co.Sleep(100);
 		//co.scrollDownXpath();
 		co.ClickAddCode();
-		co.FillCode("wishitest");
+		String copun = this.configFileReader.getcopun();
+		co.FillCode(copun);
+		//co.FillCode("wishitest");
 		co.ClickDoneOfCode();
 		co.ClickApplePayButton();
 		co.ClickTakeYourStyleQwiz();
@@ -236,8 +240,9 @@ public class QuizForMaleTest extends BaseTest
 		//quiz.ClickNextw();
 		quiz.Sleep(250);
 		quiz.SelectImage3(150,250);
-		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with Oren Oren']"));
-		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
+		String stylistName = this.configFileReader.getStylistName();
+		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with "+stylistName+"']"));
+		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with "+stylistName+"']"));
 		driver.resetApp();
 	}
 

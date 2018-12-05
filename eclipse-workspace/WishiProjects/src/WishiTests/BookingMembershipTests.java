@@ -103,8 +103,8 @@ public class BookingMembershipTests extends BaseTest
 		*/
 		booking.ClickMyBooking();
 		booking.RefreshPage();
-		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Oren Oren')]]/..//span[text()[contains(.,'membership')]]"));
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Oren Oren')]]/..//span[text()[contains(.,'membership')]]"));
+		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'membership')]]"));
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'membership')]]"));
 		booking.Sleep(300);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickOnProfileClientButton();

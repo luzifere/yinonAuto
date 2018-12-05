@@ -10,6 +10,7 @@ import PageObjects.CeckOutPage;
 import PageObjects.LoginPage;
 import PageObjects.QuizPage;
 import PageObjects.SearchPage;
+import PageObjects.SettingPage;
 
 
 
@@ -17,12 +18,13 @@ import PageObjects.SearchPage;
 
 public class CheckOutMounthTest extends BaseTest
 {
+	
 	@Test(priority = 1,groups={"sanity-group"})
 	public void DoLogin() 
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("AutomationtestuserM@wishi.com");
+		login.Fillusername("AutomationuserM@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -40,8 +42,10 @@ public class CheckOutMounthTest extends BaseTest
 		//search.ScrollLeft();
 		//search.ScrollLeft();
 		search.ClickSearch();
-		search.FillStylist("Oren Oren");
-		search.SelectStylist("//*[@name='Oren Oren']");
+		String stylistName = this.configFileReader.getStylistName();
+		search.FillStylist(stylistName);
+		//search.FillStylist("Oren Oren");
+		search.SelectStylist("//*[@name='"+stylistName+"']");
 		//search.SelectviewProfileID();
 	}	
 	@Test(priority = 3,groups={"sanity-group"})
@@ -74,7 +78,9 @@ public class CheckOutMounthTest extends BaseTest
 	{
 		CeckOutPage co = new CeckOutPage(driver);
 		//co.Fillemail("jhgjhg@fgcgf.jg");
-		co.Fillnumbercard("4242424242424242424242");
+		String CardNumber = this.configFileReader.getCardNumber();
+		co.Fillnumbercard(CardNumber);
+		//co.Fillnumbercard("4242424242424242424242");
 		co.ClickCompileBooking();
 		co.ClickTakeYourStyleQwiz();
 		QuizPage quiz = new QuizPage(driver);
@@ -100,8 +106,15 @@ public class CheckOutMounthTest extends BaseTest
 		quiz.Sleep(200);
 		CeckOutPage.DismissAlert();
 		quiz.SelectImage3(150,250);
-		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with Oren Oren']"));
-		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
+		String stylistName = this.configFileReader.getStylistName();
+		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with "+stylistName+"']"));
+		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with "+stylistName+"']"));
+		quiz.SelectImage3(100,200);
+		driver.findElement(By.xpath("//*[@name='BackBarButtonID']")).click();
+		SettingPage setting = new SettingPage(driver);
+		setting.ClickMeTab();
+		setting.ClickSettingButton();
+		setting.DeactivateMemberShip();
 		driver.resetApp();
 
 

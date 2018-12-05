@@ -77,7 +77,9 @@ public class ReviseThirdLookTest extends BaseTest
 		co.Sleep(100);
 		//co.scrollDownXpath();
 		co.ClickAddCode();
-		co.FillCode("wishitest");
+		String copun = this.configFileReader.getcopun();
+		co.FillCode(copun);
+		//co.FillCode("wishitest");
 		co.Sleep(200);
 		co.ClickDoneOfCode();
 		co.ClickApplePayButton();
@@ -327,17 +329,18 @@ public class ReviseThirdLookTest extends BaseTest
 		driver.findElement(By.xpath("//*[@name='Amazing!']")).click();
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
-		booking.AddLooks();
+		//booking.AddLooks();
 		booking.ClickShop();
 		booking.ClickUpArrow();
 		QuizPage quiz = new QuizPage(driver);
 		quiz.scrollDownXpath();
 		quiz.SelectImage3(110,210);
 		quiz.SelectImage3(150,250);
-		/*
+		
 		quiz.SelectCategory("shorts_new");
 		quiz.Sleep(250);
 		quiz.SelectImage3(110,210);
+		/*
 		quiz.SelectImage3(150,250);
 		*/
 		booking.ClickSave();

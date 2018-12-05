@@ -1,51 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="WishiTests.Listener"/>
-  </listeners>
-  <test thread-count="5" name="StartHereNaturalMatchTests(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WishiTests.StartHereNaturalMatchTests">
+      <class name="WishiTests.BookingMembershipTests">
         <methods>
           <include name="tearDown"/>
-          <include name="BMExpensiveMale"/>
+          <include name="CheckOutSession"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- WishiTests.StartHereNaturalMatchTests -->
+      </class> <!-- WishiTests.BookingMembershipTests -->
     </classes>
-  </test> <!-- StartHereNaturalMatchTests(failed) -->
-  <test thread-count="5" name="RetakeMatchNaturalTests(failed)">
-    <classes>
-      <class name="WishiTests.RetakeMatchNaturalTests">
-        <methods>
-          <include name="BMNatural"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- WishiTests.RetakeMatchNaturalTests -->
-    </classes>
-  </test> <!-- RetakeMatchNaturalTests(failed) -->
-  <test thread-count="5" name="BestMatchNormalFeamleTests(failed)">
-    <classes>
-      <class name="WishiTests.BestMatchNormalFeamleTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="BMNormalFeamle"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- WishiTests.BestMatchNormalFeamleTests -->
-    </classes>
-  </test> <!-- BestMatchNormalFeamleTests(failed) -->
-  <test thread-count="5" name="BestMatchNaturalTests(failed)">
-    <classes>
-      <class name="WishiTests.BestMatchNaturalTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="BMNatural"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- WishiTests.BestMatchNaturalTests -->
-    </classes>
-  </test> <!-- BestMatchNaturalTests(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -28,7 +28,7 @@ public class RetakeBestMatch extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestftrrt@wishi.com" , "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbesttya@wishi.com" , "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
@@ -52,6 +52,9 @@ public class RetakeBestMatch extends BaseTest
 		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
 		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
 		best.scrollDownXpath();
+		SettingPage setting = new SettingPage(driver);
+		setting.ClickRetakeSetting();
+		/*
 		best.CloseBestMatch();
 		best.Sleep(500);
 		BestMutch.AcceptAlert();
@@ -61,9 +64,10 @@ public class RetakeBestMatch extends BaseTest
 		SettingPage setting = new SettingPage(driver);
 		setting.ClickMeTab();
 		setting.ClickSettingButton();
-		setting.ClickRetake();
+		setting.ClickRetakeSetting();
+		*/
 	}
-	@Test(priority = 2,groups={"sanity-group"})
+	@Test(priority = 4,groups={"sanity-group"})
 	public void RetakeFemale() 
 	{
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
@@ -89,12 +93,25 @@ public class RetakeBestMatch extends BaseTest
 		best.ClickNextbutton();
 		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
 		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
-		best.scrollDownXpath();
+		/*
+		//best.scrollDownXpath();
+		best.SelectImage3(170,170);
+		best.CloseBestMatch();
+		best.Sleep(500);
+		BestMutch.AcceptAlert();
+		best.Sleep(500);
+		BestMutch.AcceptAlert();
+		Assert.assertTrue(sign.ElementEnable("//*[@name='STYLE SESSION INCLUDES:']"));
+		driver.resetApp();
+		/*
+		//driver.getPageSource();
 		SettingPage setting = new SettingPage(driver);
+		setting.Sleep(300);
 		setting.ClickRetake();
+		*/
 		
 	}
-	@Test(priority = 3,groups={"sanity-group"})
+	@Test(priority = 2,groups={"sanity-group"})
 	public void RetakeMale() 
 	{
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
@@ -118,9 +135,9 @@ public class RetakeBestMatch extends BaseTest
 		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
 		best.scrollDownXpath();
 		SettingPage setting = new SettingPage(driver);
-		setting.ClickRetake();
+		setting.ClickRetakeSetting();
 	}
-	@Test(priority = 4,groups={"sanity-group"})
+	@Test(priority = 3,groups={"sanity-group"})
 	public void RetakeNatural() 
 	{
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
@@ -141,8 +158,23 @@ public class RetakeBestMatch extends BaseTest
 		BestMutch.AcceptAlert();
 		best.Sleep(500);
 		BestMutch.AcceptAlert();
+		//best.SelectImage2(250,450);
+		SettingPage setting = new SettingPage(driver);
+		setting.ClickMeTab();
+		setting.ClickSettingButton();
+		setting.ClickRetakeSetting();
+		/*
+		SettingPage setting = new SettingPage(driver);
+		setting.ClickRetakeSetting();
+		/*
+		best.CloseBestMatch();
+		best.Sleep(500);
+		BestMutch.AcceptAlert();
+		best.Sleep(500);
+		BestMutch.AcceptAlert();
 		Assert.assertTrue(sign.ElementEnable("//*[@name='STYLE SESSION INCLUDES:']"));
 		driver.resetApp();
+		*/
 	}
 	//@Test(priority = 3,groups={"sanity-group"})
 	public void EditSize() 

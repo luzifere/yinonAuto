@@ -1,39 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="Tests.Listener"/>
-  </listeners>
-  <test thread-count="5" name="ReviseThirdLookTest(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.ReviseThirdLookTest">
+      <class name="Tests.CheckOutMounthTest">
         <methods>
-          <include name="AskRevise1"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- Tests.ReviseThirdLookTest -->
-    </classes>
-  </test> <!-- ReviseThirdLookTest(failed) -->
-  <test thread-count="5" name="CheckOutByCoponTest(failed)">
-    <classes>
-      <class name="Tests.CheckOutByCoponTest">
-        <methods>
-          <include name="setup"/>
-          <include name="SelectSession"/>
-        </methods>
-      </class> <!-- Tests.CheckOutByCoponTest -->
-    </classes>
-  </test> <!-- CheckOutByCoponTest(failed) -->
-  <test thread-count="5" name="QuickQuizMale(failed)">
-    <classes>
-      <class name="Tests.QuickQuizForMenTest">
-        <methods>
-          <include name="SelectSession"/>
           <include name="setup"/>
           <include name="CompileBooking"/>
-          <include name="MadeQuiz"/>
         </methods>
-      </class> <!-- Tests.QuickQuizForMenTest -->
+      </class> <!-- Tests.CheckOutMounthTest -->
     </classes>
-  </test> <!-- QuickQuizMale(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

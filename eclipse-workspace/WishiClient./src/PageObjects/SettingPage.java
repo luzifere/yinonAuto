@@ -76,8 +76,23 @@ public class SettingPage extends BasePage
 	WebElement Instegram;
 	@FindBy(id="FacebookTextFieldID")
 	WebElement Facbook;
-	@FindBy(id="Retake Your Style Match")
+	//@FindBy(id="RTSMButtonID")
+	@FindBy(xpath="//*[@name='RTSMButtonID']")
 	WebElement Retake;
+	@FindBy(id="Retake Your Style Match")
+	WebElement RetakeSetting;
+	@FindBy(xpath="//*[@name='Deactivate Account']")
+	WebElement DeactivateAccount;
+	@FindBy(xpath="//*[@name='Deactivate']")
+	WebElement DeactivateAccountButton;
+	@FindBy(xpath="//*[@name='EditMembershipButtonViewID']")
+	WebElement EditMemberShipButton;
+	@FindBy(xpath="(//*[@name='activateAccountButton'])[1]")
+	WebElement PauseMemberShip;
+	@FindBy(xpath="//*[@name='End my benefits']")
+	WebElement EndMyBenefits;
+	@FindBy(xpath="//*[@name='Submit']")
+	WebElement Submit;
 	
 	
 	
@@ -147,6 +162,12 @@ public class SettingPage extends BasePage
 	{		
 		Sleep(200);
 		click(Retake);
+		Sleep(200);
+	}
+	public void ClickRetakeSetting() 
+	{		
+		Sleep(200);
+		click(RetakeSetting);
 		Sleep(200);
 	}
 	
@@ -332,5 +353,22 @@ public class SettingPage extends BasePage
 	{
 		filltext(Facbook,text);
 	}
+	public void DeactivateMemberShip ()
+    {
+    	WaitElementDisplay(By.xpath("//*[@name='Deactivate Account']"));
+    	click(DeactivateAccount);
+    	WaitElementDisplay(By.xpath("//*[@name='Deactivate']"));
+    	click(DeactivateAccountButton);
+    	WaitElementDisplay(By.xpath("//*[@name='EditMembershipButtonViewID']"));
+    	//click(DeactivateAccountButton_YEP);
+    	//WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'Edit Membership')]]"));
+    	click(EditMemberShipButton);
+    	WaitElementDisplay(By.xpath("(//*[@name='activateAccountButton'])[1]"));
+    	click(PauseMemberShip);
+    	WaitElementDisplay(By.xpath("//*[@name='End my benefits']"));
+    	click(EndMyBenefits);
+    	WaitElementDisplay(By.xpath("//*[@name='Submit']"));
+    	click(Submit);
+    }
 
 }

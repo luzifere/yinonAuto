@@ -61,7 +61,8 @@ public class QwizTests extends BaseTest
 	public void CheckOutSession ()
 	{
 		BookingPage booking = new BookingPage(driver);
-		booking.SearchStylist("Oren Oren");
+		String stylistName = this.configFileReader.getStylistName();
+		booking.SearchStylist(stylistName);
 		booking.SelectStylist();
 		booking.Sleep(200);
 		booking.SelectSingle();

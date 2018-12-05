@@ -91,7 +91,8 @@ public class BestMutch extends BasePage
 	}
 	public void ClickHoeToWork() 
 	{	Sleep(250);
-		click(how_it_workst);
+		//click(how_it_workst);
+	SelectImage3(250,450);
 		Sleep(250);
 	}
 	public void ClickBodyType() 

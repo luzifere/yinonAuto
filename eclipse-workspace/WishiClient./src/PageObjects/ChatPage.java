@@ -54,6 +54,9 @@ public class ChatPage extends BasePage {
 	WebElement ContactMessage;
 	@FindBy(xpath="//*[@name='ContactButtonID']")
 	WebElement ContactButton;
+	
+	
+	
 
 	public void ClickChatButton() 
 	{		
@@ -204,5 +207,6 @@ public class ChatPage extends BasePage {
 		//driver.findElementByAccessibilityId("Chat").click();
 		Sleep(250);
 	}
+	
 
 }

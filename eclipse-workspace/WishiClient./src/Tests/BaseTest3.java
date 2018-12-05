@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.BeforeTest;
 
+import dataProvider.ConfigFileReader;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.IOSElement;
@@ -18,8 +19,10 @@ import io.appium.java_client.remote.MobileCapabilityType;
 public class BaseTest3 
 {
 	static AppiumDriver<WebElement>driver;
+	static ConfigFileReader configFileReader;
 	public static  AppiumDriver<WebElement>capabileties() throws MalformedURLException   
 	{
+		configFileReader= new ConfigFileReader();
 		DesiredCapabilities cap = new DesiredCapabilities();
 		//if (device.equals("emulator"))
 		//{
@@ -58,6 +61,7 @@ public class BaseTest3
 	}
 	public static  AppiumDriver<WebElement>capabileties2() throws MalformedURLException   
 	{
+		configFileReader= new ConfigFileReader();
 		DesiredCapabilities cap = new DesiredCapabilities();
 		//if (device.equals("emulator"))
 		//{

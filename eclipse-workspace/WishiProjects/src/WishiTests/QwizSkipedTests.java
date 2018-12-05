@@ -54,7 +54,8 @@ public class QwizSkipedTests extends BaseTest
 	public void CheckOutSessionskip ()
 	{
 		BookingPage booking = new BookingPage(driver);
-		booking.SearchStylist("Oren Oren");
+		String stylistName = this.configFileReader.getStylistName();
+		booking.SearchStylist(stylistName);
 		booking.SelectStylist();
 		booking.Sleep(300);
 		booking.SelectSingle();

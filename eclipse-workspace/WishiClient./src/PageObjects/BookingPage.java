@@ -280,10 +280,11 @@ public class BookingPage extends BasePage {
 	public void SelectImageForRevise()
 	{
 		Sleep(170);
-		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='TopmanID']"));
-		//List<WebElement> elements= driver.findElements(By.id("ReviseImageID"));
+		//List<WebElement> elements= driver.findElements(By.xpath("//*[@name='TopmanID']"));
+		List<WebElement> elements= driver.findElements(By.id("CellReviseID"));
 		System.out.println(elements);
 		int count=elements.size();
+		System.out.println(count);
 		String last =	elements.get(count-1).getText();
 		System.out.println(last);
 		Sleep(170);

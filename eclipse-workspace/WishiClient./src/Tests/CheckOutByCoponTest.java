@@ -1,5 +1,6 @@
 package Tests;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -37,8 +38,10 @@ public class CheckOutByCoponTest extends BaseTest
 		//search.ScrollLeft();
 		//search.ScrollLeft();
 		search.ClickSearch();
-		search.FillStylist("Oren Oren");
-		search.SelectStylist("//*[@name='Oren Oren']");
+		String stylistName = this.configFileReader.getStylistName();
+		search.FillStylist(stylistName);
+		//search.FillStylist("Oren Oren");
+		search.SelectStylist("//*[@name='"+stylistName+"']");
 		//search.SelectviewProfileID();
 	}	
 	@Test(priority = 3,groups={"sanity-group"})
@@ -64,7 +67,9 @@ public class CheckOutByCoponTest extends BaseTest
 		co.Sleep(100);
 		co.scrollDownXpath();
 		co.ClickAddCode();
-		co.FillCode("wishitest");
+		String copun = this.configFileReader.getcopun();
+		co.FillCode(copun);
+		//co.FillCode("wishitest");
 		co.Sleep(200);
 		co.ClickDoneOfCode();
 		co.ClickApplePayButton();
@@ -92,7 +97,9 @@ public class CheckOutByCoponTest extends BaseTest
 		quiz.Sleep(200);
 		CeckOutPage.DismissAlert();
 		quiz.SelectImage3(150,250);
-		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with Oren Oren']"));
+		String stylistName = this.configFileReader.getStylistName();
+		quiz.WaitElementDisplay(By.xpath("//*[@name='Session with "+stylistName+"']"));
+		Assert.assertTrue(quiz.ElementDisplay("//*[@name='Session with "+stylistName+"']"));
 		driver.resetApp();
 	}
 }
