@@ -61,7 +61,9 @@ public class BookingCCTests extends BaseTest
 		//booking.SelectUnlimited();
 		//booking.ClickApllay();
 		booking.ClickSearchButton();
-		booking.SearchStylist("Oren Oren");
+		booking.Sleep(150);
+		String stylistName = this.configFileReader.getStylistName();
+		booking.SearchStylist(stylistName);
 		//booking.SelectStylist();
 		booking.BookStylist();
 		booking.ClickName();
@@ -69,10 +71,13 @@ public class BookingCCTests extends BaseTest
 		booking.Switch_to_strype();
 		//booking.SwitchToFrame(0);
 		//booking.Sleep(200);
-		booking.FillCardNumber("4242424242424242");
-		booking.FillCardDate("0225");
-		booking.FillCardCVC("424");
-		booking.Sleep(50);
+		String CardNumber = this.configFileReader.getCardNumber();
+		booking.FillCardNumber(CardNumber);
+		String CardDate = this.configFileReader.getCardDate();
+		booking.FillCardDate(CardDate);
+		String CardCVC = this.configFileReader.getCardCVC();
+		booking.FillCardCVC(CardCVC);
+		booking.Sleep(150);
 		//booking.returnToWindowdefault();
 		//booking.ClickFinishCheckout();
 		PageObejecs.BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn-mob']"));

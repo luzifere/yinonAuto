@@ -14,7 +14,7 @@ public class BestMutch extends BasePage
 		super(_driver);
 		// TODO Auto-generated constructor stub
 	}
-	@FindBy(xpath="//*[@name='HowItWorksID']")
+	@FindBy(xpath="//*[@name='TapToContinueLabelID']")
 	WebElement how_it_workst;
 	
 	@FindBy(xpath="//*[@name='HowItWorksID']")
@@ -91,8 +91,7 @@ public class BestMutch extends BasePage
 	}
 	public void ClickHoeToWork() 
 	{	Sleep(250);
-		//click(how_it_workst);
-	SelectImage3(250,450);
+		click(how_it_workst);
 		Sleep(250);
 	}
 	public void ClickBodyType() 

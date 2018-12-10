@@ -63,7 +63,7 @@ public class SignUpTest extends BaseTest
 		sign.WaitElementDisplay(By.id("signUpButton"));
 		sign.ClickSignUpEmail();
 		sign.doSignUpClear("wishsi", "wishsi",number +"wishitesttt@wishi.com", "123456");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='HowItWorksID']"));
+		Assert.assertTrue(sign.ElementEnable("//*[@name='TapToContinueLabelID']"));
 		driver.resetApp();
 
 	}

@@ -9,17 +9,19 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import dataProvider.ConfigFileReader;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 public class BaseTest 
 {
+	ConfigFileReader configFileReader;
 	AndroidDriver<AndroidElement> driver;
 	public AndroidDriver<AndroidElement> Capabilities(String device) throws MalformedURLException 
 	{
 		
-		
+		configFileReader= new ConfigFileReader();
 		DesiredCapabilities cap = new DesiredCapabilities();
 		if (device.equals("emulator"))
 		{
@@ -40,7 +42,7 @@ public class BaseTest
 	public void setup() throws MalformedURLException
 	{
 		Capabilities("real");
-		driver.get("https://stage.wishi.me");
+		driver.get(configFileReader.getApplicationUrl());
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	

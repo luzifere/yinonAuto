@@ -60,10 +60,13 @@ public class BookingTests extends BaseTest
 
 		PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);
 		booking.ClickSearchButton();
-		booking.SearchStylist("Oren Oren");
+		booking.Sleep(150);
+		String stylistName = this.configFileReader.getStylistName();
+		booking.SearchStylist(stylistName);
 		//booking.SelectStylist();
 		booking.BookStylist();
-		booking.UseCodCoopon("wishitest");
+		String copun = this.configFileReader.getcopun();
+		booking.UseCodCoopon(copun);
 		booking.ClickFinishCheckout();
 		booking.Sleep(250);
 		PageObejecs.BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn-mob']"));
@@ -101,7 +104,8 @@ public class BookingTests extends BaseTest
 	{
 		PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);
 		booking.ClickSearchButton();
-		booking.SearchStylist("Casey Huth");
+		String stylistName = this.configFileReader.getStylistName();
+		booking.SearchStylist(stylistName);
 		booking.SelectStylist();
 		booking.BookStylist();
 		booking.ClickName();

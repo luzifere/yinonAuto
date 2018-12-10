@@ -8,21 +8,323 @@
     <classes>
       <class name="Tests.QuickQuizForWomenTest">
         <methods>
+          <include name="SelectEvents"/>
+          <include name="SelectSession"/>
           <include name="CompileBooking"/>
           <include name="setup"/>
+          <include name="SearchStylist"/>
+          <include name="DoLogin"/>
         </methods>
       </class> <!-- Tests.QuickQuizForWomenTest -->
     </classes>
   </test> <!-- QuickQuizForWomenTest(failed) -->
+  <test thread-count="5" name="QuickQuizMale(failed)">
+    <classes>
+      <class name="Tests.QuickQuizForMenTest">
+        <methods>
+          <include name="SelectEvents"/>
+          <include name="SelectSession"/>
+          <include name="setup"/>
+          <include name="CompileBooking"/>
+          <include name="SearchStylist"/>
+          <include name="MadeQuiz"/>
+          <include name="DoLogin"/>
+        </methods>
+      </class> <!-- Tests.QuickQuizForMenTest -->
+    </classes>
+  </test> <!-- QuickQuizMale(failed) -->
+  <test thread-count="5" name="QuizForSelfIdentityTest(failed)">
+    <classes>
+      <class name="Tests.QuizForSelfIdentityTest">
+        <methods>
+          <include name="SelectColor"/>
+          <include name="SelectHeight"/>
+          <include name="SelectEvents"/>
+          <include name="setup"/>
+          <include name="SelectFitBottom"/>
+          <include name="SelectSession"/>
+          <include name="SelectYourCloset"/>
+          <include name="SelectBodyType"/>
+          <include name="SelectJeansp"/>
+          <include name="DoSignUp"/>
+          <include name="SearchStylist"/>
+          <include name="SelectClothingPreferences"/>
+          <include name="SelectFitTop"/>
+          <include name="SelectSize"/>
+          <include name="SelectHeels"/>
+          <include name="SelectJewelry"/>
+          <include name="SelectClothingCategories"/>
+          <include name="SelectHighlights"/>
+          <include name="SelectFabrics"/>
+          <include name="SelectZone"/>
+          <include name="SelectCountry"/>
+        </methods>
+      </class> <!-- Tests.QuizForSelfIdentityTest -->
+    </classes>
+  </test> <!-- QuizForSelfIdentityTest(failed) -->
+  <test thread-count="5" name="CheckOutMounthTest(failed)">
+    <classes>
+      <class name="Tests.CheckOutMounthTest">
+        <methods>
+          <include name="DoLogin"/>
+          <include name="setup"/>
+          <include name="SearchStylist"/>
+          <include name="CompileBooking"/>
+          <include name="SelectSession"/>
+          <include name="SelectEvents"/>
+        </methods>
+      </class> <!-- Tests.CheckOutMounthTest -->
+    </classes>
+  </test> <!-- CheckOutMounthTest(failed) -->
+  <test thread-count="5" name="CheckOutSingleTest(failed)">
+    <classes>
+      <class name="Tests.CheckOutSingleTest">
+        <methods>
+          <include name="CompileBooking"/>
+          <include name="SelectEvents"/>
+          <include name="setup"/>
+          <include name="DoLogin"/>
+          <include name="SearchStylist"/>
+          <include name="SelectSession"/>
+        </methods>
+      </class> <!-- Tests.CheckOutSingleTest -->
+    </classes>
+  </test> <!-- CheckOutSingleTest(failed) -->
+  <test thread-count="5" name="CheckOutByCoponTest(failed)">
+    <classes>
+      <class name="Tests.CheckOutByCoponTest">
+        <methods>
+          <include name="DoLogin"/>
+          <include name="SearchStylist"/>
+          <include name="setup"/>
+          <include name="SelectEvents"/>
+          <include name="SelectSession"/>
+        </methods>
+      </class> <!-- Tests.CheckOutByCoponTest -->
+    </classes>
+  </test> <!-- CheckOutByCoponTest(failed) -->
+  <test thread-count="5" name="QuizForMaleTest(failed)">
+    <classes>
+      <class name="Tests.QuizForMaleTest">
+        <methods>
+          <include name="SelectFitBottom"/>
+          <include name="SelectColor"/>
+          <include name="SelectEvents"/>
+          <include name="SelectHeight"/>
+          <include name="SelectSession"/>
+          <include name="setup"/>
+          <include name="DoSignUp"/>
+          <include name="SelectBodyType"/>
+          <include name="SearchStylist"/>
+          <include name="SelectFitTop"/>
+          <include name="SelectJewelry"/>
+          <include name="SelectSize"/>
+          <include name="SelectFabrics"/>
+          <include name="SelectZone"/>
+          <include name="SelectClothingCategories"/>
+          <include name="SelectCountry"/>
+        </methods>
+      </class> <!-- Tests.QuizForMaleTest -->
+    </classes>
+  </test> <!-- QuizForMaleTest(failed) -->
+  <test thread-count="5" name="QuizForWomenTest(failed)">
+    <classes>
+      <class name="Tests.QuizForWomenTest">
+        <methods>
+          <include name="SelectYourCloset"/>
+          <include name="SelectJeansp"/>
+          <include name="setup"/>
+          <include name="DoSignUp"/>
+          <include name="SelectBodyType"/>
+          <include name="SelectColor"/>
+          <include name="SelectSession"/>
+          <include name="SearchStylist"/>
+          <include name="SelectHeight"/>
+          <include name="SelectEvents"/>
+          <include name="SelectFitBottom"/>
+          <include name="SelectHighlights"/>
+          <include name="SelectZone"/>
+          <include name="SelectCountry"/>
+          <include name="SelectJewelry"/>
+          <include name="SelectClothingCategories"/>
+          <include name="SelectFabrics"/>
+          <include name="SelectClothingPreferences"/>
+          <include name="SelectSize"/>
+          <include name="SelectHeels"/>
+          <include name="SelectFitTop"/>
+        </methods>
+      </class> <!-- Tests.QuizForWomenTest -->
+    </classes>
+  </test> <!-- QuizForWomenTest(failed) -->
+  <test thread-count="5" name="BestMutch(failed)">
+    <classes>
+      <class name="Tests.BestMutch">
+        <methods>
+          <include name="BestMatchFeMaleCheepExpensive"/>
+          <include name="BestMatchSelfIdentity"/>
+          <include name="setup"/>
+          <include name="BestMatchCheepFamle"/>
+          <include name="BestMatchCheepMale"/>
+          <include name="BestMatchFeMaleNormal"/>
+          <include name="BestMatchNormalMale"/>
+          <include name="BestMatchExpensiveMale"/>
+          <include name="BestMatchFeMaleExpensive"/>
+        </methods>
+      </class> <!-- Tests.BestMutch -->
+    </classes>
+  </test> <!-- BestMutch(failed) -->
+  <test thread-count="5" name="ContactStylistTest(failed)">
+    <classes>
+      <class name="Tests.ContactStylistTest">
+        <methods>
+          <include name="StylistSendToClient"/>
+          <include name="setup"/>
+          <include name="ClientToStylist"/>
+        </methods>
+      </class> <!-- Tests.ContactStylistTest -->
+    </classes>
+  </test> <!-- ContactStylistTest(failed) -->
+  <test thread-count="5" name="EditStyleForMenTests(failed)">
+    <classes>
+      <class name="Tests.EditStyleForMenTests">
+        <methods>
+          <include name="EditJewelry"/>
+          <include name="EditColor"/>
+          <include name="EditFitBottom"/>
+          <include name="setup"/>
+          <include name="EditStyle"/>
+          <include name="EditBodyType"/>
+          <include name="EditBudget"/>
+          <include name="DoSignUp"/>
+          <include name="EditSize"/>
+          <include name="EditBrands"/>
+          <include name="EditSocialMedia"/>
+          <include name="EditHeight"/>
+          <include name="EditFitTop"/>
+          <include name="EditZone"/>
+        </methods>
+      </class> <!-- Tests.EditStyleForMenTests -->
+    </classes>
+  </test> <!-- EditStyleForMenTests(failed) -->
+  <test thread-count="5" name="EditStyleForWomenTests(failed)">
+    <classes>
+      <class name="Tests.EditStyleForWomenTests">
+        <methods>
+          <include name="EditBudget"/>
+          <include name="EditBrands"/>
+          <include name="EditHighlights"/>
+          <include name="EditSize"/>
+          <include name="DoSignUp"/>
+          <include name="EditColor"/>
+          <include name="EditFitBottom"/>
+          <include name="EditJewelry"/>
+          <include name="setup"/>
+          <include name="EditBodyType"/>
+          <include name="EditStyle"/>
+          <include name="EditSocialMedia"/>
+          <include name="EditFitTop"/>
+          <include name="EditJeans"/>
+          <include name="EditZone"/>
+          <include name="EditFabric"/>
+          <include name="EditHeels"/>
+          <include name="EditHeight"/>
+        </methods>
+      </class> <!-- Tests.EditStyleForWomenTests -->
+    </classes>
+  </test> <!-- EditStyleForWomenTests(failed) -->
+  <test thread-count="5" name="LoginTests(failed)">
+    <classes>
+      <class name="Tests.LoginTests">
+        <methods>
+          <include name="DoLogin"/>
+          <include name="FillPasswordWithOutToFillEmail"/>
+          <include name="FillPasswordWithOutToFillPassword"/>
+          <include name="setup"/>
+          <include name="FillPasswordWithWrongPassword"/>
+          <include name="ClickLoginwWithOutToFillAnyFields"/>
+          <include name="FillPasswordWithWrongEmail"/>
+        </methods>
+      </class> <!-- Tests.LoginTests -->
+    </classes>
+  </test> <!-- LoginTests(failed) -->
+  <test thread-count="5" name="SignUpByFacbookTest2(failed)">
+    <classes>
+      <class name="Tests.SignUpByFacbookTest2">
+        <methods>
+          <include name="LoginWithFacbookWithoutUser"/>
+          <include name="LoginWithFacbookWrongUserName"/>
+          <include name="LoginWithFacbookWrongPassword"/>
+          <include name="LoginWithFacbookWithoutPassword"/>
+          <include name="DoLoginWithFacbook"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Tests.SignUpByFacbookTest2 -->
+    </classes>
+  </test> <!-- SignUpByFacbookTest2(failed) -->
+  <test thread-count="5" name="SignUpTest(failed)">
+    <classes>
+      <class name="Tests.SignUpTest">
+        <methods>
+          <include name="DoSignUp"/>
+          <include name="SignupwithoutDotCom"/>
+          <include name="setup"/>
+          <include name="FillPsswordWithLessthan6Characters"/>
+          <include name="Signupwithoutshtudel"/>
+        </methods>
+      </class> <!-- Tests.SignUpTest -->
+    </classes>
+  </test> <!-- SignUpTest(failed) -->
+  <test thread-count="5" name="ChatTest(failed)">
+    <classes>
+      <class name="Tests.ChatTest">
+        <methods>
+          <include name="setup"/>
+          <include name="StylistSendToClient"/>
+          <include name="ClientToStylist"/>
+        </methods>
+      </class> <!-- Tests.ChatTest -->
+    </classes>
+  </test> <!-- ChatTest(failed) -->
   <test thread-count="5" name="RetakeBestMatch(failed)">
     <classes>
       <class name="Tests.RetakeBestMatch">
         <methods>
           <include name="RetakeNatural"/>
+          <include name="RetakeMale"/>
           <include name="setup"/>
+          <include name="RetakeSetting"/>
           <include name="RetakeFemale"/>
         </methods>
       </class> <!-- Tests.RetakeBestMatch -->
     </classes>
   </test> <!-- RetakeBestMatch(failed) -->
+  <test thread-count="5" name="ReviseThirdLookTest(failed)">
+    <classes>
+      <class name="Tests.ReviseThirdLookTest">
+        <methods>
+          <include name="CreateLook3"/>
+          <include name="AskRevise1"/>
+          <include name="ClientEndSession"/>
+          <include name="setup"/>
+          <include name="EndSession"/>
+          <include name="DoLogin"/>
+          <include name="CreateLook2"/>
+          <include name="VerifyCreateLook"/>
+          <include name="CreateMoodBoard"/>
+          <include name="VerifyEndSession"/>
+          <include name="VerifyCreateRevise2"/>
+          <include name="SearchStylist"/>
+          <include name="VerifyCreateLook3"/>
+          <include name="CreateReviseLook1"/>
+          <include name="SelectEvents"/>
+          <include name="SelectSession"/>
+          <include name="VerifyCreateLookrevise1"/>
+          <include name="VerifyMoodBoard"/>
+          <include name="CompileBooking"/>
+          <include name="CreateLook"/>
+          <include name="ReviseLook2"/>
+        </methods>
+      </class> <!-- Tests.ReviseThirdLookTest -->
+    </classes>
+  </test> <!-- ReviseThirdLookTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

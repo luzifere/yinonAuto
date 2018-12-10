@@ -1958,7 +1958,7 @@
       <![CDATA[Test Status: Pass]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="2976703" started-at="2018-11-21T11:55:56Z" finished-at="2018-11-21T12:45:32Z">
+  <suite name="Suite" duration-ms="3044093" started-at="2018-12-10T13:34:10Z" finished-at="2018-12-10T14:24:54Z">
     <groups>
       <group name="sanity-group">
         <method signature="BestExpensiveMaleMatchTests.BMExpensiveMale()[pri:6, instance:Tests.BestExpensiveMaleMatchTests@ed9d034]" name="BMExpensiveMale" class="Tests.BestExpensiveMaleMatchTests"/>
@@ -2026,16 +2026,16 @@
         <method signature="SignUpTest.SignUpClickable()[pri:1, instance:Tests.SignUpTest@6cc7b4de]" name="SignUpClickable" class="Tests.SignUpTest"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="BestExpensiveMaleMatchTests" duration-ms="147808" started-at="2018-11-21T11:55:56Z" finished-at="2018-11-21T11:58:24Z">
+    <test name="BestExpensiveMaleMatchTests" duration-ms="146066" started-at="2018-12-10T13:34:10Z" finished-at="2018-12-10T13:36:36Z">
       <class name="Tests.BestExpensiveMaleMatchTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestExpensiveMaleMatchTests@ed9d034]" name="setup" is-config="true" duration-ms="25575" started-at="2018-11-21T11:55:56Z" finished-at="2018-11-21T11:56:21Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestExpensiveMaleMatchTests@ed9d034]" name="setup" is-config="true" duration-ms="24059" started-at="2018-12-10T13:34:10Z" finished-at="2018-12-10T13:34:34Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.BestExpensiveMaleMatchTests@ed9d034]" name="BMExpensiveMale" duration-ms="122218" started-at="2018-11-21T11:56:21Z" finished-at="2018-11-21T11:58:24Z">
+        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.BestExpensiveMaleMatchTests@ed9d034]" name="BMExpensiveMale" duration-ms="121991" started-at="2018-12-10T13:34:34Z" finished-at="2018-12-10T13:36:36Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BestExpensiveMaleMatchTests.BMExpensiveMale]]>
@@ -2065,16 +2065,16 @@
         </test-method> <!-- BMExpensiveMale -->
       </class> <!-- Tests.BestExpensiveMaleMatchTests -->
     </test> <!-- BestExpensiveMaleMatchTests -->
-    <test name="BestMatchExpensiveFeamleTests" duration-ms="171188" started-at="2018-11-21T11:58:24Z" finished-at="2018-11-21T12:01:15Z">
+    <test name="BestMatchExpensiveFeamleTests" duration-ms="173939" started-at="2018-12-10T13:36:36Z" finished-at="2018-12-10T13:39:30Z">
       <class name="Tests.BestMatchExpensiveFeamleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchExpensiveFeamleTests@51c8530f]" name="setup" is-config="true" duration-ms="19965" started-at="2018-11-21T11:58:24Z" finished-at="2018-11-21T11:58:44Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchExpensiveFeamleTests@51c8530f]" name="setup" is-config="true" duration-ms="21949" started-at="2018-12-10T13:36:36Z" finished-at="2018-12-10T13:36:58Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMExpensiveFeamle()[pri:3, instance:Tests.BestMatchExpensiveFeamleTests@51c8530f]" name="BMExpensiveFeamle" duration-ms="151221" started-at="2018-11-21T11:58:44Z" finished-at="2018-11-21T12:01:15Z">
+        <test-method status="PASS" signature="BMExpensiveFeamle()[pri:3, instance:Tests.BestMatchExpensiveFeamleTests@51c8530f]" name="BMExpensiveFeamle" duration-ms="151988" started-at="2018-12-10T13:36:58Z" finished-at="2018-12-10T13:39:30Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BestMatchExpensiveFeamleTests.BMExpensiveFeamle]]>
@@ -2104,16 +2104,16 @@
         </test-method> <!-- BMExpensiveFeamle -->
       </class> <!-- Tests.BestMatchExpensiveFeamleTests -->
     </test> <!-- BestMatchExpensiveFeamleTests -->
-    <test name="BestMatchLowFeamleTests" duration-ms="170679" started-at="2018-11-21T12:01:15Z" finished-at="2018-11-21T12:04:06Z">
+    <test name="BestMatchLowFeamleTests" duration-ms="174331" started-at="2018-12-10T13:39:30Z" finished-at="2018-12-10T13:42:25Z">
       <class name="Tests.BestMatchLowFeamleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchLowFeamleTests@22eeefeb]" name="setup" is-config="true" duration-ms="19691" started-at="2018-11-21T12:01:15Z" finished-at="2018-11-21T12:01:35Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchLowFeamleTests@22eeefeb]" name="setup" is-config="true" duration-ms="22351" started-at="2018-12-10T13:39:30Z" finished-at="2018-12-10T13:39:53Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMLowFeamle()[pri:2, instance:Tests.BestMatchLowFeamleTests@22eeefeb]" name="BMLowFeamle" duration-ms="150986" started-at="2018-11-21T12:01:35Z" finished-at="2018-11-21T12:04:06Z">
+        <test-method status="PASS" signature="BMLowFeamle()[pri:2, instance:Tests.BestMatchLowFeamleTests@22eeefeb]" name="BMLowFeamle" duration-ms="151977" started-at="2018-12-10T13:39:53Z" finished-at="2018-12-10T13:42:25Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BestMatchLowFeamleTests.BMLowFeamle]]>
@@ -2143,16 +2143,16 @@
         </test-method> <!-- BMLowFeamle -->
       </class> <!-- Tests.BestMatchLowFeamleTests -->
     </test> <!-- BestMatchLowFeamleTests -->
-    <test name="BestMatchLowMaleTests" duration-ms="140647" started-at="2018-11-21T12:04:06Z" finished-at="2018-11-21T12:06:27Z">
+    <test name="BestMatchLowMaleTests" duration-ms="144746" started-at="2018-12-10T13:42:25Z" finished-at="2018-12-10T13:44:49Z">
       <class name="Tests.BestMatchLowMaleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchLowMaleTests@7e0e6aa2]" name="setup" is-config="true" duration-ms="19960" started-at="2018-11-21T12:04:06Z" finished-at="2018-11-21T12:04:26Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchLowMaleTests@7e0e6aa2]" name="setup" is-config="true" duration-ms="23696" started-at="2018-12-10T13:42:25Z" finished-at="2018-12-10T13:42:48Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMLowMale()[pri:5, instance:Tests.BestMatchLowMaleTests@7e0e6aa2]" name="BMLowMale" duration-ms="120684" started-at="2018-11-21T12:04:26Z" finished-at="2018-11-21T12:06:27Z">
+        <test-method status="PASS" signature="BMLowMale()[pri:5, instance:Tests.BestMatchLowMaleTests@7e0e6aa2]" name="BMLowMale" duration-ms="121048" started-at="2018-12-10T13:42:48Z" finished-at="2018-12-10T13:44:49Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BestMatchLowMaleTests.BMLowMale]]>
@@ -2182,16 +2182,16 @@
         </test-method> <!-- BMLowMale -->
       </class> <!-- Tests.BestMatchLowMaleTests -->
     </test> <!-- BestMatchLowMaleTests -->
-    <test name="BestMatchNormalFeamleTests" duration-ms="172334" started-at="2018-11-21T12:06:27Z" finished-at="2018-11-21T12:09:19Z">
+    <test name="BestMatchNormalFeamleTests" duration-ms="175129" started-at="2018-12-10T13:44:49Z" finished-at="2018-12-10T13:47:45Z">
       <class name="Tests.BestMatchNormalFeamleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchNormalFeamleTests@25bbf683]" name="setup" is-config="true" duration-ms="20020" started-at="2018-11-21T12:06:27Z" finished-at="2018-11-21T12:06:47Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchNormalFeamleTests@25bbf683]" name="setup" is-config="true" duration-ms="22994" started-at="2018-12-10T13:44:49Z" finished-at="2018-12-10T13:45:12Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMNormalFeamle()[pri:1, instance:Tests.BestMatchNormalFeamleTests@25bbf683]" name="BMNormalFeamle" duration-ms="152310" started-at="2018-11-21T12:06:47Z" finished-at="2018-11-21T12:09:19Z">
+        <test-method status="PASS" signature="BMNormalFeamle()[pri:1, instance:Tests.BestMatchNormalFeamleTests@25bbf683]" name="BMNormalFeamle" duration-ms="152133" started-at="2018-12-10T13:45:12Z" finished-at="2018-12-10T13:47:45Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BestMatchNormalFeamleTests.BMNormalFeamle]]>
@@ -2221,16 +2221,16 @@
         </test-method> <!-- BMNormalFeamle -->
       </class> <!-- Tests.BestMatchNormalFeamleTests -->
     </test> <!-- BestMatchNormalFeamleTests -->
-    <test name="BestMatchNormalMaleTests" duration-ms="141509" started-at="2018-11-21T12:09:20Z" finished-at="2018-11-21T12:11:41Z">
+    <test name="BestMatchNormalMaleTests" duration-ms="143980" started-at="2018-12-10T13:47:45Z" finished-at="2018-12-10T13:50:09Z">
       <class name="Tests.BestMatchNormalMaleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchNormalMaleTests@10dba097]" name="setup" is-config="true" duration-ms="20556" started-at="2018-11-21T12:09:20Z" finished-at="2018-11-21T12:09:40Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchNormalMaleTests@10dba097]" name="setup" is-config="true" duration-ms="22244" started-at="2018-12-10T13:47:45Z" finished-at="2018-12-10T13:48:07Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMNormalMale()[pri:4, instance:Tests.BestMatchNormalMaleTests@10dba097]" name="BMNormalMale" duration-ms="120950" started-at="2018-11-21T12:09:40Z" finished-at="2018-11-21T12:11:41Z">
+        <test-method status="PASS" signature="BMNormalMale()[pri:4, instance:Tests.BestMatchNormalMaleTests@10dba097]" name="BMNormalMale" duration-ms="121735" started-at="2018-12-10T13:48:07Z" finished-at="2018-12-10T13:50:09Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BestMatchNormalMaleTests.BMNormalMale]]>
@@ -2260,39 +2260,39 @@
         </test-method> <!-- BMNormalMale -->
       </class> <!-- Tests.BestMatchNormalMaleTests -->
     </test> <!-- BestMatchNormalMaleTests -->
-    <test name="BestMatchNaturalTests" duration-ms="50261" started-at="2018-11-21T12:11:41Z" finished-at="2018-11-21T12:12:32Z">
+    <test name="BestMatchNaturalTests" duration-ms="53414" started-at="2018-12-10T13:50:09Z" finished-at="2018-12-10T13:51:02Z">
       <class name="Tests.BestMatchNaturalTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchNaturalTests@6eceb130]" name="setup" is-config="true" duration-ms="20004" started-at="2018-11-21T12:11:41Z" finished-at="2018-11-21T12:12:01Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchNaturalTests@6eceb130]" name="setup" is-config="true" duration-ms="22502" started-at="2018-12-10T13:50:09Z" finished-at="2018-12-10T13:50:31Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="BMNatural()[pri:7, instance:Tests.BestMatchNaturalTests@6eceb130]" name="BMNatural" duration-ms="28477" started-at="2018-11-21T12:12:01Z" finished-at="2018-11-21T12:12:30Z">
+        <test-method status="FAIL" signature="BMNatural()[pri:7, instance:Tests.BestMatchNaturalTests@6eceb130]" name="BMNatural" duration-ms="29150" started-at="2018-12-10T13:50:31Z" finished-at="2018-12-10T13:51:00Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div//button[text()[contains(.,'Self Identity')]]"}
-  (Session info: chrome=70.0.3538.80)
+  (Session info: chrome=70.0.3538.110)
   (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
-System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+System info: host: 'yinons-MBP-2', ip: 'fe80:0:0:0:109a:c4e6:fe86:20f3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: Android device, noReset: true, platformName: android}, deviceManufacturer: vernee, deviceModel: MIX 2, deviceName: K600A71511000001, deviceScreenSize: 1080x2160, deviceUDID: K600A71511000001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: LINUX, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 6a61eaa2-ed23-4b2e-afd0-4d45c8ee7226
+Session ID: e22f47f0-d91d-4086-b8a3-2f77125204bb
 *** Element info: {Using=xpath, value=//div//button[text()[contains(.,'Self Identity')]]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//button[text()[contains(.,'Self Identity')]]"}
-  (Session info: chrome=70.0.3538.80)
+  (Session info: chrome=70.0.3538.110)
   (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
-System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+System info: host: 'yinons-MBP-2', ip: 'fe80:0:0:0:109a:c4e6:fe86:20f3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: Android device, noReset: true, platformName: android}, deviceManufacturer: vernee, deviceModel: MIX 2, deviceName: K600A71511000001, deviceScreenSize: 1080x2160, deviceUDID: K600A71511000001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: LINUX, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 6a61eaa2-ed23-4b2e-afd0-4d45c8ee7226
+Session ID: e22f47f0-d91d-4086-b8a3-2f77125204bb
 *** Element info: {Using=xpath, value=//div//button[text()[contains(.,'Self Identity')]]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -2383,16 +2383,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- BMNatural -->
       </class> <!-- Tests.BestMatchNaturalTests -->
     </test> <!-- BestMatchNaturalTests -->
-    <test name="StartHereExpensiveFemaleMatchTests" duration-ms="174973" started-at="2018-11-21T12:12:32Z" finished-at="2018-11-21T12:15:27Z">
+    <test name="StartHereExpensiveFemaleMatchTests" duration-ms="175706" started-at="2018-12-10T13:51:02Z" finished-at="2018-12-10T13:53:58Z">
       <class name="Tests.StartHereExpensiveFemaleMatchTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereExpensiveFemaleMatchTests@646007f4]" name="setup" is-config="true" duration-ms="22642" started-at="2018-11-21T12:12:32Z" finished-at="2018-11-21T12:12:54Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereExpensiveFemaleMatchTests@646007f4]" name="setup" is-config="true" duration-ms="23286" started-at="2018-12-10T13:51:02Z" finished-at="2018-12-10T13:51:25Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereExpensiveFemaleMatchTests@646007f4]" name="BMExpensiveMale" duration-ms="152329" started-at="2018-11-21T12:12:54Z" finished-at="2018-11-21T12:15:27Z">
+        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereExpensiveFemaleMatchTests@646007f4]" name="BMExpensiveMale" duration-ms="152419" started-at="2018-12-10T13:51:25Z" finished-at="2018-12-10T13:53:58Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : StartHereExpensiveFemaleMatchTests.BMExpensiveMale]]>
@@ -2422,16 +2422,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- BMExpensiveMale -->
       </class> <!-- Tests.StartHereExpensiveFemaleMatchTests -->
     </test> <!-- StartHereExpensiveFemaleMatchTests -->
-    <test name="StartHereExpensiveMaleMatchTests" duration-ms="143969" started-at="2018-11-21T12:15:27Z" finished-at="2018-11-21T12:17:51Z">
+    <test name="StartHereExpensiveMaleMatchTests" duration-ms="146238" started-at="2018-12-10T13:53:58Z" finished-at="2018-12-10T13:56:24Z">
       <class name="Tests.StartHereExpensiveMaleMatchTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereExpensiveMaleMatchTests@4c762604]" name="setup" is-config="true" duration-ms="21449" started-at="2018-11-21T12:15:27Z" finished-at="2018-11-21T12:15:48Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereExpensiveMaleMatchTests@4c762604]" name="setup" is-config="true" duration-ms="24411" started-at="2018-12-10T13:53:58Z" finished-at="2018-12-10T13:54:22Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereExpensiveMaleMatchTests@4c762604]" name="BMExpensiveMale" duration-ms="122518" started-at="2018-11-21T12:15:48Z" finished-at="2018-11-21T12:17:51Z">
+        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereExpensiveMaleMatchTests@4c762604]" name="BMExpensiveMale" duration-ms="121825" started-at="2018-12-10T13:54:22Z" finished-at="2018-12-10T13:56:24Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : StartHereExpensiveMaleMatchTests.BMExpensiveMale]]>
@@ -2461,16 +2461,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- BMExpensiveMale -->
       </class> <!-- Tests.StartHereExpensiveMaleMatchTests -->
     </test> <!-- StartHereExpensiveMaleMatchTests -->
-    <test name="StartHereLowFemaleMatchTests" duration-ms="174898" started-at="2018-11-21T12:17:51Z" finished-at="2018-11-21T12:20:46Z">
+    <test name="StartHereLowFemaleMatchTests" duration-ms="176483" started-at="2018-12-10T13:56:24Z" finished-at="2018-12-10T13:59:20Z">
       <class name="Tests.StartHereLowFemaleMatchTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereLowFemaleMatchTests@319b92f3]" name="setup" is-config="true" duration-ms="21877" started-at="2018-11-21T12:17:51Z" finished-at="2018-11-21T12:18:13Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereLowFemaleMatchTests@319b92f3]" name="setup" is-config="true" duration-ms="23734" started-at="2018-12-10T13:56:24Z" finished-at="2018-12-10T13:56:48Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereLowFemaleMatchTests@319b92f3]" name="BMExpensiveMale" duration-ms="153020" started-at="2018-11-21T12:18:13Z" finished-at="2018-11-21T12:20:46Z">
+        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereLowFemaleMatchTests@319b92f3]" name="BMExpensiveMale" duration-ms="152748" started-at="2018-12-10T13:56:48Z" finished-at="2018-12-10T13:59:20Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : StartHereLowFemaleMatchTests.BMExpensiveMale]]>
@@ -2500,16 +2500,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- BMExpensiveMale -->
       </class> <!-- Tests.StartHereLowFemaleMatchTests -->
     </test> <!-- StartHereLowFemaleMatchTests -->
-    <test name="StartHereLowMaleMatchTests" duration-ms="144168" started-at="2018-11-21T12:20:46Z" finished-at="2018-11-21T12:23:10Z">
+    <test name="StartHereLowMaleMatchTests" duration-ms="145089" started-at="2018-12-10T13:59:20Z" finished-at="2018-12-10T14:01:46Z">
       <class name="Tests.StartHereLowMaleMatchTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereLowMaleMatchTests@376b4233]" name="setup" is-config="true" duration-ms="21545" started-at="2018-11-21T12:20:46Z" finished-at="2018-11-21T12:21:07Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereLowMaleMatchTests@376b4233]" name="setup" is-config="true" duration-ms="23592" started-at="2018-12-10T13:59:20Z" finished-at="2018-12-10T13:59:44Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereLowMaleMatchTests@376b4233]" name="BMExpensiveMale" duration-ms="122621" started-at="2018-11-21T12:21:07Z" finished-at="2018-11-21T12:23:10Z">
+        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereLowMaleMatchTests@376b4233]" name="BMExpensiveMale" duration-ms="121494" started-at="2018-12-10T13:59:44Z" finished-at="2018-12-10T14:01:46Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : StartHereLowMaleMatchTests.BMExpensiveMale]]>
@@ -2539,16 +2539,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- BMExpensiveMale -->
       </class> <!-- Tests.StartHereLowMaleMatchTests -->
     </test> <!-- StartHereLowMaleMatchTests -->
-    <test name="StartHereNormalFemaleMatchTests" duration-ms="175446" started-at="2018-11-21T12:23:10Z" finished-at="2018-11-21T12:26:06Z">
+    <test name="StartHereNormalFemaleMatchTests" duration-ms="176696" started-at="2018-12-10T14:01:46Z" finished-at="2018-12-10T14:04:42Z">
       <class name="Tests.StartHereNormalFemaleMatchTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereNormalFemaleMatchTests@fe18270]" name="setup" is-config="true" duration-ms="22273" started-at="2018-11-21T12:23:10Z" finished-at="2018-11-21T12:23:33Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereNormalFemaleMatchTests@fe18270]" name="setup" is-config="true" duration-ms="23495" started-at="2018-12-10T14:01:46Z" finished-at="2018-12-10T14:02:09Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereNormalFemaleMatchTests@fe18270]" name="BMExpensiveMale" duration-ms="153172" started-at="2018-11-21T12:23:33Z" finished-at="2018-11-21T12:26:06Z">
+        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereNormalFemaleMatchTests@fe18270]" name="BMExpensiveMale" duration-ms="153199" started-at="2018-12-10T14:02:09Z" finished-at="2018-12-10T14:04:42Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : StartHereNormalFemaleMatchTests.BMExpensiveMale]]>
@@ -2578,16 +2578,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- BMExpensiveMale -->
       </class> <!-- Tests.StartHereNormalFemaleMatchTests -->
     </test> <!-- StartHereNormalFemaleMatchTests -->
-    <test name="StartHereNormalMaleMatchTests" duration-ms="143744" started-at="2018-11-21T12:26:06Z" finished-at="2018-11-21T12:28:30Z">
+    <test name="StartHereNormalMaleMatchTests" duration-ms="147678" started-at="2018-12-10T14:04:42Z" finished-at="2018-12-10T14:07:10Z">
       <class name="Tests.StartHereNormalMaleMatchTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereNormalMaleMatchTests@281e3708]" name="setup" is-config="true" duration-ms="21044" started-at="2018-11-21T12:26:06Z" finished-at="2018-11-21T12:26:27Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereNormalMaleMatchTests@281e3708]" name="setup" is-config="true" duration-ms="23676" started-at="2018-12-10T14:04:42Z" finished-at="2018-12-10T14:05:06Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereNormalMaleMatchTests@281e3708]" name="BMExpensiveMale" duration-ms="122698" started-at="2018-11-21T12:26:27Z" finished-at="2018-11-21T12:28:30Z">
+        <test-method status="PASS" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereNormalMaleMatchTests@281e3708]" name="BMExpensiveMale" duration-ms="124001" started-at="2018-12-10T14:05:06Z" finished-at="2018-12-10T14:07:10Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : StartHereNormalMaleMatchTests.BMExpensiveMale]]>
@@ -2617,39 +2617,39 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- BMExpensiveMale -->
       </class> <!-- Tests.StartHereNormalMaleMatchTests -->
     </test> <!-- StartHereNormalMaleMatchTests -->
-    <test name="StartHereNaturalMatchTests" duration-ms="47361" started-at="2018-11-21T12:28:30Z" finished-at="2018-11-21T12:29:17Z">
+    <test name="StartHereNaturalMatchTests" duration-ms="50684" started-at="2018-12-10T14:07:10Z" finished-at="2018-12-10T14:08:01Z">
       <class name="Tests.StartHereNaturalMatchTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereNaturalMatchTests@6d3af739]" name="setup" is-config="true" duration-ms="21678" started-at="2018-11-21T12:28:30Z" finished-at="2018-11-21T12:28:52Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereNaturalMatchTests@6d3af739]" name="setup" is-config="true" duration-ms="24765" started-at="2018-12-10T14:07:10Z" finished-at="2018-12-10T14:07:35Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereNaturalMatchTests@6d3af739]" name="BMExpensiveMale" duration-ms="23876" started-at="2018-11-21T12:28:52Z" finished-at="2018-11-21T12:29:16Z">
+        <test-method status="FAIL" signature="BMExpensiveMale()[pri:6, instance:Tests.StartHereNaturalMatchTests@6d3af739]" name="BMExpensiveMale" duration-ms="24162" started-at="2018-12-10T14:07:35Z" finished-at="2018-12-10T14:07:59Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div//button[text()[contains(.,'Self Identity')]]"}
-  (Session info: chrome=70.0.3538.80)
+  (Session info: chrome=70.0.3538.110)
   (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
-System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+System info: host: 'yinons-MBP-2', ip: 'fe80:0:0:0:109a:c4e6:fe86:20f3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: Android device, noReset: true, platformName: android}, deviceManufacturer: vernee, deviceModel: MIX 2, deviceName: K600A71511000001, deviceScreenSize: 1080x2160, deviceUDID: K600A71511000001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: LINUX, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 4417f5cd-5845-4421-bea3-ab1c486de544
+Session ID: ba75b72e-88b6-4df7-88df-90cae4b436f6
 *** Element info: {Using=xpath, value=//div//button[text()[contains(.,'Self Identity')]]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//button[text()[contains(.,'Self Identity')]]"}
-  (Session info: chrome=70.0.3538.80)
+  (Session info: chrome=70.0.3538.110)
   (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
-System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+System info: host: 'yinons-MBP-2', ip: 'fe80:0:0:0:109a:c4e6:fe86:20f3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: Android device, noReset: true, platformName: android}, deviceManufacturer: vernee, deviceModel: MIX 2, deviceName: K600A71511000001, deviceScreenSize: 1080x2160, deviceUDID: K600A71511000001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: LINUX, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 4417f5cd-5845-4421-bea3-ab1c486de544
+Session ID: ba75b72e-88b6-4df7-88df-90cae4b436f6
 *** Element info: {Using=xpath, value=//div//button[text()[contains(.,'Self Identity')]]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -2740,16 +2740,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- BMExpensiveMale -->
       </class> <!-- Tests.StartHereNaturalMatchTests -->
     </test> <!-- StartHereNaturalMatchTests -->
-    <test name="qwizTests" duration-ms="183637" started-at="2018-11-21T12:29:17Z" finished-at="2018-11-21T12:32:21Z">
+    <test name="qwizTests" duration-ms="189088" started-at="2018-12-10T14:08:01Z" finished-at="2018-12-10T14:11:10Z">
       <class name="Tests.qwizTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.qwizTests@15b3e5b]" name="setup" is-config="true" duration-ms="22344" started-at="2018-11-21T12:29:17Z" finished-at="2018-11-21T12:29:40Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.qwizTests@15b3e5b]" name="setup" is-config="true" duration-ms="23959" started-at="2018-12-10T14:08:01Z" finished-at="2018-12-10T14:08:25Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.qwizTests@15b3e5b]" name="DoSignUp" duration-ms="64770" started-at="2018-11-21T12:29:40Z" finished-at="2018-11-21T12:30:44Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.qwizTests@15b3e5b]" name="DoSignUp" duration-ms="65254" started-at="2018-12-10T14:08:25Z" finished-at="2018-12-10T14:09:30Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizTests.DoSignUp]]>
@@ -2777,7 +2777,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:Tests.qwizTests@15b3e5b]" name="CheckOutSession" duration-ms="24582" started-at="2018-11-21T12:30:44Z" finished-at="2018-11-21T12:31:09Z">
+        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:Tests.qwizTests@15b3e5b]" name="CheckOutSession" duration-ms="27522" started-at="2018-12-10T14:09:30Z" finished-at="2018-12-10T14:09:57Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizTests.CheckOutSession]]>
@@ -2805,7 +2805,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- CheckOutSession -->
-        <test-method status="PASS" signature="SelectBodyType()[pri:4, instance:Tests.qwizTests@15b3e5b]" name="SelectBodyType" duration-ms="4654" started-at="2018-11-21T12:31:09Z" finished-at="2018-11-21T12:31:14Z">
+        <test-method status="PASS" signature="SelectBodyType()[pri:4, instance:Tests.qwizTests@15b3e5b]" name="SelectBodyType" duration-ms="5794" started-at="2018-12-10T14:09:57Z" finished-at="2018-12-10T14:10:03Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizTests.SelectBodyType]]>
@@ -2833,7 +2833,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SelectBodyType -->
-        <test-method status="PASS" signature="SelectHeight()[pri:5, instance:Tests.qwizTests@15b3e5b]" name="SelectHeight" duration-ms="6313" started-at="2018-11-21T12:31:14Z" finished-at="2018-11-21T12:31:20Z">
+        <test-method status="PASS" signature="SelectHeight()[pri:5, instance:Tests.qwizTests@15b3e5b]" name="SelectHeight" duration-ms="6381" started-at="2018-12-10T14:10:03Z" finished-at="2018-12-10T14:10:10Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizTests.SelectHeight]]>
@@ -2861,7 +2861,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SelectHeight -->
-        <test-method status="PASS" signature="SelectColors()[pri:6, instance:Tests.qwizTests@15b3e5b]" name="SelectColors" duration-ms="6458" started-at="2018-11-21T12:31:20Z" finished-at="2018-11-21T12:31:27Z">
+        <test-method status="PASS" signature="SelectColors()[pri:6, instance:Tests.qwizTests@15b3e5b]" name="SelectColors" duration-ms="6085" started-at="2018-12-10T14:10:10Z" finished-at="2018-12-10T14:10:16Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizTests.SelectColors]]>
@@ -2889,7 +2889,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SelectColors -->
-        <test-method status="PASS" signature="SelectHighlight()[pri:7, instance:Tests.qwizTests@15b3e5b]" name="SelectHighlight" duration-ms="6050" started-at="2018-11-21T12:31:27Z" finished-at="2018-11-21T12:31:33Z">
+        <test-method status="PASS" signature="SelectHighlight()[pri:7, instance:Tests.qwizTests@15b3e5b]" name="SelectHighlight" duration-ms="5546" started-at="2018-12-10T14:10:16Z" finished-at="2018-12-10T14:10:21Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizTests.SelectHighlight]]>
@@ -2917,7 +2917,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SelectHighlight -->
-        <test-method status="PASS" signature="SelectClothingPreferences()[pri:8, instance:Tests.qwizTests@15b3e5b]" name="SelectClothingPreferences" duration-ms="5618" started-at="2018-11-21T12:31:33Z" finished-at="2018-11-21T12:31:38Z">
+        <test-method status="PASS" signature="SelectClothingPreferences()[pri:8, instance:Tests.qwizTests@15b3e5b]" name="SelectClothingPreferences" duration-ms="5546" started-at="2018-12-10T14:10:21Z" finished-at="2018-12-10T14:10:27Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizTests.SelectClothingPreferences]]>
@@ -2945,7 +2945,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SelectClothingPreferences -->
-        <test-method status="PASS" signature="SelectHeels()[pri:9, instance:Tests.qwizTests@15b3e5b]" name="SelectHeels" duration-ms="5561" started-at="2018-11-21T12:31:38Z" finished-at="2018-11-21T12:31:44Z">
+        <test-method status="PASS" signature="SelectHeels()[pri:9, instance:Tests.qwizTests@15b3e5b]" name="SelectHeels" duration-ms="5595" started-at="2018-12-10T14:10:27Z" finished-at="2018-12-10T14:10:32Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizTests.SelectHeels]]>
@@ -2973,7 +2973,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SelectHeels -->
-        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.qwizTests@15b3e5b]" name="SelectFabrics" duration-ms="5436" started-at="2018-11-21T12:31:44Z" finished-at="2018-11-21T12:31:49Z">
+        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.qwizTests@15b3e5b]" name="SelectFabrics" duration-ms="5795" started-at="2018-12-10T14:10:32Z" finished-at="2018-12-10T14:10:38Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizTests.SelectFabrics]]>
@@ -3001,7 +3001,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SelectFabrics -->
-        <test-method status="PASS" signature="SelectSize()[pri:12, instance:Tests.qwizTests@15b3e5b]" name="SelectSize" duration-ms="6646" started-at="2018-11-21T12:31:49Z" finished-at="2018-11-21T12:31:56Z">
+        <test-method status="PASS" signature="SelectSize()[pri:12, instance:Tests.qwizTests@15b3e5b]" name="SelectSize" duration-ms="6327" started-at="2018-12-10T14:10:38Z" finished-at="2018-12-10T14:10:44Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizTests.SelectSize]]>
@@ -3029,7 +3029,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SelectSize -->
-        <test-method status="PASS" signature="SelectComfortZone()[pri:13, instance:Tests.qwizTests@15b3e5b]" name="SelectComfortZone" duration-ms="5680" started-at="2018-11-21T12:31:56Z" finished-at="2018-11-21T12:32:02Z">
+        <test-method status="PASS" signature="SelectComfortZone()[pri:13, instance:Tests.qwizTests@15b3e5b]" name="SelectComfortZone" duration-ms="5448" started-at="2018-12-10T14:10:44Z" finished-at="2018-12-10T14:10:50Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizTests.SelectComfortZone]]>
@@ -3057,7 +3057,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SelectComfortZone -->
-        <test-method status="PASS" signature="SelectJEWELRY()[pri:14, instance:Tests.qwizTests@15b3e5b]" name="SelectJEWELRY" duration-ms="10261" started-at="2018-11-21T12:32:02Z" finished-at="2018-11-21T12:32:12Z">
+        <test-method status="PASS" signature="SelectJEWELRY()[pri:14, instance:Tests.qwizTests@15b3e5b]" name="SelectJEWELRY" duration-ms="10958" started-at="2018-12-10T14:10:50Z" finished-at="2018-12-10T14:11:01Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizTests.SelectJEWELRY]]>
@@ -3085,7 +3085,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SelectJEWELRY -->
-        <test-method status="PASS" signature="FillNumberPhone()[pri:15, instance:Tests.qwizTests@15b3e5b]" name="FillNumberPhone" duration-ms="9250" started-at="2018-11-21T12:32:12Z" finished-at="2018-11-21T12:32:21Z">
+        <test-method status="PASS" signature="FillNumberPhone()[pri:15, instance:Tests.qwizTests@15b3e5b]" name="FillNumberPhone" duration-ms="8865" started-at="2018-12-10T14:11:01Z" finished-at="2018-12-10T14:11:10Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizTests.FillNumberPhone]]>
@@ -3115,16 +3115,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- FillNumberPhone -->
       </class> <!-- Tests.qwizTests -->
     </test> <!-- qwizTests -->
-    <test name="qwizMaleTests" duration-ms="156414" started-at="2018-11-21T12:32:21Z" finished-at="2018-11-21T12:34:58Z">
+    <test name="qwizMaleTests" duration-ms="156256" started-at="2018-12-10T14:11:10Z" finished-at="2018-12-10T14:13:46Z">
       <class name="Tests.qwizMaleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.qwizMaleTests@5fcd892a]" name="setup" is-config="true" duration-ms="21485" started-at="2018-11-21T12:32:21Z" finished-at="2018-11-21T12:32:43Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.qwizMaleTests@5fcd892a]" name="setup" is-config="true" duration-ms="22653" started-at="2018-12-10T14:11:10Z" finished-at="2018-12-10T14:11:32Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.qwizMaleTests@5fcd892a]" name="DoSignUp" duration-ms="60606" started-at="2018-11-21T12:32:43Z" finished-at="2018-11-21T12:33:43Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.qwizMaleTests@5fcd892a]" name="DoSignUp" duration-ms="57704" started-at="2018-12-10T14:11:32Z" finished-at="2018-12-10T14:12:30Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.DoSignUp]]>
@@ -3152,7 +3152,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:Tests.qwizMaleTests@5fcd892a]" name="CheckOutSession" duration-ms="24782" started-at="2018-11-21T12:33:43Z" finished-at="2018-11-21T12:34:08Z">
+        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:Tests.qwizMaleTests@5fcd892a]" name="CheckOutSession" duration-ms="28114" started-at="2018-12-10T14:12:30Z" finished-at="2018-12-10T14:12:58Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.CheckOutSession]]>
@@ -3180,7 +3180,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- CheckOutSession -->
-        <test-method status="PASS" signature="SelectBodyType()[pri:4, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectBodyType" duration-ms="5347" started-at="2018-11-21T12:34:08Z" finished-at="2018-11-21T12:34:13Z">
+        <test-method status="PASS" signature="SelectBodyType()[pri:4, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectBodyType" duration-ms="4064" started-at="2018-12-10T14:12:58Z" finished-at="2018-12-10T14:13:02Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.SelectBodyType]]>
@@ -3208,7 +3208,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SelectBodyType -->
-        <test-method status="PASS" signature="SelectHeight()[pri:5, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectHeight" duration-ms="5808" started-at="2018-11-21T12:34:13Z" finished-at="2018-11-21T12:34:19Z">
+        <test-method status="PASS" signature="SelectHeight()[pri:5, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectHeight" duration-ms="5603" started-at="2018-12-10T14:13:02Z" finished-at="2018-12-10T14:13:08Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.SelectHeight]]>
@@ -3236,7 +3236,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SelectHeight -->
-        <test-method status="PASS" signature="SelectColors()[pri:6, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectColors" duration-ms="6410" started-at="2018-11-21T12:34:19Z" finished-at="2018-11-21T12:34:26Z">
+        <test-method status="PASS" signature="SelectColors()[pri:6, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectColors" duration-ms="5807" started-at="2018-12-10T14:13:08Z" finished-at="2018-12-10T14:13:14Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.SelectColors]]>
@@ -3264,7 +3264,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SelectColors -->
-        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectFabrics" duration-ms="6038" started-at="2018-11-21T12:34:26Z" finished-at="2018-11-21T12:34:32Z">
+        <test-method status="PASS" signature="SelectFabrics()[pri:10, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectFabrics" duration-ms="5830" started-at="2018-12-10T14:13:14Z" finished-at="2018-12-10T14:13:19Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.SelectFabrics]]>
@@ -3292,7 +3292,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SelectFabrics -->
-        <test-method status="PASS" signature="SelectSize()[pri:12, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectSize" duration-ms="6740" started-at="2018-11-21T12:34:32Z" finished-at="2018-11-21T12:34:38Z">
+        <test-method status="PASS" signature="SelectSize()[pri:12, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectSize" duration-ms="6591" started-at="2018-12-10T14:13:19Z" finished-at="2018-12-10T14:13:26Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.SelectSize]]>
@@ -3320,7 +3320,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SelectSize -->
-        <test-method status="PASS" signature="SelectComfortZone()[pri:13, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectComfortZone" duration-ms="5546" started-at="2018-11-21T12:34:38Z" finished-at="2018-11-21T12:34:44Z">
+        <test-method status="PASS" signature="SelectComfortZone()[pri:13, instance:Tests.qwizMaleTests@5fcd892a]" name="SelectComfortZone" duration-ms="10332" started-at="2018-12-10T14:13:26Z" finished-at="2018-12-10T14:13:36Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.SelectComfortZone]]>
@@ -3348,7 +3348,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SelectComfortZone -->
-        <test-method status="PASS" signature="FillNumberPhone()[pri:14, instance:Tests.qwizMaleTests@5fcd892a]" name="FillNumberPhone" duration-ms="13645" started-at="2018-11-21T12:34:44Z" finished-at="2018-11-21T12:34:58Z">
+        <test-method status="PASS" signature="FillNumberPhone()[pri:14, instance:Tests.qwizMaleTests@5fcd892a]" name="FillNumberPhone" duration-ms="9549" started-at="2018-12-10T14:13:36Z" finished-at="2018-12-10T14:13:46Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : qwizMaleTests.FillNumberPhone]]>
@@ -3378,16 +3378,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- FillNumberPhone -->
       </class> <!-- Tests.qwizMaleTests -->
     </test> <!-- qwizMaleTests -->
-    <test name="BookingTests" duration-ms="106298" started-at="2018-11-21T12:34:58Z" finished-at="2018-11-21T12:36:44Z">
+    <test name="BookingTests" duration-ms="111062" started-at="2018-12-10T14:13:46Z" finished-at="2018-12-10T14:15:37Z">
       <class name="Tests.BookingTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BookingTests@543e710e]" name="setup" is-config="true" duration-ms="20494" started-at="2018-11-21T12:34:58Z" finished-at="2018-11-21T12:35:18Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BookingTests@543e710e]" name="setup" is-config="true" duration-ms="22939" started-at="2018-12-10T14:13:46Z" finished-at="2018-12-10T14:14:09Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.BookingTests@543e710e]" name="DoSignUp" duration-ms="60412" started-at="2018-11-21T12:35:18Z" finished-at="2018-11-21T12:36:19Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.BookingTests@543e710e]" name="DoSignUp" duration-ms="60868" started-at="2018-12-10T14:14:09Z" finished-at="2018-12-10T14:15:10Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BookingTests.DoSignUp]]>
@@ -3415,7 +3415,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:Tests.BookingTests@543e710e]" name="CheckOutSession" duration-ms="25390" started-at="2018-11-21T12:36:19Z" finished-at="2018-11-21T12:36:44Z">
+        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:Tests.BookingTests@543e710e]" name="CheckOutSession" duration-ms="27254" started-at="2018-12-10T14:15:10Z" finished-at="2018-12-10T14:15:37Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BookingTests.CheckOutSession]]>
@@ -3445,16 +3445,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- CheckOutSession -->
       </class> <!-- Tests.BookingTests -->
     </test> <!-- BookingTests -->
-    <test name="BookingCCTests" duration-ms="119484" started-at="2018-11-21T12:36:44Z" finished-at="2018-11-21T12:38:44Z">
+    <test name="BookingCCTests" duration-ms="122103" started-at="2018-12-10T14:15:37Z" finished-at="2018-12-10T14:17:39Z">
       <class name="Tests.BookingCCTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BookingCCTests@69379752]" name="setup" is-config="true" duration-ms="22152" started-at="2018-11-21T12:36:44Z" finished-at="2018-11-21T12:37:06Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BookingCCTests@69379752]" name="setup" is-config="true" duration-ms="23767" started-at="2018-12-10T14:15:37Z" finished-at="2018-12-10T14:16:01Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.BookingCCTests@69379752]" name="DoSignUp" duration-ms="61582" started-at="2018-11-21T12:37:06Z" finished-at="2018-11-21T12:38:08Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.BookingCCTests@69379752]" name="DoSignUp" duration-ms="60141" started-at="2018-12-10T14:16:01Z" finished-at="2018-12-10T14:17:01Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BookingCCTests.DoSignUp]]>
@@ -3482,7 +3482,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="CheckoutUnlimitedCreditCard()[pri:3, instance:Tests.BookingCCTests@69379752]" name="CheckoutUnlimitedCreditCard" duration-ms="35748" started-at="2018-11-21T12:38:08Z" finished-at="2018-11-21T12:38:44Z">
+        <test-method status="PASS" signature="CheckoutUnlimitedCreditCard()[pri:3, instance:Tests.BookingCCTests@69379752]" name="CheckoutUnlimitedCreditCard" duration-ms="38192" started-at="2018-12-10T14:17:01Z" finished-at="2018-12-10T14:17:39Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : BookingCCTests.CheckoutUnlimitedCreditCard]]>
@@ -3512,16 +3512,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- CheckoutUnlimitedCreditCard -->
       </class> <!-- Tests.BookingCCTests -->
     </test> <!-- BookingCCTests -->
-    <test name="LoginWithFacbookTests" duration-ms="36982" started-at="2018-11-21T12:38:44Z" finished-at="2018-11-21T12:39:21Z">
+    <test name="LoginWithFacbookTests" duration-ms="40575" started-at="2018-12-10T14:17:39Z" finished-at="2018-12-10T14:18:20Z">
       <class name="Tests.LoginWithFacbookTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginWithFacbookTests@5e57643e]" name="setup" is-config="true" duration-ms="21399" started-at="2018-11-21T12:38:44Z" finished-at="2018-11-21T12:39:06Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginWithFacbookTests@5e57643e]" name="setup" is-config="true" duration-ms="24936" started-at="2018-12-10T14:17:39Z" finished-at="2018-12-10T14:18:04Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginWithFacbook()[pri:3, instance:Tests.LoginWithFacbookTests@5e57643e]" name="LoginWithFacbook" duration-ms="15582" started-at="2018-11-21T12:39:06Z" finished-at="2018-11-21T12:39:21Z">
+        <test-method status="PASS" signature="LoginWithFacbook()[pri:3, instance:Tests.LoginWithFacbookTests@5e57643e]" name="LoginWithFacbook" duration-ms="15637" started-at="2018-12-10T14:18:04Z" finished-at="2018-12-10T14:18:20Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : LoginWithFacbookTests.LoginWithFacbook]]>
@@ -3551,16 +3551,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- LoginWithFacbook -->
       </class> <!-- Tests.LoginWithFacbookTests -->
     </test> <!-- LoginWithFacbookTests -->
-    <test name="LoginWithFacbookTestsFail" duration-ms="39038" started-at="2018-11-21T12:39:21Z" finished-at="2018-11-21T12:40:00Z">
+    <test name="LoginWithFacbookTestsFail" duration-ms="37740" started-at="2018-12-10T14:18:20Z" finished-at="2018-12-10T14:18:57Z">
       <class name="Tests.LoginWithFacbookTestsFail">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginWithFacbookTestsFail@2473b9ce]" name="setup" is-config="true" duration-ms="23991" started-at="2018-11-21T12:39:21Z" finished-at="2018-11-21T12:39:45Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginWithFacbookTestsFail@2473b9ce]" name="setup" is-config="true" duration-ms="23764" started-at="2018-12-10T14:18:20Z" finished-at="2018-12-10T14:18:43Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginWithFacbookWrongPassword()[pri:1, instance:Tests.LoginWithFacbookTestsFail@2473b9ce]" name="LoginWithFacbookWrongPassword" duration-ms="12260" started-at="2018-11-21T12:39:45Z" finished-at="2018-11-21T12:39:57Z">
+        <test-method status="PASS" signature="LoginWithFacbookWrongPassword()[pri:1, instance:Tests.LoginWithFacbookTestsFail@2473b9ce]" name="LoginWithFacbookWrongPassword" duration-ms="11728" started-at="2018-12-10T14:18:43Z" finished-at="2018-12-10T14:18:55Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongPassword]]>
@@ -3588,7 +3588,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- LoginWithFacbookWrongPassword -->
-        <test-method status="PASS" signature="LoginWithFacbookWrongUserName()[pri:2, instance:Tests.LoginWithFacbookTestsFail@2473b9ce]" name="LoginWithFacbookWrongUserName" duration-ms="2784" started-at="2018-11-21T12:39:57Z" finished-at="2018-11-21T12:40:00Z">
+        <test-method status="PASS" signature="LoginWithFacbookWrongUserName()[pri:2, instance:Tests.LoginWithFacbookTestsFail@2473b9ce]" name="LoginWithFacbookWrongUserName" duration-ms="2245" started-at="2018-12-10T14:18:55Z" finished-at="2018-12-10T14:18:57Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongUserName]]>
@@ -3618,16 +3618,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- LoginWithFacbookWrongUserName -->
       </class> <!-- Tests.LoginWithFacbookTestsFail -->
     </test> <!-- LoginWithFacbookTestsFail -->
-    <test name="SignUpByFacbookTestsFail" duration-ms="41293" started-at="2018-11-21T12:40:00Z" finished-at="2018-11-21T12:40:42Z">
+    <test name="SignUpByFacbookTestsFail" duration-ms="43790" started-at="2018-12-10T14:18:57Z" finished-at="2018-12-10T14:19:41Z">
       <class name="Tests.SignUpByFacbookTestsFail">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="setup" is-config="true" duration-ms="22584" started-at="2018-11-21T12:40:00Z" finished-at="2018-11-21T12:40:23Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="setup" is-config="true" duration-ms="25654" started-at="2018-12-10T14:18:57Z" finished-at="2018-12-10T14:19:23Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="SignUpWithFacbookWitOutEmail()[pri:2, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="SignUpWithFacbookWitOutEmail" duration-ms="7560" started-at="2018-11-21T12:40:23Z" finished-at="2018-11-21T12:40:30Z">
+        <test-method status="PASS" signature="SignUpWithFacbookWitOutEmail()[pri:2, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="SignUpWithFacbookWitOutEmail" duration-ms="7616" started-at="2018-12-10T14:19:23Z" finished-at="2018-12-10T14:19:31Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutEmail]]>
@@ -3655,7 +3655,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SignUpWithFacbookWitOutEmail -->
-        <test-method status="PASS" signature="SignUpWithFacbookWitOutPassword()[pri:3, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="SignUpWithFacbookWitOutPassword" duration-ms="2064" started-at="2018-11-21T12:40:30Z" finished-at="2018-11-21T12:40:32Z">
+        <test-method status="PASS" signature="SignUpWithFacbookWitOutPassword()[pri:3, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="SignUpWithFacbookWitOutPassword" duration-ms="2026" started-at="2018-12-10T14:19:31Z" finished-at="2018-12-10T14:19:33Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutPassword]]>
@@ -3683,7 +3683,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SignUpWithFacbookWitOutPassword -->
-        <test-method status="PASS" signature="SignUpWithFacbookWrongPassword()[pri:4, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="SignUpWithFacbookWrongPassword" duration-ms="4528" started-at="2018-11-21T12:40:32Z" finished-at="2018-11-21T12:40:37Z">
+        <test-method status="PASS" signature="SignUpWithFacbookWrongPassword()[pri:4, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="SignUpWithFacbookWrongPassword" duration-ms="4088" started-at="2018-12-10T14:19:33Z" finished-at="2018-12-10T14:19:37Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongPassword]]>
@@ -3711,7 +3711,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SignUpWithFacbookWrongPassword -->
-        <test-method status="PASS" signature="SignUpWithFacbookWrongUserName()[pri:5, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="SignUpWithFacbookWrongUserName" duration-ms="4554" started-at="2018-11-21T12:40:37Z" finished-at="2018-11-21T12:40:42Z">
+        <test-method status="PASS" signature="SignUpWithFacbookWrongUserName()[pri:5, instance:Tests.SignUpByFacbookTestsFail@de3a06f]" name="SignUpWithFacbookWrongUserName" duration-ms="4401" started-at="2018-12-10T14:19:37Z" finished-at="2018-12-10T14:19:41Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongUserName]]>
@@ -3741,16 +3741,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- SignUpWithFacbookWrongUserName -->
       </class> <!-- Tests.SignUpByFacbookTestsFail -->
     </test> <!-- SignUpByFacbookTestsFail -->
-    <test name="SignUpByFacbookTestsSucses" duration-ms="36495" started-at="2018-11-21T12:40:42Z" finished-at="2018-11-21T12:41:18Z">
+    <test name="SignUpByFacbookTestsSucses" duration-ms="45397" started-at="2018-12-10T14:19:41Z" finished-at="2018-12-10T14:20:27Z">
       <class name="Tests.SignUpByFacbookTestsSucses">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTestsSucses@3bd94634]" name="setup" is-config="true" duration-ms="21895" started-at="2018-11-21T12:40:42Z" finished-at="2018-11-21T12:41:03Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTestsSucses@3bd94634]" name="setup" is-config="true" duration-ms="30846" started-at="2018-12-10T14:19:41Z" finished-at="2018-12-10T14:20:12Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="SignUpWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTestsSucses@3bd94634]" name="SignUpWithFacbook" duration-ms="14599" started-at="2018-11-21T12:41:03Z" finished-at="2018-11-21T12:41:18Z">
+        <test-method status="PASS" signature="SignUpWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTestsSucses@3bd94634]" name="SignUpWithFacbook" duration-ms="14551" started-at="2018-12-10T14:20:12Z" finished-at="2018-12-10T14:20:27Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook]]>
@@ -3780,16 +3780,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- SignUpWithFacbook -->
       </class> <!-- Tests.SignUpByFacbookTestsSucses -->
     </test> <!-- SignUpByFacbookTestsSucses -->
-    <test name="ChatTests" duration-ms="133295" started-at="2018-11-21T12:41:18Z" finished-at="2018-11-21T12:43:31Z">
+    <test name="ChatTests" duration-ms="141058" started-at="2018-12-10T14:20:27Z" finished-at="2018-12-10T14:22:48Z">
       <class name="Tests.ChatTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ChatTests@166fa74d]" name="setup" is-config="true" duration-ms="21615" started-at="2018-11-21T12:41:18Z" finished-at="2018-11-21T12:41:40Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ChatTests@166fa74d]" name="setup" is-config="true" duration-ms="25945" started-at="2018-12-10T14:20:27Z" finished-at="2018-12-10T14:20:53Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginAsStylist()[pri:1, instance:Tests.ChatTests@166fa74d]" name="LoginAsStylist" duration-ms="5794" started-at="2018-11-21T12:41:40Z" finished-at="2018-11-21T12:41:45Z">
+        <test-method status="PASS" signature="LoginAsStylist()[pri:1, instance:Tests.ChatTests@166fa74d]" name="LoginAsStylist" duration-ms="5375" started-at="2018-12-10T14:20:53Z" finished-at="2018-12-10T14:20:58Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ChatTests.LoginAsStylist]]>
@@ -3817,7 +3817,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- LoginAsStylist -->
-        <test-method status="PASS" signature="SendChatToclient()[pri:2, instance:Tests.ChatTests@166fa74d]" name="SendChatToclient" duration-ms="61126" started-at="2018-11-21T12:41:45Z" finished-at="2018-11-21T12:42:47Z">
+        <test-method status="PASS" signature="SendChatToclient()[pri:2, instance:Tests.ChatTests@166fa74d]" name="SendChatToclient" duration-ms="62016" started-at="2018-12-10T14:20:58Z" finished-at="2018-12-10T14:22:00Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ChatTests.SendChatToclient]]>
@@ -3845,7 +3845,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SendChatToclient -->
-        <test-method status="PASS" signature="SendChatToStylist()[pri:3, instance:Tests.ChatTests@166fa74d]" name="SendChatToStylist" duration-ms="44757" started-at="2018-11-21T12:42:47Z" finished-at="2018-11-21T12:43:31Z">
+        <test-method status="PASS" signature="SendChatToStylist()[pri:3, instance:Tests.ChatTests@166fa74d]" name="SendChatToStylist" duration-ms="47719" started-at="2018-12-10T14:22:00Z" finished-at="2018-12-10T14:22:48Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : ChatTests.SendChatToStylist]]>
@@ -3875,16 +3875,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- SendChatToStylist -->
       </class> <!-- Tests.ChatTests -->
     </test> <!-- ChatTests -->
-    <test name="LoginTests2" duration-ms="58943" started-at="2018-11-21T12:43:32Z" finished-at="2018-11-21T12:44:30Z">
+    <test name="LoginTests2" duration-ms="61196" started-at="2018-12-10T14:22:48Z" finished-at="2018-12-10T14:23:49Z">
       <class name="Tests.LoginTests2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginTests2@6e2c9341]" name="setup" is-config="true" duration-ms="22618" started-at="2018-11-21T12:43:32Z" finished-at="2018-11-21T12:43:54Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginTests2@6e2c9341]" name="setup" is-config="true" duration-ms="23892" started-at="2018-12-10T14:22:48Z" finished-at="2018-12-10T14:23:12Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginClickable()[pri:1, instance:Tests.LoginTests2@6e2c9341]" name="LoginClickable" duration-ms="4073" started-at="2018-11-21T12:43:54Z" finished-at="2018-11-21T12:43:58Z">
+        <test-method status="PASS" signature="LoginClickable()[pri:1, instance:Tests.LoginTests2@6e2c9341]" name="LoginClickable" duration-ms="4141" started-at="2018-12-10T14:23:12Z" finished-at="2018-12-10T14:23:16Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : LoginTests2.LoginClickable]]>
@@ -3912,7 +3912,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- LoginClickable -->
-        <test-method status="PASS" signature="DoLogin()[pri:2, instance:Tests.LoginTests2@6e2c9341]" name="DoLogin" duration-ms="4793" started-at="2018-11-21T12:43:58Z" finished-at="2018-11-21T12:44:03Z">
+        <test-method status="PASS" signature="DoLogin()[pri:2, instance:Tests.LoginTests2@6e2c9341]" name="DoLogin" duration-ms="4905" started-at="2018-12-10T14:23:16Z" finished-at="2018-12-10T14:23:21Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : LoginTests2.DoLogin]]>
@@ -3940,7 +3940,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method status="PASS" signature="FillPasswordWithOutToFillEmail()[pri:3, instance:Tests.LoginTests2@6e2c9341]" name="FillPasswordWithOutToFillEmail" duration-ms="3696" started-at="2018-11-21T12:44:03Z" finished-at="2018-11-21T12:44:07Z">
+        <test-method status="PASS" signature="FillPasswordWithOutToFillEmail()[pri:3, instance:Tests.LoginTests2@6e2c9341]" name="FillPasswordWithOutToFillEmail" duration-ms="3512" started-at="2018-12-10T14:23:21Z" finished-at="2018-12-10T14:23:24Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : LoginTests2.FillPasswordWithOutToFillEmail]]>
@@ -3968,7 +3968,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- FillPasswordWithOutToFillEmail -->
-        <test-method status="PASS" signature="FillEmailWithOutToFillPassword()[pri:4, instance:Tests.LoginTests2@6e2c9341]" name="FillEmailWithOutToFillPassword" duration-ms="6190" started-at="2018-11-21T12:44:07Z" finished-at="2018-11-21T12:44:13Z">
+        <test-method status="PASS" signature="FillEmailWithOutToFillPassword()[pri:4, instance:Tests.LoginTests2@6e2c9341]" name="FillEmailWithOutToFillPassword" duration-ms="6973" started-at="2018-12-10T14:23:24Z" finished-at="2018-12-10T14:23:31Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : LoginTests2.FillEmailWithOutToFillPassword]]>
@@ -3996,7 +3996,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- FillEmailWithOutToFillPassword -->
-        <test-method status="PASS" signature="ClickLoginwWithOutToFillAnyFields()[pri:5, instance:Tests.LoginTests2@6e2c9341]" name="ClickLoginwWithOutToFillAnyFields" duration-ms="2866" started-at="2018-11-21T12:44:13Z" finished-at="2018-11-21T12:44:16Z">
+        <test-method status="PASS" signature="ClickLoginwWithOutToFillAnyFields()[pri:5, instance:Tests.LoginTests2@6e2c9341]" name="ClickLoginwWithOutToFillAnyFields" duration-ms="3489" started-at="2018-12-10T14:23:31Z" finished-at="2018-12-10T14:23:35Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : LoginTests2.ClickLoginwWithOutToFillAnyFields]]>
@@ -4024,7 +4024,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- ClickLoginwWithOutToFillAnyFields -->
-        <test-method status="PASS" signature="FillCorrectEmailWithWrongPassword()[pri:6, instance:Tests.LoginTests2@6e2c9341]" name="FillCorrectEmailWithWrongPassword" duration-ms="8634" started-at="2018-11-21T12:44:16Z" finished-at="2018-11-21T12:44:24Z">
+        <test-method status="PASS" signature="FillCorrectEmailWithWrongPassword()[pri:6, instance:Tests.LoginTests2@6e2c9341]" name="FillCorrectEmailWithWrongPassword" duration-ms="7472" started-at="2018-12-10T14:23:35Z" finished-at="2018-12-10T14:23:42Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : LoginTests2.FillCorrectEmailWithWrongPassword]]>
@@ -4052,7 +4052,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- FillCorrectEmailWithWrongPassword -->
-        <test-method status="PASS" signature="FillCorrectPasswordWithWrongEmail()[pri:7, instance:Tests.LoginTests2@6e2c9341]" name="FillCorrectPasswordWithWrongEmail" duration-ms="6064" started-at="2018-11-21T12:44:24Z" finished-at="2018-11-21T12:44:30Z">
+        <test-method status="PASS" signature="FillCorrectPasswordWithWrongEmail()[pri:7, instance:Tests.LoginTests2@6e2c9341]" name="FillCorrectPasswordWithWrongEmail" duration-ms="6807" started-at="2018-12-10T14:23:42Z" finished-at="2018-12-10T14:23:49Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : LoginTests2.FillCorrectPasswordWithWrongEmail]]>
@@ -4082,16 +4082,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- FillCorrectPasswordWithWrongEmail -->
       </class> <!-- Tests.LoginTests2 -->
     </test> <!-- LoginTests2 -->
-    <test name="SignUpTest" duration-ms="61997" started-at="2018-11-21T12:44:30Z" finished-at="2018-11-21T12:45:32Z">
+    <test name="SignUpTest" duration-ms="65526" started-at="2018-12-10T14:23:49Z" finished-at="2018-12-10T14:24:54Z">
       <class name="Tests.SignUpTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpTest@6cc7b4de]" name="setup" is-config="true" duration-ms="22283" started-at="2018-11-21T12:44:30Z" finished-at="2018-11-21T12:44:53Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpTest@6cc7b4de]" name="setup" is-config="true" duration-ms="27308" started-at="2018-12-10T14:23:49Z" finished-at="2018-12-10T14:24:16Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="SignUpClickable()[pri:1, instance:Tests.SignUpTest@6cc7b4de]" name="SignUpClickable" duration-ms="1589" started-at="2018-11-21T12:44:53Z" finished-at="2018-11-21T12:44:54Z">
+        <test-method status="PASS" signature="SignUpClickable()[pri:1, instance:Tests.SignUpTest@6cc7b4de]" name="SignUpClickable" duration-ms="1601" started-at="2018-12-10T14:24:16Z" finished-at="2018-12-10T14:24:18Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpTest.SignUpClickable]]>
@@ -4119,7 +4119,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- SignUpClickable -->
-        <test-method status="PASS" signature="FillEmailWitoutShtudel()[pri:2, instance:Tests.SignUpTest@6cc7b4de]" name="FillEmailWitoutShtudel" duration-ms="6821" started-at="2018-11-21T12:44:54Z" finished-at="2018-11-21T12:45:01Z">
+        <test-method status="PASS" signature="FillEmailWitoutShtudel()[pri:2, instance:Tests.SignUpTest@6cc7b4de]" name="FillEmailWitoutShtudel" duration-ms="6837" started-at="2018-12-10T14:24:18Z" finished-at="2018-12-10T14:24:25Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpTest.FillEmailWitoutShtudel]]>
@@ -4147,7 +4147,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- FillEmailWitoutShtudel -->
-        <test-method status="PASS" signature="FillEmailWithoutDotCom()[pri:3, instance:Tests.SignUpTest@6cc7b4de]" name="FillEmailWithoutDotCom" duration-ms="11866" started-at="2018-11-21T12:45:01Z" finished-at="2018-11-21T12:45:13Z">
+        <test-method status="PASS" signature="FillEmailWithoutDotCom()[pri:3, instance:Tests.SignUpTest@6cc7b4de]" name="FillEmailWithoutDotCom" duration-ms="11191" started-at="2018-12-10T14:24:25Z" finished-at="2018-12-10T14:24:36Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpTest.FillEmailWithoutDotCom]]>
@@ -4175,7 +4175,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- FillEmailWithoutDotCom -->
-        <test-method status="PASS" signature="FillPsswordWithLessthan6Characters()[pri:4, instance:Tests.SignUpTest@6cc7b4de]" name="FillPsswordWithLessthan6Characters" duration-ms="12164" started-at="2018-11-21T12:45:13Z" finished-at="2018-11-21T12:45:25Z">
+        <test-method status="PASS" signature="FillPsswordWithLessthan6Characters()[pri:4, instance:Tests.SignUpTest@6cc7b4de]" name="FillPsswordWithLessthan6Characters" duration-ms="12015" started-at="2018-12-10T14:24:36Z" finished-at="2018-12-10T14:24:48Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
@@ -4203,7 +4203,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- FillPsswordWithLessthan6Characters -->
-        <test-method status="PASS" signature="DoSignUp()[pri:5, instance:Tests.SignUpTest@6cc7b4de]" name="DoSignUp" duration-ms="7271" started-at="2018-11-21T12:45:25Z" finished-at="2018-11-21T12:45:32Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:5, instance:Tests.SignUpTest@6cc7b4de]" name="DoSignUp" duration-ms="6570" started-at="2018-12-10T14:24:48Z" finished-at="2018-12-10T14:24:54Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : SignUpTest.DoSignUp]]>

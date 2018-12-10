@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Test Default test]]>
@@ -11,91 +11,161 @@
       <![CDATA[Completed executing following method : BaseTest.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : ContactStylistTest.StylistSendToClient]]>
+      <![CDATA[About to begin executing following method : SignUpTest.SignupwithoutDotCom]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : ContactStylistTest.StylistSendToClient]]>
+      <![CDATA[Completed executing following method : SignUpTest.SignupwithoutDotCom]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite StylistSendToClient]]>
+      <![CDATA[About to Success executing Suite SignupwithoutDotCom]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.ContactStylistTest]]>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : ContactStylistTest.ClientToStylist]]>
+      <![CDATA[About to begin executing following method : SignUpTest.Signupwithoutshtudel]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : ContactStylistTest.ClientToStylist]]>
+      <![CDATA[Completed executing following method : SignUpTest.Signupwithoutshtudel]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite ClientToStylist]]>
+      <![CDATA[About to Success executing Suite Signupwithoutshtudel]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.ContactStylistTest]]>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillPsswordWithLessthan6Characters]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpTest.DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpTest.DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="358459" started-at="2018-12-05T19:59:56Z" finished-at="2018-12-05T20:05:55Z">
+  <suite name="Default suite" duration-ms="195303" started-at="2018-12-06T12:06:23Z" finished-at="2018-12-06T12:09:38Z">
     <groups>
       <group name="sanity-group">
-        <method signature="ContactStylistTest.ClientToStylist()[pri:2, instance:Tests.ContactStylistTest@11758f2a]" name="ClientToStylist" class="Tests.ContactStylistTest"/>
-        <method signature="ContactStylistTest.StylistSendToClient()[pri:1, instance:Tests.ContactStylistTest@11758f2a]" name="StylistSendToClient" class="Tests.ContactStylistTest"/>
+        <method signature="SignUpTest.DoSignUp()[pri:4, instance:Tests.SignUpTest@11758f2a]" name="DoSignUp" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:3, instance:Tests.SignUpTest@11758f2a]" name="FillPsswordWithLessthan6Characters" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.SignupwithoutDotCom()[pri:1, instance:Tests.SignUpTest@11758f2a]" name="SignupwithoutDotCom" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.Signupwithoutshtudel()[pri:2, instance:Tests.SignUpTest@11758f2a]" name="Signupwithoutshtudel" class="Tests.SignUpTest"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="358459" started-at="2018-12-05T19:59:56Z" finished-at="2018-12-05T20:05:55Z">
-      <class name="Tests.ContactStylistTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.ContactStylistTest@11758f2a]" name="setup" is-config="true" duration-ms="13448" started-at="2018-12-05T19:59:56Z" finished-at="2018-12-05T20:00:10Z">
+    <test name="Default test" duration-ms="195303" started-at="2018-12-06T12:06:23Z" finished-at="2018-12-06T12:09:38Z">
+      <class name="Tests.SignUpTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpTest@11758f2a]" name="setup" is-config="true" duration-ms="15559" started-at="2018-12-06T12:06:23Z" finished-at="2018-12-06T12:06:39Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="StylistSendToClient()[pri:1, instance:Tests.ContactStylistTest@11758f2a]" name="StylistSendToClient" duration-ms="162802" started-at="2018-12-05T20:00:10Z" finished-at="2018-12-05T20:02:52Z">
+        <test-method status="PASS" signature="SignupwithoutDotCom()[pri:1, instance:Tests.SignUpTest@11758f2a]" name="SignupwithoutDotCom" duration-ms="29771" started-at="2018-12-06T12:06:39Z" finished-at="2018-12-06T12:07:08Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : ContactStylistTest.StylistSendToClient]]>
+              <![CDATA[About to begin executing following method : SignUpTest.SignupwithoutDotCom]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : ContactStylistTest.StylistSendToClient]]>
+              <![CDATA[Completed executing following method : SignUpTest.SignupwithoutDotCom]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite StylistSendToClient]]>
+              <![CDATA[About to Success executing Suite SignupwithoutDotCom]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.ContactStylistTest]]>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- StylistSendToClient -->
-        <test-method status="PASS" signature="ClientToStylist()[pri:2, instance:Tests.ContactStylistTest@11758f2a]" name="ClientToStylist" duration-ms="182189" started-at="2018-12-05T20:02:52Z" finished-at="2018-12-05T20:05:55Z">
+        </test-method> <!-- SignupwithoutDotCom -->
+        <test-method status="PASS" signature="Signupwithoutshtudel()[pri:2, instance:Tests.SignUpTest@11758f2a]" name="Signupwithoutshtudel" duration-ms="29002" started-at="2018-12-06T12:07:08Z" finished-at="2018-12-06T12:07:37Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : ContactStylistTest.ClientToStylist]]>
+              <![CDATA[About to begin executing following method : SignUpTest.Signupwithoutshtudel]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : ContactStylistTest.ClientToStylist]]>
+              <![CDATA[Completed executing following method : SignUpTest.Signupwithoutshtudel]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite ClientToStylist]]>
+              <![CDATA[About to Success executing Suite Signupwithoutshtudel]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.ContactStylistTest]]>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- ClientToStylist -->
-      </class> <!-- Tests.ContactStylistTest -->
+        </test-method> <!-- Signupwithoutshtudel -->
+        <test-method status="PASS" signature="FillPsswordWithLessthan6Characters()[pri:3, instance:Tests.SignUpTest@11758f2a]" name="FillPsswordWithLessthan6Characters" duration-ms="62315" started-at="2018-12-06T12:07:37Z" finished-at="2018-12-06T12:08:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillPsswordWithLessthan6Characters]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FillPsswordWithLessthan6Characters -->
+        <test-method status="PASS" signature="DoSignUp()[pri:4, instance:Tests.SignUpTest@11758f2a]" name="DoSignUp" duration-ms="58626" started-at="2018-12-06T12:08:40Z" finished-at="2018-12-06T12:09:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpTest.DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpTest.DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+      </class> <!-- Tests.SignUpTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
