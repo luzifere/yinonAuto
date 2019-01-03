@@ -25,23 +25,25 @@ public class BookingCCTests extends BaseTest
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
 		signup.doSignUp("wishite4sty@wishi.com" + number, "inon", "av", "ab1565");
-		signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
-		BestMatchPage best = new BestMatchPage(driver);
+		PageObejecs.BestMatchPage best = new PageObejecs.BestMatchPage(driver);
 		best.ClickontinueButton();
-		best.ClickMale();
-		best.FillAge("45");
-		/*
-		best.selectMounts(3);
-		best.selectDays(16);
-		best.selectYears(9);
-		*/
+		best.ClickFamle();
+		best.SelectBodyType("2");
 		best.ClickNextbutton();
-		best.SelectNormal();
-		best.SelectNormal2();
-		best.SelectInspiration("2");
-		best.ClickTagsNextButton();
+		best.SelectHELLONO("1");
+		best.SelectHELLONO("2");
+		best.SelectSOMETIMES("3");
+		best.SelectLoveIt("4");
+		best.SelectHELLONO("5");
+		best.SelectHELLONO("6");
+		best.SelectHELLONO("7");
+		best.SelectHELLONO("8");
+		best.SelectHELLONO("9");
+		best.SelectHELLONO("10");
 		best.Selectbrands("2");
-		best.ClickTagsNextButton();
+		best.ClickNextbutton();
+		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
+		best.ClickMeetMyMatch();
 		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match')]]"));
 		//best.ClickMoreStylistsButton();
 		/*

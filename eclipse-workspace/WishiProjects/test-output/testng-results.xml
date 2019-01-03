@@ -257,7 +257,7 @@
       <![CDATA[Completed executing following method : BaseTest.tearDown]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="438177" started-at="2018-11-28T11:23:29Z" finished-at="2018-11-28T11:30:47Z">
+  <suite name="Default suite" duration-ms="424522" started-at="2019-01-01T14:33:35Z" finished-at="2019-01-01T14:40:39Z">
     <groups>
       <group name="sanity-group">
         <method signature="CrateLookTests.AskEndSession()[pri:18, instance:WishiTests.CrateLookTests@59fa1d9b]" name="AskEndSession" class="WishiTests.CrateLookTests"/>
@@ -278,16 +278,16 @@
         <method signature="CrateLookTests.VerifyMoodBoard()[pri:5, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyMoodBoard" class="WishiTests.CrateLookTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="438177" started-at="2018-11-28T11:23:29Z" finished-at="2018-11-28T11:30:47Z">
+    <test name="Default test" duration-ms="424522" started-at="2019-01-01T14:33:35Z" finished-at="2019-01-01T14:40:39Z">
       <class name="WishiTests.CrateLookTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.CrateLookTests@59fa1d9b]" name="setup" is-config="true" duration-ms="13013" started-at="2018-11-28T11:23:29Z" finished-at="2018-11-28T11:23:42Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.CrateLookTests@59fa1d9b]" name="setup" is-config="true" duration-ms="13131" started-at="2019-01-01T14:33:35Z" finished-at="2019-01-01T14:33:48Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginAsClient()[pri:1, instance:WishiTests.CrateLookTests@59fa1d9b]" name="LoginAsClient" duration-ms="8098" started-at="2018-11-28T11:23:42Z" finished-at="2018-11-28T11:23:50Z">
+        <test-method status="PASS" signature="LoginAsClient()[pri:1, instance:WishiTests.CrateLookTests@59fa1d9b]" name="LoginAsClient" duration-ms="7984" started-at="2019-01-01T14:33:48Z" finished-at="2019-01-01T14:33:56Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CrateLookTests.LoginAsClient]]>
@@ -306,7 +306,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- LoginAsClient -->
-        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CheckOutSession" duration-ms="27850" started-at="2018-11-28T11:23:50Z" finished-at="2018-11-28T11:24:17Z">
+        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CheckOutSession" duration-ms="26705" started-at="2019-01-01T14:33:56Z" finished-at="2019-01-01T14:34:22Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CrateLookTests.CheckOutSession]]>
@@ -325,7 +325,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CheckOutSession -->
-        <test-method status="PASS" signature="LoginAsStylist()[pri:3, instance:WishiTests.CrateLookTests@59fa1d9b]" name="LoginAsStylist" duration-ms="8710" started-at="2018-11-28T11:24:17Z" finished-at="2018-11-28T11:24:26Z">
+        <test-method status="PASS" signature="LoginAsStylist()[pri:3, instance:WishiTests.CrateLookTests@59fa1d9b]" name="LoginAsStylist" duration-ms="10669" started-at="2019-01-01T14:34:22Z" finished-at="2019-01-01T14:34:33Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CrateLookTests.LoginAsStylist]]>
@@ -344,7 +344,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- LoginAsStylist -->
-        <test-method status="PASS" signature="CreateMoodBoard()[pri:4, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreateMoodBoard" duration-ms="47543" started-at="2018-11-28T11:24:26Z" finished-at="2018-11-28T11:25:14Z">
+        <test-method status="PASS" signature="CreateMoodBoard()[pri:4, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreateMoodBoard" duration-ms="38724" started-at="2019-01-01T14:34:33Z" finished-at="2019-01-01T14:35:12Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CrateLookTests.CreateMoodBoard]]>
@@ -363,7 +363,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CreateMoodBoard -->
-        <test-method status="PASS" signature="VerifyMoodBoard()[pri:5, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyMoodBoard" duration-ms="14420" started-at="2018-11-28T11:25:14Z" finished-at="2018-11-28T11:25:28Z">
+        <test-method status="PASS" signature="VerifyMoodBoard()[pri:5, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyMoodBoard" duration-ms="14641" started-at="2019-01-01T14:35:12Z" finished-at="2019-01-01T14:35:26Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CrateLookTests.VerifyMoodBoard]]>
@@ -382,7 +382,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- VerifyMoodBoard -->
-        <test-method status="PASS" signature="CreatePS()[pri:6, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreatePS" duration-ms="51834" started-at="2018-11-28T11:25:28Z" finished-at="2018-11-28T11:26:20Z">
+        <test-method status="PASS" signature="CreatePS()[pri:6, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreatePS" duration-ms="51278" started-at="2019-01-01T14:35:26Z" finished-at="2019-01-01T14:36:18Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CrateLookTests.CreatePS]]>
@@ -401,7 +401,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CreatePS -->
-        <test-method status="PASS" signature="AskRevise()[pri:7, instance:WishiTests.CrateLookTests@59fa1d9b]" name="AskRevise" duration-ms="15177" started-at="2018-11-28T11:26:20Z" finished-at="2018-11-28T11:26:35Z">
+        <test-method status="PASS" signature="AskRevise()[pri:7, instance:WishiTests.CrateLookTests@59fa1d9b]" name="AskRevise" duration-ms="16909" started-at="2019-01-01T14:36:18Z" finished-at="2019-01-01T14:36:35Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CrateLookTests.AskRevise]]>
@@ -420,7 +420,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- AskRevise -->
-        <test-method status="PASS" signature="CreateLook1()[pri:8, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreateLook1" duration-ms="51452" started-at="2018-11-28T11:26:35Z" finished-at="2018-11-28T11:27:27Z">
+        <test-method status="PASS" signature="CreateLook1()[pri:8, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreateLook1" duration-ms="50230" started-at="2019-01-01T14:36:35Z" finished-at="2019-01-01T14:37:25Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CrateLookTests.CreateLook1]]>
@@ -439,7 +439,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CreateLook1 -->
-        <test-method status="PASS" signature="VerifyLook1()[pri:9, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyLook1" duration-ms="15475" started-at="2018-11-28T11:27:27Z" finished-at="2018-11-28T11:27:42Z">
+        <test-method status="PASS" signature="VerifyLook1()[pri:9, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyLook1" duration-ms="15634" started-at="2019-01-01T14:37:25Z" finished-at="2019-01-01T14:37:41Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CrateLookTests.VerifyLook1]]>
@@ -458,7 +458,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- VerifyLook1 -->
-        <test-method status="PASS" signature="CreateLook2()[pri:12, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreateLook2" duration-ms="53754" started-at="2018-11-28T11:27:42Z" finished-at="2018-11-28T11:28:36Z">
+        <test-method status="PASS" signature="CreateLook2()[pri:12, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreateLook2" duration-ms="46055" started-at="2019-01-01T14:37:41Z" finished-at="2019-01-01T14:38:27Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CrateLookTests.CreateLook2]]>
@@ -477,7 +477,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CreateLook2 -->
-        <test-method status="PASS" signature="VerifyLook2()[pri:13, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyLook2" duration-ms="14315" started-at="2018-11-28T11:28:36Z" finished-at="2018-11-28T11:28:50Z">
+        <test-method status="PASS" signature="VerifyLook2()[pri:13, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyLook2" duration-ms="14282" started-at="2019-01-01T14:38:27Z" finished-at="2019-01-01T14:38:41Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CrateLookTests.VerifyLook2]]>
@@ -496,7 +496,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- VerifyLook2 -->
-        <test-method status="PASS" signature="CreateLook3()[pri:16, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreateLook3" duration-ms="56815" started-at="2018-11-28T11:28:50Z" finished-at="2018-11-28T11:29:47Z">
+        <test-method status="PASS" signature="CreateLook3()[pri:16, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreateLook3" duration-ms="48132" started-at="2019-01-01T14:38:41Z" finished-at="2019-01-01T14:39:29Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CrateLookTests.CreateLook3]]>
@@ -515,7 +515,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- CreateLook3 -->
-        <test-method status="PASS" signature="VerifyLook3()[pri:17, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyLook3" duration-ms="15828" started-at="2018-11-28T11:29:47Z" finished-at="2018-11-28T11:30:03Z">
+        <test-method status="PASS" signature="VerifyLook3()[pri:17, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyLook3" duration-ms="16998" started-at="2019-01-01T14:39:29Z" finished-at="2019-01-01T14:39:46Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CrateLookTests.VerifyLook3]]>
@@ -534,7 +534,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- VerifyLook3 -->
-        <test-method status="PASS" signature="AskEndSession()[pri:18, instance:WishiTests.CrateLookTests@59fa1d9b]" name="AskEndSession" duration-ms="13796" started-at="2018-11-28T11:30:03Z" finished-at="2018-11-28T11:30:17Z">
+        <test-method status="PASS" signature="AskEndSession()[pri:18, instance:WishiTests.CrateLookTests@59fa1d9b]" name="AskEndSession" duration-ms="13547" started-at="2019-01-01T14:39:46Z" finished-at="2019-01-01T14:40:00Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CrateLookTests.AskEndSession]]>
@@ -553,7 +553,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- AskEndSession -->
-        <test-method status="PASS" signature="ClientEndSession()[pri:19, instance:WishiTests.CrateLookTests@59fa1d9b]" name="ClientEndSession" duration-ms="18873" started-at="2018-11-28T11:30:17Z" finished-at="2018-11-28T11:30:35Z">
+        <test-method status="PASS" signature="ClientEndSession()[pri:19, instance:WishiTests.CrateLookTests@59fa1d9b]" name="ClientEndSession" duration-ms="28530" started-at="2019-01-01T14:40:00Z" finished-at="2019-01-01T14:40:28Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CrateLookTests.ClientEndSession]]>
@@ -572,7 +572,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- ClientEndSession -->
-        <test-method status="PASS" signature="VerifyEndSession()[pri:20, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyEndSession" duration-ms="11185" started-at="2018-11-28T11:30:35Z" finished-at="2018-11-28T11:30:47Z">
+        <test-method status="PASS" signature="VerifyEndSession()[pri:20, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyEndSession" duration-ms="11034" started-at="2019-01-01T14:40:28Z" finished-at="2019-01-01T14:40:39Z">
           <reporter-output>
             <line>
               <![CDATA[About to begin executing following method : CrateLookTests.VerifyEndSession]]>
@@ -591,7 +591,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- VerifyEndSession -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.CrateLookTests@59fa1d9b]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-28T11:30:47Z" finished-at="2018-11-28T11:30:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.CrateLookTests@59fa1d9b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-01T14:40:39Z" finished-at="2019-01-01T14:40:39Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.tearDown]]>

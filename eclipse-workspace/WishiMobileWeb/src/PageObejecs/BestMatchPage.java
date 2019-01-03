@@ -21,27 +21,29 @@ public class BestMatchPage extends BasePage
 	}
 	@FindBy(xpath="(//div[@class='fld-select'])[1]")
 	WebElement Mount;
-	@FindBy(xpath="//a[@class='vis']")
+	@FindBy(xpath="//div//a[@class='back-btn']")
 	WebElement Back;
+	@FindBy(xpath="(//div//a[@class='back-btn'])[1]")
+	WebElement Back1;
 	@FindBy(xpath="//input[@type='tel']")
 	WebElement Age;
 	@FindBy(xpath="(//div[@class='fld-select'])[2]")
 	WebElement Day;
 	@FindBy(xpath="(//div[@class='fld-select'])[3]")
 	WebElement Year;
-	@FindBy(xpath="//div//a[@class='btn-start']")
+	@FindBy(xpath="//div//button[@class='btn-start']")
 	WebElement ContinueButton;
 
-	@FindBy(xpath="//div//button[text()[contains(.,'Female')]]")
+	@FindBy(xpath="//div//label[@for='g_1']")
 	WebElement Female;
 
-	@FindBy(xpath="//div//button[text()[contains(.,'Male')]]")
+	@FindBy(xpath="//div//label[@for='g_2']")
 	WebElement Male;
 
-	@FindBy(xpath="//div//button[text()[contains(.,'Self Identity')]]")
+	@FindBy(xpath="//div//label[@for='g_3']")
 	WebElement SelfIdentity;
 
-	@FindBy(xpath="//div//button[text()[contains(.,'Next')]]")
+	@FindBy(xpath="//div//button[text()[contains(.,'NEXT')]]")
 	WebElement NextButton;
 	@FindBy(xpath="(//div//button[text()[contains(.,'Next')]])[2]")
 	WebElement TagsNextButton;
@@ -85,10 +87,135 @@ public class BestMatchPage extends BasePage
 	WebElement StartHere;
 	@FindBy(xpath="//div[@class='get-your-style ng-binding']")
 	WebElement GetStyle;
+	@FindBy(xpath="//button[@class='btn-finish']")
+	WebElement MeetMyMatch;
 
 
 
+	public void ClickMeetMyMatch() 
+	{
+		try
+		 
+		 {
+			WaitElementDisplay(By.xpath("//button[@class='btn-finish']"));
+			Sleep(100);
+			click(MeetMyMatch);
+			Sleep(100);
+		 
+		 }catch(Exception e){
+		 
+			
+			  System.err.println("\nError : ClickMeetMyMatch failed\n");
+			
+		 }
+	
+}
+	public void SelectBodyType(String inspiration)
+	{
+		try
+		 
+		 {
+			String GoalElemet = ("//div//label[@for='t_text1']");//div//label[@for='t_0']
+			GoalElemet = GoalElemet.replace("text1", inspiration);
+			WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+			WaitElementDisplay(By.xpath("//div//label[@for='t_0']"));
+			Sleep(100);
+			click(GoalButton);
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.err.println("\nError : SelectBodyType failed\n");
+			
+		 }
+		
+	}
 
+	public void ClickSkipbutton2(String inspiration)
+	{
+		try
+		 
+		 {
+			String GoalElemet = ("(//div//button[text()[contains(.,'SKIP')]])[text1]");
+			GoalElemet = GoalElemet.replace("text1", inspiration);
+			WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+			//WaitElementDisplay(By.xpath("(//span[text()[contains(.,'LOVE IT!')]])[2]"));
+			Sleep(100);
+			click(GoalButton);
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.err.println("\nError : SelectLoveIt failed\n");
+			
+		 }
+	}
+	public void SelectLoveIt(String inspiration)
+	{
+		try
+		 
+		 {
+			Sleep(100);
+			String GoalElemet = ("(//span[text()[contains(.,'LOVE IT!')]])[text1]");
+			GoalElemet = GoalElemet.replace("text1", inspiration);
+			WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+			//WaitElementDisplay(By.xpath("(//span[text()[contains(.,'LOVE IT!')]])[2]"));
+			Sleep(100);
+			click(GoalButton);
+			Sleep(100);
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.err.println("\nError : SelectLoveIt failed\n");
+			
+		 }
+		
+	}
+	public void SelectHELLONO(String inspiration)
+	{
+		try
+		 
+		 {
+			Sleep(100);
+			String GoalElemet = ("(//span[text()[contains(.,'HELLO NO!')]])[text1]");
+			GoalElemet = GoalElemet.replace("text1", inspiration);
+			WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+			//WaitElementDisplay(By.xpath("(//span[text()[contains(.,'LOVE IT!')]])[2]"));
+			Sleep(100);
+			click(GoalButton);
+			Sleep(100);
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.err.println("\nError : SelectLoveIt failed\n");
+			
+		 }
+		
+	}
+	public void SelectSOMETIMES(String inspiration)
+	{
+		try
+		 
+		 {
+			Sleep(100);
+			String GoalElemet = ("(//span[text()[contains(.,'SOMETIMES')]])[text1]");
+			GoalElemet = GoalElemet.replace("text1", inspiration);
+			WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+			//WaitElementDisplay(By.xpath("(//span[text()[contains(.,'LOVE IT!')]])[2]"));
+			Sleep(100);
+			click(GoalButton);
+			Sleep(100);
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.err.println("\nError : SelectLoveIt failed\n");
+			
+		 }
+		
+	}
 	public void selectMounts(int num)
 	{
 		Select mounts = new Select (driver.findElement(By.xpath("(//select[@ng-model='formData.month'])")));
@@ -140,6 +267,7 @@ public class BestMatchPage extends BasePage
 	public void ClickontinueButton() 
 	{	
 		Sleep(250);
+		scrollDown();
 		click(ContinueButton);
 		Sleep(250);
 		//WaitElementDisplay(By.xpath("//*[@name='Allow']"));
@@ -244,6 +372,13 @@ public class BestMatchPage extends BasePage
 	{
 		Sleep(250);
 		click(Back);
+		Sleep(250);
+	}
+	public void ClickBackBrands() 
+	{
+		Sleep(250);
+		WaitElementDisplay(By.xpath("(//div//a[@class='back-btn'])[1]"));
+		click(Back1);
 		Sleep(250);
 	}
 	public void FillAge (String text) 

@@ -16,5 +16,6 @@
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="dataProvider.ConfigFileReader"/>
+    <fullyQualifiedTypeName name="com.sun.tools.sjavac.Log"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 </qualifiedTypeNameHistroy>

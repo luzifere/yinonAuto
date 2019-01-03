@@ -23,7 +23,7 @@ public class CrateLookTests extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		login.waitForPageLoaded();
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
 		login.doLogin("client104@wishi.com", "123456");
 
 
@@ -70,8 +70,9 @@ public class CrateLookTests extends BaseTest
 	public void LoginAsStylist() 
 	{
 		LoginPage login = new LoginPage(driver);
+		login.Sleep(200);
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
 		login.doLogin("stylist.booking@wishi.com", "123456");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(200);
@@ -117,7 +118,7 @@ public class CrateLookTests extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
 		login.doLogin("client104@wishi.com", "123456");
 		ChatPage chat = new ChatPage(driver);
 		chat.RefreshPage();
@@ -134,7 +135,7 @@ public class CrateLookTests extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
 		login.doLogin("stylist.booking@wishi.com", "123456");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(200);
@@ -175,7 +176,7 @@ public class CrateLookTests extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
-		//Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
 		login.doLogin("client104@wishi.com", "123456");
 		CrateLookPage look = new CrateLookPage(driver);
 		ChatPage chat = new ChatPage(driver);
@@ -192,7 +193,7 @@ public class CrateLookTests extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
 		login.doLogin("stylist.booking@wishi.com", "123456");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(200);
@@ -233,7 +234,7 @@ public class CrateLookTests extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
-		//Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
 		login.doLogin("client104@wishi.com", "123456");
 		CrateLookPage look = new CrateLookPage(driver);
 		ChatPage chat = new ChatPage(driver);
@@ -250,7 +251,7 @@ public class CrateLookTests extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
 		login.doLogin("stylist.booking@wishi.com", "123456");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(200);
@@ -290,7 +291,7 @@ public class CrateLookTests extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
 		login.doLogin("client104@wishi.com", "123456");
 		ChatPage chat = new ChatPage(driver);
 		chat.RefreshPage();
@@ -307,7 +308,7 @@ public class CrateLookTests extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
 		login.doLogin("stylist.booking@wishi.com", "123456");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(200);
@@ -346,7 +347,7 @@ public class CrateLookTests extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
 		login.doLogin("client104@wishi.com", "123456");
 		CrateLookPage look = new CrateLookPage(driver);
 		ChatPage chat = new ChatPage(driver);
@@ -419,7 +420,7 @@ public class CrateLookTests extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
 		login.doLogin("stylist.booking@wishi.com", "123456");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(200);
@@ -458,7 +459,7 @@ public class CrateLookTests extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
 		login.doLogin("client104@wishi.com", "123456");
 		CrateLookPage look = new CrateLookPage(driver);
 		ChatPage chat = new ChatPage(driver);
@@ -475,7 +476,7 @@ public class CrateLookTests extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
 		login.doLogin("stylist.booking@wishi.com", "123456");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(200);
@@ -495,13 +496,14 @@ public class CrateLookTests extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
 		login.doLogin("client104@wishi.com", "123456");
 		CrateLookPage look = new CrateLookPage(driver);
 		ChatPage chat = new ChatPage(driver);
 		chat.RefreshPage();
 		chat.ClickMyBooking();
 		driver.findElement(By.xpath("(//button[@class='create-look-btn'])[1]")).click();
+		chat.RefreshPage();
 		look.ClickApproveEndSeesionButton();
 		look.switchWindow();
 		driver.findElement(By.xpath("//label[@for='sr4']")).click();
@@ -516,7 +518,7 @@ public class CrateLookTests extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
 		login.doLogin("stylist.booking@wishi.com", "123456");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(200);

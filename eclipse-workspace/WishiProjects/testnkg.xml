@@ -4,40 +4,68 @@
 <listeners>
         <listener class-name="WishiTests.Listener"></listener>
     </listeners>
-     <test name="RetakeMatchNormalFeamleTests">
+    
+         <test name="StartHereFemaleTests">
     <classes>
-      <class name="WishiTests.RetakeMatchNormalFeamleTests"/>
+      <class name="WishiTests.StartHereFemaleTests"/>
     </classes>
     </test> <!-- Test -->
- <test name="RetakeExpensiveMaleMatchTests">
+    <test name="StartHereFluIDTests">
     <classes>
-      <class name="WishiTests.RetakeExpensiveMaleMatchTests"/>
+      <class name="WishiTests.StartHereFluIDTests"/>
     </classes>
     </test> <!-- Test -->
-    <test name="RetakeMatchExpensiveFeamleTests">
+    <test name="StartHereHelloNoTests">
     <classes>
-      <class name="WishiTests.RetakeMatchExpensiveFeamleTests"/>
+      <class name="WishiTests.StartHereHelloNoTests"/>
     </classes>
     </test> <!-- Test -->
-    <test name="RetakeMatchLowFeamleTests">
+    <test name="StartHereMaleTests">
     <classes>
-      <class name="WishiTests.RetakeMatchLowFeamleTests"/>
+      <class name="WishiTests.StartHereMaleTests"/>
     </classes>
     </test> <!-- Test -->
-    <test name="RetakeMatchLowMaleTests">
+     <test name="StartHereFFacbookTests">
     <classes>
-      <class name="WishiTests.RetakeMatchLowMaleTests"/>
+      <class name="WishiTests.StartHereFFacbookTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="BestMatchFemaleTest">
+    <classes>
+      <class name="WishiTests.BestMatchFemaleTest"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="BestMatchFluIDTest">
+    <classes>
+      <class name="WishiTests.BestMatchFluIDTest"/>
     </classes>
     </test> <!-- Test -->
     
-    <test name="RetakeMatchNormalMaleTests">
+    <test name="BestMatchHelloNo">
     <classes>
-      <class name="WishiTests.RetakeMatchNormalMaleTests"/>
+      <class name="WishiTests.BestMatchHelloNo"/>
     </classes>
     </test> <!-- Test -->
-    <test name="RetakeMatchNaturalTests">
+    <test name="BestMatchMaleTest">
     <classes>
-      <class name="WishiTests.RetakeMatchNaturalTests"/>
+      <class name="WishiTests.BestMatchMaleTest"/>
     </classes>
     </test> <!-- Test -->
+    <test name="RetakeMatchFamleTest">
+    <classes>
+      <class name="WishiTests.RetakeMatchFamleTest"/>
+    </classes>
+    </test> <!-- Test -->
+ <test name="RetakeMatchMaleTest">
+    <classes>
+      <class name="WishiTests.RetakeMatchMaleTest"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="RetakeMatchNaturalTest">
+    <classes>
+      <class name="WishiTests.RetakeMatchNaturalTest"/>
+    </classes>
+    </test> <!-- Test -->
+    
+    
 </suite> 

@@ -34,27 +34,27 @@ public class BookingMembershipTests extends BaseTest
 			number = num.nextInt(70000000);
 		signup.ClickOnSignUpEmail();
 		signup.doSignUp("wishites111@wishi.com" + number, "inon", "av", "ab1565");
-		signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
+		
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();
-		best.FillAge("45");
-		/*
-		best.selectMounts(3);
-		best.selectDays(16);
-		best.selectYears(9);
-		*/
+		best.SelectBodyType("2");
 		best.ClickNextbutton();
-		best.SelectNormal();
-		best.SelectNormal2();
-		best.WaitElementDisplay(By.xpath("//a[text()[contains(.,'Petite')]]"));
-		best.SelectTags("Petite");
-		best.ClickNextbutton();
-		best.SelectInspiration("2");
-		best.ClickNextbutton();
+		best.SelectHELLONO("1");
+		best.SelectHELLONO("2");
+		best.SelectSOMETIMES("3");
+		best.SelectLoveIt("4");
+		best.SelectHELLONO("5");
+		best.SelectHELLONO("6");
+		best.SelectHELLONO("7");
+		best.SelectHELLONO("8");
+		best.SelectHELLONO("9");
+		best.SelectHELLONO("10");
 		best.Selectbrands("2");
 		best.ClickNextbutton();
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
+		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
+		best.ClickMeetMyMatch();
+		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));	
 		//best.ClickMoreStylistsButton();
 		BookingPage booking = new BookingPage(driver);
 		booking.ClickBookingstylist();

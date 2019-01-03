@@ -98,6 +98,14 @@ public class BasePage
 			return false;
 		}
 	}
+	public boolean isElementPresent(String locatorKey) {
+		   try {
+			   WebElement webElement= driver.findElement(By.xpath(locatorKey));
+		       return true;
+		   } catch (org.openqa.selenium.NoSuchElementException e) {
+		       return false;
+		   }
+		}
 	public void switchWindow() 
 	{
 		winHandleBefore = driver.getWindowHandle();

@@ -17,7 +17,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 public class BaseTest 
 {
 	ConfigFileReader configFileReader;
-	AndroidDriver<AndroidElement> driver;
+	protected AndroidDriver<AndroidElement> driver;
 	public AndroidDriver<AndroidElement> Capabilities(String device) throws MalformedURLException 
 	{
 		

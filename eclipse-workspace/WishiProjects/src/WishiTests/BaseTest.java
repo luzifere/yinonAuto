@@ -17,8 +17,8 @@ import dataProvider.ConfigFileReader;
 
 public class BaseTest 
 {
-	WebDriver driver;
-	ConfigFileReader configFileReader;
+	protected WebDriver driver;
+	protected ConfigFileReader configFileReader;
 
 	@BeforeClass
 	(groups={"sanity-group"})

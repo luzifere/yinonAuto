@@ -3,12 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.SignUpTest">
+      <class name="Tests.BestMutch">
         <methods>
-          <include name="DoSignUp"/>
+          <include name="BestMatchFeMaleCheepExpensive"/>
+          <include name="BestMatchSelfIdentity"/>
           <include name="setup"/>
+          <include name="BestMatchCheepFamle"/>
+          <include name="BestMatchCheepMale"/>
+          <include name="BestMatchFeMaleNormal"/>
+          <include name="BestMatchNormalMale"/>
+          <include name="BestMatchExpensiveMale"/>
+          <include name="BestMatchFeMaleExpensive"/>
         </methods>
-      </class> <!-- Tests.SignUpTest -->
+      </class> <!-- Tests.BestMutch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

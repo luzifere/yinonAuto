@@ -61,6 +61,7 @@ public class CrateLookPage extends BasePage {
 	}
 	public void ClickApproveEndSeesionButton() 
 	{
+		WaitElementDisplay(By.xpath("//div[text()[contains(.,'Yes, thanks!')]]"));
 		click(ApproveEndSeesionButton);	
 	}
 	public void ClickSendEndSeesionButton() 

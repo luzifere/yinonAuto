@@ -40,68 +40,172 @@ public class ChatPage extends BasePage
 	
 	public void FillChat(String text)
     {
-    	filltext(Chatfield, text);
+		try
+		 
+		 {
+			filltext(Chatfield, text);
+
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.out.println("\nError : FillChat failed\n");
+			
+		 }
+    	
     }
     public void SendChat()
     {
-    	click(SendChatButton);
+    	try
+		 
+		 {
+    		click(SendChatButton);
+
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.out.println("\nError : SendChat failed\n");
+			
+		 }
+    	
     }
     public boolean ChatDisplay(String chattext)
     {
-    	String ChetElement = ("//div[@class='msg_content ng-binding'][text()[contains(.,'test1')]]");
-    	ChetElement = ChetElement.replace("test1", chattext);
-    	WebElement Chat = driver.findElement(By.xpath(ChetElement));
-    	Chat.toString();
-    	ElementDisplay(ChetElement);
-    	return true;
+    	try
+		 
+		 {
+    		String ChetElement = ("//div[@class='msg_content ng-binding'][text()[contains(.,'test1')]]");
+        	ChetElement = ChetElement.replace("test1", chattext);
+        	WebElement Chat = driver.findElement(By.xpath(ChetElement));
+        	Chat.toString();
+        	ElementDisplay(ChetElement);
+        	return true;
+
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.out.println("\nError : ChatDisplay failed\n");
+			
+		 }
+		return false;
+    	
     }
     
     public void SelectUser(String user)
     {
-    	String UserElemet = ("//div [text()[contains(.,'abarjel inon')]]");
-    	UserElemet = UserElemet.replace("abarjel inon", user);
-    	WebElement UserButton = driver.findElement(By.xpath(UserElemet));
-    	click(UserButton);
+    	try
+		 
+		 {
+    		String UserElemet = ("//div [text()[contains(.,'abarjel inon')]]");
+        	UserElemet = UserElemet.replace("abarjel inon", user);
+        	WebElement UserButton = driver.findElement(By.xpath(UserElemet));
+        	click(UserButton);
+
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.out.println("\nError : SelectUser failed\n");
+			
+		 }
+    	
     }
     public void ClickMyBooking() 
 	{
-    	BasePage.ExplicityWaitIsClickable(By.xpath("//div//span[text()[contains(.,'My Bookings')]]"));
-		click(BookBtn);	
+    	try
+		 
+		 {
+    		BasePage.ExplicityWaitIsClickable(By.xpath("//div//span[text()[contains(.,'My Bookings')]]"));
+    		click(BookBtn);	
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.out.println("\nError : ClickMyBooking failed\n");
+			
+		 }
+    	
 	}
     public void ClickOnProfileButton() 
 	{
-    	Sleep(250);
-    	driver.findElement(By.xpath("(//nav//div//img)[1]")).click();
-    	//WebElement Profile= driver.findElement(By.xpath(("(//nav//div//img)"+num)));
-   		//click(Profile);	
+    	try
+		 
+		 {
+    		Sleep(250);
+        	driver.findElement(By.xpath("(//nav//div//img)[1]")).click();
+        	//WebElement Profile= driver.findElement(By.xpath(("(//nav//div//img)"+num)));
+       		//click(Profile);
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.out.println("\nError : ClickOnProfileButton failed\n");
+			
+		 }
+    		
 	}
     public void ClickOnProfileClientButton() 
-	{   	
-   		click(ProfileClientButton);	
+	{   
+    	try
+		 
+		 {
+    		click(ProfileClientButton);	
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.out.println("\nError : ClickOnProfileClientButton failed\n");
+			
+		 }
+   		
 	}
     public void ClickOnLogOut() 
 	{
-		click(LogOut);	
+    	try
+		 
+		 {
+    		click(LogOut);	
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.out.println("\nError : ClickOnProfileClientButton failed\n");
+			
+		 }
+			
 	}
     public void DeactivateMemberShip ()
     {
-    	click(SettingButton);
-    	WaitElementDisplay(By.xpath("//li[text()[contains(.,'Deactivate Account')]]"));
-    	click(DeactivateAccount);
-    	WaitElementDisplay(By.xpath("//button[@class='btn_deactivate']"));
-    	click(DeactivateAccountButton);
-    	WaitElementDisplay(By.xpath("//button[@class='approve-btn btn-primary']"));
-    	click(DeactivateAccountButton_YEP);
-    	WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'Edit Membership')]]"));
-    	click(EditMemberShipButton);
-    	WaitElementDisplay(By.xpath("(//div//button[@class='btn_membership ng-binding'])[1]"));
-    	click(PauseMemberShip);
-    	WaitElementDisplay(By.xpath("//h4[@class='note_membership ng-scope']"));
-    	click(DeactivateAccount);
-    	WaitElementDisplay(By.xpath("//button[@class='btn_deactivate']"));
-    	click(DeactivateAccountButton);
-    	WaitElementDisplay(By.xpath("//button[@class='approve-btn btn-primary']"));
-    	click(DeactivateAccountButton_YEP);
+    	try
+		 
+		 {
+    		click(SettingButton);
+        	WaitElementDisplay(By.xpath("//li[text()[contains(.,'Deactivate Account')]]"));
+        	click(DeactivateAccount);
+        	WaitElementDisplay(By.xpath("//button[@class='btn_deactivate']"));
+        	click(DeactivateAccountButton);
+        	WaitElementDisplay(By.xpath("//button[@class='approve-btn btn-primary']"));
+        	click(DeactivateAccountButton_YEP);
+        	WaitElementDisplay(By.xpath("//div//a[text()[contains(.,'Edit Membership')]]"));
+        	click(EditMemberShipButton);
+        	WaitElementDisplay(By.xpath("(//div//button[@class='btn_membership ng-binding'])[1]"));
+        	click(PauseMemberShip);
+        	WaitElementDisplay(By.xpath("//h4[@class='note_membership ng-scope']"));
+        	click(DeactivateAccount);
+        	WaitElementDisplay(By.xpath("//button[@class='btn_deactivate']"));
+        	click(DeactivateAccountButton);
+        	WaitElementDisplay(By.xpath("//button[@class='approve-btn btn-primary']"));
+        	click(DeactivateAccountButton_YEP);	
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.out.println("\nError : DeactivateMemberShip failed\n");
+			
+		 }
+    	
     }
     public void CancelMemberShip()
     {

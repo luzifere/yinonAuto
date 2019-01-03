@@ -220,7 +220,7 @@ public class ReviseThirdLookTest extends BaseTest
 		quiz.scrollDownXpath();
 		quiz.Sleep(250);
 		quiz.SelectImage3(110,210);
-		quiz.SelectImage3(150,250);
+		//quiz.SelectImage3(150,250);
 		booking.ClickSave();
 		booking.FillLookDescription("look1");
 		//booking.ClickToolBarDone();

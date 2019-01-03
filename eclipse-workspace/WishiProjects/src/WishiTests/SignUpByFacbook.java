@@ -26,9 +26,10 @@ public class SignUpByFacbook extends BaseTest
 		signup.Sleep(200);
 		signup.switchWindow();
 		//driver.manage().window().maximize();
-		signup.FillusernameOfFacbook("luzifere@gmail.com");
-		signup.FillPasswordOfFacbook("inonab1565");
+		signup.FillusernameOfFacbook("meiryoseab@gmail.com");
+		signup.FillPasswordOfFacbook("qaab1565");
 		signup.ClickLoginButtonOfFacbook();
+		//driver.findElement(By.xpath("(//div//button[@type='submit'])[1]")).click();
 		signup.Sleep(300);
 		driver.switchTo().window(winhandleBefore);
 		//signup.switchWindow();

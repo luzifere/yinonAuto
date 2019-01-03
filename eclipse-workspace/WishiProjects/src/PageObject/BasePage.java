@@ -112,17 +112,23 @@ public class BasePage
 	{
 		el.clear();
 	}
-	public void ElementIsDisplyed (String  elementString) 
+	public boolean ElementIsDisplyed (String  elementString) 
 	{
 		WebElement webElement= driver.findElement(By.xpath(elementString));
-		webElement.isDisplayed();
+		return webElement.isDisplayed();
 	}
 	public boolean ElementDisplay(String elementString) 
 	{		
-		ElementIsDisplyed(elementString);
-
-		return true;
+		return ElementIsDisplyed(elementString);
 	}
+	public boolean isElementPresent(String locatorKey) {
+		   try {
+			   WebElement webElement= driver.findElement(By.xpath(locatorKey));
+		       return true;
+		   } catch (org.openqa.selenium.NoSuchElementException e) {
+		       return false;
+		   }
+		}
 	
 	
 	

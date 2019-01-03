@@ -47,7 +47,7 @@ public class ChatTests extends BaseTest
 		chat.FillChat(textforchat);
 		chat.SendChat();
 		Assert.assertTrue(chat.ChatDisplay(textforchat));	
-		chat.ClickOnProfileButton();
+		chat.ClickOnProfileClientButton();
 		chat.ClickOnLogOut();
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();

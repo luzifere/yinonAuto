@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="8" failed="0" ignored="0" total="8" passed="0">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Test Default test]]>
@@ -11,161 +11,844 @@
       <![CDATA[Completed executing following method : BaseTest.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : SignUpTest.SignupwithoutDotCom]]>
+      <![CDATA[Test Method resides in Tests.BestMutch]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : SignUpTest.SignupwithoutDotCom]]>
+      <![CDATA[Test Status: Skipped]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite SignupwithoutDotCom]]>
+      <![CDATA[About to begin executing following method : BestMutch.BestMatchCheepFamle]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+      <![CDATA[Completed executing following method : BestMutch.BestMatchCheepFamle]]>
     </line>
     <line>
-      <![CDATA[Test Status: Pass]]>
+      <![CDATA[Test Method resides in Tests.BestMutch]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : SignUpTest.Signupwithoutshtudel]]>
+      <![CDATA[Test Status: Skipped]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : SignUpTest.Signupwithoutshtudel]]>
+      <![CDATA[About to begin executing following method : BestMutch.BestMatchFeMaleExpensive]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite Signupwithoutshtudel]]>
+      <![CDATA[Completed executing following method : BestMutch.BestMatchFeMaleExpensive]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+      <![CDATA[Test Method resides in Tests.BestMutch]]>
     </line>
     <line>
-      <![CDATA[Test Status: Pass]]>
+      <![CDATA[Test Status: Skipped]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+      <![CDATA[About to begin executing following method : BestMutch.BestMatchFeMaleNormal]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+      <![CDATA[Completed executing following method : BestMutch.BestMatchFeMaleNormal]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite FillPsswordWithLessthan6Characters]]>
+      <![CDATA[Test Method resides in Tests.BestMutch]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+      <![CDATA[Test Status: Skipped]]>
     </line>
     <line>
-      <![CDATA[Test Status: Pass]]>
+      <![CDATA[About to begin executing following method : BestMutch.BestMatchFeMaleCheepExpensive]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : SignUpTest.DoSignUp]]>
+      <![CDATA[Completed executing following method : BestMutch.BestMatchFeMaleCheepExpensive]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : SignUpTest.DoSignUp]]>
+      <![CDATA[Test Method resides in Tests.BestMutch]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite DoSignUp]]>
+      <![CDATA[Test Status: Skipped]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+      <![CDATA[About to begin executing following method : BestMutch.BestMatchExpensiveMale]]>
     </line>
     <line>
-      <![CDATA[Test Status: Pass]]>
+      <![CDATA[Completed executing following method : BestMutch.BestMatchExpensiveMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMutch]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Skipped]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BestMutch.BestMatchNormalMale]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BestMutch.BestMatchNormalMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMutch]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Skipped]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BestMutch.BestMatchCheepMale]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BestMutch.BestMatchCheepMale]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.BestMutch]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Skipped]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BestMutch.BestMatchSelfIdentity]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BestMutch.BestMatchSelfIdentity]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test Default test]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="195303" started-at="2018-12-06T12:06:23Z" finished-at="2018-12-06T12:09:38Z">
+  <suite name="Default suite" duration-ms="69508" started-at="2019-01-03T10:28:08Z" finished-at="2019-01-03T10:29:18Z">
     <groups>
       <group name="sanity-group">
-        <method signature="SignUpTest.DoSignUp()[pri:4, instance:Tests.SignUpTest@11758f2a]" name="DoSignUp" class="Tests.SignUpTest"/>
-        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:3, instance:Tests.SignUpTest@11758f2a]" name="FillPsswordWithLessthan6Characters" class="Tests.SignUpTest"/>
-        <method signature="SignUpTest.SignupwithoutDotCom()[pri:1, instance:Tests.SignUpTest@11758f2a]" name="SignupwithoutDotCom" class="Tests.SignUpTest"/>
-        <method signature="SignUpTest.Signupwithoutshtudel()[pri:2, instance:Tests.SignUpTest@11758f2a]" name="Signupwithoutshtudel" class="Tests.SignUpTest"/>
+        <method signature="BestMutch.BestMatchCheepFamle()[pri:1, instance:Tests.BestMutch@e720b71]" name="BestMatchCheepFamle" class="Tests.BestMutch"/>
+        <method signature="BestMutch.BestMatchCheepMale()[pri:7, instance:Tests.BestMutch@e720b71]" name="BestMatchCheepMale" class="Tests.BestMutch"/>
+        <method signature="BestMutch.BestMatchExpensiveMale()[pri:5, instance:Tests.BestMutch@e720b71]" name="BestMatchExpensiveMale" class="Tests.BestMutch"/>
+        <method signature="BestMutch.BestMatchFeMaleCheepExpensive()[pri:4, instance:Tests.BestMutch@e720b71]" name="BestMatchFeMaleCheepExpensive" class="Tests.BestMutch"/>
+        <method signature="BestMutch.BestMatchFeMaleExpensive()[pri:2, instance:Tests.BestMutch@e720b71]" name="BestMatchFeMaleExpensive" class="Tests.BestMutch"/>
+        <method signature="BestMutch.BestMatchFeMaleNormal()[pri:3, instance:Tests.BestMutch@e720b71]" name="BestMatchFeMaleNormal" class="Tests.BestMutch"/>
+        <method signature="BestMutch.BestMatchNormalMale()[pri:6, instance:Tests.BestMutch@e720b71]" name="BestMatchNormalMale" class="Tests.BestMutch"/>
+        <method signature="BestMutch.BestMatchSelfIdentity()[pri:8, instance:Tests.BestMutch@e720b71]" name="BestMatchSelfIdentity" class="Tests.BestMutch"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="195303" started-at="2018-12-06T12:06:23Z" finished-at="2018-12-06T12:09:38Z">
-      <class name="Tests.SignUpTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpTest@11758f2a]" name="setup" is-config="true" duration-ms="15559" started-at="2018-12-06T12:06:23Z" finished-at="2018-12-06T12:06:39Z">
+    <test name="Default test" duration-ms="69508" started-at="2019-01-03T10:28:08Z" finished-at="2019-01-03T10:29:18Z">
+      <class name="Tests.BestMutch">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:Tests.BestMutch@e720b71]" name="setup" is-config="true" duration-ms="69352" started-at="2019-01-03T10:28:08Z" finished-at="2019-01-03T10:29:18Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+at io.appium.java_client.HasSessionDetails.getPlatformName(HasSessionDetails.java:65)
+at io.appium.java_client.internal.JsonToMobileElementConverter.<init>(JsonToMobileElementConverter.java:49)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+at io.appium.java_client.ios.IOSDriver.<init>(IOSDriver.java:82)
+at Tests.BaseTest.capabileties(BaseTest.java:51)
+at Tests.BaseTest.setup(BaseTest.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="SignupwithoutDotCom()[pri:1, instance:Tests.SignUpTest@11758f2a]" name="SignupwithoutDotCom" duration-ms="29771" started-at="2018-12-06T12:06:39Z" finished-at="2018-12-06T12:07:08Z">
+        <test-method status="SKIP" signature="BestMatchCheepFamle()[pri:1, instance:Tests.BestMutch@e720b71]" name="BestMatchCheepFamle" duration-ms="0" started-at="2019-01-03T10:29:18Z" finished-at="2019-01-03T10:29:18Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+at io.appium.java_client.HasSessionDetails.getPlatformName(HasSessionDetails.java:65)
+at io.appium.java_client.internal.JsonToMobileElementConverter.<init>(JsonToMobileElementConverter.java:49)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+at io.appium.java_client.ios.IOSDriver.<init>(IOSDriver.java:82)
+at Tests.BaseTest.capabileties(BaseTest.java:51)
+at Tests.BaseTest.setup(BaseTest.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : SignUpTest.SignupwithoutDotCom]]>
+              <![CDATA[Test Method resides in Tests.BestMutch]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : SignUpTest.SignupwithoutDotCom]]>
+              <![CDATA[Test Status: Skipped]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite SignupwithoutDotCom]]>
+              <![CDATA[About to begin executing following method : BestMutch.BestMatchCheepFamle]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.SignUpTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
+              <![CDATA[Completed executing following method : BestMutch.BestMatchCheepFamle]]>
             </line>
           </reporter-output>
-        </test-method> <!-- SignupwithoutDotCom -->
-        <test-method status="PASS" signature="Signupwithoutshtudel()[pri:2, instance:Tests.SignUpTest@11758f2a]" name="Signupwithoutshtudel" duration-ms="29002" started-at="2018-12-06T12:07:08Z" finished-at="2018-12-06T12:07:37Z">
+        </test-method> <!-- BestMatchCheepFamle -->
+        <test-method status="SKIP" signature="BestMatchFeMaleExpensive()[pri:2, instance:Tests.BestMutch@e720b71]" name="BestMatchFeMaleExpensive" duration-ms="0" started-at="2019-01-03T10:29:18Z" finished-at="2019-01-03T10:29:18Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+at io.appium.java_client.HasSessionDetails.getPlatformName(HasSessionDetails.java:65)
+at io.appium.java_client.internal.JsonToMobileElementConverter.<init>(JsonToMobileElementConverter.java:49)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+at io.appium.java_client.ios.IOSDriver.<init>(IOSDriver.java:82)
+at Tests.BaseTest.capabileties(BaseTest.java:51)
+at Tests.BaseTest.setup(BaseTest.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : SignUpTest.Signupwithoutshtudel]]>
+              <![CDATA[Test Method resides in Tests.BestMutch]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : SignUpTest.Signupwithoutshtudel]]>
+              <![CDATA[Test Status: Skipped]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite Signupwithoutshtudel]]>
+              <![CDATA[About to begin executing following method : BestMutch.BestMatchFeMaleExpensive]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.SignUpTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
+              <![CDATA[Completed executing following method : BestMutch.BestMatchFeMaleExpensive]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Signupwithoutshtudel -->
-        <test-method status="PASS" signature="FillPsswordWithLessthan6Characters()[pri:3, instance:Tests.SignUpTest@11758f2a]" name="FillPsswordWithLessthan6Characters" duration-ms="62315" started-at="2018-12-06T12:07:37Z" finished-at="2018-12-06T12:08:40Z">
+        </test-method> <!-- BestMatchFeMaleExpensive -->
+        <test-method status="SKIP" signature="BestMatchFeMaleNormal()[pri:3, instance:Tests.BestMutch@e720b71]" name="BestMatchFeMaleNormal" duration-ms="0" started-at="2019-01-03T10:29:18Z" finished-at="2019-01-03T10:29:18Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+at io.appium.java_client.HasSessionDetails.getPlatformName(HasSessionDetails.java:65)
+at io.appium.java_client.internal.JsonToMobileElementConverter.<init>(JsonToMobileElementConverter.java:49)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+at io.appium.java_client.ios.IOSDriver.<init>(IOSDriver.java:82)
+at Tests.BaseTest.capabileties(BaseTest.java:51)
+at Tests.BaseTest.setup(BaseTest.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+              <![CDATA[Test Method resides in Tests.BestMutch]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+              <![CDATA[Test Status: Skipped]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite FillPsswordWithLessthan6Characters]]>
+              <![CDATA[About to begin executing following method : BestMutch.BestMatchFeMaleNormal]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.SignUpTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
+              <![CDATA[Completed executing following method : BestMutch.BestMatchFeMaleNormal]]>
             </line>
           </reporter-output>
-        </test-method> <!-- FillPsswordWithLessthan6Characters -->
-        <test-method status="PASS" signature="DoSignUp()[pri:4, instance:Tests.SignUpTest@11758f2a]" name="DoSignUp" duration-ms="58626" started-at="2018-12-06T12:08:40Z" finished-at="2018-12-06T12:09:38Z">
+        </test-method> <!-- BestMatchFeMaleNormal -->
+        <test-method status="SKIP" signature="BestMatchFeMaleCheepExpensive()[pri:4, instance:Tests.BestMutch@e720b71]" name="BestMatchFeMaleCheepExpensive" duration-ms="0" started-at="2019-01-03T10:29:18Z" finished-at="2019-01-03T10:29:18Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+at io.appium.java_client.HasSessionDetails.getPlatformName(HasSessionDetails.java:65)
+at io.appium.java_client.internal.JsonToMobileElementConverter.<init>(JsonToMobileElementConverter.java:49)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+at io.appium.java_client.ios.IOSDriver.<init>(IOSDriver.java:82)
+at Tests.BaseTest.capabileties(BaseTest.java:51)
+at Tests.BaseTest.setup(BaseTest.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : SignUpTest.DoSignUp]]>
+              <![CDATA[Test Method resides in Tests.BestMutch]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : SignUpTest.DoSignUp]]>
+              <![CDATA[Test Status: Skipped]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite DoSignUp]]>
+              <![CDATA[About to begin executing following method : BestMutch.BestMatchFeMaleCheepExpensive]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.SignUpTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
+              <![CDATA[Completed executing following method : BestMutch.BestMatchFeMaleCheepExpensive]]>
             </line>
           </reporter-output>
-        </test-method> <!-- DoSignUp -->
-      </class> <!-- Tests.SignUpTest -->
+        </test-method> <!-- BestMatchFeMaleCheepExpensive -->
+        <test-method status="SKIP" signature="BestMatchExpensiveMale()[pri:5, instance:Tests.BestMutch@e720b71]" name="BestMatchExpensiveMale" duration-ms="0" started-at="2019-01-03T10:29:18Z" finished-at="2019-01-03T10:29:18Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+at io.appium.java_client.HasSessionDetails.getPlatformName(HasSessionDetails.java:65)
+at io.appium.java_client.internal.JsonToMobileElementConverter.<init>(JsonToMobileElementConverter.java:49)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+at io.appium.java_client.ios.IOSDriver.<init>(IOSDriver.java:82)
+at Tests.BaseTest.capabileties(BaseTest.java:51)
+at Tests.BaseTest.setup(BaseTest.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMutch]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Skipped]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : BestMutch.BestMatchExpensiveMale]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BestMutch.BestMatchExpensiveMale]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BestMatchExpensiveMale -->
+        <test-method status="SKIP" signature="BestMatchNormalMale()[pri:6, instance:Tests.BestMutch@e720b71]" name="BestMatchNormalMale" duration-ms="0" started-at="2019-01-03T10:29:18Z" finished-at="2019-01-03T10:29:18Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+at io.appium.java_client.HasSessionDetails.getPlatformName(HasSessionDetails.java:65)
+at io.appium.java_client.internal.JsonToMobileElementConverter.<init>(JsonToMobileElementConverter.java:49)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+at io.appium.java_client.ios.IOSDriver.<init>(IOSDriver.java:82)
+at Tests.BaseTest.capabileties(BaseTest.java:51)
+at Tests.BaseTest.setup(BaseTest.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMutch]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Skipped]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : BestMutch.BestMatchNormalMale]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BestMutch.BestMatchNormalMale]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BestMatchNormalMale -->
+        <test-method status="SKIP" signature="BestMatchCheepMale()[pri:7, instance:Tests.BestMutch@e720b71]" name="BestMatchCheepMale" duration-ms="0" started-at="2019-01-03T10:29:18Z" finished-at="2019-01-03T10:29:18Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+at io.appium.java_client.HasSessionDetails.getPlatformName(HasSessionDetails.java:65)
+at io.appium.java_client.internal.JsonToMobileElementConverter.<init>(JsonToMobileElementConverter.java:49)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+at io.appium.java_client.ios.IOSDriver.<init>(IOSDriver.java:82)
+at Tests.BaseTest.capabileties(BaseTest.java:51)
+at Tests.BaseTest.setup(BaseTest.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMutch]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Skipped]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : BestMutch.BestMatchCheepMale]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BestMutch.BestMatchCheepMale]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BestMatchCheepMale -->
+        <test-method status="SKIP" signature="BestMatchSelfIdentity()[pri:8, instance:Tests.BestMutch@e720b71]" name="BestMatchSelfIdentity" duration-ms="0" started-at="2019-01-03T10:29:18Z" finished-at="2019-01-03T10:29:18Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session does not exist
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'yinons-MacBook-Pro-2.local', ip: '10.0.0.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/yinonwishi/Desktop/W..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone XS Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 5000, platform: MAC, platformName: MAC, platformVersion: 12.1, startIWDP: true, takesScreenshot: true, udid: 597677D3-9663-4A04-BA68-6A0..., webStorageEnabled: false}
+Session ID: 552acef0-10c4-4a13-b60c-6dd5ffcd6e1a
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+at io.appium.java_client.HasSessionDetails.getPlatformName(HasSessionDetails.java:65)
+at io.appium.java_client.internal.JsonToMobileElementConverter.<init>(JsonToMobileElementConverter.java:49)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+at io.appium.java_client.ios.IOSDriver.<init>(IOSDriver.java:82)
+at Tests.BaseTest.capabileties(BaseTest.java:51)
+at Tests.BaseTest.setup(BaseTest.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method resides in Tests.BestMutch]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Skipped]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : BestMutch.BestMatchSelfIdentity]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BestMutch.BestMatchSelfIdentity]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing test Default test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BestMatchSelfIdentity -->
+      </class> <!-- Tests.BestMutch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

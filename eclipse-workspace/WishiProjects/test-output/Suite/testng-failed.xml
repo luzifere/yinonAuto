@@ -4,6 +4,28 @@
   <listeners>
     <listener class-name="WishiTests.Listener"/>
   </listeners>
+  <test thread-count="5" name="LoginWithFacbookFailsTests(failed)">
+    <classes>
+      <class name="WishiTests.LoginWithFacbookFailsTests">
+        <methods>
+          <include name="LoginWithFacbookWrongUserName"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.LoginWithFacbookFailsTests -->
+    </classes>
+  </test> <!-- LoginWithFacbookFailsTests(failed) -->
+  <test thread-count="5" name="StartHereLowFemaleMatchTests(failed)">
+    <classes>
+      <class name="WishiTests.StartHereLowFemaleMatchTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="BMExpensiveMale"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.StartHereLowFemaleMatchTests -->
+    </classes>
+  </test> <!-- StartHereLowFemaleMatchTests(failed) -->
   <test thread-count="5" name="StartHereNaturalMatchTests(failed)">
     <classes>
       <class name="WishiTests.StartHereNaturalMatchTests">
@@ -26,17 +48,6 @@
       </class> <!-- WishiTests.RetakeMatchNaturalTests -->
     </classes>
   </test> <!-- RetakeMatchNaturalTests(failed) -->
-  <test thread-count="5" name="BestMatchNormalFeamleTests(failed)">
-    <classes>
-      <class name="WishiTests.BestMatchNormalFeamleTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="BMNormalFeamle"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- WishiTests.BestMatchNormalFeamleTests -->
-    </classes>
-  </test> <!-- BestMatchNormalFeamleTests(failed) -->
   <test thread-count="5" name="BestMatchNaturalTests(failed)">
     <classes>
       <class name="WishiTests.BestMatchNaturalTests">
