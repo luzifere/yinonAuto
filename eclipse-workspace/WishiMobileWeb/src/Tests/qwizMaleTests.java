@@ -61,7 +61,7 @@ public class qwizMaleTests extends BaseTest
 		booking.UseCodCoopon(copun);
 		booking.ClickFinishCheckout();
 		booking.Sleep(250);
-		PageObejecs.BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn-mob']"));
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'BODY TYPE')]]"));
 		//booking.ClickBookingstylist();		
 	}
 	//@Test(priority = 3,groups={"sanity-group"})

@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite"> 
-<test thread-count="5" name="CheckOutMounthTest">
+ <test thread-count="5" name="BookMiniMonthlyFSTest">
     <classes>
-      <class name="Tests.CheckOutMounthTest"/>
+      <class name="Tests.BookMiniMonthlyFSTest"/>
     </classes>
   </test> <!-- Test -->
-   <test thread-count="5" name="CheckOutSingleTest">
+  <test thread-count="5" name="BookMiniSingleFSTest">
     <classes>
-      <class name="Tests.CheckOutSingleTest"/>
+      <class name="Tests.BookMiniSingleFSTest"/>
     </classes>
   </test> <!-- Test -->
-   <test thread-count="5" name="CheckOutPSTest">
+<test thread-count="5" name="BookMajorMonthlyPlanFSTest">
     <classes>
-      <class name="Tests.CheckOutPSTest"/>
+      <class name="Tests.BookMajorMonthlyPlanFSTest"/>
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="CheckOutByCoponTest">
+   <test thread-count="5" name="BookMajorSinglePlanFSTest">
     <classes>
-      <class name="Tests.CheckOutByCoponTest"/>
+      <class name="Tests.BookMajorSinglePlanFSTest"/>
     </classes>
   </test> <!-- Test -->
+  
 </suite> <!-- Suite -->

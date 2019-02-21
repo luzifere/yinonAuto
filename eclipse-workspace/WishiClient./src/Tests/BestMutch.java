@@ -16,8 +16,9 @@ import PageObjects.SignUpPage;
 
 public class BestMutch extends BaseTest 
 {
+	
 	@Test(priority = 1,groups={"sanity-group"})
-	public void BestMatchCheepFamle()
+	public void BestMatchFamle()
 	{
 		Random num = new Random();
 		int number = 35600;
@@ -25,6 +26,7 @@ public class BestMutch extends BaseTest
 			number = num.nextInt(70000);
 
 		SignUpPage sign = new SignUpPage(driver);
+		sign.Sleep(200);
 		sign.ClickSignUpEmail();
 		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbesttyaya.best@wishi.com", "123456");
 		sign.Sleep(150);
@@ -32,285 +34,246 @@ public class BestMutch extends BaseTest
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
+		best.ClickNextbutton();
+		best.ClickMale();
+		best.ClickBacklCient();
 		best.ClickFamle();
-		best.fillBirthday("45");
+		best.SelectBodyType("FIT");
 		best.ClickNextbutton();
-		best.SelectCheapButtonID();
-		sign.Sleep(150);
-		best.SelectCheapButtonID();
-		sign.Sleep(150);
-		best.Selectinspiration();
-		sign.Sleep(200);
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
+		best.ClickBacklCient();
+		best.SelectBodyType("TALL");
 		best.ClickNextbutton();
-		sign.Sleep(200);
-		best.SelectTag("Petite");
-		sign.Sleep(200);
-		best.ClickNextTags();
-		sign.Sleep(200);
-		best.SelectBrands();
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
+		best.ClickLoveItButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickSomtimesButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickLoveItButton();
+		best.ClickBacklCient();
+		best.ClickLoveItButton();
+		best.ClickSomtimesButton();
+		best.ClickBacklCient();
+		best.ClickSomtimesButton();
+		best.ClickSomtimesButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickLoveItButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
 		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickLoveItButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.SelectBrands("All Saints");
+		best.ClickNextbutton();
+		/*
+		best.WaitElementDisplay(By.xpath("//*[@name='So, to recap ']"));
+		Assert.assertTrue(sign.ElementEnable("//*[@name='female']"));
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Fit, Tall']"));
+		//Assert.assertTrue(best.ElementDisplay("//*[@name='Fit, Tall']"));
+		Assert.assertTrue(sign.ElementEnable("//*[@name='All Saints']"));
+		best.ClickNextbutton();
+		*/
+		best.WaitElementDisplay(By.xpath("//*[@name='Your Stylists Match!']"));
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));		
 		driver.resetApp();
 	}
 	@Test(priority = 2,groups={"sanity-group"})
-	public void BestMatchFeMaleExpensive() throws MalformedURLException
+	public void BestMatchFluid()
 	{
-		BaseTest.capabileties();
 		Random num = new Random();
 		int number = 35600;
 		for (int counter = 50800; counter<=100000;counter++)
 			number = num.nextInt(70000);
 
 		SignUpPage sign = new SignUpPage(driver);
+		sign.Sleep(200);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbesttya.best@wishi.com" , "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbesttyaya.best@wishi.com", "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
+		best.ClickNextbutton();
 		best.ClickFamle();
-		best.fillBirthday("45");
+		best.ClickBacklCient();
+		best.ClickSelfIdentityButtonID();
+		best.SelectBodyType("FIT");
 		best.ClickNextbutton();
-		best.SelectCheapButtonID();
-		sign.Sleep(150);
-		best.SelectExpensiveButtonID();
-		sign.Sleep(150);
-		best.Selectinspiration();
-		sign.Sleep(200);
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
+		best.ClickBacklCient();
+		best.SelectBodyType("TALL");
 		best.ClickNextbutton();
-		sign.Sleep(200);
-		best.SelectTag("Petite");
-		sign.Sleep(200);
-		best.ClickNextTags();
-		sign.Sleep(200);
-		best.SelectBrands();
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
+		best.ClickLoveItButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickSomtimesButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickLoveItButton();
+		best.ClickBacklCient();
+		best.ClickLoveItButton();
+		best.ClickSomtimesButton();
+		best.ClickBacklCient();
+		best.ClickSomtimesButton();
+		best.ClickSomtimesButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickLoveItButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
 		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickLoveItButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.SelectBrands("All Saints");
+		best.ClickNextbutton();
+		/*
+		best.WaitElementDisplay(By.xpath("//*[@name='So, to recap ']"));
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Fluid']"));
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Fit, Tall']"));
+		//Assert.assertTrue(best.ElementDisplay("//*[@name='Fit, Tall']"));
+		Assert.assertTrue(sign.ElementEnable("//*[@name='best.SelectBrands(\"All Saints\");']"));
+		best.ClickNextbutton();
+		*/
+		best.WaitElementDisplay(By.xpath("//*[@name='Your Stylists Match!']"));
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));		
 		driver.resetApp();
 	}
 	@Test(priority = 3,groups={"sanity-group"})
-	public void BestMatchFeMaleNormal() throws MalformedURLException
+	public void BestMatchMale()
 	{
-		BaseTest.capabileties();
 		Random num = new Random();
 		int number = 35600;
 		for (int counter = 50800; counter<=100000;counter++)
 			number = num.nextInt(70000);
 
 		SignUpPage sign = new SignUpPage(driver);
+		sign.Sleep(200);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbesttya.best@wishi.com" , "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbesttyaya.best@wishi.com", "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
+		best.ClickNextbutton();
 		best.ClickFamle();
-		best.fillBirthday("45");
+		best.ClickBacklCient();
+		best.ClickMale();
+		best.ClickLoveItButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickSomtimesButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickLoveItButton();
+		best.ClickBacklCient();
+		best.ClickLoveItButton();
+		best.ClickSomtimesButton();
+		best.ClickBacklCient();
+		best.ClickSomtimesButton();
+		best.ClickSomtimesButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickLoveItButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.SelectBrands("GAP");
 		best.ClickNextbutton();
-		best.SelectNormal();
-		sign.Sleep(150);
-		best.SelectNormal();
-		sign.Sleep(150);
-		best.Selectinspiration();
-		sign.Sleep(200);
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
+		/*
+		best.WaitElementDisplay(By.xpath("//*[@name='So, to recap ']"));
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Male']"));
+		Assert.assertFalse(best.isElementPresent("//*[@name='Fit, Tall']"));
+		//Assert.assertTrue(best.ElementDisplay("//*[@name='Fit, Tall']"));
+		Assert.assertTrue(sign.ElementEnable("//*[@name='GAP']"));
 		best.ClickNextbutton();
-		sign.Sleep(200);
-		best.SelectTag("Petite");
-		sign.Sleep(200);
-		best.ClickNextTags();
-		sign.Sleep(200);
-		best.SelectBrands();
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
-		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
+		*/
+		best.WaitElementDisplay(By.xpath("//*[@name='Your Stylists Match!']"));
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));		
 		driver.resetApp();
 	}
 	@Test(priority = 4,groups={"sanity-group"})
-	public void BestMatchFeMaleCheepExpensive() throws MalformedURLException
+	public void BestMatchHellNo()
 	{
-		BaseTest.capabileties();
 		Random num = new Random();
 		int number = 35600;
 		for (int counter = 50800; counter<=100000;counter++)
 			number = num.nextInt(70000);
 
 		SignUpPage sign = new SignUpPage(driver);
+		sign.Sleep(200);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbesttya.best@wishi.com" , "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbesttyaya.best@wishi.com", "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
+		best.ClickNextbutton();
 		best.ClickFamle();
-		best.fillBirthday("45");
+		best.SelectBodyType("FIT");
 		best.ClickNextbutton();
-		best.SelectCheapButtonID();
-		sign.Sleep(150);
-		best.SelectExpensiveButtonID();
-		sign.Sleep(150);
-		best.Selectinspiration();
-		sign.Sleep(200);
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
+		best.ClickBacklCient();
+		best.SelectBodyType("TALL");
 		best.ClickNextbutton();
-		sign.Sleep(200);
-		best.SelectTag("Petite");
-		sign.Sleep(200);
-		best.ClickNextTags();
-		sign.Sleep(200);
-		best.SelectBrands();
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
+		best.ClickLoveItButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickSomtimesButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickLoveItButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickSomtimesButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickSomtimesButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickLoveItButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
 		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
-		driver.resetApp();
-	}
-	@Test(priority = 5,groups={"sanity-group"})
-	public void BestMatchExpensiveMale() throws MalformedURLException
-	{
-		BaseTest.capabileties();
-		Random num = new Random();
-		int number = 35600;
-		for (int counter = 50800; counter<=100000;counter++)
-			number = num.nextInt(70000);
-
-		SignUpPage sign = new SignUpPage(driver);
-		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbesttya.best@wishi.com" , "123456");
-		sign.Sleep(150);
-		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
-		best.ClickHoeToWork();
-		best.ClickHoeToWork();
-		best.ClickHoeToWork();
-		best.ClickMale();
-		best.fillBirthday("45");
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickLoveItButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickBacklCient();
+		best.ClickHellNoButton();
 		best.ClickNextbutton();
-		best.SelectExpensiveButtonID();
-		sign.Sleep(150);
-		best.SelectExpensiveButtonID();
-		sign.Sleep(150);
-		best.Selectinspiration();
-		sign.Sleep(200);
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
-		best.ClickNextbutton();
-		sign.Sleep(200);
-		best.SelectBrands();
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
-		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
-		driver.resetApp();
-	}
-	@Test(priority = 6,groups={"sanity-group"})
-	public void BestMatchNormalMale() throws MalformedURLException
-	{
-		BaseTest.capabileties();
-		Random num = new Random();
-		int number = 35600;
-		for (int counter = 50800; counter<=100000;counter++)
-			number = num.nextInt(70000);
-
-		SignUpPage sign = new SignUpPage(driver);
-		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbesttya.best@wishi.com" , "123456");
-		sign.Sleep(150);
-		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
-		best.ClickHoeToWork();
-		best.ClickHoeToWork();
-		best.ClickHoeToWork();
-		best.ClickMale();
-		best.fillBirthday("45");
-		best.ClickNextbutton();
-		best.SelectNormal();
-		sign.Sleep(150);
-		best.SelectNormal();
-		sign.Sleep(800);
-		best.Selectinspiration();
-		sign.Sleep(200);
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
-		best.ClickNextbutton();
-		sign.Sleep(200);
-		best.SelectBrands();
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
-		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
-		driver.resetApp();
-	}
-	@Test(priority = 7,groups={"sanity-group"})
-	public void BestMatchCheepMale() throws MalformedURLException
-	{
-		BaseTest.capabileties();
-		Random num = new Random();
-		int number = 35600;
-		for (int counter = 50800; counter<=100000;counter++)
-			number = num.nextInt(70000);
-
-		SignUpPage sign = new SignUpPage(driver);
-		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbesttya.best@wishi.com" , "123456");
-		sign.Sleep(150);
-		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
-		best.ClickHoeToWork();
-		best.ClickHoeToWork();
-		best.ClickHoeToWork();
-		best.ClickMale();
-		best.fillBirthday("45");
-		best.ClickNextbutton();
-		best.SelectCheapButtonID();
-		sign.Sleep(150);
-		best.SelectCheapButtonID();
-		sign.Sleep(150);
-		best.Selectinspiration();
-		sign.Sleep(200);
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
-		best.ClickNextbutton();
-		sign.Sleep(200);
-		best.SelectBrands();
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
-		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
-		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
-		driver.resetApp();
-		best.WaitElementDisplay(By.id("signUpButton"));
-	}
-	@Test(priority = 8,groups={"sanity-group"})
-	public void BestMatchSelfIdentity()
-	{
-		Random num = new Random();
-		int number = 35600;
-		for (int counter = 50800; counter<=100000;counter++)
-			number = num.nextInt(70000);
-
-		SignUpPage sign = new SignUpPage(driver);
-		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbesttya.best@wishi.com", "123456");
-		sign.Sleep(150);
-		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
-		best.ClickHoeToWork();
-		best.ClickHoeToWork();
-		best.ClickHoeToWork();
-		best.ClickSelfIdentityButtonID();
-		best.fillBirthday("45");
-		best.ClickNextbutton();
-		sign.Sleep(150);
-		best.Selectinspiration();
-		sign.Sleep(200);
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
-		best.ClickNextbutton();
-		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
+		/*
+		best.WaitElementDisplay(By.xpath("//*[@name='So, to recap ']"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Female')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Fit')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'60% - Classic, 40% - Edgy')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'GAP')]]"));
+		*/
 		best.WaitElementDisplay(By.xpath("//*[@name='Your Stylists Match!']"));
-		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
+		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));		
 		driver.resetApp();
 	}
 }

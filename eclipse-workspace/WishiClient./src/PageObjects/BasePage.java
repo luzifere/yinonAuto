@@ -105,7 +105,7 @@ public class BasePage
 	}
 	public void WaitElementDisplay (By by) 
 	{		
-		WebElement myDynamicElement = (new WebDriverWait(driver, 80))
+		WebElement myDynamicElement = (new WebDriverWait(driver, 250))
 				.until(ExpectedConditions.presenceOfElementLocated(by));
 		//return myDynamicElement.isDisplayed();
 	}
@@ -458,6 +458,23 @@ public class BasePage
 			System.out.print("Element is disabled. Take your action.\n");
 		}
 	}
+	public boolean ElementIsDisplyed (String  elementString) 
+	{
+		WebElement webElement= driver.findElement(By.xpath(elementString));
+		return webElement.isDisplayed();
+	}
+	public boolean ElementDisplay1(String elementString) 
+	{		
+		return ElementIsDisplyed(elementString);
+	}
+	public boolean isElementPresent(String locatorKey) {
+		   try {
+			   WebElement webElement= driver.findElement(By.xpath(locatorKey));
+		       return true;
+		   } catch (org.openqa.selenium.NoSuchElementException e) {
+		       return false;
+		   }
+		}
 }
 
 

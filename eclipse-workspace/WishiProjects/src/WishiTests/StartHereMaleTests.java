@@ -38,7 +38,7 @@ public class StartHereMaleTests extends BaseTest
 		best.ClickMale();
 		best.SelectLoveIt("1");
 		best.ClickBack();
-		best.SelectHELLONO("1");
+		best.SelectSOMETIMES("1");
 		best.SelectSOMETIMES("2");
 		best.ClickBack();
 		best.SelectHELLONO("2");
@@ -54,27 +54,19 @@ public class StartHereMaleTests extends BaseTest
 		best.SelectLoveIt("6");
 		best.ClickBack();
 		best.SelectHELLONO("6");
-		best.ClickSkipbutton2("1");
-		best.ClickBack();
-		best.SelectHELLONO("7");
-		best.SelectHELLONO("8");
-		best.ClickBack();
-		best.SelectHELLONO("8");
-		best.SelectLoveIt("9");
-		best.ClickBack();
-		best.SelectHELLONO("9");
-		best.SelectHELLONO("10");
-		best.ClickBack();
-		best.SelectHELLONO("10");
 		best.Selectbrands("1");
-		best.ClickNextbutton();
+		//best.ClickNextbutton();
+		best.ClickMeetMyMatch();
+		/*
 		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Male')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'60% - Classic, 40% - Edgy')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'GAP')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'26% - Hipster, 37% - Dapper, 37% - Rock')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Balenciaga')]]"));
 		best.ClickMeetMyMatch();
+		*/
 		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon", "av", "ab1565");
-		signup.WaitElementDisplay(By.xpath("//h2[text()[contains(.,'Style session - starting at $20')]]"));
+		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'SEE MORE')]]"));
 		best.Sleep(300);
 		best.close();
 

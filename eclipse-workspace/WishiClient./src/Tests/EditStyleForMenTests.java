@@ -28,28 +28,37 @@ public class EditStyleForMenTests extends BaseTest
 
 		SignUpPage sign = new SignUpPage(driver);
 		sign.ClickSignUpEmail();
-		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbesttya@wishi.com" , "123456");
+		sign.doSignUpClear("wishsi", "wishsi",number+"wishitestbesttyaya.best@wishi.com", "123456");
 		sign.Sleep(150);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
-		best.ClickMale();
-		best.fillBirthday("45");
 		best.ClickNextbutton();
-		best.SelectNormal();
-		sign.Sleep(150);
-		best.SelectNormal();
-		sign.Sleep(800);
-		best.Selectinspiration();
-		sign.Sleep(200);
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
+		best.ClickFamle();
+		best.SelectBodyType("FIT");
+		best.ClickNextbutton();
+		best.ClickBacklCient();
+		best.ClickNextbutton();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickNextbutton();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.SelectBrands("GAP");
+		best.ClickNextbutton();
+		best.WaitElementDisplay(By.xpath("//*[@name='So, to recap ']"));
 		best.ClickNextbutton();
 		sign.Sleep(200);
 		//best.SelectBrands();
 		//best.CheckIfElementEnabled("//*[@name='NextButtonID']");
 		//best.ClickNextbutton();
-		driver.findElement(By.id("Skip")).click();
+		//driver.findElement(By.id("Skip")).click();
 		sign.Sleep(200);
 		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
 		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
@@ -65,7 +74,7 @@ public class EditStyleForMenTests extends BaseTest
 		setting.ClickSettingButton();
 		setting.ClickEditStyleTab();
 	}
-	@Test(priority = 2,groups={"sanity-group"})
+	//@Test(priority = 2,groups={"sanity-group"})
 	public void EditStyle() 
 	{
 		SettingPage setting = new SettingPage(driver);
@@ -80,7 +89,7 @@ public class EditStyleForMenTests extends BaseTest
 		//System.out.print(style);
 		Assert.assertTrue(setting.ElementDisplay("//*[@name='Sporty, Bold']"));
 	}
-	@Test(priority = 5,groups={"sanity-group"})
+	//@Test(priority = 5,groups={"sanity-group"})
 	public void EditBodyType() 
 	{
 		SettingPage setting = new SettingPage(driver);
@@ -208,7 +217,7 @@ public class EditStyleForMenTests extends BaseTest
 		setting.scrollDownXpath();
 		Assert.assertTrue(setting.ElementDisplay("//*[@name='Close to my style']"));
 	}
-	@Test(priority = 12,groups={"sanity-group"})
+	//@Test(priority = 12,groups={"sanity-group"})
 	public void EditBrands() 
 	{
 		SettingPage setting = new SettingPage(driver);

@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
     <line>
-      <![CDATA[About to begin executing Test StartHereFemaleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test StartHereFemaleTests]]>
+      <![CDATA[About to begin executing Test Default test]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : BaseTest.setup]]>
@@ -14,648 +11,126 @@
       <![CDATA[Completed executing following method : BaseTest.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : StartHereFemaleTests.StartHereFemaleTests]]>
+      <![CDATA[About to begin executing following method : BookingCuponTests.DoSignUp]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : StartHereFemaleTests.StartHereFemaleTests]]>
+      <![CDATA[Completed executing following method : BookingCuponTests.DoSignUp]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite StartHereFemaleTests]]>
+      <![CDATA[About to Success executing Suite DoSignUp]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.StartHereFemaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite StartHereFemaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.StartHereFemaleTests]]>
+      <![CDATA[Test Method resides in Tests.BookingCuponTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[Completed executing test StartHereFemaleTests]]>
+      <![CDATA[About to begin executing following method : BookingCuponTests.CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[Completed executing test StartHereFemaleTests]]>
+      <![CDATA[Completed executing following method : BookingCuponTests.CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[About to begin executing Test StartHereFluIDTests]]>
+      <![CDATA[About to Success executing Suite CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[About to begin executing Test StartHereFluIDTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : StartHereFluIDTests.StartHereFluIDTests]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : StartHereFluIDTests.StartHereFluIDTests]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite StartHereFluIDTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.StartHereFluIDTests]]>
+      <![CDATA[Test Method resides in Tests.BookingCuponTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite StartHereFluIDTests]]>
+      <![CDATA[About to begin executing following method : BookingCuponTests.CheckoutUnlimitedCreditCard]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.StartHereFluIDTests]]>
+      <![CDATA[Completed executing following method : BookingCuponTests.CheckoutUnlimitedCreditCard]]>
     </line>
     <line>
-      <![CDATA[Test Status: Pass]]>
+      <![CDATA[About to Success executing Suite CheckoutUnlimitedCreditCard]]>
     </line>
     <line>
-      <![CDATA[Completed executing test StartHereFluIDTests]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test StartHereFluIDTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test StartHereHelloNoTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test StartHereHelloNoTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : StartHereHelloNoTests.StartHereHelloNoTests]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : StartHereHelloNoTests.StartHereHelloNoTests]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite StartHereHelloNoTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.StartHereHelloNoTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite StartHereHelloNoTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.StartHereHelloNoTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test StartHereHelloNoTests]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test StartHereHelloNoTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test StartHereMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test StartHereMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : StartHereMaleTests.StartHereMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : StartHereMaleTests.StartHereMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite StartHereMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.StartHereMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite StartHereMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.StartHereMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test StartHereMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test StartHereMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test BestMatchFemaleTest]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test BestMatchFemaleTest]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BestMatchFemaleTest.BestMatchFemaleTest]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BestMatchFemaleTest.BestMatchFemaleTest]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BestMatchFemaleTest]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.BestMatchFemaleTest]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BestMatchFemaleTest]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.BestMatchFemaleTest]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test BestMatchFemaleTest]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test BestMatchFemaleTest]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test BestMatchFluIDTest]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test BestMatchFluIDTest]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BestMatchFluIDTest.BestMatchFemaleTest]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BestMatchFluIDTest.BestMatchFemaleTest]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BestMatchFemaleTest]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.BestMatchFluIDTest]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BestMatchFemaleTest]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.BestMatchFluIDTest]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test BestMatchFluIDTest]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test BestMatchFluIDTest]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test BestMatchHellowNoTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test BestMatchHellowNoTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BestMatchHellowNoTests.BestMatchHelloNo]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BestMatchHellowNoTests.BestMatchHelloNo]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BestMatchHelloNo]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.BestMatchHellowNoTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BestMatchHelloNo]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.BestMatchHellowNoTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test BestMatchHellowNoTests]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing test BestMatchHellowNoTests]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test BestMatchMaleTest]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing Test BestMatchMaleTest]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BaseTest.setup]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BestMatchMaleTest.BMExpensiveFeamle]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BestMatchMaleTest.BMExpensiveFeamle]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.BestMatchMaleTest]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.BestMatchMaleTest]]>
+      <![CDATA[Test Method resides in Tests.BookingCuponTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="1743663" started-at="2019-01-01T09:36:15Z" finished-at="2019-01-01T10:05:19Z">
+  <suite name="Default suite" duration-ms="174196" started-at="2019-02-20T20:36:45Z" finished-at="2019-02-20T20:39:39Z">
     <groups>
       <group name="sanity-group">
-        <method signature="StartHereFemaleTests.StartHereFemaleTests()[pri:6, instance:Tests.StartHereFemaleTests@ed9d034]" name="StartHereFemaleTests" class="Tests.StartHereFemaleTests"/>
-        <method signature="StartHereFluIDTests.StartHereFluIDTests()[pri:6, instance:Tests.StartHereFluIDTests@51c8530f]" name="StartHereFluIDTests" class="Tests.StartHereFluIDTests"/>
-        <method signature="StartHereHelloNoTests.StartHereHelloNoTests()[pri:6, instance:Tests.StartHereHelloNoTests@22eeefeb]" name="StartHereHelloNoTests" class="Tests.StartHereHelloNoTests"/>
-        <method signature="StartHereMaleTests.StartHereMaleTests()[pri:6, instance:Tests.StartHereMaleTests@7e0e6aa2]" name="StartHereMaleTests" class="Tests.StartHereMaleTests"/>
-        <method signature="BestMatchFemaleTest.BestMatchFemaleTest()[pri:3, instance:Tests.BestMatchFemaleTest@25bbf683]" name="BestMatchFemaleTest" class="Tests.BestMatchFemaleTest"/>
-        <method signature="BestMatchFluIDTest.BestMatchFemaleTest()[pri:3, instance:Tests.BestMatchFluIDTest@10dba097]" name="BestMatchFemaleTest" class="Tests.BestMatchFluIDTest"/>
-        <method signature="BestMatchHellowNoTests.BestMatchHelloNo()[pri:3, instance:Tests.BestMatchHellowNoTests@6eceb130]" name="BestMatchHelloNo" class="Tests.BestMatchHellowNoTests"/>
-        <method signature="BestMatchMaleTest.BMExpensiveFeamle()[pri:3, instance:Tests.BestMatchMaleTest@646007f4]" name="BMExpensiveFeamle" class="Tests.BestMatchMaleTest"/>
+        <method signature="BookingCuponTests.CheckOutSession()[pri:2, instance:Tests.BookingCuponTests@3aeaafa6]" name="CheckOutSession" class="Tests.BookingCuponTests"/>
+        <method signature="BookingCuponTests.CheckoutUnlimitedCreditCard()[pri:3, instance:Tests.BookingCuponTests@3aeaafa6]" name="CheckoutUnlimitedCreditCard" class="Tests.BookingCuponTests"/>
+        <method signature="BookingCuponTests.DoSignUp()[pri:1, instance:Tests.BookingCuponTests@3aeaafa6]" name="DoSignUp" class="Tests.BookingCuponTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="StartHereFemaleTests" duration-ms="222462" started-at="2019-01-01T09:36:15Z" finished-at="2019-01-01T09:39:58Z">
-      <class name="Tests.StartHereFemaleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereFemaleTests@ed9d034]" name="setup" is-config="true" duration-ms="25169" started-at="2019-01-01T09:36:15Z" finished-at="2019-01-01T09:36:41Z">
+    <test name="Default test" duration-ms="174196" started-at="2019-02-20T20:36:45Z" finished-at="2019-02-20T20:39:39Z">
+      <class name="Tests.BookingCuponTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BookingCuponTests@3aeaafa6]" name="setup" is-config="true" duration-ms="34245" started-at="2019-02-20T20:36:45Z" finished-at="2019-02-20T20:37:19Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="StartHereFemaleTests()[pri:6, instance:Tests.StartHereFemaleTests@ed9d034]" name="StartHereFemaleTests" duration-ms="197277" started-at="2019-01-01T09:36:41Z" finished-at="2019-01-01T09:39:58Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.BookingCuponTests@3aeaafa6]" name="DoSignUp" duration-ms="69745" started-at="2019-02-20T20:37:19Z" finished-at="2019-02-20T20:38:29Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : StartHereFemaleTests.StartHereFemaleTests]]>
+              <![CDATA[About to begin executing following method : BookingCuponTests.DoSignUp]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : StartHereFemaleTests.StartHereFemaleTests]]>
+              <![CDATA[Completed executing following method : BookingCuponTests.DoSignUp]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite StartHereFemaleTests]]>
+              <![CDATA[About to Success executing Suite DoSignUp]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.StartHereFemaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite StartHereFemaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.StartHereFemaleTests]]>
+              <![CDATA[Test Method resides in Tests.BookingCuponTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- StartHereFemaleTests -->
-      </class> <!-- Tests.StartHereFemaleTests -->
-    </test> <!-- StartHereFemaleTests -->
-    <test name="StartHereFluIDTests" duration-ms="222690" started-at="2019-01-01T09:39:58Z" finished-at="2019-01-01T09:43:41Z">
-      <class name="Tests.StartHereFluIDTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereFluIDTests@51c8530f]" name="setup" is-config="true" duration-ms="23592" started-at="2019-01-01T09:39:58Z" finished-at="2019-01-01T09:40:21Z">
+        </test-method> <!-- DoSignUp -->
+        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:Tests.BookingCuponTests@3aeaafa6]" name="CheckOutSession" duration-ms="36330" started-at="2019-02-20T20:38:29Z" finished-at="2019-02-20T20:39:05Z">
           <reporter-output>
             <line>
-              <![CDATA[Completed executing following method : BaseTest.setup]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="StartHereFluIDTests()[pri:6, instance:Tests.StartHereFluIDTests@51c8530f]" name="StartHereFluIDTests" duration-ms="199096" started-at="2019-01-01T09:40:21Z" finished-at="2019-01-01T09:43:41Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : StartHereFluIDTests.StartHereFluIDTests]]>
+              <![CDATA[About to begin executing following method : BookingCuponTests.CheckOutSession]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : StartHereFluIDTests.StartHereFluIDTests]]>
+              <![CDATA[Completed executing following method : BookingCuponTests.CheckOutSession]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite StartHereFluIDTests]]>
+              <![CDATA[About to Success executing Suite CheckOutSession]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.StartHereFluIDTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite StartHereFluIDTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.StartHereFluIDTests]]>
+              <![CDATA[Test Method resides in Tests.BookingCuponTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- StartHereFluIDTests -->
-      </class> <!-- Tests.StartHereFluIDTests -->
-    </test> <!-- StartHereFluIDTests -->
-    <test name="StartHereHelloNoTests" duration-ms="231272" started-at="2019-01-01T09:43:41Z" finished-at="2019-01-01T09:47:32Z">
-      <class name="Tests.StartHereHelloNoTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereHelloNoTests@22eeefeb]" name="setup" is-config="true" duration-ms="23437" started-at="2019-01-01T09:43:41Z" finished-at="2019-01-01T09:44:04Z">
+        </test-method> <!-- CheckOutSession -->
+        <test-method status="PASS" signature="CheckoutUnlimitedCreditCard()[pri:3, instance:Tests.BookingCuponTests@3aeaafa6]" name="CheckoutUnlimitedCreditCard" duration-ms="33855" started-at="2019-02-20T20:39:05Z" finished-at="2019-02-20T20:39:39Z">
           <reporter-output>
             <line>
-              <![CDATA[Completed executing following method : BaseTest.setup]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="StartHereHelloNoTests()[pri:6, instance:Tests.StartHereHelloNoTests@22eeefeb]" name="StartHereHelloNoTests" duration-ms="207834" started-at="2019-01-01T09:44:04Z" finished-at="2019-01-01T09:47:32Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : StartHereHelloNoTests.StartHereHelloNoTests]]>
+              <![CDATA[About to begin executing following method : BookingCuponTests.CheckoutUnlimitedCreditCard]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : StartHereHelloNoTests.StartHereHelloNoTests]]>
+              <![CDATA[Completed executing following method : BookingCuponTests.CheckoutUnlimitedCreditCard]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite StartHereHelloNoTests]]>
+              <![CDATA[About to Success executing Suite CheckoutUnlimitedCreditCard]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.StartHereHelloNoTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite StartHereHelloNoTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.StartHereHelloNoTests]]>
+              <![CDATA[Test Method resides in Tests.BookingCuponTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- StartHereHelloNoTests -->
-      </class> <!-- Tests.StartHereHelloNoTests -->
-    </test> <!-- StartHereHelloNoTests -->
-    <test name="StartHereMaleTests" duration-ms="210814" started-at="2019-01-01T09:47:32Z" finished-at="2019-01-01T09:51:03Z">
-      <class name="Tests.StartHereMaleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StartHereMaleTests@7e0e6aa2]" name="setup" is-config="true" duration-ms="33190" started-at="2019-01-01T09:47:32Z" finished-at="2019-01-01T09:48:05Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.setup]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="StartHereMaleTests()[pri:6, instance:Tests.StartHereMaleTests@7e0e6aa2]" name="StartHereMaleTests" duration-ms="177623" started-at="2019-01-01T09:48:05Z" finished-at="2019-01-01T09:51:03Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : StartHereMaleTests.StartHereMaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : StartHereMaleTests.StartHereMaleTests]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite StartHereMaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.StartHereMaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite StartHereMaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.StartHereMaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- StartHereMaleTests -->
-      </class> <!-- Tests.StartHereMaleTests -->
-    </test> <!-- StartHereMaleTests -->
-    <test name="BestMatchFemaleTest" duration-ms="216720" started-at="2019-01-01T09:51:03Z" finished-at="2019-01-01T09:54:39Z">
-      <class name="Tests.BestMatchFemaleTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchFemaleTest@25bbf683]" name="setup" is-config="true" duration-ms="25652" started-at="2019-01-01T09:51:03Z" finished-at="2019-01-01T09:51:28Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.setup]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BestMatchFemaleTest()[pri:3, instance:Tests.BestMatchFemaleTest@25bbf683]" name="BestMatchFemaleTest" duration-ms="191066" started-at="2019-01-01T09:51:28Z" finished-at="2019-01-01T09:54:39Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BestMatchFemaleTest.BestMatchFemaleTest]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BestMatchFemaleTest.BestMatchFemaleTest]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BestMatchFemaleTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.BestMatchFemaleTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BestMatchFemaleTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.BestMatchFemaleTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BestMatchFemaleTest -->
-      </class> <!-- Tests.BestMatchFemaleTest -->
-    </test> <!-- BestMatchFemaleTest -->
-    <test name="BestMatchFluIDTest" duration-ms="218125" started-at="2019-01-01T09:54:39Z" finished-at="2019-01-01T09:58:17Z">
-      <class name="Tests.BestMatchFluIDTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchFluIDTest@10dba097]" name="setup" is-config="true" duration-ms="25082" started-at="2019-01-01T09:54:39Z" finished-at="2019-01-01T09:55:04Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.setup]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BestMatchFemaleTest()[pri:3, instance:Tests.BestMatchFluIDTest@10dba097]" name="BestMatchFemaleTest" duration-ms="193040" started-at="2019-01-01T09:55:04Z" finished-at="2019-01-01T09:58:17Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BestMatchFluIDTest.BestMatchFemaleTest]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BestMatchFluIDTest.BestMatchFemaleTest]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BestMatchFemaleTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.BestMatchFluIDTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BestMatchFemaleTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.BestMatchFluIDTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BestMatchFemaleTest -->
-      </class> <!-- Tests.BestMatchFluIDTest -->
-    </test> <!-- BestMatchFluIDTest -->
-    <test name="BestMatchHellowNoTests" duration-ms="225620" started-at="2019-01-01T09:58:17Z" finished-at="2019-01-01T10:02:03Z">
-      <class name="Tests.BestMatchHellowNoTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchHellowNoTests@6eceb130]" name="setup" is-config="true" duration-ms="21901" started-at="2019-01-01T09:58:17Z" finished-at="2019-01-01T09:58:39Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.setup]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BestMatchHelloNo()[pri:3, instance:Tests.BestMatchHellowNoTests@6eceb130]" name="BestMatchHelloNo" duration-ms="203718" started-at="2019-01-01T09:58:39Z" finished-at="2019-01-01T10:02:03Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BestMatchHellowNoTests.BestMatchHelloNo]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BestMatchHellowNoTests.BestMatchHelloNo]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BestMatchHelloNo]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.BestMatchHellowNoTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BestMatchHelloNo]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.BestMatchHellowNoTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BestMatchHelloNo -->
-      </class> <!-- Tests.BestMatchHellowNoTests -->
-    </test> <!-- BestMatchHellowNoTests -->
-    <test name="BestMatchMaleTest" duration-ms="195914" started-at="2019-01-01T10:02:03Z" finished-at="2019-01-01T10:05:19Z">
-      <class name="Tests.BestMatchMaleTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BestMatchMaleTest@646007f4]" name="setup" is-config="true" duration-ms="23533" started-at="2019-01-01T10:02:03Z" finished-at="2019-01-01T10:02:27Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Completed executing following method : BaseTest.setup]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="BMExpensiveFeamle()[pri:3, instance:Tests.BestMatchMaleTest@646007f4]" name="BMExpensiveFeamle" duration-ms="172379" started-at="2019-01-01T10:02:27Z" finished-at="2019-01-01T10:05:19Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BestMatchMaleTest.BMExpensiveFeamle]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BestMatchMaleTest.BMExpensiveFeamle]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.BestMatchMaleTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite BMExpensiveFeamle]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.BestMatchMaleTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BMExpensiveFeamle -->
-      </class> <!-- Tests.BestMatchMaleTest -->
-    </test> <!-- BestMatchMaleTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- CheckoutUnlimitedCreditCard -->
+      </class> <!-- Tests.BookingCuponTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

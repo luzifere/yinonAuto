@@ -65,17 +65,20 @@ public class BestMatchFemaleTest extends BaseTest
 		best.ClickBack();
 		best.SelectHELLONO("9");
 		best.SelectHELLONO("10");
-		best.ClickBackBrands();
-		best.SelectHELLONO("10");
+		best.ClickBack();
+		best.SelectSOMETIMES("10");
 		best.Selectbrands("2");
+		/*
 		best.ClickNextbutton();
 		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Female')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Fit, Hourglass')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'60% - Classic, 40% - Edgy')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'All saints')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Petite, Plus Size')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'44% - Classic, 28% - Edgy, 28% - Minimal')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'All Saints')]]"));
+		*/
 		best.ClickMeetMyMatch();
 		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'SEE MORE')]]"));
 		best.Sleep(300);
 		driver.close();
 		

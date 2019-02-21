@@ -45,18 +45,18 @@ public class RetakeMatchMaleTest extends BaseTest
 		best.SelectLoveIt("4");
 		best.SelectHELLONO("5");
 		best.SelectHELLONO("6");
-		best.SelectHELLONO("7");
-		best.SelectHELLONO("8");
-		best.SelectHELLONO("9");
-		best.SelectHELLONO("10");
 		best.Selectbrands("1");
-		best.ClickNextbutton();
+		//best.ClickNextbutton();
+		best.ClickMeetMyMatch();
+		/*
 		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Male')]]"));
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'40% - Classic, 60% - Edgy')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'GAP')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Alexander wang')]]"));
 		best.ClickMeetMyMatch();
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
+		*/
+		best.WaitElementDisplay(By.xpath("//h2[text()[contains(.,'Style session - starting at $20')]]"));
+		Assert.assertTrue(best.ElementDisplay("//h2[text()[contains(.,'Style session - starting at $20')]]"));
 		best.Sleep(300);
 		best.close();
 		

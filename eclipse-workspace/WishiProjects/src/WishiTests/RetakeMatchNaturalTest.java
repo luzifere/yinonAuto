@@ -51,13 +51,16 @@ public class RetakeMatchNaturalTest extends BaseTest
 		best.SelectHELLONO("9");
 		best.SelectHELLONO("10");
 		best.Selectbrands("2");
-		best.ClickNextbutton();
+		//best.ClickNextbutton();
+		best.ClickMeetMyMatch();
+		/*
 		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Fluid')]]"));
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'40% - Classic, 60% - Edgy')]]"));
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Fit')]]"));
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'All saints')]]"));
 		best.ClickMeetMyMatch();
+		*/
 		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
 		best.Sleep(300);
 		best.close();

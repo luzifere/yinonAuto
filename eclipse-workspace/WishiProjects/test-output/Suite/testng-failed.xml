@@ -4,59 +4,15 @@
   <listeners>
     <listener class-name="WishiTests.Listener"/>
   </listeners>
-  <test thread-count="5" name="LoginWithFacbookFailsTests(failed)">
+  <test thread-count="5" name="StartHereHelloNoTests(failed)">
     <classes>
-      <class name="WishiTests.LoginWithFacbookFailsTests">
+      <class name="WishiTests.StartHereHelloNoTests">
         <methods>
-          <include name="LoginWithFacbookWrongUserName"/>
+          <include name="StartHereHelloNoTests"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- WishiTests.LoginWithFacbookFailsTests -->
+      </class> <!-- WishiTests.StartHereHelloNoTests -->
     </classes>
-  </test> <!-- LoginWithFacbookFailsTests(failed) -->
-  <test thread-count="5" name="StartHereLowFemaleMatchTests(failed)">
-    <classes>
-      <class name="WishiTests.StartHereLowFemaleMatchTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="BMExpensiveMale"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- WishiTests.StartHereLowFemaleMatchTests -->
-    </classes>
-  </test> <!-- StartHereLowFemaleMatchTests(failed) -->
-  <test thread-count="5" name="StartHereNaturalMatchTests(failed)">
-    <classes>
-      <class name="WishiTests.StartHereNaturalMatchTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="BMExpensiveMale"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- WishiTests.StartHereNaturalMatchTests -->
-    </classes>
-  </test> <!-- StartHereNaturalMatchTests(failed) -->
-  <test thread-count="5" name="RetakeMatchNaturalTests(failed)">
-    <classes>
-      <class name="WishiTests.RetakeMatchNaturalTests">
-        <methods>
-          <include name="BMNatural"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- WishiTests.RetakeMatchNaturalTests -->
-    </classes>
-  </test> <!-- RetakeMatchNaturalTests(failed) -->
-  <test thread-count="5" name="BestMatchNaturalTests(failed)">
-    <classes>
-      <class name="WishiTests.BestMatchNaturalTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="BMNatural"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- WishiTests.BestMatchNaturalTests -->
-    </classes>
-  </test> <!-- BestMatchNaturalTests(failed) -->
+  </test> <!-- StartHereHelloNoTests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

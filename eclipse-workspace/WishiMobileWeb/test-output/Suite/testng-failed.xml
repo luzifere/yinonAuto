@@ -4,56 +4,6 @@
   <listeners>
     <listener class-name="Tests.Listener"/>
   </listeners>
-  <test thread-count="5" name="StartHereFemaleTests(failed)">
-    <classes>
-      <class name="Tests.StartHereFemaleTests">
-        <methods>
-          <include name="setup"/>
-          <include name="StartHereFemaleTests"/>
-        </methods>
-      </class> <!-- Tests.StartHereFemaleTests -->
-    </classes>
-  </test> <!-- StartHereFemaleTests(failed) -->
-  <test thread-count="5" name="StartHereFluIDTests(failed)">
-    <classes>
-      <class name="Tests.StartHereFluIDTests">
-        <methods>
-          <include name="StartHereFluIDTests"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- Tests.StartHereFluIDTests -->
-    </classes>
-  </test> <!-- StartHereFluIDTests(failed) -->
-  <test thread-count="5" name="StartHereHelloNoTests(failed)">
-    <classes>
-      <class name="Tests.StartHereHelloNoTests">
-        <methods>
-          <include name="StartHereHelloNoTests"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- Tests.StartHereHelloNoTests -->
-    </classes>
-  </test> <!-- StartHereHelloNoTests(failed) -->
-  <test thread-count="5" name="StartHereMaleTests(failed)">
-    <classes>
-      <class name="Tests.StartHereMaleTests">
-        <methods>
-          <include name="setup"/>
-          <include name="StartHereMaleTests"/>
-        </methods>
-      </class> <!-- Tests.StartHereMaleTests -->
-    </classes>
-  </test> <!-- StartHereMaleTests(failed) -->
-  <test thread-count="5" name="BestMatchFemaleTest(failed)">
-    <classes>
-      <class name="Tests.BestMatchFemaleTest">
-        <methods>
-          <include name="setup"/>
-          <include name="BestMatchFemaleTest"/>
-        </methods>
-      </class> <!-- Tests.BestMatchFemaleTest -->
-    </classes>
-  </test> <!-- BestMatchFemaleTest(failed) -->
   <test thread-count="5" name="BestMatchFluIDTest(failed)">
     <classes>
       <class name="Tests.BestMatchFluIDTest">
@@ -64,16 +14,6 @@
       </class> <!-- Tests.BestMatchFluIDTest -->
     </classes>
   </test> <!-- BestMatchFluIDTest(failed) -->
-  <test thread-count="5" name="BestMatchHellowNoTests(failed)">
-    <classes>
-      <class name="Tests.BestMatchHellowNoTests">
-        <methods>
-          <include name="setup"/>
-          <include name="BestMatchHelloNo"/>
-        </methods>
-      </class> <!-- Tests.BestMatchHellowNoTests -->
-    </classes>
-  </test> <!-- BestMatchHellowNoTests(failed) -->
   <test thread-count="5" name="BestMatchMaleTest(failed)">
     <classes>
       <class name="Tests.BestMatchMaleTest">

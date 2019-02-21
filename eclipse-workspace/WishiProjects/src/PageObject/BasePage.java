@@ -384,6 +384,12 @@ public class BasePage
 
 		}
 	}
+	public void Switch_to_strype () 
+	{
+		WebElement fr = driver.findElement(By.xpath("//iframe[@title='Secure payment input frame']"));
+		driver.switchTo().frame(fr);//iframe[@name='__privateStripeFrame4']
+
+	}
 	
 
 }

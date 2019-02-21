@@ -34,11 +34,11 @@ public class CeckOutPage extends BasePage
 	@FindBy(xpath="//*[@name='back']")
 	WebElement BackButton;
 	//@FindBy(xpath="//*[@name='selectButtonID']")
-	@FindBy(id="selectButtonID")
+	@FindBy(id="Next")
 	WebElement SelectStylistButton;//*[@name='selectButtonID']
 	@FindBy(xpath="//*[@name='AddCodeButtonID']")
 	WebElement addcode;
-	@FindBy(id="ApplePayButtonID")
+	@FindBy(id="CompletePaymentButtonID")
 	WebElement ApplePay;
 	@FindBy(id="PromoCodeFieldID")
 	WebElement codefield;
@@ -46,7 +46,7 @@ public class CeckOutPage extends BasePage
 	WebElement doneofcode;
 	@FindBy(id="completeBookingID")
 	WebElement compilebooking;
-	@FindBy(xpath="//*[@name='CreditCardButtonID']")
+	@FindBy(xpath="//*[@name='PayWithCreditCardCellButtonID']")
 	WebElement credit;
 	@FindBy(xpath="//*[@name='stripeTextFieldID']")
 	WebElement cardnumber;
@@ -55,7 +55,7 @@ public class CeckOutPage extends BasePage
 	WebElement NotNow;
 	@FindBy(xpath="//*[@name='emailTextFieldID']")	
 	WebElement emailfield;
-	@FindBy(id="MonthButtonID")
+	@FindBy(id="SubscriptionButtonID")
 	WebElement SelectMonthButton;
 	@FindBy(id="SingleButtonID")
 	WebElement SelectSingleButton;
@@ -81,7 +81,45 @@ public class CeckOutPage extends BasePage
 	WebElement SaveButton;
 	@FindBy(id="back")
 	WebElement backButton;
+	@FindBy(id="MajorButtonID")
+	WebElement MajorButtonID;
+	@FindBy(id="MinorButtonID")
+	WebElement MinorButtonID;
+	@FindBy(id="ChoosePackageID")
+	WebElement ChoosePackageID;
 
+	
+	
+	
+	public void SelectMiniPlan() 
+	{		
+		
+		WaitElementDisplay(By.id("MinorButtonID"));
+		click(MinorButtonID);
+		WaitElementDisplay(By.id("40"));
+		scrollDownXpath();
+		click(MajorButtonID);
+		WaitElementDisplay(By.id("90"));
+		click(MinorButtonID);
+		click(ChoosePackageID);
+		WaitElementDisplay(By.id("Wishi Mini Package"));
+		
+	}
+	public void SelectMajorPlan() 
+	{		
+		
+		WaitElementDisplay(By.id("MajorButtonID"));
+		click(MajorButtonID);
+		WaitElementDisplay(By.id("90"));
+		scrollDownXpath();
+		click(MinorButtonID);
+		WaitElementDisplay(By.id("40"));
+		click(MajorButtonID);
+		click(ChoosePackageID);
+		WaitElementDisplay(By.id("Wishi Major Package"));
+		
+	}
+	
 	public void HowDidYouHearAboutUs(String instegram) 
 	{		
 		Sleep(200);
@@ -117,7 +155,8 @@ public class CeckOutPage extends BasePage
 	}
 	public void ClickApplePayButton() 
 	{		
-		Sleep(200);
+		Sleep(300);
+		//WaitElementDisplay(By.id("ApplePayButtonID"));
 		click(ApplePay);
 		Sleep(350);
 	}
@@ -265,12 +304,13 @@ public class CeckOutPage extends BasePage
 		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
 		click(PlusTabs);
 	} 
-	public void ClickMinus(String minus)
+	public void SelectPlan(String minus)
 	{
-		String MinusElemet = ("//*[@name='minusButtonID'])[Text1]");
+		String MinusElemet = ("(//*[@name='purcaseButtonID']))[Text1]");
 		MinusElemet = MinusElemet.replace("Text1", minus);
 		WebElement MinusTabs = driver.findElement(By.xpath(MinusElemet));
 		click(MinusTabs);
+		
 	} 
 	
 

@@ -18,15 +18,16 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class BaseTest 
 {
-	static AppiumDriver driver;
-	static ConfigFileReader configFileReader;
+	protected static AppiumDriver driver;
+	protected static ConfigFileReader configFileReader;
 	public static  AppiumDriver<WebElement>capabileties() throws MalformedURLException   
 	{
 		configFileReader= new ConfigFileReader();
 		DesiredCapabilities cap = new DesiredCapabilities();
 		//if (device.equals("emulator"))
 		//{
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone XS Max");
+		
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone XS");
 		//	}
 		//else if (device.equals("real"))
 		//{
@@ -43,12 +44,23 @@ public class BaseTest
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,AutomationName.IOS_XCUI_TEST);
 		cap.setCapability(MobileCapabilityType.APP,"/Users/yinonwishi/Desktop/Wishi.app");
 		//cap.setCapability(IOSMobileCapabilityType.BUNDLE_ID,"com.Wishi.Wishi");
-		cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 5000);
-		cap.setCapability("startIWDP", true);
+		 
 		
+		 /*
+		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone X");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12.1.2");
+		cap.setCapability(MobileCapabilityType.APP,"/Users/yinonwishi/Desktop/Wishi.ipa");
+		cap.setCapability(MobileCapabilityType.UDID,"b5b85aa834a29d1e90a5a0e1400c955235431104");
+		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,AutomationName.IOS_XCUI_TEST);
+		cap.setCapability(IOSMobileCapabilityType.XCODE_ORG_ID,"6Q9ZW4BRCA");
+		cap.setCapability(IOSMobileCapabilityType.XCODE_SIGNING_ID,"iPhone Developer");
+		cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 5000);
+		//cap.setCapability("startIWDP", true);
+*/
 		try
 		{
-		driver = new IOSDriver<>(new URL("http://127.0.0.1:4723/wd/hub") ,cap);
+			driver = new IOSDriver<>(new URL("http://127.0.0.1:4723/wd/hub") ,cap);
 		}
 		catch (MalformedURLException e) 
 		{
@@ -65,7 +77,8 @@ public class BaseTest
 		DesiredCapabilities cap = new DesiredCapabilities();
 		//if (device.equals("emulator"))
 		//{
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone XS Max");
+		///*
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone XS");
 		//	}
 		//else if (device.equals("real"))
 		//{
@@ -83,9 +96,24 @@ public class BaseTest
 		cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 5000);
 		cap.setCapability("startIWDP", true);
 		
+		// */
+		/*
+		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone X");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12.1.2");
+		cap.setCapability(MobileCapabilityType.APP,"/Users/yinonwishi/Desktop/Wishi-Stylist.ipa");
+		//cap.setCapability(MobileCapabilityType.APP, "/Users/yinonwishi/Library/Developer/Xcode/DerivedData/Wishi-Stylist-gmypwqjalcvhiugnlrbgvalidhmt/Build/Products/Debug-iphoneos/");
+		cap.setCapability(MobileCapabilityType.UDID,"b5b85aa834a29d1e90a5a0e1400c955235431104");
+		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,AutomationName.IOS_XCUI_TEST);
+		cap.setCapability(IOSMobileCapabilityType.XCODE_ORG_ID,"6Q9ZW4BRCA");
+		cap.setCapability(IOSMobileCapabilityType.XCODE_SIGNING_ID,"iPhone Developer");
+		cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 5000);
+		//cap.setCapability("startIWDP", true);
+		*/
+
 		try
 		{
-		driver = new IOSDriver<>(new URL("http://127.0.0.1:4723/wd/hub") ,cap);
+			driver = new IOSDriver<>(new URL("http://127.0.0.1:4723/wd/hub") ,cap);
 		}
 		catch (MalformedURLException e) 
 		{
@@ -100,7 +128,7 @@ public class BaseTest
 	public void setup() throws MalformedURLException
 	{
 		capabileties();
-		
+
 	}
-	
+
 }

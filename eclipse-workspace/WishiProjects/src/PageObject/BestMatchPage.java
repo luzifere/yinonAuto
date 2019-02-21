@@ -24,7 +24,7 @@ public class BestMatchPage extends BasePage
 	WebElement Year;
 	@FindBy(xpath="//div//button[@class='btn-start']")
 	WebElement ContinueButton;
-	@FindBy(xpath="//div[@class='start']")	
+	@FindBy(xpath="(//div//button[@class='get-your-style hidden-sm hidden-xs'])[1]")	
 	//@FindBy(xpath="//div[text()[contains(.,'GET STARTED >')]]")
 	WebElement StartHere;
 	@FindBy(xpath="//div[@class='get-your-style ng-binding']")
@@ -34,7 +34,7 @@ public class BestMatchPage extends BasePage
 	@FindBy(xpath="//div//label[@for='g_1']")
 	WebElement Female;
 
-	@FindBy(xpath="//button[@class='btn-finish']")
+	@FindBy(xpath="//button[@class='btn-std btn-next']")
 	WebElement MeetMyMatch;
 
 	@FindBy(xpath="//div//label[@for='g_2']")
@@ -223,7 +223,7 @@ public class BestMatchPage extends BasePage
 		 
 		 {
 			Sleep(100);
-			String GoalElemet = ("(//span[text()[contains(.,'HELLO NO!')]])[text1]");
+			String GoalElemet = ("(//span[text()[contains(.,'HELL NO!')]])[text1]");
 			GoalElemet = GoalElemet.replace("text1", inspiration);
 			WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
 			//WaitElementDisplay(By.xpath("(//span[text()[contains(.,'LOVE IT!')]])[2]"));
@@ -322,7 +322,8 @@ public class BestMatchPage extends BasePage
 			try
 			 
 			 {
-				WaitElementDisplay(By.xpath("//button[@class='btn-finish']"));
+				WaitElementDisplay(By.xpath("//button[@class='btn-std btn-next']"));
+				scrollDown();
 				Sleep(100);
 				click(MeetMyMatch);
 				Sleep(100);
@@ -413,7 +414,7 @@ public class BestMatchPage extends BasePage
 		 
 		 {
 
-			WaitElementDisplay(By.xpath("//div[@class='start']"));
+			WaitElementDisplay(By.xpath("(//div//button[@class='get-your-style hidden-sm hidden-xs'])[1]"));
 			//WaitElementDisplay(By.xpath("//div[text()[contains(.,'GET STARTED >')]]"));
 			Sleep(100);
 			click(StartHere);
@@ -563,7 +564,7 @@ public class BestMatchPage extends BasePage
 		try
 		 
 		 {
-			Sleep(100);
+			WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'NEXT')]]"));
 			click(NextButton);
 			Sleep(100);
 		 

@@ -51,99 +51,51 @@ public class BookingsingleTests extends BaseTest
 		best.SelectHELLONO("9");
 		best.SelectHELLONO("10");
 		best.Selectbrands("2");
-		best.ClickNextbutton();
-		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
 		best.ClickMeetMyMatch();
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));	
+		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));	
 		//best.ClickMoreStylistsButton();
 		BookingPage booking = new BookingPage(driver);
 		booking.ClickBookingstylist();
 	}	
 
 	@Test(priority = 2,groups={"sanity-group"})
-	public void CheckOutSession ()
+	public void SingleMini ()
 	{
 		BookingPage booking = new BookingPage(driver);
 		String stylistName = this.configFileReader.getStylistName();
 		booking.SearchStylist(stylistName);
 		booking.SelectStylist();
-		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Per Session')]]"));
-		//booking.BookStylist();
-		booking.scrollDown();
-		booking.SelectSingle();
+		booking.SelectMini();
+		booking.ClickOneTime();
 		String copun = this.configFileReader.getcopun();
 		booking.UseCodCoopon(copun);
 		booking.ClickFinishCheckout();
-		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
-		booking.ClickBookingstylist();
-		/*
-		ChatPage chat = new ChatPage(driver);
-		chat.ClickOnProfileClientButton();
-		chat.ClickOnLogOut();
-		LoginPage login = new LoginPage(driver);
-		login.ClickLoginButton();
-		login.doLogin("aya@wishi.me", "123456");
-		login.Sleep(250);
-		chat.RefreshPage();
-		*/
+		booking.ClickMyBooking();
+		booking.RefreshPage();
+		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'session')]]"));
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'session')]]"));
+		booking.Sleep(300);
+		//booking.close();
+	}
+	@Test(priority = 3,groups={"sanity-group"})
+	public void SingleMajor ()
+	{
+		BookingPage booking = new BookingPage(driver);
+		String stylistName = this.configFileReader.getStylistName();
+		booking.SearchStylist(stylistName);
+		booking.SelectStylist();
+		booking.SelectMajor();
+		booking.ClickOneTime();
+		String copun = this.configFileReader.getcopun();
+		booking.UseCodCoopon(copun);
+		booking.ClickFinishCheckout();
 		booking.ClickMyBooking();
 		booking.RefreshPage();
 		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'session')]]"));
 		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'session')]]"));
 		booking.Sleep(300);
 		booking.close();
-	}
-	//@Test(priority = 3,groups={"sanity-group"})
-	public void CheckoutUnlimited ()
-	{
-		BookingPage booking = new BookingPage(driver);
-		booking.SelectService();
-		booking.SelectUnlimited();
-		booking.ClickApllay();
-		booking.SearchStylist("Casey Huth");
-		booking.SelectStylist();
-		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
-		booking.BookStylist();
-		booking.switchWindow();
-		booking.FillFirstName("yinon");
-		booking.FillLastName("aba");
-		booking.SwitchToFrame(0);
-		booking.FillCardNumber("4242424242424242");
-		booking.FillCardDate("0222");
-		booking.FillCardCVC("424");
-		booking.Sleep(500);
-		booking.switchWindow();
-		booking.Sleep(200);
-		booking.WaitElementDisplay(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]"));
-		//BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
-		driver.findElement(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]")).click();
-		booking.ClickBookingstylist();		
 
 	}
-
-	//@Test(priority = 4,groups={"sanity-group"})
-	public void CheckoutByCreditCard ()
-	{
-		BookingPage booking = new BookingPage(driver);
-		booking.SearchStylist("Casey Huth");
-		booking.SelectStylist();
-		booking.BookStylist();
-		booking.switchWindow();
-		booking.FillFirstName("yinon");
-		booking.FillLastName("aba");
-		booking.SwitchToFrame(0);
-		booking.FillCardNumber("4242424242424242");
-		booking.FillCardDate("0222");
-		booking.FillCardCVC("424");
-		booking.Sleep(500);
-		booking.switchWindow();
-		booking.Sleep(200);
-		booking.WaitElementDisplay(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]"));
-		//BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
-		driver.findElement(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]")).click();
-		booking.ClickBookingstylist();	
-		driver.close();
-	}
-
 
 }

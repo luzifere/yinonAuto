@@ -54,7 +54,7 @@ public class BookingPage extends BasePage
 	@FindBy(xpath="//div[@class='name-city ng-binding']")
 	WebElement TitleOfStylist;
 
-	@FindBy(xpath="//div[@class='next-btn ng-binding']")
+	@FindBy(xpath="//div[@class='next-btn']")
 	WebElement SelectStylist;
 
 	@FindBy(xpath="(//div[@class='entry-sub ng-binding'])[1]")
@@ -81,7 +81,7 @@ public class BookingPage extends BasePage
 	@FindBy(xpath="(//div//input[@class='form-control'])[2]")
 	WebElement LastNameCheckout;
 
-	@FindBy(xpath="//button[@class='mobileBookme_payment_form_button']")
+	@FindBy(xpath="(//button[@class='mobileBookme_payment_form_button'])[1]")
 	WebElement FinishCheckout;
 
 	@FindBy(xpath="//div[@class='thank-u-btn-mob']")
@@ -100,9 +100,61 @@ public class BookingPage extends BasePage
 	WebElement PayButton;
 	@FindBy(xpath="//input[@class='form-control ng-pristine ng-untouched ng-valid ng-not-empty']")
 	WebElement NameField;
+	@FindBy(xpath="//label[@for='miniRadio']")
+	WebElement Mini;
+	@FindBy(xpath="//label[@for='majorRadio']")
+	WebElement Major;
+	@FindBy(xpath="//div[@class='box mini-box']//button[@class='get-your-style']")
+	WebElement StartedMini;
+	@FindBy(xpath="//div[@class='box major-box']//button[@class='get-your-style']")
+	WebElement StartedMajor;
 
 
+	public void SelectMini() 
+	{
+		try
+		 
+		 {
+			WaitElementDisplay(By.xpath("//label[@for='miniRadio']"));
+			click(Mini);
+			WaitElementDisplay(By.xpath("//div[text()[contains(.,'40')]]"));
+			Sleep(300);
+			scrollDown();
+			WaitElementDisplay(By.xpath("//div[@class='box mini-box']//button[@class='get-your-style']"));
+			click(StartedMini);
+			WaitElementDisplay(By.xpath("//h3[text()[contains(.,'Typically responds within')]]"));
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.out.println("\nError : SelectMini failed\n");
+			
+		 }
+		
+	}
 
+	public void SelectMajor() 
+	{	
+		try
+		 
+		 {
+			WaitElementDisplay(By.xpath("//label[@for='majorRadio']"));
+			click(Major);	
+			WaitElementDisplay(By.xpath("//div[text()[contains(.,'90')]]"));
+			Sleep(300);
+			scrollDown();
+			WaitElementDisplay(By.xpath("//div[@class='box major-box']//button[@class='get-your-style']"));
+			click(StartedMajor);
+			WaitElementDisplay(By.xpath("//h3[text()[contains(.,'Typically responds within')]]"));
+			
+		 }catch(Exception e){
+		 
+			
+			 System.out.println("\nError : SelectMajor failed\n");
+			
+		 }
+		
+	}
 	public void ClickName() 
 	{
 		//click(FirstNameCheckout);
@@ -123,7 +175,7 @@ public class BookingPage extends BasePage
 	{	
 		Sleep(300);
 		//click(SearchBarButton);	
-		driver.findElement(By.xpath("//div[@class='search-bar pull-left']")).click();
+		driver.findElement(By.xpath("//div[@class='search-bar ']")).click();
 	}
 
 	public void SearchStylist(String name) 
@@ -140,7 +192,7 @@ public class BookingPage extends BasePage
 		act.sendKeys(Keys.ENTER).perform();
 		Sleep(300);
 		*/
-		driver.findElement(By.xpath("//div[@class='search-bar pull-left']")).click();
+		//driver.findElement(By.xpath("//div[@class='search-bar pull-left']")).click();
 		driver.findElement(By.xpath("//div//input[@type='text']")).sendKeys(name);
 		WaitElementDisplay(By.xpath("//li//a[@class='ng-binding ng-scope']"));
 		driver.findElement(By.xpath("//li//a[@class='ng-binding ng-scope']")).click();
@@ -154,8 +206,8 @@ public class BookingPage extends BasePage
 		driver.findElement(By.xpath("//span[@class='mobile_use_promo']")).click();
 		filltext(PromoCode,promocod);
 		driver.hideKeyboard();
-		driver.findElement(By.xpath("//button[@class='btn mobileBookme_payment_form_button']")).click();
-		WaitElementDisplay(By.xpath("//button[@class='mobileBookme_payment_form_button']"));
+		driver.findElement(By.xpath("(//button[@class='btn mobileBookme_payment_form_button'])[2]")).click();
+		WaitElementDisplay(By.xpath("(//button[@class='mobileBookme_payment_form_button'])[1]"));
 		
 		//Actions act = new Actions(driver);
 		//act.sendKeys(Keys.ENTER).perform();
@@ -170,10 +222,11 @@ public class BookingPage extends BasePage
 	}
 
 	public void BookStylist() 
-	{	
-		WaitElementDisplay(By.xpath("//div[@class='next-btn ng-binding']"));
+	{	Sleep(300);
+		WaitElementDisplay(By.xpath("//div[@class='next-btn']"));
 		Sleep(100);
-		click(SelectStylist);	
+		click(SelectStylist);
+		Sleep(300);
 	}
 
 	public void CloseCheckout() 
@@ -267,9 +320,9 @@ public class BookingPage extends BasePage
 		//driver.pressKeyCode(AndroidKeyCode.KEYCODE_ENTER, AndroidKeyMetastate.META_SHIFT_ON);
 		driver.switchTo().defaultContent();
 		//Sleep(250);
-		driver.findElement(By.xpath("//button[@class='btn mobileBookme_payment_form_button ng-binding']")).click();
+		driver.findElement(By.xpath("(//button[@class='btn mobileBookme_payment_form_button'])[1]")).click();
 		Sleep(250);
-		driver.findElement(By.xpath("//button[@class='btn mobileBookme_payment_form_button ng-binding']")).click();
+		driver.findElement(By.xpath("(//button[@class='btn mobileBookme_payment_form_button'])[1]")).click();
 
 	}
 	public void ClickTakeYourStyleQuiz() 

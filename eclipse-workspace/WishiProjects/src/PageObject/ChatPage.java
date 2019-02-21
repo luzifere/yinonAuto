@@ -30,11 +30,11 @@ public class ChatPage extends BasePage
 	WebElement EditMemberShipButton;
 	@FindBy(xpath="(//div//button[@class='btn_membership ng-binding'])[1]")
 	WebElement PauseMemberShip;
-	@FindBy(xpath="(//nav//div//img)")
+	@FindBy(xpath="//div[@id='header-profile-dropdown']")
 	WebElement ProfileButton;
 	@FindBy(xpath="//div//li//a[text()[contains(.,'Log Out')]]")
 	WebElement LogOut;
-	@FindBy(xpath="//nav//div//span[@class='inner-credentials ng-binding']")
+	@FindBy(xpath="//div[@id='header-profile-dropdown']")
 	WebElement ProfileClientButton;
 	
 	

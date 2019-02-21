@@ -63,11 +63,13 @@ public class StartHereFFacbookTests extends BaseTest
 		best.ClickBackBrands();
 		best.SelectHELLONO("10");
 		best.Selectbrands("1");
+		/*
 		best.ClickNextbutton();
 		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Male')]]"));
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'60% - Classic, 40% - Edgy')]]"));
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'GAP')]]"));
+		*/
 		best.ClickMeetMyMatch();
 		signup.ConnectWithFB();
 		signup.ConnectWithFB();
@@ -82,7 +84,8 @@ public class StartHereFFacbookTests extends BaseTest
 		driver.switchTo().window(winhandleBefore);
 		//signup.switchWindow();
 		
-		signup.WaitElementDisplay(By.xpath("//h2[text()[contains(.,'Style session - starting at $20')]]"));
+		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'SEE MORE')]]"));
 		best.Sleep(300);
 		driver.close();
 

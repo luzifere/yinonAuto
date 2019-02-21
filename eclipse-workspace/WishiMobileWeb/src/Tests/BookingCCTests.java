@@ -24,7 +24,7 @@ public class BookingCCTests extends BaseTest
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishite4sty@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishite47sty@wishi.com" + number, "inon", "av", "ab1565");
 		PageObejecs.BestMatchPage best = new PageObejecs.BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();
@@ -41,8 +41,6 @@ public class BookingCCTests extends BaseTest
 		best.SelectHELLONO("9");
 		best.SelectHELLONO("10");
 		best.Selectbrands("2");
-		best.ClickNextbutton();
-		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
 		best.ClickMeetMyMatch();
 		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match')]]"));
 		//best.ClickMoreStylistsButton();
@@ -56,23 +54,18 @@ public class BookingCCTests extends BaseTest
 		*/
 	}
 	@Test(priority = 3,groups={"sanity-group"})
-	public void CheckoutUnlimitedCreditCard ()
+	public void BookMiniCreditCard ()
 	{
 		PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);
-		//booking.FilterIcon();
-		//booking.SelectUnlimited();
-		//booking.ClickApllay();
 		booking.ClickSearchButton();
 		booking.Sleep(150);
 		String stylistName = this.configFileReader.getStylistName();
 		booking.SearchStylist(stylistName);
-		//booking.SelectStylist();
 		booking.BookStylist();
+		booking.SelectMini();
 		booking.ClickName();
 		booking.Sleep(250);
 		booking.Switch_to_strype();
-		//booking.SwitchToFrame(0);
-		//booking.Sleep(200);
 		String CardNumber = this.configFileReader.getCardNumber();
 		booking.FillCardNumber(CardNumber);
 		String CardDate = this.configFileReader.getCardDate();
@@ -80,32 +73,32 @@ public class BookingCCTests extends BaseTest
 		String CardCVC = this.configFileReader.getCardCVC();
 		booking.FillCardCVC(CardCVC);
 		booking.Sleep(150);
-		//booking.returnToWindowdefault();
-		//booking.ClickFinishCheckout();
-		PageObejecs.BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn-mob']"));
-		booking.ClickBookingstylist();			
-
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'BODY TYPE')]]"));
+		booking.ClickBookingstylist();
 	}
 
-	//@Test(priority = 4,groups={"sanity-group"})
-	public void CheckoutByCreditCard ()
+	@Test(priority = 4,groups={"sanity-group"})
+	public void BookMajorCreditCard ()
 	{
 		PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);
 		booking.ClickSearchButton();
-		booking.SearchStylist("Casey Huth");
-		booking.SelectStylist();
+		booking.Sleep(150);
+		String stylistName = this.configFileReader.getStylistName();
+		booking.SearchStylist(stylistName);
 		booking.BookStylist();
+		booking.SelectMajor();
 		booking.ClickName();
 		booking.Sleep(250);
-		booking.SwitchToFrame(1);
-		booking.Sleep(200);
-		booking.FillCardNumber("4242424242424242");
-		booking.FillCardDate("0225");
-		booking.FillCardCVC("424");
-		booking.Sleep(50);
-		booking.returnToWindowdefault();
-		PageObejecs.BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn-mob']"));
-		//booking.ClickBookingstylist();
+		booking.Switch_to_strype();
+		String CardNumber = this.configFileReader.getCardNumber();
+		booking.FillCardNumber(CardNumber);
+		String CardDate = this.configFileReader.getCardDate();
+		booking.FillCardDate(CardDate);
+		String CardCVC = this.configFileReader.getCardCVC();
+		booking.FillCardCVC(CardCVC);
+		booking.Sleep(150);
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'BODY TYPE')]]"));
+		booking.ClickBookingstylist();
 	}
 
 }

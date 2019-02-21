@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Test Default test]]>
@@ -11,241 +11,301 @@
       <![CDATA[Completed executing following method : BaseTest.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.LoginAsClient]]>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.LoginAsClient]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.LoginAsClient]]>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.LoginAsClient]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite LoginAsClient]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.CheckOutSession]]>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.CheckOutSession]]>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.CheckOutSession]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.LoginAsStylist]]>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.LoginAsStylist]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.LoginAsStylist]]>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.LoginAsStylist]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite LoginAsStylist]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.CreateMoodBoard]]>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.CreateMoodBoard]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.CreateMoodBoard]]>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.CreateMoodBoard]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite CreateMoodBoard]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.VerifyMoodBoard]]>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.VerifyMoodBoard]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.VerifyMoodBoard]]>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.VerifyMoodBoard]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite VerifyMoodBoard]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.CreatePS]]>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.CreatePS]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.CreatePS]]>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.CreatePS]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite CreatePS]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.AskRevise]]>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.AskRevise]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.AskRevise]]>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.AskRevise]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite AskRevise]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.CreateLook1]]>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.CreateLook1]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.CreateLook1]]>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.CreateLook1]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite CreateLook1]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.VerifyLook1]]>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.VerifyLook1]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.VerifyLook1]]>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.VerifyLook1]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite VerifyLook1]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.CreateLook2]]>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.CreateLook2]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.CreateLook2]]>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.CreateLook2]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite CreateLook2]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.VerifyLook2]]>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.VerifyLook2]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.VerifyLook2]]>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.VerifyLook2]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite VerifyLook2]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.CreateLook3]]>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.CreateLook3]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.CreateLook3]]>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.CreateLook3]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite CreateLook3]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.VerifyLook3]]>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.VerifyLook3]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.VerifyLook3]]>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.VerifyLook3]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite VerifyLook3]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.AskEndSession]]>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.CreateLook4]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.AskEndSession]]>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.CreateLook4]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite CreateLook4]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.VerifyLook4]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.VerifyLook4]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite VerifyLook4]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.CreateLook5]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.CreateLook5]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite CreateLook5]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.VerifyLook5]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.VerifyLook5]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite VerifyLook5]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.AskEndSession]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.AskEndSession]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite AskEndSession]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.ClientEndSession]]>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.ClientEndSession]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.ClientEndSession]]>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.ClientEndSession]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite ClientEndSession]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : CrateLookTests.VerifyEndSession]]>
+      <![CDATA[About to begin executing following method : BookMajorSingleTests.VerifyEndSession]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : CrateLookTests.VerifyEndSession]]>
+      <![CDATA[Completed executing following method : BookMajorSingleTests.VerifyEndSession]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite VerifyEndSession]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
@@ -257,348 +317,428 @@
       <![CDATA[Completed executing following method : BaseTest.tearDown]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="424522" started-at="2019-01-01T14:33:35Z" finished-at="2019-01-01T14:40:39Z">
+  <suite name="Default suite" duration-ms="534803" started-at="2019-02-21T15:28:38Z" finished-at="2019-02-21T15:37:33Z">
     <groups>
       <group name="sanity-group">
-        <method signature="CrateLookTests.AskEndSession()[pri:18, instance:WishiTests.CrateLookTests@59fa1d9b]" name="AskEndSession" class="WishiTests.CrateLookTests"/>
-        <method signature="CrateLookTests.AskRevise()[pri:7, instance:WishiTests.CrateLookTests@59fa1d9b]" name="AskRevise" class="WishiTests.CrateLookTests"/>
-        <method signature="CrateLookTests.CheckOutSession()[pri:2, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CheckOutSession" class="WishiTests.CrateLookTests"/>
-        <method signature="CrateLookTests.ClientEndSession()[pri:19, instance:WishiTests.CrateLookTests@59fa1d9b]" name="ClientEndSession" class="WishiTests.CrateLookTests"/>
-        <method signature="CrateLookTests.CreateLook1()[pri:8, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreateLook1" class="WishiTests.CrateLookTests"/>
-        <method signature="CrateLookTests.CreateLook2()[pri:12, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreateLook2" class="WishiTests.CrateLookTests"/>
-        <method signature="CrateLookTests.CreateLook3()[pri:16, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreateLook3" class="WishiTests.CrateLookTests"/>
-        <method signature="CrateLookTests.CreateMoodBoard()[pri:4, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreateMoodBoard" class="WishiTests.CrateLookTests"/>
-        <method signature="CrateLookTests.CreatePS()[pri:6, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreatePS" class="WishiTests.CrateLookTests"/>
-        <method signature="CrateLookTests.LoginAsClient()[pri:1, instance:WishiTests.CrateLookTests@59fa1d9b]" name="LoginAsClient" class="WishiTests.CrateLookTests"/>
-        <method signature="CrateLookTests.LoginAsStylist()[pri:3, instance:WishiTests.CrateLookTests@59fa1d9b]" name="LoginAsStylist" class="WishiTests.CrateLookTests"/>
-        <method signature="CrateLookTests.VerifyEndSession()[pri:20, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyEndSession" class="WishiTests.CrateLookTests"/>
-        <method signature="CrateLookTests.VerifyLook1()[pri:9, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyLook1" class="WishiTests.CrateLookTests"/>
-        <method signature="CrateLookTests.VerifyLook2()[pri:13, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyLook2" class="WishiTests.CrateLookTests"/>
-        <method signature="CrateLookTests.VerifyLook3()[pri:17, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyLook3" class="WishiTests.CrateLookTests"/>
-        <method signature="CrateLookTests.VerifyMoodBoard()[pri:5, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyMoodBoard" class="WishiTests.CrateLookTests"/>
+        <method signature="BookMajorSingleTests.AskEndSession()[pri:22, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="AskEndSession" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.AskRevise()[pri:7, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="AskRevise" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.CheckOutSession()[pri:2, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="CheckOutSession" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.ClientEndSession()[pri:23, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="ClientEndSession" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.CreateLook1()[pri:8, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="CreateLook1" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.CreateLook2()[pri:12, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="CreateLook2" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.CreateLook3()[pri:16, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="CreateLook3" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.CreateLook4()[pri:18, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="CreateLook4" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.CreateLook5()[pri:20, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="CreateLook5" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.CreateMoodBoard()[pri:4, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="CreateMoodBoard" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.CreatePS()[pri:6, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="CreatePS" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.LoginAsClient()[pri:1, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="LoginAsClient" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.LoginAsStylist()[pri:3, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="LoginAsStylist" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.VerifyEndSession()[pri:24, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="VerifyEndSession" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.VerifyLook1()[pri:9, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="VerifyLook1" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.VerifyLook2()[pri:13, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="VerifyLook2" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.VerifyLook3()[pri:17, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="VerifyLook3" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.VerifyLook4()[pri:19, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="VerifyLook4" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.VerifyLook5()[pri:21, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="VerifyLook5" class="WishiTests.BookMajorSingleTests"/>
+        <method signature="BookMajorSingleTests.VerifyMoodBoard()[pri:5, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="VerifyMoodBoard" class="WishiTests.BookMajorSingleTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="424522" started-at="2019-01-01T14:33:35Z" finished-at="2019-01-01T14:40:39Z">
-      <class name="WishiTests.CrateLookTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.CrateLookTests@59fa1d9b]" name="setup" is-config="true" duration-ms="13131" started-at="2019-01-01T14:33:35Z" finished-at="2019-01-01T14:33:48Z">
+    <test name="Default test" duration-ms="534803" started-at="2019-02-21T15:28:38Z" finished-at="2019-02-21T15:37:33Z">
+      <class name="WishiTests.BookMajorSingleTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="setup" is-config="true" duration-ms="22135" started-at="2019-02-21T15:28:38Z" finished-at="2019-02-21T15:29:00Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginAsClient()[pri:1, instance:WishiTests.CrateLookTests@59fa1d9b]" name="LoginAsClient" duration-ms="7984" started-at="2019-01-01T14:33:48Z" finished-at="2019-01-01T14:33:56Z">
+        <test-method status="PASS" signature="LoginAsClient()[pri:1, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="LoginAsClient" duration-ms="8502" started-at="2019-02-21T15:29:00Z" finished-at="2019-02-21T15:29:09Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.LoginAsClient]]>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.LoginAsClient]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.LoginAsClient]]>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.LoginAsClient]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite LoginAsClient]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- LoginAsClient -->
-        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CheckOutSession" duration-ms="26705" started-at="2019-01-01T14:33:56Z" finished-at="2019-01-01T14:34:22Z">
+        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="CheckOutSession" duration-ms="30178" started-at="2019-02-21T15:29:09Z" finished-at="2019-02-21T15:29:39Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.CheckOutSession]]>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.CheckOutSession]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.CheckOutSession]]>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.CheckOutSession]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite CheckOutSession]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- CheckOutSession -->
-        <test-method status="PASS" signature="LoginAsStylist()[pri:3, instance:WishiTests.CrateLookTests@59fa1d9b]" name="LoginAsStylist" duration-ms="10669" started-at="2019-01-01T14:34:22Z" finished-at="2019-01-01T14:34:33Z">
+        <test-method status="PASS" signature="LoginAsStylist()[pri:3, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="LoginAsStylist" duration-ms="10606" started-at="2019-02-21T15:29:39Z" finished-at="2019-02-21T15:29:49Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.LoginAsStylist]]>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.LoginAsStylist]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.LoginAsStylist]]>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.LoginAsStylist]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite LoginAsStylist]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- LoginAsStylist -->
-        <test-method status="PASS" signature="CreateMoodBoard()[pri:4, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreateMoodBoard" duration-ms="38724" started-at="2019-01-01T14:34:33Z" finished-at="2019-01-01T14:35:12Z">
+        <test-method status="PASS" signature="CreateMoodBoard()[pri:4, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="CreateMoodBoard" duration-ms="37022" started-at="2019-02-21T15:29:49Z" finished-at="2019-02-21T15:30:26Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.CreateMoodBoard]]>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.CreateMoodBoard]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.CreateMoodBoard]]>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.CreateMoodBoard]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite CreateMoodBoard]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- CreateMoodBoard -->
-        <test-method status="PASS" signature="VerifyMoodBoard()[pri:5, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyMoodBoard" duration-ms="14641" started-at="2019-01-01T14:35:12Z" finished-at="2019-01-01T14:35:26Z">
+        <test-method status="PASS" signature="VerifyMoodBoard()[pri:5, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="VerifyMoodBoard" duration-ms="13481" started-at="2019-02-21T15:30:26Z" finished-at="2019-02-21T15:30:40Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.VerifyMoodBoard]]>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.VerifyMoodBoard]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.VerifyMoodBoard]]>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.VerifyMoodBoard]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite VerifyMoodBoard]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- VerifyMoodBoard -->
-        <test-method status="PASS" signature="CreatePS()[pri:6, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreatePS" duration-ms="51278" started-at="2019-01-01T14:35:26Z" finished-at="2019-01-01T14:36:18Z">
+        <test-method status="PASS" signature="CreatePS()[pri:6, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="CreatePS" duration-ms="47394" started-at="2019-02-21T15:30:40Z" finished-at="2019-02-21T15:31:27Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.CreatePS]]>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.CreatePS]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.CreatePS]]>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.CreatePS]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite CreatePS]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- CreatePS -->
-        <test-method status="PASS" signature="AskRevise()[pri:7, instance:WishiTests.CrateLookTests@59fa1d9b]" name="AskRevise" duration-ms="16909" started-at="2019-01-01T14:36:18Z" finished-at="2019-01-01T14:36:35Z">
+        <test-method status="PASS" signature="AskRevise()[pri:7, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="AskRevise" duration-ms="13312" started-at="2019-02-21T15:31:27Z" finished-at="2019-02-21T15:31:41Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.AskRevise]]>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.AskRevise]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.AskRevise]]>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.AskRevise]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite AskRevise]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- AskRevise -->
-        <test-method status="PASS" signature="CreateLook1()[pri:8, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreateLook1" duration-ms="50230" started-at="2019-01-01T14:36:35Z" finished-at="2019-01-01T14:37:25Z">
+        <test-method status="PASS" signature="CreateLook1()[pri:8, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="CreateLook1" duration-ms="47796" started-at="2019-02-21T15:31:41Z" finished-at="2019-02-21T15:32:28Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.CreateLook1]]>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.CreateLook1]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.CreateLook1]]>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.CreateLook1]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite CreateLook1]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- CreateLook1 -->
-        <test-method status="PASS" signature="VerifyLook1()[pri:9, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyLook1" duration-ms="15634" started-at="2019-01-01T14:37:25Z" finished-at="2019-01-01T14:37:41Z">
+        <test-method status="PASS" signature="VerifyLook1()[pri:9, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="VerifyLook1" duration-ms="13357" started-at="2019-02-21T15:32:28Z" finished-at="2019-02-21T15:32:42Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.VerifyLook1]]>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.VerifyLook1]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.VerifyLook1]]>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.VerifyLook1]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite VerifyLook1]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- VerifyLook1 -->
-        <test-method status="PASS" signature="CreateLook2()[pri:12, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreateLook2" duration-ms="46055" started-at="2019-01-01T14:37:41Z" finished-at="2019-01-01T14:38:27Z">
+        <test-method status="PASS" signature="CreateLook2()[pri:12, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="CreateLook2" duration-ms="46644" started-at="2019-02-21T15:32:42Z" finished-at="2019-02-21T15:33:28Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.CreateLook2]]>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.CreateLook2]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.CreateLook2]]>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.CreateLook2]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite CreateLook2]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- CreateLook2 -->
-        <test-method status="PASS" signature="VerifyLook2()[pri:13, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyLook2" duration-ms="14282" started-at="2019-01-01T14:38:27Z" finished-at="2019-01-01T14:38:41Z">
+        <test-method status="PASS" signature="VerifyLook2()[pri:13, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="VerifyLook2" duration-ms="14913" started-at="2019-02-21T15:33:28Z" finished-at="2019-02-21T15:33:43Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.VerifyLook2]]>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.VerifyLook2]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.VerifyLook2]]>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.VerifyLook2]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite VerifyLook2]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- VerifyLook2 -->
-        <test-method status="PASS" signature="CreateLook3()[pri:16, instance:WishiTests.CrateLookTests@59fa1d9b]" name="CreateLook3" duration-ms="48132" started-at="2019-01-01T14:38:41Z" finished-at="2019-01-01T14:39:29Z">
+        <test-method status="PASS" signature="CreateLook3()[pri:16, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="CreateLook3" duration-ms="46205" started-at="2019-02-21T15:33:43Z" finished-at="2019-02-21T15:34:30Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.CreateLook3]]>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.CreateLook3]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.CreateLook3]]>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.CreateLook3]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite CreateLook3]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- CreateLook3 -->
-        <test-method status="PASS" signature="VerifyLook3()[pri:17, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyLook3" duration-ms="16998" started-at="2019-01-01T14:39:29Z" finished-at="2019-01-01T14:39:46Z">
+        <test-method status="PASS" signature="VerifyLook3()[pri:17, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="VerifyLook3" duration-ms="15916" started-at="2019-02-21T15:34:30Z" finished-at="2019-02-21T15:34:45Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.VerifyLook3]]>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.VerifyLook3]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.VerifyLook3]]>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.VerifyLook3]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite VerifyLook3]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- VerifyLook3 -->
-        <test-method status="PASS" signature="AskEndSession()[pri:18, instance:WishiTests.CrateLookTests@59fa1d9b]" name="AskEndSession" duration-ms="13547" started-at="2019-01-01T14:39:46Z" finished-at="2019-01-01T14:40:00Z">
+        <test-method status="PASS" signature="CreateLook4()[pri:18, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="CreateLook4" duration-ms="47338" started-at="2019-02-21T15:34:45Z" finished-at="2019-02-21T15:35:33Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.AskEndSession]]>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.CreateLook4]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.AskEndSession]]>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.CreateLook4]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite CreateLook4]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateLook4 -->
+        <test-method status="PASS" signature="VerifyLook4()[pri:19, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="VerifyLook4" duration-ms="12964" started-at="2019-02-21T15:35:33Z" finished-at="2019-02-21T15:35:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.VerifyLook4]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.VerifyLook4]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite VerifyLook4]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLook4 -->
+        <test-method status="PASS" signature="CreateLook5()[pri:20, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="CreateLook5" duration-ms="46973" started-at="2019-02-21T15:35:46Z" finished-at="2019-02-21T15:36:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.CreateLook5]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.CreateLook5]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite CreateLook5]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateLook5 -->
+        <test-method status="PASS" signature="VerifyLook5()[pri:21, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="VerifyLook5" duration-ms="12355" started-at="2019-02-21T15:36:33Z" finished-at="2019-02-21T15:36:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.VerifyLook5]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.VerifyLook5]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite VerifyLook5]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLook5 -->
+        <test-method status="PASS" signature="AskEndSession()[pri:22, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="AskEndSession" duration-ms="12508" started-at="2019-02-21T15:36:45Z" finished-at="2019-02-21T15:36:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.AskEndSession]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.AskEndSession]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite AskEndSession]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- AskEndSession -->
-        <test-method status="PASS" signature="ClientEndSession()[pri:19, instance:WishiTests.CrateLookTests@59fa1d9b]" name="ClientEndSession" duration-ms="28530" started-at="2019-01-01T14:40:00Z" finished-at="2019-01-01T14:40:28Z">
+        <test-method status="PASS" signature="ClientEndSession()[pri:23, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="ClientEndSession" duration-ms="25032" started-at="2019-02-21T15:36:58Z" finished-at="2019-02-21T15:37:23Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.ClientEndSession]]>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.ClientEndSession]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.ClientEndSession]]>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.ClientEndSession]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite ClientEndSession]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- ClientEndSession -->
-        <test-method status="PASS" signature="VerifyEndSession()[pri:20, instance:WishiTests.CrateLookTests@59fa1d9b]" name="VerifyEndSession" duration-ms="11034" started-at="2019-01-01T14:40:28Z" finished-at="2019-01-01T14:40:39Z">
+        <test-method status="PASS" signature="VerifyEndSession()[pri:24, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="VerifyEndSession" duration-ms="10134" started-at="2019-02-21T15:37:23Z" finished-at="2019-02-21T15:37:33Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : CrateLookTests.VerifyEndSession]]>
+              <![CDATA[About to begin executing following method : BookMajorSingleTests.VerifyEndSession]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : CrateLookTests.VerifyEndSession]]>
+              <![CDATA[Completed executing following method : BookMajorSingleTests.VerifyEndSession]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite VerifyEndSession]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.CrateLookTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookMajorSingleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- VerifyEndSession -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.CrateLookTests@59fa1d9b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-01T14:40:39Z" finished-at="2019-01-01T14:40:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.BookMajorSingleTests@3dfc5fb8]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-02-21T15:37:33Z" finished-at="2019-02-21T15:37:33Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.tearDown]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.CrateLookTests -->
+      </class> <!-- WishiTests.BookMajorSingleTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

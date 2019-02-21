@@ -3,19 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.BestMutch">
+      <class name="Tests.BookMiniMonthlyFSTest">
         <methods>
-          <include name="BestMatchFeMaleCheepExpensive"/>
-          <include name="BestMatchSelfIdentity"/>
+          <include name="EndSession"/>
+          <include name="ClientEndSession"/>
+          <include name="CreateReviseLook1"/>
+          <include name="VerifyCreateRevise2"/>
           <include name="setup"/>
-          <include name="BestMatchCheepFamle"/>
-          <include name="BestMatchCheepMale"/>
-          <include name="BestMatchFeMaleNormal"/>
-          <include name="BestMatchNormalMale"/>
-          <include name="BestMatchExpensiveMale"/>
-          <include name="BestMatchFeMaleExpensive"/>
+          <include name="ReviseLook2"/>
+          <include name="CreateLook2"/>
+          <include name="VerifyEndSession"/>
+          <include name="VerifyCreateLookrevise1"/>
+          <include name="VerifiedLook2"/>
         </methods>
-      </class> <!-- Tests.BestMutch -->
+      </class> <!-- Tests.BookMiniMonthlyFSTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -37,7 +37,7 @@ public class StartHereFemaleTests extends BaseTest
 		best.ClickNextbutton();
 		best.SelectLoveIt("1");
 		best.ClickBack();
-		best.SelectHELLONO("1");
+		best.SelectSOMETIMES("1");
 		best.SelectSOMETIMES("2");
 		best.ClickBack();
 		best.SelectHELLONO("2");
@@ -63,18 +63,21 @@ public class StartHereFemaleTests extends BaseTest
 		best.ClickBack();
 		best.SelectHELLONO("9");
 		best.SelectHELLONO("10");
-		best.ClickBackBrands();
+		best.ClickBack();
 		best.SelectHELLONO("10");
 		best.Selectbrands("2");
+		/*
 		best.ClickNextbutton();
 		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Female')]]"));
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'60% - Classic, 40% - Edgy')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Fit, Hourglass')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'All saints')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Petite, Plus Size')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Alexander Wang')]]"));
+		*/
 		best.ClickMeetMyMatch();
 		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon", "av", "ab1565");
-		signup.WaitElementDisplay(By.xpath("//h2[text()[contains(.,'Style session - starting at $20')]]"));
+		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'SEE MORE')]]"));
 		best.Sleep(300);
 		driver.close();
 

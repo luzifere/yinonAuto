@@ -20,17 +20,24 @@ public class BookingPage extends BasePage
 	@FindBy(xpath="//span[text()[contains(.,'Stylists')]]")
 	WebElement BookStylist;
 
-	@FindBy(xpath="//a//div[text()[contains(.,'Start 7 day free trial')]]")
-	WebElement MemberShip;
-	@FindBy(xpath="//a//div[text()[contains(.,'Single session')]]")
-	WebElement Single;
+	@FindBy(xpath="//label[@for='miniRadio']")
+	WebElement Mini;
+	@FindBy(xpath="//label[@for='majorRadio']")
+	WebElement Major;
+	@FindBy(xpath="//label[@for='subscribeRadio']")
+	WebElement Subscription;
+	@FindBy(xpath="//label[@for='sessionRadio']")
+	WebElement OneTime;
 
 	@FindBy(xpath="//div[@ng-click='ok()']")
 	WebElement Applay;
 
 	@FindBy(xpath="//div//span[text()[contains(.,'Book A Stylist')]]")
 	WebElement BookStylisk;
-
+	@FindBy(xpath="//div[@class='box mini-box']//button[@class='get-your-style black-btn']")
+	WebElement StartedMini;
+	@FindBy(xpath="//div[@class='box major-box']//button[@class='get-your-style black-btn']")
+	WebElement StartedMajor;
 
 	@FindBy(xpath="//div[@class='img-box']")
 	WebElement SearchBar;
@@ -98,6 +105,8 @@ public class BookingPage extends BasePage
 
 	@FindBy(xpath="//button[@class='payment_form_button ng-binding']")
 	WebElement PayButton;
+	@FindBy(xpath="//a[@class='hidden-sm hidden-xs membership']//div[text()[contains(.,'Next')]]")
+	WebElement Next;
 	
 	
 	
@@ -117,6 +126,39 @@ public class BookingPage extends BasePage
 		 }
 			
 	}
+	
+	public void ClickSubScription() 
+	{
+		try
+		 
+		 {
+			Sleep(300);
+			click(Subscription);
+		 
+		 }catch(Exception e){
+		 
+			
+			  System.err.println("\nError : ClickSubScription failed\n");
+			
+		 }
+			
+	}
+	public void ClickOneTime() 
+	{
+		try
+		 
+		 {
+			Sleep(300);
+			click(OneTime);
+		 
+		 }catch(Exception e){
+		 
+			
+			  System.err.println("\nError : ClickSubScription failed\n");
+			
+		 }
+			
+	}
 	public void SearchStylist(String name) 
 
 	{  
@@ -125,7 +167,7 @@ public class BookingPage extends BasePage
 	 {
 		WaitElementDisplay(By.xpath("//div//input[@type='text']"));
 		Sleep(300);
-		click(SearchBar);
+		//click(SearchBar);
 		filltext(TextBar, name);
 		//Actions act = new Actions(driver);
 		//act.sendKeys(Keys.ENTER).perform();
@@ -148,6 +190,7 @@ public class BookingPage extends BasePage
 			//ExplicityWaitIsClickable(By.xpath("//div//input[@class='no-border bgTransparent ng-pristine ng-valid ng-empty ng-touched']"));
 			//driver.findElement(By.xpath("(//div//input[@class='form-control ng-pristine ng-untouched ng-valid ng-not-empty'])[1]")).click();
 			//driver.findElement(By.xpath("//div//input[@class='no-border bgTransparent ng-pristine ng-valid ng-empty ng-touched']")).click();
+			driver.findElement(By.xpath("//input[@id='coupon-element']")).click();
 			driver.findElement(By.xpath("//input[@id='coupon-element']")).sendKeys(promocod);
 			
 			//filltext(PromoCode,promocod);
@@ -171,7 +214,10 @@ public class BookingPage extends BasePage
 		 {
 			click(TitleOfStylist);
 			Sleep(300);
-			WaitElementDisplay(By.xpath("//a//div[text()[contains(.,'Single session')]]"));
+			scrollDown();
+			WaitElementDisplay(By.xpath("//a[@class='hidden-sm hidden-xs membership']//div[text()[contains(.,'Next')]]"));
+			click(Next);
+			
 		 
 		 }catch(Exception e){
 		 
@@ -184,36 +230,40 @@ public class BookingPage extends BasePage
 		
 	}
 
-	public void SelectMemberShip() 
+	public void SelectMini() 
 	{
 		try
 		 
 		 {
-			Sleep(250);
-			click(MemberShip);
-			Sleep(450);
+			WaitElementDisplay(By.xpath("//label[@for='miniRadio']"));
+			click(Mini);
+			WaitElementDisplay(By.xpath("//div[@class='box mini-box']//button[@class='get-your-style black-btn']"));
+			click(StartedMini);
+			WaitElementDisplay(By.xpath("//div[@class='payment-title ng-scope']"));
 		 
 		 }catch(Exception e){
 		 
 			
-			 System.out.println("\nError : SelectMemberShip failed\n");
+			 System.out.println("\nError : SelectMini failed\n");
 			
 		 }
 		
 	}
 
-	public void SelectSingle() 
+	public void SelectMajor() 
 	{	
 		try
 		 
 		 {
-			click(Single);	
-			Sleep(450);
-		 
+			WaitElementDisplay(By.xpath("//label[@for='majorRadio']"));
+			click(Major);	
+			WaitElementDisplay(By.xpath("//div[@class='box major-box']//button[@class='get-your-style black-btn']"));
+			click(StartedMajor);
+			WaitElementDisplay(By.xpath("//div[@class='payment-title ng-scope']"));		 
 		 }catch(Exception e){
 		 
 			
-			 System.out.println("\nError : SelectSingle failed\n");
+			 System.out.println("\nError : SelectMajor failed\n");
 			
 		 }
 		
@@ -318,6 +368,8 @@ public class BookingPage extends BasePage
 		try
 		 
 		 {
+			WaitElementClickable(By.xpath("//div//button[@class='payment_form_button space-8']"));
+			Sleep(300);
 			click(FinishCheckout);
 			Sleep(300);
 

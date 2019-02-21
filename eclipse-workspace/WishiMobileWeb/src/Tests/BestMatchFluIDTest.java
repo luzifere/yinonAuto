@@ -39,18 +39,18 @@ public class BestMatchFluIDTest extends BaseTest
 		best.ClickBack();
 		best.SelectBodyType("3");
 		best.ClickNextbutton();
+		best.SelectSOMETIMES("1");
+		best.ClickBack();
 		best.SelectLoveIt("1");
+		best.SelectLoveIt("2");
 		best.ClickBack();
-		best.SelectHELLONO("1");
 		best.SelectSOMETIMES("2");
-		best.ClickBack();
-		best.SelectHELLONO("2");
 		best.SelectLoveIt("3");
 		best.ClickBack();
-		best.SelectLoveIt("3");
+		best.SelectHELLONO("3");
 		best.SelectSOMETIMES("4");
 		best.ClickBack();
-		best.SelectSOMETIMES("4");
+		best.SelectHELLONO("4");
 		best.SelectSOMETIMES("5");
 		best.ClickBack();
 		best.SelectHELLONO("5");
@@ -67,17 +67,20 @@ public class BestMatchFluIDTest extends BaseTest
 		best.ClickBack();
 		best.SelectHELLONO("9");
 		best.SelectHELLONO("10");
-		best.ClickBackBrands();
-		best.SelectHELLONO("10");
-		best.Selectbrands("2");
+		best.ClickBack();
+		best.SelectSOMETIMES("10");
+		best.Selectbrands("1");
+		/*
 		best.ClickNextbutton();
 		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Fluid')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Fit, Hourglass')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'60% - Classic, 40% - Edgy')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'All saints')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Petite, Plus Size')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'40% - Boho, 60% - Elegant')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,' A.L.C')]]"));
+		*/
 		best.ClickMeetMyMatch();
 		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'SEE MORE')]]"));
 		best.Sleep(300);
 		driver.close();
 		

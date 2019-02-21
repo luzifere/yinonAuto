@@ -69,7 +69,7 @@ public class ContactStylistTest extends BaseTest
 		BaseTest.capabileties();
 
 	}
-	@Test(priority = 2,groups={"sanity-group"})
+	//@Test(priority = 2,groups={"sanity-group"})
 	public void ClientToStylist() throws MalformedURLException 
 	{
 		//	BaseTest.capabileties();

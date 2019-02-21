@@ -138,13 +138,23 @@ public class BookingPage extends BasePage {
 	}
 	public void AddMoodBord() 
 	{
+		WaitElementDisplay(By.xpath("//*[@name='LOOKS']"));
+		click(LooksTab);
+		WaitElementDisplay(By.xpath("//*[@name='ArrowButtonID']"));
+		Sleep(250);
 		click(UpArrow);
+		WaitElementDisplay(By.xpath("//*[@name='MOODBOARDS']"));
 		click(MoodBordTab);
 		SelectImage3(100,200);
 	}
 	public void AddLooks() 
 	{
+		WaitElementDisplay(By.xpath("//*[@name='LOOKS']"));
+		click(LooksTab);
+		WaitElementDisplay(By.xpath("//*[@name='ArrowButtonID']"));
+		Sleep(250);
 		click(UpArrow);
+		WaitElementDisplay(By.xpath("//*[@name='MOODBOARDS']"));
 		click(LooksTab);
 		SelectImage3(100,200);
 	}
@@ -385,6 +395,7 @@ public class BookingPage extends BasePage {
 	public void ClickSendMoodBoard() 
 	{		
 		Sleep(250);
+		WaitElementDisplay(By.xpath("//*[@name='Send Mood Board']"));
 		click(SendMoodBoard);
 		Sleep(150);
 		//WaitElementNotDisplay(By.xpath("//*[@name='Send Mood Board']"));
@@ -412,6 +423,14 @@ public class BookingPage extends BasePage {
 		click(SendEndSession);
 		WaitElementDisplay(By.xpath("//*[@name='No Action Needed']"));
 	}
+	public void ReplaceToEmptyCanvas()
+	{		
+		Sleep(250);
+		WaitElementDisplay(By.id("EmptyCanvasID"));
+		driver.findElement(By.id("EmptyCanvasID")).click();
+		Sleep(170);
+	}
+
 	public void ClickLookSaveButton()
 	{		
 		Sleep(170);
@@ -485,7 +504,22 @@ public class BookingPage extends BasePage {
 	public void ClickCreateMoodBoardButton()
 	{		
 		Sleep(250);
+		WaitElementDisplay(By.id("Create Mood Board"));
 		click(CreateMoodBoardButton);
+		Sleep(170);
+	}
+	public void ClickGoItButton()
+	{		
+		Sleep(250);
+		WaitElementDisplay(By.id("Got It"));
+		driver.findElement(By.id("Got It")).click();
+		Sleep(170);
+	}
+	public void ClickCloseOBButton()
+	{		
+		Sleep(250);
+		WaitElementDisplay(By.xpath("//*[@name='CloseOnboarding']"));
+		driver.findElement(By.xpath("//*[@name='CloseOnboarding']")).click();
 		Sleep(170);
 	}
 	public void ClickCreateLookButton()

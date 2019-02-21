@@ -50,15 +50,27 @@ public class SignUpPage extends BasePage
 	}
 	public void doSignUpClear(String uname,String lname,String email,String pass) 
 	{
-		filltextclear(Email,email);
-		click(NextButtonEmail);
-		Sleep(250);
-		filltextclear(UserName,uname);
-		filltextclear(LastName,lname);
-		filltextclear(Password,pass);
-		Sleep(350);
-		click(SignButon);
-		Sleep(400);
+		try
+		 
+		 {
+			WaitElementDisplay(By.xpath("//*[@name='EmailTextFieldID']"));
+			filltextclear(Email,email);
+			click(NextButtonEmail);
+			Sleep(250);
+			filltextclear(UserName,uname);
+			filltextclear(LastName,lname);
+			filltextclear(Password,pass);
+			Sleep(350);
+			click(SignButon);
+			Sleep(400);
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.err.println("\nError : doSignUpClear failed");
+			
+		 }
+		
 	
 	}
 	public void doSignUpEmailClear(String email) 
@@ -68,7 +80,19 @@ public class SignUpPage extends BasePage
 	}
 	public void ClickSignUpEmail() 
 	{
-		click(EmailSignUpButton);
+		try
+		 
+		 {
+			WaitElementDisplay(By.id("signUpButton"));
+			click(EmailSignUpButton);
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.err.println("\nError : ClickSignUpEmail failed");
+			
+		 }
+		
 	}
 	public void ClickNextButton() 
 	{

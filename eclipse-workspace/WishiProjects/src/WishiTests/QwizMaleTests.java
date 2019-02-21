@@ -63,7 +63,7 @@ public class QwizMaleTests extends BaseTest
 		booking.SearchStylist(stylistName);
 		booking.SelectStylist();
 		booking.Sleep(200);
-		booking.SelectSingle();
+		booking.SelectMini();
 		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
 		//booking.BookStylist();
 		//booking.switchWindow();

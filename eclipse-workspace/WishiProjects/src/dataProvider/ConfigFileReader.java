@@ -12,8 +12,8 @@ public class ConfigFileReader {
 	
 	private Properties properties;
 	
-	private final String propertyFilePath= "configs//ConfigurationProd.properties";
-	//private final String propertyFilePath= "configs//Configuration.properties";
+	//private final String propertyFilePath= "configs//ConfigurationProd.properties";
+	private final String propertyFilePath= "configs//Configuration.properties";
 	
 	public ConfigFileReader(){
 		BufferedReader reader;

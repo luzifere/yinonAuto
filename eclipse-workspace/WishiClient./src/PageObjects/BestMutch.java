@@ -14,6 +14,13 @@ public class BestMutch extends BasePage
 		super(_driver);
 		// TODO Auto-generated constructor stub
 	}
+	
+	@FindBy(xpath="//*[@name='HellNoButtonID']")
+	WebElement HellNo;
+	@FindBy(xpath="//*[@name='SometimesButtonID']")
+	WebElement Somtimes;
+	@FindBy(xpath="//*[@name='LoveItButtonID']")
+	WebElement LoveIt;
 	@FindBy(xpath="//*[@name='TapToContinueLabelID']")
 	WebElement how_it_workst;
 	
@@ -26,7 +33,7 @@ public class BestMutch extends BasePage
 	@FindBy(xpath="//*[@name='FemaleButtonID']")
 	WebElement FemaleButtonID;
 	
-	@FindBy(xpath="//*[@label='Self Identity']")
+	@FindBy(xpath="//*[@name='FluidButtonID']")
 	WebElement SelfIdentityButtonID;
 	
 	@FindBy(xpath="//*[@name='MaleButtonID']")
@@ -65,9 +72,128 @@ public class BestMutch extends BasePage
 	@FindBy(xpath="//*[@name='CloseButtonID']")
 	WebElement CloseBestMatch;
 	
+	@FindBy(xpath="//*[@name='GoBackToStepButtonID']")
+	WebElement BackButton;
+	@FindBy(xpath="//*[@name='BackButtonID']")
+	WebElement BackButtonClient;
+	
 	@FindBy(id="ViewMoreStylistsButtonID")
 	WebElement MoreStylistsButton;
 
+	
+	
+	public void SelectBodyType(String inspiration)
+	{
+		try
+		 
+		 {
+			String GoalElemet = ("//*[@name='text1']");
+			GoalElemet = GoalElemet.replace("text1", inspiration);
+			WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+			WaitElementDisplay(By.xpath("//*[@name='FIT']"));
+			Sleep(100);
+			click(GoalButton);
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.err.println("\nError : SelectBodyType failed\n");
+			
+		 }
+		
+	}
+	public void SelectBrands(String inspiration)
+	{
+		try
+		 
+		 {
+			String GoalElemet = ("//*[@name='text1']");
+			GoalElemet = GoalElemet.replace("text1", inspiration);
+			WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+			//WaitElementDisplay(By.xpath("//*[@name='NextButtonID']"));
+			Sleep(100);
+			click(GoalButton);
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.err.println("\nError : SelectBodyType failed\n");
+			
+		 }
+		
+	}
+	public void SelectLoveIt(String inspiration)
+	{
+		try
+		 
+		 {
+			Sleep(100);
+			String GoalElemet = ("(//*[@name='LoveItButtonID'])[text1]");
+			GoalElemet = GoalElemet.replace("text1", inspiration);
+			WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+			//WaitElementDisplay(By.xpath("(//span[text()[contains(.,'LOVE IT!')]])[2]"));
+			Sleep(200);
+			click(GoalButton);
+			Sleep(100);
+			scrollDownXpath();
+			Sleep(250);
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.err.println("\nError : SelectLoveIt failed\n");
+			
+		 }
+		
+	}
+	public void SelectHELLONO(String inspiration)
+	{
+		try
+		 
+		 {
+			Sleep(100);
+			String GoalElemet = ("(//*[@name='HellNoButtonID'])[text1]");
+			GoalElemet = GoalElemet.replace("text1", inspiration);
+			WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+			//WaitElementDisplay(By.xpath("(//span[text()[contains(.,'LOVE IT!')]])[2]"));
+			Sleep(200);
+			click(GoalButton);
+			Sleep(100);
+			scrollDownXpath();
+			Sleep(250);
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.err.println("\nError : SelectLoveIt failed\n");
+			
+		 }
+		
+	}
+	public void SelectSOMETIMES(String inspiration)
+	{
+		try
+		 
+		 {
+			Sleep(100);
+			String GoalElemet = ("(//*[@name='SometimesButtonID'])[text1]");
+			GoalElemet = GoalElemet.replace("text1", inspiration);
+			WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
+			//WaitElementDisplay(By.xpath("(//span[text()[contains(.,'LOVE IT!')]])[2]"));
+			Sleep(200);
+			click(GoalButton);
+			Sleep(100);
+			scrollDownXpath();
+			Sleep(250);
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.err.println("\nError : SelectLoveIt failed\n");
+			
+		 }
+		
+	}
 	public void ClickMoreStylistsButton() 
 	{	
 		Sleep(250);
@@ -81,6 +207,95 @@ public class BestMutch extends BasePage
 		click(CloseBestMatch);
 		Sleep(250);
 		//WaitElementDisplay(By.xpath("//*[@name='Allow']"));
+	}
+	public void ClickBack() 
+	{	
+		try
+		 
+		 {
+			Sleep(100);
+			click(BackButton);
+			Sleep(100);
+		 
+		 }catch(Exception e){
+		 
+			
+			  System.err.println("\nError : ClickBack failed\n");
+			
+		 }
+		
+	}
+	public void ClickBacklCient() 
+	{	
+		try
+		 
+		 {
+			WaitElementDisplay(By.xpath("//*[@name='BackButtonID']"));
+			Sleep(100);
+			click(BackButtonClient);
+			Sleep(100);
+		 
+		 }catch(Exception e){
+		 
+			
+			  System.err.println("\nError : ClickBack failed\n");
+			
+		 }
+		
+	}
+	public void ClickLoveItButton() 
+	{	
+		try
+		 
+		 {
+			Sleep(100);
+			click(LoveIt);
+			Sleep(100);
+			//WaitElementDisplay(By.xpath("//*[@name='LoveItButtonID']"));
+		 
+		 }catch(Exception e){
+		 
+			
+			  System.err.println("\nError : ClickLoveItButton failed\n");
+			
+		 }
+		
+	}
+	public void ClickSomtimesButton() 
+	{	
+		try
+		 
+		 {
+			Sleep(100);
+			click(Somtimes);
+			Sleep(100);
+			//WaitElementDisplay(By.xpath("//*[@name='LoveItButtonID']"));
+		 
+		 }catch(Exception e){
+		 
+			
+			  System.err.println("\nError : ClickSomtimesButton failed\n");
+			
+		 }
+		
+	}
+	public void ClickHellNoButton() 
+	{	
+		try
+		 
+		 {
+			Sleep(100);
+			click(HellNo);
+			Sleep(100);
+			//WaitElementDisplay(By.xpath("//*[@name='LoveItButtonID']"));
+		 
+		 }catch(Exception e){
+		 
+			
+			  System.err.println("\nError : ClickHellNoButton failed\n");
+			
+		 }
+		
 	}
 	
 	public void ClickNextTags() 

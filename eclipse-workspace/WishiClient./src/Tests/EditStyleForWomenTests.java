@@ -36,27 +36,27 @@ public class EditStyleForWomenTests extends BaseTest4
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
 		best.ClickHoeToWork();
+		best.ClickNextbutton();
 		best.ClickFamle();
-		best.fillBirthday("45");
+		best.SelectBodyType("FIT");
 		best.ClickNextbutton();
-		best.SelectCheapButtonID();
-		sign.Sleep(150);
-		best.SelectCheapButtonID();
-		sign.Sleep(150);
-		best.Selectinspiration();
-		sign.Sleep(200);
-		best.CheckIfElementEnabled("//*[@name='NextButtonID']");
+		best.ClickBacklCient();
+		best.ClickNextbutton();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.ClickNextbutton();
+		best.ClickHellNoButton();
+		best.ClickHellNoButton();
+		best.SelectBrands("GAP");
+		best.ClickNextbutton();
+		best.WaitElementDisplay(By.xpath("//*[@name='So, to recap ']"));
 		best.ClickNextbutton();
 		sign.Sleep(200);
-		//best.SelectTag("Petite");
-		//sign.Sleep(200);
-		//best.ClickNextTags();
-		driver.findElement(By.id("Skip")).click();
-		sign.Sleep(200);
-		//best.SelectBrands();
-		//best.CheckIfElementEnabled("//*[@name='NextButtonID']");
-		//best.ClickNextbutton();
-		driver.findElement(By.id("Skip")).click();
 		best.CheckIfElementEnabled("//*[@name='Your Stylists Match!']");
 		Assert.assertTrue(sign.ElementEnable("//*[@name='Your Stylists Match!']"));
 		best.scrollDownXpath();
@@ -70,7 +70,7 @@ public class EditStyleForWomenTests extends BaseTest4
 		setting.ClickMeTab();
 		setting.ClickSettingButton();
 	}
-	@Test(priority = 5,groups={"sanity-group"})
+	//@Test(priority = 5,groups={"sanity-group"})
 	public void EditStyle() 
 	{
 		SettingPage setting = new SettingPage(driver);
@@ -85,7 +85,7 @@ public class EditStyleForWomenTests extends BaseTest4
 		setting.Sleep(200);
 		Assert.assertTrue(setting.ElementDisplay("//*[contains(@name, 'Bold') or contains(@name, 'Classic')]"));
 	}
-	@Test(priority = 3,groups={"sanity-group"})
+	//@Test(priority = 3,groups={"sanity-group"})
 	public void EditBodyType() 
 	{
 		SettingPage setting = new SettingPage(driver);
@@ -257,7 +257,7 @@ public class EditStyleForWomenTests extends BaseTest4
 		setting.scrollDownXpath();
 		Assert.assertTrue(setting.ElementDisplay("//*[@name='Close to my style']"));
 	}
-	@Test(priority = 14,groups={"sanity-group"})
+	//@Test(priority = 14,groups={"sanity-group"})
 	public void EditBrands() 
 	{
 		SettingPage setting = new SettingPage(driver);

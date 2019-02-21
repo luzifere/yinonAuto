@@ -83,11 +83,11 @@ public class BestMatchPage extends BasePage
 
 	@FindBy(xpath="//div//a[text()[contains(.,'VIEW MORE STYLISTS')]]")
 	WebElement ViewMoreStylist;
-	@FindBy(xpath="//div[@class='start']")
+	@FindBy(xpath="//div//button[@class='get-your-style']")
 	WebElement StartHere;
 	@FindBy(xpath="//div[@class='get-your-style ng-binding']")
 	WebElement GetStyle;
-	@FindBy(xpath="//button[@class='btn-finish']")
+	@FindBy(xpath="//button[@class='btn-std btn-next']")
 	WebElement MeetMyMatch;
 
 
@@ -97,7 +97,8 @@ public class BestMatchPage extends BasePage
 		try
 		 
 		 {
-			WaitElementDisplay(By.xpath("//button[@class='btn-finish']"));
+			WaitElementDisplay(By.xpath("//button[@class='btn-std btn-next']"));
+			scrollDown();
 			Sleep(100);
 			click(MeetMyMatch);
 			Sleep(100);
@@ -178,7 +179,7 @@ public class BestMatchPage extends BasePage
 		 
 		 {
 			Sleep(100);
-			String GoalElemet = ("(//span[text()[contains(.,'HELLO NO!')]])[text1]");
+			String GoalElemet = ("(//span[text()[contains(.,'HELL NO!')]])[text1]");
 			GoalElemet = GoalElemet.replace("text1", inspiration);
 			WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
 			//WaitElementDisplay(By.xpath("(//span[text()[contains(.,'LOVE IT!')]])[2]"));
@@ -303,6 +304,7 @@ public class BestMatchPage extends BasePage
 	public void ClickStartHere() 
 	{
 		Sleep(250);
+		WaitElementDisplay(By.xpath("//div//button[@class='get-your-style']"));
 		click(StartHere);
 		Sleep(250);
 	}
