@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+        <listener class-name="Tests.Listener"></listener>
+    </listeners>
+    
+   <test name="BestExpensiveMaleMatchTests">
+    <classes>
+      <class name="Tests.BestExpensiveMaleMatchTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchExpensiveFeamleTests">
+    <classes>
+      <class name="Tests.BestMatchExpensiveFeamleTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchLowFeamleTests">
+    <classes>
+      <class name="Tests.BestMatchLowFeamleTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchLowMaleTests">
+    <classes>
+      <class name="Tests.BestMatchLowMaleTests"/>
+    </classes>
+    </test> <!-- Test -->
+     
+     <test name="BestMatchNormalFeamleTests">
+    <classes>
+      <class name="Tests.BestMatchNormalFeamleTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchNormalMaleTests">
+    <classes>
+      <class name="Tests.BestMatchNormalMaleTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="BestMatchNaturalTests">
+    <classes>
+      <class name="Tests.BestMatchNaturalTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="StartHereExpensiveFemaleMatchTests">
+    <classes>
+      <class name="Tests.StartHereExpensiveFemaleMatchTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="StartHereExpensiveMaleMatchTests">
+    <classes>
+      <class name="Tests.StartHereExpensiveMaleMatchTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="StartHereLowFemaleMatchTests">
+    <classes>
+      <class name="Tests.StartHereLowFemaleMatchTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="StartHereLowMaleMatchTests">
+    <classes>
+      <class name="Tests.StartHereLowMaleMatchTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="StartHereNormalFemaleMatchTests">
+    <classes>
+      <class name="Tests.StartHereNormalFemaleMatchTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="StartHereNormalMaleMatchTests">
+    <classes>
+      <class name="Tests.StartHereNormalMaleMatchTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="StartHereNaturalMatchTests">
+    <classes>
+      <class name="Tests.StartHereNaturalMatchTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="qwizTests">
+    <classes>
+      <class name="Tests.qwizTests"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="qwizMaleTests">
+    <classes>
+      <class name="Tests.qwizMaleTests"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="BookingTests">
+    <classes>
+      <class name="Tests.BookingTests"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="BookingCCTests">
+    <classes>
+      <class name="Tests.BookingCCTests"/>
+    </classes>
+  </test> <!-- Test -->
+   
+    <test name="LoginWithFacbookTests">
+    <classes>
+      <class name="Tests.LoginWithFacbookTests"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="LoginWithFacbookTestsFail">
+    <classes>
+      <class name="Tests.LoginWithFacbookTestsFail"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="SignUpByFacbookTestsFail">
+    <classes>
+      <class name="Tests.SignUpByFacbookTestsFail"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="SignUpByFacbookTestsSucses">
+    <classes>
+      <class name="Tests.SignUpByFacbookTestsSucses"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="ChatTests">
+    <classes>
+      <class name="Tests.ChatTests"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="LoginTests2">
+    <classes>
+      <class name="Tests.LoginTests2"/>
+    </classes>
+  </test> <!-- Test -->
+   
+    <test name="SignUpTest">
+    <classes>
+      <class name="Tests.SignUpTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+  
+</suite> <!-- Suite -->
