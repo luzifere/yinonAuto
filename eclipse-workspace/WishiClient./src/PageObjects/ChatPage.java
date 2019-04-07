@@ -34,6 +34,8 @@ public class ChatPage extends BasePage {
 	WebElement TitleOfClient;
 	@FindBy(xpath="//*[@name='ChatButton']")
 	WebElement ChatButton;
+	@FindBy(xpath="//*[@name='BOOKINGS']")
+	WebElement BookingTab;
 	@FindBy(id="close_menu4")
 	WebElement close_menu4Button;
 	@FindBy(xpath="//*[@name='WriteMessageID']")
@@ -60,8 +62,14 @@ public class ChatPage extends BasePage {
 
 	public void ClickChatButton() 
 	{		
-		Sleep(250);
+		WaitElementDisplay(By.xpath("//*[@name='ChatButton']"));
 		click(ChatButton);
+		Sleep(250);
+	}
+	public void ClickBookingTab() 
+	{		
+		Sleep(250);
+		click(BookingTab);
 		Sleep(250);
 	}
 	

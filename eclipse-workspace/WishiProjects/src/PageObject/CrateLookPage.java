@@ -79,7 +79,7 @@ public class CrateLookPage extends BasePage {
 	}
 	public void ClickI_LOVE_IT() 
 	{
-		WaitElementDisplay(By.xpath("(//div[@class='autoreply-wrapper']//div[text()[contains(.,'I love it')]])[2]"));
+		WaitElementDisplay(By.xpath("(//div[@class='autoreply-wrapper']//div[text()[contains(.,'I love it')]])[1]"));
 		click(I_LOVE_IT);	
 	}
 	public void ClickI_LOVE_IT_LOOK() 

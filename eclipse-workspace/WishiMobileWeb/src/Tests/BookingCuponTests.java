@@ -12,7 +12,7 @@ import PageObejecs.LoginPages;
 import PageObejecs.LoginPages2;
 
 @Listeners(Tests.Listener.class)
-public class BookingCuponTests extends BaseTest
+public class BookingCuponTests extends BaseTest1
 {
 	@Test(priority = 1,groups={"sanity-group"})
 	public void DoSignUp()
@@ -60,7 +60,7 @@ public class BookingCuponTests extends BaseTest
 		booking.UseCodCoopon(copun);
 		booking.ClickFinishCheckout();
 		booking.Sleep(250);
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'BODY TYPE')]]"));
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'HEIGHT')]]"));
 		booking.ClickBookingstylist();	
 	}
 
@@ -79,7 +79,7 @@ public class BookingCuponTests extends BaseTest
 		booking.UseCodCoopon(copun);
 		booking.ClickFinishCheckout();
 		booking.Sleep(250);
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'BODY TYPE')]]"));
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'HEIGHT')]]"));
 		booking.ClickBookingstylist();	
 	}
 

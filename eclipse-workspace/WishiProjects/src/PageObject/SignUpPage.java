@@ -7,9 +7,8 @@ import org.openqa.selenium.support.FindBy;
 
 public class SignUpPage extends BasePage 
 {
-	@FindBy(xpath="//div[@class='logged-in-header-container ng-scope']//div[@class='get-your-style']")
-	WebElement SignUpEmail;
-	
+	@FindBy(xpath="//header//div[@class='get-your-style']")
+	WebElement SignUpEmail;	
 	@FindBy(xpath="//div//input[@id='signUpEmail']")
 	WebElement userName;
 	@FindBy(xpath="//div//input[@id='signUpPass']")

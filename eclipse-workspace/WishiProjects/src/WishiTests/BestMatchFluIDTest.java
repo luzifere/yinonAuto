@@ -39,10 +39,10 @@ public class BestMatchFluIDTest extends BaseTest
 		best.ClickFamle();
 		best.ClickBack();
 		best.ClickSelfIdentityButtonID();
-		best.SelectBodyType("2");
+		best.SelectBodyType("0");
 		best.ClickNextbutton();
 		best.ClickBack();
-		best.SelectBodyType("3");
+		best.SelectBodyType("1");
 		best.ClickNextbutton();
 		best.SelectSOMETIMES("1");
 		best.ClickBack();

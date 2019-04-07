@@ -16,7 +16,7 @@ public class BasePage
 {
 	static AppiumDriver<WebElement>driver;
 	static String winHandleBefore;
-	public BasePage(AppiumDriver <WebElement> _driver)
+	public BasePage(AppiumDriver<WebElement> _driver)
 	{	driver = _driver;
 	PageFactory.initElements(_driver, this);
 	}
@@ -130,5 +130,11 @@ public class BasePage
 		{
 			// TODO: handle exception
 		}
+	}
+	public void WaitElementDisplay (By by) 
+	{		
+		WebElement myDynamicElement = (new WebDriverWait(driver, 60))
+				.until(ExpectedConditions.presenceOfElementLocated(by));
+		//return myDynamicElement.isDisplayed();
 	}
 }

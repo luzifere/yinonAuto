@@ -23,7 +23,7 @@ public class BaseTest2
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone X");
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"XCUITest");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11.1");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12.1");
 		cap.setCapability(MobileCapabilityType.BROWSER_NAME,"Safari");
 		cap.setCapability(MobileCapabilityType.FULL_RESET,true);
 		cap.setCapability(IOSMobileCapabilityType.NATIVE_WEB_TAP,true);

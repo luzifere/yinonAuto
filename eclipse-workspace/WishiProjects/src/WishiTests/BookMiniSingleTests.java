@@ -32,7 +32,7 @@ public class BookMiniSingleTests extends BaseTest
 	public void CheckOutSession ()
 	{
 		BookingPage booking = new BookingPage(driver);
-		booking.WaitElementDisplay(By.xpath("//h2[text()[contains(.,'Style session - starting at $20')]]"));
+		booking.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
 		booking.Sleep(200);
 		booking.ClickBookingstylist();
 		booking.SearchStylist("YAstylist Booking");

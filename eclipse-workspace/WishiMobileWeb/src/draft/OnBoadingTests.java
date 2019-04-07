@@ -8,10 +8,10 @@ import org.testng.annotations.Test;
 
 import PageObejecs.OnBoardingPage;
 import PageObejecs.SignUpPage;
-import Tests.BaseTest;
+import Tests.BaseTest1;
 import io.appium.java_client.android.AndroidElement;
 
-public class OnBoadingTests extends BaseTest
+public class OnBoadingTests extends BaseTest1
 {
 	@Test(priority = 1,groups={"sanity-group"})
 	public void DoSignUp()

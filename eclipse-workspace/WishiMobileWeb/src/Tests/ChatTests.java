@@ -14,7 +14,7 @@ import PageObejecs.LoginPages2;
 
 
 @Listeners(Tests.Listener.class)
-public class ChatTests extends BaseTest
+public class ChatTests extends BaseTest1
 {
 	String textforchat ;
 

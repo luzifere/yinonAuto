@@ -38,7 +38,7 @@ public class BookingsingleTests extends BaseTest
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();
-		best.SelectBodyType("2");
+		best.SelectBodyType("0");
 		best.ClickNextbutton();
 		best.SelectHELLONO("1");
 		best.SelectHELLONO("2");
@@ -72,10 +72,10 @@ public class BookingsingleTests extends BaseTest
 		booking.ClickFinishCheckout();
 		booking.ClickMyBooking();
 		booking.RefreshPage();
-		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'session')]]"));
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'session')]]"));
+		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'mini')]]"));
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'mini')]]"));
 		booking.Sleep(300);
-		//booking.close();
+		booking.ClickBookingstylist();
 	}
 	@Test(priority = 3,groups={"sanity-group"})
 	public void SingleMajor ()
@@ -91,8 +91,8 @@ public class BookingsingleTests extends BaseTest
 		booking.ClickFinishCheckout();
 		booking.ClickMyBooking();
 		booking.RefreshPage();
-		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'session')]]"));
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'session')]]"));
+		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'major')]]"));
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'major')]]"));
 		booking.Sleep(300);
 		booking.close();
 

@@ -20,6 +20,7 @@ public class SignUpByFacbookfailes extends BaseTest
 		//signup.Sleep(1000);
 		signup.ClickOnSignUpEmail();
 		signup.WaitElementDisplay(By.xpath("//div[@class='fb ng-binding ng-isolate-scope']"));
+		signup.Sleep(200);
 		signup.ConnectWithFB();
 		signup.Sleep(200);
 		signup.switchWindow();

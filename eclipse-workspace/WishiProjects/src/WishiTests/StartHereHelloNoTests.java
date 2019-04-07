@@ -36,10 +36,10 @@ public class StartHereHelloNoTests extends BaseTest
 		best.ClickFamle();
 		best.ClickBack();
 		best.ClickFamle();
-		best.SelectBodyType("2");
+		best.SelectBodyType("0");
 		best.ClickNextbutton();
 		best.ClickBack();
-		best.SelectBodyType("3");
+		best.SelectBodyType("1");
 		best.ClickNextbutton();
 		best.SelectLoveIt("1");
 		best.ClickBack();
@@ -85,8 +85,8 @@ public class StartHereHelloNoTests extends BaseTest
 		*/
 		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon", "av", "ab1565");
 		best.Sleep(200);
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'SEE MORE')]]"));
+		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'view more stylists')]]"));
 		best.Sleep(300);
 		best.close();
 

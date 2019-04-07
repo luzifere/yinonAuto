@@ -5,75 +5,50 @@
         <listener class-name="Tests.Listener"></listener>
     </listeners>
     
-   <test name="BestExpensiveMaleMatchTests">
+   <test name="BestMatchFemaleTest">
     <classes>
-      <class name="Tests.BestExpensiveMaleMatchTests"/>
+      <class name="Tests.BestMatchFemaleTest"/>
     </classes>
     </test> <!-- Test -->
-     <test name="BestMatchExpensiveFeamleTests">
+     <test name="BestMatchFluIDTest">
     <classes>
-      <class name="Tests.BestMatchExpensiveFeamleTests"/>
+      <class name="Tests.BestMatchFluIDTest"/>
     </classes>
     </test> <!-- Test -->
-     <test name="BestMatchLowFeamleTests">
+     <test name="BestMatchHellowNoTests">
     <classes>
-      <class name="Tests.BestMatchLowFeamleTests"/>
+      <class name="Tests.BestMatchHellowNoTests"/>
     </classes>
     </test> <!-- Test -->
-     <test name="BestMatchLowMaleTests">
+     <test name="BestMatchMaleTest">
     <classes>
-      <class name="Tests.BestMatchLowMaleTests"/>
+      <class name="Tests.BestMatchMaleTest"/>
     </classes>
     </test> <!-- Test -->
      
-     <test name="BestMatchNormalFeamleTests">
+    <test name="StartHereFemaleTests">
     <classes>
-      <class name="Tests.BestMatchNormalFeamleTests"/>
+      <class name="Tests.StartHereFemaleTests"/>
     </classes>
     </test> <!-- Test -->
-     <test name="BestMatchNormalMaleTests">
+    <test name="StartHereFFacbookTests">
     <classes>
-      <class name="Tests.BestMatchNormalMaleTests"/>
+      <class name="Tests.StartHereFFacbookTests"/>
     </classes>
     </test> <!-- Test -->
-    <test name="BestMatchNaturalTests">
+    <test name="StartHereFluIDTests">
     <classes>
-      <class name="Tests.BestMatchNaturalTests"/>
+      <class name="Tests.StartHereFluIDTests"/>
     </classes>
     </test> <!-- Test -->
-    <test name="StartHereExpensiveFemaleMatchTests">
+    <test name="StartHereHelloNoTests">
     <classes>
-      <class name="Tests.StartHereExpensiveFemaleMatchTests"/>
+      <class name="Tests.StartHereHelloNoTests"/>
     </classes>
     </test> <!-- Test -->
-    <test name="StartHereExpensiveMaleMatchTests">
+    <test name="StartHereMaleTests">
     <classes>
-      <class name="Tests.StartHereExpensiveMaleMatchTests"/>
-    </classes>
-    </test> <!-- Test -->
-    <test name="StartHereLowFemaleMatchTests">
-    <classes>
-      <class name="Tests.StartHereLowFemaleMatchTests"/>
-    </classes>
-    </test> <!-- Test -->
-    <test name="StartHereLowMaleMatchTests">
-    <classes>
-      <class name="Tests.StartHereLowMaleMatchTests"/>
-    </classes>
-    </test> <!-- Test -->
-    <test name="StartHereNormalFemaleMatchTests">
-    <classes>
-      <class name="Tests.StartHereNormalFemaleMatchTests"/>
-    </classes>
-    </test> <!-- Test -->
-    <test name="StartHereNormalMaleMatchTests">
-    <classes>
-      <class name="Tests.StartHereNormalMaleMatchTests"/>
-    </classes>
-    </test> <!-- Test -->
-    <test name="StartHereNaturalMatchTests">
-    <classes>
-      <class name="Tests.StartHereNaturalMatchTests"/>
+      <class name="Tests.StartHereMaleTests"/>
     </classes>
     </test> <!-- Test -->
      <test name="qwizTests">
@@ -86,14 +61,14 @@
       <class name="Tests.qwizMaleTests"/>
     </classes>
   </test> <!-- Test -->
-   <test name="BookingTests">
-    <classes>
-      <class name="Tests.BookingTests"/>
-    </classes>
-  </test> <!-- Test -->
    <test name="BookingCCTests">
     <classes>
       <class name="Tests.BookingCCTests"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="BookingCuponTests">
+    <classes>
+      <class name="Tests.BookingCuponTests"/>
     </classes>
   </test> <!-- Test -->
    

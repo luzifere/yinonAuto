@@ -24,31 +24,20 @@ public class BaseTest4
 	{
 		configFileReader= new ConfigFileReader();
 		DesiredCapabilities cap = new DesiredCapabilities();
-		//if (device.equals("emulator"))
-		//{
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone XS Max");
-		//	}
-		//else if (device.equals("real"))
-		//{
-		//cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android device");
-		//}
-
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12.1");
-		//cap.setCapability("autoAcceptAlerts", true);
-		//cap.setCapability("autoDismissAlerts", true);
-		//cap.setCapability(MobileCapabilityType.UDID,"4acfefaa5a78272eb509b64a2f2efffabd0eda6c");
-		//cap.setCapability(MobileCapabilityType.FULL_RESET,true);
-		//cap.setCapability(MobileCapabilityType.NO_RESET,true);
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone X");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12.1.2");
+		cap.setCapability(MobileCapabilityType.APP,"/Users/yinonwishi/Desktop/Wishi.ipa");
+		cap.setCapability(MobileCapabilityType.UDID,"b5b85aa834a29d1e90a5a0e1400c955235431104");
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,AutomationName.IOS_XCUI_TEST);
-		cap.setCapability(MobileCapabilityType.APP,"/Users/yinonwishi/Desktop/Wishi.app");
-		//cap.setCapability(IOSMobileCapabilityType.BUNDLE_ID,"com.Wishi.Wishi");
+		cap.setCapability(IOSMobileCapabilityType.XCODE_ORG_ID,"6Q9ZW4BRCA");
+		cap.setCapability(IOSMobileCapabilityType.XCODE_SIGNING_ID,"iPhone Developer");
 		cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 5000);
-		cap.setCapability("startIWDP", true);
-		
+		//cap.setCapability("startIWDP", true);
+
 		try
 		{
-		driver = new IOSDriver<>(new URL("http://127.0.0.1:4723/wd/hub") ,cap);
+			driver = new IOSDriver<>(new URL("http://127.0.0.1:4723/wd/hub") ,cap);
 		}
 		catch (MalformedURLException e) 
 		{

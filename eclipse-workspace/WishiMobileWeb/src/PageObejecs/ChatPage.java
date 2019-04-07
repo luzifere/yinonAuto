@@ -35,9 +35,9 @@ public class ChatPage extends BasePage {
 	WebElement ProfileButton;
 	@FindBy(xpath="//div//li//a[text()[contains(.,'Log Out')]]")
 	WebElement LogOut;
-	@FindBy(xpath="(//nav//div//img)[1]")
+	@FindBy(xpath="//div[@id='header-profile-dropdown']")
 	WebElement ProfileClientButton;
-	@FindBy(xpath="//div//span[@class='inner-credentials ng-binding credentials-mob']")
+	@FindBy(xpath="//div[@id='header-profile-dropdown']")
 	WebElement ProfileClientButton2;
 	
 	
@@ -65,8 +65,9 @@ public class ChatPage extends BasePage {
     	String UserElemet = ("//div [text()[contains(.,'abarjel inon')]]");
     	UserElemet = UserElemet.replace("abarjel inon", user);
     	WebElement UserButton = driver.findElement(By.xpath(UserElemet));
-    	Sleep(1000);
+    	Sleep(250);
     	click(UserButton);
+    	Sleep(250);
     }
     public void ClickMyBooking() 
 	{

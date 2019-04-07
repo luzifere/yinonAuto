@@ -12,14 +12,14 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObejecs.OnBoardingPage;
-import Tests.BaseTest;
+import Tests.BaseTest1;
 import Tests.Listener;
 
 
 
 @Listeners(Tests.Listener.class)
 
-public class StartHereLowFemaleMatchTests extends BaseTest 
+public class StartHereLowFemaleMatchTests extends BaseTest1 
 {
 	@Test(priority =6,groups={"sanity-group"})
 	public void BMExpensiveMale()

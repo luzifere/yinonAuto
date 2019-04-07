@@ -6,11 +6,11 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Tests.BaseTest;
+import Tests.BaseTest1;
 
 
 
-public class OnBoadingTests2 extends BaseTest 
+public class OnBoadingTests2 extends BaseTest1 
 {
 	//@Test(priority = 1,groups={"sanity-group"})
 	public void DoSignUp()

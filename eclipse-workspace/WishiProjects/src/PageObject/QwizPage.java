@@ -84,6 +84,7 @@ public class QwizPage extends BasePage
 	}
 	public void ClickNext() 
 	{
+		WaitElementDisplay(By.xpath("//div[@class='next-step-btn']"));
 		click(NextButton);	
 		Sleep(100);
 	}

@@ -13,7 +13,7 @@ import PageObejecs.LoginPages;
 import PageObejecs.LoginPages2;
 
 @Listeners(Tests.Listener.class)
-public class BookingCCTests extends BaseTest
+public class BookingCCTests extends BaseTest1
 {
 	@Test(priority = 1,groups={"sanity-group"})
 	public void DoSignUp()
@@ -73,7 +73,7 @@ public class BookingCCTests extends BaseTest
 		String CardCVC = this.configFileReader.getCardCVC();
 		booking.FillCardCVC(CardCVC);
 		booking.Sleep(150);
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'BODY TYPE')]]"));
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'HEIGHT')]]"));
 		booking.ClickBookingstylist();
 	}
 
@@ -97,7 +97,7 @@ public class BookingCCTests extends BaseTest
 		String CardCVC = this.configFileReader.getCardCVC();
 		booking.FillCardCVC(CardCVC);
 		booking.Sleep(150);
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'BODY TYPE')]]"));
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'HEIGHT')]]"));
 		booking.ClickBookingstylist();
 	}
 

@@ -7,6 +7,11 @@
 
 
 
+	<test name="ChatTests">
+		<classes>
+			<class name="WishiTests.ChatTests" />
+		</classes>
+	</test> <!-- Test -->
 <test name="SignUpByFacbook">
 		<classes>
 			<class name="WishiTests.SignUpByFacbook" />
@@ -48,9 +53,24 @@
 			<class name="WishiTests.BookingMembershipTests" />
 		</classes>
 	</test> <!-- Test -->
-	<test name="CrateLookTests">
+	<test name="BookMajorSingleTests">
 		<classes>
-			<class name="WishiTests.CrateLookTests" />
+			<class name="WishiTests.BookMajorSingleTests" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="BookMiniSubTests">
+		<classes>
+			<class name="WishiTests.BookMiniSubTests" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="BookMajotSubTests">
+		<classes>
+			<class name="WishiTests.BookMajotSubTests" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="BookMiniSingleTests">
+		<classes>
+			<class name="WishiTests.BookMiniSingleTests" />
 		</classes>
 	</test> <!-- Test -->
 	<test name="StartHereFemaleTests">
@@ -131,17 +151,6 @@
 	<test name="SignUp">
 		<classes>
 			<class name="WishiTests.SignUpTest" />
-		</classes>
-	</test> <!-- Test -->
-	<test name="ChatTests">
-		<classes>
-			<class name="WishiTests.ChatTests" />
-		</classes>
-	</test> <!-- Test -->
-
-	<test name="UploadItemTest">
-		<classes>
-			<class name="WishiTests.UploadItemTest" />
 		</classes>
 	</test> <!-- Test -->
 

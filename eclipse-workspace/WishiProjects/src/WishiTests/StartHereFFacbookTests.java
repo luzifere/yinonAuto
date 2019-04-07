@@ -37,10 +37,10 @@ public class StartHereFFacbookTests extends BaseTest
 		best.ClickMale();
 		best.ClickBack();
 		best.ClickFamle();
-		best.SelectBodyType("2");
+		best.SelectBodyType("0");
 		best.ClickNextbutton();
 		best.ClickBack();
-		best.SelectBodyType("3");
+		best.SelectBodyType("1");
 		best.ClickNextbutton();
 		best.SelectLoveIt("1");
 		best.ClickBack();
@@ -95,8 +95,8 @@ public class StartHereFFacbookTests extends BaseTest
 		driver.switchTo().window(winhandleBefore);
 		//signup.switchWindow();
 		
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'SEE MORE')]]"));
+		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'view more stylists')]]"));
 		best.Sleep(300);
 		best.close();
 

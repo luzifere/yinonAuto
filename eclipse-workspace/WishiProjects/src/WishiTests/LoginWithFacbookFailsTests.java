@@ -57,7 +57,7 @@ public class LoginWithFacbookFailsTests extends BaseTest
 		//login.ClickLoginButtonOfFacbook();
 		Assert.assertTrue(login.ElementDisplay("//div[@class='fsl fwb fcb']"));
 	}
-	@Test(priority = 5,groups={"sanity-group"})
+	//@Test(priority = 5,groups={"sanity-group"})
 	public void LoginWithFacbookWrongUserName ()
 	{
 		LoginPage login = new LoginPage(driver);
@@ -67,7 +67,7 @@ public class LoginWithFacbookFailsTests extends BaseTest
 		login.ClickLoginButtonOfFacbook();
 		//login.ClickLoginButtonOfFacbook();
 		//Assert.assertTrue(login.ElementDisplay("//div[@class='fsl fwb fcb']"));
-		Assert.assertTrue(login.ElementDisplay("//h2[@class='uiHeaderTitle']"));
+		Assert.assertTrue(login.ElementDisplay("//div[@class='fsl fwb fcb']"));
 		login.Sleep(300);
 		login.close();
 

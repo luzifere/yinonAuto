@@ -30,7 +30,7 @@ public class QwizSkipedTests extends BaseTest
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();
-		best.SelectBodyType("2");
+		best.SelectBodyType("0");
 		best.ClickNextbutton();
 		best.SelectHELLONO("1");
 		best.SelectHELLONO("2");
@@ -43,10 +43,8 @@ public class QwizSkipedTests extends BaseTest
 		best.SelectHELLONO("9");
 		best.SelectHELLONO("10");
 		best.Selectbrands("2");
-		best.ClickNextbutton();
-		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
 		best.ClickMeetMyMatch();
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
+		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
 		//best.ClickMoreStylistsButton();
 	}
 	@Test(priority = 2,groups={"sanity-group"})
@@ -56,30 +54,11 @@ public class QwizSkipedTests extends BaseTest
 		String stylistName = this.configFileReader.getStylistName();
 		booking.SearchStylist(stylistName);
 		booking.SelectStylist();
-		booking.Sleep(300);
 		booking.SelectMini();
-		//Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'Unlimited Styling')]]"));
-		//booking.BookStylist();
-		//booking.switchWindow();
-		//booking.FillFirstName("yinon");
-	//	booking.FillLastName("aba");
-		//booking.Sleep(350);
-		/*
-		booking.SwitchToFrame(0);
-		booking.FillCardNumber("4111111111111111");
-		booking.FillCardDate("0222");
-		booking.FillCardCVC("424");
-		booking.Sleep(800);
-		booking.switchWindow();
-		booking.Sleep(200);
-		booking.WaitElementDisplay(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]"));
-		//BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
-		driver.findElement(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]")).click();
-		*/
+		booking.ClickOneTime();
 		String copun = this.configFileReader.getcopun();
 		booking.UseCodCoopon(copun);
 		booking.ClickFinishCheckout();
-		BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
 	}
 	@Test(priority = 3,groups={"sanity-group"})
 	public void ClickSkip ()
@@ -91,13 +70,10 @@ public class QwizSkipedTests extends BaseTest
 		qwiz.ClickSkip();
 		qwiz.ClickSkip();
 		qwiz.ClickSkip();
-		//qwiz.ClickSkip();
-		qwiz.ClickSkip();
 		qwiz.ClickSkip();
 		qwiz.ClickNext();
 		qwiz.ClickSkip();
 		qwiz.ClickSkip();
-		//qwiz.ClickSkip();
 		qwiz.ClickNext();
 		Assert.assertTrue(qwiz.ElementDisplay("//button[@class='input_btn']"));
 		qwiz.Sleep(300);

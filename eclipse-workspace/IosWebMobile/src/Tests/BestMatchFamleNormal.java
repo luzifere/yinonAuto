@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import PageObjects.OnBoardingPage;
-import PageObjects.SignUpPage;
+import PageObjects.SignUpPage1;
 
 
 public class BestMatchFamleNormal extends BaseTest2
@@ -16,14 +16,14 @@ public class BestMatchFamleNormal extends BaseTest2
 	@Test(priority = 3,groups={"sanity-group"})
 	public void FamleNOrmal()
 	{
-		SignUpPage signup = new SignUpPage(driver);
+		SignUpPage1 signup = new SignUpPage1(driver);
 		Random num = new Random();
 		int number = 356;
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
 		signup.doSignUp("wishitestttt@wishi.com" + number, "inon", "av", "ab1565");
-		SignUpPage.ExplicityWaitIsClickable(By.xpath("//div//input[@class='sign-up-btn ng-scope']"));
+		SignUpPage1.ExplicityWaitIsClickable(By.xpath("//div//input[@class='sign-up-btn ng-scope']"));
 		OnBoardingPage ob = new OnBoardingPage(driver);
 		ob.SelectGender("Female");
 		ob.FillBirthday();

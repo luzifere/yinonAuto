@@ -39,10 +39,10 @@ public class BestMatchHelloNo extends BaseTest
 		best.ClickFamle();
 		best.ClickBack();
 		best.ClickFamle();
-		best.SelectBodyType("2");
+		best.SelectBodyType("0");
 		best.ClickNextbutton();
 		best.ClickBack();
-		best.SelectBodyType("3");
+		best.SelectBodyType("1");
 		best.ClickNextbutton();
 		best.SelectLoveIt("1");
 		best.ClickBack();

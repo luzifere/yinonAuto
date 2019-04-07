@@ -24,7 +24,7 @@ public class LoginTest extends BaseTest
 		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
 		login.Closebuttonoflogin();
 		//login.WaitElementClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
-		login.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
+		login.ExplicityWaitIsClickable(By.xpath("//header//div[@class='log-in']"));
 		login.WaitElementClickable(By.xpath("//div//input[@id='signInEmail']"));
 	}	
 
@@ -34,7 +34,7 @@ public class LoginTest extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		//login.ClickLoginButton();
 		login.doLogin("wishi.test@wishi.com", "123456");
-		Assert.assertTrue(login.ElementDisplay("//h2[text()[contains(.,'Style session - starting at $20')]]"));
+		Assert.assertTrue(login.ElementDisplay("//div//button[text()[contains(.,'view more stylists')]]"));
 		//login.Closebuttonoflogin();
 		//login.WaitElementClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
 		//login.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
@@ -55,7 +55,7 @@ public class LoginTest extends BaseTest
 		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Email is required.')]]"));	
 		login.Closebuttonoflogin();
 		//login.WaitElementClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
-		login.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
+		login.ExplicityWaitIsClickable(By.xpath("//header//div[@class='log-in']"));
 		login.WaitElementClickable(By.xpath("//div//input[@id='signInEmail']"));
 	}
 
@@ -71,7 +71,7 @@ public class LoginTest extends BaseTest
 		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Password is required.')]]"));
 		login.Closebuttonoflogin();
 		//login.WaitElementClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
-		login.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
+		login.ExplicityWaitIsClickable(By.xpath("//header//div[@class='log-in']"));
 		login.WaitElementClickable(By.xpath("//div//input[@id='signInEmail']"));
 	}
 
@@ -87,7 +87,7 @@ public class LoginTest extends BaseTest
 		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Email is required.')]]"));
 		login.Closebuttonoflogin();
 		//login.WaitElementClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
-		login.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
+		login.ExplicityWaitIsClickable(By.xpath("//header//div[@class='log-in']"));
 		login.WaitElementClickable(By.xpath("//div//input[@id='signInEmail']"));
 	}
 	@Test(priority = 6,groups={"sanity-group"})
@@ -103,7 +103,7 @@ public class LoginTest extends BaseTest
 		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Invalid email')]]"));
 		login.Closebuttonoflogin();
 		//login.WaitElementClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
-		login.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
+		login.ExplicityWaitIsClickable(By.xpath("//header//div[@class='log-in']"));
 		login.WaitElementClickable(By.xpath("//div//input[@id='signInEmail']"));
 	}
 	@Test(priority = 7,groups={"sanity-group"})
@@ -118,7 +118,7 @@ public class LoginTest extends BaseTest
 		login.Clickloginbuttonn();
 		Assert.assertTrue(login.ElementDisplay("//div[@class='invalid-form ng-binding ng-scope']"));
 		login.Closebuttonoflogin();
-		login.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
+		login.ExplicityWaitIsClickable(By.xpath("//header//div[@class='log-in']"));
 		login.WaitElementClickable(By.xpath("//div//input[@id='signInEmail']"));
 		
 

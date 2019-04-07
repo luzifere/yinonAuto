@@ -65,7 +65,7 @@ public class SignUpPage extends BasePage {
 	public void ClickOnSignUpEmail() 
 	{
 		//click(SignUpEmail);
-		driver.findElement(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='get-your-style']")).click();
+		driver.findElement(By.xpath("//header//div[@class='get-your-style']")).click();
 	}
 	public void FillUsernName(String user)
 	{

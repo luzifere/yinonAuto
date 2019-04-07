@@ -34,9 +34,9 @@ public class BookingPage extends BasePage
 
 	@FindBy(xpath="//div//span[text()[contains(.,'Book A Stylist')]]")
 	WebElement BookStylisk;
-	@FindBy(xpath="//div[@class='box mini-box']//button[@class='get-your-style black-btn']")
+	@FindBy(xpath="//div[@class='big-box mini-top']//button[@class='get-your-style black-btn']")
 	WebElement StartedMini;
-	@FindBy(xpath="//div[@class='box major-box']//button[@class='get-your-style black-btn']")
+	@FindBy(xpath="//div[@class='big-box major-top']//button[@class='get-your-style black-btn']")
 	WebElement StartedMajor;
 
 	@FindBy(xpath="//div[@class='img-box']")
@@ -105,7 +105,7 @@ public class BookingPage extends BasePage
 
 	@FindBy(xpath="//button[@class='payment_form_button ng-binding']")
 	WebElement PayButton;
-	@FindBy(xpath="//a[@class='hidden-sm hidden-xs membership']//div[text()[contains(.,'Next')]]")
+	@FindBy(xpath="//div[@class='deal-btn ng-binding ng-scope']")
 	WebElement Next;
 	
 	
@@ -215,7 +215,7 @@ public class BookingPage extends BasePage
 			click(TitleOfStylist);
 			Sleep(300);
 			scrollDown();
-			WaitElementDisplay(By.xpath("//a[@class='hidden-sm hidden-xs membership']//div[text()[contains(.,'Next')]]"));
+			WaitElementDisplay(By.xpath("//div[@class='deal-btn ng-binding ng-scope']"));
 			click(Next);
 			
 		 
@@ -237,7 +237,7 @@ public class BookingPage extends BasePage
 		 {
 			WaitElementDisplay(By.xpath("//label[@for='miniRadio']"));
 			click(Mini);
-			WaitElementDisplay(By.xpath("//div[@class='box mini-box']//button[@class='get-your-style black-btn']"));
+			WaitElementDisplay(By.xpath("//div[@class='big-box mini-top']//button[@class='get-your-style black-btn']"));
 			click(StartedMini);
 			WaitElementDisplay(By.xpath("//div[@class='payment-title ng-scope']"));
 		 
@@ -257,7 +257,7 @@ public class BookingPage extends BasePage
 		 {
 			WaitElementDisplay(By.xpath("//label[@for='majorRadio']"));
 			click(Major);	
-			WaitElementDisplay(By.xpath("//div[@class='box major-box']//button[@class='get-your-style black-btn']"));
+			WaitElementDisplay(By.xpath("//div[@class='big-box major-top']//button[@class='get-your-style black-btn']"));
 			click(StartedMajor);
 			WaitElementDisplay(By.xpath("//div[@class='payment-title ng-scope']"));		 
 		 }catch(Exception e){
@@ -368,7 +368,7 @@ public class BookingPage extends BasePage
 		try
 		 
 		 {
-			WaitElementClickable(By.xpath("//div//button[@class='payment_form_button space-8']"));
+			WaitElementDisplay(By.xpath("//div//button[@class='payment_form_button space-8']"));
 			Sleep(300);
 			click(FinishCheckout);
 			Sleep(300);

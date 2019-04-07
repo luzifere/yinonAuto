@@ -13,13 +13,13 @@ import org.testng.annotations.Test;
 
 import PageObejecs.OnBoardingPage;
 
-import Tests.BaseTest;
+import Tests.BaseTest1;
 import Tests.Listener;
 
 
 @Listeners(Tests.Listener.class)
 
-public class BestMatchHellowNoTests extends BaseTest 
+public class BestMatchHellowNoTests extends BaseTest1 
 {
 	@Test(priority =3,groups={"sanity-group"})
 	public void BestMatchHelloNo()
@@ -82,8 +82,8 @@ public class BestMatchHellowNoTests extends BaseTest
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'H&M')]]"));
 		*/
 		best.ClickMeetMyMatch();
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'SEE MORE')]]"));
+		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'view more stylists')]]"));
 		best.Sleep(300);
 		driver.close();
 		

@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import PageObjects.OnBoardingPage;
-import PageObjects.SignUpPage;
+import PageObjects.SignUpPage1;
 
 
 public class BestMatchMaleCheep extends BaseTest2
@@ -15,14 +15,14 @@ public class BestMatchMaleCheep extends BaseTest2
 	@Test(priority = 5,groups={"sanity-group"})
 	public void MaleCheep()
 	{
-		SignUpPage signup = new SignUpPage(driver);
+		SignUpPage1 signup = new SignUpPage1(driver);
 		Random num = new Random();
 		int number = 356;
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
 		signup.doSignUp("wishitestttt@wishi.com" + number, "inon", "av", "ab1565");
-		SignUpPage.ExplicityWaitIsClickable(By.xpath("//div//input[@class='sign-up-btn ng-scope']"));
+		SignUpPage1.ExplicityWaitIsClickable(By.xpath("//div//input[@class='sign-up-btn ng-scope']"));
 		//driver.findElement(By.xpath("//div//button[@type='submit']")).click();
 		//SignUpPage.ExplicityWaitIsClickable(By.xpath("//div//button[@type='submit']"));
 		OnBoardingPage ob = new OnBoardingPage(driver);

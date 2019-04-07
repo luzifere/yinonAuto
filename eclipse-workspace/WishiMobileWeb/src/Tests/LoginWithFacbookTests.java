@@ -10,7 +10,7 @@ import PageObejecs.LoginPages2;
 
 
 @Listeners(Tests.Listener.class)
-public class LoginWithFacbookTests extends BaseTest
+public class LoginWithFacbookTests extends BaseTest1
 {
 	//@Test(priority = 2,groups={"sanity-group"})
 	public void LoginWithFacbookWrongUserName()

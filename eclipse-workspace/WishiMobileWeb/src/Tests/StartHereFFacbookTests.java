@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 @Listeners(Tests.Listener.class)
 
-public class StartHereFFacbookTests extends BaseTest 
+public class StartHereFFacbookTests extends BaseTest1 
 {
 	@Test(priority =6,groups={"sanity-group"})
 	public void StartHereMaleTests()
@@ -29,9 +29,14 @@ public class StartHereFFacbookTests extends BaseTest
 		PageObejecs.BestMatchPage best = new PageObejecs.BestMatchPage(driver);
 		best.ClickStartHere();
 		best.ClickontinueButton();
-		best.ClickFamle();
-		best.ClickBack();
 		best.ClickMale();
+		best.ClickBack();
+		best.ClickFamle();
+		best.SelectBodyType("2");
+		best.ClickNextbutton();
+		best.ClickBack();
+		best.SelectBodyType("3");
+		best.ClickNextbutton();
 		best.SelectLoveIt("1");
 		best.ClickBack();
 		best.SelectHELLONO("1");
@@ -84,8 +89,8 @@ public class StartHereFFacbookTests extends BaseTest
 		driver.switchTo().window(winhandleBefore);
 		//signup.switchWindow();
 		
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'SEE MORE')]]"));
+		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'view more stylists')]]"));
 		best.Sleep(300);
 		driver.close();
 

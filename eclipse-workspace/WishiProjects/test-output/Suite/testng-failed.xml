@@ -4,15 +4,48 @@
   <listeners>
     <listener class-name="WishiTests.Listener"/>
   </listeners>
-  <test thread-count="5" name="StartHereHelloNoTests(failed)">
+  <test thread-count="5" name="UploadItemTest(failed)">
     <classes>
-      <class name="WishiTests.StartHereHelloNoTests">
+      <class name="WishiTests.UploadItemTest">
         <methods>
-          <include name="StartHereHelloNoTests"/>
+          <include name="Uploaditem"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- WishiTests.StartHereHelloNoTests -->
+      </class> <!-- WishiTests.UploadItemTest -->
     </classes>
-  </test> <!-- StartHereHelloNoTests(failed) -->
+  </test> <!-- UploadItemTest(failed) -->
+  <test thread-count="5" name="SignUpByFacbook(failed)">
+    <classes>
+      <class name="WishiTests.SignUpByFacbook">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SignUpWithFacbook"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.SignUpByFacbook -->
+    </classes>
+  </test> <!-- SignUpByFacbook(failed) -->
+  <test thread-count="5" name="LoginWithFacbookTests(failed)">
+    <classes>
+      <class name="WishiTests.LoginWithFacbookTests">
+        <methods>
+          <include name="LoginWithFacbookWrongUserName"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.LoginWithFacbookTests -->
+    </classes>
+  </test> <!-- LoginWithFacbookTests(failed) -->
+  <test thread-count="5" name="StartHereFFacbookTests(failed)">
+    <classes>
+      <class name="WishiTests.StartHereFFacbookTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="StartHereMaleTests"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.StartHereFFacbookTests -->
+    </classes>
+  </test> <!-- StartHereFFacbookTests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -17,16 +17,17 @@ public class LoginWithFacbookTests extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.waitForPageLoaded();
-		//login.Sleep(1000);
+		login.Sleep(200);
 		String winhandleBefore = driver.getWindowHandle();
 		login.ClickLoginButton();
+		login.Sleep(200);
 		login.WaitElementDisplay(By.xpath("//div[@class='fb ng-binding ng-isolate-scope']"));
 		login.ClickLoginWithFacbook();
 		login.Sleep(300);
 		login.switchWindow();
 		//driver.manage().window().maximize();	
-		login.FillusernameOfFacbook("meiryoseab@gmail.com");
-		login.FillPasswordOfFacbook("qaab1565");
+		login.FillusernameOfFacbook("yinonwishifb@gmail.com");
+		login.FillPasswordOfFacbook("Wishime1");
 		login.ClickLoginButtonOfFacbook();
 		//driver.findElement(By.xpath("(//div//button[@type='submit'])[1]")).click();
 		//login.Sleep(600);

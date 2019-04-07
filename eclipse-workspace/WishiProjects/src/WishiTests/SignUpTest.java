@@ -8,6 +8,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObject.BasePage;
+import PageObject.BestMatchPage;
 import PageObject.LoginPage;
 import PageObject.SignUpPage;
 @Listeners(WishiTests.Listener.class)
@@ -19,6 +20,8 @@ public class SignUpTest extends BaseTest
 		SignUpPage signup = new SignUpPage(driver);
 		signup.waitForPageLoaded();
 		signup.ClickOnSignUpEmail();
+		signup.Sleep(100);
+		signup.WaitElementDisplay(By.xpath("//div//div[@class='closeXLeft ng-scope']"));
 		Assert.assertTrue(signup.ElementDisplay("//div//div[@class='closeXLeft ng-scope']"));
 	}
 	
@@ -59,9 +62,11 @@ public class SignUpTest extends BaseTest
 		int number = 3560000;
 		for (int counter = 5800000; counter<=10000000;counter++)
 			number = num.nextInt(700000);
-		signup.doSignUp("wishitestr@wishi.com" + number, "inon", "av", "ab1565");
-		Assert.assertTrue(BasePage.isatpage("//div//a[@class='btn-start']"));
-		signup.Sleep(300);
+		signup.doSignUp("wishitestyinon@wishitest.com" + number, "inon", "av", "ab1565");
+		//signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
+		BestMatchPage best = new BestMatchPage(driver);
+		signup.WaitElementDisplay(By.xpath("//div//button[@class='btn-start']"));
+		Assert.assertTrue(signup.ElementDisplay("//div//button[@class='btn-start']"));
 		signup.close();
 	}
 	

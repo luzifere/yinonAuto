@@ -38,7 +38,7 @@ public class BookingMembershipTests extends BaseTest
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();
-		best.SelectBodyType("2");
+		best.SelectBodyType("0");
 		best.ClickNextbutton();
 		best.SelectHELLONO("1");
 		best.SelectHELLONO("2");
@@ -53,16 +53,12 @@ public class BookingMembershipTests extends BaseTest
 		best.Selectbrands("2");
 		best.ClickMeetMyMatch();
 		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));	
-		//best.ClickMoreStylistsButton();
 		BookingPage booking = new BookingPage(driver);
 		booking.ClickBookingstylist();
-		//booking.SelectService();
-		//booking.SelectUnlimited();
-		//booking.ClickApllay();
 	}	
 
 	@Test(priority = 2,groups={"sanity-group"})
-	public void CheckOutSession ()
+	public void MembershipMini ()
 	{
 		BookingPage booking = new BookingPage(driver);
 		String stylistName = this.configFileReader.getStylistName();
@@ -82,18 +78,12 @@ public class BookingMembershipTests extends BaseTest
 		booking.Sleep(200);
 		booking.ClickMyBooking();
 		booking.RefreshPage();
-		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'membership')]]"));
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'membership')]]"));
-		booking.Sleep(300);
-		ChatPage chat = new ChatPage(driver);
-		chat.ClickOnProfileClientButton();
-		chat.DeactivateMemberShip();
-		booking.WaitElementDisplay(By.xpath("//div[@class='get-your-style']"));
-		Assert.assertTrue(booking.ElementDisplay("//div[@class='get-your-style']"));
-		booking.close();
+		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'mini')]]"));
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'mini')]]"));
+		booking.ClickBookingstylist();
 	}
-	//@Test(priority = 3,groups={"sanity-group"})
-	public void CheckoutUnlimited ()
+	@Test(priority = 3,groups={"sanity-group"})
+	public void MembershipMajor ()
 	{
 		BookingPage booking = new BookingPage(driver);
 		String stylistName = this.configFileReader.getStylistName();
@@ -113,14 +103,9 @@ public class BookingMembershipTests extends BaseTest
 		booking.Sleep(200);
 		booking.ClickMyBooking();
 		booking.RefreshPage();
-		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'membership')]]"));
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'membership')]]"));
+		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'major')]]"));
+		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'major')]]"));
 		booking.Sleep(300);
-		ChatPage chat = new ChatPage(driver);
-		chat.ClickOnProfileClientButton();
-		chat.DeactivateMemberShip();
-		booking.WaitElementDisplay(By.xpath("//div[@class='get-your-style']"));
-		Assert.assertTrue(booking.ElementDisplay("//div[@class='get-your-style']"));
 		booking.close();	
 
 	}

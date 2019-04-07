@@ -10,14 +10,14 @@ import PageObejecs.LoginPages2;
 
 
 @Listeners(Tests.Listener.class)
-public class LoginWithFacbookTestsFail extends BaseTest
+public class LoginWithFacbookTestsFail extends BaseTest1
 {
 	@Test(priority = 2,groups={"sanity-group"})
 	public void LoginWithFacbookWrongUserName()
 	{
 		LoginPages2 login = new LoginPages2(driver);	
-		login.FillusernameOfFacbook("luzifere11@gmail.com");
-		login.FillPasswordOfFacbook("inonab1565");
+		login.FillusernameOfFacbook("yinonwuuishifb@gmail.com");
+		login.FillPasswordOfFacbook("Wishime1");
 		login.scrollDown();
 		login.ClickLoginButtonOfFacbook();
 		Assert.assertTrue(login.ElementDisplay("//div[@class='_5yd0 _2ph- _5yd1']"));
@@ -31,7 +31,7 @@ public class LoginWithFacbookTestsFail extends BaseTest
 		login.ClickLoginWithFacbook();
 		login.Sleep(400);
 		login.switchWindow();
-		login.FillusernameOfFacbook("luzifere@gmail.com");
+		login.FillusernameOfFacbook("yinonwishifb@gmail.com");
 		login.FillPasswordOfFacbook("inon44ab1565");
 		login.ClickLoginButtonOfFacbook();
 		Assert.assertTrue(login.ElementDisplay("//div[@class='_5yd0 _2ph- _5yd1']"));

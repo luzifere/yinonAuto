@@ -13,7 +13,7 @@ import PageObejecs.SignUpPage;
 
 
 @Listeners(Tests.Listener.class)
-public class SignUpTest extends BaseTest
+public class SignUpTest extends BaseTest1
 {
 	@Test(priority = 1,groups={"sanity-group"})
 	public void SignUpClickable()

@@ -23,8 +23,8 @@ public class BookMiniSubTests extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		login.waitForPageLoaded();
 		login.ClickLoginButton();
-		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
-		login.doLogin("client104@wishi.com", "123456");
+		login.WaitElementDisplay(By.xpath("//header//div[@class='log-in']"));
+		login.doLogin("newplan@wishitest.com", "123456");
 
 
 	}
@@ -32,10 +32,10 @@ public class BookMiniSubTests extends BaseTest
 	public void CheckOutSession ()
 	{
 		BookingPage booking = new BookingPage(driver);
-		booking.WaitElementDisplay(By.xpath("//h2[text()[contains(.,'Style session - starting at $20')]]"));
+		booking.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
 		booking.Sleep(200);
 		booking.ClickBookingstylist();
-		booking.SearchStylist("YAstylist Booking");
+		booking.SearchStylist("leo stylist");
 		booking.SelectStylist();
 		booking.SelectMini();
 		booking.Switch_to_strype();
@@ -49,6 +49,7 @@ public class BookMiniSubTests extends BaseTest
 		booking.Sleep(800);
 		booking.switchWindow();
 		booking.Sleep(200);
+		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'HEIGHT')]]"));
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickOnProfileClientButton();
 		chat.ClickOnLogOut();
@@ -61,7 +62,7 @@ public class BookMiniSubTests extends BaseTest
 		login.Sleep(200);
 		login.ClickLoginButton();
 		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
-		login.doLogin("stylist.booking@wishi.com", "123456");
+		login.doLogin("LEOstylist@Automation.com", "123456");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(200);
 		booking.ClickMyBooking();
@@ -107,7 +108,7 @@ public class BookMiniSubTests extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
 		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
-		login.doLogin("client104@wishi.com", "123456");
+		login.doLogin("newplan@wishitest.com", "123456");
 		ChatPage chat = new ChatPage(driver);
 		chat.RefreshPage();
 		chat.ClickMyBooking();
@@ -124,7 +125,7 @@ public class BookMiniSubTests extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
 		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
-		login.doLogin("stylist.booking@wishi.com", "123456");
+		login.doLogin("LEOstylist@Automation.com", "123456");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(200);
 		booking.ClickMyBooking();
@@ -165,7 +166,7 @@ public class BookMiniSubTests extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
 		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
-		login.doLogin("client104@wishi.com", "123456");
+		login.doLogin("newplan@wishitest.com", "123456");
 		CrateLookPage look = new CrateLookPage(driver);
 		ChatPage chat = new ChatPage(driver);
 		chat.RefreshPage();
@@ -182,7 +183,7 @@ public class BookMiniSubTests extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
 		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
-		login.doLogin("stylist.booking@wishi.com", "123456");
+		login.doLogin("LEOstylist@Automation.com", "123456");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(200);
 		booking.ClickMyBooking();
@@ -223,7 +224,7 @@ public class BookMiniSubTests extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
 		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
-		login.doLogin("client104@wishi.com", "123456");
+		login.doLogin("newplan@wishitest.com", "123456");
 		CrateLookPage look = new CrateLookPage(driver);
 		ChatPage chat = new ChatPage(driver);
 		chat.RefreshPage();
@@ -240,7 +241,7 @@ public class BookMiniSubTests extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
 		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
-		login.doLogin("stylist.booking@wishi.com", "123456");
+		login.doLogin("LEOstylist@Automation.com", "123456");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(200);
 		booking.ClickMyBooking();
@@ -280,7 +281,7 @@ public class BookMiniSubTests extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
 		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
-		login.doLogin("client104@wishi.com", "123456");
+		login.doLogin("newplan@wishitest.com", "123456");
 		ChatPage chat = new ChatPage(driver);
 		chat.RefreshPage();
 		chat.ClickMyBooking();
@@ -297,7 +298,7 @@ public class BookMiniSubTests extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
 		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
-		login.doLogin("stylist.booking@wishi.com", "123456");
+		login.doLogin("LEOstylist@Automation.com", "123456");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(200);
 		booking.ClickMyBooking();
@@ -336,7 +337,7 @@ public class BookMiniSubTests extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
 		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
-		login.doLogin("client104@wishi.com", "123456");
+		login.doLogin("newplan@wishitest.com", "123456");
 		CrateLookPage look = new CrateLookPage(driver);
 		ChatPage chat = new ChatPage(driver);
 		chat.RefreshPage();
@@ -352,7 +353,7 @@ public class BookMiniSubTests extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
 		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
-		login.doLogin("stylist.booking@wishi.com", "123456");
+		login.doLogin("LEOstylist@Automation.com", "123456");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(200);
 		booking.ClickMyBooking();
@@ -372,7 +373,7 @@ public class BookMiniSubTests extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
 		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
-		login.doLogin("client104@wishi.com", "123456");
+		login.doLogin("newplan@wishitest.com", "123456");
 		CrateLookPage look = new CrateLookPage(driver);
 		ChatPage chat = new ChatPage(driver);
 		chat.RefreshPage();
@@ -394,7 +395,7 @@ public class BookMiniSubTests extends BaseTest
 		LoginPage login = new LoginPage(driver);
 		login.ClickLoginButton();
 		login.WaitElementDisplay(By.xpath("//div//input[@value='Log in']"));
-		login.doLogin("stylist.booking@wishi.com", "123456");
+		login.doLogin("LEOstylist@Automation.com", "123456");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(200);
 		booking.ClickMyBooking();

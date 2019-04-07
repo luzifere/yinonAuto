@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 @Listeners(Tests.Listener.class)
 
-public class StartHereFemaleTests extends BaseTest 
+public class StartHereFemaleTests extends BaseTest1 
 {
 	@Test(priority =6,groups={"sanity-group"})
 	public void StartHereFemaleTests()
@@ -76,8 +76,8 @@ public class StartHereFemaleTests extends BaseTest
 		*/
 		best.ClickMeetMyMatch();
 		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon", "av", "ab1565");
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'SEE MORE')]]"));
+		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'view more stylists')]]"));
 		best.Sleep(300);
 		driver.close();
 

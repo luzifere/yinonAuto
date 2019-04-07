@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 
 @Listeners(Tests.Listener.class)
-public class SignUpByFacbookTestsFail extends BaseTest
+public class SignUpByFacbookTestsFail extends BaseTest1
 {
 	//
 	@Test(priority = 2,groups={"sanity-group"})

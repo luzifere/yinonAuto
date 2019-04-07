@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 @Listeners(Tests.Listener.class)
 
-public class BestMatchMaleTest extends BaseTest 
+public class BestMatchMaleTest extends BaseTest1 
 {
 
 	@Test(priority =3,groups={"sanity-group"})
@@ -62,8 +62,8 @@ public class BestMatchMaleTest extends BaseTest
 		Assert.assertFalse(best.isElementPresent("//td[text()[contains(.,'You body type is:')]]"));
 		*/
 		best.ClickMeetMyMatch();
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'SEE MORE')]]"));
+		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'view more stylists')]]"));
 		best.Sleep(300);
 		driver.close();
 		

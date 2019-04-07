@@ -20,7 +20,7 @@ public class QwizPage extends BasePage {
 	WebElement NextButton;
 	@FindBy(xpath="//div[@class='next-step-btn blank']")
 	WebElement SkipButton;
-	@FindBy(xpath="//div[@class='back-btn']//img")
+	@FindBy(xpath="//div[@class='back-btn']")
 	WebElement BackButtonOfQwiz;
 	@FindBy(xpath="//div[@class='back-btn back-btn-pref']//img")
 	WebElement BackButtonOfQwiz2;

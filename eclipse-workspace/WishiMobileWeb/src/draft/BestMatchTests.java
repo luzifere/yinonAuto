@@ -14,13 +14,13 @@ import org.testng.annotations.Test;
 import PageObejecs.BestMatchPage;
 import PageObejecs.OnBoardingPage2;
 import PageObejecs.SignUpPage;
-import Tests.BaseTest;
+import Tests.BaseTest1;
 import Tests.Listener;
 
 
 
 @Listeners(Tests.Listener.class)
-public class BestMatchTests extends BaseTest 
+public class BestMatchTests extends BaseTest1 
 {
 
 	@Test(priority = 1,groups={"sanity-group"})

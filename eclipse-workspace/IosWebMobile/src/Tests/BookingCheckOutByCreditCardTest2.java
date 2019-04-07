@@ -9,14 +9,14 @@ import org.testng.annotations.Test;
 import PageObjects.BasePage;
 import PageObjects.BookingPage;
 import PageObjects.OnBoardingPage;
-import PageObjects.SignUpPage;
+import PageObjects.SignUpPage1;
 
 public class BookingCheckOutByCreditCardTest2 extends BaseTest2
 {
 	@Test(priority = 1,groups={"sanity-group"})
 	public void DoSignUp()
 	{
-		SignUpPage signup = new SignUpPage(driver);
+		SignUpPage1 signup = new SignUpPage1(driver);
 		Random num = new Random();
 		int number = 356;
 		for (int counter = 1000; counter<=100000;counter++)
@@ -24,7 +24,7 @@ public class BookingCheckOutByCreditCardTest2 extends BaseTest2
 		signup.Sleep(350);
 		signup.ClickOnSignUpEmail();
 		signup.doSignUp("wishitestttt@wishi.com" + number, "inon", "av", "ab1565");
-		SignUpPage.ExplicityWaitIsClickable(By.xpath("//div//input[@class='sign-up-btn ng-scope']"));
+		SignUpPage1.ExplicityWaitIsClickable(By.xpath("//div//input[@class='sign-up-btn ng-scope']"));
 		OnBoardingPage ob = new OnBoardingPage(driver);		
 		ob.Sleep(300);
 		ob.SelectGender("Male");

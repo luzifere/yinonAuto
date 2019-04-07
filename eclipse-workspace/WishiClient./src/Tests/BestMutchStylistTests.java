@@ -9,6 +9,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObjects.BookingPage;
+import PageObjects.LoginPage;
 import PageObjects.SignUpPage;
 
 
@@ -26,7 +27,9 @@ public class BestMutchStylistTests extends BaseTestStylist
 		booking.ClickLoginStart();
 		booking.LoginStylistApp("oren@wishi.me", "123456");
 		booking.ClickLoginButton();
-		booking.Sleep(200);
+		booking.Sleep(500);
+		LoginPage.DismissAlert();
+		booking.Sleep(500);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickNextbutton();
 		best.ClickMale();
@@ -76,7 +79,9 @@ public class BestMutchStylistTests extends BaseTestStylist
 		booking.ClickLoginStart();
 		booking.LoginStylistApp("oren@wishi.me", "123456");
 		booking.ClickLoginButton();
-		booking.Sleep(200);
+		booking.Sleep(500);
+		LoginPage.DismissAlert();
+		booking.Sleep(500);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickNextbutton();
 		best.ClickFamle();
@@ -122,7 +127,9 @@ public class BestMutchStylistTests extends BaseTestStylist
 		booking.ClickLoginStart();
 		booking.LoginStylistApp("oren@wishi.me", "123456");
 		booking.ClickLoginButton();
-		booking.Sleep(200);
+		booking.Sleep(500);
+		LoginPage.DismissAlert();
+		booking.Sleep(500);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickNextbutton();
 		best.ClickMale();
@@ -172,7 +179,9 @@ public class BestMutchStylistTests extends BaseTestStylist
 		booking.ClickLoginStart();
 		booking.LoginStylistApp("oren@wishi.me", "123456");
 		booking.ClickLoginButton();
-		booking.Sleep(200);
+		booking.Sleep(500);
+		LoginPage.DismissAlert();
+		booking.Sleep(500);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickNextbutton();
 		best.ClickSelfIdentityButtonID();
@@ -228,7 +237,9 @@ public class BestMutchStylistTests extends BaseTestStylist
 		booking.ClickLoginStart();
 		booking.LoginStylistApp("oren@wishi.me", "123456");
 		booking.ClickLoginButton();
-		booking.Sleep(200);
+		booking.Sleep(500);
+		LoginPage.DismissAlert();
+		booking.Sleep(500);
 		PageObjects.BestMutch best = new PageObjects.BestMutch(driver);
 		best.ClickNextbutton();
 		best.ClickSelfIdentityButtonID();

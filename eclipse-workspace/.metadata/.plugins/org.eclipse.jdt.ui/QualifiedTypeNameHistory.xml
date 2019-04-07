@@ -17,7 +17,6 @@
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="dataProvider.ConfigFileReader"/>
     <fullyQualifiedTypeName name="com.sun.tools.sjavac.Log"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="io.appium.java_client.remote.AutomationName"/>
     <fullyQualifiedTypeName name="com.sun.tools.internal.ws.processor.model.Response"/>
     <fullyQualifiedTypeName name="io.restassured.response.Response"/>
@@ -27,5 +26,7 @@
     <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
     <fullyQualifiedTypeName name="io.restassured.specification.RequestSpecification"/>
     <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="io.appium.java_client.AppiumDriver"/>
     <fullyQualifiedTypeName name="Tests.BaseTest"/>
 </qualifiedTypeNameHistroy>

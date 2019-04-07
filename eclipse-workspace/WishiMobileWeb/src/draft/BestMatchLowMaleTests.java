@@ -11,14 +11,14 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import Tests.BaseTest;
+import Tests.BaseTest1;
 import Tests.Listener;
 
 
 
 @Listeners(Tests.Listener.class)
 
-public class BestMatchLowMaleTests extends BaseTest 
+public class BestMatchLowMaleTests extends BaseTest1 
 {
 
 	
