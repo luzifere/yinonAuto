@@ -30,8 +30,8 @@ public class RetakeMatchNaturalTest extends BaseTest
 		login.waitForPageLoaded();
 		login.ClickLoginButton();
 		login.doLogin("wishitesttr@wishi.com3807", "ab1565");
-		login.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
-		Assert.assertTrue(login.ElementDisplay("//div//button[text()[contains(.,'view more stylists')]]"));
+		login.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
+		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Your Stylist Match!')]]"));
 		login.Sleep(300);
 		driver.findElement(By.xpath("//div//a[text()[contains(.,'Retake your style match')]]")).click();
 		BestMatchPage best = new BestMatchPage(driver);
@@ -62,8 +62,8 @@ public class RetakeMatchNaturalTest extends BaseTest
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'All saints')]]"));
 		best.ClickMeetMyMatch();
 		*/
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'view more stylists')]]"));
+		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div[text()[contains(.,'Your Stylist Match!')]]"));
 		best.Sleep(300);
 		best.close();
 		

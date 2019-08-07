@@ -172,6 +172,34 @@ public class QuizPage extends BasePage
 		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
 		click(PlusTabs);
 	}
+	public void SelectBlouses(String brand)
+    {
+    	String BrandsElemet = ("//*[@name='blouses-Text1']");
+    	BrandsElemet = BrandsElemet.replace("Text1", brand);
+    	WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
+    	click(BrandsTabs);
+    }
+	public void SelectBottoms(String brand)
+    {
+    	String BrandsElemet = ("//*[@name='bottoms-Text1']");
+    	BrandsElemet = BrandsElemet.replace("Text1", brand);
+    	WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
+    	click(BrandsTabs);
+    }
+	public void SelectShoes(String brand)
+    {
+    	String BrandsElemet = ("//*[@name='shoes-Text1']");
+    	BrandsElemet = BrandsElemet.replace("Text1", brand);
+    	WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
+    	click(BrandsTabs);
+    }
+	public void SelectBags(String brand)
+    {
+    	String BrandsElemet = ("//*[@name='bags-Text1']");
+    	BrandsElemet = BrandsElemet.replace("Text1", brand);
+    	WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
+    	click(BrandsTabs);
+    }
 	public void ClickTopPlus() 
 	{		
 		Sleep(150);

@@ -21,6 +21,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import io.appium.java_client.touch.offset.*;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidKeyCode;
 import io.appium.java_client.ios.IOSTouchAction;
 
 public class BasePage 
@@ -126,6 +127,10 @@ public class BasePage
 	{
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.TAB);
+	}
+	public void clicktDownArrow () 
+	{
+		driver.getKeyboard().pressKey(Keys.ARROW_DOWN);
 	}
 	public static void ExplicityWaitIsClickable(By by) 
 	{ for (int i=0;i<10;i++) 
@@ -348,7 +353,7 @@ public class BasePage
 	public void SelectImage2(int x,int y) 
 	{
 		IOSTouchAction press = new IOSTouchAction(driver);
-		press.longPress(PointOption.point(x,y)).perform();
+		press.press(PointOption.point(x,y)).perform();
 	}
 	public void SelectImage3(int x,int y) 
 	{

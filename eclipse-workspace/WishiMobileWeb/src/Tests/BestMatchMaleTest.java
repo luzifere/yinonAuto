@@ -27,7 +27,7 @@ public class BestMatchMaleTest extends BaseTest1
 		for (int counter = 5800000; counter<=10000000;counter++)
 			number = num.nextInt(700000);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitestyinon@wishitest.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishitestyinon@wishitest.com" + number, "inon bb av", "ab1565");
 		//signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
 		PageObejecs.BestMatchPage best = new PageObejecs.BestMatchPage(driver);
 		best.ClickontinueButton();
@@ -49,9 +49,6 @@ public class BestMatchMaleTest extends BaseTest1
 		best.SelectSOMETIMES("5");
 		best.ClickBack();
 		best.SelectSOMETIMES("5");
-		best.SelectLoveIt("6");
-		best.ClickBack();
-		best.SelectSOMETIMES("6");
 		best.Selectbrands("2");
 		/*
 		best.ClickNextbutton();
@@ -62,8 +59,8 @@ public class BestMatchMaleTest extends BaseTest1
 		Assert.assertFalse(best.isElementPresent("//td[text()[contains(.,'You body type is:')]]"));
 		*/
 		best.ClickMeetMyMatch();
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'view more stylists')]]"));
+		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div[text()[contains(.,'Your Stylist Match!')]]"));
 		best.Sleep(300);
 		driver.close();
 		

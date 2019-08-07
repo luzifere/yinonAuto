@@ -22,7 +22,7 @@ public class SignUpByFacbook extends BaseTest
 		signup.ClickOnSignUpEmail();
 		signup.WaitElementDisplay(By.xpath("//div[@class='fb ng-binding ng-isolate-scope']"));
 		signup.ConnectWithFB();
-		signup.ConnectWithFB();
+		//signup.ConnectWithFB();
 		signup.Sleep(200);
 		signup.switchWindow();
 		//driver.manage().window().maximize();

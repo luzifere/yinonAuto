@@ -1,5 +1,6 @@
 package Tests;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -20,6 +21,7 @@ public class LoginWithFacbookTests extends BaseTest1
 		login.FillPasswordOfFacbook("inonab1565");
 		login.scrollDown();
 		login.ClickLoginButtonOfFacbook();
+		login.WaitElementDisplay(By.xpath("//div[@class='_5yd0 _2ph- _5yd1']"));
 		Assert.assertTrue(login.ElementDisplay("//div[@class='_5yd0 _2ph- _5yd1']"));
 	}
 	//@Test(priority = 1,groups={"sanity-group"})
@@ -33,6 +35,7 @@ public class LoginWithFacbookTests extends BaseTest1
 		login.FillusernameOfFacbook("luzifere@gmail.com");
 		login.FillPasswordOfFacbook("inon44ab1565");
 		login.ClickLoginButtonOfFacbook();
+		
 		Assert.assertTrue(login.ElementDisplay("//div[@class='_5yd0 _2ph- _5yd1']"));
 	}
 	@Test(priority = 3,groups={"sanity-group"})

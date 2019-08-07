@@ -58,7 +58,7 @@ public class StartHereNormalMaleMatchTests extends BaseTest1
 		best.ClickTagsNextButton();
 		best.Selectbrands("2");
 		best.ClickTagsNextButton();
-		signup.doSignUpSH("wishitestoren@wishitesttt.com" + number, "inon", "av", "ab1565");
+		signup.doSignUpSH("wishitestoren@wishitesttt.com" + number, "inon av", "ab1565");
 		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match')]]"));
 		//best.ClickMoreStylistsButton();
 	

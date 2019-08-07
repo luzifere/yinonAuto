@@ -4,48 +4,48 @@
   <listeners>
     <listener class-name="WishiTests.Listener"/>
   </listeners>
-  <test thread-count="5" name="UploadItemTest(failed)">
+  <test thread-count="5" name="StartHereMaleTests(failed)">
     <classes>
-      <class name="WishiTests.UploadItemTest">
-        <methods>
-          <include name="Uploaditem"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- WishiTests.UploadItemTest -->
-    </classes>
-  </test> <!-- UploadItemTest(failed) -->
-  <test thread-count="5" name="SignUpByFacbook(failed)">
-    <classes>
-      <class name="WishiTests.SignUpByFacbook">
-        <methods>
-          <include name="tearDown"/>
-          <include name="SignUpWithFacbook"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- WishiTests.SignUpByFacbook -->
-    </classes>
-  </test> <!-- SignUpByFacbook(failed) -->
-  <test thread-count="5" name="LoginWithFacbookTests(failed)">
-    <classes>
-      <class name="WishiTests.LoginWithFacbookTests">
-        <methods>
-          <include name="LoginWithFacbookWrongUserName"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- WishiTests.LoginWithFacbookTests -->
-    </classes>
-  </test> <!-- LoginWithFacbookTests(failed) -->
-  <test thread-count="5" name="StartHereFFacbookTests(failed)">
-    <classes>
-      <class name="WishiTests.StartHereFFacbookTests">
+      <class name="WishiTests.StartHereMaleTests">
         <methods>
           <include name="tearDown"/>
           <include name="StartHereMaleTests"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- WishiTests.StartHereFFacbookTests -->
+      </class> <!-- WishiTests.StartHereMaleTests -->
     </classes>
-  </test> <!-- StartHereFFacbookTests(failed) -->
+  </test> <!-- StartHereMaleTests(failed) -->
+  <test thread-count="5" name="BestMatchMaleTest(failed)">
+    <classes>
+      <class name="WishiTests.BestMatchMaleTest">
+        <methods>
+          <include name="BMExpensiveFeamle"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.BestMatchMaleTest -->
+    </classes>
+  </test> <!-- BestMatchMaleTest(failed) -->
+  <test thread-count="5" name="Login(failed)">
+    <classes>
+      <class name="WishiTests.LoginTest">
+        <methods>
+          <include name="FillEmailWithOutToFillPassword"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.LoginTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test thread-count="5" name="BookMajorSingleTests(failed)">
+    <classes>
+      <class name="WishiTests.BookMajorSingleTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyEndSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- WishiTests.BookMajorSingleTests -->
+    </classes>
+  </test> <!-- BookMajorSingleTests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

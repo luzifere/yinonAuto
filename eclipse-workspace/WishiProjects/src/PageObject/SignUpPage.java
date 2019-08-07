@@ -13,11 +13,11 @@ public class SignUpPage extends BasePage
 	WebElement userName;
 	@FindBy(xpath="//div//input[@id='signUpPass']")
 	WebElement password;
-	@FindBy(xpath="//div//input[@id='signUpFirstName']")
+	@FindBy(xpath="//div//input[@id='signUpFullName']")
 	WebElement FirstName;
-	@FindBy(xpath="//div//input[@id='signUpLastName']")
+	@FindBy(xpath="//div//input[@id='signUpFullName']")
 	WebElement LastName;
-	@FindBy(xpath="//div//input[@class='sign-up-btn ng-scope']")
+	@FindBy(xpath="//div//button[@class='sign-up-btn']")
 	WebElement SignUpBtn;
 	@FindBy(xpath="//div//div[@class='closeXLeft ng-scope']")
 	WebElement CloseBtn;
@@ -39,38 +39,40 @@ public class SignUpPage extends BasePage
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
-	public void doSignUpSH(String user,String firstname,String lastname,String pass)
+	public void doSignUpSH(String user,String firstname,String pass)
 	{
 		//ExplicityWaitIsClickable(By.xpath("//div//input[@id='signUpEmail']"));
 		Sleep(250);	
-		WaitElementDisplay(By.xpath("//div//input[@class='sign-up-btn ng-scope']"));
+		WaitElementDisplay(By.xpath("//div[@class='form-container']"));
 		click(FirstName);
 		Sleep(150);
 		filltext(FirstName, firstname);
-		Sleep(150);
-		filltext(LastName, lastname);
+		//Sleep(150);
+		//filltext(LastName, lastname);
 		Sleep(150);
 		filltext(userName, user);
 		Sleep(150);
 		filltext(password, pass);
 		Sleep(150);
+		clicktTab();
 		click(SignUpBtn);			
 	} 
-	public void doSignUp(String user,String firstname,String lastname,String pass)
+	public void doSignUp(String user,String firstname,String pass)
 	{
-		ExplicityWaitIsClickable(By.xpath("//div//input[@id='signUpEmail']"));
-		Sleep(250);	
-		WaitElementDisplay(By.xpath("//div//input[@class='sign-up-btn ng-scope']"));
+		//ExplicityWaitIsClickable(By.xpath("//div//input[@id='signUpEmail']"));
+		//Sleep(250);	
+		WaitElementDisplay(By.xpath("//div[@class='form-container']"));
 		click(FirstName);
 		Sleep(150);
 		filltext(FirstName, firstname);
-		Sleep(150);
-		filltext(LastName, lastname);
+		//Sleep(150);
+		//filltext(LastName, lastname);
 		Sleep(150);
 		filltext(userName, user);
 		Sleep(150);
 		filltext(password, pass);
 		Sleep(150);
+		click(FirstName);
 		click(SignUpBtn);			
 	} 
 	public void ClickOnSignUpEmail() 

@@ -9,12 +9,7 @@
       <class name="Tests.LoginTests2">
         <methods>
           <include name="FillCorrectPasswordWithWrongEmail"/>
-          <include name="FillCorrectEmailWithWrongPassword"/>
-          <include name="ClickLoginwWithOutToFillAnyFields"/>
-          <include name="DoLogin"/>
-          <include name="FillEmailWithOutToFillPassword"/>
           <include name="setup"/>
-          <include name="FillPasswordWithOutToFillEmail"/>
         </methods>
       </class> <!-- Tests.LoginTests2 -->
     </classes>

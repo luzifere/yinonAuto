@@ -24,7 +24,7 @@ public class BookingCCTests extends BaseTest1
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishite47sty@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishite47sty@wishi.com" + number, "inon bb av", "ab1565");
 		PageObejecs.BestMatchPage best = new PageObejecs.BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();

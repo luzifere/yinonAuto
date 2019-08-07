@@ -29,8 +29,8 @@ public class SignUpTest extends BaseTest
 	public void FillEmailWitoutShtudel()
 	{
 		SignUpPage signup = new SignUpPage(driver);
-		signup.doSignUp("yinon542244243wishi.com", "inon", "av", "ab1565");
-		Assert.assertTrue(SignUpPage.isatpage("//div[contains(text(), 'Email is invalid.')]"));
+		signup.doSignUp("yinon542244243.wishi.com", "inon bb av", "ab1565");
+		Assert.assertTrue(SignUpPage.ElementDisplay("//div[contains(text(), 'Email is invalid')]"));
 		
 	} 
 	
@@ -39,8 +39,8 @@ public class SignUpTest extends BaseTest
 	{
 		
 		SignUpPage signup = new SignUpPage(driver);
-		signup.doSignUp("yinon542244243wishi", "inon", "av", "ab1565");
-		Assert.assertTrue(SignUpPage.isatpage("//div[contains(text(), 'Email is invalid.')]"));
+		signup.doSignUp("yinon@542244243wishi", "inon bb av", "ab1565");
+		Assert.assertTrue(SignUpPage.ElementDisplay("//div[contains(text(), 'Email is invalid')]"));
 		
 	}
 	
@@ -49,12 +49,21 @@ public class SignUpTest extends BaseTest
 	{
 		
 		SignUpPage signup = new SignUpPage(driver);
-		signup.doSignUp("yinon542244243wishi", "inon", "av", "ab");
-		Assert.assertTrue(SignUpPage.isatpage("//div[contains(text(), 'Password must have at least 6 characters.')]"));
+		signup.doSignUp("yinon@542244243.wishi", "inon bb av", "ab");
+		Assert.assertTrue(SignUpPage.ElementDisplay("//div[contains(text(), 'Password must have at least 6 characters')]"));
+		
+	} 
+	@Test(priority = 5,groups={"sanity-group"})
+	public void FillNameWithWrongcarecters()
+	{
+		
+		SignUpPage signup = new SignUpPage(driver);
+		signup.doSignUp("yinon@542244243.wishi", "@@@@@@ ######", "ab1565");
+		Assert.assertTrue(SignUpPage.ElementDisplay("//div[contains(text(), 'You are using invalid characters')]"));
 		
 	} 
 	
-	@Test(priority = 5,groups={"sanity-group"})
+	@Test(priority = 6,groups={"sanity-group"})
 	public void DoSignUp()
 	{
 		SignUpPage signup = new SignUpPage(driver);
@@ -62,7 +71,7 @@ public class SignUpTest extends BaseTest
 		int number = 3560000;
 		for (int counter = 5800000; counter<=10000000;counter++)
 			number = num.nextInt(700000);
-		signup.doSignUp("wishitestyinon@wishitest.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishitestyinon@wishitest.com" + number, "inon bb av", "ab1565");
 		//signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
 		BestMatchPage best = new BestMatchPage(driver);
 		signup.WaitElementDisplay(By.xpath("//div//button[@class='btn-start']"));

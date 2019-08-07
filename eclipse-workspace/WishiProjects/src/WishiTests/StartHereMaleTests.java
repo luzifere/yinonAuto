@@ -51,9 +51,6 @@ public class StartHereMaleTests extends BaseTest
 		best.SelectSOMETIMES("5");
 		best.ClickBack();
 		best.SelectHELLONO("5");
-		best.SelectLoveIt("6");
-		best.ClickBack();
-		best.SelectHELLONO("6");
 		best.Selectbrands("1");
 	
 		best.ClickMeetMyMatch();
@@ -64,9 +61,9 @@ public class StartHereMaleTests extends BaseTest
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Balenciaga')]]"));
 		best.ClickMeetMyMatch();
 		*/
-		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon", "av", "ab1565");
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'view more stylists')]]"));
+		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon av", "ab1565");
+		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div[text()[contains(.,'Your Stylist Match!')]]"));
 		best.Sleep(300);
 		best.close();
 

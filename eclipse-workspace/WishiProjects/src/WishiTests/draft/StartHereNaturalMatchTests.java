@@ -51,7 +51,7 @@ public class StartHereNaturalMatchTests extends BaseTest
 		best.ClickNextbutton();
 		best.SelectInspiration("2");
 		best.ClickTagsNextButton();
-		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon", "av", "ab1565");
+		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon av", "ab1565");
 		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
 		//best.ClickMoreStylistsButton();
 	

@@ -16,7 +16,7 @@ public class LoginTests2 extends BaseTest1
 	{
 		LoginPages2 login = new LoginPages2(driver);
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Sign in']"));
 		login.Closebuttonoflogin();
 		LoginPages2.ExplicityWaitIsClickable(By.xpath("//header//div[@class='log-in']"));
 	}	
@@ -74,10 +74,10 @@ public class LoginTests2 extends BaseTest1
 		LoginPages2 login = new LoginPages2(driver);
 		login.Clearpassword();
 		login.Clearusername();
-		login.Fillusername("yinon@wishi.me");
+		login.Fillusername("plan@wishitest.com");
 		login.Fillpassword("123123123");
 		login.Clickloginbuttonn();
-		Assert.assertTrue(login.ElementDisplay("//div[@class='invalid-form ng-binding ng-scope']"));
+		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'The password you entered is incorrect')]]"));
 		login.Closebuttonoflogin();
 		LoginPages2.ExplicityWaitIsClickable(By.xpath("//header//div[@class='log-in']"));
 	}
@@ -87,10 +87,36 @@ public class LoginTests2 extends BaseTest1
 		LoginPages2 login = new LoginPages2(driver);
 		login.Clearpassword();
 		login.Clearusername();
-		login.Fillusername("yinong@wishi.me");
+		login.Fillusername("plajhfjhgfjhn@wishitest.com");
 		login.Fillpassword("156523784");
 		login.Clickloginbuttonn();
-		Assert.assertTrue(login.ElementDisplay("//div[@class='invalid-form ng-binding ng-scope']"));
+		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Email is invalid.')]]"));
+		
+	}
+	@Test(priority = 8,groups={"sanity-group"})
+	public void FillWrongCarectersEmail() 
+	{
+		LoginPages2 login = new LoginPages2(driver);
+		login.Clearpassword();
+		login.Clearusername();
+		login.Fillusername("!!@@## @@@@@@@");
+		login.Fillpassword("123123123");
+		login.Clickloginbuttonn();
+		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Email is invalid.')]]"));
+		
+		login.Closebuttonoflogin();
+		LoginPages2.ExplicityWaitIsClickable(By.xpath("//header//div[@class='log-in']"));
+	}
+	@Test(priority = 9,groups={"sanity-group"})
+	public void FillWrongCarectersPassword() 
+	{
+		LoginPages2 login = new LoginPages2(driver);
+		login.Clearpassword();
+		login.Clearusername();
+		login.Fillusername("plan@wishitest.com");
+		login.Fillpassword("!!@@##");
+		login.Clickloginbuttonn();
+		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'The password you entered is incorrect')]]"));
 		login.Closebuttonoflogin();
 	}
 

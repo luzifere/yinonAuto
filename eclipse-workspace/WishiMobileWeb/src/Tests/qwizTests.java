@@ -23,7 +23,7 @@ public class qwizTests extends BaseTest1
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitesty@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishitesty@wishi.com" + number, "inon bb av", "ab1565");
 		PageObejecs.BestMatchPage best = new PageObejecs.BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();
@@ -46,19 +46,24 @@ public class qwizTests extends BaseTest1
 	@Test(priority = 2,groups={"sanity-group"})
 	public void BookMajorCupon ()
 	{
-		PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);
-		booking.ClickSearchButton();
-		booking.Sleep(150);
-		String stylistName = this.configFileReader.getStylistName();
-		booking.SearchStylist(stylistName);
-		//booking.SelectStylist();
-		booking.BookStylist();
-		booking.SelectMajor();
-		String copun = this.configFileReader.getcopun();
-		booking.UseCodCoopon(copun);
-		booking.ClickFinishCheckout();
-		booking.Sleep(250);
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'HEIGHT')]]"));	
+			PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);
+			booking.ClickSearchButton();
+			booking.Sleep(150);
+			String stylistName = this.configFileReader.getStylistName();
+			booking.SearchStylist(stylistName);
+			booking.BookStylist();
+			booking.SelectMini();
+			booking.ClickName();
+			booking.Sleep(250);
+			booking.Switch_to_strype();
+			String CardNumber = this.configFileReader.getCardNumber();
+			booking.FillCardNumber(CardNumber);
+			String CardDate = this.configFileReader.getCardDate();
+			booking.FillCardDate(CardDate);
+			String CardCVC = this.configFileReader.getCardCVC();
+			booking.FillCardCVC(CardCVC);
+			booking.Sleep(150);
+			Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'HEIGHT')]]"));
 	}
 	//@Test(priority = 3,groups={"sanity-group"})
 	public void SelectEvent ()
@@ -76,7 +81,7 @@ public class qwizTests extends BaseTest1
 		PageObejecs.QwizPage qwiz = new PageObejecs.QwizPage(driver);
 		qwiz.SelectTab("Curvy");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'2 OF 11')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'1 OF 11')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'HEIGHT')]]"));
 	}
 	@Test(priority = 5,groups={"sanity-group"})
@@ -85,7 +90,7 @@ public class qwizTests extends BaseTest1
 		PageObejecs.QwizPage qwiz = new PageObejecs.QwizPage(driver);
 		qwiz.SelectTab("Tall");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'2 OF 10')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'2 OF 11')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'COLORS')]]"));
 	}
 	@Test(priority = 6,groups={"sanity-group"})
@@ -98,7 +103,7 @@ public class qwizTests extends BaseTest1
 		qwiz.SelectColors("3");
 		qwiz.SelectColors("5");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'3 OF 10')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'3 OF 11')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'HIGHLIGHT')]]"));
 	}
 	@Test(priority = 7,groups={"sanity-group"})
@@ -109,7 +114,7 @@ public class qwizTests extends BaseTest1
 		qwiz.ClickNext();
 		qwiz.SelectTab("Legs");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'4 OF 10')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'4 OF 11')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'CLOTHING PREFERENCES')]]"));
 	}
 	@Test(priority = 8,groups={"sanity-group"})
@@ -120,7 +125,7 @@ public class qwizTests extends BaseTest1
 		qwiz.ClickNext();
 		qwiz.SelectTab("Healthy mix of both");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'5 OF 10')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'5 OF 11')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'HEELS')]]"));
 	}
 	@Test(priority = 9,groups={"sanity-group"})
@@ -131,7 +136,7 @@ public class qwizTests extends BaseTest1
 		qwiz.ClickNext();
 		qwiz.SelectTab("Always");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'6 OF 10')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'6 OF 11')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'FABRICS')]]"));
 	}
 	@Test(priority = 10,groups={"sanity-group"})
@@ -142,7 +147,7 @@ public class qwizTests extends BaseTest1
 		qwiz.ClickNext();
 		qwiz.SelectTab("Fur");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'7 OF 10')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'7 OF 11')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'SIZE')]]"));
 	}
 	//@Test(priority = 11,groups={"sanity-group"})
@@ -167,10 +172,25 @@ public class qwizTests extends BaseTest1
 		qwiz.ClickPlus("3");
 		qwiz.ClickMinus("4");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'8 OF 10')]]"));
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'COMFORT ZONE')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'8 OF 11')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'BUDGET')]]"));
 	}
 	@Test(priority = 13,groups={"sanity-group"})
+	public void SelectBudget ()
+	{
+		PageObejecs.QwizPage qwiz = new PageObejecs.QwizPage(driver);
+		qwiz.ClickBack();
+		qwiz.ClickNext();
+		qwiz.SelectBlouses("0");
+		qwiz.SelectBottoms("0");
+		qwiz.SelectShoes("0");
+		qwiz.scrollDown();
+		qwiz.SelectBags("0");
+		qwiz.ClickNext();
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'9 OF 11')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'COMFORT ZONE')]]"));
+	}
+	@Test(priority = 14,groups={"sanity-group"})
 	public void SelectComfortZone ()
 	{
 		PageObejecs.QwizPage qwiz = new PageObejecs.QwizPage(driver);
@@ -178,10 +198,10 @@ public class qwizTests extends BaseTest1
 		qwiz.ClickNext();
 		qwiz.SelectTab("Close to my style");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'9 OF 10')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'10 OF 11')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'JEWELRY')]]"));
 	}
-	@Test(priority = 14,groups={"sanity-group"})
+	@Test(priority = 15,groups={"sanity-group"})
 	public void SelectJEWELRY ()
 	{
 		PageObejecs.QwizPage qwiz = new PageObejecs.QwizPage(driver);
@@ -189,7 +209,7 @@ public class qwizTests extends BaseTest1
 		qwiz.ClickNext();
 		qwiz.SelectTab("Silver");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'10 OF 10')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'11 OF 11')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[@class='step-title ng-binding']"));
 	}
 	//@Test(priority = 15,groups={"sanity-group"})
@@ -215,7 +235,7 @@ public class qwizTests extends BaseTest1
 		Assert.assertTrue(qwiz.ElementDisplay("//button[@class='input_btn']"));
 
 	}
-	@Test(priority = 15,groups={"sanity-group"})
+	@Test(priority = 16,groups={"sanity-group"})
 	public void FillNumberPhone ()
 	{
 		PageObejecs.QwizPage qwiz = new PageObejecs.QwizPage(driver);

@@ -30,7 +30,7 @@ public class BestMatchNormalFeamleTests extends BaseTest1
 		for (int counter = 58000; counter<=100000;counter++)
 			number = num.nextInt(7000);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishiyinon@wishitesttt.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishiyinon@wishitesttt.com" + number, "inon bb av", "ab1565");
 		signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
 		PageObejecs.BestMatchPage best = new PageObejecs.BestMatchPage(driver);
 		best.ClickontinueButton();

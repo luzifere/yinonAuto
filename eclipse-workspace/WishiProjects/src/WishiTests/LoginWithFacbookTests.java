@@ -33,8 +33,8 @@ public class LoginWithFacbookTests extends BaseTest
 		//login.Sleep(600);
 		driver.switchTo().window(winhandleBefore);
 		//login.switchWindow();
-		login.WaitElementDisplay(By.xpath("//div//span[text()[contains(.,'My Bookings')]]"));
-		Assert.assertTrue(login.ElementDisplay("//div//span[text()[contains(.,'My Bookings')]]"));
+		login.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
+		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Your Stylist Match!')]]"));
 		login.Sleep(300);
 		login.close();
 	}

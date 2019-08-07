@@ -33,7 +33,7 @@ public class BookingMembershipTests extends BaseTest
 		for (int counter = 580000000; counter<=1000000000;counter++)
 			number = num.nextInt(70000000);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishites111@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishites111@wishi.com" + number, "inon bb av", "ab1565");
 		
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
@@ -52,7 +52,7 @@ public class BookingMembershipTests extends BaseTest
 		best.SelectHELLONO("10");
 		best.Selectbrands("2");
 		best.ClickMeetMyMatch();
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));	
+		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));	
 		BookingPage booking = new BookingPage(driver);
 		booking.ClickBookingstylist();
 	}	

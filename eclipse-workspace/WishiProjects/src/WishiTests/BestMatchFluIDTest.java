@@ -32,7 +32,7 @@ public class BestMatchFluIDTest extends BaseTest
 		for (int counter = 5800000; counter<=10000000;counter++)
 			number = num.nextInt(700000);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitestyinon@wishitest.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishitestyinon@wishitest.com" + number, "inon bb av", "ab1565");
 		//signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
@@ -85,8 +85,8 @@ public class BestMatchFluIDTest extends BaseTest
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,' A.L.C')]]"));
 		best.ClickMeetMyMatch();
 		*/
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'view more stylists')]]"));
+		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div[text()[contains(.,'Your Stylist Match!')]]"));
 		best.Sleep(300);
 		best.close();
 		

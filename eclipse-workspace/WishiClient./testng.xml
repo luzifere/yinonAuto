@@ -73,7 +73,6 @@
       <class name="Tests.LoginTests"/>
     </classes>
   </test> <!-- Test --> 
- 
   <test thread-count="5" name="SignUpByFacbookTest2">
     <classes>
       <class name="Tests.SignUpByFacbookTest2"/>

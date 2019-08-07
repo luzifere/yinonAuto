@@ -44,10 +44,12 @@ public class CeckOutPage extends BasePage
 	WebElement codefield;
 	@FindBy(xpath="//*[@name='Done']")
 	WebElement doneofcode;
-	@FindBy(id="completeBookingID")
+	@FindBy(id="CompletePaymentButtonID")
 	WebElement compilebooking;
 	@FindBy(xpath="//*[@name='PayWithCreditCardCellButtonID']")
 	WebElement credit;
+	@FindBy(xpath="//*[@name='CreditCardButtonID']")
+	WebElement setpayment;
 	@FindBy(xpath="//*[@name='stripeTextFieldID']")
 	WebElement cardnumber;
 	//@FindBy(xpath="//*[@name='Not Now']")
@@ -215,6 +217,12 @@ public class CeckOutPage extends BasePage
 	{		
 		Sleep(200);
 		click(credit);
+		Sleep(200);
+	}
+	public void SetUpPayment() 
+	{		
+		Sleep(200);
+		click(setpayment);
 		Sleep(200);
 	}
 	public void ClickSingleButton() 

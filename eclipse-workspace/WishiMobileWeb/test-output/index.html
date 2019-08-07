@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">20 tests</span>
+                    <span class="test-stats">19 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">58 methods,   58 passed</span>
+                    <span class="method-stats">60 methods, 1 failed,   59 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.LoginTests2" hash-for-method="FillCorrectPasswordWithWrongEmail">FillCorrectPasswordWithWrongEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -137,17 +151,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.BookingCuponTests" hash-for-method="BookMajorCupon">BookMajorCupon</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.BookingCCTests" hash-for-method="BookMiniCreditCard">BookMiniCreditCard</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.BookingCuponTests" hash-for-method="BookMiniCupon">BookMiniCupon</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -158,6 +162,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.LoginTests2" hash-for-method="DoLogin">DoLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.SignUpTest" hash-for-method="DoSignUp">DoSignUp</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -177,22 +186,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.BookingCuponTests" hash-for-method="DoSignUp">DoSignUp</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.SignUpTest" hash-for-method="DoSignUp">DoSignUp</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.LoginTests2" hash-for-method="FillCorrectEmailWithWrongPassword">FillCorrectEmailWithWrongPassword</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.LoginTests2" hash-for-method="FillCorrectPasswordWithWrongEmail">FillCorrectPasswordWithWrongEmail</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -208,6 +202,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.SignUpTest" hash-for-method="FillEmailWitoutShtudel">FillEmailWitoutShtudel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.SignUpTest" hash-for-method="FillNameWithWrongcarecters">FillNameWithWrongcarecters</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -228,6 +227,16 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.SignUpTest" hash-for-method="FillPsswordWithLessthan6Characters">FillPsswordWithLessthan6Characters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.LoginTests2" hash-for-method="FillWrongCarectersEmail">FillWrongCarectersEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.LoginTests2" hash-for-method="FillWrongCarectersPassword">FillWrongCarectersPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -253,6 +262,16 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.LoginWithFacbookTestsFail" hash-for-method="LoginWithFacbookWrongUserName">LoginWithFacbookWrongUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.qwizTests" hash-for-method="SelectBudget">SelectBudget</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Tests.qwizMaleTests" hash-for-method="SelectBudget">SelectBudget</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -402,10 +421,44 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.LoginTests2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FillCorrectPasswordWithWrongEmail">
+                  </a> <!-- FillCorrectPasswordWithWrongEmail -->
+                  <span class="method-name">FillCorrectPasswordWithWrongEmail</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at Tests.LoginTests2.FillCorrectPasswordWithWrongEmail(LoginTests2.java:93)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Tests.BestMatchFluIDTest</span>
+              <span class="class-name">Tests.SignUpByFacbookTestsSucses</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpWithFacbook">
+                  </a> <!-- SignUpWithFacbook -->
+                  <span class="method-name">SignUpWithFacbook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.BestMatchFemaleTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -435,6 +488,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">Tests.StartHereFFacbookTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="StartHereMaleTests">
+                  </a> <!-- StartHereMaleTests -->
+                  <span class="method-name">StartHereMaleTests</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">Tests.LoginWithFacbookTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -443,123 +511,6 @@
                   <a name="LoginWithFacbook">
                   </a> <!-- LoginWithFacbook -->
                   <span class="method-name">LoginWithFacbook</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Tests.BestMatchMaleTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="BMExpensiveFeamle">
-                  </a> <!-- BMExpensiveFeamle -->
-                  <span class="method-name">BMExpensiveFeamle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Tests.BookingCuponTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="BookMajorCupon">
-                  </a> <!-- BookMajorCupon -->
-                  <span class="method-name">BookMajorCupon</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="BookMiniCupon">
-                  </a> <!-- BookMiniCupon -->
-                  <span class="method-name">BookMiniCupon</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="DoSignUp">
-                  </a> <!-- DoSignUp -->
-                  <span class="method-name">DoSignUp</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Tests.StartHereHelloNoTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="StartHereHelloNoTests">
-                  </a> <!-- StartHereHelloNoTests -->
-                  <span class="method-name">StartHereHelloNoTests</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Tests.LoginWithFacbookTestsFail</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginWithFacbookWrongPassword">
-                  </a> <!-- LoginWithFacbookWrongPassword -->
-                  <span class="method-name">LoginWithFacbookWrongPassword</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginWithFacbookWrongUserName">
-                  </a> <!-- LoginWithFacbookWrongUserName -->
-                  <span class="method-name">LoginWithFacbookWrongUserName</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Tests.SignUpByFacbookTestsFail</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="SignUpWithFacbookWitOutEmail">
-                  </a> <!-- SignUpWithFacbookWitOutEmail -->
-                  <span class="method-name">SignUpWithFacbookWitOutEmail</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SignUpWithFacbookWitOutPassword">
-                  </a> <!-- SignUpWithFacbookWitOutPassword -->
-                  <span class="method-name">SignUpWithFacbookWitOutPassword</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SignUpWithFacbookWrongPassword">
-                  </a> <!-- SignUpWithFacbookWrongPassword -->
-                  <span class="method-name">SignUpWithFacbookWrongPassword</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SignUpWithFacbookWrongUserName">
-                  </a> <!-- SignUpWithFacbookWrongUserName -->
-                  <span class="method-name">SignUpWithFacbookWrongUserName</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -593,13 +544,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="FillCorrectPasswordWithWrongEmail">
-                  </a> <!-- FillCorrectPasswordWithWrongEmail -->
-                  <span class="method-name">FillCorrectPasswordWithWrongEmail</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="FillEmailWithOutToFillPassword">
                   </a> <!-- FillEmailWithOutToFillPassword -->
                   <span class="method-name">FillEmailWithOutToFillPassword</span>
@@ -614,6 +558,20 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="FillWrongCarectersEmail">
+                  </a> <!-- FillWrongCarectersEmail -->
+                  <span class="method-name">FillWrongCarectersEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FillWrongCarectersPassword">
+                  </a> <!-- FillWrongCarectersPassword -->
+                  <span class="method-name">FillWrongCarectersPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="LoginClickable">
                   </a> <!-- LoginClickable -->
                   <span class="method-name">LoginClickable</span>
@@ -624,14 +582,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Tests.StartHereFemaleTests</span>
+              <span class="class-name">Tests.StartHereHelloNoTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="StartHereFemaleTests">
-                  </a> <!-- StartHereFemaleTests -->
-                  <span class="method-name">StartHereFemaleTests</span>
+                  <a name="StartHereHelloNoTests">
+                  </a> <!-- StartHereHelloNoTests -->
+                  <span class="method-name">StartHereHelloNoTests</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -683,36 +641,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Tests.ChatTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginAsStylist">
-                  </a> <!-- LoginAsStylist -->
-                  <span class="method-name">LoginAsStylist</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SendChatToStylist">
-                  </a> <!-- SendChatToStylist -->
-                  <span class="method-name">SendChatToStylist</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SendChatToclient">
-                  </a> <!-- SendChatToclient -->
-                  <span class="method-name">SendChatToclient</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Tests.BestMatchFemaleTest</span>
+              <span class="class-name">Tests.BestMatchFluIDTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -727,9 +656,31 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Tests.SignUpTest</span>
+              <span class="class-name">Tests.StartHereFemaleTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="StartHereFemaleTests">
+                  </a> <!-- StartHereFemaleTests -->
+                  <span class="method-name">StartHereFemaleTests</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.qwizMaleTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookMajorCupon">
+                  </a> <!-- BookMajorCupon -->
+                  <span class="method-name">BookMajorCupon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="DoSignUp">
@@ -739,30 +690,124 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="FillEmailWithoutDotCom">
-                  </a> <!-- FillEmailWithoutDotCom -->
-                  <span class="method-name">FillEmailWithoutDotCom</span>
+                  <a name="FillNumberPhone">
+                  </a> <!-- FillNumberPhone -->
+                  <span class="method-name">FillNumberPhone</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="FillEmailWitoutShtudel">
-                  </a> <!-- FillEmailWitoutShtudel -->
-                  <span class="method-name">FillEmailWitoutShtudel</span>
+                  <a name="SelectBudget">
+                  </a> <!-- SelectBudget -->
+                  <span class="method-name">SelectBudget</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="FillPsswordWithLessthan6Characters">
-                  </a> <!-- FillPsswordWithLessthan6Characters -->
-                  <span class="method-name">FillPsswordWithLessthan6Characters</span>
+                  <a name="SelectColors">
+                  </a> <!-- SelectColors -->
+                  <span class="method-name">SelectColors</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="SignUpClickable">
-                  </a> <!-- SignUpClickable -->
-                  <span class="method-name">SignUpClickable</span>
+                  <a name="SelectComfortZone">
+                  </a> <!-- SelectComfortZone -->
+                  <span class="method-name">SelectComfortZone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectFabrics">
+                  </a> <!-- SelectFabrics -->
+                  <span class="method-name">SelectFabrics</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectHeight">
+                  </a> <!-- SelectHeight -->
+                  <span class="method-name">SelectHeight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectSize">
+                  </a> <!-- SelectSize -->
+                  <span class="method-name">SelectSize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.SignUpByFacbookTestsFail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpWithFacbookWitOutEmail">
+                  </a> <!-- SignUpWithFacbookWitOutEmail -->
+                  <span class="method-name">SignUpWithFacbookWitOutEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpWithFacbookWitOutPassword">
+                  </a> <!-- SignUpWithFacbookWitOutPassword -->
+                  <span class="method-name">SignUpWithFacbookWitOutPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpWithFacbookWrongPassword">
+                  </a> <!-- SignUpWithFacbookWrongPassword -->
+                  <span class="method-name">SignUpWithFacbookWrongPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpWithFacbookWrongUserName">
+                  </a> <!-- SignUpWithFacbookWrongUserName -->
+                  <span class="method-name">SignUpWithFacbookWrongUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.LoginWithFacbookTestsFail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithFacbookWrongPassword">
+                  </a> <!-- LoginWithFacbookWrongPassword -->
+                  <span class="method-name">LoginWithFacbookWrongPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithFacbookWrongUserName">
+                  </a> <!-- LoginWithFacbookWrongUserName -->
+                  <span class="method-name">LoginWithFacbookWrongUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.BestMatchHellowNoTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BestMatchHelloNo">
+                  </a> <!-- BestMatchHelloNo -->
+                  <span class="method-name">BestMatchHelloNo</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -792,6 +837,13 @@
                   <a name="FillNumberPhone">
                   </a> <!-- FillNumberPhone -->
                   <span class="method-name">FillNumberPhone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectBudget">
+                  </a> <!-- SelectBudget -->
+                  <span class="method-name">SelectBudget</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -862,46 +914,9 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Tests.SignUpByFacbookTestsSucses</span>
+              <span class="class-name">Tests.SignUpTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="SignUpWithFacbook">
-                  </a> <!-- SignUpWithFacbook -->
-                  <span class="method-name">SignUpWithFacbook</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Tests.StartHereFFacbookTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="StartHereMaleTests">
-                  </a> <!-- StartHereMaleTests -->
-                  <span class="method-name">StartHereMaleTests</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Tests.qwizMaleTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="BookMajorCupon">
-                  </a> <!-- BookMajorCupon -->
-                  <span class="method-name">BookMajorCupon</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="DoSignUp">
@@ -911,44 +926,37 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="FillNumberPhone">
-                  </a> <!-- FillNumberPhone -->
-                  <span class="method-name">FillNumberPhone</span>
+                  <a name="FillEmailWithoutDotCom">
+                  </a> <!-- FillEmailWithoutDotCom -->
+                  <span class="method-name">FillEmailWithoutDotCom</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="SelectColors">
-                  </a> <!-- SelectColors -->
-                  <span class="method-name">SelectColors</span>
+                  <a name="FillEmailWitoutShtudel">
+                  </a> <!-- FillEmailWitoutShtudel -->
+                  <span class="method-name">FillEmailWitoutShtudel</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="SelectComfortZone">
-                  </a> <!-- SelectComfortZone -->
-                  <span class="method-name">SelectComfortZone</span>
+                  <a name="FillNameWithWrongcarecters">
+                  </a> <!-- FillNameWithWrongcarecters -->
+                  <span class="method-name">FillNameWithWrongcarecters</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="SelectFabrics">
-                  </a> <!-- SelectFabrics -->
-                  <span class="method-name">SelectFabrics</span>
+                  <a name="FillPsswordWithLessthan6Characters">
+                  </a> <!-- FillPsswordWithLessthan6Characters -->
+                  <span class="method-name">FillPsswordWithLessthan6Characters</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="SelectHeight">
-                  </a> <!-- SelectHeight -->
-                  <span class="method-name">SelectHeight</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SelectSize">
-                  </a> <!-- SelectSize -->
-                  <span class="method-name">SelectSize</span>
+                  <a name="SignUpClickable">
+                  </a> <!-- SignUpClickable -->
+                  <span class="method-name">SignUpClickable</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -956,14 +964,43 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Tests.BestMatchHellowNoTests</span>
+              <span class="class-name">Tests.BestMatchMaleTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="BestMatchHelloNo">
-                  </a> <!-- BestMatchHelloNo -->
-                  <span class="method-name">BestMatchHelloNo</span>
+                  <a name="BMExpensiveFeamle">
+                  </a> <!-- BMExpensiveFeamle -->
+                  <span class="method-name">BMExpensiveFeamle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.ChatTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginAsStylist">
+                  </a> <!-- LoginAsStylist -->
+                  <span class="method-name">LoginAsStylist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SendChatToStylist">
+                  </a> <!-- SendChatToStylist -->
+                  <span class="method-name">SendChatToStylist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SendChatToclient">
+                  </a> <!-- SendChatToclient -->
+                  <span class="method-name">SendChatToclient</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -981,6 +1018,41 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;Tests.Listener&quot;/&gt;
   &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SignUpByFacbookTestsFail&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.SignUpByFacbookTestsFail&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignUpByFacbookTestsFail --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SignUpByFacbookTestsSucses&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.SignUpByFacbookTestsSucses&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignUpByFacbookTestsSucses --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChatTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.ChatTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChatTests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginWithFacbookTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.LoginWithFacbookTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginWithFacbookTests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginWithFacbookTestsFail&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.LoginWithFacbookTestsFail&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginWithFacbookTestsFail --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginTests2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.LoginTests2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginTests2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SignUpTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.SignUpTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignUpTest --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;BestMatchFemaleTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Tests.BestMatchFemaleTest&quot;/&gt;
@@ -1041,46 +1113,6 @@
       &lt;class name=&quot;Tests.BookingCCTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- BookingCCTests --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;BookingCuponTests&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;Tests.BookingCuponTests&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- BookingCuponTests --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;LoginWithFacbookTests&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;Tests.LoginWithFacbookTests&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- LoginWithFacbookTests --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;LoginWithFacbookTestsFail&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;Tests.LoginWithFacbookTestsFail&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- LoginWithFacbookTestsFail --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;SignUpByFacbookTestsFail&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;Tests.SignUpByFacbookTestsFail&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- SignUpByFacbookTestsFail --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;SignUpByFacbookTestsSucses&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;Tests.SignUpByFacbookTestsSucses&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- SignUpByFacbookTestsSucses --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;ChatTests&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;Tests.ChatTests&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- ChatTests --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;LoginTests2&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;Tests.LoginTests2&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- LoginTests2 --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;SignUpTest&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;Tests.SignUpTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- SignUpTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -1091,6 +1123,27 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
+              <li>
+                <span class="test-name">SignUpByFacbookTestsFail (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SignUpByFacbookTestsSucses (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ChatTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginWithFacbookTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginWithFacbookTestsFail (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginTests2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SignUpTest (1 class)</span>
+              </li>
               <li>
                 <span class="test-name">BestMatchFemaleTest (1 class)</span>
               </li>
@@ -1126,30 +1179,6 @@
               </li>
               <li>
                 <span class="test-name">BookingCCTests (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">BookingCuponTests (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">LoginWithFacbookTests (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">LoginWithFacbookTestsFail (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">SignUpByFacbookTestsFail (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">SignUpByFacbookTestsSucses (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">ChatTests (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">LoginTests2 (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">SignUpTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -1187,10 +1216,6 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">BookMiniCupon</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
                 <span class="method-in-group-name">ClickLoginwWithOutToFillAnyFields</span>
                 <br/>
               </div> <!-- method-in-group -->
@@ -1223,6 +1248,10 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
+                <span class="method-in-group-name">FillNameWithWrongcarecters</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">FillNumberPhone</span>
                 <br/>
               </div> <!-- method-in-group -->
@@ -1232,6 +1261,14 @@
               </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">FillPsswordWithLessthan6Characters</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FillWrongCarectersEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FillWrongCarectersPassword</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -1252,6 +1289,10 @@
               </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">LoginWithFacbookWrongUserName</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectBudget</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -1355,244 +1396,252 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(58);
+data.addRows(60);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'StartHereMaleTests')
 data.setCell(0, 2, 'Tests.StartHereFFacbookTests')
-data.setCell(0, 3, 203028);
+data.setCell(0, 3, 198558);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'StartHereHelloNoTests')
-data.setCell(1, 2, 'Tests.StartHereHelloNoTests')
-data.setCell(1, 3, 193868);
+data.setCell(1, 1, 'StartHereFluIDTests')
+data.setCell(1, 2, 'Tests.StartHereFluIDTests')
+data.setCell(1, 3, 193027);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'StartHereFemaleTests')
-data.setCell(2, 2, 'Tests.StartHereFemaleTests')
-data.setCell(2, 3, 193503);
+data.setCell(2, 1, 'StartHereHelloNoTests')
+data.setCell(2, 2, 'Tests.StartHereHelloNoTests')
+data.setCell(2, 3, 191002);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'StartHereFluIDTests')
-data.setCell(3, 2, 'Tests.StartHereFluIDTests')
-data.setCell(3, 3, 192018);
+data.setCell(3, 1, 'StartHereFemaleTests')
+data.setCell(3, 2, 'Tests.StartHereFemaleTests')
+data.setCell(3, 3, 189407);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'BestMatchFemaleTest')
-data.setCell(4, 2, 'Tests.BestMatchFluIDTest')
-data.setCell(4, 3, 187977);
+data.setCell(4, 1, 'BestMatchHelloNo')
+data.setCell(4, 2, 'Tests.BestMatchHellowNoTests')
+data.setCell(4, 3, 185307);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'BestMatchHelloNo')
-data.setCell(5, 2, 'Tests.BestMatchHellowNoTests')
-data.setCell(5, 3, 187948);
+data.setCell(5, 1, 'BestMatchFemaleTest')
+data.setCell(5, 2, 'Tests.BestMatchFluIDTest')
+data.setCell(5, 3, 185066);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'BestMatchFemaleTest')
 data.setCell(6, 2, 'Tests.BestMatchFemaleTest')
-data.setCell(6, 3, 187680);
+data.setCell(6, 3, 184407);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'StartHereMaleTests')
 data.setCell(7, 2, 'Tests.StartHereMaleTests')
-data.setCell(7, 3, 124823);
+data.setCell(7, 3, 108262);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'BMExpensiveFeamle')
 data.setCell(8, 2, 'Tests.BestMatchMaleTest')
-data.setCell(8, 3, 120053);
+data.setCell(8, 3, 102931);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'DoSignUp')
-data.setCell(9, 2, 'Tests.BookingCuponTests')
-data.setCell(9, 3, 71235);
+data.setCell(9, 2, 'Tests.BookingCCTests')
+data.setCell(9, 3, 67094);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'DoSignUp')
-data.setCell(10, 2, 'Tests.BookingCCTests')
-data.setCell(10, 3, 70185);
+data.setCell(10, 2, 'Tests.qwizTests')
+data.setCell(10, 3, 67031);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'DoSignUp')
-data.setCell(11, 2, 'Tests.qwizTests')
-data.setCell(11, 3, 70009);
+data.setCell(11, 1, 'BookMajorCupon')
+data.setCell(11, 2, 'Tests.qwizMaleTests')
+data.setCell(11, 3, 53757);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'SendChatToclient')
-data.setCell(12, 2, 'Tests.ChatTests')
-data.setCell(12, 3, 61542);
+data.setCell(12, 1, 'DoSignUp')
+data.setCell(12, 2, 'Tests.qwizMaleTests')
+data.setCell(12, 3, 53710);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'DoSignUp')
-data.setCell(13, 2, 'Tests.qwizMaleTests')
-data.setCell(13, 3, 49642);
+data.setCell(13, 1, 'BookMajorCupon')
+data.setCell(13, 2, 'Tests.qwizTests')
+data.setCell(13, 3, 52182);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'SendChatToStylist')
-data.setCell(14, 2, 'Tests.ChatTests')
-data.setCell(14, 3, 47662);
+data.setCell(14, 1, 'BookMiniCreditCard')
+data.setCell(14, 2, 'Tests.BookingCCTests')
+data.setCell(14, 3, 51427);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'BookMiniCreditCard')
-data.setCell(15, 2, 'Tests.BookingCCTests')
-data.setCell(15, 3, 45806);
+data.setCell(15, 1, 'SendChatToclient')
+data.setCell(15, 2, 'Tests.ChatTests')
+data.setCell(15, 3, 50738);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'BookMajorCreditCard')
 data.setCell(16, 2, 'Tests.BookingCCTests')
-data.setCell(16, 3, 39655);
+data.setCell(16, 3, 46732);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'BookMajorCupon')
-data.setCell(17, 2, 'Tests.BookingCuponTests')
-data.setCell(17, 3, 37797);
+data.setCell(17, 1, 'SendChatToStylist')
+data.setCell(17, 2, 'Tests.ChatTests')
+data.setCell(17, 3, 45491);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'BookMajorCupon')
-data.setCell(18, 2, 'Tests.qwizMaleTests')
-data.setCell(18, 3, 36854);
+data.setCell(18, 1, 'LoginWithFacbook')
+data.setCell(18, 2, 'Tests.LoginWithFacbookTests')
+data.setCell(18, 3, 14858);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'BookMajorCupon')
-data.setCell(19, 2, 'Tests.qwizTests')
-data.setCell(19, 3, 36425);
+data.setCell(19, 1, 'SignUpWithFacbook')
+data.setCell(19, 2, 'Tests.SignUpByFacbookTestsSucses')
+data.setCell(19, 3, 13050);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'BookMiniCupon')
-data.setCell(20, 2, 'Tests.BookingCuponTests')
-data.setCell(20, 3, 34763);
+data.setCell(20, 1, 'LoginWithFacbookWrongPassword')
+data.setCell(20, 2, 'Tests.LoginWithFacbookTestsFail')
+data.setCell(20, 3, 13005);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'LoginWithFacbook')
-data.setCell(21, 2, 'Tests.LoginWithFacbookTests')
-data.setCell(21, 3, 14901);
+data.setCell(21, 1, 'SelectComfortZone')
+data.setCell(21, 2, 'Tests.qwizMaleTests')
+data.setCell(21, 3, 9043);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'SignUpWithFacbook')
-data.setCell(22, 2, 'Tests.SignUpByFacbookTestsSucses')
-data.setCell(22, 3, 14312);
+data.setCell(22, 1, 'SelectJEWELRY')
+data.setCell(22, 2, 'Tests.qwizTests')
+data.setCell(22, 3, 8973);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'LoginWithFacbookWrongPassword')
-data.setCell(23, 2, 'Tests.LoginWithFacbookTestsFail')
-data.setCell(23, 3, 12077);
+data.setCell(23, 1, 'SignUpWithFacbookWitOutEmail')
+data.setCell(23, 2, 'Tests.SignUpByFacbookTestsFail')
+data.setCell(23, 3, 8761);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'SelectComfortZone')
-data.setCell(24, 2, 'Tests.qwizMaleTests')
-data.setCell(24, 3, 9978);
+data.setCell(24, 1, 'FillNumberPhone')
+data.setCell(24, 2, 'Tests.qwizTests')
+data.setCell(24, 3, 8692);
 data.setCell(25, 0, 25)
 data.setCell(25, 1, 'FillNumberPhone')
-data.setCell(25, 2, 'Tests.qwizTests')
-data.setCell(25, 3, 9180);
+data.setCell(25, 2, 'Tests.qwizMaleTests')
+data.setCell(25, 3, 8596);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'SelectJEWELRY')
-data.setCell(26, 2, 'Tests.qwizTests')
-data.setCell(26, 3, 9096);
+data.setCell(26, 1, 'SignUpWithFacbookWrongPassword')
+data.setCell(26, 2, 'Tests.SignUpByFacbookTestsFail')
+data.setCell(26, 3, 8547);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'FillNumberPhone')
-data.setCell(27, 2, 'Tests.qwizMaleTests')
-data.setCell(27, 3, 8525);
+data.setCell(27, 1, 'SignUpWithFacbookWrongUserName')
+data.setCell(27, 2, 'Tests.SignUpByFacbookTestsFail')
+data.setCell(27, 3, 6748);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'SignUpWithFacbookWitOutEmail')
-data.setCell(28, 2, 'Tests.SignUpByFacbookTestsFail')
-data.setCell(28, 3, 8043);
+data.setCell(28, 1, 'SelectBudget')
+data.setCell(28, 2, 'Tests.qwizTests')
+data.setCell(28, 3, 6607);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'FillCorrectEmailWithWrongPassword')
-data.setCell(29, 2, 'Tests.LoginTests2')
-data.setCell(29, 3, 7987);
+data.setCell(29, 1, 'SelectBudget')
+data.setCell(29, 2, 'Tests.qwizMaleTests')
+data.setCell(29, 3, 6603);
 data.setCell(30, 0, 30)
-data.setCell(30, 1, 'FillEmailWitoutShtudel')
-data.setCell(30, 2, 'Tests.SignUpTest')
-data.setCell(30, 3, 7432);
+data.setCell(30, 1, 'SelectColors')
+data.setCell(30, 2, 'Tests.qwizTests')
+data.setCell(30, 3, 6344);
 data.setCell(31, 0, 31)
-data.setCell(31, 1, 'DoSignUp')
-data.setCell(31, 2, 'Tests.SignUpTest')
-data.setCell(31, 3, 7037);
+data.setCell(31, 1, 'SelectColors')
+data.setCell(31, 2, 'Tests.qwizMaleTests')
+data.setCell(31, 3, 6271);
 data.setCell(32, 0, 32)
-data.setCell(32, 1, 'SelectColors')
+data.setCell(32, 1, 'SelectSize')
 data.setCell(32, 2, 'Tests.qwizTests')
-data.setCell(32, 3, 6650);
+data.setCell(32, 3, 6267);
 data.setCell(33, 0, 33)
-data.setCell(33, 1, 'SelectSize')
-data.setCell(33, 2, 'Tests.qwizMaleTests')
-data.setCell(33, 3, 6479);
+data.setCell(33, 1, 'FillCorrectEmailWithWrongPassword')
+data.setCell(33, 2, 'Tests.LoginTests2')
+data.setCell(33, 3, 6073);
 data.setCell(34, 0, 34)
-data.setCell(34, 1, 'SelectColors')
+data.setCell(34, 1, 'SelectSize')
 data.setCell(34, 2, 'Tests.qwizMaleTests')
-data.setCell(34, 3, 6399);
+data.setCell(34, 3, 5905);
 data.setCell(35, 0, 35)
-data.setCell(35, 1, 'SelectSize')
+data.setCell(35, 1, 'SelectClothingPreferences')
 data.setCell(35, 2, 'Tests.qwizTests')
-data.setCell(35, 3, 6389);
+data.setCell(35, 3, 5456);
 data.setCell(36, 0, 36)
-data.setCell(36, 1, 'FillCorrectPasswordWithWrongEmail')
+data.setCell(36, 1, 'FillWrongCarectersPassword')
 data.setCell(36, 2, 'Tests.LoginTests2')
-data.setCell(36, 3, 6280);
+data.setCell(36, 3, 5449);
 data.setCell(37, 0, 37)
-data.setCell(37, 1, 'FillEmailWithOutToFillPassword')
-data.setCell(37, 2, 'Tests.LoginTests2')
-data.setCell(37, 3, 6124);
+data.setCell(37, 1, 'SelectFabrics')
+data.setCell(37, 2, 'Tests.qwizTests')
+data.setCell(37, 3, 5436);
 data.setCell(38, 0, 38)
-data.setCell(38, 1, 'FillEmailWithoutDotCom')
-data.setCell(38, 2, 'Tests.SignUpTest')
-data.setCell(38, 3, 6121);
+data.setCell(38, 1, 'SelectHighlight')
+data.setCell(38, 2, 'Tests.qwizTests')
+data.setCell(38, 3, 5430);
 data.setCell(39, 0, 39)
-data.setCell(39, 1, 'FillPsswordWithLessthan6Characters')
-data.setCell(39, 2, 'Tests.SignUpTest')
-data.setCell(39, 3, 5885);
+data.setCell(39, 1, 'SelectFabrics')
+data.setCell(39, 2, 'Tests.qwizMaleTests')
+data.setCell(39, 3, 5397);
 data.setCell(40, 0, 40)
-data.setCell(40, 1, 'LoginAsStylist')
-data.setCell(40, 2, 'Tests.ChatTests')
-data.setCell(40, 3, 5650);
+data.setCell(40, 1, 'SelectComfortZone')
+data.setCell(40, 2, 'Tests.qwizTests')
+data.setCell(40, 3, 5390);
 data.setCell(41, 0, 41)
-data.setCell(41, 1, 'SelectHighlight')
+data.setCell(41, 1, 'SelectHeels')
 data.setCell(41, 2, 'Tests.qwizTests')
-data.setCell(41, 3, 5649);
+data.setCell(41, 3, 5367);
 data.setCell(42, 0, 42)
-data.setCell(42, 1, 'SelectFabrics')
-data.setCell(42, 2, 'Tests.qwizMaleTests')
-data.setCell(42, 3, 5614);
+data.setCell(42, 1, 'FillWrongCarectersEmail')
+data.setCell(42, 2, 'Tests.LoginTests2')
+data.setCell(42, 3, 5066);
 data.setCell(43, 0, 43)
-data.setCell(43, 1, 'SelectFabrics')
-data.setCell(43, 2, 'Tests.qwizTests')
-data.setCell(43, 3, 5524);
+data.setCell(43, 1, 'LoginAsStylist')
+data.setCell(43, 2, 'Tests.ChatTests')
+data.setCell(43, 3, 4889);
 data.setCell(44, 0, 44)
-data.setCell(44, 1, 'SelectClothingPreferences')
-data.setCell(44, 2, 'Tests.qwizTests')
-data.setCell(44, 3, 5523);
+data.setCell(44, 1, 'FillEmailWitoutShtudel')
+data.setCell(44, 2, 'Tests.SignUpTest')
+data.setCell(44, 3, 4881);
 data.setCell(45, 0, 45)
-data.setCell(45, 1, 'SelectComfortZone')
-data.setCell(45, 2, 'Tests.qwizTests')
-data.setCell(45, 3, 5411);
+data.setCell(45, 1, 'FillEmailWithOutToFillPassword')
+data.setCell(45, 2, 'Tests.LoginTests2')
+data.setCell(45, 3, 4770);
 data.setCell(46, 0, 46)
-data.setCell(46, 1, 'SelectHeels')
-data.setCell(46, 2, 'Tests.qwizTests')
-data.setCell(46, 3, 5360);
+data.setCell(46, 1, 'LoginWithFacbookWrongUserName')
+data.setCell(46, 2, 'Tests.LoginWithFacbookTestsFail')
+data.setCell(46, 3, 4519);
 data.setCell(47, 0, 47)
-data.setCell(47, 1, 'DoLogin')
-data.setCell(47, 2, 'Tests.LoginTests2')
-data.setCell(47, 3, 4695);
+data.setCell(47, 1, 'FillNameWithWrongcarecters')
+data.setCell(47, 2, 'Tests.SignUpTest')
+data.setCell(47, 3, 4203);
 data.setCell(48, 0, 48)
-data.setCell(48, 1, 'SignUpWithFacbookWrongPassword')
-data.setCell(48, 2, 'Tests.SignUpByFacbookTestsFail')
-data.setCell(48, 3, 4524);
+data.setCell(48, 1, 'FillCorrectPasswordWithWrongEmail')
+data.setCell(48, 2, 'Tests.LoginTests2')
+data.setCell(48, 3, 4170);
 data.setCell(49, 0, 49)
-data.setCell(49, 1, 'SignUpWithFacbookWrongUserName')
-data.setCell(49, 2, 'Tests.SignUpByFacbookTestsFail')
-data.setCell(49, 3, 4497);
+data.setCell(49, 1, 'DoSignUp')
+data.setCell(49, 2, 'Tests.SignUpTest')
+data.setCell(49, 3, 4097);
 data.setCell(50, 0, 50)
-data.setCell(50, 1, 'LoginClickable')
+data.setCell(50, 1, 'DoLogin')
 data.setCell(50, 2, 'Tests.LoginTests2')
-data.setCell(50, 3, 4284);
+data.setCell(50, 3, 3915);
 data.setCell(51, 0, 51)
-data.setCell(51, 1, 'FillPasswordWithOutToFillEmail')
-data.setCell(51, 2, 'Tests.LoginTests2')
-data.setCell(51, 3, 3882);
+data.setCell(51, 1, 'SignUpWithFacbookWitOutPassword')
+data.setCell(51, 2, 'Tests.SignUpByFacbookTestsFail')
+data.setCell(51, 3, 3881);
 data.setCell(52, 0, 52)
-data.setCell(52, 1, 'LoginWithFacbookWrongUserName')
-data.setCell(52, 2, 'Tests.LoginWithFacbookTestsFail')
-data.setCell(52, 3, 2705);
+data.setCell(52, 1, 'FillPasswordWithOutToFillEmail')
+data.setCell(52, 2, 'Tests.LoginTests2')
+data.setCell(52, 3, 3565);
 data.setCell(53, 0, 53)
-data.setCell(53, 1, 'ClickLoginwWithOutToFillAnyFields')
-data.setCell(53, 2, 'Tests.LoginTests2')
-data.setCell(53, 3, 2673);
+data.setCell(53, 1, 'FillPsswordWithLessthan6Characters')
+data.setCell(53, 2, 'Tests.SignUpTest')
+data.setCell(53, 3, 3349);
 data.setCell(54, 0, 54)
-data.setCell(54, 1, 'SelectHeight')
-data.setCell(54, 2, 'Tests.qwizTests')
-data.setCell(54, 3, 2488);
+data.setCell(54, 1, 'FillEmailWithoutDotCom')
+data.setCell(54, 2, 'Tests.SignUpTest')
+data.setCell(54, 3, 3338);
 data.setCell(55, 0, 55)
-data.setCell(55, 1, 'SelectHeight')
-data.setCell(55, 2, 'Tests.qwizMaleTests')
-data.setCell(55, 3, 2254);
+data.setCell(55, 1, 'LoginClickable')
+data.setCell(55, 2, 'Tests.LoginTests2')
+data.setCell(55, 3, 3209);
 data.setCell(56, 0, 56)
-data.setCell(56, 1, 'SignUpWithFacbookWitOutPassword')
-data.setCell(56, 2, 'Tests.SignUpByFacbookTestsFail')
-data.setCell(56, 3, 2064);
+data.setCell(56, 1, 'ClickLoginwWithOutToFillAnyFields')
+data.setCell(56, 2, 'Tests.LoginTests2')
+data.setCell(56, 3, 2656);
 data.setCell(57, 0, 57)
-data.setCell(57, 1, 'SignUpClickable')
-data.setCell(57, 2, 'Tests.SignUpTest')
-data.setCell(57, 3, 1807);
+data.setCell(57, 1, 'SelectHeight')
+data.setCell(57, 2, 'Tests.qwizTests')
+data.setCell(57, 3, 2489);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'SelectHeight')
+data.setCell(58, 2, 'Tests.qwizMaleTests')
+data.setCell(58, 3, 2286);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'SignUpClickable')
+data.setCell(59, 2, 'Tests.SignUpTest')
+data.setCell(59, 3, 1663);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 40 minutes</span>
+              <span class="suite-total-time">Total running time: 37 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -1603,6 +1652,344 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpWithFacbookWitOutPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutPassword</span>
+                <span class="reporter-method-output">Completed executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutPassword</span>
+                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbookWitOutPassword</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsFail</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbookWitOutPassword</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsFail</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpWithFacbookWrongUserName</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongUserName</span>
+                <span class="reporter-method-output">Completed executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongUserName</span>
+                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbookWrongUserName</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsFail</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbookWrongUserName</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsFail</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpWithFacbookWitOutEmail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutEmail</span>
+                <span class="reporter-method-output">Completed executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutEmail</span>
+                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbookWitOutEmail</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsFail</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbookWitOutEmail</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsFail</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpWithFacbookWrongPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongPassword</span>
+                <span class="reporter-method-output">Completed executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongPassword</span>
+                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbookWrongPassword</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsFail</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbookWrongPassword</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsFail</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpWithFacbook</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook</span>
+                <span class="reporter-method-output">Completed executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook</span>
+                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbook</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsSucses</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbook</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsSucses</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SendChatToclient</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : ChatTests.SendChatToclient</span>
+                <span class="reporter-method-output">Completed executing following method : ChatTests.SendChatToclient</span>
+                <span class="reporter-method-output">About to Success executing Suite SendChatToclient</span>
+                <span class="reporter-method-output">Test Method resides in Tests.ChatTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite SendChatToclient</span>
+                <span class="reporter-method-output">Test Method resides in Tests.ChatTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginAsStylist</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : ChatTests.LoginAsStylist</span>
+                <span class="reporter-method-output">Completed executing following method : ChatTests.LoginAsStylist</span>
+                <span class="reporter-method-output">About to Success executing Suite LoginAsStylist</span>
+                <span class="reporter-method-output">Test Method resides in Tests.ChatTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite LoginAsStylist</span>
+                <span class="reporter-method-output">Test Method resides in Tests.ChatTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SendChatToStylist</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : ChatTests.SendChatToStylist</span>
+                <span class="reporter-method-output">Completed executing following method : ChatTests.SendChatToStylist</span>
+                <span class="reporter-method-output">About to Success executing Suite SendChatToStylist</span>
+                <span class="reporter-method-output">Test Method resides in Tests.ChatTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite SendChatToStylist</span>
+                <span class="reporter-method-output">Test Method resides in Tests.ChatTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginWithFacbook</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : LoginWithFacbookTests.LoginWithFacbook</span>
+                <span class="reporter-method-output">Completed executing following method : LoginWithFacbookTests.LoginWithFacbook</span>
+                <span class="reporter-method-output">About to Success executing Suite LoginWithFacbook</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginWithFacbookTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite LoginWithFacbook</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginWithFacbookTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginWithFacbookWrongUserName</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongUserName</span>
+                <span class="reporter-method-output">Completed executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongUserName</span>
+                <span class="reporter-method-output">About to Success executing Suite LoginWithFacbookWrongUserName</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginWithFacbookTestsFail</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite LoginWithFacbookWrongUserName</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginWithFacbookTestsFail</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginWithFacbookWrongPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongPassword</span>
+                <span class="reporter-method-output">Completed executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongPassword</span>
+                <span class="reporter-method-output">About to Success executing Suite LoginWithFacbookWrongPassword</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginWithFacbookTestsFail</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite LoginWithFacbookWrongPassword</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginWithFacbookTestsFail</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FillWrongCarectersEmail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : LoginTests2.FillWrongCarectersEmail</span>
+                <span class="reporter-method-output">Completed executing following method : LoginTests2.FillWrongCarectersEmail</span>
+                <span class="reporter-method-output">About to Success executing Suite FillWrongCarectersEmail</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite FillWrongCarectersEmail</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DoLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : LoginTests2.DoLogin</span>
+                <span class="reporter-method-output">Completed executing following method : LoginTests2.DoLogin</span>
+                <span class="reporter-method-output">About to Success executing Suite DoLogin</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite DoLogin</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FillPasswordWithOutToFillEmail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : LoginTests2.FillPasswordWithOutToFillEmail</span>
+                <span class="reporter-method-output">Completed executing following method : LoginTests2.FillPasswordWithOutToFillEmail</span>
+                <span class="reporter-method-output">About to Success executing Suite FillPasswordWithOutToFillEmail</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite FillPasswordWithOutToFillEmail</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FillEmailWithOutToFillPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : LoginTests2.FillEmailWithOutToFillPassword</span>
+                <span class="reporter-method-output">Completed executing following method : LoginTests2.FillEmailWithOutToFillPassword</span>
+                <span class="reporter-method-output">About to Success executing Suite FillEmailWithOutToFillPassword</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite FillEmailWithOutToFillPassword</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginClickable</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : LoginTests2.LoginClickable</span>
+                <span class="reporter-method-output">Completed executing following method : LoginTests2.LoginClickable</span>
+                <span class="reporter-method-output">About to Success executing Suite LoginClickable</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite LoginClickable</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FillCorrectEmailWithWrongPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : LoginTests2.FillCorrectEmailWithWrongPassword</span>
+                <span class="reporter-method-output">Completed executing following method : LoginTests2.FillCorrectEmailWithWrongPassword</span>
+                <span class="reporter-method-output">About to Success executing Suite FillCorrectEmailWithWrongPassword</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite FillCorrectEmailWithWrongPassword</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ClickLoginwWithOutToFillAnyFields</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : LoginTests2.ClickLoginwWithOutToFillAnyFields</span>
+                <span class="reporter-method-output">Completed executing following method : LoginTests2.ClickLoginwWithOutToFillAnyFields</span>
+                <span class="reporter-method-output">About to Success executing Suite ClickLoginwWithOutToFillAnyFields</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite ClickLoginwWithOutToFillAnyFields</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FillWrongCarectersPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : LoginTests2.FillWrongCarectersPassword</span>
+                <span class="reporter-method-output">Completed executing following method : LoginTests2.FillWrongCarectersPassword</span>
+                <span class="reporter-method-output">About to Success executing Suite FillWrongCarectersPassword</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite FillWrongCarectersPassword</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FillCorrectPasswordWithWrongEmail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : LoginTests2.FillCorrectPasswordWithWrongEmail</span>
+                <span class="reporter-method-output">Completed executing following method : LoginTests2.FillCorrectPasswordWithWrongEmail</span>
+                <span class="reporter-method-output">About to Failure executing Suite FillCorrectPasswordWithWrongEmail</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Failed</span>
+                <span class="reporter-method-output">About to Failure executing Suite FillCorrectPasswordWithWrongEmail</span>
+                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
+                <span class="reporter-method-output">Test Status: Failed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FillPsswordWithLessthan6Characters</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : SignUpTest.FillPsswordWithLessthan6Characters</span>
+                <span class="reporter-method-output">Completed executing following method : SignUpTest.FillPsswordWithLessthan6Characters</span>
+                <span class="reporter-method-output">About to Success executing Suite FillPsswordWithLessthan6Characters</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite FillPsswordWithLessthan6Characters</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DoSignUp</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : SignUpTest.DoSignUp</span>
+                <span class="reporter-method-output">Completed executing following method : SignUpTest.DoSignUp</span>
+                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FillNameWithWrongcarecters</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : SignUpTest.FillNameWithWrongcarecters</span>
+                <span class="reporter-method-output">Completed executing following method : SignUpTest.FillNameWithWrongcarecters</span>
+                <span class="reporter-method-output">About to Success executing Suite FillNameWithWrongcarecters</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite FillNameWithWrongcarecters</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FillEmailWithoutDotCom</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : SignUpTest.FillEmailWithoutDotCom</span>
+                <span class="reporter-method-output">Completed executing following method : SignUpTest.FillEmailWithoutDotCom</span>
+                <span class="reporter-method-output">About to Success executing Suite FillEmailWithoutDotCom</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite FillEmailWithoutDotCom</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpClickable</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : SignUpTest.SignUpClickable</span>
+                <span class="reporter-method-output">Completed executing following method : SignUpTest.SignUpClickable</span>
+                <span class="reporter-method-output">About to Success executing Suite SignUpClickable</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite SignUpClickable</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FillEmailWitoutShtudel</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : SignUpTest.FillEmailWitoutShtudel</span>
+                <span class="reporter-method-output">Completed executing following method : SignUpTest.FillEmailWitoutShtudel</span>
+                <span class="reporter-method-output">About to Success executing Suite FillEmailWitoutShtudel</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite FillEmailWitoutShtudel</span>
+                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">BestMatchFemaleTest</span>
               <div class="reporter-method-output-div">
@@ -1721,32 +2108,6 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">DoSignUp</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : qwizTests.DoSignUp</span>
-                <span class="reporter-method-output">Completed executing following method : qwizTests.DoSignUp</span>
-                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
-                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
-                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">SelectHeight</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : qwizTests.SelectHeight</span>
-                <span class="reporter-method-output">Completed executing following method : qwizTests.SelectHeight</span>
-                <span class="reporter-method-output">About to Success executing Suite SelectHeight</span>
-                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite SelectHeight</span>
-                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">SelectHighlight</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">About to begin executing following method : qwizTests.SelectHighlight</span>
@@ -1755,19 +2116,6 @@ return data;
                 <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
                 <span class="reporter-method-output">Test Status: Pass</span>
                 <span class="reporter-method-output">About to Success executing Suite SelectHighlight</span>
-                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">SelectComfortZone</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : qwizTests.SelectComfortZone</span>
-                <span class="reporter-method-output">Completed executing following method : qwizTests.SelectComfortZone</span>
-                <span class="reporter-method-output">About to Success executing Suite SelectComfortZone</span>
-                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite SelectComfortZone</span>
                 <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
                 <span class="reporter-method-output">Test Status: Pass</span>
               </div> <!-- reporter-method-output-div -->
@@ -1786,6 +2134,19 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectClothingPreferences</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : qwizTests.SelectClothingPreferences</span>
+                <span class="reporter-method-output">Completed executing following method : qwizTests.SelectClothingPreferences</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectClothingPreferences</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectClothingPreferences</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">SelectSize</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">About to begin executing following method : qwizTests.SelectSize</span>
@@ -1794,19 +2155,6 @@ return data;
                 <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
                 <span class="reporter-method-output">Test Status: Pass</span>
                 <span class="reporter-method-output">About to Success executing Suite SelectSize</span>
-                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">FillNumberPhone</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : qwizTests.FillNumberPhone</span>
-                <span class="reporter-method-output">Completed executing following method : qwizTests.FillNumberPhone</span>
-                <span class="reporter-method-output">About to Success executing Suite FillNumberPhone</span>
-                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite FillNumberPhone</span>
                 <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
                 <span class="reporter-method-output">Test Status: Pass</span>
               </div> <!-- reporter-method-output-div -->
@@ -1825,6 +2173,19 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
+              <span class="reporter-method-name">DoSignUp</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : qwizTests.DoSignUp</span>
+                <span class="reporter-method-output">Completed executing following method : qwizTests.DoSignUp</span>
+                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">BookMajorCupon</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">About to begin executing following method : qwizTests.BookMajorCupon</span>
@@ -1838,27 +2199,14 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">SelectClothingPreferences</span>
+              <span class="reporter-method-name">FillNumberPhone</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : qwizTests.SelectClothingPreferences</span>
-                <span class="reporter-method-output">Completed executing following method : qwizTests.SelectClothingPreferences</span>
-                <span class="reporter-method-output">About to Success executing Suite SelectClothingPreferences</span>
+                <span class="reporter-method-output">About to begin executing following method : qwizTests.FillNumberPhone</span>
+                <span class="reporter-method-output">Completed executing following method : qwizTests.FillNumberPhone</span>
+                <span class="reporter-method-output">About to Success executing Suite FillNumberPhone</span>
                 <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
                 <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite SelectClothingPreferences</span>
-                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">SelectFabrics</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : qwizTests.SelectFabrics</span>
-                <span class="reporter-method-output">Completed executing following method : qwizTests.SelectFabrics</span>
-                <span class="reporter-method-output">About to Success executing Suite SelectFabrics</span>
-                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite SelectFabrics</span>
+                <span class="reporter-method-output">About to Success executing Suite FillNumberPhone</span>
                 <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
                 <span class="reporter-method-output">Test Status: Pass</span>
               </div> <!-- reporter-method-output-div -->
@@ -1877,6 +2225,110 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectBudget</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : qwizTests.SelectBudget</span>
+                <span class="reporter-method-output">Completed executing following method : qwizTests.SelectBudget</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectBudget</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectBudget</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectComfortZone</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : qwizTests.SelectComfortZone</span>
+                <span class="reporter-method-output">Completed executing following method : qwizTests.SelectComfortZone</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectComfortZone</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectComfortZone</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectFabrics</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : qwizTests.SelectFabrics</span>
+                <span class="reporter-method-output">Completed executing following method : qwizTests.SelectFabrics</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectFabrics</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectFabrics</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectHeight</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : qwizTests.SelectHeight</span>
+                <span class="reporter-method-output">Completed executing following method : qwizTests.SelectHeight</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectHeight</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectHeight</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectComfortZone</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : qwizMaleTests.SelectComfortZone</span>
+                <span class="reporter-method-output">Completed executing following method : qwizMaleTests.SelectComfortZone</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectComfortZone</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectComfortZone</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DoSignUp</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : qwizMaleTests.DoSignUp</span>
+                <span class="reporter-method-output">Completed executing following method : qwizMaleTests.DoSignUp</span>
+                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectHeight</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : qwizMaleTests.SelectHeight</span>
+                <span class="reporter-method-output">Completed executing following method : qwizMaleTests.SelectHeight</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectHeight</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectHeight</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SelectBudget</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">About to begin executing following method : qwizMaleTests.SelectBudget</span>
+                <span class="reporter-method-output">Completed executing following method : qwizMaleTests.SelectBudget</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectBudget</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectBudget</span>
+                <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">SelectSize</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">About to begin executing following method : qwizMaleTests.SelectSize</span>
@@ -1890,14 +2342,14 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">FillNumberPhone</span>
+              <span class="reporter-method-name">SelectColors</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : qwizMaleTests.FillNumberPhone</span>
-                <span class="reporter-method-output">Completed executing following method : qwizMaleTests.FillNumberPhone</span>
-                <span class="reporter-method-output">About to Success executing Suite FillNumberPhone</span>
+                <span class="reporter-method-output">About to begin executing following method : qwizMaleTests.SelectColors</span>
+                <span class="reporter-method-output">Completed executing following method : qwizMaleTests.SelectColors</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectColors</span>
                 <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
                 <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite FillNumberPhone</span>
+                <span class="reporter-method-output">About to Success executing Suite SelectColors</span>
                 <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
                 <span class="reporter-method-output">Test Status: Pass</span>
               </div> <!-- reporter-method-output-div -->
@@ -1916,27 +2368,14 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">SelectComfortZone</span>
+              <span class="reporter-method-name">FillNumberPhone</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : qwizMaleTests.SelectComfortZone</span>
-                <span class="reporter-method-output">Completed executing following method : qwizMaleTests.SelectComfortZone</span>
-                <span class="reporter-method-output">About to Success executing Suite SelectComfortZone</span>
+                <span class="reporter-method-output">About to begin executing following method : qwizMaleTests.FillNumberPhone</span>
+                <span class="reporter-method-output">Completed executing following method : qwizMaleTests.FillNumberPhone</span>
+                <span class="reporter-method-output">About to Success executing Suite FillNumberPhone</span>
                 <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
                 <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite SelectComfortZone</span>
-                <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">SelectHeight</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : qwizMaleTests.SelectHeight</span>
-                <span class="reporter-method-output">Completed executing following method : qwizMaleTests.SelectHeight</span>
-                <span class="reporter-method-output">About to Success executing Suite SelectHeight</span>
-                <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite SelectHeight</span>
+                <span class="reporter-method-output">About to Success executing Suite FillNumberPhone</span>
                 <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
                 <span class="reporter-method-output">Test Status: Pass</span>
               </div> <!-- reporter-method-output-div -->
@@ -1957,38 +2396,12 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">DoSignUp</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : qwizMaleTests.DoSignUp</span>
-                <span class="reporter-method-output">Completed executing following method : qwizMaleTests.DoSignUp</span>
+                <span class="reporter-method-output">About to begin executing following method : BookingCCTests.DoSignUp</span>
+                <span class="reporter-method-output">Completed executing following method : BookingCCTests.DoSignUp</span>
                 <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
-                <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
-                <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">SelectColors</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : qwizMaleTests.SelectColors</span>
-                <span class="reporter-method-output">Completed executing following method : qwizMaleTests.SelectColors</span>
-                <span class="reporter-method-output">About to Success executing Suite SelectColors</span>
-                <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite SelectColors</span>
-                <span class="reporter-method-output">Test Method resides in Tests.qwizMaleTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">BookMajorCreditCard</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : BookingCCTests.BookMajorCreditCard</span>
-                <span class="reporter-method-output">Completed executing following method : BookingCCTests.BookMajorCreditCard</span>
-                <span class="reporter-method-output">About to Success executing Suite BookMajorCreditCard</span>
                 <span class="reporter-method-output">Test Method resides in Tests.BookingCCTests</span>
                 <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite BookMajorCreditCard</span>
+                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
                 <span class="reporter-method-output">Test Method resides in Tests.BookingCCTests</span>
                 <span class="reporter-method-output">Test Status: Pass</span>
               </div> <!-- reporter-method-output-div -->
@@ -2007,353 +2420,15 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">DoSignUp</span>
+              <span class="reporter-method-name">BookMajorCreditCard</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : BookingCCTests.DoSignUp</span>
-                <span class="reporter-method-output">Completed executing following method : BookingCCTests.DoSignUp</span>
-                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
+                <span class="reporter-method-output">About to begin executing following method : BookingCCTests.BookMajorCreditCard</span>
+                <span class="reporter-method-output">Completed executing following method : BookingCCTests.BookMajorCreditCard</span>
+                <span class="reporter-method-output">About to Success executing Suite BookMajorCreditCard</span>
                 <span class="reporter-method-output">Test Method resides in Tests.BookingCCTests</span>
                 <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
+                <span class="reporter-method-output">About to Success executing Suite BookMajorCreditCard</span>
                 <span class="reporter-method-output">Test Method resides in Tests.BookingCCTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">BookMajorCupon</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : BookingCuponTests.BookMajorCupon</span>
-                <span class="reporter-method-output">Completed executing following method : BookingCuponTests.BookMajorCupon</span>
-                <span class="reporter-method-output">About to Success executing Suite BookMajorCupon</span>
-                <span class="reporter-method-output">Test Method resides in Tests.BookingCuponTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite BookMajorCupon</span>
-                <span class="reporter-method-output">Test Method resides in Tests.BookingCuponTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">DoSignUp</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : BookingCuponTests.DoSignUp</span>
-                <span class="reporter-method-output">Completed executing following method : BookingCuponTests.DoSignUp</span>
-                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
-                <span class="reporter-method-output">Test Method resides in Tests.BookingCuponTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
-                <span class="reporter-method-output">Test Method resides in Tests.BookingCuponTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">BookMiniCupon</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : BookingCuponTests.BookMiniCupon</span>
-                <span class="reporter-method-output">Completed executing following method : BookingCuponTests.BookMiniCupon</span>
-                <span class="reporter-method-output">About to Success executing Suite BookMiniCupon</span>
-                <span class="reporter-method-output">Test Method resides in Tests.BookingCuponTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite BookMiniCupon</span>
-                <span class="reporter-method-output">Test Method resides in Tests.BookingCuponTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">LoginWithFacbook</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : LoginWithFacbookTests.LoginWithFacbook</span>
-                <span class="reporter-method-output">Completed executing following method : LoginWithFacbookTests.LoginWithFacbook</span>
-                <span class="reporter-method-output">About to Success executing Suite LoginWithFacbook</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginWithFacbookTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite LoginWithFacbook</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginWithFacbookTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">LoginWithFacbookWrongUserName</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongUserName</span>
-                <span class="reporter-method-output">Completed executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongUserName</span>
-                <span class="reporter-method-output">About to Success executing Suite LoginWithFacbookWrongUserName</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginWithFacbookTestsFail</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite LoginWithFacbookWrongUserName</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginWithFacbookTestsFail</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">LoginWithFacbookWrongPassword</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongPassword</span>
-                <span class="reporter-method-output">Completed executing following method : LoginWithFacbookTestsFail.LoginWithFacbookWrongPassword</span>
-                <span class="reporter-method-output">About to Success executing Suite LoginWithFacbookWrongPassword</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginWithFacbookTestsFail</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite LoginWithFacbookWrongPassword</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginWithFacbookTestsFail</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">SignUpWithFacbookWrongPassword</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongPassword</span>
-                <span class="reporter-method-output">Completed executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongPassword</span>
-                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbookWrongPassword</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsFail</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbookWrongPassword</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsFail</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">SignUpWithFacbookWitOutEmail</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutEmail</span>
-                <span class="reporter-method-output">Completed executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutEmail</span>
-                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbookWitOutEmail</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsFail</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbookWitOutEmail</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsFail</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">SignUpWithFacbookWrongUserName</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongUserName</span>
-                <span class="reporter-method-output">Completed executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWrongUserName</span>
-                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbookWrongUserName</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsFail</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbookWrongUserName</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsFail</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">SignUpWithFacbookWitOutPassword</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutPassword</span>
-                <span class="reporter-method-output">Completed executing following method : SignUpByFacbookTestsFail.SignUpWithFacbookWitOutPassword</span>
-                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbookWitOutPassword</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsFail</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbookWitOutPassword</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsFail</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">SignUpWithFacbook</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook</span>
-                <span class="reporter-method-output">Completed executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook</span>
-                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbook</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsSucses</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite SignUpWithFacbook</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpByFacbookTestsSucses</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">SendChatToclient</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : ChatTests.SendChatToclient</span>
-                <span class="reporter-method-output">Completed executing following method : ChatTests.SendChatToclient</span>
-                <span class="reporter-method-output">About to Success executing Suite SendChatToclient</span>
-                <span class="reporter-method-output">Test Method resides in Tests.ChatTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite SendChatToclient</span>
-                <span class="reporter-method-output">Test Method resides in Tests.ChatTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">SendChatToStylist</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : ChatTests.SendChatToStylist</span>
-                <span class="reporter-method-output">Completed executing following method : ChatTests.SendChatToStylist</span>
-                <span class="reporter-method-output">About to Success executing Suite SendChatToStylist</span>
-                <span class="reporter-method-output">Test Method resides in Tests.ChatTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite SendChatToStylist</span>
-                <span class="reporter-method-output">Test Method resides in Tests.ChatTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">LoginAsStylist</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : ChatTests.LoginAsStylist</span>
-                <span class="reporter-method-output">Completed executing following method : ChatTests.LoginAsStylist</span>
-                <span class="reporter-method-output">About to Success executing Suite LoginAsStylist</span>
-                <span class="reporter-method-output">Test Method resides in Tests.ChatTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite LoginAsStylist</span>
-                <span class="reporter-method-output">Test Method resides in Tests.ChatTests</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">FillEmailWithOutToFillPassword</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : LoginTests2.FillEmailWithOutToFillPassword</span>
-                <span class="reporter-method-output">Completed executing following method : LoginTests2.FillEmailWithOutToFillPassword</span>
-                <span class="reporter-method-output">About to Success executing Suite FillEmailWithOutToFillPassword</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite FillEmailWithOutToFillPassword</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">FillCorrectPasswordWithWrongEmail</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : LoginTests2.FillCorrectPasswordWithWrongEmail</span>
-                <span class="reporter-method-output">Completed executing following method : LoginTests2.FillCorrectPasswordWithWrongEmail</span>
-                <span class="reporter-method-output">About to Success executing Suite FillCorrectPasswordWithWrongEmail</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite FillCorrectPasswordWithWrongEmail</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">DoLogin</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : LoginTests2.DoLogin</span>
-                <span class="reporter-method-output">Completed executing following method : LoginTests2.DoLogin</span>
-                <span class="reporter-method-output">About to Success executing Suite DoLogin</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite DoLogin</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">FillPasswordWithOutToFillEmail</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : LoginTests2.FillPasswordWithOutToFillEmail</span>
-                <span class="reporter-method-output">Completed executing following method : LoginTests2.FillPasswordWithOutToFillEmail</span>
-                <span class="reporter-method-output">About to Success executing Suite FillPasswordWithOutToFillEmail</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite FillPasswordWithOutToFillEmail</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">ClickLoginwWithOutToFillAnyFields</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : LoginTests2.ClickLoginwWithOutToFillAnyFields</span>
-                <span class="reporter-method-output">Completed executing following method : LoginTests2.ClickLoginwWithOutToFillAnyFields</span>
-                <span class="reporter-method-output">About to Success executing Suite ClickLoginwWithOutToFillAnyFields</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite ClickLoginwWithOutToFillAnyFields</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">LoginClickable</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : LoginTests2.LoginClickable</span>
-                <span class="reporter-method-output">Completed executing following method : LoginTests2.LoginClickable</span>
-                <span class="reporter-method-output">About to Success executing Suite LoginClickable</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite LoginClickable</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">FillCorrectEmailWithWrongPassword</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : LoginTests2.FillCorrectEmailWithWrongPassword</span>
-                <span class="reporter-method-output">Completed executing following method : LoginTests2.FillCorrectEmailWithWrongPassword</span>
-                <span class="reporter-method-output">About to Success executing Suite FillCorrectEmailWithWrongPassword</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite FillCorrectEmailWithWrongPassword</span>
-                <span class="reporter-method-output">Test Method resides in Tests.LoginTests2</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">SignUpClickable</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : SignUpTest.SignUpClickable</span>
-                <span class="reporter-method-output">Completed executing following method : SignUpTest.SignUpClickable</span>
-                <span class="reporter-method-output">About to Success executing Suite SignUpClickable</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite SignUpClickable</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">FillEmailWitoutShtudel</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : SignUpTest.FillEmailWitoutShtudel</span>
-                <span class="reporter-method-output">Completed executing following method : SignUpTest.FillEmailWitoutShtudel</span>
-                <span class="reporter-method-output">About to Success executing Suite FillEmailWitoutShtudel</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite FillEmailWitoutShtudel</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">FillEmailWithoutDotCom</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : SignUpTest.FillEmailWithoutDotCom</span>
-                <span class="reporter-method-output">Completed executing following method : SignUpTest.FillEmailWithoutDotCom</span>
-                <span class="reporter-method-output">About to Success executing Suite FillEmailWithoutDotCom</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite FillEmailWithoutDotCom</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">DoSignUp</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : SignUpTest.DoSignUp</span>
-                <span class="reporter-method-output">Completed executing following method : SignUpTest.DoSignUp</span>
-                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite DoSignUp</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">FillPsswordWithLessthan6Characters</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">About to begin executing following method : SignUpTest.FillPsswordWithLessthan6Characters</span>
-                <span class="reporter-method-output">Completed executing following method : SignUpTest.FillPsswordWithLessthan6Characters</span>
-                <span class="reporter-method-output">About to Success executing Suite FillPsswordWithLessthan6Characters</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
-                <span class="reporter-method-output">Test Status: Pass</span>
-                <span class="reporter-method-output">About to Success executing Suite FillPsswordWithLessthan6Characters</span>
-                <span class="reporter-method-output">Test Method resides in Tests.SignUpTest</span>
                 <span class="reporter-method-output">Test Status: Pass</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -2372,375 +2447,378 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Tests.BestMatchFemaleTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Tests.SignUpByFacbookTestsFail</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">BestMatchFemaleTest</span>
-                <span class="method-start">29158 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.BestMatchFluIDTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">216858 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">BestMatchFemaleTest</span>
-                <span class="method-start">249987 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.BestMatchHellowNoTests</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">437970 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">BestMatchHelloNo</span>
-                <span class="method-start">469519 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.BestMatchMaleTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">657473 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">BMExpensiveFeamle</span>
-                <span class="method-start">688991 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.StartHereFemaleTests</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">809049 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">StartHereFemaleTests</span>
-                <span class="method-start">841251 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.StartHereFFacbookTests</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">1034760 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">StartHereMaleTests</span>
-                <span class="method-start">1066729 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.StartHereFluIDTests</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">1269762 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">StartHereFluIDTests</span>
-                <span class="method-start">1301067 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.StartHereHelloNoTests</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">1493091 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">StartHereHelloNoTests</span>
-                <span class="method-start">1525282 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.StartHereMaleTests</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">1719160 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">StartHereMaleTests</span>
-                <span class="method-start">1751482 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.qwizTests</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">1876311 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">DoSignUp</span>
-                <span class="method-start">1909092 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">BookMajorCupon</span>
-                <span class="method-start">1979102 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SelectHeight</span>
-                <span class="method-start">2015529 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SelectColors</span>
-                <span class="method-start">2018018 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SelectHighlight</span>
-                <span class="method-start">2024670 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SelectClothingPreferences</span>
-                <span class="method-start">2030321 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SelectHeels</span>
-                <span class="method-start">2035845 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SelectFabrics</span>
-                <span class="method-start">2041206 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SelectSize</span>
-                <span class="method-start">2046731 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SelectComfortZone</span>
-                <span class="method-start">2053121 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SelectJEWELRY</span>
-                <span class="method-start">2058532 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">FillNumberPhone</span>
-                <span class="method-start">2067629 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.qwizMaleTests</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">2076820 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">DoSignUp</span>
-                <span class="method-start">2106175 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">BookMajorCupon</span>
-                <span class="method-start">2155817 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SelectHeight</span>
-                <span class="method-start">2192671 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SelectColors</span>
-                <span class="method-start">2194926 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SelectFabrics</span>
-                <span class="method-start">2201326 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SelectSize</span>
-                <span class="method-start">2206941 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SelectComfortZone</span>
-                <span class="method-start">2213421 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">FillNumberPhone</span>
-                <span class="method-start">2223400 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.BookingCCTests</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">2231939 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">DoSignUp</span>
-                <span class="method-start">2261737 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">BookMiniCreditCard</span>
-                <span class="method-start">2331923 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">BookMajorCreditCard</span>
-                <span class="method-start">2377730 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.BookingCuponTests</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">2417390 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">DoSignUp</span>
-                <span class="method-start">2447247 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">BookMajorCupon</span>
-                <span class="method-start">2518482 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">BookMiniCupon</span>
-                <span class="method-start">2556280 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.LoginWithFacbookTests</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">2591053 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">LoginWithFacbook</span>
-                <span class="method-start">2622407 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.LoginWithFacbookTestsFail</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">2637312 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">LoginWithFacbookWrongPassword</span>
-                <span class="method-start">2670842 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">LoginWithFacbookWrongUserName</span>
-                <span class="method-start">2682920 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.SignUpByFacbookTestsFail</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">2685629 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
                 <span class="method-name">SignUpWithFacbookWitOutEmail</span>
-                <span class="method-start">2715446 ms</span>
+                <span class="method-start">24704 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SignUpWithFacbookWitOutPassword</span>
-                <span class="method-start">2723490 ms</span>
+                <span class="method-start">33472 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SignUpWithFacbookWrongPassword</span>
-                <span class="method-start">2725555 ms</span>
+                <span class="method-start">37356 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SignUpWithFacbookWrongUserName</span>
-                <span class="method-start">2730080 ms</span>
+                <span class="method-start">45905 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.SignUpByFacbookTestsSucses</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">2734582 ms</span>
+                <span class="method-start">52682 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">SignUpWithFacbook</span>
-                <span class="method-start">2766155 ms</span>
+                <span class="method-start">77070 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.ChatTests</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">2780476 ms</span>
+                <span class="method-start">90134 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">LoginAsStylist</span>
-                <span class="method-start">2813278 ms</span>
+                <span class="method-start">114640 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SendChatToclient</span>
-                <span class="method-start">2818929 ms</span>
+                <span class="method-start">119530 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SendChatToStylist</span>
-                <span class="method-start">2880472 ms</span>
+                <span class="method-start">170269 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.LoginWithFacbookTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">215772 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithFacbook</span>
+                <span class="method-start">241176 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.LoginWithFacbookTestsFail</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">256041 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithFacbookWrongPassword</span>
+                <span class="method-start">284675 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginWithFacbookWrongUserName</span>
+                <span class="method-start">297681 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.LoginTests2</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">2928139 ms</span>
+                <span class="method-start">302205 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">LoginClickable</span>
-                <span class="method-start">2961138 ms</span>
+                <span class="method-start">327723 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">DoLogin</span>
-                <span class="method-start">2965423 ms</span>
+                <span class="method-start">330933 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">FillPasswordWithOutToFillEmail</span>
-                <span class="method-start">2970119 ms</span>
+                <span class="method-start">334849 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">FillEmailWithOutToFillPassword</span>
-                <span class="method-start">2974002 ms</span>
+                <span class="method-start">338416 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ClickLoginwWithOutToFillAnyFields</span>
-                <span class="method-start">2980127 ms</span>
+                <span class="method-start">343187 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">FillCorrectEmailWithWrongPassword</span>
-                <span class="method-start">2982801 ms</span>
+                <span class="method-start">345845 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">FillCorrectPasswordWithWrongEmail</span>
-                <span class="method-start">2990789 ms</span>
+                <span class="method-start">351920 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FillWrongCarectersEmail</span>
+                <span class="method-start">358569 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FillWrongCarectersPassword</span>
+                <span class="method-start">363636 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.SignUpTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">2997080 ms</span>
+                <span class="method-start">369102 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">SignUpClickable</span>
-                <span class="method-start">3028145 ms</span>
+                <span class="method-start">392583 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">FillEmailWitoutShtudel</span>
-                <span class="method-start">3029953 ms</span>
+                <span class="method-start">394248 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">FillEmailWithoutDotCom</span>
-                <span class="method-start">3037385 ms</span>
+                <span class="method-start">399130 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">FillPsswordWithLessthan6Characters</span>
-                <span class="method-start">3043507 ms</span>
+                <span class="method-start">402470 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FillNameWithWrongcarecters</span>
+                <span class="method-start">405820 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">DoSignUp</span>
-                <span class="method-start">3049393 ms</span>
+                <span class="method-start">410023 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.BestMatchFemaleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">414134 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">BestMatchFemaleTest</span>
+                <span class="method-start">439448 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.BestMatchFluIDTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">623870 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">BestMatchFemaleTest</span>
+                <span class="method-start">647171 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.BestMatchHellowNoTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">832244 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">BestMatchHelloNo</span>
+                <span class="method-start">856772 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.BestMatchMaleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1042092 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">BMExpensiveFeamle</span>
+                <span class="method-start">1067788 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.StartHereFemaleTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1170724 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">StartHereFemaleTests</span>
+                <span class="method-start">1194491 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.StartHereFFacbookTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1383908 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">StartHereMaleTests</span>
+                <span class="method-start">1408097 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.StartHereFluIDTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1606669 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">StartHereFluIDTests</span>
+                <span class="method-start">1629137 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.StartHereHelloNoTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1822176 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">StartHereHelloNoTests</span>
+                <span class="method-start">1849207 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.StartHereMaleTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2040222 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">StartHereMaleTests</span>
+                <span class="method-start">2063237 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.qwizTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2171512 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">DoSignUp</span>
+                <span class="method-start">2194910 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BookMajorCupon</span>
+                <span class="method-start">2261941 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectHeight</span>
+                <span class="method-start">2314124 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectColors</span>
+                <span class="method-start">2316613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectHighlight</span>
+                <span class="method-start">2322957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectClothingPreferences</span>
+                <span class="method-start">2328388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectHeels</span>
+                <span class="method-start">2333845 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectFabrics</span>
+                <span class="method-start">2339212 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectSize</span>
+                <span class="method-start">2344649 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectBudget</span>
+                <span class="method-start">2350917 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectComfortZone</span>
+                <span class="method-start">2357525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectJEWELRY</span>
+                <span class="method-start">2362916 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FillNumberPhone</span>
+                <span class="method-start">2371889 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.qwizMaleTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2380593 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">DoSignUp</span>
+                <span class="method-start">2403681 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BookMajorCupon</span>
+                <span class="method-start">2457392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectHeight</span>
+                <span class="method-start">2511150 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectColors</span>
+                <span class="method-start">2513439 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectFabrics</span>
+                <span class="method-start">2519711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectSize</span>
+                <span class="method-start">2525109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectBudget</span>
+                <span class="method-start">2531015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectComfortZone</span>
+                <span class="method-start">2537619 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FillNumberPhone</span>
+                <span class="method-start">2546664 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.BookingCCTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2555273 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">DoSignUp</span>
+                <span class="method-start">2577282 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BookMiniCreditCard</span>
+                <span class="method-start">2644376 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BookMajorCreditCard</span>
+                <span class="method-start">2695803 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

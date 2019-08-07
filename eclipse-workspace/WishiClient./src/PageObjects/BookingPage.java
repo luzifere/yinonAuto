@@ -24,7 +24,7 @@ public class BookingPage extends BasePage {
 	@FindBy(xpath="//*[@name='Love all your ideas!'][1]")
 	WebElement LoveIteme;
 
-	@FindBy(xpath="//*[@name='Send Mood Board']")
+	@FindBy(xpath="//*[@name='Send']")
 	WebElement SendMoodBoard;
 
 	@FindBy(id="Toolbar Done Button")
@@ -115,8 +115,12 @@ public class BookingPage extends BasePage {
 	WebElement NextButtonID;
 	@FindBy(xpath="//*[@name='MOODBOARDS']")
 	WebElement MoodBordTab;
+	@FindBy(xpath="//*[@name='MessageCounterViewID']")
+	WebElement MessageCounter;
 	@FindBy(xpath="//*[@name='LOOKS']")
 	WebElement LooksTab;
+	@FindBy(xpath="//*[@name='Toolbar Done Button']")
+	WebElement Done;
 	//@FindBy(xpath="//*[@name='Submit']")
 	@FindBy(id="Submit")
 	WebElement Submit;
@@ -129,6 +133,12 @@ public class BookingPage extends BasePage {
 		Sleep(170);
 		click(DoneButtonID);
 		WaitElementDisplay(By.xpath("//*[@name='Feed']"));
+	}
+	public void ClickMessageCounter() 
+	{
+		Sleep(170);
+		click(MessageCounter);
+		Sleep(170);
 	}
 	public void ClickFourButtonID() 
 	{
@@ -205,22 +215,22 @@ public class BookingPage extends BasePage {
 		//loveitem.click();
 
 		Sleep(200);
-		WaitElementDisplay(By.id("WriteMessageID"));
+		WaitElementDisplay(By.id("Write a message..."));
 	}
 	public void ClickLoveOutfit() 
 	{
 		Sleep(170);
-		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='I love this outfit']"));
+		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Love it!']"));
 		//List<WebElement> elements= driver.findElements(By.id("I love this outfit"));
 		System.out.println(elements);
 		int count=elements.size();
 		Sleep(170);
 		String last =	elements.get(count-1).getText();
 		System.out.println(last);
-		Sleep(170);
+		Sleep(150);
 		elements.get(count-1).click();
 		Sleep(200);
-		WaitElementDisplay(By.id("WriteMessageID"));
+		WaitElementDisplay(By.id("Write a message..."));
 	}
 	public void ClickLoveAllOfThis() 
 	{
@@ -235,16 +245,16 @@ public class BookingPage extends BasePage {
 		Sleep(170);
 		elements.get(count-1).click();
 		Sleep(200);
-		WaitElementDisplay(By.id("WriteMessageID"));
+		WaitElementDisplay(By.id("Write a message..."));
 	}
 	public void ClickCreateLook() 
 	{
-		Sleep(170);
+		Sleep(250);
 		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Create Look']"));
 		//List<WebElement> elements= driver.findElements(By.id("Create Look"));
 		System.out.println(elements);
 		int count=elements.size();
-		Sleep(170);
+		Sleep(250);
 		String last =	elements.get(count-1).getText();
 		System.out.println(last);
 		elements.get(count-1).click();
@@ -305,13 +315,14 @@ public class BookingPage extends BasePage {
 	{
 
 		Sleep(170);
-
+/*
 		scrollUp();
 		scrollUp();
 		scrollDownXpath();
 		scrollDownXpath();
+		*/
 		scrollDownXpath();
-		List<WebElement> elements= driver.findElements(By.xpath("//*[@name=concat('I', \"'\", 'd like to revise the look')]"));
+		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Revise it']"));
 		//List<WebElement> elements= driver.findElements(By.id("I', \\\"'\\\", 'd like to revise the look"));
 		System.out.println(elements);
 		int count=elements.size();
@@ -325,7 +336,7 @@ public class BookingPage extends BasePage {
 	public void ClickSendReviseClient() 
 	{
 		Sleep(170);
-		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='SendButtonID']"));
+		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Submit']"));
 		//List<WebElement> elements= driver.findElements(By.id("SendButtonID"));
 		System.out.println(elements);
 		int count=elements.size();
@@ -351,7 +362,7 @@ public class BookingPage extends BasePage {
 	}
 	public void ApproveEndSession() 
 	{
-		Sleep(170);
+		Sleep(250);
 		//List<WebElement> elements= driver.findElements(By.xpath("//*[@name='YesThanksButtonID']"));
 		List<WebElement> elements= driver.findElements(By.id("YesThanksButtonID"));
 		System.out.println(elements);
@@ -362,16 +373,20 @@ public class BookingPage extends BasePage {
 		Sleep(170);
 		elements.get(count-1).click();
 		Sleep(500);
-		WaitElementDisplay(By.xpath("//*[@name='Rating']"));
+		WaitElementDisplay(By.xpath("(//*[@name='Rating'])[1]"));
 	}
 
 	public void FillDescription(String description ) 
 	{
 		Sleep(170);
-		click(MBDescription);
-		clear(Description);
-		filltext(Description, description);
-		click(SaveDescription);
+		//click(MBDescription);
+		Sleep(170);
+		SelectImage3(264,564);
+		Sleep(170);
+		clear(MBDescription);
+		filltext(MBDescription, description);
+		click(Done);
+		//click(SaveDescription);
 		Sleep(170);
 	}
 	public void FillLookDescription(String description ) 
@@ -395,7 +410,7 @@ public class BookingPage extends BasePage {
 	public void ClickSendMoodBoard() 
 	{		
 		Sleep(250);
-		WaitElementDisplay(By.xpath("//*[@name='Send Mood Board']"));
+		WaitElementDisplay(By.xpath("//*[@name='Send']"));
 		click(SendMoodBoard);
 		Sleep(150);
 		//WaitElementNotDisplay(By.xpath("//*[@name='Send Mood Board']"));
@@ -460,13 +475,13 @@ public class BookingPage extends BasePage {
 		click(RateStylist);
 		WaitElementDisplay(By.xpath("//*[@name='Your review will be public']"));
 		click(NextButtonID);
-		WaitElementDisplay(By.xpath("//*[@name='Add a tip']"));
+		WaitElementDisplay(By.xpath("//*[@name='FourButtonID']"));
 	}
 	public void ClickSubmit()
 	{		
 		Sleep(200);
 		click(Submit);
-		WaitElementDisplay(By.id("WriteMessageID"));
+		WaitElementDisplay(By.id("Write a message..."));
 		//Sleep(700);
 	}
 	public void ClickChatButton()
@@ -584,5 +599,13 @@ public class BookingPage extends BasePage {
 		click(close_menu4Button);
 		Sleep(170);
 	}
+	public void SelectItem(String item)
+	{
+		String PlusElemet = ("(//*[@name='itemCellID'])[Text1]");
+		PlusElemet = PlusElemet.replace("Text1", item);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
+	}
+	
 
 }

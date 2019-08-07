@@ -27,7 +27,7 @@ public class LoginPages2 extends BasePage
 	@FindBy(xpath="//div//input[@id='signInPass']")
 	WebElement password;
 	
-	@FindBy(xpath="//div//input[@value='Log in']")
+	@FindBy(xpath="//div//input[@value='Sign in']")
 	WebElement LoginButtonOfModel; 
 			
 	@FindBy(xpath="//div//input[@value='�����']")
@@ -39,7 +39,7 @@ public class LoginPages2 extends BasePage
 	@FindBy(xpath="//div//input[@id='signInRemember']")
 	WebElement RememberMe;
 	
-	@FindBy(xpath="//div[@class='fb ng-binding ng-isolate-scope']")
+	@FindBy(xpath="//div[@class='sign-facebook']")
 	WebElement LoginWithFacbook;
 	
 	@FindBy(xpath="//div//input[@id='m_login_email']")
@@ -109,6 +109,7 @@ public class LoginPages2 extends BasePage
 	
 	public void ClickLoginWithFacbook() 
 	{
+		scrollDown();
 		click(LoginWithFacbook);
 	}
 	

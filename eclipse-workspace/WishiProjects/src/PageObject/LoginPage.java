@@ -27,7 +27,7 @@ public class LoginPage extends BasePage
 		@FindBy(xpath="//div//input[@id='signInPass']")
 		WebElement password;
 		
-		@FindBy(xpath="//div//input[@value='Log in']")
+		@FindBy(xpath="//div//input[@value='Sign in']")
 		WebElement LoginButtonOfModel; 
 				
 		@FindBy(xpath="//div//input[@value='�����']")

@@ -48,7 +48,7 @@ public class ChatTests extends BaseTest1
 		chat.ClickOnLogOut();
 		LoginPages2 login = new LoginPages2(driver);
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		//Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
 		login.doLogin("clientchat@wishi.com", "123456");
 		login.Sleep(250);
 		chat.RefreshPage();

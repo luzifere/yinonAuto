@@ -15,11 +15,11 @@ public class SignUpPage extends BasePage {
 	WebElement userName;
 	@FindBy(xpath="//div//input[@id='signUpPass']")
 	WebElement password;
-	@FindBy(xpath="//div//input[@id='signUpFirstName']")
+	@FindBy(xpath="//div//input[@id='signUpFullName']")
 	WebElement FirstName;
 	@FindBy(xpath="//div//input[@id='signUpLastName']")
 	WebElement LastName;
-	@FindBy(xpath="//div//input[@class='sign-up-btn ng-scope']")
+	@FindBy(xpath="//div//button[@class='sign-up-btn']")
 	WebElement SignUpBtn;
 	@FindBy(xpath="//div//div[@class='closeXLeft ng-scope']")
 	WebElement CloseBtn;
@@ -43,21 +43,21 @@ public class SignUpPage extends BasePage {
 		super(_driver);
 		// TODO Auto-generated constructor stub
 	}
-	public void doSignUp(String user,String firstname,String lastname,String pass)
-	{
-		ExplicityWaitIsClickable(By.xpath("//div//input[@id='signUpEmail']"));
-		filltext(userName, user);
-		filltext(FirstName, firstname);
-		filltext(LastName, lastname);
-		filltext(password, pass);
-		click(SignUpBtn);			
-	} 
-	public void doSignUpSH(String user,String firstname,String lastname,String pass)
+	public void doSignUp(String user,String firstname,String pass)
 	{
 		//ExplicityWaitIsClickable(By.xpath("//div//input[@id='signUpEmail']"));
 		filltext(userName, user);
 		filltext(FirstName, firstname);
-		filltext(LastName, lastname);
+		//filltext(LastName, lastname);
+		filltext(password, pass);
+		click(SignUpBtn);			
+	} 
+	public void doSignUpSH(String user,String firstname,String pass)
+	{
+		//ExplicityWaitIsClickable(By.xpath("//div//input[@id='signUpEmail']"));
+		filltext(userName, user);
+		filltext(FirstName, firstname);
+		//filltext(LastName, lastname);
 		filltext(password, pass);
 		click(SignUpBtn);			
 	} 

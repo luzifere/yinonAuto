@@ -19,7 +19,7 @@ public class LoginPages2 extends BasePage
 	@FindBy(xpath="//div[text()[contains(.,'Email is required.')]]")
 	WebElement Emailisrequired;
 	
-	@FindBy(xpath="//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']")
+	@FindBy(xpath="//div[@class='log-in']")
 	WebElement btnLogin;
 
 	@FindBy(xpath="//div//input[@id='signInEmail']")

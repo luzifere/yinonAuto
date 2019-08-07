@@ -69,7 +69,7 @@ public class StartHereExpensiveFemaleMatchTests extends BaseTest
 		best.ClickTagsNextButton();
 		best.Selectbrands("2");
 		best.ClickTagsNextButton();
-		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon", "av", "ab1565");
+		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon av", "ab1565");
 		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'SEE MORE')]]"));
 		//best.ClickMoreStylistsButton();
 	

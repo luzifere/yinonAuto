@@ -16,9 +16,9 @@ public class LoginTests2 extends BaseTest
 	{
 		LoginPages2 login = new LoginPages2(driver);
 		login.ClickLoginButton();
-		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Log in']"));
+		Assert.assertTrue(login.ElementDisplay("//div//input[@value='Sign in']"));
 		login.Closebuttonoflogin();
-		LoginPages2.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
+		LoginPages2.ExplicityWaitIsClickable(By.xpath("//div[@class='log-in']"));
 	}	
 	
 	@Test(priority = 2,groups={"sanity-group"})
@@ -27,7 +27,7 @@ public class LoginTests2 extends BaseTest
 		LoginPages2 login = new LoginPages2(driver);
 		login.doLogin("yinon@@wishi.me", "156523784");
 		login.Closebuttonoflogin();
-		LoginPages2.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
+		LoginPages2.ExplicityWaitIsClickable(By.xpath("//div[@class='log-in']"));
 	}	
 	
 	@Test(priority = 3,groups={"sanity-group"})
@@ -40,7 +40,7 @@ public class LoginTests2 extends BaseTest
 		login.Clickloginbuttonn();
 		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Email is required.')]]"));	
 		login.Closebuttonoflogin();
-		LoginPages2.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
+		LoginPages2.ExplicityWaitIsClickable(By.xpath("//div[@class='log-in']"));
 	}
 	
 	@Test(priority = 4,groups={"sanity-group"})
@@ -53,7 +53,7 @@ public class LoginTests2 extends BaseTest
 		login.Clickloginbuttonn();
 		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Password is required.')]]"));
 		login.Closebuttonoflogin();
-		LoginPages2.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
+		LoginPages2.ExplicityWaitIsClickable(By.xpath("//div[@class='log-in']"));
 	}
 	
 	@Test(priority = 5,groups={"sanity-group"})
@@ -66,7 +66,7 @@ public class LoginTests2 extends BaseTest
 		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Password is required.')]]"));
 		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Email is required.')]]"));
 		login.Closebuttonoflogin();
-		LoginPages2.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
+		LoginPages2.ExplicityWaitIsClickable(By.xpath("//div[@class='log-in']"));
 	}
 	@Test(priority = 6,groups={"sanity-group"})
 	public void FillCorrectEmailWithWrongPassword() 
@@ -77,9 +77,9 @@ public class LoginTests2 extends BaseTest
 		login.Fillusername("yinon@wishi.me");
 		login.Fillpassword("123123123");
 		login.Clickloginbuttonn();
-		Assert.assertTrue(login.ElementDisplay("//div[@class='invalid-form ng-binding ng-scope']"));
+		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'The password you entered is incorrect')]]"));
 		login.Closebuttonoflogin();
-		LoginPages2.ExplicityWaitIsClickable(By.xpath("//div[@class='logged-in-header-container ng-scope']//div[@class='log-in']"));
+		LoginPages2.ExplicityWaitIsClickable(By.xpath("//div[@class='log-in']"));
 	}
 	@Test(priority = 7,groups={"sanity-group"})
 	public void FillCorrectPasswordWithWrongEmail() 
@@ -90,7 +90,7 @@ public class LoginTests2 extends BaseTest
 		login.Fillusername("yinong@wishi.me");
 		login.Fillpassword("156523784");
 		login.Clickloginbuttonn();
-		Assert.assertTrue(login.ElementDisplay("//div[@class='invalid-form ng-binding ng-scope']"));
+		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Invalid email')]]"));
 		login.Closebuttonoflogin();
 	}
 

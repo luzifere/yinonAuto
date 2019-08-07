@@ -24,7 +24,7 @@ public class BestMatchPage extends BasePage
 	WebElement Year;
 	@FindBy(xpath="//div//button[@class='btn-start']")
 	WebElement ContinueButton;
-	@FindBy(xpath="(//div//button[@class='get-your-style hidden-sm hidden-xs'])[1]")	
+	@FindBy(xpath="//div[@class='main-content text-center']//button[@class='get-your-style hidden-sm']")	
 	//@FindBy(xpath="//div[text()[contains(.,'GET STARTED >')]]")
 	WebElement StartHere;
 	@FindBy(xpath="//div[@class='get-your-style ng-binding']")
@@ -200,7 +200,7 @@ public class BestMatchPage extends BasePage
 		try
 		 
 		 {
-			Sleep(100);
+			Sleep(200);
 			String GoalElemet = ("(//span[text()[contains(.,'LOVE IT!')]])[text1]");
 			GoalElemet = GoalElemet.replace("text1", inspiration);
 			WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
@@ -222,7 +222,7 @@ public class BestMatchPage extends BasePage
 		try
 		 
 		 {
-			Sleep(100);
+			Sleep(200);
 			String GoalElemet = ("(//span[text()[contains(.,'HELL NO!')]])[text1]");
 			GoalElemet = GoalElemet.replace("text1", inspiration);
 			WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
@@ -244,7 +244,7 @@ public class BestMatchPage extends BasePage
 		try
 		 
 		 {
-			Sleep(100);
+			Sleep(200);
 			String GoalElemet = ("(//span[text()[contains(.,'SOMETIMES')]])[text1]");
 			GoalElemet = GoalElemet.replace("text1", inspiration);
 			WebElement GoalButton = driver.findElement(By.xpath(GoalElemet));
@@ -414,7 +414,7 @@ public class BestMatchPage extends BasePage
 		 
 		 {
 
-			WaitElementDisplay(By.xpath("(//div//button[@class='get-your-style hidden-sm hidden-xs'])[1]"));
+			WaitElementDisplay(By.xpath("(//div[@class='main-content text-center']//button[@class='get-your-style hidden-sm'])[1]"));
 			//WaitElementDisplay(By.xpath("//div[text()[contains(.,'GET STARTED >')]]"));
 			Sleep(100);
 			click(StartHere);

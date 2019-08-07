@@ -21,7 +21,7 @@ public class OnBoadingTests2 extends BaseTest1
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitestttt@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishitestttt@wishi.com" + number, "inon bb av", "ab1565");
 		PageObejecs.SignUpPage.ExplicityWaitIsClickable(By.xpath("//div//button[@type='submit']"));
 	}
 	@Test(priority = 2,groups={"sanity-group"})
@@ -33,7 +33,7 @@ public class OnBoadingTests2 extends BaseTest1
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitestttt@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishitestttt@wishi.com" + number, "inon bb av", "ab1565");
 		PageObejecs.SignUpPage.ExplicityWaitIsClickable(By.xpath("//div//button[@type='submit']"));
 		PageObejecs.OnBoardingPage2 ob = new PageObejecs.OnBoardingPage2(driver);
 		ob.SelectGender("Female");
@@ -64,7 +64,7 @@ public class OnBoadingTests2 extends BaseTest1
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitestttt@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishitestttt@wishi.com" + number, "inon bb av", "ab1565");
 		PageObejecs.SignUpPage.ExplicityWaitIsClickable(By.xpath("//div//button[@type='submit']"));
 		PageObejecs.OnBoardingPage2 ob = new PageObejecs.OnBoardingPage2(driver);
 		ob.SelectGender("Female");
@@ -96,7 +96,7 @@ public class OnBoadingTests2 extends BaseTest1
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitestttt@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishitestttt@wishi.com" + number, "inon bb av", "ab1565");
 		PageObejecs.SignUpPage.ExplicityWaitIsClickable(By.xpath("//div//button[@type='submit']"));
 		PageObejecs.OnBoardingPage2 ob = new PageObejecs.OnBoardingPage2(driver);
 		ob.SelectGender("Female");
@@ -128,7 +128,7 @@ public class OnBoadingTests2 extends BaseTest1
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitestttt@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishitestttt@wishi.com" + number, "inon bb av", "ab1565");
 		PageObejecs.SignUpPage.ExplicityWaitIsClickable(By.xpath("//div//button[@type='submit']"));
 		PageObejecs.OnBoardingPage2 ob = new PageObejecs.OnBoardingPage2(driver);
 		ob.SelectGender("Male");
@@ -160,7 +160,7 @@ public class OnBoadingTests2 extends BaseTest1
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitestttt@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishitestttt@wishi.com" + number, "inon bb av", "ab1565");
 		PageObejecs.SignUpPage.ExplicityWaitIsClickable(By.xpath("//div//button[@type='submit']"));
 		PageObejecs.OnBoardingPage2 ob = new PageObejecs.OnBoardingPage2(driver);
 		ob.SelectGender("Male");
@@ -192,7 +192,7 @@ public class OnBoadingTests2 extends BaseTest1
 		for (int counter = 1000; counter<=100000;counter++)
 			number = num.nextInt(2500);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitestttt@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishitestttt@wishi.com" + number, "inon bb av", "ab1565");
 		PageObejecs.SignUpPage.ExplicityWaitIsClickable(By.xpath("//div//button[@type='submit']"));
 		PageObejecs.OnBoardingPage2 ob = new PageObejecs.OnBoardingPage2(driver);
 		ob.SelectGender("Male");

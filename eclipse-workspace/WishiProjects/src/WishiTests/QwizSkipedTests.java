@@ -26,7 +26,7 @@ public class QwizSkipedTests extends BaseTest
 		for (int counter = 5800000; counter<=10000000;counter++)
 			number = num.nextInt(700000);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitesttr@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishitesttr@wishi.com" + number, "inon bb av", "ab1565");
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();
@@ -44,7 +44,7 @@ public class QwizSkipedTests extends BaseTest
 		best.SelectHELLONO("10");
 		best.Selectbrands("2");
 		best.ClickMeetMyMatch();
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
+		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
 		//best.ClickMoreStylistsButton();
 	}
 	@Test(priority = 2,groups={"sanity-group"})
@@ -72,6 +72,7 @@ public class QwizSkipedTests extends BaseTest
 		qwiz.ClickSkip();
 		qwiz.ClickSkip();
 		qwiz.ClickNext();
+		qwiz.ClickSkip();
 		qwiz.ClickSkip();
 		qwiz.ClickSkip();
 		qwiz.ClickNext();

@@ -95,8 +95,8 @@ public class StartHereFFacbookTests extends BaseTest
 		driver.switchTo().window(winhandleBefore);
 		//signup.switchWindow();
 		
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'view more stylists')]]"));
+		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div[text()[contains(.,'Your Stylist Match!')]]"));
 		best.Sleep(300);
 		best.close();
 

@@ -119,6 +119,7 @@ public class CrateLookPage extends BasePage {
 
 	public void ClickShop() 
 	{
+		Sleep(200);
 		BasePage.ExplicityWaitIsClickable(By.xpath("//div//li//a[text()[contains(.,'Shop')]]"));
 		WaitElementDisplay(By.xpath("(//div[@class='webDisplaySection-catalog']//div[@ng-drag-data='item'])[8]"));
 	}

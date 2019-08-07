@@ -71,6 +71,34 @@ public class QwizPage extends BasePage {
     	WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
     	click(BrandsTabs);
     }
+	public void SelectBlouses(String brand)
+    {
+    	String BrandsElemet = ("//div//label[@for='Blouses_Text1']");
+    	BrandsElemet = BrandsElemet.replace("Text1", brand);
+    	WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
+    	click(BrandsTabs);
+    }
+	public void SelectBottoms(String brand)
+    {
+    	String BrandsElemet = ("//div//label[@for='Bottoms_Text1']");
+    	BrandsElemet = BrandsElemet.replace("Text1", brand);
+    	WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
+    	click(BrandsTabs);
+    }
+	public void SelectShoes(String brand)
+    {
+    	String BrandsElemet = ("//div//label[@for='Shoes_Text1']");
+    	BrandsElemet = BrandsElemet.replace("Text1", brand);
+    	WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
+    	click(BrandsTabs);
+    }
+	public void SelectBags(String brand)
+    {
+    	String BrandsElemet = ("//div//label[@for='Bags_Text1']");
+    	BrandsElemet = BrandsElemet.replace("Text1", brand);
+    	WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
+    	click(BrandsTabs);
+    }
     	public void selectBudget(int num)
     	{
     		Select budget = new Select (driver.findElement(By.xpath("//div//select[@name='budget--quiz']")));

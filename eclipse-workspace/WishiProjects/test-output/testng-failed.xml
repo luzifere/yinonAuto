@@ -3,13 +3,30 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WishiTests.SignUpByFacbook">
+      <class name="WishiTests.BookMajorSingleTests">
         <methods>
+          <include name="CreateLook2"/>
           <include name="tearDown"/>
-          <include name="SignUpWithFacbook"/>
+          <include name="VerifyEndSession"/>
+          <include name="VerifyMoodBoard"/>
           <include name="setup"/>
+          <include name="AskEndSession"/>
+          <include name="ClientEndSession"/>
+          <include name="CreateLook3"/>
+          <include name="CreateLook4"/>
+          <include name="CreateLook5"/>
+          <include name="CreatePS"/>
+          <include name="LoginAsStylist"/>
+          <include name="AskRevise"/>
+          <include name="VerifyLook5"/>
+          <include name="CreateMoodBoard"/>
+          <include name="VerifyLook4"/>
+          <include name="CreateLook1"/>
+          <include name="VerifyLook3"/>
+          <include name="VerifyLook2"/>
+          <include name="VerifyLook1"/>
         </methods>
-      </class> <!-- WishiTests.SignUpByFacbook -->
+      </class> <!-- WishiTests.BookMajorSingleTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

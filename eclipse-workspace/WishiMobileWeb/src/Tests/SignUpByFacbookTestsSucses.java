@@ -19,8 +19,8 @@ public class SignUpByFacbookTestsSucses extends BaseTest1
 		signup.ConnectWithFB();
 		signup.Sleep(200);
 		signup.switchWindow();	
-		signup.FillusernameOfFacbook("luzifere@gmail.com");
-		signup.FillPasswordOfFacbook("inonab1565");
+		signup.FillusernameOfFacbook("yinonwishifb@gmail.com");
+		signup.FillPasswordOfFacbook("Wishime1");
 		signup.scrollDown();
 		signup.ClickLoginButtonOfFacbook();
 		signup.Sleep(300);

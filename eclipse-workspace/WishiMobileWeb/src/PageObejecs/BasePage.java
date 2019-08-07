@@ -60,12 +60,14 @@ public class BasePage
 		WebElement webElement= driver.findElement(By.xpath(elementString));
 		webElement.isDisplayed();
 	}
+	/*
 	public boolean ElementDisplay(String elementString) 
 	{		
 		ElementIsDisplyed(elementString);
 
 		return true;
 	}
+	*/
 	public static void ExplicityWaitIsClickable(By by) 
 	{ for (int i=0;i<10;i++) 
 		try 
@@ -204,5 +206,16 @@ public class BasePage
 		WebElement fr = driver.findElement(By.xpath("//iframe[@title='Secure payment input frame']"));
 		driver.switchTo().frame(fr);
 
+	}
+	public static boolean ElementDisplay(String elementString) 
+	{	
+		WebElement webElement= driver.findElement(By.xpath(elementString));
+				
+		if(!webElement.isDisplayed())
+		{
+			return false;
+		}
+		return true;
+		//return ElementIsDisplyed(elementString);
 	}
 }

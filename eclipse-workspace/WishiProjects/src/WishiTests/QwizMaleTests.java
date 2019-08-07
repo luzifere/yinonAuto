@@ -33,7 +33,7 @@ public class QwizMaleTests extends BaseTest
 		for (int counter = 5800000; counter<=10000000;counter++)
 			number = num.nextInt(700000);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitesttr@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishitesttr@wishi.com" + number, "inon bb av", "ab1565");
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickMale();
@@ -45,8 +45,8 @@ public class QwizMaleTests extends BaseTest
 		best.SelectHELLONO("6");
 		best.Selectbrands("1");
 		best.ClickMeetMyMatch();
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
+		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
+		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
 		//best.ClickMoreStylistsButton();
 	}
 	@Test(priority = 2,groups={"sanity-group"})
@@ -77,7 +77,7 @@ public class QwizMaleTests extends BaseTest
 		QwizPage qwiz = new QwizPage(driver);
 		qwiz.SelectTab("Slim");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'2 OF 6')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'2 OF 7')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'HEIGHT')]]"));
 	}
 	@Test(priority = 5,groups={"sanity-group"})
@@ -86,7 +86,7 @@ public class QwizMaleTests extends BaseTest
 		QwizPage qwiz = new QwizPage(driver);
 		qwiz.SelectTab("Tall");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'2 OF 6')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'2 OF 7')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'COLORS')]]"));
 	}
 	@Test(priority = 6,groups={"sanity-group"})
@@ -99,7 +99,7 @@ public class QwizMaleTests extends BaseTest
 		qwiz.SelectColors("3");
 		qwiz.SelectColors("4");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'3 OF 6')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'3 OF 7')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'FABRICS')]]"));
 	}
 	//@Test(priority = 7,groups={"sanity-group"})
@@ -140,7 +140,7 @@ public class QwizMaleTests extends BaseTest
 		qwiz.ClickNext();
 		qwiz.SelectTab("Wool");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'4 OF 6')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'4 OF 7')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'SIZE')]]"));
 	}
 	//@Test(priority = 11,groups={"sanity-group"})
@@ -167,7 +167,22 @@ public class QwizMaleTests extends BaseTest
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 		qwiz.ClickMinus("4");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'5 OF 6')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'5 OF 7')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'BUDGET')]]"));
+	}
+	@Test(priority = 13,groups={"sanity-group"})
+	public void SelectBudget ()
+	{
+		QwizPage qwiz = new QwizPage(driver);
+		qwiz.ClickBack();
+		qwiz.ClickNext();
+		qwiz.SelectBlouses("0");
+		qwiz.SelectBottoms("0");
+		qwiz.SelectShoes("0");
+		qwiz.scrollDown();
+		qwiz.SelectBags("0");
+		qwiz.ClickNext();
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'6 OF 7')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'COMFORT ZONE')]]"));
 	}
 	@Test(priority = 13,groups={"sanity-group"})
@@ -175,10 +190,11 @@ public class QwizMaleTests extends BaseTest
 	{
 		QwizPage qwiz = new QwizPage(driver);
 		qwiz.ClickBack();
+		qwiz.SelectBlouses("1");
 		qwiz.ClickNext();
 		qwiz.SelectTab("Close to my style");
 		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'6 OF 6')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'7 OF 7')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[@class='step-title ng-binding']"));
 	}
 	//@Test(priority = 14,groups={"sanity-group"})

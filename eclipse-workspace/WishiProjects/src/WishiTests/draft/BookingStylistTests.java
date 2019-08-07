@@ -34,7 +34,7 @@ public class BookingStylistTests extends BaseTest
 		for (int counter = 5800000; counter<=10000000;counter++)
 			number = num.nextInt(700000);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishites111@wishi.com" + number, "inon", "av", "ab1565");
+		signup.doSignUp("wishites111@wishi.com" + number, "inon bb av", "ab1565");
 		
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();

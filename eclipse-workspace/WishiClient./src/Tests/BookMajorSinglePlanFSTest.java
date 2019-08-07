@@ -32,7 +32,7 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@Automation.com");
+		login.Fillusername("yinontesting1@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -47,7 +47,7 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		search.ClickSearch();
 		search.FillStylist("stylistt book");
 		search.Sleep(200);
-		search.SelectStylist("//*[@name='stylistt book']");
+		search.SelectStylist("//*[@name='Stylistt Book']");
 	}	
 	@Test(priority = 3,groups={"sanity-group"})
 	public void SelectPlan() 
@@ -69,11 +69,11 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		co.Sleep(200);
 		co.ClickDoneOfCode();
 		co.ClickApplePayButton();
-		co.ClickTakeYourStyleQwiz();
+		//co.ClickTakeYourStyleQwiz();
 
 	}
 
-	@Test(priority = 5,groups={"sanity-group"})
+	//@Test(priority = 5,groups={"sanity-group"})
 	public void CompileBooking()
 	{
 		QuizPage quiz = new QuizPage(driver);
@@ -138,7 +138,7 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@Automation.com");
+		login.Fillusername("yinontesting1@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -147,9 +147,9 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
-		chat.WaitElementDisplay(By.xpath("//*[@name='stylistt book']"));
+		chat.WaitElementDisplay(By.xpath("//*[@name='Stylistt Book']"));
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'moodboard1')]"));
-		chat.SelectStylist("//*[@name='stylistt book']");
+		chat.SelectStylist("//*[@name='Stylistt Book']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
 		booking.ClickLoveItem();
@@ -178,15 +178,13 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		
 		booking.ClickShop();
 		booking.ClickUpArrow();
+		booking.SelectItem("1");
+		booking.SelectItem("2");
 		QuizPage quiz = new QuizPage(driver);
-		
-		quiz.SelectImage3(110,210);
-		quiz.SelectImage3(150,250);
 		quiz.SelectCategory("shorts_new");
 		quiz.scrollDownXpath();
 		quiz.Sleep(250);
-		quiz.SelectImage3(110,210);
-		
+		booking.SelectItem("1");
 		booking.ClickSave();
 		booking.FillLookDescription("look1");
 		
@@ -199,7 +197,7 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@Automation.com");
+		login.Fillusername("yinontesting1@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -207,9 +205,9 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		login.Sleep(500);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
-		chat.WaitElementDisplay(By.xpath("//*[@name='stylistt book']"));
+		chat.WaitElementDisplay(By.xpath("//*[@name='Stylistt Book']"));
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'look1')]"));
-		chat.SelectStylist("//*[@name='stylistt book']");
+		chat.SelectStylist("//*[@name='Stylistt Book']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
 		booking.scrollDownXpath();
@@ -245,12 +243,11 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		booking.ClickUpArrow();
 		QuizPage quiz = new QuizPage(driver);
 		quiz.scrollDownXpath();
-		quiz.SelectImage3(110,210);
-		quiz.SelectImage3(150,250);		
+		booking.SelectItem("1");
+		booking.SelectItem("2");
 		quiz.SelectCategory("shorts_new");
 		quiz.Sleep(250);
-		quiz.SelectImage3(110,210);
-		
+		booking.SelectItem("1");
 		booking.ClickSave();
 		booking.FillLookDescription("look2");
 		
@@ -263,7 +260,7 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@Automation.com");
+		login.Fillusername("yinontesting1@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -272,9 +269,9 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
-		chat.WaitElementDisplay(By.xpath("//*[@name='stylistt book']"));
+		chat.WaitElementDisplay(By.xpath("//*[@name='Stylistt Book']"));
 		
-		chat.SelectStylist("//*[@name='stylistt book']");
+		chat.SelectStylist("//*[@name='Stylistt Book']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(150);
 		booking.scrollDownXpath();
@@ -313,24 +310,15 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectCategory("pants_new");
 		quiz.Sleep(250);
-		booking.scrollDownXpath();
-		booking.scrollDownXpath();
-		quiz.SelectImage3(110,200);
-		quiz.SelectImage3(150,250);
+		booking.SelectItem("1");
 		booking.Sleep(200);
 		quiz.SelectCategory("shoes_new");
 		quiz.Sleep(250);
-		booking.scrollDownXpath();
-		booking.scrollDownXpath();
-		quiz.SelectImage3(110,200);
-		
+		booking.SelectItem("1");
 		booking.Sleep(200);
 		quiz.SelectCategory("dresses_new");
 		quiz.Sleep(250);
-		booking.scrollDownXpath();
-		booking.scrollDownXpath();
-		quiz.SelectImage3(110,210);
-		
+		booking.SelectItem("1");
 		booking.Sleep(200);
 		booking.ClickSave();
 		booking.FillLookDescription("revise2");
@@ -344,7 +332,7 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@Automation.com");
+		login.Fillusername("yinontesting1@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -353,9 +341,9 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
-		chat.WaitElementDisplay(By.xpath("//*[@name='stylistt book']"));
+		chat.WaitElementDisplay(By.xpath("//*[@name='Stylistt Book']"));
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'revise2')]"));
-		chat.SelectStylist("//*[@name='stylistt book']");
+		chat.SelectStylist("//*[@name='Stylistt Book']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
 		booking.scrollDownXpath();
@@ -388,15 +376,13 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		booking.ClickShop();
 		booking.ClickUpArrow();
 		QuizPage quiz = new QuizPage(driver);
-		quiz.SelectImage3(110,210);
-		
+		booking.SelectItem("1");
+		booking.SelectItem("2");
 		quiz.SelectCategory("jackets_new");
 		quiz.Sleep(250);
-		quiz.SelectImage3(110,210);
-		quiz.SelectImage3(150,250);
+		booking.SelectItem("1");
 		booking.ClickSave();
 		booking.FillLookDescription("look3");
-		
 		booking.ClickLookSaveButton();
 		driver.removeApp("com.Wishi.Wishi-Stylist");
 	}
@@ -406,7 +392,7 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@Automation.com");
+		login.Fillusername("yinontesting1@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -415,9 +401,9 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
-		chat.WaitElementDisplay(By.xpath("//*[@name='stylistt book']"));
+		chat.WaitElementDisplay(By.xpath("//*[@name='Stylistt Book']"));
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'look3')]"));
-		chat.SelectStylist("//*[@name='stylistt book']");
+		chat.SelectStylist("//*[@name='Stylistt Book']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
 		booking.scrollDownXpath();
@@ -450,12 +436,11 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		booking.ClickShop();
 		booking.ClickUpArrow();
 		QuizPage quiz = new QuizPage(driver);
-		quiz.SelectImage3(110,210);
-		
+		booking.SelectItem("1");
+		booking.SelectItem("2");
 		quiz.SelectCategory("jackets_new");
 		quiz.Sleep(250);
-		quiz.SelectImage3(110,210);
-		quiz.SelectImage3(150,250);
+		booking.SelectItem("1");
 		booking.ClickSave();
 		booking.FillLookDescription("look4");
 		
@@ -468,7 +453,7 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@Automation.com");
+		login.Fillusername("yinontesting1@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -477,9 +462,9 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
-		chat.WaitElementDisplay(By.xpath("//*[@name='stylistt book']"));
+		chat.WaitElementDisplay(By.xpath("//*[@name='Stylistt Book']"));
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'look4')]"));
-		chat.SelectStylist("//*[@name='stylistt book']");
+		chat.SelectStylist("//*[@name='Stylistt Book']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
 		booking.scrollDownXpath();
@@ -512,12 +497,11 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		booking.ClickShop();
 		booking.ClickUpArrow();
 		QuizPage quiz = new QuizPage(driver);
-		quiz.SelectImage3(110,210);
-		
+		booking.SelectItem("1");
+		booking.SelectItem("2");
 		quiz.SelectCategory("jackets_new");
 		quiz.Sleep(250);
-		quiz.SelectImage3(110,210);
-		quiz.SelectImage3(150,250);
+		booking.SelectItem("1");
 		booking.ClickSave();
 		booking.FillLookDescription("look5");
 		
@@ -530,7 +514,7 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@Automation.com");
+		login.Fillusername("yinontesting1@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -539,9 +523,9 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
-		chat.WaitElementDisplay(By.xpath("//*[@name='stylistt book']"));
+		chat.WaitElementDisplay(By.xpath("//*[@name='Stylistt Book']"));
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'look5')]"));
-		chat.SelectStylist("//*[@name='stylistt book']");
+		chat.SelectStylist("//*[@name='Stylistt Book']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(250);
 		booking.scrollDownXpath();
@@ -578,7 +562,7 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@Automation.com");
+		login.Fillusername("yinontesting1@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -587,9 +571,9 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		//login.SelectImage3(250,450);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
-		chat.WaitElementDisplay(By.xpath("//*[@name='stylistt book']"));
+		chat.WaitElementDisplay(By.xpath("//*[@name='Stylistt Book']"));
 		Assert.assertTrue(chat.ElementDisplay("//*[contains(@name, 'revise2')]"));
-		chat.SelectStylist("//*[@name='stylistt book']");
+		chat.SelectStylist("//*[@name='Stylistt Book']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(350);
 		booking.scrollDownXpath();
@@ -623,7 +607,7 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting@Automation.com");
+		login.Fillusername("yinontesting1@Automation.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -632,10 +616,11 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		//login.SelectImage3(250,450);
 		ChatPage chat = new ChatPage(driver);
 		chat.ClickcChatTab();
-		chat.WaitElementDisplay(By.xpath("//*[@name='stylistt book']"));
-		chat.SelectStylist("//*[@name='stylistt book']");
+		chat.WaitElementDisplay(By.xpath("//*[@name='Stylistt Book']"));
+		chat.SelectStylist("//*[@name='Stylistt Book']");
 		chat.Sleep(500);
 		BookingPage booking = new BookingPage(driver);
+		booking.scrollDownXpath();
 		booking.scrollDownXpath();
 		booking.ApproveEndSession();
 		booking.RateStylist();

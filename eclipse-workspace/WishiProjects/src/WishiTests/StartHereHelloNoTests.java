@@ -83,10 +83,10 @@ public class StartHereHelloNoTests extends BaseTest
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'H&M')]]"));
 		best.ClickMeetMyMatch();
 		*/
-		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon", "av", "ab1565");
+		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon av", "ab1565");
 		best.Sleep(200);
-		best.WaitElementDisplay(By.xpath("//div//button[text()[contains(.,'view more stylists')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div//button[text()[contains(.,'view more stylists')]]"));
+		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
+		Assert.assertTrue(best.ElementDisplay("//div[text()[contains(.,'Your Stylist Match!')]]"));
 		best.Sleep(300);
 		best.close();
 

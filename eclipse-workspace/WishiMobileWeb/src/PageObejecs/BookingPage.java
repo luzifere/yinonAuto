@@ -300,14 +300,17 @@ public class BookingPage extends BasePage
 	}
 	public void FillCardNumber(String number)
 	{
+		Sleep(250);
 		filltext(CardNaumber, number);
 	}
 	public void FillCardDate(String date )
 	{
+		Sleep(250);
 		filltext(DateOfCard, date);
 	}
 	public void FillCardCVC(String cvc)
 	{
+		Sleep(250);
 		filltext(CVCCard, cvc);
 		/*
 		Actions act = new Actions(driver);

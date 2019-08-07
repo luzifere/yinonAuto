@@ -117,10 +117,18 @@ public class BasePage
 		WebElement webElement= driver.findElement(By.xpath(elementString));
 		return webElement.isDisplayed();
 	}
-	public boolean ElementDisplay(String elementString) 
-	{		
-		return ElementIsDisplyed(elementString);
+	public static boolean ElementDisplay(String elementString) 
+	{	
+		WebElement webElement= driver.findElement(By.xpath(elementString));
+				
+		if(!webElement.isDisplayed())
+		{
+			return false;
+		}
+		return true;
+		//return ElementIsDisplyed(elementString);
 	}
+	
 	public boolean isElementPresent(String locatorKey) {
 		   try {
 			   WebElement webElement= driver.findElement(By.xpath(locatorKey));
