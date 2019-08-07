@@ -232,7 +232,7 @@ public class BookMiniMonthlyFSTest extends BaseTest
 		booking.ClickLoginStart();
 		booking.LoginStylistApp("stylistt.book@wishitest.com", "123456");
 		booking.ClickLoginButton();
-		booking.Sleep(200);
+		//booking.Sleep(200);
 		//booking .ClickCloseOBButton();
 
 		booking.Sleep(200);
@@ -240,33 +240,34 @@ public class BookMiniMonthlyFSTest extends BaseTest
 
 		booking.ClickReviseLookStylist();
 
-		booking.Sleep(200);
+//		booking.Sleep(200);
 
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
-		booking.Sleep(200);
 		booking.ClickShop();
+		booking.Sleep(200);
 		booking.ClickUpArrow();
 		QuizPage quiz = new QuizPage(driver);
 		quiz.SelectCategory("pants_new");
 		quiz.Sleep(250);
-		booking.scrollDownXpath();
-		booking.scrollDownXpath();
 		booking.SelectItem("1");
-		//booking.SelectItem("2");
+		booking.SelectItem("2");
 		booking.Sleep(200);
 		quiz.SelectCategory("shoes_new");
 		quiz.Sleep(250);
 		booking.SelectItem("1");
+
 		booking.Sleep(200);
 		quiz.SelectCategory("dresses_new");
 		quiz.Sleep(250);
 		booking.SelectItem("1");
+
 		booking.Sleep(200);
 		booking.ClickSave();
 		booking.FillLookDescription("revise1");
-		
+
 		booking.ClickReviseLookSaveButton();
+		//driver.resetApp();
 		driver.removeApp("com.Wishi.Wishi-Stylist");
 	}
 	@Test(priority = 11,groups={"sanity-group"})
@@ -358,7 +359,7 @@ public class BookMiniMonthlyFSTest extends BaseTest
 		booking.ClickLoveOutfit();
 	}
 	
-	@Test(priority = 14,groups={"sanity-group"})
+	//@Test(priority = 14,groups={"sanity-group"})
 	public void ReviseLook2() throws IOException 
 	{
 		BaseTest.capabileties2();	
@@ -381,7 +382,7 @@ public class BookMiniMonthlyFSTest extends BaseTest
 		booking.ClickReviseLookSaveButton();
 		driver.removeApp("com.Wishi.Wishi-Stylist");
 	}
-	@Test(priority = 15,groups={"sanity-group"})
+	//@Test(priority = 15,groups={"sanity-group"})
 	public void VerifyCreateRevise2() throws IOException 
 	{
 		BaseTest.capabileties();

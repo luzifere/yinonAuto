@@ -111,7 +111,7 @@ public class BookingPage extends BasePage {
 	WebElement NoneButtonID;
 	@FindBy(xpath="//*[@name='DoneButtonID']")
 	WebElement DoneButtonID;
-	@FindBy(xpath="//*[@name='NextButtinID']")
+	@FindBy(xpath="//*[@name='Next']")
 	WebElement NextButtonID;
 	@FindBy(xpath="//*[@name='MOODBOARDS']")
 	WebElement MoodBordTab;

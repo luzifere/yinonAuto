@@ -292,16 +292,16 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		booking.ClickLoginStart();
 		booking.LoginStylistApp("stylistt.book@wishitest.com", "123456");
 		booking.ClickLoginButton();
-		booking.Sleep(200);
+		//booking.Sleep(200);
 		//booking .ClickCloseOBButton();
-		
+
 		booking.Sleep(200);
 		BasePage.AcceptAlert();
-		
+
 		booking.ClickReviseLookStylist();
-		
-		booking.Sleep(200);
-	
+
+//		booking.Sleep(200);
+
 		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
 		booking.ClickShop();
@@ -311,19 +311,23 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		quiz.SelectCategory("pants_new");
 		quiz.Sleep(250);
 		booking.SelectItem("1");
+		booking.SelectItem("2");
 		booking.Sleep(200);
 		quiz.SelectCategory("shoes_new");
 		quiz.Sleep(250);
 		booking.SelectItem("1");
+
 		booking.Sleep(200);
 		quiz.SelectCategory("dresses_new");
 		quiz.Sleep(250);
 		booking.SelectItem("1");
+
 		booking.Sleep(200);
 		booking.ClickSave();
-		booking.FillLookDescription("revise2");
-		
+		booking.FillLookDescription("revise1");
+
 		booking.ClickReviseLookSaveButton();
+		//driver.resetApp();
 		driver.removeApp("com.Wishi.Wishi-Stylist");
 	}
 	@Test(priority = 15,groups={"sanity-group"})
@@ -534,7 +538,7 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		
 
 	}
-	@Test(priority = 24,groups={"sanity-group"})
+	//@Test(priority = 24,groups={"sanity-group"})
 	public void ReviseLook2() throws IOException 
 	{
 		BaseTest.capabileties2();	
@@ -556,7 +560,7 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		booking.ClickReviseLookSaveButton();
 		driver.removeApp("com.Wishi.Wishi-Stylist");
 	}
-	@Test(priority = 25,groups={"sanity-group"})
+	//@Test(priority = 25,groups={"sanity-group"})
 	public void VerifyCreateRevise2() throws IOException 
 	{
 		BaseTest.capabileties();
