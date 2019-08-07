@@ -373,7 +373,7 @@ public class BookingPage extends BasePage {
 		Sleep(170);
 		elements.get(count-1).click();
 		Sleep(500);
-		WaitElementDisplay(By.xpath("(//*[@name='Rating'])[1]"));
+		WaitElementDisplay(By.xpath("(//*[@name='Star grey'])[5]"));
 	}
 
 	public void FillDescription(String description ) 

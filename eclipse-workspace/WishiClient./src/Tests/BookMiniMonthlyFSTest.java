@@ -32,7 +32,7 @@ public class BookMiniMonthlyFSTest extends BaseTest
 	{
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting1@Automation.com");
+		login.Fillusername("client110@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -141,7 +141,7 @@ public class BookMiniMonthlyFSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting1@Automation.com");
+		login.Fillusername("client110@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -201,7 +201,7 @@ public class BookMiniMonthlyFSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting1@Automation.com");
+		login.Fillusername("client110@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -275,7 +275,7 @@ public class BookMiniMonthlyFSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting1@Automation.com");
+		login.Fillusername("client110@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -340,7 +340,7 @@ public class BookMiniMonthlyFSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting1@Automation.com");
+		login.Fillusername("client110@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -387,7 +387,7 @@ public class BookMiniMonthlyFSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting1@Automation.com");
+		login.Fillusername("client110@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);
@@ -431,7 +431,7 @@ public class BookMiniMonthlyFSTest extends BaseTest
 		BaseTest.capabileties();
 		LoginPage login = new LoginPage(driver);
 		login.Clickloginbutton1();
-		login.Fillusername("yinontesting1@Automation.com");
+		login.Fillusername("client110@wishi.com");
 		login.Fillpassword("123456");
 		login.ClickLoginButton2();
 		login.Sleep(500);

@@ -219,9 +219,9 @@ public class BookMiniSingleFSTest extends BaseTest
 		chat.SelectStylist("//*[@name='Stylistt Book']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(150);
-		booking.scrollDownXpath();
+		booking.ClickMessageCounter();
 		booking.ClickReviseLookClient();
-		booking.scrollDownXpath();
+		booking.ClickMessageCounter();
 		booking.SelectImageForRevise();
 		booking.scrollDownXpath();
 		booking.ClickSendReviseClient();
@@ -365,7 +365,7 @@ public class BookMiniSingleFSTest extends BaseTest
 		booking.ClickLoveOutfit();
 	}
 	
-	@Test(priority = 14,groups={"sanity-group"})
+	//@Test(priority = 14,groups={"sanity-group"})
 	public void ReviseLook2() throws IOException 
 	{
 		BaseTest.capabileties2();	
@@ -375,47 +375,19 @@ public class BookMiniSingleFSTest extends BaseTest
 		booking.LoginStylistApp("stylistt.book@wishitest.com", "123456");
 		booking.ClickLoginButton();
 		booking.Sleep(200);
-		//booking .ClickCloseOBButton();
-		//driver.findElement(By.xpath("//*[@name='CloseOnboarding']")).click();
-		booking.Sleep(200);
 		BasePage.AcceptAlert();
-		//booking.Clickclose_menu4Button();
 		booking.Sleep(200);
 		booking.ClickReviseLookStylist();
 		booking.Sleep(200);
-		//driver.findElement(By.xpath("//*[@name='Amazing!']")).click();
-		booking.Sleep(200);
 		booking.Clickclose_menu4Button();
-		booking.ClickShop();
-		booking.Sleep(200);
-		booking.ClickUpArrow();
-		QuizPage quiz = new QuizPage(driver);
-		//quiz.SelectImage3(110,210);
-		//quiz.SelectImage3(150,250);
-		quiz.SelectCategory("shorts_new");
-		quiz.Sleep(250);
-		booking.SelectItem("1");
-		//quiz.SelectImage3(150,250);
-		quiz.Sleep(250);
-		quiz.SelectCategory("pants_new");
-		quiz.SelectImage3(150,250);
-		//quiz.SelectImage3(150,250);
-		quiz.SelectCategory("bags_new");
-		//quiz.SelectImage3(110,200);
-		booking.SelectItem("1");
-		quiz.SelectCategory("dresses_new");
-		quiz.Sleep(250);
-		booking.SelectItem("1");
+		booking.AddLooks();
 		booking.ClickSave();
-		//driver.findElement(By.xpath("//*[@name='Add an event']")).click();
-		//driver.findElement(By.xpath("//*[@name='Party']")).click();
+		driver.findElement(By.id("OKButtonID")).click();
 		booking.FillLookDescription("revise2");
-		//booking.ClickToolBarDone();
 		booking.ClickReviseLookSaveButton();
-		//driver.resetApp();
 		driver.removeApp("com.Wishi.Wishi-Stylist");
 	}
-	@Test(priority = 15,groups={"sanity-group"})
+	//@Test(priority = 15,groups={"sanity-group"})
 	public void VerifyCreateRevise2() throws IOException 
 	{
 		BaseTest.capabileties();

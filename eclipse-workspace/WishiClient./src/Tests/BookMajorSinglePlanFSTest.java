@@ -274,9 +274,9 @@ public class BookMajorSinglePlanFSTest extends BaseTest
 		chat.SelectStylist("//*[@name='Stylistt Book']");
 		BookingPage booking = new BookingPage(driver);
 		booking.Sleep(150);
-		booking.scrollDownXpath();
+		booking.ClickMessageCounter();
 		booking.ClickReviseLookClient();
-		booking.scrollDownXpath();
+		booking.ClickMessageCounter();
 		booking.SelectImageForRevise();
 		booking.scrollDownXpath();
 		booking.ClickSendReviseClient();

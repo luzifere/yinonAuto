@@ -155,7 +155,7 @@ public class ChatPage extends BasePage {
 		System.out.println(StylistButton);
 		click(StylistButton);
 		Sleep(350);
-		SelectImage3(150,250);
+		//SelectImage3(150,250);
 		Sleep(150);
 		scrollDownXpath();
 	}
