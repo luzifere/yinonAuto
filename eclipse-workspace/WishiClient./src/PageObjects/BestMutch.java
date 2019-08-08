@@ -306,6 +306,7 @@ public class BestMutch extends BasePage
 	}
 	public void ClickHoeToWork() 
 	{	Sleep(250);
+	scrollDownXpath();
 		click(how_it_workst);
 		Sleep(250);
 	}
