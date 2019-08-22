@@ -3,21 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.BookMajorSinglePlanFSTest">
+      <class name="Tests.BookMiniSingleFSTest">
         <methods>
-          <include name="ClientEndSession"/>
-          <include name="EndSession"/>
-          <include name="CreateLook4"/>
-          <include name="VerifyCreateLook3"/>
-          <include name="CreateLook5"/>
-          <include name="VerifyEndSession"/>
           <include name="setup"/>
-          <include name="CreateLook3"/>
-          <include name="VerifyCreateLook4"/>
-          <include name="VerifyCreateLook5"/>
-          <include name="VerifyCreateLookrevise1"/>
+          <include name="AsaRevise1"/>
         </methods>
-      </class> <!-- Tests.BookMajorSinglePlanFSTest -->
+      </class> <!-- Tests.BookMiniSingleFSTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Test Default test]]>
@@ -11,211 +11,61 @@
       <![CDATA[Completed executing following method : BaseTest.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : BookMiniSingleTests.LoginAsClient]]>
+      <![CDATA[About to begin executing following method : ChatQwizMaleTests.DoSignUp]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : BookMiniSingleTests.LoginAsClient]]>
+      <![CDATA[Completed executing following method : ChatQwizMaleTests.DoSignUp]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite LoginAsClient]]>
+      <![CDATA[About to Success executing Suite DoSignUp]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
+      <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : BookMiniSingleTests.CheckOutSession]]>
+      <![CDATA[About to begin executing following method : ChatQwizMaleTests.CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : BookMiniSingleTests.CheckOutSession]]>
+      <![CDATA[Completed executing following method : ChatQwizMaleTests.CheckOutSession]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
+      <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : BookMiniSingleTests.LoginAsStylist]]>
+      <![CDATA[About to begin executing following method : ChatQwizMaleTests.FillBirthday]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : BookMiniSingleTests.LoginAsStylist]]>
+      <![CDATA[Completed executing following method : ChatQwizMaleTests.FillBirthday]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite LoginAsStylist]]>
+      <![CDATA[About to Success executing Suite FillBirthday]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookMiniSingleTests.CreateMoodBoard]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookMiniSingleTests.CreateMoodBoard]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite CreateMoodBoard]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
+      <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : BookMiniSingleTests.VerifyMoodBoard]]>
+      <![CDATA[About to begin executing following method : ChatQwizMaleTests.FillNumberPhone]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : BookMiniSingleTests.VerifyMoodBoard]]>
+      <![CDATA[Completed executing following method : ChatQwizMaleTests.FillNumberPhone]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite VerifyMoodBoard]]>
+      <![CDATA[About to Success executing Suite FillNumberPhone]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookMiniSingleTests.CreatePS]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookMiniSingleTests.CreatePS]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite CreatePS]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookMiniSingleTests.AskRevise]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookMiniSingleTests.AskRevise]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite AskRevise]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookMiniSingleTests.CreateLook1]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookMiniSingleTests.CreateLook1]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite CreateLook1]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookMiniSingleTests.VerifyLook1]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookMiniSingleTests.VerifyLook1]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite VerifyLook1]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookMiniSingleTests.CreateLook2]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookMiniSingleTests.CreateLook2]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite CreateLook2]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookMiniSingleTests.VerifyLook2]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookMiniSingleTests.VerifyLook2]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite VerifyLook2]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookMiniSingleTests.AskEndSession]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookMiniSingleTests.AskEndSession]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite AskEndSession]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookMiniSingleTests.ClientEndSession]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookMiniSingleTests.ClientEndSession]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite ClientEndSession]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookMiniSingleTests.VerifyEndSession]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookMiniSingleTests.VerifyEndSession]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite VerifyEndSession]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
+      <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
@@ -227,308 +77,108 @@
       <![CDATA[Completed executing following method : BaseTest.tearDown]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="522301" started-at="2019-07-03T09:16:52Z" finished-at="2019-07-03T09:25:34Z">
+  <suite name="Default suite" duration-ms="98538" started-at="2019-08-22T15:28:29Z" finished-at="2019-08-22T15:30:08Z">
     <groups>
       <group name="sanity-group">
-        <method signature="BookMiniSingleTests.AskEndSession()[pri:22, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="AskEndSession" class="WishiTests.BookMiniSingleTests"/>
-        <method signature="BookMiniSingleTests.AskRevise()[pri:7, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="AskRevise" class="WishiTests.BookMiniSingleTests"/>
-        <method signature="BookMiniSingleTests.CheckOutSession()[pri:2, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="CheckOutSession" class="WishiTests.BookMiniSingleTests"/>
-        <method signature="BookMiniSingleTests.ClientEndSession()[pri:23, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="ClientEndSession" class="WishiTests.BookMiniSingleTests"/>
-        <method signature="BookMiniSingleTests.CreateLook1()[pri:8, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="CreateLook1" class="WishiTests.BookMiniSingleTests"/>
-        <method signature="BookMiniSingleTests.CreateLook2()[pri:12, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="CreateLook2" class="WishiTests.BookMiniSingleTests"/>
-        <method signature="BookMiniSingleTests.CreateMoodBoard()[pri:4, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="CreateMoodBoard" class="WishiTests.BookMiniSingleTests"/>
-        <method signature="BookMiniSingleTests.CreatePS()[pri:6, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="CreatePS" class="WishiTests.BookMiniSingleTests"/>
-        <method signature="BookMiniSingleTests.LoginAsClient()[pri:1, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="LoginAsClient" class="WishiTests.BookMiniSingleTests"/>
-        <method signature="BookMiniSingleTests.LoginAsStylist()[pri:3, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="LoginAsStylist" class="WishiTests.BookMiniSingleTests"/>
-        <method signature="BookMiniSingleTests.VerifyEndSession()[pri:24, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="VerifyEndSession" class="WishiTests.BookMiniSingleTests"/>
-        <method signature="BookMiniSingleTests.VerifyLook1()[pri:9, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="VerifyLook1" class="WishiTests.BookMiniSingleTests"/>
-        <method signature="BookMiniSingleTests.VerifyLook2()[pri:13, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="VerifyLook2" class="WishiTests.BookMiniSingleTests"/>
-        <method signature="BookMiniSingleTests.VerifyMoodBoard()[pri:5, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="VerifyMoodBoard" class="WishiTests.BookMiniSingleTests"/>
+        <method signature="ChatQwizMaleTests.CheckOutSession()[pri:2, instance:WishiTests.ChatQwizMaleTests@3cb1ffe6]" name="CheckOutSession" class="WishiTests.ChatQwizMaleTests"/>
+        <method signature="ChatQwizMaleTests.DoSignUp()[pri:1, instance:WishiTests.ChatQwizMaleTests@3cb1ffe6]" name="DoSignUp" class="WishiTests.ChatQwizMaleTests"/>
+        <method signature="ChatQwizMaleTests.FillBirthday()[pri:3, instance:WishiTests.ChatQwizMaleTests@3cb1ffe6]" name="FillBirthday" class="WishiTests.ChatQwizMaleTests"/>
+        <method signature="ChatQwizMaleTests.FillNumberPhone()[pri:4, instance:WishiTests.ChatQwizMaleTests@3cb1ffe6]" name="FillNumberPhone" class="WishiTests.ChatQwizMaleTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="522301" started-at="2019-07-03T09:16:52Z" finished-at="2019-07-03T09:25:34Z">
-      <class name="WishiTests.BookMiniSingleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="setup" is-config="true" duration-ms="17058" started-at="2019-07-03T09:16:52Z" finished-at="2019-07-03T09:17:09Z">
+    <test name="Default test" duration-ms="98538" started-at="2019-08-22T15:28:29Z" finished-at="2019-08-22T15:30:08Z">
+      <class name="WishiTests.ChatQwizMaleTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.ChatQwizMaleTests@3cb1ffe6]" name="setup" is-config="true" duration-ms="17400" started-at="2019-08-22T15:28:29Z" finished-at="2019-08-22T15:28:47Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginAsClient()[pri:1, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="LoginAsClient" duration-ms="10623" started-at="2019-07-03T09:17:09Z" finished-at="2019-07-03T09:17:20Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:WishiTests.ChatQwizMaleTests@3cb1ffe6]" name="DoSignUp" duration-ms="42511" started-at="2019-08-22T15:28:47Z" finished-at="2019-08-22T15:29:29Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : BookMiniSingleTests.LoginAsClient]]>
+              <![CDATA[About to begin executing following method : ChatQwizMaleTests.DoSignUp]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : BookMiniSingleTests.LoginAsClient]]>
+              <![CDATA[Completed executing following method : ChatQwizMaleTests.DoSignUp]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite LoginAsClient]]>
+              <![CDATA[About to Success executing Suite DoSignUp]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
+              <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- LoginAsClient -->
-        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="CheckOutSession" duration-ms="31184" started-at="2019-07-03T09:17:20Z" finished-at="2019-07-03T09:17:51Z">
+        </test-method> <!-- DoSignUp -->
+        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:WishiTests.ChatQwizMaleTests@3cb1ffe6]" name="CheckOutSession" duration-ms="26955" started-at="2019-08-22T15:29:29Z" finished-at="2019-08-22T15:29:56Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : BookMiniSingleTests.CheckOutSession]]>
+              <![CDATA[About to begin executing following method : ChatQwizMaleTests.CheckOutSession]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : BookMiniSingleTests.CheckOutSession]]>
+              <![CDATA[Completed executing following method : ChatQwizMaleTests.CheckOutSession]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite CheckOutSession]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
+              <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- CheckOutSession -->
-        <test-method status="PASS" signature="LoginAsStylist()[pri:3, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="LoginAsStylist" duration-ms="42831" started-at="2019-07-03T09:17:51Z" finished-at="2019-07-03T09:18:34Z">
+        <test-method status="PASS" signature="FillBirthday()[pri:3, instance:WishiTests.ChatQwizMaleTests@3cb1ffe6]" name="FillBirthday" duration-ms="8772" started-at="2019-08-22T15:29:56Z" finished-at="2019-08-22T15:30:05Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : BookMiniSingleTests.LoginAsStylist]]>
+              <![CDATA[About to begin executing following method : ChatQwizMaleTests.FillBirthday]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : BookMiniSingleTests.LoginAsStylist]]>
+              <![CDATA[Completed executing following method : ChatQwizMaleTests.FillBirthday]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite LoginAsStylist]]>
+              <![CDATA[About to Success executing Suite FillBirthday]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
+              <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- LoginAsStylist -->
-        <test-method status="PASS" signature="CreateMoodBoard()[pri:4, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="CreateMoodBoard" duration-ms="39797" started-at="2019-07-03T09:18:34Z" finished-at="2019-07-03T09:19:14Z">
+        </test-method> <!-- FillBirthday -->
+        <test-method status="PASS" signature="FillNumberPhone()[pri:4, instance:WishiTests.ChatQwizMaleTests@3cb1ffe6]" name="FillNumberPhone" duration-ms="2879" started-at="2019-08-22T15:30:05Z" finished-at="2019-08-22T15:30:08Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : BookMiniSingleTests.CreateMoodBoard]]>
+              <![CDATA[About to begin executing following method : ChatQwizMaleTests.FillNumberPhone]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : BookMiniSingleTests.CreateMoodBoard]]>
+              <![CDATA[Completed executing following method : ChatQwizMaleTests.FillNumberPhone]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite CreateMoodBoard]]>
+              <![CDATA[About to Success executing Suite FillNumberPhone]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
+              <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- CreateMoodBoard -->
-        <test-method status="PASS" signature="VerifyMoodBoard()[pri:5, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="VerifyMoodBoard" duration-ms="17410" started-at="2019-07-03T09:19:14Z" finished-at="2019-07-03T09:19:31Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BookMiniSingleTests.VerifyMoodBoard]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BookMiniSingleTests.VerifyMoodBoard]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite VerifyMoodBoard]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- VerifyMoodBoard -->
-        <test-method status="PASS" signature="CreatePS()[pri:6, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="CreatePS" duration-ms="52446" started-at="2019-07-03T09:19:31Z" finished-at="2019-07-03T09:20:24Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BookMiniSingleTests.CreatePS]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BookMiniSingleTests.CreatePS]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite CreatePS]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CreatePS -->
-        <test-method status="PASS" signature="AskRevise()[pri:7, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="AskRevise" duration-ms="18273" started-at="2019-07-03T09:20:24Z" finished-at="2019-07-03T09:20:42Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BookMiniSingleTests.AskRevise]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BookMiniSingleTests.AskRevise]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite AskRevise]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- AskRevise -->
-        <test-method status="PASS" signature="CreateLook1()[pri:8, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="CreateLook1" duration-ms="68188" started-at="2019-07-03T09:20:42Z" finished-at="2019-07-03T09:21:50Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BookMiniSingleTests.CreateLook1]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BookMiniSingleTests.CreateLook1]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite CreateLook1]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CreateLook1 -->
-        <test-method status="PASS" signature="VerifyLook1()[pri:9, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="VerifyLook1" duration-ms="19057" started-at="2019-07-03T09:21:50Z" finished-at="2019-07-03T09:22:09Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BookMiniSingleTests.VerifyLook1]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BookMiniSingleTests.VerifyLook1]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite VerifyLook1]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- VerifyLook1 -->
-        <test-method status="PASS" signature="CreateLook2()[pri:12, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="CreateLook2" duration-ms="64299" started-at="2019-07-03T09:22:09Z" finished-at="2019-07-03T09:23:13Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BookMiniSingleTests.CreateLook2]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BookMiniSingleTests.CreateLook2]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite CreateLook2]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CreateLook2 -->
-        <test-method status="PASS" signature="VerifyLook2()[pri:13, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="VerifyLook2" duration-ms="16269" started-at="2019-07-03T09:23:13Z" finished-at="2019-07-03T09:23:30Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BookMiniSingleTests.VerifyLook2]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BookMiniSingleTests.VerifyLook2]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite VerifyLook2]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- VerifyLook2 -->
-        <test-method status="PASS" signature="AskEndSession()[pri:22, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="AskEndSession" duration-ms="21267" started-at="2019-07-03T09:23:30Z" finished-at="2019-07-03T09:23:51Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BookMiniSingleTests.AskEndSession]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BookMiniSingleTests.AskEndSession]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite AskEndSession]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- AskEndSession -->
-        <test-method status="PASS" signature="ClientEndSession()[pri:23, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="ClientEndSession" duration-ms="80952" started-at="2019-07-03T09:23:51Z" finished-at="2019-07-03T09:25:12Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BookMiniSingleTests.ClientEndSession]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BookMiniSingleTests.ClientEndSession]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite ClientEndSession]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- ClientEndSession -->
-        <test-method status="PASS" signature="VerifyEndSession()[pri:24, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="VerifyEndSession" duration-ms="22614" started-at="2019-07-03T09:25:12Z" finished-at="2019-07-03T09:25:34Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BookMiniSingleTests.VerifyEndSession]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BookMiniSingleTests.VerifyEndSession]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite VerifyEndSession]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.BookMiniSingleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- VerifyEndSession -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.BookMiniSingleTests@3dfc5fb8]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-07-03T09:25:34Z" finished-at="2019-07-03T09:25:34Z">
+        </test-method> <!-- FillNumberPhone -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.ChatQwizMaleTests@3cb1ffe6]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-22T15:30:08Z" finished-at="2019-08-22T15:30:08Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.tearDown]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.BookMiniSingleTests -->
+      </class> <!-- WishiTests.ChatQwizMaleTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

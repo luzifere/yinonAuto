@@ -399,5 +399,12 @@ public class BasePage
 
 	}
 	
+	public void Switch_to_chat () 
+	{
+		WebElement fr = driver.findElement(By.xpath("//iframe[@id='fb_xdm_frame_https']"));
+		driver.switchTo().frame(fr);//iframe[@name='__privateStripeFrame4']
+
+	}
+	
 
 }

@@ -15,7 +15,7 @@ public class QwizPage extends BasePage
 	}
 	@FindBy(xpath="//div[@class='next-step-btn ng-scope']")
 	WebElement NextOfEventButton;
-	@FindBy(xpath="//div[@class='next-step-btn']")
+	@FindBy(xpath="//button[@class='chat-link-btn onboarding-next-btn ']")
 	WebElement NextButton;
 	@FindBy(xpath="//div[@class='next-step-btn blank']")
 	WebElement SkipButton;
@@ -27,84 +27,88 @@ public class QwizPage extends BasePage
 	WebElement LogOut;
 	@FindBy(xpath="//nav//div//span[@class='inner-credentials ng-binding']")
 	WebElement ProfileClientButton;
+	@FindBy(xpath="//input[@id='month-input']")
+	WebElement Date;
+	@FindBy(xpath="//div[@class='selected-flag']")
+	WebElement Flag;
+	@FindBy(xpath="//input[@type='tel']")
+	WebElement Phone;
+	@FindBy(xpath="//div[text()[contains(.,'Average')]]")
+	WebElement Height;
+
+
+
+
 	
-	
-	
-	
-	public void FillNumberPhone(String phone)
-	{
-		WaitElementDisplay(By.xpath("//div//input[@type='text']"));
-	driver.findElement(By.xpath("//div//input[@type='text']")).sendKeys(phone);
-	}
 	public void SelectTab(String event)
-    {
-    	String QwizElemet = ("//div//label[text()[contains(.,'Text1')]]");
-    	QwizElemet = QwizElemet.replace("Text1", event);
-    	WebElement QwizTabs = driver.findElement(By.xpath(QwizElemet));
-    	click(QwizTabs);
-    } 
+	{
+		String QwizElemet = ("//div//label[text()[contains(.,'Text1')]]");
+		QwizElemet = QwizElemet.replace("Text1", event);
+		WebElement QwizTabs = driver.findElement(By.xpath(QwizElemet));
+		click(QwizTabs);
+	} 
 	public void SelectColors(String color)
-    {
-    	String ColorElemet = ("//div//label[@for='color_Text1']");
-    	ColorElemet = ColorElemet.replace("Text1", color);
-    	WebElement ColorTabs = driver.findElement(By.xpath(ColorElemet));
-    	click(ColorTabs);
-    } 
+	{
+		String ColorElemet = ("//div//label[@for='color_Text1']");
+		ColorElemet = ColorElemet.replace("Text1", color);
+		WebElement ColorTabs = driver.findElement(By.xpath(ColorElemet));
+		click(ColorTabs);
+	} 
 	public void ClickPlus(String plus)
-    {
-    	String PlusElemet = ("(//div[@class='increase-size'])[Text1]");
-    	PlusElemet = PlusElemet.replace("Text1", plus);
-    	WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
-    	click(PlusTabs);
-    } 
+	{
+		String PlusElemet = ("(//div[@class='increase-size'])[Text1]");
+		PlusElemet = PlusElemet.replace("Text1", plus);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
+	} 
 	public void ClickMinus(String minus)
-    {
-    	String MinusElemet = ("(//div[@class='decrease-size'])[Text1]");
-    	MinusElemet = MinusElemet.replace("Text1", minus);
-    	WebElement MinusTabs = driver.findElement(By.xpath(MinusElemet));
-    	click(MinusTabs);
-    } 
+	{
+		String MinusElemet = ("(//div[@class='decrease-size'])[Text1]");
+		MinusElemet = MinusElemet.replace("Text1", minus);
+		WebElement MinusTabs = driver.findElement(By.xpath(MinusElemet));
+		click(MinusTabs);
+	} 
 	public void SelectBlouses(String brand)
-    {
-    	String BrandsElemet = ("//div//label[@for='Blouses_Text1']");
-    	BrandsElemet = BrandsElemet.replace("Text1", brand);
-    	WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
-    	click(BrandsTabs);
-    }
+	{
+		String BrandsElemet = ("//div//label[@for='Blouses_Text1']");
+		BrandsElemet = BrandsElemet.replace("Text1", brand);
+		WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
+		click(BrandsTabs);
+	}
 	public void SelectBottoms(String brand)
-    {
-    	String BrandsElemet = ("//div//label[@for='Bottoms_Text1']");
-    	BrandsElemet = BrandsElemet.replace("Text1", brand);
-    	WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
-    	click(BrandsTabs);
-    }
+	{
+		String BrandsElemet = ("//div//label[@for='Bottoms_Text1']");
+		BrandsElemet = BrandsElemet.replace("Text1", brand);
+		WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
+		click(BrandsTabs);
+	}
 	public void SelectShoes(String brand)
-    {
-    	String BrandsElemet = ("//div//label[@for='Shoes_Text1']");
-    	BrandsElemet = BrandsElemet.replace("Text1", brand);
-    	WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
-    	click(BrandsTabs);
-    }
+	{
+		String BrandsElemet = ("//div//label[@for='Shoes_Text1']");
+		BrandsElemet = BrandsElemet.replace("Text1", brand);
+		WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
+		click(BrandsTabs);
+	}
 	public void SelectBags(String brand)
-    {
-    	String BrandsElemet = ("//div//label[@for='Bags_Text1']");
-    	BrandsElemet = BrandsElemet.replace("Text1", brand);
-    	WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
-    	click(BrandsTabs);
-    }
+	{
+		String BrandsElemet = ("//div//label[@for='Bags_Text1']");
+		BrandsElemet = BrandsElemet.replace("Text1", brand);
+		WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
+		click(BrandsTabs);
+	}
 	public void SelectBrands(String brand)
-    {
-    	String BrandsElemet = ("//div//label[@for='brand_Text1']");
-    	BrandsElemet = BrandsElemet.replace("Text1", brand);
-    	WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
-    	click(BrandsTabs);
-    }
-    	public void selectBudget(int num)
-    	{
-    		Select budget = new Select (driver.findElement(By.xpath("//div//select[@name='budget--quiz']")));
-    		click(Budget);
-    		budget.selectByIndex(num);
-    	}
+	{
+		String BrandsElemet = ("//div//label[@for='brand_Text1']");
+		BrandsElemet = BrandsElemet.replace("Text1", brand);
+		WebElement BrandsTabs = driver.findElement(By.xpath(BrandsElemet));
+		click(BrandsTabs);
+	}
+	public void selectBudget(int num)
+	{
+		Select budget = new Select (driver.findElement(By.xpath("//div//select[@name='budget--quiz']")));
+		click(Budget);
+		budget.selectByIndex(num);
+	}
 	public void ClickNextOfevent() 
 	{
 		click(NextOfEventButton);	
@@ -112,7 +116,7 @@ public class QwizPage extends BasePage
 	}
 	public void ClickNext() 
 	{
-		WaitElementDisplay(By.xpath("//div[@class='next-step-btn']"));
+		WaitElementDisplay(By.xpath("//button[@class='chat-link-btn onboarding-next-btn ']"));
 		click(NextButton);	
 		Sleep(100);
 	}
@@ -128,13 +132,39 @@ public class QwizPage extends BasePage
 	}
 	public void ClickOnProfileClientButton() 
 	{   	
-   		click(ProfileClientButton);	
-   		Sleep(100);
+		click(ProfileClientButton);	
+		Sleep(100);
 	}
-    public void ClickOnLogOut() 
+	public void ClickOnLogOut() 
 	{
 		click(LogOut);
 		Sleep(100);
+	}
+
+	public void FillDate(String text) 
+	{
+		Sleep(100);
+		click(Date);
+		filltext(Date,text);
+		Sleep(100);
+	}
+
+	public void selectLocation(String cuntry)
+	{
+		click(Flag);
+		Sleep(100);
+		String PlusElemet = ("(//li[@class='country'])[Text1]");
+		PlusElemet = PlusElemet.replace("Text1", cuntry);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
+		//Select mounts = new Select (driver.findElement(By.xpath("//ul[@class=' country-list']")));
+		//mounts.selectByIndex(num);
+	}
+	
+	public void FillNumberPhone(String phone)
+	{
+		WaitElementDisplay(By.xpath("//input[@type='tel']"));
+		filltext(Phone,phone);
 	}
 
 }
