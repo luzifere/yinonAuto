@@ -29,4 +29,6 @@
     <fullyQualifiedTypeName name="io.appium.java_client.AppiumDriver"/>
     <fullyQualifiedTypeName name="Tests.BaseTest"/>
     <fullyQualifiedTypeName name="io.appium.java_client.android.AndroidKeyCode"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

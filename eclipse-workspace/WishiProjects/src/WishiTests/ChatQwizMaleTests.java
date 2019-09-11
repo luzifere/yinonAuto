@@ -84,13 +84,14 @@ public class ChatQwizMaleTests extends BaseTest
 		qwiz.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Average')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'0523365435')]]"));
 	}
-	//@Test(priority = 3,groups={"sanity-group"})
-	public void SelectEvent ()
+	@Test(priority = 5,groups={"sanity-group"})
+	public void Selectheight ()
 	{
 		QwizPage qwiz = new QwizPage(driver);
-		qwiz.SelectTab("Work / Business Casual");
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'Now, let’s get a little personal. What’s your height?')]]"));
+		qwiz.SelectHeight("Average");
 		qwiz.ClickNextOfevent();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'BODY TYPE')]]"));
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'Great, thank you. Now, please tell me a little about your go-to colors. Select any that you like to wear!')]]"));
 
 	}
 	/*

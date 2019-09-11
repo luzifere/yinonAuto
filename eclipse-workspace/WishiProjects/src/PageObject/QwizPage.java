@@ -1,5 +1,8 @@
 package PageObject;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -165,6 +168,15 @@ public class QwizPage extends BasePage
 	{
 		WaitElementDisplay(By.xpath("//input[@type='tel']"));
 		filltext(Phone,phone);
+	}
+	
+	public void SelectHeight(String height ) 
+	
+	{                      
+		String heightElemet = ("//div[text()[contains(.,'Text1')]]");
+		heightElemet = heightElemet.replace("Text1", height);
+		WebElement BrandsTabs = driver.findElement(By.xpath(heightElemet));
+		click(BrandsTabs);
 	}
 
 }
