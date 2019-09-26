@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -38,6 +39,12 @@ public class QwizPage extends BasePage
 	WebElement Phone;
 	@FindBy(xpath="//div[text()[contains(.,'Average')]]")
 	WebElement Height;
+	@FindBy(xpath="//div[@class ='dropdown-control']")
+	WebElement dropdown_control;
+	@FindBy(xpath="//input[@type='text']")
+	WebElement input;
+	@FindBy(xpath="(//button[@class='chat-link-btn'])[2]")
+	WebElement heart;
 
 
 
@@ -178,5 +185,88 @@ public class QwizPage extends BasePage
 		WebElement BrandsTabs = driver.findElement(By.xpath(heightElemet));
 		click(BrandsTabs);
 	}
+	public void SelectCategory(String event)
+	{
+		String QwizElemet = ("//div[text()[contains(.,'Text1')]]");
+		QwizElemet = QwizElemet.replace("Text1", event);
+		WebElement QwizTabs = driver.findElement(By.xpath(QwizElemet));
+		click(QwizTabs);
+	} 
+	public void OpenDropDwon(String cuntry ) 
+	{
+		Sleep(100);
+		String PlusElemet = ("(//div[@class ='dropdown-control'])[Text1]");
+		PlusElemet = PlusElemet.replace("Text1", cuntry);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
+	}
+	public void SelectTopsSize(String cuntry ) 
+	{
+		Sleep(100);
+		String PlusElemet = ("//div[text()[contains(.,'Text1')]]");
+		PlusElemet = PlusElemet.replace("Text1", cuntry);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
+	}
+	public void SelectBottomsSize(String cuntry ) 
+	{
+		Sleep(100);
+		String PlusElemet = ("//div[text()[contains(.,'Text1')]]");
+		PlusElemet = PlusElemet.replace("Text1", cuntry);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
+	}
+	public void SelectShoesSize(String cuntry ) 
+	{
+		Sleep(100);
+		String PlusElemet = ("//div[text()[contains(.,'Text1')]]");
+		PlusElemet = PlusElemet.replace("Text1", cuntry);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
+	}
+	public void SelectTopsBudget(String cuntry,String num ) 
+	{
+		Sleep(100);
+		String PlusElemet = ("(//div[text()[contains(.,'Text1')]])["+num+"]");
+		PlusElemet = PlusElemet.replace("Text1", cuntry);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
+	}
+	public void SelectBottomsBudget(String cuntry,String num ) 
+	{
+		Sleep(100);
+		String PlusElemet = ("(//div[text()[contains(.,'Text1')]])["+num+"]");
+		PlusElemet = PlusElemet.replace("Text1", cuntry);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
+	}
+	public void SelectShoesBudget(String cuntry,String num ) 
+	{
+		Sleep(100);
+		String PlusElemet = ("(//div[text()[contains(.,'Text1')]])["+num+"]");
+		PlusElemet = PlusElemet.replace("Text1", cuntry);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
+	}
+	public void SelectEvent(String cuntry ) 
+	{
+		Sleep(100);
+		String PlusElemet = ("//div[text()[contains(.,'Text1')]]");
+		PlusElemet = PlusElemet.replace("Text1", cuntry);
+		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+		click(PlusTabs);
+	}
+	public void FillText(String chat)
+	{
+		WaitElementDisplay(By.xpath("//input[@type='text']"));
+		filltext(input,chat);
+		driver.findElement(By.xpath("//input[@type='text']")).sendKeys(Keys.ENTER);
+	}
+	public void ClickHeart() 
+	{
+		click(heart);	
+		Sleep(100);
+	}
+	
 
 }

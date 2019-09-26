@@ -6,7 +6,7 @@
       <class name="WishiTests.ChatQwizMaleTests">
         <methods>
           <include name="tearDown"/>
-          <include name="Selectheight"/>
+          <include name="SelectEvent"/>
           <include name="setup"/>
         </methods>
       </class> <!-- WishiTests.ChatQwizMaleTests -->

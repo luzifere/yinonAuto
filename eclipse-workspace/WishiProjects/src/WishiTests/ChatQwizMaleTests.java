@@ -4,6 +4,7 @@ import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -90,29 +91,64 @@ public class ChatQwizMaleTests extends BaseTest
 		QwizPage qwiz = new QwizPage(driver);
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'Now, let’s get a little personal. What’s your height?')]]"));
 		qwiz.SelectHeight("Average");
-		qwiz.ClickNextOfevent();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'Great, thank you. Now, please tell me a little about your go-to colors. Select any that you like to wear!')]]"));
+		//qwiz.ClickNextOfevent();
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'What kinds of pieces would you like me to shop for?')]]"));
+
+	}
+	
+	@Test(priority = 6,groups={"sanity-group"})
+	public void Selectategory ()
+	{
+		QwizPage qwiz = new QwizPage(driver);
+		qwiz.SelectCategory("Tops");
+		qwiz.SelectCategory("Pants");
+		qwiz.SelectCategory("Shoes");
+		qwiz.ClickNext();
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'What’s your size?')]]"));
+		
+	}
+	
+	@Test(priority = 7,groups={"sanity-group"})
+	public void SelectSize ()
+	{
+		QwizPage qwiz = new QwizPage(driver);
+		qwiz.OpenDropDwon("1");
+		qwiz.SelectTopsSize("M");
+		qwiz.OpenDropDwon("2");
+		qwiz.SelectBottomsSize("FR 32 / UK 4/ US 0");
+		qwiz.OpenDropDwon("3");
+		qwiz.SelectShoesSize("FR 36.5/ UK 2.5/ US 5.5");
+		qwiz.ClickNext();
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'And your budget?')]]"));
+	}
+	@Test(priority = 8,groups={"sanity-group"})
+	public void SelectBudget ()
+	{
+		QwizPage qwiz = new QwizPage(driver);
+		qwiz.OpenDropDwon("4");
+		qwiz.SelectBottomsBudget("$50-$100","1");
+		qwiz.OpenDropDwon("5");
+		qwiz.SelectBottomsBudget("$50-$100","2");
+		qwiz.OpenDropDwon("6");
+		qwiz.SelectBottomsBudget("$50-$100","3");
+		qwiz.ClickNext();
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'Great. Now to the fun part: Our first session! What kinds of outfits would you like me to focus on?')]]"));
+	}
+	@Test(priority = 9,groups={"sanity-group"})
+	public void SelectEvent()
+	{
+		QwizPage qwiz = new QwizPage(driver);
+		qwiz.SelectEvent("Black Tie");
+		qwiz.SelectEvent("Dinner");
+		qwiz.ClickNext();
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'Who are your style icons?')]]"));
+		qwiz.FillText("test");
+		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'test')]]"));
+		qwiz.ClickHeart();
+		Assert.assertTrue(qwiz.ElementDisplay("(//*[local-name()='svg']//*[local-name()='g' and @id='type']//*[local-name()='image' and @id='heart'])[1]"));
 
 	}
 	/*
-	//@Test(priority = 4,groups={"sanity-group"})
-	public void SelectBodyType ()
-	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.SelectTab("Slim");
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'2 OF 7')]]"));
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'HEIGHT')]]"));
-	}
-	@Test(priority = 5,groups={"sanity-group"})
-	public void SelectHeight ()
-	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.SelectTab("Tall");
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'2 OF 7')]]"));
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'COLORS')]]"));
-	}
 	@Test(priority = 6,groups={"sanity-group"})
 	public void SelectColors ()
 	{
