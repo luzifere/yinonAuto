@@ -38,7 +38,7 @@ public class BookingMembershipTests extends BaseTest
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();
-		best.SelectBodyType("0");
+		best.ClickPetit();
 		best.ClickNextbutton();
 		best.SelectHELLONO("1");
 		best.SelectHELLONO("2");
@@ -50,21 +50,22 @@ public class BookingMembershipTests extends BaseTest
 		best.SelectHELLONO("8");
 		best.SelectHELLONO("9");
 		best.SelectHELLONO("10");
-		best.Selectbrands("2");
+		best.Selectbrands("brand_H&M");
 		best.ClickMeetMyMatch();
-		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));	
-		BookingPage booking = new BookingPage(driver);
-		booking.ClickBookingstylist();
+		best.StylistPageDisplayed();	
 	}	
 
 	@Test(priority = 2,groups={"sanity-group"})
-	public void MembershipMini ()
+	public void BookStylist ()
 	{
+		
 		BookingPage booking = new BookingPage(driver);
 		String stylistName = this.configFileReader.getStylistName();
 		booking.SearchStylist(stylistName);
-		booking.SelectStylist();
-		booking.SelectMini();
+		booking.BookStylistProfile();
+		booking.ClickMIniGoal();
+		booking.ClickMIniPlan();
+		booking.ClickSubScription();
 		booking.Switch_to_strype();
 		booking.Sleep(250);
 		String CardNumber = this.configFileReader.getCardNumber();
@@ -76,11 +77,10 @@ public class BookingMembershipTests extends BaseTest
 		booking.Sleep(800);
 		booking.switchWindow();
 		booking.Sleep(200);
-		booking.ClickMyBooking();
-		booking.RefreshPage();
-		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'mini')]]"));
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'mini')]]"));
-		booking.ClickBookingstylist();
+		booking.ClickMyStyleSessions();
+		WebElement mini = driver.findElement(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'mini')]]"));
+		Assert.assertTrue(BookingPage.ElementDisplay(mini));
+		booking.ClickStylistHeader();
 	}
 	@Test(priority = 3,groups={"sanity-group"})
 	public void MembershipMajor ()
@@ -88,51 +88,22 @@ public class BookingMembershipTests extends BaseTest
 		BookingPage booking = new BookingPage(driver);
 		String stylistName = this.configFileReader.getStylistName();
 		booking.SearchStylist(stylistName);
-		booking.SelectStylist();
-		booking.SelectMajor();
-		booking.Switch_to_strype();
-		booking.Sleep(250);
-		String CardNumber = this.configFileReader.getCardNumber();
-		booking.FillCardNumber(CardNumber);
-		String CardDate = this.configFileReader.getCardDate();
-		booking.FillCardDate(CardDate);
-		String CardCVC = this.configFileReader.getCardCVC();
-		booking.FillCardCVC(CardCVC);
-		booking.Sleep(800);
-		booking.switchWindow();
+		booking.BookStylistProfile();
+		booking.ClickMajorGoal();
+		booking.ClickMajorPlan();
+		booking.ClickSubScription();
+		booking.ClickPaymentButton();
+		booking.ChatPresent();
 		booking.Sleep(200);
-		booking.ClickMyBooking();
-		booking.RefreshPage();
-		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'major')]]"));
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'major')]]"));
+		booking.ClickMyStyleSessions();
+		WebElement major = driver.findElement(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'major')]]"));
+		Assert.assertTrue(BookingPage.ElementDisplay(major));
 		booking.Sleep(300);
 		booking.close();	
-
+	}
 	}
 
-	//@Test(priority = 4,groups={"sanity-group"})
-	public void CheckoutByCreditCard ()
-	{
-		BookingPage booking = new BookingPage(driver);
-		booking.SearchStylist("Casey Huth");
-		booking.SelectStylist();
-		booking.BookStylist();
-		booking.switchWindow();
-		booking.FillFirstName("yinon");
-		booking.FillLastName("aba");
-		booking.SwitchToFrame(0);
-		booking.FillCardNumber("4111111111111111");
-		booking.FillCardDate("0222");
-		booking.FillCardCVC("424");
-		booking.Sleep(500);
-		booking.switchWindow();
-		booking.Sleep(200);
-		booking.WaitElementDisplay(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]"));
-		//BookingPage.ExplicityWaitIsClickable(By.xpath("//div[@class='thank-u-btn']"));
-		driver.findElement(By.xpath("(//div[text()[contains(.,'take your style quiz')]])[2]")).click();
-		booking.ClickBookingstylist();	
-		driver.close();
-	}
+	
 
 
-}
+

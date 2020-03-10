@@ -128,484 +128,1180 @@ public class BookingPage extends BasePage {
 
 	public void TipToStylist() 
 	{
-		Sleep(170);
-		click(FourButtonID);
-		Sleep(170);
-		click(DoneButtonID);
-		WaitElementDisplay(By.xpath("//*[@name='Feed']"));
+		try
+
+		{
+			Sleep(170);
+			click(FourButtonID);
+			Sleep(170);
+			click(DoneButtonID);
+			WaitElementDisplay(By.xpath("//*[@name='Feed']"));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : TipToStylist failed\n");
+
+		}
+
 	}
 	public void ClickMessageCounter() 
 	{
-		Sleep(170);
-		click(MessageCounter);
-		Sleep(170);
+		try
+
+		{
+			Sleep(170);
+			click(MessageCounter);
+			Sleep(170);
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : ClickMessageCounter failed\n");
+
+		}
+
 	}
 	public void ClickFourButtonID() 
 	{
-		Sleep(170);
-		click(FourButtonID);
-		Sleep(170);
+		{
+			try
+
+			{
+				Sleep(170);
+				click(FourButtonID);
+				Sleep(170);
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickFourButtonID failed\n");	
+			}
+		}
+
 	}
 	public void AddMoodBord() 
 	{
-		WaitElementDisplay(By.xpath("//*[@name='LOOKS']"));
-		click(LooksTab);
-		WaitElementDisplay(By.xpath("//*[@name='ArrowButtonID']"));
-		Sleep(250);
-		click(UpArrow);
-		WaitElementDisplay(By.xpath("//*[@name='MOODBOARDS']"));
-		click(MoodBordTab);
-		SelectImage3(100,200);
+		{
+			try
+
+			{
+				WaitElementDisplay(By.xpath("//*[@name='LOOKS']"));
+				click(LooksTab);
+				WaitElementDisplay(By.xpath("//*[@name='ArrowButtonID']"));
+				Sleep(250);
+				click(UpArrow);
+				WaitElementDisplay(By.xpath("//*[@name='MOODBOARDS']"));
+				click(MoodBordTab);
+				SelectImage3(100,200);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : AddMoodBord failed\n");	
+			}
+		}
+
+
 	}
 	public void AddLooks() 
 	{
-		WaitElementDisplay(By.xpath("//*[@name='LOOKS']"));
-		click(LooksTab);
-		WaitElementDisplay(By.xpath("//*[@name='ArrowButtonID']"));
-		Sleep(250);
-		click(UpArrow);
-		WaitElementDisplay(By.xpath("//*[@name='MOODBOARDS']"));
-		click(LooksTab);
-		SelectImage3(100,200);
+		{
+			try
+
+			{
+				WaitElementDisplay(By.xpath("//*[@name='LOOKS']"));
+				click(LooksTab);
+				WaitElementDisplay(By.xpath("//*[@name='ArrowButtonID']"));
+				Sleep(250);
+				click(UpArrow);
+				WaitElementDisplay(By.xpath("//*[@name='MOODBOARDS']"));
+				click(LooksTab);
+				SelectImage3(100,200);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : AddLooks failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickSixButtonID() 
 	{
-		Sleep(170);
-		click(SixButtonID);
-		Sleep(170);
+		{
+			try
+
+			{
+				Sleep(170);
+				click(SixButtonID);
+				Sleep(170);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickSixButtonID failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickTenButtonID() 
 	{
-		Sleep(170);
-		click(TenButtonID);
-		Sleep(170);
+		{
+			try
+
+			{
+				Sleep(170);
+				click(TenButtonID);
+				Sleep(170);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickTenButtonID failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickNoneButtonID() 
 	{
-		Sleep(170);
-		click(NoneButtonID);
-		Sleep(170);
+		{
+			try
+
+			{
+				Sleep(170);
+				click(NoneButtonID);
+				Sleep(170);		
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickNoneButtonID failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickDoneButtonID() 
 	{
-		Sleep(170);
-		click(DoneButtonID);
-		Sleep(170);
+		{
+			try
+
+			{
+				Sleep(170);
+				click(DoneButtonID);
+				Sleep(170);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickDoneButtonID failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickNextButtonID() 
 	{
-		Sleep(170);
-		click(NextButtonID);
-		Sleep(170);
+		{
+			try
+
+			{
+				Sleep(170);
+				click(NextButtonID);
+				Sleep(170);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickNextButtonID failed\n");	
+			}
+		}
+
+
 	}
 
 	public void ClickLoveItem() 
 	{
-		Sleep(170);
-		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Love all your ideas!']"));
-		//List<WebElement> elements= driver.findElements(By.id("Love all your ideas!"));
-		System.out.println(elements);
-		int count=elements.size();
-		String last =	elements.get(count-1).getText();
-		System.out.println(last);
-		Sleep(170);
-		elements.get(count-1).click();
-		//WebElement loveitem = elements.get(count-1);
-		//ScrollTooElement2(loveitem);
-		//loveitem.click();
+		{
+			try
 
-		Sleep(200);
-		WaitElementDisplay(By.id("Write a message..."));
+			{
+				Sleep(170);
+				List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Love all your ideas!']"));
+				//List<WebElement> elements= driver.findElements(By.id("Love all your ideas!"));
+				System.out.println(elements);
+				int count=elements.size();
+				String last =	elements.get(count-1).getText();
+				System.out.println(last);
+				Sleep(170);
+				elements.get(count-1).click();
+				//WebElement loveitem = elements.get(count-1);
+				//ScrollTooElement2(loveitem);
+				//loveitem.click();
+
+				Sleep(200);
+				WaitElementDisplay(By.id("Write a message..."));
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickLoveItem failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickLoveOutfit() 
 	{
-		Sleep(170);
-		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Love it!']"));
-		//List<WebElement> elements= driver.findElements(By.id("I love this outfit"));
-		System.out.println(elements);
-		int count=elements.size();
-		Sleep(170);
-		String last =	elements.get(count-1).getText();
-		System.out.println(last);
-		Sleep(150);
-		elements.get(count-1).click();
-		Sleep(200);
-		WaitElementDisplay(By.id("Write a message..."));
+		{
+			try
+
+			{
+				Sleep(170);
+				List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Love it!']"));
+				//List<WebElement> elements= driver.findElements(By.id("I love this outfit"));
+				System.out.println(elements);
+				int count=elements.size();
+				Sleep(170);
+				String last =	elements.get(count-1).getText();
+				System.out.println(last);
+				Sleep(150);
+				elements.get(count-1).click();
+				Sleep(200);
+				WaitElementDisplay(By.id("Write a message..."));
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickLoveOutfit failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickLoveAllOfThis() 
 	{
-		Sleep(170);
-		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Love all of these, can you help me choose?']"));
-		//List<WebElement> elements= driver.findElements(By.id("I love this outfit"));
-		System.out.println(elements);
-		int count=elements.size();
-		Sleep(170);
-		String last =	elements.get(count-1).getText();
-		System.out.println(last);
-		Sleep(170);
-		elements.get(count-1).click();
-		Sleep(200);
-		WaitElementDisplay(By.id("Write a message..."));
+		{
+			try
+
+			{
+				Sleep(170);
+				List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Love all of these, can you help me choose?']"));
+				//List<WebElement> elements= driver.findElements(By.id("I love this outfit"));
+				System.out.println(elements);
+				int count=elements.size();
+				Sleep(170);
+				String last =	elements.get(count-1).getText();
+				System.out.println(last);
+				Sleep(170);
+				elements.get(count-1).click();
+				Sleep(200);
+				WaitElementDisplay(By.id("Write a message..."));
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickLoveAllOfThis failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickCreateLook() 
 	{
-		Sleep(250);
-		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Create Look']"));
-		//List<WebElement> elements= driver.findElements(By.id("Create Look"));
-		System.out.println(elements);
-		int count=elements.size();
-		Sleep(250);
-		String last =	elements.get(count-1).getText();
-		System.out.println(last);
-		elements.get(count-1).click();
-		Sleep(500);
+		{
+			try
+
+			{
+
+				Sleep(250);
+				List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Create Look']"));
+				//List<WebElement> elements= driver.findElements(By.id("Create Look"));
+				System.out.println(elements);
+				int count=elements.size();
+				Sleep(250);
+				String last =	elements.get(count-1).getText();
+				System.out.println(last);
+				elements.get(count-1).click();
+				Sleep(500);
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickCreateLook failed\n");	
+			}
+		}
+
+
 
 	}
 	public void ClickStyleLook() 
 	{
-		Sleep(170);
-		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Style']"));
-		//List<WebElement> elements= driver.findElements(By.id("Create Look"));
-		System.out.println(elements);
-		int count=elements.size();
-		Sleep(170);
-		String last =	elements.get(count-1).getText();
-		System.out.println(last);
-		elements.get(count-1).click();
-		Sleep(500);
+		{
+			try
+
+			{
+				Sleep(170);
+				List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Style']"));
+				//List<WebElement> elements= driver.findElements(By.id("Create Look"));
+				System.out.println(elements);
+				int count=elements.size();
+				Sleep(170);
+				String last =	elements.get(count-1).getText();
+				System.out.println(last);
+				elements.get(count-1).click();
+				Sleep(500);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickStyleLook failed\n");	
+			}
+		}
+
+
 
 	}
 	public void ClickReviseLookStylist() 
 	{
-		Sleep(170);
-		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Revise Look']"));
-		//List<WebElement> elements= driver.findElements(By.id("Revise Look"));
-		System.out.println(elements);
-		int count=elements.size();
-		String last =	elements.get(count-1).getText();
-		System.out.println(last);
-		Sleep(170);
-		elements.get(count-1).click();
-		Sleep(500);
+		{
+			try
+
+			{
+
+				Sleep(170);
+				List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Revise Look']"));
+				//List<WebElement> elements= driver.findElements(By.id("Revise Look"));
+				System.out.println(elements);
+				int count=elements.size();
+				String last =	elements.get(count-1).getText();
+				System.out.println(last);
+				Sleep(170);
+				elements.get(count-1).click();
+				Sleep(500);
+
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickReviseLookStylist failed\n");	
+			}
+		}
 	}
 	public void SelectImageForRevise2(String image)
 	{
-		Sleep(170);
-		String ImageElemet = ("(//*[@name='ReviseImageID'])[text1]");
-		ImageElemet = ImageElemet.replace("text1", image);
-		WebElement ImageButton = driver.findElement(By.xpath(ImageElemet));
-		click(ImageButton);
-		Sleep(500);
+		{
+			try
+
+			{
+				Sleep(170);
+				String ImageElemet = ("(//*[@name='ReviseImageID'])[text1]");
+				ImageElemet = ImageElemet.replace("text1", image);
+				WebElement ImageButton = driver.findElement(By.xpath(ImageElemet));
+				click(ImageButton);
+				Sleep(500);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : SelectImageForRevise2 failed\n");	
+			}
+		}
+
+
 	} 
 	public void SelectImageForRevise()
 	{
-		Sleep(170);
-		//List<WebElement> elements= driver.findElements(By.xpath("//*[@name='TopmanID']"));
-		List<WebElement> elements= driver.findElements(By.id("CellReviseID"));
-		System.out.println(elements);
-		int count=elements.size();
-		System.out.println(count);
-		String last =	elements.get(count-1).getText();
-		System.out.println(last);
-		Sleep(170);
-		elements.get(count-1).click();
-		Sleep(500);
+		{
+			try
+
+			{
+				Sleep(170);
+				//List<WebElement> elements= driver.findElements(By.xpath("//*[@name='TopmanID']"));
+				List<WebElement> elements= driver.findElements(By.id("CellReviseID"));
+				System.out.println(elements);
+				int count=elements.size();
+				System.out.println(count);
+				String last =	elements.get(count-1).getText();
+				System.out.println(last);
+				Sleep(170);
+				elements.get(count-1).click();
+				Sleep(500);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : SelectImageForRevise failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickReviseLookClient() 
 	{
+		{
+			try
 
-		Sleep(170);
-/*
-		scrollUp();
-		scrollUp();
-		scrollDownXpath();
-		scrollDownXpath();
-		*/
-		scrollDownXpath();
-		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Revise it']"));
-		//List<WebElement> elements= driver.findElements(By.id("I', \\\"'\\\", 'd like to revise the look"));
-		System.out.println(elements);
-		int count=elements.size();
-		String last =	elements.get(count-1).getText();
-		System.out.println(last);
-		Sleep(170);
-		elements.get(count-1).click();
-		Sleep(500);
+			{
+				Sleep(170);
+				/*
+					scrollUp();
+					scrollUp();
+					scrollDownXpath();
+					scrollDownXpath();
+				 */
+				scrollDownXpath();
+				List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Revise it']"));
+				//List<WebElement> elements= driver.findElements(By.id("I', \\\"'\\\", 'd like to revise the look"));
+				System.out.println(elements);
+				int count=elements.size();
+				String last =	elements.get(count-1).getText();
+				System.out.println(last);
+				Sleep(170);
+				elements.get(count-1).click();
+				Sleep(500);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickReviseLookClient failed\n");	
+			}
+		}
+
+
 
 	}
 	public void ClickSendReviseClient() 
 	{
-		Sleep(170);
-		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Submit']"));
-		//List<WebElement> elements= driver.findElements(By.id("SendButtonID"));
-		System.out.println(elements);
-		int count=elements.size();
-		String last =	elements.get(count-1).getText();
-		System.out.println(last);
-		Sleep(170);
-		elements.get(count-1).click();
-		Sleep(500);
+		{
+			try
+
+			{
+
+				Sleep(170);
+				List<WebElement> elements= driver.findElements(By.xpath("//*[@name='Submit']"));
+				//List<WebElement> elements= driver.findElements(By.id("SendButtonID"));
+				System.out.println(elements);
+				int count=elements.size();
+				String last =	elements.get(count-1).getText();
+				System.out.println(last);
+				Sleep(170);
+				elements.get(count-1).click();
+				Sleep(500);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickSendReviseClient failed\n");	
+			}
+		}
+
 
 	}
 	public void ClickEndSession() 
 	{
-		Sleep(170);
-		List<WebElement> elements= driver.findElements(By.xpath("//*[@name='End Session']"));
-		//List<WebElement> elements= driver.findElements(By.id("End Session"));
-		System.out.println(elements);
-		int count=elements.size();
-		String last =	elements.get(count-1).getText();
-		System.out.println(last);
-		Sleep(170);
-		elements.get(count-1).click();
-		Sleep(500);
+		{
+			try
+
+			{
+
+				Sleep(170);
+				List<WebElement> elements= driver.findElements(By.xpath("//*[@name='End Session']"));
+				//List<WebElement> elements= driver.findElements(By.id("End Session"));
+				System.out.println(elements);
+				int count=elements.size();
+				String last =	elements.get(count-1).getText();
+				System.out.println(last);
+				Sleep(170);
+				elements.get(count-1).click();
+				Sleep(500);
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickEndSession failed\n");	
+			}
+		}
+
+
 	}
 	public void ApproveEndSession() 
 	{
-		Sleep(250);
-		//List<WebElement> elements= driver.findElements(By.xpath("//*[@name='YesThanksButtonID']"));
-		List<WebElement> elements= driver.findElements(By.id("YesThanksButtonID"));
-		System.out.println(elements);
-		int count=elements.size();
-		Sleep(500);
-		String last =	elements.get(count-1).getText();
-		System.out.println(last);
-		Sleep(170);
-		elements.get(count-1).click();
-		Sleep(500);
-		WaitElementDisplay(By.xpath("(//*[@name='Star grey'])[5]"));
+		{
+			try
+
+			{
+				Sleep(250);
+				//List<WebElement> elements= driver.findElements(By.xpath("//*[@name='YesThanksButtonID']"));
+				List<WebElement> elements= driver.findElements(By.id("YesThanksButtonID"));
+				System.out.println(elements);
+				int count=elements.size();
+				Sleep(500);
+				String last =	elements.get(count-1).getText();
+				System.out.println(last);
+				Sleep(170);
+				elements.get(count-1).click();
+				Sleep(500);
+				WaitElementDisplay(By.xpath("(//*[@name='Star grey'])[5]"));
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ApproveEndSession failed\n");	
+			}
+		}
+
+
 	}
 
 	public void FillDescription(String description ) 
 	{
-		Sleep(170);
-		//click(MBDescription);
-		Sleep(170);
-		SelectImage3(264,564);
-		Sleep(170);
-		clear(MBDescription);
-		filltext(MBDescription, description);
-		click(Done);
-		//click(SaveDescription);
-		Sleep(170);
+		{
+			try
+
+			{
+				Sleep(170);
+				//click(MBDescription);
+				Sleep(170);
+				SelectImage3(264,564);
+				Sleep(170);
+				clear(MBDescription);
+				filltext(MBDescription, description);
+				click(Done);
+				//click(SaveDescription);
+				Sleep(170);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : FillDescription failed\n");	
+			}
+		}
+
+
 	}
 	public void FillLookDescription(String description ) 
 	{
-		Sleep(170);
-		click(LookDescription);
-		clear(Description);
-		filltext(Description, description);
-		click(SaveDescription);
-		Sleep(170);
+		{
+			try
+
+			{
+
+				Sleep(170);
+				click(LookDescription);
+				clear(Description);
+				filltext(Description, description);
+				click(SaveDescription);
+				Sleep(170);
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : FillLookDescription failed\n");	
+			}
+		}
+
+
 	}
 	public void FillCollectionDescription(String description ) 
 	{
-		Sleep(170);
-		click(CollectionDescription);
-		clear(Description);
-		filltext(Description, description);
-		click(SaveDescription);
-		Sleep(170);
+		{
+			try
+
+			{
+				Sleep(170);
+				click(CollectionDescription);
+				clear(Description);
+				filltext(Description, description);
+				click(SaveDescription);
+				Sleep(170);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : FillCollectionDescription failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickSendMoodBoard() 
 	{		
-		Sleep(250);
-		WaitElementDisplay(By.xpath("//*[@name='Send']"));
-		click(SendMoodBoard);
-		Sleep(150);
-		//WaitElementNotDisplay(By.xpath("//*[@name='Send Mood Board']"));
-		Sleep(250);
-		Sleep(250);
-		BasePage.AcceptAlert();
-		WaitElementDisplay(By.id("BackButton"));
+		{
+			try
+
+			{
+				Sleep(250);
+				WaitElementDisplay(By.xpath("//*[@name='Send']"));
+				click(SendMoodBoard);
+				Sleep(150);
+				//WaitElementNotDisplay(By.xpath("//*[@name='Send Mood Board']"));
+				Sleep(250);
+				Sleep(250);
+				BasePage.AcceptAlert();
+				WaitElementDisplay(By.id("BackButton"));
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickSendMoodBoard failed\n");	
+			}
+		}
+
+
 	}
 
 	public void ClickSendReviseClient1() 
 	{		
-		Sleep(170);
-		click(SendButtonClient);
-		Sleep(500);
+		{
+			try
+
+			{
+				Sleep(170);
+				click(SendButtonClient);
+				Sleep(500);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickSendReviseClient1 failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickSendEndSession() 
-	{		
-		Sleep(170);
-		click(SendEndSession);
-		WaitElementDisplay(By.xpath("//*[@name='Waiting for your client to confirm ending the session']"));
+	{	
+		{
+			try
+
+			{
+				Sleep(170);
+				click(SendEndSession);
+				WaitElementDisplay(By.xpath("//*[@name='Waiting for your client to confirm ending the session']"));
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickSendEndSession failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickSendEndSessionStyle() 
 	{		
-		Sleep(170);
-		click(SendEndSession);
-		WaitElementDisplay(By.xpath("//*[@name='No Action Needed']"));
+		{
+			try
+
+			{
+				Sleep(170);
+				click(SendEndSession);
+				WaitElementDisplay(By.xpath("//*[@name='No Action Needed']"));
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickSendEndSessionStyle failed\n");	
+			}
+		}
+
+
 	}
 	public void ReplaceToEmptyCanvas()
 	{		
-		Sleep(250);
-		WaitElementDisplay(By.id("EmptyCanvasID"));
-		driver.findElement(By.id("EmptyCanvasID")).click();
-		Sleep(170);
+		{
+			try
+
+			{
+				Sleep(250);
+				WaitElementDisplay(By.id("EmptyCanvasID"));
+				driver.findElement(By.id("EmptyCanvasID")).click();
+				Sleep(170);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ReplaceToEmptyCanvas failed\n");	
+			}
+		}
+
+
 	}
 
 	public void ClickLookSaveButton()
-	{		
-		Sleep(170);
-		click(LookSaveButton);
-		Sleep(250);
-		BasePage.AcceptAlert();
-		WaitElementDisplay(By.id("BackButton"));
+	{	
+		{
+			try
+
+			{
+				Sleep(170);
+				click(LookSaveButton);
+				Sleep(250);
+				BasePage.AcceptAlert();
+				WaitElementDisplay(By.id("BackButton"));
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickLookSaveButton failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickCollectionSaveButton()
 	{		
-		Sleep(170);
-		click(SaveCollection);
-		BasePage.AcceptAlert();
-		WaitElementDisplay(By.id("BackButton"));
+		{
+			try
+
+			{
+				Sleep(170);
+				click(SaveCollection);
+				BasePage.AcceptAlert();
+				WaitElementDisplay(By.id("BackButton"));
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickCollectionSaveButton failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickReviseLookSaveButton()
-	{		
-		Sleep(170);
-		click(LookSaveButton);
-		Sleep(250);
-		BasePage.AcceptAlert();
-		WaitElementDisplay(By.id("My Bookings"));
+	{	
+		{
+			try
+
+			{
+				Sleep(170);
+				click(LookSaveButton);
+				Sleep(250);
+				BasePage.AcceptAlert();
+				WaitElementDisplay(By.id("My Bookings"));
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickReviseLookSaveButton failed\n");	
+			}
+		}
+
+
 	}
 	public void RateStylist()
 	{		
-		Sleep(170);
-		click(RateStylist);
-		WaitElementDisplay(By.xpath("//*[@name='Your review will be public']"));
-		click(NextButtonID);
-		WaitElementDisplay(By.xpath("//*[@name='FourButtonID']"));
+		{
+			try
+
+			{
+				Sleep(170);
+				click(RateStylist);
+				WaitElementDisplay(By.xpath("//*[@name='Your review will be public']"));
+				click(NextButtonID);
+				WaitElementDisplay(By.xpath("//*[@name='FourButtonID']"));
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : RateStylist failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickSubmit()
-	{		
-		Sleep(200);
-		click(Submit);
-		WaitElementDisplay(By.id("Write a message..."));
-		//Sleep(700);
+	{	
+		{
+			try
+
+			{
+				Sleep(200);
+				click(Submit);
+				WaitElementDisplay(By.id("Write a message..."));
+				//Sleep(700);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickSubmit failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickChatButton()
-	{		
-		Sleep(170);
-		click(ChatButton);
-		Sleep(170);
+	{
+		{
+			try
+
+			{
+				Sleep(170);
+				click(ChatButton);
+				Sleep(170);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickChatButton failed\n");	
+			}
+		}
+
 	}
 	public void ClickToolBarDone() 
 	{		
-		Sleep(170);
-		click(ToolBarDone);
-		Sleep(170);
+		{
+			try
+
+			{
+
+				Sleep(170);
+				click(ToolBarDone);
+				Sleep(170);
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickToolBarDone failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickSave() 
 	{		
-		Sleep(170);
-		click(Save);
-		Sleep(170);
+		{
+			try
+
+			{
+				Sleep(170);
+				click(Save);
+				Sleep(170);		
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickSave failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickUpArrow() 
-	{		
-		Sleep(500);
-		click(UpArrow);
-		Sleep(200);
+	{	
+		{
+			try
+
+			{
+
+
+				Sleep(500);
+				click(UpArrow);
+				Sleep(200);
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickUpArrow failed\n");	
+			}
+		}
+
 	}
 	public void ClickShop() 
 	{		
-		Sleep(170);
-		driver.findElement(By.xpath("//*[@name='SHOP']")).click();//*[@name='SHOP']
-		//click(Shop);
-		Sleep(170);
-		WaitElementDisplay(By.xpath("//*[@name='itemCellID'][1]"));
+		{
+			try
+
+			{
+
+				Sleep(170);
+				driver.findElement(By.xpath("//*[@name='SHOP']")).click();//*[@name='SHOP']
+				//click(Shop);
+				Sleep(170);
+				WaitElementDisplay(By.xpath("//*[@name='itemCellID'][1]"));
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickShop failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickCreateMoodBoardButton()
 	{		
-		Sleep(250);
-		WaitElementDisplay(By.id("Create Mood Board"));
-		click(CreateMoodBoardButton);
-		Sleep(170);
+		{
+			try
+
+			{
+
+				Sleep(250);
+				WaitElementDisplay(By.id("Create Mood Board"));
+				click(CreateMoodBoardButton);
+				Sleep(170);
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickCreateMoodBoardButton failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickGoItButton()
 	{		
-		Sleep(250);
-		WaitElementDisplay(By.id("Got It"));
-		driver.findElement(By.id("Got It")).click();
-		Sleep(170);
+		{
+			try
+
+			{
+
+				Sleep(250);
+				WaitElementDisplay(By.id("Got It"));
+				driver.findElement(By.id("Got It")).click();
+				Sleep(170); 
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickGoItButton failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickCloseOBButton()
 	{		
-		Sleep(250);
-		WaitElementDisplay(By.xpath("//*[@name='CloseOnboarding']"));
-		driver.findElement(By.xpath("//*[@name='CloseOnboarding']")).click();
-		Sleep(170);
+		{
+			try
+
+			{
+				Sleep(250);
+				WaitElementDisplay(By.xpath("//*[@name='CloseOnboarding']"));
+				driver.findElement(By.xpath("//*[@name='CloseOnboarding']")).click();
+				Sleep(170);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickCloseOBButton failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickCreateLookButton()
 	{		
-		Sleep(170);
-		click(CreateLook);
-		Sleep(170);
+		{
+			try
+
+			{
+				Sleep(170);
+				click(CreateLook);
+				Sleep(170);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickCreateLookButton failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickCloseButton() 
-	{		
-		Sleep(170);
-		click(CloseButton);
-		Sleep(170);
+	{	
+		{
+			try
+
+			{
+
+				Sleep(170);
+				click(CloseButton);
+				Sleep(170);
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickCloseButton failed\n");	
+			}
+		}
+
+
 	}
 
 	public void ClickLoginStart() 
 	{
-		Sleep(170);
-		click(LoginStart);
-		Sleep(170);
+		{
+			try
+
+			{
+				Sleep(170);
+				click(LoginStart);
+				Sleep(170);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickLoginStart failed\n");	
+			}
+		}
 	}
 	public void LoginStylistApp(String user ,String password ) 
 	{
-		Sleep(170);
-		filltext(UserNAme, user);
-		filltext(Password, password);
-		Sleep(250);
+		{
+			try
+
+			{
+				Sleep(170);
+				filltext(UserNAme, user);
+				filltext(Password, password);
+				Sleep(250);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : LoginStylistApp failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickLoginButton() 
 	{
+		{
+			try
+
+			{
+				Sleep(170);
+				click(LoginButton);
+				Sleep(170);	
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickLoginButton failed\n");	
+			}
+		}
+
 		Sleep(170);
 		click(LoginButton);
 		Sleep(170);
 	}
 	public void ClickCloseOnBoarding() 
 	{
-		Sleep(170);
-		click(CloseOnBoarding);
-		Sleep(170);
+		{
+			try
+
+			{
+
+				Sleep(170);
+				click(CloseOnBoarding);
+				Sleep(170);
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickCloseOnBoarding failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickBackButton() 
 	{
-		Sleep(170);
-		click(BackButton);
-		Sleep(170);
+		{
+			try
+
+			{
+				Sleep(170);
+				click(BackButton);
+				Sleep(170);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickBackButton failed\n");	
+			}
+		}
+
+
 	}
 	public void ClickChatTab() 
 	{
+		{
+			try
+
+			{
+				Sleep(170);
+				click(ChatTab);
+				Sleep(170);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickChatTab failed\n");	
+			}
+		}
+
 		Sleep(170);
 		click(ChatTab);
 		Sleep(170);
 	}
 	public void ClickcChatTab() 
 	{
-		Sleep(170);
-		click(ChatTab);
-		Sleep(170);
+		{
+			try
+
+			{
+				Sleep(170);
+				click(ChatTab);
+				Sleep(170);	
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ClickcChatTab failed\n");	
+			}
+		}
+
+
 	}
 	public void Clickclose_menu4Button() 
-	{		
-		Sleep(170);
-		click(close_menu4Button);
-		Sleep(170);
+	{	
+		{
+			try
+
+			{
+				Sleep(170);
+				click(close_menu4Button);
+				Sleep(170);
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : Clickclose_menu4Button failed\n");	
+			}
+		}
+
+
 	}
 	public void SelectItem(String item)
 	{
-		String PlusElemet = ("(//*[@name='itemCellID'])[Text1]");
-		PlusElemet = PlusElemet.replace("Text1", item);
-		WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
-		click(PlusTabs);
+		{
+			try
+
+			{
+
+				String PlusElemet = ("(//*[@name='itemCellID'])[Text1]");
+				PlusElemet = PlusElemet.replace("Text1", item);
+				WebElement PlusTabs = driver.findElement(By.xpath(PlusElemet));
+				click(PlusTabs);
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : SelectItem failed\n");	
+			}
+		}
+
+
 	}
-	
+
 
 }

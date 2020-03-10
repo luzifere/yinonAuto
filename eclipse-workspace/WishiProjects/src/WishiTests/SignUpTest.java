@@ -14,23 +14,14 @@ import PageObject.SignUpPage;
 @Listeners(WishiTests.Listener.class)
 public class SignUpTest extends BaseTest 
 {
-	@Test(priority = 1,groups={"sanity-group"})
-	public void SignUpClickable()
-	{
-		SignUpPage signup = new SignUpPage(driver);
-		signup.waitForPageLoaded();
-		signup.ClickOnSignUpEmail();
-		signup.Sleep(100);
-		signup.WaitElementDisplay(By.xpath("//div//div[@class='closeXLeft ng-scope']"));
-		Assert.assertTrue(signup.ElementDisplay("//div//div[@class='closeXLeft ng-scope']"));
-	}
-	
+
 	@Test(priority = 2,groups={"sanity-group"})
 	public void FillEmailWitoutShtudel()
 	{
 		SignUpPage signup = new SignUpPage(driver);
 		signup.doSignUp("yinon542244243.wishi.com", "inon bb av", "ab1565");
-		Assert.assertTrue(SignUpPage.ElementDisplay("//div[contains(text(), 'Email is invalid')]"));
+		signup.EmaileRequired();
+		
 		
 	} 
 	
@@ -40,7 +31,8 @@ public class SignUpTest extends BaseTest
 		
 		SignUpPage signup = new SignUpPage(driver);
 		signup.doSignUp("yinon@542244243wishi", "inon bb av", "ab1565");
-		Assert.assertTrue(SignUpPage.ElementDisplay("//div[contains(text(), 'Email is invalid')]"));
+		signup.PleasEnterValidEmail();
+		
 		
 	}
 	
@@ -50,7 +42,7 @@ public class SignUpTest extends BaseTest
 		
 		SignUpPage signup = new SignUpPage(driver);
 		signup.doSignUp("yinon@542244243.wishi", "inon bb av", "ab");
-		Assert.assertTrue(SignUpPage.ElementDisplay("//div[contains(text(), 'Password must have at least 6 characters')]"));
+		signup.Must6Characters();
 		
 	} 
 	@Test(priority = 5,groups={"sanity-group"})
@@ -59,7 +51,7 @@ public class SignUpTest extends BaseTest
 		
 		SignUpPage signup = new SignUpPage(driver);
 		signup.doSignUp("yinon@542244243.wishi", "@@@@@@ ######", "ab1565");
-		Assert.assertTrue(SignUpPage.ElementDisplay("//div[contains(text(), 'You are using invalid characters')]"));
+		signup.invalidCharacters();
 		
 	} 
 	
@@ -74,8 +66,7 @@ public class SignUpTest extends BaseTest
 		signup.doSignUp("wishitestyinon@wishitest.com" + number, "inon bb av", "ab1565");
 		//signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
 		BestMatchPage best = new BestMatchPage(driver);
-		signup.WaitElementDisplay(By.xpath("//div//button[@class='btn-start']"));
-		Assert.assertTrue(signup.ElementDisplay("//div//button[@class='btn-start']"));
+		signup.LetsGetStylingBuutton();
 		signup.close();
 	}
 	

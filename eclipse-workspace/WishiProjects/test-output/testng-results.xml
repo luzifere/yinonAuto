@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Test Default test]]>
@@ -11,136 +11,46 @@
       <![CDATA[Completed executing following method : BaseTest.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : ChatQwizMaleTests.DoSignUp]]>
+      <![CDATA[About to begin executing following method : BookingMembershipTests.DoSignUp]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : ChatQwizMaleTests.DoSignUp]]>
+      <![CDATA[Completed executing following method : BookingMembershipTests.DoSignUp]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite DoSignUp]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : ChatQwizMaleTests.CheckOutSession]]>
+      <![CDATA[About to begin executing following method : BookingMembershipTests.BookStylist]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : ChatQwizMaleTests.CheckOutSession]]>
+      <![CDATA[Completed executing following method : BookingMembershipTests.BookStylist]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite CheckOutSession]]>
+      <![CDATA[About to Success executing Suite BookStylist]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : ChatQwizMaleTests.FillBirthday]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : ChatQwizMaleTests.FillBirthday]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite FillBirthday]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : ChatQwizMaleTests.FillNumberPhone]]>
+      <![CDATA[About to begin executing following method : BookingMembershipTests.MembershipMajor]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : ChatQwizMaleTests.FillNumberPhone]]>
+      <![CDATA[Completed executing following method : BookingMembershipTests.MembershipMajor]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite FillNumberPhone]]>
+      <![CDATA[About to Success executing Suite MembershipMajor]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : ChatQwizMaleTests.Selectheight]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : ChatQwizMaleTests.Selectheight]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite Selectheight]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : ChatQwizMaleTests.Selectategory]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : ChatQwizMaleTests.Selectategory]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite Selectategory]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : ChatQwizMaleTests.SelectSize]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : ChatQwizMaleTests.SelectSize]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectSize]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : ChatQwizMaleTests.SelectBudget]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : ChatQwizMaleTests.SelectBudget]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectBudget]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : ChatQwizMaleTests.SelectEvent]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : ChatQwizMaleTests.SelectEvent]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite SelectEvent]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
+      <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
@@ -152,208 +62,88 @@
       <![CDATA[Completed executing following method : BaseTest.tearDown]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="128826" started-at="2019-09-26T17:08:28Z" finished-at="2019-09-26T17:10:37Z">
+  <suite name="Default suite" duration-ms="144387" started-at="2020-03-10T17:17:30Z" finished-at="2020-03-10T17:19:54Z">
     <groups>
       <group name="sanity-group">
-        <method signature="ChatQwizMaleTests.CheckOutSession()[pri:2, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="CheckOutSession" class="WishiTests.ChatQwizMaleTests"/>
-        <method signature="ChatQwizMaleTests.DoSignUp()[pri:1, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="DoSignUp" class="WishiTests.ChatQwizMaleTests"/>
-        <method signature="ChatQwizMaleTests.FillBirthday()[pri:3, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="FillBirthday" class="WishiTests.ChatQwizMaleTests"/>
-        <method signature="ChatQwizMaleTests.FillNumberPhone()[pri:4, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="FillNumberPhone" class="WishiTests.ChatQwizMaleTests"/>
-        <method signature="ChatQwizMaleTests.SelectBudget()[pri:8, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="SelectBudget" class="WishiTests.ChatQwizMaleTests"/>
-        <method signature="ChatQwizMaleTests.SelectEvent()[pri:9, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="SelectEvent" class="WishiTests.ChatQwizMaleTests"/>
-        <method signature="ChatQwizMaleTests.SelectSize()[pri:7, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="SelectSize" class="WishiTests.ChatQwizMaleTests"/>
-        <method signature="ChatQwizMaleTests.Selectategory()[pri:6, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="Selectategory" class="WishiTests.ChatQwizMaleTests"/>
-        <method signature="ChatQwizMaleTests.Selectheight()[pri:5, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="Selectheight" class="WishiTests.ChatQwizMaleTests"/>
+        <method signature="BookingMembershipTests.BookStylist()[pri:2, instance:WishiTests.BookingMembershipTests@3cb1ffe6]" name="BookStylist" class="WishiTests.BookingMembershipTests"/>
+        <method signature="BookingMembershipTests.DoSignUp()[pri:1, instance:WishiTests.BookingMembershipTests@3cb1ffe6]" name="DoSignUp" class="WishiTests.BookingMembershipTests"/>
+        <method signature="BookingMembershipTests.MembershipMajor()[pri:3, instance:WishiTests.BookingMembershipTests@3cb1ffe6]" name="MembershipMajor" class="WishiTests.BookingMembershipTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="128826" started-at="2019-09-26T17:08:28Z" finished-at="2019-09-26T17:10:37Z">
-      <class name="WishiTests.ChatQwizMaleTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="setup" is-config="true" duration-ms="22920" started-at="2019-09-26T17:08:28Z" finished-at="2019-09-26T17:08:51Z">
+    <test name="Default test" duration-ms="144387" started-at="2020-03-10T17:17:30Z" finished-at="2020-03-10T17:19:54Z">
+      <class name="WishiTests.BookingMembershipTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.BookingMembershipTests@3cb1ffe6]" name="setup" is-config="true" duration-ms="15291" started-at="2020-03-10T17:17:30Z" finished-at="2020-03-10T17:17:45Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="DoSignUp" duration-ms="43973" started-at="2019-09-26T17:08:51Z" finished-at="2019-09-26T17:09:35Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:WishiTests.BookingMembershipTests@3cb1ffe6]" name="DoSignUp" duration-ms="63504" started-at="2020-03-10T17:17:45Z" finished-at="2020-03-10T17:18:49Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : ChatQwizMaleTests.DoSignUp]]>
+              <![CDATA[About to begin executing following method : BookingMembershipTests.DoSignUp]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : ChatQwizMaleTests.DoSignUp]]>
+              <![CDATA[Completed executing following method : BookingMembershipTests.DoSignUp]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite DoSignUp]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="CheckOutSession" duration-ms="26964" started-at="2019-09-26T17:09:35Z" finished-at="2019-09-26T17:10:02Z">
+        <test-method status="PASS" signature="BookStylist()[pri:2, instance:WishiTests.BookingMembershipTests@3cb1ffe6]" name="BookStylist" duration-ms="38171" started-at="2020-03-10T17:18:49Z" finished-at="2020-03-10T17:19:27Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : ChatQwizMaleTests.CheckOutSession]]>
+              <![CDATA[About to begin executing following method : BookingMembershipTests.BookStylist]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : ChatQwizMaleTests.CheckOutSession]]>
+              <![CDATA[Completed executing following method : BookingMembershipTests.BookStylist]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite CheckOutSession]]>
+              <![CDATA[About to Success executing Suite BookStylist]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- CheckOutSession -->
-        <test-method status="PASS" signature="FillBirthday()[pri:3, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="FillBirthday" duration-ms="9472" started-at="2019-09-26T17:10:02Z" finished-at="2019-09-26T17:10:12Z">
+        </test-method> <!-- BookStylist -->
+        <test-method status="PASS" signature="MembershipMajor()[pri:3, instance:WishiTests.BookingMembershipTests@3cb1ffe6]" name="MembershipMajor" duration-ms="27398" started-at="2020-03-10T17:19:27Z" finished-at="2020-03-10T17:19:54Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : ChatQwizMaleTests.FillBirthday]]>
+              <![CDATA[About to begin executing following method : BookingMembershipTests.MembershipMajor]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : ChatQwizMaleTests.FillBirthday]]>
+              <![CDATA[Completed executing following method : BookingMembershipTests.MembershipMajor]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite FillBirthday]]>
+              <![CDATA[About to Success executing Suite MembershipMajor]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
+              <![CDATA[Test Method resides in WishiTests.BookingMembershipTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- FillBirthday -->
-        <test-method status="PASS" signature="FillNumberPhone()[pri:4, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="FillNumberPhone" duration-ms="3064" started-at="2019-09-26T17:10:12Z" finished-at="2019-09-26T17:10:15Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : ChatQwizMaleTests.FillNumberPhone]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : ChatQwizMaleTests.FillNumberPhone]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite FillNumberPhone]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- FillNumberPhone -->
-        <test-method status="PASS" signature="Selectheight()[pri:5, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="Selectheight" duration-ms="882" started-at="2019-09-26T17:10:15Z" finished-at="2019-09-26T17:10:16Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : ChatQwizMaleTests.Selectheight]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : ChatQwizMaleTests.Selectheight]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite Selectheight]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Selectheight -->
-        <test-method status="PASS" signature="Selectategory()[pri:6, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="Selectategory" duration-ms="1241" started-at="2019-09-26T17:10:16Z" finished-at="2019-09-26T17:10:17Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : ChatQwizMaleTests.Selectategory]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : ChatQwizMaleTests.Selectategory]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite Selectategory]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Selectategory -->
-        <test-method status="PASS" signature="SelectSize()[pri:7, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="SelectSize" duration-ms="7533" started-at="2019-09-26T17:10:17Z" finished-at="2019-09-26T17:10:24Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : ChatQwizMaleTests.SelectSize]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : ChatQwizMaleTests.SelectSize]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectSize]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectSize -->
-        <test-method status="PASS" signature="SelectBudget()[pri:8, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="SelectBudget" duration-ms="7817" started-at="2019-09-26T17:10:24Z" finished-at="2019-09-26T17:10:32Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : ChatQwizMaleTests.SelectBudget]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : ChatQwizMaleTests.SelectBudget]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectBudget]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectBudget -->
-        <test-method status="PASS" signature="SelectEvent()[pri:9, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="SelectEvent" duration-ms="4933" started-at="2019-09-26T17:10:32Z" finished-at="2019-09-26T17:10:37Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : ChatQwizMaleTests.SelectEvent]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : ChatQwizMaleTests.SelectEvent]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite SelectEvent]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.ChatQwizMaleTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SelectEvent -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.ChatQwizMaleTests@3dfc5fb8]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-26T17:10:37Z" finished-at="2019-09-26T17:10:37Z">
+        </test-method> <!-- MembershipMajor -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.BookingMembershipTests@3cb1ffe6]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-03-10T17:19:54Z" finished-at="2020-03-10T17:19:54Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.tearDown]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.ChatQwizMaleTests -->
+      </class> <!-- WishiTests.BookingMembershipTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,4 +1,4 @@
-package WishiTests;
+package WishiTests.draft;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -9,6 +9,8 @@ import PageObject.BasePage;
 import PageObject.BookingPage;
 import PageObject.LoginPage;
 import PageObject.SignUpPage;
+import WishiTests.BaseTest;
+import WishiTests.Listener;
 @Listeners(WishiTests.Listener.class)
 public class SignUpByFacbookfailes extends BaseTest
 {

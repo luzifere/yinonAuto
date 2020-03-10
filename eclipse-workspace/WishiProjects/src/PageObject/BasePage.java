@@ -36,7 +36,8 @@ public class BasePage
 		PageFactory.initElements(driver, this);
 
 	}
-	public static boolean isatpage(String element)  
+	/*
+	public static boolean isatpage(Wקנ element)  
 	{
 		try 
 		{
@@ -49,6 +50,7 @@ public class BasePage
 			return false;
 		}
 	}
+	*/
 
 	public static boolean isnotatpage(String element)  
 	{
@@ -73,21 +75,20 @@ public class BasePage
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy(0,-250)", "");
 	}
-	public void WaitElementDisplay (By by) 
+	public void WaitElementDisplay (WebElement firstName) 
 	{		
-		WebElement myDynamicElement = (new WebDriverWait(driver, 60))
-		.until(ExpectedConditions.presenceOfElementLocated(by));
-		//return myDynamicElement.isDisplayed();
+		(new WebDriverWait(driver, 60))
+				.until(ExpectedConditions.visibilityOf(firstName));
 	}
 	public void WaitElementNotDisplay(By by) 
 	{		
-		Boolean myDynamicElement = (new WebDriverWait(driver, 80))
+		(new WebDriverWait(driver, 80))
 				.until(ExpectedConditions.not(ExpectedConditions.presenceOfElementLocated(by)));
 	}
 	public void WaitElementClickable(By by) 
 	{		
 		WebElement myDynamicElement = (new WebDriverWait(driver, 80))
-		.until(ExpectedConditions.elementToBeClickable(by));
+				.until(ExpectedConditions.elementToBeClickable(by));
 		myDynamicElement.click();
 	}
 
@@ -117,10 +118,10 @@ public class BasePage
 		WebElement webElement= driver.findElement(By.xpath(elementString));
 		return webElement.isDisplayed();
 	}
-	public static boolean ElementDisplay(String elementString) 
+	public static boolean ElementDisplay(WebElement elementString) 
 	{	
-		WebElement webElement= driver.findElement(By.xpath(elementString));
-				
+		WebElement webElement= (elementString);
+
 		if(!webElement.isDisplayed())
 		{
 			return false;
@@ -128,20 +129,20 @@ public class BasePage
 		return true;
 		//return ElementIsDisplyed(elementString);
 	}
-	
+
 	public boolean isElementPresent(String locatorKey) {
-		   try {
-			   WebElement webElement= driver.findElement(By.xpath(locatorKey));
-		       return true;
-		   } catch (org.openqa.selenium.NoSuchElementException e) {
-		       return false;
-		   }
+		try {
+			driver.findElement(By.xpath(locatorKey));
+			return true;
+		} catch (org.openqa.selenium.NoSuchElementException e) {
+			return false;
 		}
-	
-	
-	
-	
-	
+	}
+
+
+
+
+
 	public void SwitchToFrame(int num)
 	{
 		driver.switchTo().frame(num);
@@ -150,28 +151,41 @@ public class BasePage
 		driver.close();
 		driver.switchTo().defaultContent();
 	}
-	
-	
-	
-	
-	
-	
-	
-	
 
-	public void ElementIsEnable (String  elementString) 
+
+
+
+
+
+
+
+/*
+	public void ElementIsEnable (WebElement  elementString) 
 	{
-		WebElement webElement= driver.findElement(By.xpath(elementString));
+		WebElement webElement= driver.findElement(elementString);
 		webElement.isEnabled();
+	}
+	*/
+
+
+	public boolean ElementEnable(WebElement elementString) 
+	{	{
+		try
+
+		{
+
+			ExplicityWaitIsClickable(elementString);
+			//ElementIsEnable(elementString);
+		}
+		catch(Exception e)
+		{	
+			System.err.println("\nError : ElementEnable failed\n");	
+		}
 	}
 
 
-	public boolean ElementEnable(String elementString) 
-	{	
-		ExplicityWaitIsClickable(By.xpath(elementString));
-		ElementIsEnable(elementString);
 
-		return true;
+	return true;
 	}
 
 	public void filltext(WebElement sk ,String text) 
@@ -194,24 +208,38 @@ public class BasePage
 		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(frameName));
 	}
 
-	public static void ExplicityWaitIsClickable(By by) 
-	{ for (int i=0;i<10;i++) 
-		try 
-	{
-			WebDriverWait wait = new WebDriverWait(driver, 30);
-			WebElement element = wait.until(ExpectedConditions.elementToBeClickable(by));
-			element.click();
-			break;
-	} 
-	catch (Exception e) 
-	{
-		try {
-			Thread.sleep(500);
-		} catch (InterruptedException e1) {
-			e1.printStackTrace();
+	public static void ExplicityWaitIsClickable(WebElement elementString) 
+	{ 
+		{
+			try
+
+			{
+
+				for (int i=0;i<3;i++) 
+					try 
+				{
+						WebDriverWait wait = new WebDriverWait(driver, 10);
+						WebElement element = wait.until(ExpectedConditions.elementToBeClickable(elementString));
+						element.click();
+						break;
+				} 
+				catch (Exception e) 
+				{
+					try {
+						Thread.sleep(500);
+					} catch (InterruptedException e1) {
+						e1.printStackTrace();
+					}
+
+				}
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ExplicityWaitIsClickable failed\n");	
+			}
 		}
 
-	}
+
 	}
 	public static void ExplicityWaitFillText(By by,String data) 
 	{ for (int i=0;i<10;i++) 
@@ -239,7 +267,7 @@ public class BasePage
 		try 
 	{
 			WebDriverWait wait = new WebDriverWait(driver, 30);
-			WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+			wait.until(ExpectedConditions.visibilityOfElementLocated(by));
 			break;
 	} 
 	catch (Exception e) 
@@ -252,10 +280,10 @@ public class BasePage
 	}
 	}
 	}
-	
-	
-	
-	
+
+
+
+
 
 
 
@@ -273,16 +301,16 @@ public class BasePage
 		driver.close();
 		driver.switchTo().window(winHandleBefore);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
 	public void Sleep(int sec){
 		try {
 			Thread.sleep(sec*10);
@@ -311,22 +339,22 @@ public class BasePage
 		}
 	}
 
-	
+
 	public void waitForPageLoaded() {
-        ExpectedCondition<Boolean> expectation = new
-                ExpectedCondition<Boolean>() {
-                    public Boolean apply(WebDriver driver) {
-                        return ((JavascriptExecutor) driver).executeScript("return document.readyState").toString().equals("complete");
-                    }
-                };
-        try {
-            Thread.sleep(1000);
-            WebDriverWait wait = new WebDriverWait(driver, 30);
-            wait.until(expectation);
-        } catch (Throwable error) {
-            Assert.fail("Timeout waiting for Page Load Request to complete.");
-        }
-    }
+		ExpectedCondition<Boolean> expectation = new
+				ExpectedCondition<Boolean>() {
+			public Boolean apply(WebDriver driver) {
+				return ((JavascriptExecutor) driver).executeScript("return document.readyState").toString().equals("complete");
+			}
+		};
+		try {
+			Thread.sleep(1000);
+			WebDriverWait wait = new WebDriverWait(driver, 30);
+			wait.until(expectation);
+		} catch (Throwable error) {
+			Assert.fail("Timeout waiting for Page Load Request to complete.");
+		}
+	}
 	public static void TakeScreenShot() throws IOException
 	{
 		/*
@@ -336,14 +364,14 @@ public class BasePage
 			number = num.nextInt(7000);
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		// Now you can do whatever you need to do with it, for example copy somewhere
-		
+
 		try {
 			FileUtils.copyFile(scrFile, new File("/Users/yinonwishi/Downloads/screenshoots/"+number+".png"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		*/
+		 */
 		String folder_name ="/Users/yinonwishi/Downloads/screenshoots/";
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		// Now you can do whatever you need to do with it, for example copy somewhere
@@ -351,12 +379,12 @@ public class BasePage
 		new File(folder_name).mkdir();
 		String file_name=df.format(new Date())+".png";
 		FileUtils.copyFile(scrFile, new File(folder_name+ "/"+file_name));
-		
+
 	}
 	public static void quitDriver() 
 	{
-	    driver.quit();
-	    driver = null;
+		driver.quit();
+		driver = null;
 	}
 	public static void r ()throws IOException
 	{
@@ -398,13 +426,13 @@ public class BasePage
 		driver.switchTo().frame(fr);//iframe[@name='__privateStripeFrame4']
 
 	}
-	
+
 	public void Switch_to_chat () 
 	{
 		WebElement fr = driver.findElement(By.xpath("//iframe[@id='fb_xdm_frame_https']"));
 		driver.switchTo().frame(fr);//iframe[@name='__privateStripeFrame4']
 
 	}
-	
+
 
 }

@@ -23,7 +23,7 @@ import PageObject.SignUpPage;
 public class StartHereHelloNoTests extends BaseTest 
 {
 	@Test(priority =6,groups={"sanity-group"})
-	public void StartHereHelloNoTests()
+	public void StartHereHelloNoBackTests()
 	{
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
@@ -36,10 +36,10 @@ public class StartHereHelloNoTests extends BaseTest
 		best.ClickFamle();
 		best.ClickBack();
 		best.ClickFamle();
-		best.SelectBodyType("0");
+		best.ClickPetit();
 		best.ClickNextbutton();
 		best.ClickBack();
-		best.SelectBodyType("1");
+		best.ClickPlusSize();
 		best.ClickNextbutton();
 		best.SelectLoveIt("1");
 		best.ClickBack();
@@ -72,21 +72,52 @@ public class StartHereHelloNoTests extends BaseTest
 		best.ClickBack();
 		best.SelectHELLONO("10");
 		best.Selectbrands("2");
-		//best.ClickNextbutton();
 		best.ClickMeetMyMatch();
-		/*
-		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Female')]]"));
-		Assert.assertFalse(best.isElementPresent("//span[text()[contains(.,'60% - Classic, 40% - Edgy')]]"));
-		//Assert.assertTrue(!best.ElementDisplay("//span[text()[contains(.,'40% - Classic, 60% - Edgy')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Petite, Plus Size')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'H&M')]]"));
-		best.ClickMeetMyMatch();
-		*/
 		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon av", "ab1565");
 		best.Sleep(200);
-		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div[text()[contains(.,'Your Stylist Match!')]]"));
+		best.StylistPageDisplayed();
+		best.Sleep(300);
+		best.close();
+
+	}
+	@Test(priority =5,groups={"sanity-group"})
+	public void StartHereHelloNoTests()
+	{
+		SignUpPage signup = new SignUpPage(driver);
+		Random num = new Random();
+		int number = 3560000;
+		for (int counter = 5800000; counter<=10000000;counter++)
+			number = num.nextInt(700000);
+		BestMatchPage best = new BestMatchPage(driver);
+		best.ClickStartHere();
+		best.ClickontinueButton();
+		
+		best.ClickFamle();
+		best.ClickPetit();
+		best.ClickNextbutton();
+		best.SelectHELLONO("1");
+		best.SelectHELLONO("2");
+		
+		best.SelectHELLONO("3");
+	
+		best.SelectHELLONO("4");
+		
+		best.SelectHELLONO("5");
+		
+		best.SelectHELLONO("6");
+		best.ClickSkipbutton2("1");
+		
+		
+		best.SelectHELLONO("8");
+		
+		best.SelectHELLONO("9");
+		
+		best.SelectHELLONO("10");
+		best.Selectbrands("brand_H&M");
+		best.ClickMeetMyMatch();
+		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon av", "ab1565");
+		best.Sleep(200);
+		best.StylistPageDisplayed();
 		best.Sleep(300);
 		best.close();
 

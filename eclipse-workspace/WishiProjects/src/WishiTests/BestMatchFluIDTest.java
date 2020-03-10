@@ -24,7 +24,56 @@ public class BestMatchFluIDTest extends BaseTest
 {
 
 	@Test(priority =3,groups={"sanity-group"})
-	public void BestMatchFemaleTest()
+	public void BestMatchNaturalTest()
+	{
+		SignUpPage signup = new SignUpPage(driver);
+		Random num = new Random();
+		int number = 3560000;
+		for (int counter = 5800000; counter<=10000000;counter++)
+			number = num.nextInt(700000);
+		signup.doSignUp("wishitestyinon@wishitest.com" + number, "inon bb av", "ab1565");
+		BestMatchPage best = new BestMatchPage(driver);
+		best.ClickontinueButton();
+		best.ClickSelfIdentityButtonID();
+		best.ClickPetit();
+		best.ClickNextbutton();
+		best.SelectSOMETIMES("1");
+		
+		best.SelectLoveIt("2");
+		
+		best.SelectLoveIt("3");
+		
+		best.SelectSOMETIMES("4");
+		
+		best.SelectSOMETIMES("5");
+		
+		best.SelectLoveIt("6");
+		
+		best.ClickSkipbutton2("1");
+		
+		best.SelectHELLONO("8");
+		
+		best.SelectLoveIt("9");
+		
+		best.SelectHELLONO("10");
+		
+		best.Selectbrands("brand_Adidas");
+		//best.ClickNextbutton();
+		best.ClickMeetMyMatch();
+		/*
+		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Fluid')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Petite, Plus Size')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'40% - Boho, 60% - Elegant')]]"));
+		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,' A.L.C')]]"));
+		best.ClickMeetMyMatch();
+		*/
+		best.StylistPageDisplayed();
+		best.Sleep(300);
+		
+	}
+	@Test(priority =4,groups={"sanity-group"})
+	public void BestMatchNaturalBackTest()
 	{
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
@@ -85,8 +134,7 @@ public class BestMatchFluIDTest extends BaseTest
 		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,' A.L.C')]]"));
 		best.ClickMeetMyMatch();
 		*/
-		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div[text()[contains(.,'Your Stylist Match!')]]"));
+		best.StylistPageDisplayed();
 		best.Sleep(300);
 		best.close();
 		

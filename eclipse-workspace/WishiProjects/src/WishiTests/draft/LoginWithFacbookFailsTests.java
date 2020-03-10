@@ -1,4 +1,4 @@
-package WishiTests;
+package WishiTests.draft;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -8,6 +8,8 @@ import org.testng.annotations.Test;
 import PageObject.BasePage;
 import PageObject.BookingPage;
 import PageObject.LoginPage;
+import WishiTests.BaseTest;
+import WishiTests.Listener;
 @Listeners(WishiTests.Listener.class)
 public class LoginWithFacbookFailsTests extends BaseTest
 {
@@ -18,7 +20,6 @@ public class LoginWithFacbookFailsTests extends BaseTest
 		login.waitForPageLoaded();
 		//login.Sleep(1000);
 		login.ClickLoginButton();
-		login.WaitElementDisplay(By.xpath("//div[@class='fb ng-binding ng-isolate-scope']"));
 		login.ClickLoginWithFacbook();
 		login.Sleep(300);
 		//driver.manage().window().maximize();

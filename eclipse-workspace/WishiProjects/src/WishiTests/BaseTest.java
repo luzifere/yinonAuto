@@ -33,7 +33,7 @@ public class BaseTest
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		  try {
 				Thread.sleep(1500);
 			} catch (InterruptedException e) {

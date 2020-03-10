@@ -3,12 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.BookMiniSingleFSTest">
+      <class name="Tests.BestMutchStylistTests">
         <methods>
+          <include name="BestMatchFemaleAndMale"/>
           <include name="setup"/>
-          <include name="AsaRevise1"/>
+          <include name="BestMatchFamle"/>
+          <include name="BestMatchFluIDAndMale"/>
+          <include name="BestMatchFluID"/>
+          <include name="BestMatchMale"/>
         </methods>
-      </class> <!-- Tests.BookMiniSingleFSTest -->
+      </class> <!-- Tests.BestMutchStylistTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

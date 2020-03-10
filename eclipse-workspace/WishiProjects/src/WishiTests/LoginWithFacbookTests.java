@@ -6,6 +6,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObject.BasePage;
+import PageObject.BestMatchPage;
 import PageObject.BookingPage;
 import PageObject.LoginPage;
 @Listeners(WishiTests.Listener.class)
@@ -21,21 +22,21 @@ public class LoginWithFacbookTests extends BaseTest
 		String winhandleBefore = driver.getWindowHandle();
 		login.ClickLoginButton();
 		login.Sleep(200);
-		login.WaitElementDisplay(By.xpath("//div[@class='fb ng-binding ng-isolate-scope']"));
+		//login.WaitElementDisplay(By.xpath("//div[@class='fb ng-binding ng-isolate-scope']"));
 		login.ClickLoginWithFacbook();
 		login.Sleep(300);
 		login.switchWindow();
 		//driver.manage().window().maximize();	
-		login.FillusernameOfFacbook("yinonwishifb@gmail.com");
+		login.FillusernameOfFacbook("yinonwishifb1@gmail.com");
 		login.FillPasswordOfFacbook("Wishime1");
+		//login.FillusernameOfFacbook("luzifere@gmail.com");
+		//login.FillPasswordOfFacbook("inonab1565");
 		login.ClickLoginButtonOfFacbook();
 		//driver.findElement(By.xpath("(//div//button[@type='submit'])[1]")).click();
 		//login.Sleep(600);
 		driver.switchTo().window(winhandleBefore);
 		//login.switchWindow();
-		login.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
-		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Your Stylist Match!')]]"));
-		login.Sleep(300);
+		login.MyBookingDisplay();
 		login.close();
 	}
 

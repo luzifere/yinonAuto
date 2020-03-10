@@ -34,6 +34,64 @@ public class StartHereFFacbookTests extends BaseTest
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickStartHere();
 		best.ClickontinueButton();
+		
+		best.ClickFamle();
+		best.ClickPetit();
+		best.ClickNextbutton();
+		
+		best.SelectHELLONO("1");
+		
+		best.SelectHELLONO("2");
+	
+		best.SelectLoveIt("3");
+		
+		best.SelectSOMETIMES("4");
+		
+		best.SelectHELLONO("5");
+		
+		best.SelectHELLONO("6");
+		best.ClickSkipbutton2("1");
+		
+		
+		best.SelectHELLONO("8");
+		
+		best.SelectHELLONO("9");
+		
+		best.SelectHELLONO("10");
+		best.Selectbrands("brand_H&M");
+		best.ClickMeetMyMatch();
+		//signup.ConnectWithFB();
+		signup.ConnectWithFB();
+		signup.Sleep(200);
+		signup.switchWindow();
+		//driver.manage().window().maximize();
+		signup.FillusernameOfFacbook("avivitab1@gmail.com");
+		signup.FillPasswordOfFacbook("300401031");
+		signup.ClickLoginButtonOfFacbook();
+		//driver.findElement(By.xpath("(//div//button[@type='submit'])[1]")).click();
+		signup.Sleep(300);
+		driver.switchTo().window(winhandleBefore);
+		//signup.switchWindow();
+		
+		best.StylistPageDisplayed();
+		best.Sleep(300);
+		best.close();
+
+
+	}
+	
+	@Test(priority =6,groups={"sanity-group"})
+	public void StartHereMaleBackTests()
+	{
+		String winhandleBefore = driver.getWindowHandle();
+		SignUpPage signup = new SignUpPage(driver);
+		Random num = new Random();
+		int number = 3560000;
+		for (int counter = 5800000; counter<=10000000;counter++)
+			number = num.nextInt(700000);
+		BestMatchPage best = new BestMatchPage(driver);
+		best.ClickStartHere();
+		best.ClickontinueButton();
 		best.ClickMale();
 		best.ClickBack();
 		best.ClickFamle();
@@ -73,15 +131,7 @@ public class StartHereFFacbookTests extends BaseTest
 		best.ClickBack();
 		best.SelectHELLONO("10");
 		best.Selectbrands("1");
-		//best.ClickNextbutton();
 		best.ClickMeetMyMatch();
-		/*
-		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Male')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'60% - Classic, 40% - Edgy')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'GAP')]]"));
-		best.ClickMeetMyMatch();
-		*/
 		signup.ConnectWithFB();
 		signup.ConnectWithFB();
 		signup.Sleep(200);
@@ -95,10 +145,10 @@ public class StartHereFFacbookTests extends BaseTest
 		driver.switchTo().window(winhandleBefore);
 		//signup.switchWindow();
 		
-		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div[text()[contains(.,'Your Stylist Match!')]]"));
+		best.StylistPageDisplayed();
 		best.Sleep(300);
 		best.close();
+
 
 	}
 }

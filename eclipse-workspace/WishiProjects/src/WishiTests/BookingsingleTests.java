@@ -38,7 +38,7 @@ public class BookingsingleTests extends BaseTest
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();
-		best.SelectBodyType("0");
+		best.ClickPetit();
 		best.ClickNextbutton();
 		best.SelectHELLONO("1");
 		best.SelectHELLONO("2");
@@ -50,52 +50,55 @@ public class BookingsingleTests extends BaseTest
 		best.SelectHELLONO("8");
 		best.SelectHELLONO("9");
 		best.SelectHELLONO("10");
-		best.Selectbrands("2");
+		best.Selectbrands("brand_H&M");
 		best.ClickMeetMyMatch();
-		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));	
-		//best.ClickMoreStylistsButton();
-		BookingPage booking = new BookingPage(driver);
-		booking.ClickBookingstylist();
+		best.StylistPageDisplayed();	
 	}	
 
 	@Test(priority = 2,groups={"sanity-group"})
-	public void SingleMini ()
+	public void BookStylist ()
 	{
+		
 		BookingPage booking = new BookingPage(driver);
 		String stylistName = this.configFileReader.getStylistName();
 		booking.SearchStylist(stylistName);
-		booking.SelectStylist();
-		booking.SelectMini();
+		booking.BookStylistProfile();
+		booking.ClickMIniGoal();
+		booking.ClickMIniPlan();
 		booking.ClickOneTime();
-		String copun = this.configFileReader.getcopun();
-		booking.UseCodCoopon(copun);
-		booking.ClickFinishCheckout();
-		booking.ClickMyBooking();
-		booking.RefreshPage();
-		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'mini')]]"));
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'mini')]]"));
-		booking.Sleep(300);
-		booking.ClickBookingstylist();
+		booking.Switch_to_strype();
+		booking.Sleep(250);
+		String CardNumber = this.configFileReader.getCardNumber();
+		booking.FillCardNumber(CardNumber);
+		String CardDate = this.configFileReader.getCardDate();
+		booking.FillCardDate(CardDate);
+		String CardCVC = this.configFileReader.getCardCVC();
+		booking.FillCardCVC(CardCVC);
+		booking.Sleep(800);
+		booking.switchWindow();
+		booking.Sleep(200);
+		booking.ClickMyStyleSessions();
+		WebElement mini = driver.findElement(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'mini')]]"));
+		Assert.assertTrue(BookingPage.ElementDisplay(mini));
+		booking.ClickStylistHeader();
 	}
 	@Test(priority = 3,groups={"sanity-group"})
-	public void SingleMajor ()
+	public void MembershipMajor ()
 	{
 		BookingPage booking = new BookingPage(driver);
 		String stylistName = this.configFileReader.getStylistName();
 		booking.SearchStylist(stylistName);
-		booking.SelectStylist();
-		booking.SelectMajor();
+		booking.BookStylistProfile();
+		booking.ClickMajorGoal();
+		booking.ClickMajorPlan();
 		booking.ClickOneTime();
-		String copun = this.configFileReader.getcopun();
-		booking.UseCodCoopon(copun);
-		booking.ClickFinishCheckout();
-		booking.ClickMyBooking();
-		booking.RefreshPage();
-		booking.WaitElementDisplay(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'major')]]"));
-		Assert.assertTrue(booking.ElementDisplay("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'major')]]"));
+		booking.ClickPaymentButton();
+		booking.ChatPresent();
+		booking.Sleep(200);
+		booking.ClickMyStyleSessions();
+		WebElement major = driver.findElement(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'major')]]"));
+		Assert.assertTrue(BookingPage.ElementDisplay(major));
 		booking.Sleep(300);
-		booking.close();
-
+		booking.close();	
 	}
-
-}
+	}

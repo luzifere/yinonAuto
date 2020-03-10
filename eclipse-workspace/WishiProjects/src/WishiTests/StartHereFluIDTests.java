@@ -22,8 +22,49 @@ import PageObject.SignUpPage;
 
 public class StartHereFluIDTests extends BaseTest 
 {
-	@Test(priority =6,groups={"sanity-group"})
+	@Test(priority =5,groups={"sanity-group"})
 	public void StartHereFluIDTests()
+	{
+		SignUpPage signup = new SignUpPage(driver);
+		Random num = new Random();
+		int number = 3560000;
+		for (int counter = 5800000; counter<=10000000;counter++)
+			number = num.nextInt(700000);
+		BestMatchPage best = new BestMatchPage(driver);
+		best.ClickStartHere();
+		best.ClickontinueButton();
+		best.ClickSelfIdentityButtonID();
+		best.ClickPlusSize();
+		best.ClickNextbutton();
+		
+		best.SelectHELLONO("1");
+		
+		best.SelectLoveIt("2");
+		
+		best.SelectLoveIt("3");
+		
+		best.SelectHELLONO("4");
+		
+		best.SelectHELLONO("5");
+		
+		best.SelectHELLONO("6");
+		best.ClickSkipbutton2("1");
+		
+		best.SelectHELLONO("8");
+		
+		best.SelectHELLONO("9");
+		
+		best.SelectHELLONO("10");
+		best.Selectbrands("brand_H&M");
+		best.ClickMeetMyMatch();
+		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon av", "ab1565");
+		best.StylistPageDisplayed();
+		best.Sleep(300);
+		best.close();
+
+	}
+	@Test(priority =6,groups={"sanity-group"})
+	public void StartHereFluIDBackTests()
 	{
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
@@ -72,21 +113,13 @@ public class StartHereFluIDTests extends BaseTest
 		best.ClickBack();
 		best.SelectHELLONO("10");
 		best.Selectbrands("2");
-		//best.ClickNextbutton();
 		best.ClickMeetMyMatch();
-		/*
-		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Fluid')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Petite, Plus Size')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'60% - Classic, 40% - Edgy')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Burberry')]]"));
-		best.ClickMeetMyMatch();
-		*/
 		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon av", "ab1565");
-		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div[text()[contains(.,'Your Stylist Match!')]]"));
+		best.StylistPageDisplayed();
 		best.Sleep(300);
 		best.close();
 
 	}
+	
+	
 }

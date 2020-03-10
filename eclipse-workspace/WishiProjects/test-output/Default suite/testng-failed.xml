@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WishiTests.ChatQwizMaleTests">
+      <class name="WishiTests.BookingMembershipTests">
         <methods>
+          <include name="MembershipMajor"/>
           <include name="tearDown"/>
-          <include name="SelectEvent"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- WishiTests.ChatQwizMaleTests -->
+      </class> <!-- WishiTests.BookingMembershipTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
