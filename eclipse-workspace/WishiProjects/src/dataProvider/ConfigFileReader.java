@@ -62,6 +62,21 @@ public class ConfigFileReader {
 		if(driverPath!= null) return driverPath;
 		else throw new RuntimeException("cvc not specified in the Configuration.properties file.");		
 	}
+	public String getnewusermaile(){
+		String driverPath = properties.getProperty("newusermaile");
+		if(driverPath!= null) return driverPath;
+		else throw new RuntimeException("cvc not specified in the Configuration.properties file.");		
+	}
+	public String getnewusername(){
+		String driverPath = properties.getProperty("username");
+		if(driverPath!= null) return driverPath;
+		else throw new RuntimeException("cvc not specified in the Configuration.properties file.");		
+	}
+	public String getpassword(){
+		String driverPath = properties.getProperty("password");
+		if(driverPath!= null) return driverPath;
+		else throw new RuntimeException("cvc not specified in the Configuration.properties file.");		
+	}
 	
 	public long getImplicitlyWait() {		
 		String implicitlyWait = properties.getProperty("implicitlyWait");

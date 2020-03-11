@@ -32,7 +32,7 @@ public class BestMatchHelloNo extends BaseTest
 		for (int counter = 5800000; counter<=10000000;counter++)
 			number = num.nextInt(700000);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitestyinon@wishitest.com" + number, "inon bb av", "ab1565");
+		signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();
@@ -75,7 +75,7 @@ public class BestMatchHelloNo extends BaseTest
 		for (int counter = 5800000; counter<=10000000;counter++)
 			number = num.nextInt(700000);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitestyinon@wishitest.com" + number, "inon bb av", "ab1565");
+	signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();

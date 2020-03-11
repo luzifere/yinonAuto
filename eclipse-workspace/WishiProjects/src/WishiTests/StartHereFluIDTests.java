@@ -57,7 +57,7 @@ public class StartHereFluIDTests extends BaseTest
 		best.SelectHELLONO("10");
 		best.Selectbrands("brand_H&M");
 		best.ClickMeetMyMatch();
-		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon av", "ab1565");
+		signup.doSignUpSH(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
 		best.StylistPageDisplayed();
 		best.Sleep(300);
 		best.close();
@@ -114,7 +114,7 @@ public class StartHereFluIDTests extends BaseTest
 		best.SelectHELLONO("10");
 		best.Selectbrands("2");
 		best.ClickMeetMyMatch();
-		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon av", "ab1565");
+		signup.doSignUpSH(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
 		best.StylistPageDisplayed();
 		best.Sleep(300);
 		best.close();

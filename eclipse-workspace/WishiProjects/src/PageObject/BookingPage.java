@@ -31,7 +31,12 @@ public class BookingPage extends BasePage
 	WebElement Subscription;
 	@FindBy(xpath="(//label[@class='form-check-label'])[2]")
 	WebElement OneTime;
-
+	@FindBy(xpath="(//input[@type='text'])[1]")
+	WebElement promocodeField;
+	@FindBy(xpath="//a[@class='add-code']")
+	WebElement promocode;
+	@FindBy(xpath="(//button[@class='btn btn-primary'])[1]")
+	WebElement promocodesubmit;
 	@FindBy(xpath="//div[@ng-click='ok()']")
 	WebElement Applay;
 
@@ -152,6 +157,54 @@ public class BookingPage extends BasePage
 
 	}
 
+	public void ClickPromoCode() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(promocode);
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : ClickPromoCode failed\n");
+			throw e;
+
+		}
+
+	}
+	public void FillPromoCode(String code) 
+	{
+		try
+
+		{
+			filltext(promocodeField,code);
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : FillPromoCode failed\n");
+			throw e;
+
+		}
+
+	}
+	public void ClickSubmitPromoCode() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(promocodesubmit);
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : ClickSubmitPromoCode failed\n");
+			throw e;
+
+		}
+
+	}
 	public void BookStylistProfile() 
 	{
 		try
@@ -330,6 +383,7 @@ public class BookingPage extends BasePage
 		{
 			Sleep(300);
 			ExplicityWaitIsClickable(OneTime);
+			Sleep(300);
 
 		}catch(Exception e){
 

@@ -20,7 +20,7 @@ import PageObject.SignUpPage;
 
 
 @Listeners(WishiTests.Listener.class)
-public class BookingsingleTests extends BaseTest 
+public class BookingsingleCouponTests extends BaseTest 
 {
 	
 	@Test(priority = 1,groups={"sanity-group"})
@@ -65,11 +65,10 @@ public class BookingsingleTests extends BaseTest
 		booking.ClickMIniGoal();
 		booking.ClickMIniPlan();
 		booking.ClickOneTime();
-		booking.Switch_to_strype();
-		booking.FillCardNumber(this.configFileReader.getCardNumber());		
-		booking.FillCardDate( this.configFileReader.getCardDate());		
-		booking.FillCardCVC(this.configFileReader.getCardCVC());
-		booking.switchWindow();
+		booking.ClickPromoCode();
+		booking.FillPromoCode(this.configFileReader.getcopun());
+		booking.ClickSubmitPromoCode();
+		booking.ClickPaymentButton();
 		booking.Sleep(200);
 		booking.ClickMyStyleSessions();
 		WebElement mini = driver.findElement(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'mini')]]"));
@@ -86,6 +85,9 @@ public class BookingsingleTests extends BaseTest
 		booking.ClickMajorGoal();
 		booking.ClickMajorPlan();
 		booking.ClickOneTime();
+		booking.ClickPromoCode();
+		booking.FillPromoCode(this.configFileReader.getcopun());
+		booking.ClickSubmitPromoCode();
 		booking.ClickPaymentButton();
 		booking.ChatPresent();
 		booking.Sleep(200);

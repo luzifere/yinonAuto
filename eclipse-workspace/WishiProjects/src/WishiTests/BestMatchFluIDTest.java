@@ -31,7 +31,7 @@ public class BestMatchFluIDTest extends BaseTest
 		int number = 3560000;
 		for (int counter = 5800000; counter<=10000000;counter++)
 			number = num.nextInt(700000);
-		signup.doSignUp("wishitestyinon@wishitest.com" + number, "inon bb av", "ab1565");
+		signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickSelfIdentityButtonID();
@@ -81,7 +81,7 @@ public class BestMatchFluIDTest extends BaseTest
 		for (int counter = 5800000; counter<=10000000;counter++)
 			number = num.nextInt(700000);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitestyinon@wishitest.com" + number, "inon bb av", "ab1565");
+	signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
 		//signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();

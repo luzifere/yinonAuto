@@ -33,7 +33,7 @@ public class BookingMembershipTests extends BaseTest
 		for (int counter = 580000000; counter<=1000000000;counter++)
 			number = num.nextInt(70000000);
 		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishites111@wishi.com" + number, "inon bb av", "ab1565");
+		signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
 		
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
@@ -67,14 +67,9 @@ public class BookingMembershipTests extends BaseTest
 		booking.ClickMIniPlan();
 		booking.ClickSubScription();
 		booking.Switch_to_strype();
-		booking.Sleep(250);
-		String CardNumber = this.configFileReader.getCardNumber();
-		booking.FillCardNumber(CardNumber);
-		String CardDate = this.configFileReader.getCardDate();
-		booking.FillCardDate(CardDate);
-		String CardCVC = this.configFileReader.getCardCVC();
-		booking.FillCardCVC(CardCVC);
-		booking.Sleep(800);
+		booking.FillCardNumber(this.configFileReader.getCardNumber());		
+		booking.FillCardDate( this.configFileReader.getCardDate());		
+		booking.FillCardCVC(this.configFileReader.getCardCVC());
 		booking.switchWindow();
 		booking.Sleep(200);
 		booking.ClickMyStyleSessions();

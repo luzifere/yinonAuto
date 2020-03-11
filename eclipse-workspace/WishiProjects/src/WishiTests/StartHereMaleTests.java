@@ -41,7 +41,7 @@ public class StartHereMaleTests extends BaseTest
 		best.SelectHELLONO("5");
 		best.Selectbrands("brand_A.L.C");
 		best.ClickMeetMyMatch();
-		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon av", "ab1565");
+		signup.doSignUpSH(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
 		best.StylistPageDisplayed();
 		best.Sleep(300);
 
@@ -77,9 +77,8 @@ public class StartHereMaleTests extends BaseTest
 		best.ClickBack();
 		best.SelectHELLONO("5");
 		best.Selectbrands("1");
-	
 		best.ClickMeetMyMatch();
-		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon av", "ab1565");
+		signup.doSignUpSH(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
 		best.StylistPageDisplayed();
 		best.Sleep(300);
 		best.close();
