@@ -208,7 +208,7 @@ public class LoginPage extends BasePage
 			{
 				Sleep(250);
 				filltext(userName, user);
-				Sleep(150);
+				Sleep(250);
 				filltext(password, pass);
 				Sleep(300);
 				click(LoginButtonOfModel);	

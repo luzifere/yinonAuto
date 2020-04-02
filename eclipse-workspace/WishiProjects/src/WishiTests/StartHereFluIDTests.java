@@ -27,9 +27,7 @@ public class StartHereFluIDTests extends BaseTest
 	{
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
-		int number = 3560000;
-		for (int counter = 5800000; counter<=10000000;counter++)
-			number = num.nextInt(700000);
+		int number = num.nextInt(70000000) + 356000000;
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickStartHere();
 		best.ClickontinueButton();
@@ -66,21 +64,20 @@ public class StartHereFluIDTests extends BaseTest
 	@Test(priority =6,groups={"sanity-group"})
 	public void StartHereFluIDBackTests()
 	{
+		setup();
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
-		int number = 3560000;
-		for (int counter = 5800000; counter<=10000000;counter++)
-			number = num.nextInt(700000);
+		int number = num.nextInt(70000000) + 356000000;
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickStartHere();
 		best.ClickontinueButton();
 		best.ClickFamle();
 		best.ClickBack();
 		best.ClickSelfIdentityButtonID();
-		best.SelectBodyType("0");
+		best.ClickPetit();
 		best.ClickNextbutton();
 		best.ClickBack();
-		best.SelectBodyType("1");
+		best.ClickPlusSize();
 		best.ClickNextbutton();
 		best.SelectLoveIt("1");
 		best.ClickBack();
@@ -112,7 +109,7 @@ public class StartHereFluIDTests extends BaseTest
 		best.SelectHELLONO("10");
 		best.ClickBack();
 		best.SelectHELLONO("10");
-		best.Selectbrands("2");
+		best.Selectbrands("brand_H&M");
 		best.ClickMeetMyMatch();
 		signup.doSignUpSH(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
 		best.StylistPageDisplayed();

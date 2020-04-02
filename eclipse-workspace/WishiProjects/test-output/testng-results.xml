@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Test Default test]]>
@@ -11,46 +11,31 @@
       <![CDATA[Completed executing following method : BaseTest.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : BookingsingleCouponTests.DoSignUp]]>
+      <![CDATA[About to begin executing following method : StartHereHelloNoTests.StartHereHelloNoBackTests]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : BookingsingleCouponTests.DoSignUp]]>
+      <![CDATA[Completed executing following method : StartHereHelloNoTests.StartHereHelloNoBackTests]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite DoSignUp]]>
+      <![CDATA[About to Success executing Suite StartHereHelloNoBackTests]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.BookingsingleCouponTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookingsingleCouponTests.BookStylist]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookingsingleCouponTests.BookStylist]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite BookStylist]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.BookingsingleCouponTests]]>
+      <![CDATA[Test Method resides in WishiTests.StartHereHelloNoTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : BookingsingleCouponTests.MembershipMajor]]>
+      <![CDATA[About to begin executing following method : StartHereHelloNoTests.StartHereHelloNoTests]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : BookingsingleCouponTests.MembershipMajor]]>
+      <![CDATA[Completed executing following method : StartHereHelloNoTests.StartHereHelloNoTests]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite MembershipMajor]]>
+      <![CDATA[About to Success executing Suite StartHereHelloNoTests]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.BookingsingleCouponTests]]>
+      <![CDATA[Test Method resides in WishiTests.StartHereHelloNoTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
@@ -62,88 +47,68 @@
       <![CDATA[Completed executing following method : BaseTest.tearDown]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="138500" started-at="2020-03-11T13:11:04Z" finished-at="2020-03-11T13:13:23Z">
+  <suite name="Default suite" duration-ms="192034" started-at="2020-04-02T12:46:31Z" finished-at="2020-04-02T12:49:43Z">
     <groups>
       <group name="sanity-group">
-        <method signature="BookingsingleCouponTests.BookStylist()[pri:2, instance:WishiTests.BookingsingleCouponTests@3cb1ffe6]" name="BookStylist" class="WishiTests.BookingsingleCouponTests"/>
-        <method signature="BookingsingleCouponTests.DoSignUp()[pri:1, instance:WishiTests.BookingsingleCouponTests@3cb1ffe6]" name="DoSignUp" class="WishiTests.BookingsingleCouponTests"/>
-        <method signature="BookingsingleCouponTests.MembershipMajor()[pri:3, instance:WishiTests.BookingsingleCouponTests@3cb1ffe6]" name="MembershipMajor" class="WishiTests.BookingsingleCouponTests"/>
+        <method signature="StartHereHelloNoTests.StartHereHelloNoBackTests()[pri:1, instance:WishiTests.StartHereHelloNoTests@3cb1ffe6]" name="StartHereHelloNoBackTests" class="WishiTests.StartHereHelloNoTests"/>
+        <method signature="StartHereHelloNoTests.StartHereHelloNoTests()[pri:2, instance:WishiTests.StartHereHelloNoTests@3cb1ffe6]" name="StartHereHelloNoTests" class="WishiTests.StartHereHelloNoTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="138500" started-at="2020-03-11T13:11:04Z" finished-at="2020-03-11T13:13:23Z">
-      <class name="WishiTests.BookingsingleCouponTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.BookingsingleCouponTests@3cb1ffe6]" name="setup" is-config="true" duration-ms="14722" started-at="2020-03-11T13:11:04Z" finished-at="2020-03-11T13:11:19Z">
+    <test name="Default test" duration-ms="192034" started-at="2020-04-02T12:46:31Z" finished-at="2020-04-02T12:49:43Z">
+      <class name="WishiTests.StartHereHelloNoTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.StartHereHelloNoTests@3cb1ffe6]" name="setup" is-config="true" duration-ms="13291" started-at="2020-04-02T12:46:31Z" finished-at="2020-04-02T12:46:44Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:WishiTests.BookingsingleCouponTests@3cb1ffe6]" name="DoSignUp" duration-ms="63488" started-at="2020-03-11T13:11:19Z" finished-at="2020-03-11T13:12:23Z">
+        <test-method status="PASS" signature="StartHereHelloNoBackTests()[pri:1, instance:WishiTests.StartHereHelloNoTests@3cb1ffe6]" name="StartHereHelloNoBackTests" duration-ms="101707" started-at="2020-04-02T12:46:44Z" finished-at="2020-04-02T12:48:26Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : BookingsingleCouponTests.DoSignUp]]>
+              <![CDATA[About to begin executing following method : StartHereHelloNoTests.StartHereHelloNoBackTests]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : BookingsingleCouponTests.DoSignUp]]>
+              <![CDATA[Completed executing following method : StartHereHelloNoTests.StartHereHelloNoBackTests]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite DoSignUp]]>
+              <![CDATA[About to Success executing Suite StartHereHelloNoBackTests]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.BookingsingleCouponTests]]>
+              <![CDATA[Test Method resides in WishiTests.StartHereHelloNoTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="BookStylist()[pri:2, instance:WishiTests.BookingsingleCouponTests@3cb1ffe6]" name="BookStylist" duration-ms="30367" started-at="2020-03-11T13:12:23Z" finished-at="2020-03-11T13:12:53Z">
+        </test-method> <!-- StartHereHelloNoBackTests -->
+        <test-method status="PASS" signature="StartHereHelloNoTests()[pri:2, instance:WishiTests.StartHereHelloNoTests@3cb1ffe6]" name="StartHereHelloNoTests" duration-ms="77015" started-at="2020-04-02T12:48:26Z" finished-at="2020-04-02T12:49:43Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : BookingsingleCouponTests.BookStylist]]>
+              <![CDATA[About to begin executing following method : StartHereHelloNoTests.StartHereHelloNoTests]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : BookingsingleCouponTests.BookStylist]]>
+              <![CDATA[Completed executing following method : StartHereHelloNoTests.StartHereHelloNoTests]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite BookStylist]]>
+              <![CDATA[About to Success executing Suite StartHereHelloNoTests]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.BookingsingleCouponTests]]>
+              <![CDATA[Test Method resides in WishiTests.StartHereHelloNoTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- BookStylist -->
-        <test-method status="PASS" signature="MembershipMajor()[pri:3, instance:WishiTests.BookingsingleCouponTests@3cb1ffe6]" name="MembershipMajor" duration-ms="29903" started-at="2020-03-11T13:12:53Z" finished-at="2020-03-11T13:13:23Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BookingsingleCouponTests.MembershipMajor]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BookingsingleCouponTests.MembershipMajor]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite MembershipMajor]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.BookingsingleCouponTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- MembershipMajor -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.BookingsingleCouponTests@3cb1ffe6]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-11T13:13:23Z" finished-at="2020-03-11T13:13:23Z">
+        </test-method> <!-- StartHereHelloNoTests -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.StartHereHelloNoTests@3cb1ffe6]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-04-02T12:49:43Z" finished-at="2020-04-02T12:49:43Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.tearDown]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.BookingsingleCouponTests -->
+      </class> <!-- WishiTests.StartHereHelloNoTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

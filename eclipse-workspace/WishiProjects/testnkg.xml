@@ -4,6 +4,26 @@
 <listeners>
         <listener class-name="WishiTests.Listener"></listener>
     </listeners>
+    <test name="Login">
+		<classes>
+			<class name="WishiTests.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="SignUp">
+		<classes>
+			<class name="WishiTests.SignUpTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="SignUpByFacbook">
+		<classes>
+			<class name="WishiTests.SignUpByFacbook" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="LoginWithFacbookTests">
+		<classes>
+			<class name="WishiTests.LoginWithFacbookTests" />
+		</classes>
+	</test> <!-- Test -->
     
      <test name="StartHereFemaleTests">
     <classes>
@@ -66,6 +86,21 @@
       <class name="WishiTests.RetakeMatchNaturalTest"/>
     </classes>
     </test> <!-- Test -->
+    	<test name="BookingMembershipTests">
+		<classes>
+			<class name="WishiTests.BookingMembershipTests" />
+		</classes>
+	</test> <!-- Test -->
+		<test name="BookingsingleTests">
+		<classes>
+			<class name="WishiTests.BookingsingleTests" />
+		</classes>
+	</test> <!-- Test -->
+		<test name="BookingsingleCouponTests">
+		<classes>
+			<class name="WishiTests.BookingsingleCouponTests" />
+		</classes>
+	</test> <!-- Test -->
     
         
     

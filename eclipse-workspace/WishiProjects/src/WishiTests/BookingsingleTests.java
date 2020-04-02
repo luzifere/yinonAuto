@@ -22,16 +22,18 @@ import PageObject.SignUpPage;
 @Listeners(WishiTests.Listener.class)
 public class BookingsingleTests extends BaseTest 
 {
+	int number;
+
+	BookingsingleTests() {
+		Random num = new Random();
+		number = num.nextInt(70000000) + 356000000;
+	}
 	
 	@Test(priority = 1,groups={"sanity-group"})
 	public void DoSignUp()
 	{
 		SignUpPage signup = new SignUpPage(driver);
 		signup.waitForPageLoaded();
-		Random num = new Random();
-		int number = 356000000;
-		for (int counter = 580000000; counter<=1000000000;counter++)
-			number = num.nextInt(70000000);
 		signup.ClickOnSignUpEmail();
 		signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
 		BestMatchPage best = new BestMatchPage(driver);
@@ -55,7 +57,7 @@ public class BookingsingleTests extends BaseTest
 	}	
 
 	@Test(priority = 2,groups={"sanity-group"})
-	public void BookStylist ()
+	public void SingleMini()
 	{
 		
 		BookingPage booking = new BookingPage(driver);
@@ -70,14 +72,21 @@ public class BookingsingleTests extends BaseTest
 		booking.FillCardDate( this.configFileReader.getCardDate());		
 		booking.FillCardCVC(this.configFileReader.getCardCVC());
 		booking.switchWindow();
-		booking.Sleep(200);
-		booking.ClickMyStyleSessions();
+		booking.close();
+		setup();
+		LoginPage login = new LoginPage(driver);
+		login.ClickLoginButton();
+		login.Clearpassword();
+		login.Clearusername();
+		login.doLogin(this.configFileReader.getnewusermaile() + number,this.configFileReader.getpassword());
+		BookingPage booking1 = new BookingPage(driver);
+		booking1.RefreshPage();
 		WebElement mini = driver.findElement(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'mini')]]"));
 		Assert.assertTrue(BookingPage.ElementDisplay(mini));
-		booking.ClickStylistHeader();
+		booking1.ClickStylistHeader();
 	}
 	@Test(priority = 3,groups={"sanity-group"})
-	public void MembershipMajor ()
+	public void SingleMajor ()
 	{
 		BookingPage booking = new BookingPage(driver);
 		String stylistName = this.configFileReader.getStylistName();
@@ -87,12 +96,19 @@ public class BookingsingleTests extends BaseTest
 		booking.ClickMajorPlan();
 		booking.ClickOneTime();
 		booking.ClickPaymentButton();
-		booking.ChatPresent();
-		booking.Sleep(200);
-		booking.ClickMyStyleSessions();
+		booking.QuizPresent();
+		booking.close();
+		setup();
+		LoginPage login = new LoginPage(driver);
+		login.ClickLoginButton();
+		login.Clearpassword();
+		login.Clearusername();
+		login.doLogin(this.configFileReader.getnewusermaile() + number,this.configFileReader.getpassword());
+		BookingPage booking1 = new BookingPage(driver);
+		booking1.RefreshPage();
 		WebElement major = driver.findElement(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'major')]]"));
 		Assert.assertTrue(BookingPage.ElementDisplay(major));
-		booking.Sleep(300);
-		booking.close();	
+		booking1.Sleep(300);
+		booking1.close();	
 	}
 	}

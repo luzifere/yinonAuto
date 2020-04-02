@@ -121,21 +121,39 @@ public class BookingPage extends BasePage
 
 	@FindBy(xpath="//label[@for='mini']")
 	WebElement MIniGoal;
-	@FindBy(xpath="//label[@for='mini']")
+	@FindBy(xpath="//label[@for='cleanout']")
+	WebElement cleanoutGoal;
+	@FindBy(xpath="//label[@for='major']")
 	WebElement MajorGoal;
 
 	@FindBy(xpath="(//button[@type='button'])[1]")
 	WebElement MIniPlan;
 	@FindBy(xpath="(//button[@type='button'])[2]")
 	WebElement MajorPlan;
-	@FindBy(xpath="//div[@class='stylist-chat-header ']")
-	WebElement chatheader;
+	@FindBy(xpath="(//button[@type='button'])[1]")
+	WebElement MajorPlanOfCleanOut;
+	@FindBy(xpath="//p[text()[contains(.,'You successfully booked')]]")
+	WebElement quizheader;
 	@FindBy(xpath="//span[@class='d-none d-sm-block']")
 	WebElement bookstylistprofile;
 	@FindBy(xpath="//button[@class='d-none d-sm-flex btn btn-dark']")
 	WebElement paymentbutton;
 	@FindBy(xpath="//button[@title='Collapse Widget']")
 	WebElement chatbutton;
+	@FindBy(xpath="//div[text()[contains(.,'Total')]]/..//div[text()[contains(.,'0')]]")
+	WebElement total_0;
+	
+	@FindBy(xpath="(//div[text()[contains(.,'BEST MATCH')]]/..//div[text()[contains(.,'Mini')]])[1]")
+	WebElement minibest;
+	@FindBy(xpath="//p[text()[contains(.,'Mini package')]]")
+	WebElement minipackage;
+	@FindBy(xpath="(//div[text()[contains(.,'BEST MATCH')]]/..//div[text()[contains(.,'Major')]])[1]")
+	WebElement majorbest;
+	@FindBy(xpath="//p[text()[contains(.,'Major package')]]")
+	WebElement majorpackage;
+	@FindBy(xpath="//div[text()[contains(.,'Closet clean out package')]]")
+	WebElement cleanoutpackage;
+	
 
 
 
@@ -151,6 +169,23 @@ public class BookingPage extends BasePage
 
 
 			System.err.println("\nError : ClickPaymentButton failed\n");
+			throw e;
+
+		}
+
+	}
+	public void AssertTotalIs0() 
+	{
+		try
+
+		{
+			WaitElementDisplay(total_0);
+			Assert.assertTrue(BookingPage.ElementDisplay(total_0));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : AssertTotalIs0 failed\n");
 			throw e;
 
 		}
@@ -220,7 +255,7 @@ public class BookingPage extends BasePage
 		}catch(Exception e){
 
 
-			System.err.println("\nError : ClickMIniPlan failed\n");
+			System.err.println("\nError : BookStylistProfile failed\n");
 			throw e;
 
 		}
@@ -258,20 +293,22 @@ public class BookingPage extends BasePage
 			throw e;
 
 		}
+		WaitElementDisplay(minipackage);
+		Assert.assertTrue(BookingPage.ElementDisplay(minipackage));
 
 	}
 
-	public void ChatPresent() 
+	public void QuizPresent() 
 	{
 		try
 
 		{
-			Assert.assertTrue(ElementDisplay(chatheader));
+			Assert.assertTrue(ElementDisplay(quizheader));
 
 		}catch(Exception e){
 
 
-			System.err.println("\nError : ChatPresent failed\n");
+			System.err.println("\nError : QuizPresent failed\n");
 			throw e;
 
 		}
@@ -292,6 +329,26 @@ public class BookingPage extends BasePage
 			throw e;
 
 		}
+		WaitElementDisplay(majorpackage);
+		Assert.assertTrue(BookingPage.ElementDisplay(majorpackage));
+
+	}
+	public void ClickMajorPlanOfCleanOut() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(MajorPlanOfCleanOut);
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : ClickMajorPlanOfCleanOut failed\n");
+			throw e;
+
+		}
+		WaitElementDisplay(cleanoutpackage);
+		Assert.assertTrue(BookingPage.ElementDisplay(cleanoutpackage));
 
 	}
 
@@ -309,6 +366,8 @@ public class BookingPage extends BasePage
 			throw e;
 
 		}
+		WaitElementDisplay(minibest);
+		Assert.assertTrue(BookingPage.ElementDisplay(minibest));
 
 	}
 
@@ -326,6 +385,26 @@ public class BookingPage extends BasePage
 			throw e;
 
 		}
+		WaitElementDisplay(majorbest);
+		Assert.assertTrue(BookingPage.ElementDisplay(majorbest));
+
+	}
+	public void ClickCleanOutGoal() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(cleanoutGoal);
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : ClickCleanOutGoal failed\n");
+			throw e;
+
+		}
+		WaitElementDisplay(majorbest);
+		Assert.assertTrue(BookingPage.ElementDisplay(majorbest));
 
 	}
 	public void ClickBookStylisButton() 

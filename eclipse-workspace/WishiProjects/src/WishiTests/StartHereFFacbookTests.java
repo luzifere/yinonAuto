@@ -22,19 +22,21 @@ import PageObject.SignUpPage;
 
 public class StartHereFFacbookTests extends BaseTest 
 {
-	@Test(priority =6,groups={"sanity-group"})
+	int number;
+
+	StartHereFFacbookTests() {
+		
+	}
+	@Test(priority =1,groups={"sanity-group"})
 	public void StartHereMaleTests()
 	{
 		String winhandleBefore = driver.getWindowHandle();
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
-		int number = 3560000;
-		for (int counter = 5800000; counter<=10000000;counter++)
-			number = num.nextInt(700000);
+		number = num.nextInt(70000000) + 356000000;
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickStartHere();
 		best.ClickontinueButton();
-		
 		best.ClickFamle();
 		best.ClickPetit();
 		best.ClickNextbutton();
@@ -80,25 +82,24 @@ public class StartHereFFacbookTests extends BaseTest
 
 	}
 	
-	@Test(priority =6,groups={"sanity-group"})
+	@Test(priority =2,groups={"sanity-group"})
 	public void StartHereMaleBackTests()
 	{
+		setup();
 		String winhandleBefore = driver.getWindowHandle();
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
-		int number = 3560000;
-		for (int counter = 5800000; counter<=10000000;counter++)
-			number = num.nextInt(700000);
+		number = num.nextInt(70000000) + 356000000;
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickStartHere();
 		best.ClickontinueButton();
 		best.ClickMale();
 		best.ClickBack();
 		best.ClickFamle();
-		best.SelectBodyType("0");
+		best.ClickPetit();
 		best.ClickNextbutton();
 		best.ClickBack();
-		best.SelectBodyType("1");
+		best.ClickPlusSize();
 		best.ClickNextbutton();
 		best.SelectLoveIt("1");
 		best.ClickBack();
@@ -130,7 +131,7 @@ public class StartHereFFacbookTests extends BaseTest
 		best.SelectHELLONO("10");
 		best.ClickBack();
 		best.SelectHELLONO("10");
-		best.Selectbrands("1");
+		best.Selectbrands("brand_H&M");
 		best.ClickMeetMyMatch();
 		signup.ConnectWithFB();
 		signup.ConnectWithFB();

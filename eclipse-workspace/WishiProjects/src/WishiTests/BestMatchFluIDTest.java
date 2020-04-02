@@ -60,21 +60,14 @@ public class BestMatchFluIDTest extends BaseTest
 		best.Selectbrands("brand_Adidas");
 		//best.ClickNextbutton();
 		best.ClickMeetMyMatch();
-		/*
-		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Fluid')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Petite, Plus Size')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'40% - Boho, 60% - Elegant')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,' A.L.C')]]"));
-		best.ClickMeetMyMatch();
-		*/
 		best.StylistPageDisplayed();
-		best.Sleep(300);
+		best.close();
 		
 	}
 	@Test(priority =4,groups={"sanity-group"})
 	public void BestMatchNaturalBackTest()
 	{
+		setup();
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
 		int number = 3560000;
@@ -82,16 +75,15 @@ public class BestMatchFluIDTest extends BaseTest
 			number = num.nextInt(700000);
 		signup.ClickOnSignUpEmail();
 	signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
-		//signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();
 		best.ClickBack();
 		best.ClickSelfIdentityButtonID();
-		best.SelectBodyType("0");
+		best.ClickPetit();
 		best.ClickNextbutton();
 		best.ClickBack();
-		best.SelectBodyType("1");
+		best.ClickPlusSize();
 		best.ClickNextbutton();
 		best.SelectSOMETIMES("1");
 		best.ClickBack();
@@ -123,17 +115,8 @@ public class BestMatchFluIDTest extends BaseTest
 		best.SelectHELLONO("10");
 		best.ClickBack();
 		best.SelectSOMETIMES("10");
-		best.Selectbrands("1");
-		//best.ClickNextbutton();
+		best.Selectbrands("brand_Adidas");
 		best.ClickMeetMyMatch();
-		/*
-		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Fluid')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Petite, Plus Size')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'40% - Boho, 60% - Elegant')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,' A.L.C')]]"));
-		best.ClickMeetMyMatch();
-		*/
 		best.StylistPageDisplayed();
 		best.Sleep(300);
 		best.close();

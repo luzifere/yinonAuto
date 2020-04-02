@@ -22,14 +22,16 @@ import PageObject.SignUpPage;
 
 public class StartHereFemaleTests extends BaseTest 
 {
+	int number;
+
+	StartHereFemaleTests() {
+	}
 	@Test(priority =6,groups={"sanity-group"})
 	public void StartHereFemaleTests()
 	{
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
-		int number = 3560000;
-		for (int counter = 5800000; counter<=10000000;counter++)
-			number = num.nextInt(700000);
+		number = num.nextInt(70000000) + 356000000;
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickStartHere();
 		best.ClickontinueButton();
@@ -37,25 +39,25 @@ public class StartHereFemaleTests extends BaseTest
 		best.ClickPetit();
 		best.ClickNextbutton();
 		best.SelectLoveIt("1");
-	
+
 		best.SelectSOMETIMES("2");
-	
+
 		best.SelectLoveIt("3");
-	
+
 		best.SelectSOMETIMES("4");
-	
+
 		best.SelectSOMETIMES("5");
-	
+
 		best.SelectLoveIt("6");
-	
+
 		best.ClickSkipbutton2("1");
-		
+
 		best.SelectHELLONO("8");
-	
+
 		best.SelectLoveIt("9");
-		
+
 		best.SelectHELLONO("10");
-		
+
 		best.Selectbrands("brand_H&M");
 		best.ClickMeetMyMatch();
 		signup.doSignUpSH(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
@@ -64,15 +66,14 @@ public class StartHereFemaleTests extends BaseTest
 		best.close();
 
 	}
-	
+
 	@Test(priority =7,groups={"sanity-group"})
 	public void StartHereFemaleBackTests()
 	{
+		setup();
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
-		int number = 3560000;
-		for (int counter = 5800000; counter<=10000000;counter++)
-			number = num.nextInt(700000);
+		number = num.nextInt(70000000) + 356000000;
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickStartHere();
 		best.ClickontinueButton();

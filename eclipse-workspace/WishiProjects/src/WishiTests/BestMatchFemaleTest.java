@@ -51,14 +51,7 @@ public class BestMatchFemaleTest extends BaseTest
 		best.SelectHELLONO("10");
 		best.Selectbrands("brand_Adidas");
 		best.ClickMeetMyMatch();
-		/*
-		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Female')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Petite, Plus Size')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'44% - Classic, 28% - Edgy, 28% - Minimal')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'All Saints')]]"));
-		best.ClickMeetMyMatch();
-		*/
+	
 		best.StylistPageDisplayed();
 		best.Sleep(300);
 		best.close();
@@ -68,6 +61,7 @@ public class BestMatchFemaleTest extends BaseTest
 	@Test(priority =4,groups={"sanity-group"})
 	public void BestMatchFemaleTestWithBack()
 	{
+		setup();
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
 		int number = 3560000;
@@ -116,16 +110,8 @@ public class BestMatchFemaleTest extends BaseTest
 		best.SelectHELLONO("10");
 		best.ClickBack();
 		best.SelectSOMETIMES("10");
-		best.Selectbrands("2");
+		best.Selectbrands("brand_Adidas");
 		best.ClickMeetMyMatch();
-		/*
-		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Female')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Petite, Plus Size')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'44% - Classic, 28% - Edgy, 28% - Minimal')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'All Saints')]]"));
-		best.ClickMeetMyMatch();
-		*/
 		best.StylistPageDisplayed();
 		best.Sleep(300);
 		best.close();

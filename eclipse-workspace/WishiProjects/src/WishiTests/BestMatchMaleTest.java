@@ -47,24 +47,14 @@ public class BestMatchMaleTest extends BaseTest
 		best.SelectSOMETIMES("5");
 		
 		best.Selectbrands("brand_A.L.C");
-		//best.ClickNextbutton();
 		best.ClickMeetMyMatch();
-		/*
-		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Male')]]"));
-		
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'30% - Hipster, 28% - Dapper, 42% - Rock')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Armani')]]"));
-		Assert.assertFalse(best.isElementPresent("//td[text()[contains(.,'You body type is:')]]"));
-		best.ClickMeetMyMatch();
-		*/
-		best.StylistPageDisplayed();
-		best.Sleep(300);
-		
+		best.StylistPageDisplayed();	
+		best.close();
 	}
 	@Test(priority =3,groups={"sanity-group"})
-	public void BestMatchMaleBack()
+	public void BestMatchMaleBack() 
 	{
+		setup();
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
 		int number = 3560000;
@@ -72,7 +62,6 @@ public class BestMatchMaleTest extends BaseTest
 			number = num.nextInt(700000);
 		signup.ClickOnSignUpEmail();
 	signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
-		//signup.WaitElementDisplay(By.xpath("//div//a[@class='btn-start']"));
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();
@@ -93,18 +82,8 @@ public class BestMatchMaleTest extends BaseTest
 		best.SelectSOMETIMES("5");
 		best.ClickBack();
 		best.SelectSOMETIMES("5");
-		best.Selectbrands("2");
-		//best.ClickNextbutton();
+		best.Selectbrands("brand_Adidas");
 		best.ClickMeetMyMatch();
-		/*
-		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Male')]]"));
-		
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'30% - Hipster, 28% - Dapper, 42% - Rock')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Armani')]]"));
-		Assert.assertFalse(best.isElementPresent("//td[text()[contains(.,'You body type is:')]]"));
-		best.ClickMeetMyMatch();
-		*/
 		best.StylistPageDisplayed();
 		best.Sleep(300);
 		best.close();

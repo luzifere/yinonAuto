@@ -22,14 +22,12 @@ import PageObject.SignUpPage;
 
 public class StartHereHelloNoTests extends BaseTest 
 {
-	@Test(priority =6,groups={"sanity-group"})
+	@Test(priority =1,groups={"sanity-group"})
 	public void StartHereHelloNoBackTests()
 	{
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
-		int number = 3560000;
-		for (int counter = 5800000; counter<=10000000;counter++)
-			number = num.nextInt(700000);
+		int number = num.nextInt(70000000) + 356000000;
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickStartHere();
 		best.ClickontinueButton();
@@ -71,7 +69,7 @@ public class StartHereHelloNoTests extends BaseTest
 		best.SelectHELLONO("10");
 		best.ClickBack();
 		best.SelectHELLONO("10");
-		best.Selectbrands("2");
+		best.Selectbrands("brand_H&M");
 		best.ClickMeetMyMatch();
 		signup.doSignUpSH(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
 		best.Sleep(200);
@@ -80,14 +78,13 @@ public class StartHereHelloNoTests extends BaseTest
 		best.close();
 
 	}
-	@Test(priority =5,groups={"sanity-group"})
+	@Test(priority =2,groups={"sanity-group"})
 	public void StartHereHelloNoTests()
 	{
+		setup();
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
-		int number = 3560000;
-		for (int counter = 5800000; counter<=10000000;counter++)
-			number = num.nextInt(700000);
+		int number = num.nextInt(70000000) + 356000000;
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickStartHere();
 		best.ClickontinueButton();

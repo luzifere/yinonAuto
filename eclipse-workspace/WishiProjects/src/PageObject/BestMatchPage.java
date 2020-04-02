@@ -85,6 +85,10 @@ public class BestMatchPage extends BasePage
 	
 	@FindBy(xpath="//button[@class='d-none d-sm-flex btn btn-warning']")
 	WebElement LetsGetStylingBuutton;
+	@FindBy(xpath="//img[@class='filter-icon']")
+	WebElement filtericon;
+	@FindBy(xpath="//p[@class='retake']")
+	WebElement retake;
 	
 
 
@@ -97,7 +101,39 @@ public class BestMatchPage extends BasePage
 	}
 
 
-
+	public void ClicRetake() 
+	{	
+		try
+		 
+		 {
+			ExplicityWaitIsClickable(retake);
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.err.println("\nError : ClicRetake failed\n");
+			 throw e;
+			
+		 }
+		
+	}
+	public void ClicOnFilter () 
+	{	
+		try
+		 
+		 {
+			ExplicityWaitIsClickable(filtericon);
+		 
+		 }catch(Exception e){
+		 
+			
+			 System.err.println("\nError : ClicOnFilter failed\n");
+			 throw e;
+			
+		 }
+		
+	}
+	
 	public void selectMounts(int num)
 	{
 		Select mounts = new Select (driver.findElement(By.xpath("(//select[@ng-model='formData.month'])")));

@@ -62,13 +62,14 @@ public class BestMatchHelloNo extends BaseTest
 		best.Selectbrands("brand_Acne Studios");
 		best.ClickMeetMyMatch();
 		best.StylistPageDisplayed();
-		best.Sleep(300);
+		best.close();
 		
 	}
 
 	@Test(priority =3,groups={"sanity-group"})
 	public void BestMatchHelloNoBack()
 	{
+		setup();
 		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
 		int number = 3560000;
@@ -81,10 +82,10 @@ public class BestMatchHelloNo extends BaseTest
 		best.ClickFamle();
 		best.ClickBack();
 		best.ClickFamle();
-		best.SelectBodyType("0");
+		best.ClickPetit();
 		best.ClickNextbutton();
 		best.ClickBack();
-		best.SelectBodyType("1");
+		best.ClickPlusSize();
 		best.ClickNextbutton();
 		best.SelectLoveIt("1");
 		best.ClickBack();
@@ -116,7 +117,7 @@ public class BestMatchHelloNo extends BaseTest
 		best.SelectHELLONO("10");
 		best.ClickBack();
 		best.SelectHELLONO("10");
-		best.Selectbrands("2");
+		best.Selectbrands("brand_Adidas");
 		best.ClickMeetMyMatch();
 		best.StylistPageDisplayed();
 		best.Sleep(300);

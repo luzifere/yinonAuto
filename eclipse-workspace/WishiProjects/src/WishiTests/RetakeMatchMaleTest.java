@@ -30,13 +30,12 @@ public class RetakeMatchMaleTest extends BaseTest
 		login.waitForPageLoaded();
 		login.ClickLoginButton();
 		login.doLogin("wishitesttr@wishi.com3807", "ab1565");
-		login.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
-		Assert.assertTrue(login.ElementDisplay("//div[text()[contains(.,'Your Stylist Match!')]]"));
-		login.Sleep(300);
-		driver.findElement(By.xpath("//div//a[text()[contains(.,'Retake your style match')]]")).click();
+		login.MyBookingDisplay();
+		BookingPage booking = new BookingPage(driver);
+		booking.ClickStylistHeader();
 		BestMatchPage best = new BestMatchPage(driver);
-		//best.ClickontinueButton();
-		
+		best.ClicOnFilter();
+		best.ClicRetake();
 		best.ClickFamle();
 		best.ClickBack();
 		best.ClickMale();
@@ -45,19 +44,9 @@ public class RetakeMatchMaleTest extends BaseTest
 		best.SelectSOMETIMES("3");
 		best.SelectLoveIt("4");
 		best.SelectHELLONO("5");
-		best.SelectHELLONO("6");
-		best.Selectbrands("1");
-		//best.ClickNextbutton();
+		best.Selectbrands("brand_GAP");
 		best.ClickMeetMyMatch();
-		/*
-		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Male')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'40% - Classic, 60% - Edgy')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Alexander wang')]]"));
-		best.ClickMeetMyMatch();
-		*/
-		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div[text()[contains(.,'Your Stylist Match!')]]"));
+		best.StylistPageDisplayed();
 		best.Sleep(300);
 		best.close();
 		
