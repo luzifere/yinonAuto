@@ -24,7 +24,7 @@ public class BaseTest2
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"XCUITest");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
 		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12.1");
-		cap.setCapability(MobileCapabilityType.BROWSER_NAME,"Safari");
+		cap.setCapability(MobileCapabilityType.BROWSER_NAME,"Chrome");
 		cap.setCapability(MobileCapabilityType.FULL_RESET,true);
 		cap.setCapability(IOSMobileCapabilityType.NATIVE_WEB_TAP,true);
 		driver = new IOSDriver<>(new URL("http://127.0.0.1:4723/wd/hub") ,cap);

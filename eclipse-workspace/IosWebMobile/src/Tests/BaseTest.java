@@ -35,7 +35,7 @@ public class BaseTest
 		//cap.setCapability(MobileCapabilityType.FULL_RESET,true);
 		//cap.setCapability(MobileCapabilityType.NO_RESET,true);
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,AutomationName.IOS_XCUI_TEST);
-		cap.setCapability(MobileCapabilityType.BROWSER_NAME,"Safari");
+		cap.setCapability(MobileCapabilityType.BROWSER_NAME,"Crome");
 		//cap.setCapability(IOSMobileCapabilityType.BUNDLE_ID,"com.Wishi.Wishi");
 		 
 		

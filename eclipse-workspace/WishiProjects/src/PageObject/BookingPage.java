@@ -865,6 +865,7 @@ public class BookingPage extends BasePage
 			System.out.println("\nError : FillCardCVC failed\n");
 
 		}
+		
 
 	}
 	public void ClickTakeYourStyleQuiz() 

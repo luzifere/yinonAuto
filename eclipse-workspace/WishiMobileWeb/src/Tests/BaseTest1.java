@@ -4,6 +4,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.BeforeTest;
 import dataProvider.ConfigFileReader;
@@ -15,22 +16,20 @@ public class BaseTest1
 {
 	ConfigFileReader configFileReader;
 	protected AndroidDriver<AndroidElement> driver;
-	public AndroidDriver<AndroidElement> Capabilities(String device) throws MalformedURLException 
+	public AndroidDriver<AndroidElement> Capabilities() throws MalformedURLException 
 	{
 		
 		configFileReader= new ConfigFileReader();
 		DesiredCapabilities cap = new DesiredCapabilities();
-		if (device.equals("emulator"))
-		{
-			
-			cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus1");    
-		}
-		else if(device.equals("real"))
-		{
-			cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android device");
-		}
+		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
 		cap.setCapability(MobileCapabilityType.NO_RESET,true);
 		cap.setCapability(MobileCapabilityType.BROWSER_NAME,"Chrome");
+		ChromeOptions chromeOptions = new ChromeOptions();
+		chromeOptions.setExperimentalOption("w3c", false);
+		cap.merge(chromeOptions);
+		cap.setCapability("chromedriverExecutable","/Users/yinonwishi/Downloads/chromedriver");
+
 		driver = new AndroidDriver<>(new URL ("http://127.0.0.1:4723/wd/hub") ,cap);
 		return driver;
 
@@ -38,7 +37,7 @@ public class BaseTest1
 	@BeforeTest()
 	public void setup() throws MalformedURLException
 	{
-		Capabilities("real");
+		Capabilities();
 		driver.get(configFileReader.getApplicationUrl());
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}

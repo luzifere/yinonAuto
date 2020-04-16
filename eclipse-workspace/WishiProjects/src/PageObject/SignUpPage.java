@@ -63,13 +63,14 @@ public class SignUpPage extends BasePage
 
 			{
 
-				//ExplicityWaitIsClickable(SignButton);
+				ExplicityWaitIsClickable(SignButton);
 				WaitElementDisplay(FullName);
 				click(FullName);
 				Sleep(150);
 				filltext(FullName, firstname);
 				Sleep(150);
 				filltext(Email, user);
+				clicktTab();
 				Sleep(150);
 				filltext(password, pass);
 				Sleep(150);
@@ -91,6 +92,7 @@ public class SignUpPage extends BasePage
 			try
 
 			{
+				
 
 				ExplicityWaitIsClickable(SignButton);
 				WaitElementDisplay(FullName);
@@ -99,6 +101,7 @@ public class SignUpPage extends BasePage
 				filltext(FullName, firstname);
 				Sleep(150);
 				filltext(Email, user);
+				clicktTab();
 				Sleep(150);
 				filltext(password, pass);
 				Sleep(150);

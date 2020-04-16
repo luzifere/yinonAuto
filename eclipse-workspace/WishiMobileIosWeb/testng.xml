@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Tests.Listener"></listener>
+	</listeners>
+	    <test name="StartHereFemaleTests">
+    <classes>
+      <class name="Tests.StartHereFemaleTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="StartHereFluIDTests">
+    <classes>
+      <class name="Tests.StartHereFluIDTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="StartHereHelloNoTests">
+    <classes>
+      <class name="Tests.StartHereHelloNoTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="StartHereMaleTests">
+    <classes>
+      <class name="Tests.StartHereMaleTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="BestMatchFemaleTest">
+    <classes>
+      <class name="Tests.BestMatchFemaleTest"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="BestMatchFluIDTest">
+    <classes>
+      <class name="Tests.BestMatchFluIDTest"/>
+    </classes>
+    </test> <!-- Test -->
+    
+    <test name="BestMatchHellowNoTests">
+    <classes>
+      <class name="Tests.BestMatchHellowNoTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="BestMatchMaleTest">
+    <classes>
+      <class name="Tests.BestMatchMaleTest"/>
+    </classes>
+    </test> <!-- Test -->
+
+</suite> 

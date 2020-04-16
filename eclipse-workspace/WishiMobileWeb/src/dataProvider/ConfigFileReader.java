@@ -42,6 +42,11 @@ public class ConfigFileReader {
 		if(driverPath!= null) return driverPath;
 		else throw new RuntimeException("Stylist not specified in the Configuration.properties file.");		
 	}
+	public String getStylistLastName(){
+		String driverPath = properties.getProperty("StylistLast");
+		if(driverPath!= null) return driverPath;
+		else throw new RuntimeException("StylistLast not specified in the Configuration.properties file.");		
+	}
 	public String getCardNumber(){
 		String driverPath = properties.getProperty("cardnumber");
 		if(driverPath!= null) return driverPath;
@@ -62,7 +67,21 @@ public class ConfigFileReader {
 		if(driverPath!= null) return driverPath;
 		else throw new RuntimeException("cvc not specified in the Configuration.properties file.");		
 	}
-	
+	public String getnewusermaile(){
+		String driverPath = properties.getProperty("newusermaile");
+		if(driverPath!= null) return driverPath;
+		else throw new RuntimeException("newusermaile not specified in the Configuration.properties file.");		
+	}
+	public String getnewusername(){
+		String driverPath = properties.getProperty("username");
+		if(driverPath!= null) return driverPath;
+		else throw new RuntimeException("username not specified in the Configuration.properties file.");		
+	}
+	public String getpassword(){
+		String driverPath = properties.getProperty("password");
+		if(driverPath!= null) return driverPath;
+		else throw new RuntimeException("password not specified in the Configuration.properties file.");		
+	}
 	public long getImplicitlyWait() {		
 		String implicitlyWait = properties.getProperty("implicitlyWait");
 		if(implicitlyWait != null) return Long.parseLong(implicitlyWait);

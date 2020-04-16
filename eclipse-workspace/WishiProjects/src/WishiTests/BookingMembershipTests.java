@@ -35,7 +35,7 @@ public class BookingMembershipTests extends BaseTest
 		SignUpPage signup = new SignUpPage(driver);
 		signup.waitForPageLoaded();
 
-		signup.ClickOnSignUpEmail();
+		//signup.ClickOnSignUpEmail();
 		signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
 
 		BestMatchPage best = new BestMatchPage(driver);

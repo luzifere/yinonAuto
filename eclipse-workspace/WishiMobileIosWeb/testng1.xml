@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+        <listener class-name="Tests.Listener"></listener>
+    </listeners>
+   
+   <test name="SignUpByFacbookTestsFail">
+    <classes>
+      <class name="Tests.SignUpByFacbookTestsFail"/>
+    </classes>
+  </test> <!-- Test -->
+   
+   
+    <test name="SignUpByFacbookTestsSucses">
+    <classes>
+      <class name="Tests.SignUpByFacbookTestsSucses"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="ChatTests">
+    <classes>
+      <class name="Tests.ChatTests"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="LoginWithFacbookTests">
+    <classes>
+      <class name="Tests.LoginWithFacbookTests"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="LoginWithFacbookTestsFail">
+    <classes>
+      <class name="Tests.LoginWithFacbookTestsFail"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="LoginTests2">
+    <classes>
+      <class name="Tests.LoginTests2"/>
+    </classes>
+  </test> <!-- Test -->
+   
+    <test name="SignUpTest">
+    <classes>
+      <class name="Tests.SignUpTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="BestMatchFemaleTest">
+    <classes>
+      <class name="Tests.BestMatchFemaleTest"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchFluIDTest">
+    <classes>
+      <class name="Tests.BestMatchFluIDTest"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchHellowNoTests">
+    <classes>
+      <class name="Tests.BestMatchHellowNoTests"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="BestMatchMaleTest">
+    <classes>
+      <class name="Tests.BestMatchMaleTest"/>
+    </classes>
+    </test> <!-- Test -->
+     
+    <test name="StartHereFemaleTests">
+    <classes>
+      <class name="Tests.StartHereFemaleTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="StartHereFFacbookTests">
+    <classes>
+      <class name="Tests.StartHereFFacbookTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="StartHereFluIDTests">
+    <classes>
+      <class name="Tests.StartHereFluIDTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="StartHereHelloNoTests">
+    <classes>
+      <class name="Tests.StartHereHelloNoTests"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="StartHereMaleTests">
+    <classes>
+      <class name="Tests.StartHereMaleTests"/>
+    </classes>
+    </test> <!-- Test -->
+    
+     <test name="qwizTests">
+    <classes>
+      <class name="Tests.qwizTests"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="qwizMaleTests">
+    <classes>
+      <class name="Tests.qwizMaleTests"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="BookingCCTests">
+    <classes>
+      <class name="Tests.BookingCCTests"/>
+    </classes>
+  </test> <!-- Test -->
+   
+
+  
+</suite> <!-- Suite -->

@@ -1,6 +1,7 @@
 package PageObejecs;
 
 import java.io.File;
+
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -9,10 +10,12 @@ import java.util.Random;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -21,10 +24,16 @@ import org.testng.Assert;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.android.AndroidKeyCode;
+import io.appium.java_client.android.AndroidKeyMetastate;
+
+import io.appium.java_client.MobileElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class BasePage 
 {
 	public static String winHandleBefore;
+	
 	static AndroidDriver<AndroidElement> driver;
 	public BasePage(AndroidDriver<AndroidElement> _driver)
 	{	driver = _driver;
@@ -49,6 +58,9 @@ public class BasePage
 	}
 	public void RefreshPage(AndroidDriver<AndroidElement> driver)
 	{
+		
+
+
 		driver.navigate().refresh();
 	}
 	public void clear (WebElement el) 
@@ -68,30 +80,85 @@ public class BasePage
 		return true;
 	}
 	*/
-	public static void ExplicityWaitIsClickable(By by) 
-	{ for (int i=0;i<10;i++) 
-		try 
-	{
-			WebDriverWait wait = new WebDriverWait(driver, 30);
-			WebElement element = wait.until(ExpectedConditions.elementToBeClickable(by));
-			element.click();
-			break;
-	} 
-	catch (Exception e) 
-	{
-		try {
-			Thread.sleep(500);
-		} catch (InterruptedException e1) {
-			e1.printStackTrace();
-		}
+	public static void ExplicityWaitIsClickable(WebElement elementString) 
+	{ 
+		{
+			try
 
+			{
+
+				for (int i=0;i<3;i++) 
+					try 
+				{
+						WebDriverWait wait = new WebDriverWait(driver, 10);
+						WebElement element = wait.until(ExpectedConditions.elementToBeClickable(elementString));
+						element.click();
+						break;
+				} 
+				catch (Exception e) 
+				{
+					try {
+						Thread.sleep(500);
+					} catch (InterruptedException e1) {
+						e1.printStackTrace();
+					}
+
+				}
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ExplicityWaitIsClickable failed\n");	
+			}
+		}
 	}
+	public static void ExplicityWaitIsDisplayed(WebElement elementString) 
+	{ 
+		{
+			try
+
+			{
+
+				for (int i=0;i<3;i++) 
+					try 
+				{
+						WebDriverWait wait = new WebDriverWait(driver, 35);
+						WebElement element = wait.until(ExpectedConditions.elementToBeClickable(elementString));
+						element.isDisplayed();
+						break;
+				} 
+				catch (Exception e) 
+				{
+					try {
+						Thread.sleep(500);
+					} catch (InterruptedException e1) {
+						e1.printStackTrace();
+					}
+
+				}
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : ExplicityWaitIsClickable failed\n");	
+			}
+		}
 	}
-	public static boolean isatpage(String element)  
+	public void clickEnter () 
+	{
+		driver.pressKeyCode(AndroidKeyCode.KEYCODE_ENTER);
+		//((AndroidDriver<AndroidElement>) driver).pressKeyCode(AndroidKeyCode.ENTER);//(new KeyEvent(AndroidKey.ENTER));
+		//Actions act = new Actions(driver);
+		//act.sendKeys(Keys.ENTER);
+	}
+	public void clicktTab () 
+	{
+		Actions act = new Actions(driver);
+		act.sendKeys(Keys.TAB);
+	}
+	public static boolean isatpage(WebElement element)  
 	{
 		try 
 		{
-			ExplicityWaitIsClickable(By.xpath(element));
+			ExplicityWaitIsClickable(element);
 			return true;
 		}
 		catch (Exception errorMessage)
@@ -156,11 +223,10 @@ public class BasePage
 			Assert.fail("Timeout waiting for Page Load Request to complete.");
 		}
 	}
-	public void WaitElementDisplay (By by) 
+	public void WaitElementDisplay (WebElement firstName) 
 	{		
-		WebElement myDynamicElement = (new WebDriverWait(driver, 60))
-				.until(ExpectedConditions.presenceOfElementLocated(by));
-		//return myDynamicElement.isDisplayed();
+		(new WebDriverWait(driver, 60))
+				.until(ExpectedConditions.visibilityOf(firstName));
 	}
 	public static void r ()throws IOException
 	{
@@ -207,15 +273,20 @@ public class BasePage
 		driver.switchTo().frame(fr);
 
 	}
-	public static boolean ElementDisplay(String elementString) 
+	public static boolean ElementDisplay(WebElement elementString) 
 	{	
-		WebElement webElement= driver.findElement(By.xpath(elementString));
-				
+		WebElement webElement= (elementString);
+
 		if(!webElement.isDisplayed())
 		{
 			return false;
 		}
 		return true;
 		//return ElementIsDisplyed(elementString);
+	}
+	public void close () 
+	{
+		Sleep(150);
+		driver.close();
 	}
 }

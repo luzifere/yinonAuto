@@ -101,6 +101,9 @@ public class BasePage
 	{
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.ENTER);
+	//	driver.pressKeyCode(AndroidKeyCode.SPACE, AndroidKeyMetastate.META_SHIFT_ON);
+
+
 	}
 
 	public void clicktTab () 

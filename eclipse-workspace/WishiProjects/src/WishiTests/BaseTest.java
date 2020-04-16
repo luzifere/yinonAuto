@@ -25,7 +25,7 @@ public class BaseTest
 	public void setup()
 	{
 		configFileReader= new ConfigFileReader();
-		System.setProperty("webdriver.chrome.driver", "/Users/yinonwishi/Downloads/chromedriver 6");
+		System.setProperty("webdriver.chrome.driver", "/Users/yinonwishi/Downloads/chromedriver");
 	    driver = new ChromeDriver();
         try {
 			Thread.sleep(2000);
