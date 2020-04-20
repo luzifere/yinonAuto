@@ -87,15 +87,15 @@ public class BookingMembershipTests extends BaseTest1
 		login.ClickLoginButton();
 		login.Clearpassword();
 		login.Clearusername();
-		//String Loc = "//div[text()[contains(.,'"+stylistName+"')]][1]";
-		//System.out.println(Loc);
 		login.doLogin(this.configFileReader.getnewusermaile() + number,this.configFileReader.getpassword());
 		BookingPage booking1 = new BookingPage(driver);
+		booking1.waitForPageLoaded();
 		booking1.MyBookingDisplay();
+		booking1.MySessionDisplay();
 		AndroidElement list = driver.findElement(By.xpath("//div[text()[contains(.,'"+stylistName+"')]][1]"));
 		System.out.println(list);
-		BasePage.ExplicityWaitIsDisplayed(list);
-		Assert.assertTrue(BookingPage.ElementDisplay(list));
+		booking1.ExplicityWaitIsDisplayed(list);
+		Assert.assertTrue(booking1.ElementDisplay(list));
 		booking1.ClickStylistHeader();
 	}
 	@Test(priority = 3,groups={"sanity-group"})
@@ -119,11 +119,13 @@ public class BookingMembershipTests extends BaseTest1
 		login.Clearusername();
 		login.doLogin(this.configFileReader.getnewusermaile() + number,this.configFileReader.getpassword());
 		BookingPage booking1 = new BookingPage(driver);
+		booking1.waitForPageLoaded();
 		booking1.MyBookingDisplay();
+		booking1.MySessionDisplay();
 		AndroidElement list = driver.findElement(By.xpath("//div[text()[contains(.,'"+stylistName+"')]][1]"));
 		System.out.println(list);
-		BasePage.ExplicityWaitIsDisplayed(list);
-		Assert.assertTrue(BookingPage.ElementDisplay(list));
+		booking1.ExplicityWaitIsDisplayed(list);
+		Assert.assertTrue(booking1.ElementDisplay(list));
 		booking1.ClickStylistHeader();
 	}
 	@Test(priority = 4,groups={"sanity-group"})
@@ -146,11 +148,13 @@ public class BookingMembershipTests extends BaseTest1
 		login.Clearusername();
 		login.doLogin(this.configFileReader.getnewusermaile() + number,this.configFileReader.getpassword());
 		BookingPage booking1 = new BookingPage(driver);
+		booking1.waitForPageLoaded();
 		booking1.MyBookingDisplay();
+		booking1.MySessionDisplay();
 		AndroidElement list = driver.findElement(By.xpath("//div[text()[contains(.,'"+stylistName+"')]][1]"));
 		System.out.println(list);
-		BasePage.ExplicityWaitIsDisplayed(list);
-		Assert.assertTrue(BookingPage.ElementDisplay(list));
+		booking1.ExplicityWaitIsDisplayed(list);
+		Assert.assertTrue(booking1.ElementDisplay(list));
 		booking1.Sleep(300);
 		booking1.close();	
 	}

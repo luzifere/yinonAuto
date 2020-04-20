@@ -33,12 +33,35 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class BasePage 
 {
 	public static String winHandleBefore;
-	
+
 	static AndroidDriver<AndroidElement> driver;
 	public BasePage(AndroidDriver<AndroidElement> _driver)
 	{	driver = _driver;
 	PageFactory.initElements(_driver, this);
 	}
+
+
+
+
+
+
+
+
+
+
+	public boolean isElementPresent(WebElement locatorKey) {
+		try {
+			WebElement element = driver.findElement((By) locatorKey);
+			if(element != null)
+			{
+				return element.isDisplayed();
+			}
+			return false;
+		} catch (org.openqa.selenium.NoSuchElementException e) {
+			return false;
+		}
+	}
+
 	public void click (WebElement el) 
 	{
 		el.click();
@@ -58,7 +81,7 @@ public class BasePage
 	}
 	public void RefreshPage(AndroidDriver<AndroidElement> driver)
 	{
-		
+
 
 
 		driver.navigate().refresh();
@@ -79,7 +102,7 @@ public class BasePage
 
 		return true;
 	}
-	*/
+	 */
 	public static void ExplicityWaitIsClickable(WebElement elementString) 
 	{ 
 		{
@@ -111,7 +134,7 @@ public class BasePage
 			}
 		}
 	}
-	public static void ExplicityWaitIsDisplayed(WebElement elementString) 
+	public void ExplicityWaitIsDisplayed(WebElement elementString) 
 	{ 
 		{
 			try
@@ -168,13 +191,13 @@ public class BasePage
 		}
 	}
 	public boolean isElementPresent(String locatorKey) {
-		   try {
-			   WebElement webElement= driver.findElement(By.xpath(locatorKey));
-		       return true;
-		   } catch (org.openqa.selenium.NoSuchElementException e) {
-		       return false;
-		   }
+		try {
+			WebElement webElement= driver.findElement(By.xpath(locatorKey));
+			return true;
+		} catch (org.openqa.selenium.NoSuchElementException e) {
+			return false;
 		}
+	}
 	public void switchWindow() 
 	{
 		winHandleBefore = driver.getWindowHandle();
@@ -226,7 +249,7 @@ public class BasePage
 	public void WaitElementDisplay (WebElement firstName) 
 	{		
 		(new WebDriverWait(driver, 60))
-				.until(ExpectedConditions.visibilityOf(firstName));
+		.until(ExpectedConditions.visibilityOf(firstName));
 	}
 	public static void r ()throws IOException
 	{
@@ -273,20 +296,49 @@ public class BasePage
 		driver.switchTo().frame(fr);
 
 	}
-	public static boolean ElementDisplay(WebElement elementString) 
+	public boolean ElementDisplay(WebElement elementString) 
 	{	
+		try
+
+		{
+			WebElement webElement= (elementString);
+
+			if(webElement.isDisplayed())
+			{
+				
+			}
+			return true;
+
+		}
+		catch(Exception e)
+		{	
+			return false;
+		}
+	}
+
+
+public static boolean ElementNotDisplay(WebElement elementString) 
+{	
+	try
+
+	{
 		WebElement webElement= (elementString);
 
 		if(!webElement.isDisplayed())
 		{
-			return false;
+			
 		}
 		return true;
-		//return ElementIsDisplyed(elementString);
+
 	}
-	public void close () 
-	{
-		Sleep(150);
-		driver.close();
+	catch(Exception e)
+	{	
+		return false;
 	}
+}
+public void close () 
+{
+	Sleep(150);
+	driver.close();
+}
 }

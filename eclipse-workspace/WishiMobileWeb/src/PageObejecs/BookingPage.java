@@ -16,7 +16,7 @@ import io.appium.java_client.android.AndroidKeyMetastate;
 
 public class BookingPage extends BasePage
 {
-/*
+	/*
 	public BookingPage(AndroidDriver<AndroidElement> _driver) {
 		super(_driver);
 		// TODO Auto-generated constructor stub
@@ -116,7 +116,7 @@ public class BookingPage extends BasePage
 	public void SelectMini() 
 	{
 		try
-		 
+
 		 {
 			WaitElementDisplay(By.xpath("//label[@for='miniRadio']"));
 			click(Mini);
@@ -126,20 +126,20 @@ public class BookingPage extends BasePage
 			WaitElementDisplay(By.xpath("//div[@class='box mini-box']/..//button[@class='get-your-style']"));
 			click(StartedMini);
 			WaitElementDisplay(By.xpath("//h3[text()[contains(.,'Typically responds within')]]"));
-		 
+
 		 }catch(Exception e){
-		 
-			
+
+
 			 System.out.println("\nError : SelectMini failed\n");
-			
+
 		 }
-		
+
 	}
 
 	public void SelectMajor() 
 	{	
 		try
-		 
+
 		 {
 			WaitElementDisplay(By.xpath("//label[@for='majorRadio']"));
 			click(Major);	
@@ -149,14 +149,14 @@ public class BookingPage extends BasePage
 			WaitElementDisplay(By.xpath("//div[@class='box major-box']/..//button[@class='get-your-style']"));
 			click(StartedMajor);
 			WaitElementDisplay(By.xpath("//h3[text()[contains(.,'Typically responds within')]]"));
-			
+
 		 }catch(Exception e){
-		 
-			
+
+
 			 System.out.println("\nError : SelectMajor failed\n");
-			
+
 		 }
-		
+
 	}
 	public void ClickName() 
 	{
@@ -167,7 +167,7 @@ public class BookingPage extends BasePage
 		act.sendKeys(Keys.TAB).perform();
 		Sleep(200);
 		act.sendKeys(Keys.TAB).perform();
-		
+
 		//Sleep(300);
 	}
 	public void ClickMyBooking() 
@@ -194,7 +194,7 @@ public class BookingPage extends BasePage
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.ENTER).perform();
 		Sleep(300);
-		
+
 		//driver.findElement(By.xpath("//div[@class='search-bar pull-left']")).click();
 		driver.findElement(By.xpath("//div//input[@type='text']")).sendKeys(name);
 		WaitElementDisplay(By.xpath("//li//a[@class='ng-binding ng-scope']"));
@@ -211,7 +211,7 @@ public class BookingPage extends BasePage
 		driver.hideKeyboard();
 		driver.findElement(By.xpath("(//button[@class='btn mobileBookme_payment_form_button'])[1]")).click();
 		WaitElementDisplay(By.xpath("(//button[@class='mobileBookme_payment_form_button'])[1]"));
-		
+
 		//Actions act = new Actions(driver);
 		//act.sendKeys(Keys.ENTER).perform();
 	}
@@ -315,11 +315,11 @@ public class BookingPage extends BasePage
 	{
 		Sleep(250);
 		filltext(CVCCard, cvc);
-		
+
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.TAB).perform();
 		act.sendKeys(Keys.ENTER).perform();
-		
+
 		Sleep(250);
 		//driver.pressKeyCode(AndroidKeyCode.KEYCODE_TAB, AndroidKeyMetastate.META_SHIFT_ON);
 		//driver.pressKeyCode(AndroidKeyCode.KEYCODE_TAB, AndroidKeyMetastate.META_SHIFT_ON);
@@ -341,7 +341,7 @@ public class BookingPage extends BasePage
 		click(PayButton);
 
 	}
-	*/
+	 */
 	public BookingPage(AndroidDriver<AndroidElement> _driver) {
 		super(_driver);
 		// TODO Auto-generated constructor stub
@@ -366,7 +366,7 @@ public class BookingPage extends BasePage
 	WebElement promocodeField;
 	@FindBy(xpath="//a[@class='add-code']")
 	WebElement promocode;
-	@FindBy(xpath="(//button[@class='btn btn-primary'])[1]")
+	@FindBy(xpath="(//button[@class='btn btn-dark'])[1]")
 	WebElement promocodesubmit;
 	@FindBy(xpath="//div[@ng-click='ok()']")
 	WebElement Applay;
@@ -473,7 +473,7 @@ public class BookingPage extends BasePage
 	WebElement chatbutton;
 	@FindBy(xpath="//div[text()[contains(.,'Total')]]/..//div[text()[contains(.,'0')]]")
 	WebElement total_0;
-	
+
 	@FindBy(xpath="(//div[text()[contains(.,'BEST MATCH')]]/..//div[text()[contains(.,'Mini')]])[2]")
 	WebElement minibest;
 	@FindBy(xpath="//p[text()[contains(.,'Mini package')]]")
@@ -492,28 +492,32 @@ public class BookingPage extends BasePage
 	WebElement complatebooking;
 	@FindBy(xpath="//button[@class='btn btn-warning']")
 	WebElement letsgo;
-	
-	
+	@FindBy(xpath="//div//a[text()[contains(.,'My Style Sessions')]]")
+	WebElement mySessions;
+	@FindBy(xpath="//div[@class='channel ng-scope']")
+	WebElement channel;
+
 
 
 
 
 	public void MyBookingDisplay() 
 	{
-		try
+		try 
+		{		
+			ExplicityWaitIsDisplayed(stylist);				
+		}
 
-		{
-			ExplicityWaitIsDisplayed(stylist);
-
-		}catch(Exception e){
+		catch(Exception e){
 
 
 			System.err.println("\nError : MyBookingDisplay failed\n");
 			throw e;
 
 		}
-		RefreshPage();
+
 	}
+	
 	public void ClickComplateBooking() 
 	{
 		try
@@ -529,7 +533,7 @@ public class BookingPage extends BasePage
 
 		}
 		WaitElementDisplay(letsgo);
-		Assert.assertTrue(BookingPage.ElementDisplay(letsgo));
+		Assert.assertTrue(ElementDisplay(letsgo));
 	}
 	public void ClickPaymentButton() 
 	{
@@ -585,7 +589,7 @@ public class BookingPage extends BasePage
 
 		{
 			WaitElementDisplay(total_0);
-			Assert.assertTrue(BookingPage.ElementDisplay(total_0));
+			Assert.assertTrue(ElementDisplay(total_0));
 
 		}catch(Exception e){
 
@@ -696,7 +700,7 @@ public class BookingPage extends BasePage
 
 		}
 		WaitElementDisplay(minipackage);
-		Assert.assertTrue(BookingPage.ElementDisplay(minipackage));
+		Assert.assertTrue(ElementDisplay(minipackage));
 
 	}
 
@@ -733,7 +737,7 @@ public class BookingPage extends BasePage
 
 		}
 		WaitElementDisplay(majorpackage);
-		Assert.assertTrue(BookingPage.ElementDisplay(majorpackage));
+		Assert.assertTrue(ElementDisplay(majorpackage));
 
 	}
 	public void ClickMajorPlanOfCleanOut() 
@@ -752,7 +756,7 @@ public class BookingPage extends BasePage
 
 		}
 		WaitElementDisplay(cleanoutpackage);
-		Assert.assertTrue(BookingPage.ElementDisplay(cleanoutpackage));
+		Assert.assertTrue(ElementDisplay(cleanoutpackage));
 
 	}
 
@@ -771,7 +775,7 @@ public class BookingPage extends BasePage
 
 		}
 		WaitElementDisplay(minibest);
-		Assert.assertTrue(BookingPage.ElementDisplay(minibest));
+		Assert.assertTrue(ElementDisplay(minibest));
 
 	}
 
@@ -790,7 +794,7 @@ public class BookingPage extends BasePage
 
 		}
 		WaitElementDisplay(majorbest);
-		Assert.assertTrue(BookingPage.ElementDisplay(majorbest));
+		Assert.assertTrue(ElementDisplay(majorbest));
 
 	}
 	public void ClickCleanOutGoal() 
@@ -808,7 +812,7 @@ public class BookingPage extends BasePage
 
 		}
 		WaitElementDisplay(majorbest);
-		Assert.assertTrue(BookingPage.ElementDisplay(majorbest));
+		Assert.assertTrue(ElementDisplay(majorbest));
 
 	}
 	public void ClickBookStylisButton() 
@@ -882,7 +886,7 @@ public class BookingPage extends BasePage
 		try
 
 		{
-			
+
 			WaitElementDisplay(SearchBar);
 			ExplicityWaitIsClickable(SearchBar);
 			filltext(TextBar, name+" "+lastname);			
@@ -902,6 +906,38 @@ public class BookingPage extends BasePage
 
 
 			System.err.println("\nError : SearchStylist failed\n");
+
+		}
+
+	}
+	public void MySessionDisplay() 
+	{
+		try 
+		{
+			for(int i = 0; i < 15; i++) 
+			{
+				if(ElementDisplay(channel))
+				{
+					break;
+				}
+				
+				else if(!ElementDisplay(channel)) 
+				{
+					ExplicityWaitIsClickable(stylist);
+					ExplicityWaitIsClickable(mySessions);
+					Sleep(300);
+					RefreshPage();
+					
+				}
+					
+			}
+		}
+
+		catch(Exception e){
+
+
+			System.err.println("\nError : MySessionDisplay failed\n");
+			throw e;
 
 		}
 
@@ -1267,7 +1303,7 @@ public class BookingPage extends BasePage
 			switchWindow();
 			ExplicityWaitIsClickable(confirm);
 			ExplicityWaitIsDisplayed(complatebooking);
-			
+
 
 
 		}catch(Exception e){
@@ -1276,7 +1312,7 @@ public class BookingPage extends BasePage
 			System.out.println("\nError : FillCardCVC failed\n");
 
 		}
-		
+
 
 	}
 	public void ClickTakeYourStyleQuiz() 

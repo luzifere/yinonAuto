@@ -23,7 +23,6 @@
     <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
     <fullyQualifiedTypeName name="io.restassured.specification.RequestSpecification"/>
     <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
-    <fullyQualifiedTypeName name="io.appium.java_client.AppiumDriver"/>
     <fullyQualifiedTypeName name="Tests.BaseTest"/>
     <fullyQualifiedTypeName name="io.appium.java_client.android.AndroidKeyCode"/>
     <fullyQualifiedTypeName name="java.util.List"/>
@@ -32,4 +31,10 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.By.ByXPath"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="io.appium.java_client.android.AndroidElement"/>
+    <fullyQualifiedTypeName name="io.appium.java_client.AppiumDriver"/>
+    <fullyQualifiedTypeName name="io.appium.java_client.MobileElement"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Formatter"/>
+    <fullyQualifiedTypeName name="io.appium.java_client.pagefactory.bys.builder.ByAll"/>
 </qualifiedTypeNameHistroy>
