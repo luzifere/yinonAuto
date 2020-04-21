@@ -22,7 +22,7 @@ public class BestMatchFemaleTest extends BaseTest1
 {
 
 	@Test(priority =3,groups={"sanity-group"})
-	public void BestMatchFemaleTest()
+	public void BestMatchFemaleTestWithOutBack()
 	{
 		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
 		Random num = new Random();
@@ -45,7 +45,6 @@ public class BestMatchFemaleTest extends BaseTest1
 		best.SelectHELLONO("10");
 		best.Selectbrands("brand_Adidas");
 		best.ClickMeetMyMatch();
-
 		best.StylistPageDisplayed();
 		best.Sleep(300);
 		best.close();

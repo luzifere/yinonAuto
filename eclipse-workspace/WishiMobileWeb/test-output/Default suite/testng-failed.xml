@@ -3,14 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.BookingsingleTests">
+      <class name="Tests.SignUpByFacbookTestsSucses">
         <methods>
-          <include name="DoSignUp"/>
-          <include name="SingleMini"/>
-          <include name="SingleMajor"/>
+          <include name="SignUpWithFacbook"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- Tests.BookingsingleTests -->
+      </class> <!-- Tests.SignUpByFacbookTestsSucses -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

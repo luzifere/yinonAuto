@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
+import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -208,6 +209,11 @@ public class BasePage
 			System.out.println("winHandle: " +winHandle);
 		}
 	}
+	public void switchWindowMobile(int num) 
+	{
+		driver.switchTo().frame(num);
+
+	}
 	public void returnToWindowdefault() {
 		//driver.close();
 		driver.switchTo().defaultContent();
@@ -295,6 +301,38 @@ public class BasePage
 		WebElement fr = driver.findElement(By.xpath("//iframe[@title='Secure payment input frame']"));
 		driver.switchTo().frame(fr);
 
+	}
+	public void Switch_to_facebook () 
+	{
+		WebElement fb = driver.findElement(By.xpath("//form"));
+		driver.switchTo().frame(fb);
+
+	}
+	public void ContextToWebView() 
+	{
+
+		while (true) 
+		{
+			try
+
+			{Set<String> contexName1 = driver.getContextHandles();
+			for(String webview : contexName1) 
+			{
+				System.out.println(webview);
+				if (webview.contains("WEBVIEW"))
+				{
+					System.out.println(webview);
+					driver.context(webview); 
+					return;
+				}
+			}
+			Sleep(300);
+			}
+			catch (Exception e) 
+			{
+				ContextToWebView();
+			}
+		}
 	}
 	public boolean ElementDisplay(WebElement elementString) 
 	{	

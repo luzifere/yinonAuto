@@ -670,7 +670,7 @@ public class BestMatchPage extends BasePage
 		try
 		 
 		 {
-			scrollDown();
+			//scrollDown();
 			Sleep(200);
 			String GoalElemet = ("(//label[text()[contains(.,'LOVE IT!')]])[text1]");
 			GoalElemet = GoalElemet.replace("text1", inspiration);
@@ -694,7 +694,7 @@ public class BestMatchPage extends BasePage
 		try
 		 
 		 {
-			scrollDown();
+			//scrollDown();
 			Sleep(200);
 			String GoalElemet = ("(//label[text()[contains(.,'HELL NO!')]])[text1]");
 			GoalElemet = GoalElemet.replace("text1", inspiration);
@@ -718,7 +718,7 @@ public class BestMatchPage extends BasePage
 		try
 		 
 		 {
-			scrollDown();
+			//scrollDown();
 			Sleep(200);
 			String GoalElemet = ("(//label[text()[contains(.,'SOMETIMES')]])[text1]");
 			GoalElemet = GoalElemet.replace("text1", inspiration);

@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 
 
+
 @Listeners(Tests.Listener.class)
 public class SignUpByFacbookTestsSucses extends BaseTest1
 {
@@ -14,18 +15,20 @@ public class SignUpByFacbookTestsSucses extends BaseTest1
 	public void SignUpWithFacbook()
 	{
 		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
+		signup.waitForPageLoaded();
+		//signup.Sleep(1000);
+		String winhandleBefore = driver.getWindowHandle();
 		signup.ClickOnSignUpEmail();
-
-		signup.ConnectWithFB();
+		signup.ConnectWithFB();	
 		signup.Sleep(200);
-		signup.switchWindow();	
-		signup.FillusernameOfFacbook("yinonwishifb@gmail.com");
+		signup.switchWindow();
+		signup.FillusernameOfFacbook("yinonwishifb1@gmail.com");
 		signup.FillPasswordOfFacbook("Wishime1");
-		signup.scrollDown();
 		signup.ClickLoginButtonOfFacbook();
 		signup.Sleep(300);
-		signup.switchWindow();
-		Assert.assertTrue(signup.ElementDisplay("//div[text()[contains(.,'Your Stylist Match')]]"));
+		driver.switchTo().window(winhandleBefore);
+		signup.LetsGetStylingBuutton();
+		signup.close();
 	}
 
 }

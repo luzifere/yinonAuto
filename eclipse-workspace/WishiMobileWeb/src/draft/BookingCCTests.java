@@ -1,4 +1,4 @@
-package Tests;
+package draft;
 
 import java.util.Random;
 
@@ -11,6 +11,8 @@ import org.testng.annotations.Test;
 import PageObejecs.BestMatchPage;
 import PageObejecs.LoginPages;
 import PageObejecs.LoginPages2;
+import Tests.BaseTest1;
+import Tests.Listener;
 
 @Listeners(Tests.Listener.class)
 public class BookingCCTests extends BaseTest1

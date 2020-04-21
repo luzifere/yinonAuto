@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Test Default test]]>
@@ -11,126 +11,56 @@
       <![CDATA[Completed executing following method : BaseTest1.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : BookingsingleCouponTests.DoSignUp]]>
+      <![CDATA[About to begin executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : BookingsingleCouponTests.DoSignUp]]>
+      <![CDATA[Completed executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite DoSignUp]]>
+      <![CDATA[About to Success executing Suite SignUpWithFacbook]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.BookingsingleCouponTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookingsingleCouponTests.CouponMini]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookingsingleCouponTests.CouponMini]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite CouponMini]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.BookingsingleCouponTests]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : BookingsingleCouponTests.CouponMajor]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : BookingsingleCouponTests.CouponMajor]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite CouponMajor]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.BookingsingleCouponTests]]>
+      <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsSucses]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="559098" started-at="2020-04-20T13:50:56Z" finished-at="2020-04-20T14:00:15Z">
+  <suite name="Default suite" duration-ms="50745" started-at="2020-04-21T13:51:14Z" finished-at="2020-04-21T13:52:05Z">
     <groups>
       <group name="sanity-group">
-        <method signature="BookingsingleCouponTests.CouponMajor()[pri:3, instance:Tests.BookingsingleCouponTests@4d3167f4]" name="CouponMajor" class="Tests.BookingsingleCouponTests"/>
-        <method signature="BookingsingleCouponTests.CouponMini()[pri:2, instance:Tests.BookingsingleCouponTests@4d3167f4]" name="CouponMini" class="Tests.BookingsingleCouponTests"/>
-        <method signature="BookingsingleCouponTests.DoSignUp()[pri:1, instance:Tests.BookingsingleCouponTests@4d3167f4]" name="DoSignUp" class="Tests.BookingsingleCouponTests"/>
+        <method signature="SignUpByFacbookTestsSucses.SignUpWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTestsSucses@3aeaafa6]" name="SignUpWithFacbook" class="Tests.SignUpByFacbookTestsSucses"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="559098" started-at="2020-04-20T13:50:56Z" finished-at="2020-04-20T14:00:15Z">
-      <class name="Tests.BookingsingleCouponTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.BookingsingleCouponTests@4d3167f4]" name="setup" is-config="true" duration-ms="20666" started-at="2020-04-20T13:50:56Z" finished-at="2020-04-20T13:51:16Z">
+    <test name="Default test" duration-ms="50745" started-at="2020-04-21T13:51:14Z" finished-at="2020-04-21T13:52:05Z">
+      <class name="Tests.SignUpByFacbookTestsSucses">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTestsSucses@3aeaafa6]" name="setup" is-config="true" duration-ms="27726" started-at="2020-04-21T13:51:14Z" finished-at="2020-04-21T13:51:42Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest1.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:Tests.BookingsingleCouponTests@4d3167f4]" name="DoSignUp" duration-ms="70906" started-at="2020-04-20T13:51:16Z" finished-at="2020-04-20T13:52:27Z">
+        <test-method status="PASS" signature="SignUpWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTestsSucses@3aeaafa6]" name="SignUpWithFacbook" duration-ms="23003" started-at="2020-04-21T13:51:42Z" finished-at="2020-04-21T13:52:05Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : BookingsingleCouponTests.DoSignUp]]>
+              <![CDATA[About to begin executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : BookingsingleCouponTests.DoSignUp]]>
+              <![CDATA[Completed executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite DoSignUp]]>
+              <![CDATA[About to Success executing Suite SignUpWithFacbook]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.BookingsingleCouponTests]]>
+              <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsSucses]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="CouponMini()[pri:2, instance:Tests.BookingsingleCouponTests@4d3167f4]" name="CouponMini" duration-ms="283982" started-at="2020-04-20T13:52:27Z" finished-at="2020-04-20T13:57:11Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BookingsingleCouponTests.CouponMini]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BookingsingleCouponTests.CouponMini]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite CouponMini]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.BookingsingleCouponTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CouponMini -->
-        <test-method status="PASS" signature="CouponMajor()[pri:3, instance:Tests.BookingsingleCouponTests@4d3167f4]" name="CouponMajor" duration-ms="183519" started-at="2020-04-20T13:57:11Z" finished-at="2020-04-20T14:00:15Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : BookingsingleCouponTests.CouponMajor]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : BookingsingleCouponTests.CouponMajor]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite CouponMajor]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in Tests.BookingsingleCouponTests]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CouponMajor -->
-      </class> <!-- Tests.BookingsingleCouponTests -->
+        </test-method> <!-- SignUpWithFacbook -->
+      </class> <!-- Tests.SignUpByFacbookTestsSucses -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
