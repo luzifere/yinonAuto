@@ -1,6 +1,8 @@
 package Tests;
 
 
+import java.io.IOException;
+import java.net.MalformedURLException;
 import java.util.List;
 import java.util.Random;
 
@@ -12,32 +14,66 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 
+
 @Listeners(Tests.Listener.class)
 
 public class StartHereFemaleTests extends BaseTest1 
 {
+	int number;
+
+	StartHereFemaleTests() {
+	}
 	@Test(priority =6,groups={"sanity-group"})
-	public void StartHereFemaleTests()
+	public void StartHereFemaleTests() throws IOException
+	{
+		setup();
+		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
+		Random num = new Random();
+		number = num.nextInt(70000000) + 356000000;
+		PageObejecs.BestMatchPage best = new PageObejecs.BestMatchPage(driver);
+		best.ClickStartHere();
+		best.ClickontinueButton();
+		best.ClickFamle();
+		best.ClickPetit();
+		best.ClickNextbutton();
+		best.SelectLoveIt("1");
+		best.SelectSOMETIMES("2");
+		best.SelectLoveIt("3");
+		best.SelectSOMETIMES("4");
+		best.SelectSOMETIMES("5");
+		best.SelectLoveIt("6");
+		best.ClickSkipbutton2("2");
+		best.SelectHELLONO("8");
+		best.SelectLoveIt("9");
+		best.SelectHELLONO("10");
+		best.Selectbrands("brand_Adidas");
+		best.ClickMeetMyMatch();
+		signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
+		best.StylistPageDisplayed();
+		best.Sleep(300);
+		best.close();
+
+	}
+	@Test(priority =4,groups={"sanity-group"})
+	public void StartHereFemaleBackTests()
 	{
 		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
 		Random num = new Random();
-		int number = 3560000;
-		for (int counter = 5800000; counter<=10000000;counter++)
-			number = num.nextInt(700000);
+		number = num.nextInt(70000000) + 356000000;
 		PageObejecs.BestMatchPage best = new PageObejecs.BestMatchPage(driver);
 		best.ClickStartHere();
 		best.ClickontinueButton();
 		best.ClickFamle();
 		best.ClickBack();
 		best.ClickFamle();
-		best.SelectBodyType("2");
+		best.ClickPetit();
 		best.ClickNextbutton();
 		best.ClickBack();
-		best.SelectBodyType("3");
+		best.ClickPlusSize();
 		best.ClickNextbutton();
 		best.SelectLoveIt("1");
 		best.ClickBack();
-		best.SelectSOMETIMES("1");
+		best.SelectHELLONO("1");
 		best.SelectSOMETIMES("2");
 		best.ClickBack();
 		best.SelectHELLONO("2");
@@ -53,7 +89,7 @@ public class StartHereFemaleTests extends BaseTest1
 		best.SelectLoveIt("6");
 		best.ClickBack();
 		best.SelectHELLONO("6");
-		best.ClickSkipbutton2("1");
+		best.ClickSkipbutton2("2");
 		best.ClickBack();
 		best.SelectHELLONO("7");
 		best.SelectHELLONO("8");
@@ -64,22 +100,14 @@ public class StartHereFemaleTests extends BaseTest1
 		best.SelectHELLONO("9");
 		best.SelectHELLONO("10");
 		best.ClickBack();
-		best.SelectHELLONO("10");
-		best.Selectbrands("2");
-		/*
-		best.ClickNextbutton();
-		best.WaitElementDisplay(By.xpath("//div//h1[text()[contains(.,'So, to reacp ')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Female')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'60% - Classic, 40% - Edgy')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Petite, Plus Size')]]"));
-		Assert.assertTrue(best.ElementDisplay("//span[text()[contains(.,'Alexander Wang')]]"));
-		*/
+		best.SelectSOMETIMES("10");
+		best.Selectbrands("brand_Adidas");
 		best.ClickMeetMyMatch();
-		signup.doSignUpSH("yinonwishitest@wishitest.com" + number, "inon av", "ab1565");
-		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));
-		Assert.assertTrue(best.ElementDisplay("//div[text()[contains(.,'Your Stylist Match!')]]"));
+		signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
+		best.StylistPageDisplayed();
 		best.Sleep(300);
-		driver.close();
+		best.close();
 
 	}
+	
 }

@@ -3,12 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.SignUpByFacbookTestsSucses">
+      <class name="Tests.SignUpTest">
         <methods>
-          <include name="SignUpWithFacbook"/>
+          <include name="FillNameWithWrongcarecters"/>
+          <include name="DoSignUp"/>
+          <include name="FillEmailWitoutShtudel"/>
+          <include name="FillEmailWithoutDotCom"/>
+          <include name="FillPsswordWithLessthan6Characters"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- Tests.SignUpByFacbookTestsSucses -->
+      </class> <!-- Tests.SignUpTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

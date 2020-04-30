@@ -451,7 +451,7 @@ public class BestMatchPage extends BasePage
 	WebElement Year;
 	@FindBy(xpath="//div//button[@class='btn-start']")
 	WebElement ContinueButton;
-	@FindBy(xpath="(//button[@id='styling-button'])[1]")	
+	@FindBy(xpath="(//button[@class='btn btn-dark'])[2]")	
 	//@FindBy(xpath="//div[text()[contains(.,'GET STARTED >')]]")
 	WebElement StartHere;
 	@FindBy(xpath="//div[@class='get-your-style ng-binding']")
@@ -670,7 +670,7 @@ public class BestMatchPage extends BasePage
 		try
 		 
 		 {
-			//scrollDown();
+			scrollDown();
 			Sleep(200);
 			String GoalElemet = ("(//label[text()[contains(.,'LOVE IT!')]])[text1]");
 			GoalElemet = GoalElemet.replace("text1", inspiration);
@@ -694,7 +694,7 @@ public class BestMatchPage extends BasePage
 		try
 		 
 		 {
-			//scrollDown();
+			scrollDown();
 			Sleep(200);
 			String GoalElemet = ("(//label[text()[contains(.,'HELL NO!')]])[text1]");
 			GoalElemet = GoalElemet.replace("text1", inspiration);
@@ -718,7 +718,7 @@ public class BestMatchPage extends BasePage
 		try
 		 
 		 {
-			//scrollDown();
+			scrollDown();
 			Sleep(200);
 			String GoalElemet = ("(//label[text()[contains(.,'SOMETIMES')]])[text1]");
 			GoalElemet = GoalElemet.replace("text1", inspiration);

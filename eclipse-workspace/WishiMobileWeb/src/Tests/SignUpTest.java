@@ -16,21 +16,14 @@ import PageObejecs.SignUpPage;
 @Listeners(Tests.Listener.class)
 public class SignUpTest extends BaseTest1
 {
-	@Test(priority = 1,groups={"sanity-group"})
-	public void SignUpClickable()
-	{
-		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
-		signup.ClickOnSignUpEmail();
-		signup.WaitElementDisplay(By.xpath("//div//div[@class='closeXLeft ng-scope']"));
-		Assert.assertTrue(signup.ElementDisplay("//div//div[@class='closeXLeft ng-scope']"));
-	}
-	
 	@Test(priority = 2,groups={"sanity-group"})
 	public void FillEmailWitoutShtudel()
 	{
-		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
-		signup.doSignUp("yinon542244243wishi.com", "inon bb av", "ab1565");
-		Assert.assertTrue(SignUpPage.ElementDisplay("//div[contains(text(), 'Email is invalid')]"));
+		SignUpPage signup = new SignUpPage(driver);
+		signup.doSignUp("yinon542244243.wishi.com", "inon bb av", "ab1565");
+		signup.PleasEnterValidEmail();
+		signup.ClickClose();
+		
 		
 	} 
 	
@@ -38,9 +31,11 @@ public class SignUpTest extends BaseTest1
 	public void FillEmailWithoutDotCom()
 	{
 		
-		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
+		SignUpPage signup = new SignUpPage(driver);
 		signup.doSignUp("yinon@542244243wishi", "inon bb av", "ab1565");
-		Assert.assertTrue(SignUpPage.ElementDisplay("//div[contains(text(), 'Email is invalid')]"));
+		signup.PleasEnterValidEmail1();
+		signup.ClickClose();
+		
 		
 	}
 	
@@ -48,33 +43,33 @@ public class SignUpTest extends BaseTest1
 	public void FillPsswordWithLessthan6Characters()
 	{
 		
-		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
+		SignUpPage signup = new SignUpPage(driver);
 		signup.doSignUp("yinon@542244243.wishi", "inon bb av", "ab");
-		Assert.assertTrue(SignUpPage.ElementDisplay("//div[contains(text(), 'Password must have at least 6 characters')]"));
+		signup.Must6Characters();
+		signup.ClickClose();
 		
 	} 
 	@Test(priority = 5,groups={"sanity-group"})
 	public void FillNameWithWrongcarecters()
 	{
 		
-		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
-		signup.doSignUp("wishitesttt@wishi.com", "!!!!! @@@ 111111", "ab1565");
-		Assert.assertTrue(SignUpPage.ElementDisplay("//div[contains(text(), 'You are using invalid characters')]"));
+		SignUpPage signup = new SignUpPage(driver);
+		signup.doSignUp("yinon@542244243.wishi", "@@@@@@ ######", "ab1565");
+		signup.invalidCharacters();
+		signup.ClickClose();
 		
-	}
-	
-	
+	} 
 	
 	@Test(priority = 6,groups={"sanity-group"})
 	public void DoSignUp()
 	{
-		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
+		SignUpPage signup = new SignUpPage(driver);
 		Random num = new Random();
-		int number = 356;
-		for (int counter = 58; counter<=100000;counter++)
-			number = num.nextInt(70);
-		signup.doSignUp("wishitesttt@wishi.com" + number, "inon bb av", "ab1565");
-		//Assert.assertTrue(SignUpPage.isatpage("//div[contains(text(), 'Male')]"));
-		driver.close();
+		int number = 3560000;
+		for (int counter = 5800000; counter<=10000000;counter++)
+			number = num.nextInt(700000);
+		signup.doSignUp("wishitestyinon@wishitest.com" + number, "inon bb av", "ab1565");
+		signup.LetsGetStylingBuutton();
+		signup.close();
 	}
 }

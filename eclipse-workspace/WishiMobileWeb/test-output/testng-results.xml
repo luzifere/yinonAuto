@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Test Default test]]>
@@ -11,56 +11,196 @@
       <![CDATA[Completed executing following method : BaseTest1.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook]]>
+      <![CDATA[About to begin executing following method : SignUpTest.FillEmailWitoutShtudel]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook]]>
+      <![CDATA[Completed executing following method : SignUpTest.FillEmailWitoutShtudel]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite SignUpWithFacbook]]>
+      <![CDATA[About to Success executing Suite FillEmailWitoutShtudel]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsSucses]]>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpTest.FillEmailWithoutDotCom]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpTest.FillEmailWithoutDotCom]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillEmailWithoutDotCom]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillPsswordWithLessthan6Characters]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpTest.FillNameWithWrongcarecters]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpTest.FillNameWithWrongcarecters]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillNameWithWrongcarecters]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : SignUpTest.DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : SignUpTest.DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite DoSignUp]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.SignUpTest]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50745" started-at="2020-04-21T13:51:14Z" finished-at="2020-04-21T13:52:05Z">
+  <suite name="Default suite" duration-ms="97044" started-at="2020-04-30T12:52:53Z" finished-at="2020-04-30T12:54:30Z">
     <groups>
       <group name="sanity-group">
-        <method signature="SignUpByFacbookTestsSucses.SignUpWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTestsSucses@3aeaafa6]" name="SignUpWithFacbook" class="Tests.SignUpByFacbookTestsSucses"/>
+        <method signature="SignUpTest.DoSignUp()[pri:6, instance:Tests.SignUpTest@3aeaafa6]" name="DoSignUp" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.FillEmailWithoutDotCom()[pri:3, instance:Tests.SignUpTest@3aeaafa6]" name="FillEmailWithoutDotCom" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.FillEmailWitoutShtudel()[pri:2, instance:Tests.SignUpTest@3aeaafa6]" name="FillEmailWitoutShtudel" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.FillNameWithWrongcarecters()[pri:5, instance:Tests.SignUpTest@3aeaafa6]" name="FillNameWithWrongcarecters" class="Tests.SignUpTest"/>
+        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:4, instance:Tests.SignUpTest@3aeaafa6]" name="FillPsswordWithLessthan6Characters" class="Tests.SignUpTest"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="50745" started-at="2020-04-21T13:51:14Z" finished-at="2020-04-21T13:52:05Z">
-      <class name="Tests.SignUpByFacbookTestsSucses">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpByFacbookTestsSucses@3aeaafa6]" name="setup" is-config="true" duration-ms="27726" started-at="2020-04-21T13:51:14Z" finished-at="2020-04-21T13:51:42Z">
+    <test name="Default test" duration-ms="97044" started-at="2020-04-30T12:52:53Z" finished-at="2020-04-30T12:54:30Z">
+      <class name="Tests.SignUpTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpTest@3aeaafa6]" name="setup" is-config="true" duration-ms="19359" started-at="2020-04-30T12:52:53Z" finished-at="2020-04-30T12:53:13Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest1.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="SignUpWithFacbook()[pri:5, instance:Tests.SignUpByFacbookTestsSucses@3aeaafa6]" name="SignUpWithFacbook" duration-ms="23003" started-at="2020-04-21T13:51:42Z" finished-at="2020-04-21T13:52:05Z">
+        <test-method status="PASS" signature="FillEmailWitoutShtudel()[pri:2, instance:Tests.SignUpTest@3aeaafa6]" name="FillEmailWitoutShtudel" duration-ms="15765" started-at="2020-04-30T12:53:13Z" finished-at="2020-04-30T12:53:28Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook]]>
+              <![CDATA[About to begin executing following method : SignUpTest.FillEmailWitoutShtudel]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : SignUpByFacbookTestsSucses.SignUpWithFacbook]]>
+              <![CDATA[Completed executing following method : SignUpTest.FillEmailWitoutShtudel]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite SignUpWithFacbook]]>
+              <![CDATA[About to Success executing Suite FillEmailWitoutShtudel]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.SignUpByFacbookTestsSucses]]>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- SignUpWithFacbook -->
-      </class> <!-- Tests.SignUpByFacbookTestsSucses -->
+        </test-method> <!-- FillEmailWitoutShtudel -->
+        <test-method status="PASS" signature="FillEmailWithoutDotCom()[pri:3, instance:Tests.SignUpTest@3aeaafa6]" name="FillEmailWithoutDotCom" duration-ms="15458" started-at="2020-04-30T12:53:28Z" finished-at="2020-04-30T12:53:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpTest.FillEmailWithoutDotCom]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpTest.FillEmailWithoutDotCom]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillEmailWithoutDotCom]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FillEmailWithoutDotCom -->
+        <test-method status="PASS" signature="FillPsswordWithLessthan6Characters()[pri:4, instance:Tests.SignUpTest@3aeaafa6]" name="FillPsswordWithLessthan6Characters" duration-ms="14037" started-at="2020-04-30T12:53:44Z" finished-at="2020-04-30T12:53:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillPsswordWithLessthan6Characters]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FillPsswordWithLessthan6Characters -->
+        <test-method status="PASS" signature="FillNameWithWrongcarecters()[pri:5, instance:Tests.SignUpTest@3aeaafa6]" name="FillNameWithWrongcarecters" duration-ms="14451" started-at="2020-04-30T12:53:58Z" finished-at="2020-04-30T12:54:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpTest.FillNameWithWrongcarecters]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpTest.FillNameWithWrongcarecters]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillNameWithWrongcarecters]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FillNameWithWrongcarecters -->
+        <test-method status="PASS" signature="DoSignUp()[pri:6, instance:Tests.SignUpTest@3aeaafa6]" name="DoSignUp" duration-ms="17945" started-at="2020-04-30T12:54:12Z" finished-at="2020-04-30T12:54:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : SignUpTest.DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : SignUpTest.DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite DoSignUp]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DoSignUp -->
+      </class> <!-- Tests.SignUpTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

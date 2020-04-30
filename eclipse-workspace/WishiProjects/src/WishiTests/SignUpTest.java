@@ -20,7 +20,7 @@ public class SignUpTest extends BaseTest
 	{
 		SignUpPage signup = new SignUpPage(driver);
 		signup.doSignUp("yinon542244243.wishi.com", "inon bb av", "ab1565");
-		signup.EmaileRequired();
+		signup.PleasEnterValidEmail();
 		
 		
 	} 
@@ -31,7 +31,7 @@ public class SignUpTest extends BaseTest
 		
 		SignUpPage signup = new SignUpPage(driver);
 		signup.doSignUp("yinon@542244243wishi", "inon bb av", "ab1565");
-		signup.PleasEnterValidEmail();
+		signup.PleasEnterValidEmail1();
 		
 		
 	}

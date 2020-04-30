@@ -84,8 +84,10 @@ public class SignUpPage extends BasePage
 	WebElement must6characters;
 	@FindBy(xpath="//div[contains(text(), 'You are using invalid characters')]")
 	WebElement invalidcharacters;
-	@FindBy(xpath="//div[contains(text(), 'please enter a valid email address')]")
+	@FindBy(xpath="//div[contains(text(), 'Please enter a valid email address')]")
 	WebElement PleasEnterValidEmail;
+	@FindBy(xpath="//div[contains(text(), 'please enter a valid email address')]")
+	WebElement PleasEnterValidEmail1;
 	@FindBy(xpath="//button[@value='Log In']")
 	WebElement LoginButtonOfFacbook;
 	@FindBy(xpath="//button[@class='d-none d-sm-flex btn btn-warning']")
@@ -478,6 +480,23 @@ public class SignUpPage extends BasePage
 		}
 	}
 
+	public void PleasEnterValidEmail1() 
+	{
+		{
+			try
+
+			{
+				Assert.assertTrue( ElementDisplay(PleasEnterValidEmail1));
+
+
+			}
+			catch(Exception e)
+			{	
+				System.err.println("\nError : invalidEmail failed\n");	
+				throw e;
+			}
+		}
+	}
 	public void Must6Characters() 
 	{
 		{
