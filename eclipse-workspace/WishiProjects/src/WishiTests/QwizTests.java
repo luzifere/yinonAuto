@@ -22,36 +22,37 @@ import PageObject.SignUpPage;
 @Listeners(WishiTests.Listener.class)
 public class QwizTests extends BaseTest 
 {
+	int number;
+
+	QwizTests() {
+		Random num = new Random();
+		number = num.nextInt(70000000) + 356000000;
+	}
 
 	@Test(priority = 1,groups={"sanity-group"})
 	public void DoSignUp()
 	{
 		SignUpPage signup = new SignUpPage(driver);
-		signup.waitForPageLoaded();
 		Random num = new Random();
-		int number = 3500600;
-		for (int counter = 5008000; counter<=10000000;counter++)
-			number = num.nextInt(700000);
-		signup.ClickOnSignUpEmail();
-		signup.doSignUp("wishitesttr@wishi.com" + number, "inon bb av", "ab1565");
+		int number = num.nextInt(70000000) + 356000000;
+		signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
 		BestMatchPage best = new BestMatchPage(driver);
 		best.ClickontinueButton();
 		best.ClickFamle();
-		best.SelectBodyType("0");
+		best.ClickPetit();
 		best.ClickNextbutton();
-		best.SelectHELLONO("1");
-		best.SelectHELLONO("2");
-		best.SelectSOMETIMES("3");
-		best.SelectLoveIt("4");
-		best.SelectHELLONO("5");
-		best.SelectHELLONO("6");
-		best.SelectHELLONO("7");
+		best.SelectLoveIt("1");
+		best.SelectSOMETIMES("2");
+		best.SelectLoveIt("3");
+		best.SelectSOMETIMES("4");
+		best.SelectSOMETIMES("5");
+		best.SelectLoveIt("6");
+		best.ClickSkipbutton2("1");
 		best.SelectHELLONO("8");
-		best.SelectHELLONO("9");
+		best.SelectLoveIt("9");
 		best.SelectHELLONO("10");
-		best.Selectbrands("2");
+		best.Selectbrands("brand_Adidas");
 		best.ClickMeetMyMatch();
-		best.WaitElementDisplay(By.xpath("//div[text()[contains(.,'Your Stylist Match!')]]"));		//best.ClickMoreStylistsButton();
 	}
 	@Test(priority = 2,groups={"sanity-group"})
 	public void CheckOutSession ()
@@ -59,12 +60,17 @@ public class QwizTests extends BaseTest
 		BookingPage booking = new BookingPage(driver);
 		String stylistName = this.configFileReader.getStylistName();
 		booking.SearchStylist(stylistName);
-		booking.SelectStylist();
-		booking.SelectMini();
+		booking.BookStylistProfile();
+		booking.ClickMIniGoal();
+		booking.ClickMIniPlan();
 		booking.ClickOneTime();
-		String copun = this.configFileReader.getcopun();
-		booking.UseCodCoopon(copun);
-		booking.ClickFinishCheckout();
+		booking.Switch_to_strype();
+		booking.FillCardNumber(this.configFileReader.getCardNumber());		
+		booking.FillCardDate( this.configFileReader.getCardDate());		
+		booking.FillCardCVC(this.configFileReader.getCardCVC());
+		booking.switchWindow();
+		booking.QuizPresent();
+		
 	}
 	//@Test(priority = 3,groups={"sanity-group"})
 	public void SelectEvent ()

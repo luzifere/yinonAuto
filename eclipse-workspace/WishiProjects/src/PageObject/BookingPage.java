@@ -132,7 +132,7 @@ public class BookingPage extends BasePage
 	WebElement MajorPlan;
 	@FindBy(xpath="(//button[@type='button'])[1]")
 	WebElement MajorPlanOfCleanOut;
-	@FindBy(xpath="//p[text()[contains(.,'You successfully booked')]]")
+	@FindBy(xpath="//button[@id='LetsGoQuiz']")
 	WebElement quizheader;
 	@FindBy(xpath="//span[@class='d-none d-sm-block']")
 	WebElement bookstylistprofile;
@@ -154,10 +154,7 @@ public class BookingPage extends BasePage
 	@FindBy(xpath="//div[text()[contains(.,'Closet clean out package')]]")
 	WebElement cleanoutpackage;
 	
-
-
-
-
+	
 	public void ClickPaymentButton() 
 	{
 		try
@@ -169,6 +166,21 @@ public class BookingPage extends BasePage
 
 
 			System.err.println("\nError : ClickPaymentButton failed\n");
+			throw e;
+
+		}
+
+	}public void ClickLetsGoQuiz() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(quizheader);
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : ClickLetsGoQuiz failed\n");
 			throw e;
 
 		}

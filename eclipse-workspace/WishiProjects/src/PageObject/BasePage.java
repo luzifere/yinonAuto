@@ -21,8 +21,10 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+
 
 public class BasePage 
 {
@@ -436,6 +438,10 @@ public class BasePage
 		driver.switchTo().frame(fr);//iframe[@name='__privateStripeFrame4']
 
 	}
-
+public void SelectDropDwon(WebElement value,String text)
+{
+	Select dropdown = new Select(value);
+	dropdown.selectByVisibleText(text);
+}
 
 }

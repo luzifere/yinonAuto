@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 public class QwizPage extends BasePage 
 {
@@ -45,6 +46,632 @@ public class QwizPage extends BasePage
 	WebElement input;
 	@FindBy(xpath="(//button[@class='chat-link-btn'])[2]")
 	WebElement heart;
+	
+	@FindBy(xpath="//p[text()[contains(.,'How did you hear about us?')]]")
+	WebElement HowDidYouHeartTitle;
+	@FindBy(xpath="//p[text()[contains(.,'When’s your birthday')]]")
+	WebElement birthdaytitle;
+	@FindBy(xpath="//p[text()[contains(.,'Nice! Which Instagram account?')]]")
+	WebElement instegramtitle;
+	@FindBy(xpath="//p[text()[contains(.,'Do you have any specific need?')]]")
+	WebElement specific_needtitle;
+	@FindBy(xpath="//p[text()[contains(.,'How would you describe your work environment?')]]")
+	WebElement describe_your_worktitle;
+	@FindBy(xpath="//p[text()[contains(.,'Which clothing categories would you like to receive?')]]")
+	WebElement clothing_categoriestitle;
+	@FindBy(xpath="//p[text()[contains(.,'What colors and patterns do you want your stylist to use?')]]")
+	WebElement colorstitle;
+	@FindBy(xpath="//p[text()[contains(.,'What’s your height?')]]")
+	WebElement heighttitle;
+	@FindBy(xpath="//p[text()[contains(.,'And your size')]]")
+	WebElement sizetitle;
+	@FindBy(xpath="//p[text()[contains(.,'So if you are luxury or luxury on a dime - we are here for you. How much do you typically spend on...')]]")
+	WebElement budgettitle;
+	@FindBy(xpath="//p[text()[contains(.,'What types of jeans do you prefer?')]]")
+	WebElement jeanstitle;
+	@FindBy(xpath="//p[text()[contains(.,'Are there any features you want to accentuate?')]]")
+	WebElement featurestitle;
+	@FindBy(xpath="//p[text()[contains(.,'How do you prefer clothes to fit your top half?')]]")
+	WebElement topfittitle;
+	@FindBy(xpath="//p[text()[contains(.,'How do you prefer clothes to fit your bottom half?')]]")
+	WebElement fitbottomtitle;
+	@FindBy(xpath="//p[text()[contains(.,'Anything you’d like to avoid?')]]")
+	WebElement Anythingavoidtitle;
+	@FindBy(xpath="//p[text()[contains(.,'What’s your heels preference?')]]")
+	WebElement preferencetitle;
+	@FindBy(xpath="//p[text()[contains(.,'What best describes your style?')]]")
+	WebElement best_describestitle;
+	@FindBy(xpath="//p[text()[contains(.,'How far out of your comfort zone are you willing to go?')]]")
+	WebElement comfortzonetitletitle;
+	@FindBy(xpath="//p[text()[contains(.,'What’s your Jewelry preference?')]]")
+	WebElement Jewelrytitletitle;
+	@FindBy(xpath="//p[text()[contains(.,'Is there anything that is of particular importance to you?')]]")
+	WebElement particularimportancetitle;
+	@FindBy(xpath="//p[text()[contains(.,'Who’s your style icon/s? (i.e celebrity, fashion blogger/influencer)')]]")
+	WebElement style_icontitle;
+	@FindBy(xpath="//p[text()[contains(.,'If you’d like your stylist to view your Instagram please enter your handle.')]]")
+	WebElement Instagramtitle;
+	@FindBy(xpath="//p[text()[contains(.,'If you’d like your stylist to put a face to a name, please upload a full body photo of yourself.')]]")
+	WebElement body_phototitle;
+	@FindBy(xpath="//p[text()[contains(.,'Please add your phone number to get text messages when your board is ready.')]]")
+	WebElement phone_numbertitle;
+	@FindBy(xpath="//p[text()[contains(.,'Where do you live?')]]")
+	WebElement Where_do_you_livetitle;
+	@FindBy(xpath="//p[text()[contains(.,'Last step! Please confirm this is your preferred email address.')]]")
+	WebElement confirm_emailtitle;
+	@FindBy(xpath="//button[text()[contains(.,'Instagram')]]")
+	WebElement instegrambutton;
+	@FindBy(xpath="//button[text()[contains(.,'@thewishi')]]")
+	WebElement thewishibutton;
+	@FindBy(xpath="//label[text()[contains(.,'Workwear wardrobe')]]")
+	WebElement Workwear_wardrobe;
+	@FindBy(xpath="//button[text()[contains(.,'Other')]]")
+	WebElement otherbutton;
+	@FindBy(xpath="//div[textarea]")
+	WebElement textarea;
+	@FindBy(xpath="//div[text()[contains(.,'Done')]]")
+	WebElement donebutton;
+	@FindBy(xpath="//div[@class='col-6']")
+	WebElement month;
+	@FindBy(xpath="//div[@class='col-6']")
+	WebElement day;
+	@FindBy(xpath="//div[@class='col-6']")
+	WebElement year;
+	
+	
+
+
+	public void SelectYear() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(year);
+			SelectDropDwon(year,"1964");
+		}catch(Exception e){
+
+
+			System.err.println("\nError : SelectYear failed\n");
+			throw e;
+
+		}
+
+	}
+	public void SelectDay() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(day);
+			SelectDropDwon(day,"12");
+		}catch(Exception e){
+
+
+			System.err.println("\nError : SelectDay failed\n");
+			throw e;
+
+		}
+
+	}
+	public void SelectMonth() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(month);
+			SelectDropDwon(month,"March");
+		}catch(Exception e){
+
+
+			System.err.println("\nError : SelectMonth failed\n");
+			throw e;
+
+		}
+
+	}
+	public void ClickDone() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(donebutton);
+		}catch(Exception e){
+
+
+			System.err.println("\nError : ClickDone failed\n");
+			throw e;
+
+		}
+
+	}
+	public void SelectWorkwear_wardrobe() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(Workwear_wardrobe);
+		}catch(Exception e){
+
+
+			System.err.println("\nError : SelectWorkwear_wardrobe failed\n");
+			throw e;
+
+		}
+
+	}
+	public void Filltextarea(String text) 
+	{
+		try
+
+		{
+			WaitElementDisplay(textarea);
+			filltext(textarea,text);
+		}catch(Exception e){
+
+
+			System.err.println("\nError : Filltextarea failed\n");
+			throw e;
+
+		}
+
+	}
+	public void Clickthewishibutton() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(thewishibutton);
+		}catch(Exception e){
+
+
+			System.err.println("\nError : Clickthewishibutton failed\n");
+			throw e;
+
+		}
+
+	}
+	public void Clickinstegrambutton() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(instegrambutton);
+		}catch(Exception e){
+
+
+			System.err.println("\nError : Clickinstegrambutton failed\n");
+			throw e;
+
+		}
+
+	}
+	public void confirm_emailtitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(confirm_emailtitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(confirm_emailtitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : confirm_emailtitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void Where_do_you_livetitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(Where_do_you_livetitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(Where_do_you_livetitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : Where_do_you_livetitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void phone_numbertitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(body_phototitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(body_phototitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : phone_numbertitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void body_phototitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(body_phototitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(body_phototitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : body_phototitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void InstagramtitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(Instagramtitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(Instagramtitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : InstagramtitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void style_icontitletitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(style_icontitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(style_icontitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : style_icontitletitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void particularimportancetitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(particularimportancetitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(particularimportancetitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : particularimportancetitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void JewelrytitletitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(Jewelrytitletitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(Jewelrytitletitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : JewelrytitletitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void best_describestitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(best_describestitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(best_describestitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : best_describestitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void preferencetitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(preferencetitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(preferencetitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : preferencetitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void AnythingavoidtitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(Anythingavoidtitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(Anythingavoidtitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : AnythingavoidtitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void fitbottomtitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(fitbottomtitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(fitbottomtitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : fitbottomtitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void topfittitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(topfittitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(topfittitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : topfittitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void featurestitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(featurestitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(featurestitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : featurestitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void jeanstitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(jeanstitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(jeanstitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : jeanstitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void budgettitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(budgettitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(budgettitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : budgettitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void sizetitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(sizetitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(sizetitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : sizetitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void heighttitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(heighttitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(heighttitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : heighttitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void colorstitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(colorstitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(colorstitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : colorstitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void clothing_categoriestitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(clothing_categoriestitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(clothing_categoriestitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : clothing_categoriestitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void describe_your_worktitleTitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(describe_your_worktitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(describe_your_worktitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : describe_your_worktitleTitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void SpecificNeedTitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(specific_needtitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(specific_needtitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : SpecificNeedTitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void HowDidYouHeartPresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(HowDidYouHeartTitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(HowDidYouHeartTitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : HowDidYouHeartPresent failed\n");
+			throw e;
+
+		}
+
+	}
+	
+	public void InstegramTitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(instegramtitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(instegramtitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : InstegramTitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+
+	public void BirthdayTitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(birthdaytitle);
+			Assert.assertTrue(BookingPage.ElementDisplay(birthdaytitle));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : HowDidYouHeartPresent failed\n");
+			throw e;
+
+		}
+
+	}
 
 
 
