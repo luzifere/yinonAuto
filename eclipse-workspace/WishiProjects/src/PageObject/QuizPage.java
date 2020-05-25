@@ -11,10 +11,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-public class QwizPage extends BasePage 
+public class QuizPage extends BasePage 
 {
 
-	public QwizPage(WebDriver driver) {
+	public QuizPage(WebDriver driver) {
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
@@ -111,15 +111,51 @@ public class QwizPage extends BasePage
 	WebElement textarea;
 	@FindBy(xpath="//div[text()[contains(.,'Done')]]")
 	WebElement donebutton;
-	@FindBy(xpath="//div[@class='col-6']")
+	@FindBy(xpath="//select[@id='birthday-month']")
 	WebElement month;
-	@FindBy(xpath="//div[@class='col-6']")
+	@FindBy(xpath="//select[@id='birthday-day']")
 	WebElement day;
-	@FindBy(xpath="//div[@class='col-6']")
+	@FindBy(xpath="//select[@id='birthday-year']")
 	WebElement year;
+	@FindBy(xpath="//label[@for='GOAL_WORKWEAR']")
+	WebElement GOAL_WORKWEAR;
+	@FindBy(xpath="//button[@id='LetsGoQuiz']")
+	WebElement quizheader;
+	@FindBy(xpath="//button[text()[contains(.,'Next')]]")
+	WebElement nextbutton;
 	
 	
 
+	public void SelectGOAL_WORKWEAR() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(GOAL_WORKWEAR);
+		}catch(Exception e){
+
+
+			System.err.println("\nError : SelectGOAL_WORKWEAR failed\n");
+			throw e;
+
+		}
+
+	}
+	public void ClickNext() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(nextbutton);
+		}catch(Exception e){
+
+
+			System.err.println("\nError : ClickNext failed\n");
+			throw e;
+
+		}
+
+	}
 
 	public void SelectYear() 
 	{
@@ -672,6 +708,22 @@ public class QwizPage extends BasePage
 		}
 
 	}
+	public void ClickLetsGoQuiz() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(quizheader);
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : ClickLetsGoQuiz failed\n");
+			throw e;
+
+		}
+
+	}
 
 
 
@@ -746,17 +798,12 @@ public class QwizPage extends BasePage
 		click(Budget);
 		budget.selectByIndex(num);
 	}
-	public void ClickNextOfevent() 
+	//public void ClickNextOfevent() 
 	{
 		click(NextOfEventButton);	
 		Sleep(100);
 	}
-	public void ClickNext() 
-	{
-		WaitElementDisplay(By.xpath("//button[@class='chat-link-btn onboarding-next-btn ']"));
-		click(NextButton);	
-		Sleep(100);
-	}
+	
 	public void ClickSkip() 
 	{
 		click(SkipButton);	
@@ -800,7 +847,7 @@ public class QwizPage extends BasePage
 	
 	public void FillNumberPhone(String phone)
 	{
-		WaitElementDisplay(By.xpath("//input[@type='tel']"));
+		//WaitElementDisplay(By.xpath("//input[@type='tel']"));
 		filltext(Phone,phone);
 	}
 	
@@ -885,7 +932,7 @@ public class QwizPage extends BasePage
 	}
 	public void FillText(String chat)
 	{
-		WaitElementDisplay(By.xpath("//input[@type='text']"));
+		//WaitElementDisplay(By.xpath("//input[@type='text']"));
 		filltext(input,chat);
 		driver.findElement(By.xpath("//input[@type='text']")).sendKeys(Keys.ENTER);
 	}

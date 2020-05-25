@@ -3,14 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WishiTests.LoginTest">
+      <class name="WishiTests.QwizTests">
         <methods>
-          <include name="FillPasswordWithOutToFillEmail"/>
-          <include name="ClickLoginwWithOutToFillAnyFields"/>
+          <include name="CheckOutSession"/>
+          <include name="SelectNpecificNneed"/>
           <include name="tearDown"/>
+          <include name="SelectColors"/>
+          <include name="DoSignUp"/>
+          <include name="SelectBirthday"/>
           <include name="setup"/>
+          <include name="HowDidYouHear"/>
         </methods>
-      </class> <!-- WishiTests.LoginTest -->
+      </class> <!-- WishiTests.QwizTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

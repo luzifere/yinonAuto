@@ -52,7 +52,7 @@ public class BasePage
 			return false;
 		}
 	}
-	*/
+	 */
 
 	public static boolean isnotatpage(String element)  
 	{
@@ -80,12 +80,12 @@ public class BasePage
 	public void WaitElementDisplay (WebElement firstName) 
 	{		
 		(new WebDriverWait(driver, 60))
-				.until(ExpectedConditions.visibilityOf(firstName));
+		.until(ExpectedConditions.visibilityOf(firstName));
 	}
 	public void WaitElementNotDisplay(By by) 
 	{		
 		(new WebDriverWait(driver, 80))
-				.until(ExpectedConditions.not(ExpectedConditions.presenceOfElementLocated(by)));
+		.until(ExpectedConditions.not(ExpectedConditions.presenceOfElementLocated(by)));
 	}
 	public void WaitElementClickable(By by) 
 	{		
@@ -103,7 +103,7 @@ public class BasePage
 	{
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.ENTER);
-	//	driver.pressKeyCode(AndroidKeyCode.SPACE, AndroidKeyMetastate.META_SHIFT_ON);
+		//	driver.pressKeyCode(AndroidKeyCode.SPACE, AndroidKeyMetastate.META_SHIFT_ON);
 
 
 	}
@@ -164,13 +164,13 @@ public class BasePage
 
 
 
-/*
+	/*
 	public void ElementIsEnable (WebElement  elementString) 
 	{
 		WebElement webElement= driver.findElement(elementString);
 		webElement.isEnabled();
 	}
-	*/
+	 */
 
 
 	public boolean ElementEnable(WebElement elementString) 
@@ -438,10 +438,23 @@ public class BasePage
 		driver.switchTo().frame(fr);//iframe[@name='__privateStripeFrame4']
 
 	}
-public void SelectDropDwon(WebElement value,String text)
-{
-	Select dropdown = new Select(value);
-	dropdown.selectByVisibleText(text);
-}
+	public void SelectDropDwon(WebElement value,String text)
+	{
+		Select dropdown = new Select(value);
+		dropdown.selectByVisibleText(text);
+	}
+	public boolean ElementSelected( WebElement element) {
+		if(element.isSelected())
+		{
+			return true;
+
+		}
+		else 
+		{
+			return false;
+		}			
+		
+	}
+
 
 }

@@ -18,7 +18,7 @@ import PageObject.BookingPage;
 import PageObject.LoginPage;
 import PageObject.OnBoardingPage;
 import PageObject.OnBoardingPage2;
-import PageObject.QwizPage;
+import PageObject.QuizPage;
 import PageObject.SignUpPage;
 @Listeners(WishiTests.Listener.class)
 public class ChatQwizMaleTests extends BaseTest 
@@ -65,7 +65,7 @@ public class ChatQwizMaleTests extends BaseTest
 	@Test(priority = 3,groups={"sanity-group"})
 	public void FillBirthday ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		//qwiz.switchWindow();
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'Before we start working together I have some questions for you.')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'First, would you mind telling me your birthday?')]]"));
@@ -76,7 +76,7 @@ public class ChatQwizMaleTests extends BaseTest
 	@Test(priority = 4,groups={"sanity-group"})
 	public void FillNumberPhone ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'Oh cool! I love Sagittariuses!')]]"));
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'I’ll text you when your look is ready to review. What’s your phone number?')]]"));
 		qwiz.selectLocation("3");
@@ -88,7 +88,7 @@ public class ChatQwizMaleTests extends BaseTest
 	@Test(priority = 5,groups={"sanity-group"})
 	public void Selectheight ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'Now, let’s get a little personal. What’s your height?')]]"));
 		qwiz.SelectHeight("Average");
 		//qwiz.ClickNextOfevent();
@@ -99,7 +99,7 @@ public class ChatQwizMaleTests extends BaseTest
 	@Test(priority = 6,groups={"sanity-group"})
 	public void Selectategory ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.SelectCategory("Tops");
 		qwiz.SelectCategory("Pants");
 		qwiz.SelectCategory("Shoes");
@@ -111,7 +111,7 @@ public class ChatQwizMaleTests extends BaseTest
 	@Test(priority = 7,groups={"sanity-group"})
 	public void SelectSize ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.OpenDropDwon("1");
 		qwiz.SelectTopsSize("M");
 		qwiz.OpenDropDwon("2");
@@ -124,7 +124,7 @@ public class ChatQwizMaleTests extends BaseTest
 	@Test(priority = 8,groups={"sanity-group"})
 	public void SelectBudget ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.OpenDropDwon("4");
 		qwiz.SelectBottomsBudget("$50-$100","1");
 		qwiz.OpenDropDwon("5");
@@ -137,7 +137,7 @@ public class ChatQwizMaleTests extends BaseTest
 	@Test(priority = 9,groups={"sanity-group"})
 	public void SelectEvent()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.SelectEvent("Black Tie");
 		qwiz.SelectEvent("Dinner");
 		qwiz.ClickNext();

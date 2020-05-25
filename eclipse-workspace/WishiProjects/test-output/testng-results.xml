@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Test Default test]]>
@@ -11,76 +11,271 @@
       <![CDATA[Completed executing following method : BaseTest.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : SignUpTest.FillEmailWitoutShtudel]]>
+      <![CDATA[About to begin executing following method : QwizTests.DoSignUp]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : SignUpTest.FillEmailWitoutShtudel]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite FillEmailWitoutShtudel]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.SignUpTest]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : SignUpTest.FillEmailWithoutDotCom]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : SignUpTest.FillEmailWithoutDotCom]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite FillEmailWithoutDotCom]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.SignUpTest]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite FillPsswordWithLessthan6Characters]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.SignUpTest]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : SignUpTest.FillNameWithWrongcarecters]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : SignUpTest.FillNameWithWrongcarecters]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite FillNameWithWrongcarecters]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in WishiTests.SignUpTest]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : SignUpTest.DoSignUp]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : SignUpTest.DoSignUp]]>
+      <![CDATA[Completed executing following method : QwizTests.DoSignUp]]>
     </line>
     <line>
       <![CDATA[About to Success executing Suite DoSignUp]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in WishiTests.SignUpTest]]>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.CheckOutSession]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.CheckOutSession]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite CheckOutSession]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.HowDidYouHear]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.HowDidYouHear]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite HowDidYouHear]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.SelectBirthday]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.SelectBirthday]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectBirthday]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.SelectSpecificNneed]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.SelectSpecificNneed]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectSpecificNneed]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.SelectCategories]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.SelectCategories]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectCategories]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.SelectColors]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.SelectColors]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectColors]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.SelectHeight]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.SelectHeight]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectHeight]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.SelectSize]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.SelectSize]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectSize]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.SelectBudget]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.SelectBudget]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectBudget]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.SelectJeans]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.SelectJeans]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectJeans]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.SelectHIGHLIGHT]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.SelectHIGHLIGHT]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectHIGHLIGHT]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.SelectFitTop]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.SelectFitTop]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectFitTop]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.SelectFIT_BOTTOM]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.SelectFIT_BOTTOM]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectFIT_BOTTOM]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.SelectFABRICS]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.SelectFABRICS]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectFABRICS]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.FillHeels]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.FillHeels]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite FillHeels]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.SelectCLOTHING_PREFERENCES]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.SelectCLOTHING_PREFERENCES]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectCLOTHING_PREFERENCES]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizTests.SelectInventory]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizTests.SelectInventory]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectInventory]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in WishiTests.QwizTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
@@ -92,128 +287,388 @@
       <![CDATA[Completed executing following method : BaseTest.tearDown]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69458" started-at="2020-04-30T14:22:22Z" finished-at="2020-04-30T14:23:31Z">
+  <suite name="Default suite" duration-ms="141410" started-at="2020-05-25T14:55:11Z" finished-at="2020-05-25T14:57:32Z">
     <groups>
       <group name="sanity-group">
-        <method signature="SignUpTest.DoSignUp()[pri:6, instance:WishiTests.SignUpTest@3cb1ffe6]" name="DoSignUp" class="WishiTests.SignUpTest"/>
-        <method signature="SignUpTest.FillEmailWithoutDotCom()[pri:3, instance:WishiTests.SignUpTest@3cb1ffe6]" name="FillEmailWithoutDotCom" class="WishiTests.SignUpTest"/>
-        <method signature="SignUpTest.FillEmailWitoutShtudel()[pri:2, instance:WishiTests.SignUpTest@3cb1ffe6]" name="FillEmailWitoutShtudel" class="WishiTests.SignUpTest"/>
-        <method signature="SignUpTest.FillNameWithWrongcarecters()[pri:5, instance:WishiTests.SignUpTest@3cb1ffe6]" name="FillNameWithWrongcarecters" class="WishiTests.SignUpTest"/>
-        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:4, instance:WishiTests.SignUpTest@3cb1ffe6]" name="FillPsswordWithLessthan6Characters" class="WishiTests.SignUpTest"/>
+        <method signature="QwizTests.CheckOutSession()[pri:2, instance:WishiTests.QwizTests@3dfc5fb8]" name="CheckOutSession" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.DoSignUp()[pri:1, instance:WishiTests.QwizTests@3dfc5fb8]" name="DoSignUp" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.FillHeels()[pri:16, instance:WishiTests.QwizTests@3dfc5fb8]" name="FillHeels" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.HowDidYouHear()[pri:3, instance:WishiTests.QwizTests@3dfc5fb8]" name="HowDidYouHear" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectBirthday()[pri:4, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectBirthday" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectBudget()[pri:10, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectBudget" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectCLOTHING_PREFERENCES()[pri:17, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectCLOTHING_PREFERENCES" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectCategories()[pri:6, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectCategories" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectColors()[pri:7, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectColors" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectFABRICS()[pri:15, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectFABRICS" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectFIT_BOTTOM()[pri:14, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectFIT_BOTTOM" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectFitTop()[pri:13, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectFitTop" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectHIGHLIGHT()[pri:12, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectHIGHLIGHT" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectHeight()[pri:8, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectHeight" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectInventory()[pri:18, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectInventory" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectJeans()[pri:11, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectJeans" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectSize()[pri:9, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectSize" class="WishiTests.QwizTests"/>
+        <method signature="QwizTests.SelectSpecificNneed()[pri:5, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectSpecificNneed" class="WishiTests.QwizTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="69458" started-at="2020-04-30T14:22:22Z" finished-at="2020-04-30T14:23:31Z">
-      <class name="WishiTests.SignUpTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.SignUpTest@3cb1ffe6]" name="setup" is-config="true" duration-ms="10575" started-at="2020-04-30T14:22:22Z" finished-at="2020-04-30T14:22:32Z">
+    <test name="Default test" duration-ms="141410" started-at="2020-05-25T14:55:11Z" finished-at="2020-05-25T14:57:32Z">
+      <class name="WishiTests.QwizTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:WishiTests.QwizTests@3dfc5fb8]" name="setup" is-config="true" duration-ms="14428" started-at="2020-05-25T14:55:11Z" finished-at="2020-05-25T14:55:25Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="FillEmailWitoutShtudel()[pri:2, instance:WishiTests.SignUpTest@3cb1ffe6]" name="FillEmailWitoutShtudel" duration-ms="7833" started-at="2020-04-30T14:22:32Z" finished-at="2020-04-30T14:22:40Z">
+        <test-method status="PASS" signature="DoSignUp()[pri:1, instance:WishiTests.QwizTests@3dfc5fb8]" name="DoSignUp" duration-ms="78335" started-at="2020-05-25T14:55:25Z" finished-at="2020-05-25T14:56:43Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : SignUpTest.FillEmailWitoutShtudel]]>
+              <![CDATA[About to begin executing following method : QwizTests.DoSignUp]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : SignUpTest.FillEmailWitoutShtudel]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite FillEmailWitoutShtudel]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.SignUpTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- FillEmailWitoutShtudel -->
-        <test-method status="PASS" signature="FillEmailWithoutDotCom()[pri:3, instance:WishiTests.SignUpTest@3cb1ffe6]" name="FillEmailWithoutDotCom" duration-ms="12632" started-at="2020-04-30T14:22:40Z" finished-at="2020-04-30T14:22:53Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : SignUpTest.FillEmailWithoutDotCom]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : SignUpTest.FillEmailWithoutDotCom]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite FillEmailWithoutDotCom]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.SignUpTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- FillEmailWithoutDotCom -->
-        <test-method status="PASS" signature="FillPsswordWithLessthan6Characters()[pri:4, instance:WishiTests.SignUpTest@3cb1ffe6]" name="FillPsswordWithLessthan6Characters" duration-ms="11677" started-at="2020-04-30T14:22:53Z" finished-at="2020-04-30T14:23:04Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite FillPsswordWithLessthan6Characters]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.SignUpTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- FillPsswordWithLessthan6Characters -->
-        <test-method status="PASS" signature="FillNameWithWrongcarecters()[pri:5, instance:WishiTests.SignUpTest@3cb1ffe6]" name="FillNameWithWrongcarecters" duration-ms="11651" started-at="2020-04-30T14:23:04Z" finished-at="2020-04-30T14:23:16Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : SignUpTest.FillNameWithWrongcarecters]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : SignUpTest.FillNameWithWrongcarecters]]>
-            </line>
-            <line>
-              <![CDATA[About to Success executing Suite FillNameWithWrongcarecters]]>
-            </line>
-            <line>
-              <![CDATA[Test Method resides in WishiTests.SignUpTest]]>
-            </line>
-            <line>
-              <![CDATA[Test Status: Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- FillNameWithWrongcarecters -->
-        <test-method status="PASS" signature="DoSignUp()[pri:6, instance:WishiTests.SignUpTest@3cb1ffe6]" name="DoSignUp" duration-ms="15052" started-at="2020-04-30T14:23:16Z" finished-at="2020-04-30T14:23:31Z">
-          <reporter-output>
-            <line>
-              <![CDATA[About to begin executing following method : SignUpTest.DoSignUp]]>
-            </line>
-            <line>
-              <![CDATA[Completed executing following method : SignUpTest.DoSignUp]]>
+              <![CDATA[Completed executing following method : QwizTests.DoSignUp]]>
             </line>
             <line>
               <![CDATA[About to Success executing Suite DoSignUp]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in WishiTests.SignUpTest]]>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- DoSignUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.SignUpTest@3cb1ffe6]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-30T14:23:31Z" finished-at="2020-04-30T14:23:31Z">
+        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:WishiTests.QwizTests@3dfc5fb8]" name="CheckOutSession" duration-ms="26324" started-at="2020-05-25T14:56:43Z" finished-at="2020-05-25T14:57:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.CheckOutSession]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.CheckOutSession]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite CheckOutSession]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckOutSession -->
+        <test-method status="PASS" signature="HowDidYouHear()[pri:3, instance:WishiTests.QwizTests@3dfc5fb8]" name="HowDidYouHear" duration-ms="2316" started-at="2020-05-25T14:57:10Z" finished-at="2020-05-25T14:57:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.HowDidYouHear]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.HowDidYouHear]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite HowDidYouHear]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HowDidYouHear -->
+        <test-method status="PASS" signature="SelectBirthday()[pri:4, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectBirthday" duration-ms="2726" started-at="2020-05-25T14:57:12Z" finished-at="2020-05-25T14:57:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.SelectBirthday]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.SelectBirthday]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectBirthday]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectBirthday -->
+        <test-method status="PASS" signature="SelectSpecificNneed()[pri:5, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectSpecificNneed" duration-ms="1910" started-at="2020-05-25T14:57:15Z" finished-at="2020-05-25T14:57:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.SelectSpecificNneed]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.SelectSpecificNneed]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectSpecificNneed]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectSpecificNneed -->
+        <test-method status="PASS" signature="SelectCategories()[pri:6, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectCategories" duration-ms="2206" started-at="2020-05-25T14:57:17Z" finished-at="2020-05-25T14:57:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.SelectCategories]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.SelectCategories]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectCategories]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectCategories -->
+        <test-method status="PASS" signature="SelectColors()[pri:7, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectColors" duration-ms="460" started-at="2020-05-25T14:57:19Z" finished-at="2020-05-25T14:57:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.SelectColors]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.SelectColors]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectColors]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectColors -->
+        <test-method status="PASS" signature="SelectHeight()[pri:8, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectHeight" duration-ms="1003" started-at="2020-05-25T14:57:19Z" finished-at="2020-05-25T14:57:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.SelectHeight]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.SelectHeight]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectHeight]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectHeight -->
+        <test-method status="PASS" signature="SelectSize()[pri:9, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectSize" duration-ms="3334" started-at="2020-05-25T14:57:20Z" finished-at="2020-05-25T14:57:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.SelectSize]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.SelectSize]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectSize]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectSize -->
+        <test-method status="PASS" signature="SelectBudget()[pri:10, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectBudget" duration-ms="986" started-at="2020-05-25T14:57:24Z" finished-at="2020-05-25T14:57:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.SelectBudget]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.SelectBudget]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectBudget]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectBudget -->
+        <test-method status="PASS" signature="SelectJeans()[pri:11, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectJeans" duration-ms="716" started-at="2020-05-25T14:57:25Z" finished-at="2020-05-25T14:57:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.SelectJeans]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.SelectJeans]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectJeans]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectJeans -->
+        <test-method status="PASS" signature="SelectHIGHLIGHT()[pri:12, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectHIGHLIGHT" duration-ms="859" started-at="2020-05-25T14:57:25Z" finished-at="2020-05-25T14:57:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.SelectHIGHLIGHT]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.SelectHIGHLIGHT]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectHIGHLIGHT]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectHIGHLIGHT -->
+        <test-method status="PASS" signature="SelectFitTop()[pri:13, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectFitTop" duration-ms="779" started-at="2020-05-25T14:57:26Z" finished-at="2020-05-25T14:57:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.SelectFitTop]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.SelectFitTop]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectFitTop]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectFitTop -->
+        <test-method status="PASS" signature="SelectFIT_BOTTOM()[pri:14, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectFIT_BOTTOM" duration-ms="934" started-at="2020-05-25T14:57:27Z" finished-at="2020-05-25T14:57:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.SelectFIT_BOTTOM]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.SelectFIT_BOTTOM]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectFIT_BOTTOM]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectFIT_BOTTOM -->
+        <test-method status="PASS" signature="SelectFABRICS()[pri:15, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectFABRICS" duration-ms="1045" started-at="2020-05-25T14:57:28Z" finished-at="2020-05-25T14:57:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.SelectFABRICS]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.SelectFABRICS]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectFABRICS]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectFABRICS -->
+        <test-method status="PASS" signature="FillHeels()[pri:16, instance:WishiTests.QwizTests@3dfc5fb8]" name="FillHeels" duration-ms="989" started-at="2020-05-25T14:57:29Z" finished-at="2020-05-25T14:57:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.FillHeels]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.FillHeels]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite FillHeels]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FillHeels -->
+        <test-method status="PASS" signature="SelectCLOTHING_PREFERENCES()[pri:17, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectCLOTHING_PREFERENCES" duration-ms="1034" started-at="2020-05-25T14:57:30Z" finished-at="2020-05-25T14:57:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.SelectCLOTHING_PREFERENCES]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.SelectCLOTHING_PREFERENCES]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectCLOTHING_PREFERENCES]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectCLOTHING_PREFERENCES -->
+        <test-method status="PASS" signature="SelectInventory()[pri:18, instance:WishiTests.QwizTests@3dfc5fb8]" name="SelectInventory" duration-ms="990" started-at="2020-05-25T14:57:31Z" finished-at="2020-05-25T14:57:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizTests.SelectInventory]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizTests.SelectInventory]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectInventory]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in WishiTests.QwizTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectInventory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WishiTests.QwizTests@3dfc5fb8]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-25T14:57:32Z" finished-at="2020-05-25T14:57:32Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest.tearDown]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- WishiTests.SignUpTest -->
+      </class> <!-- WishiTests.QwizTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

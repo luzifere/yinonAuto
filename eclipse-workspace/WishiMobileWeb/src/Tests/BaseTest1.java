@@ -28,7 +28,7 @@ public class BaseTest1
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.setExperimentalOption("w3c", false);
 		cap.merge(chromeOptions);
-		cap.setCapability("chromedriverExecutable","/Users/yinonwishi/Downloads/chromedriver");
+		cap.setCapability("chromedriverExecutable","/Users/yinonwishi/Desktop/CromeDriver/chromedriver");
 
 		driver = new AndroidDriver<>(new URL ("http://127.0.0.1:4723/wd/hub") ,cap);
 		return driver;

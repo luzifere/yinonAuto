@@ -17,8 +17,17 @@ import PageObject.BookingPage;
 import PageObject.LoginPage;
 import PageObject.OnBoardingPage;
 import PageObject.OnBoardingPage2;
-import PageObject.QwizPage;
+import PageObject.QuizPage;
 import PageObject.SignUpPage;
+
+
+
+
+
+
+
+
+
 @Listeners(WishiTests.Listener.class)
 public class QwizTests extends BaseTest 
 {
@@ -70,200 +79,193 @@ public class QwizTests extends BaseTest
 		booking.FillCardCVC(this.configFileReader.getCardCVC());
 		booking.switchWindow();
 		booking.QuizPresent();
-		
-	}
-	//@Test(priority = 3,groups={"sanity-group"})
-	public void SelectEvent ()
-	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.SelectTab("Work / Business Casual");
-		qwiz.ClickNextOfevent();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'BODY TYPE')]]"));
+		booking.ClickLetsGoQuiz();
 
 	}
-	//@Test(priority = 4,groups={"sanity-group"})
-	public void SelectBodyType ()
+	@Test(priority = 3,groups={"sanity-group"})
+	public void HowDidYouHear ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.SelectTab("Curvy");
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'2 OF 11')]]"));
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'HEIGHT')]]"));
+		BookingPage booking = new BookingPage(driver);		
+		booking.HowDidYouHeartPresent();
+		booking.Clickinstegrambutton();
+		booking.InstegramTitlePresent();
+		booking.Clickthewishibutton();
+		booking.BirthdayTitlePresent();
+
 	}
+	@Test(priority = 4,groups={"sanity-group"})
+	public void SelectBirthday ()
+	{
+		BookingPage booking = new BookingPage(driver);	
+		booking.SelectMonth();
+		booking.SelectDay();
+		booking.SelectYear();
+		booking.ClickNext();
+		booking.SpecificNeedTitlePresent();
+
+	}
+
 	@Test(priority = 5,groups={"sanity-group"})
+	public void SelectSpecificNneed ()
+	{
+		BookingPage booking = new BookingPage(driver);	
+		booking.SelectGOAL_WORKWEAR();
+		booking.ClickNext();
+		booking.describe_your_worktitleTitlePresent();
+		booking.Clickotherbutton();
+		booking.Filltextarea("test");
+		booking.ClickDone();
+		booking.clothing_categoriestitlePresent();
+	}
+
+	@Test(priority = 6,groups={"sanity-group"})
+	public void SelectCategories ()
+	{
+		BookingPage booking = new BookingPage(driver);	
+		booking.ClickCLOTHING_CATEGORY_TOPS();
+		booking.ClickCLOTHING_CATEGORY_PANTS();
+		booking.ClickCLOTHING_CATEGORY_PANTS();
+		booking.ClickCLOTHING_CATEGORY_JACKETS();
+		booking.ClickCLOTHING_CATEGORY_JUMPSUITS();
+		booking.ClickCLOTHING_CATEGORY_SWEATERS();
+		booking.ClickCLOTHING_CATEGORY_SUNGLASSES();
+		booking.ClickCLOTHING_CATEGORY_SHOES();
+		booking.ClickCLOTHING_CATEGORY_SKIRTS();
+		booking.ClickCLOTHING_CATEGORY_DRESSES();
+		booking.ClickCLOTHING_CATEGORY_JEANS();
+		booking.ClickCLOTHING_CATEGORY_BLAZERS();
+		booking.ClickCLOTHING_CATEGORY_COATS();
+		booking.ClickCLOTHING_CATEGORY_SCARVES();
+		booking.ClickCLOTHING_CATEGORY_JEWELRIES();
+		booking.ClickCLOTHING_CATEGORY_HATS();
+		booking.ClickCLOTHING_CATEGORY_BAGS();
+		booking.ClickNext();
+		booking.colorstitlePresent();
+
+	}
+
+	@Test(priority = 7,groups={"sanity-group"})
+	public void SelectColors()
+	{
+		BookingPage booking = new BookingPage(driver);	
+		booking.ClickAnything_goes();
+		booking.heighttitlePresent();
+	}
+
+	@Test(priority = 8,groups={"sanity-group"})
 	public void SelectHeight ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
-		//qwiz.ClickBack();
-		//qwiz.ClickNext();
-		qwiz.SelectTab("Tall");
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'2 OF 11')]]"));
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'COLORS')]]"));
+		BookingPage booking = new BookingPage(driver);	
+		booking.ClickTall();
+		booking.sizetitlePresent();
 	}
-	@Test(priority = 6,groups={"sanity-group"})
-	public void SelectColors ()
-	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.ClickBack();
-		qwiz.Sleep(10);
-		qwiz.ClickNext();
-		qwiz.SelectColors("3");
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'3 OF 11')]]"));
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'HIGHLIGHT')]]"));
-	}
-	@Test(priority = 7,groups={"sanity-group"})
-	public void SelectHighlight ()
-	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.ClickBack();
-		qwiz.ClickNext();
-		qwiz.SelectTab("Legs");
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'4 OF 11')]]"));
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'CLOTHING PREFERENCES')]]"));
-	}
-	@Test(priority = 8,groups={"sanity-group"})
-	public void SelectClothingPreferences ()
-	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.ClickBack();
-		qwiz.ClickNext();
-		qwiz.SelectTab("Healthy mix of both");
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'5 OF 11')]]"));
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'HEELS')]]"));
-	}
+
 	@Test(priority = 9,groups={"sanity-group"})
-	public void SelectHeels ()
-	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.ClickBack();
-		qwiz.ClickNext();
-		qwiz.SelectTab("Always");
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'6 OF 11')]]"));
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'FABRICS')]]"));
-	}
-	@Test(priority = 10,groups={"sanity-group"})
-	public void SelectFabrics ()
-	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.ClickBack();
-		qwiz.ClickNext();
-		qwiz.SelectTab("Fur");
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'7 OF 11')]]"));
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'SIZE')]]"));
-	}
-	//@Test(priority = 11,groups={"sanity-group"})
-	public void SelectPrints ()
-	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.ClickBack();
-		qwiz.ClickNext();
-		qwiz.SelectTab("Floral");
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'8 OF 11')]]"));
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'SIZE')]]"));
-	}
-	@Test(priority = 12,groups={"sanity-group"})
 	public void SelectSize ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.ClickBack();
-		qwiz.ClickNext();
-		qwiz.ClickPlus("1");
-		qwiz.scrollDown();
-		qwiz.ClickMinus("2");
-		qwiz.ClickPlus("3");
-		WebElement element = driver.findElement(By.xpath("(//div[@class='increase-size'])[4]"));
-		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-		qwiz.ClickMinus("4");
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'8 OF 11')]]"));
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'BUDGET')]]"));
+		BookingPage booking = new BookingPage(driver);
+		booking.SelectSIZE_TOPS();
+		booking.SelectSIZE_BOTTOM();
+		booking.SelectSIZE_DRESS();
+		booking.SelectSIZE_SHOES();
+		booking.ClickNext();
+		booking.budgettitlePresent();
+
 	}
-	@Test(priority = 13,groups={"sanity-group"})
+	@Test(priority = 10,groups={"sanity-group"})
 	public void SelectBudget ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.ClickBack();
-		qwiz.ClickNext();
-		qwiz.SelectBlouses("0");
-		qwiz.SelectBottoms("0");
-		qwiz.SelectShoes("0");
-		qwiz.scrollDown();
-		qwiz.SelectBags("0");
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'9 OF 11')]]"));
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'COMFORT ZONE')]]"));
+		BookingPage booking = new BookingPage(driver);	
+		booking.Clicktop_50_100();
+		booking.ClickBottoms_100_400();
+		booking.ClickShoes_400_1000();
+		booking.ClickBags_1000();
+		booking.ClickAccessories_50_100();
+		booking.ClickNext();
+		booking.jeanstitlePresent();
 	}
+
+	@Test(priority = 11,groups={"sanity-group"})
+	public void SelectJeans ()
+	{
+		BookingPage booking = new BookingPage(driver);
+		booking.ClickJEANS_SKINNY();
+		booking.ClickJEANS_FLAIR();
+		booking.ClickNext();
+		booking.featurestitlePresent();
+	}
+
+	@Test(priority = 12,groups={"sanity-group"})
+	public void SelectHIGHLIGHT ()
+	{
+		BookingPage booking = new BookingPage(driver);
+		booking.SelectHIGHLIGHT_CLEAVAGE();
+		booking.SelectHIGHLIGHT_ABS();
+		booking.SelectHIGHLIGHT_WAISTS();
+		booking.ClickNext();
+		booking.topfittitlePresent();
+	}
+
+	@Test(priority = 13,groups={"sanity-group"})
+	public void SelectFitTop ()
+	{
+		BookingPage booking = new BookingPage(driver);
+		booking.SelectFIT_TOP_OVERSIZED();
+		booking.SelectFIT_TOP_STRAIGHT();
+		booking.ClickNext();
+		booking.fitbottomtitlePresent();
+
+	}
+
 	@Test(priority = 14,groups={"sanity-group"})
-	public void SelectComfortZone ()
+	public void SelectFIT_BOTTOM ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.ClickBack();
-		qwiz.SelectBlouses("0");
-		qwiz.ClickNext();
-		qwiz.SelectTab("Close to my style");
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'10 OF 11')]]"));
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'JEWELRY')]]"));
+		BookingPage booking = new BookingPage(driver);
+		booking.SelectFIT_BOTTOM_FITTED();
+		booking.SelectFIT_BOTTOM_STRAIGHT();
+		booking.ClickNext();
+		booking.AnythingavoidtitlePresent();
+
 	}
+
 	@Test(priority = 15,groups={"sanity-group"})
-	public void SelectJEWELRY ()
+	public void SelectFABRICS ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.ClickBack();
-		qwiz.ClickNext();
-		qwiz.SelectTab("Silver");
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'11 OF 11')]]"));
-		Assert.assertTrue(qwiz.ElementDisplay("//div[@class='step-title ng-binding']"));
-		qwiz.Sleep(300);
-		//qwiz.close();
-		//Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'BRANDS')]]"));
+		BookingPage booking = new BookingPage(driver);
+		booking.SelectFABRICS_DRY_CLEAN_ONLY();
+		booking.SelectFABRICS_VELVET();
+		booking.ClickNext();
+		booking.preferencetitlePresent();
 	}
+
 	@Test(priority = 16,groups={"sanity-group"})
-	public void FillNumberPhone ()
+	public void FillHeels ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.FillNumberPhone("0523365435");
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//button[@class='input_btn']"));
-		qwiz.Sleep(300);
-		qwiz.close();
-		//qwiz.close();
-		//Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'BRANDS')]]"));
-	}
-	//@Test(priority = 15,groups={"sanity-group"})
-	public void SelectBrands ()
-	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.ClickBack();
-		qwiz.ClickNext();
-		qwiz.SelectBrands("3");
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//button[@class='input_btn']"));
-		//Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'INVENTORY')]]"));
-	}
-	//@Test(priority = 16,groups={"sanity-group"})
-	public void SelectInventory ()
-	{
-		QwizPage qwiz = new QwizPage(driver);
-		qwiz.ClickBack();
-		qwiz.ClickNext();
-		qwiz.SelectTab("Mix");
-		qwiz.scrollDown();
-		qwiz.selectBudget(2);
-		qwiz.ClickNext();
-		Assert.assertTrue(qwiz.ElementDisplay("//button[@class='input_btn']"));
-		qwiz.Sleep(300);
-		qwiz.close();
+		BookingPage booking = new BookingPage(driver);
+		booking.Selectbutton_HEELS_ALWAYS();
+		booking.best_describestitlePresent();
+
 
 	}
 	
+	@Test(priority = 17,groups={"sanity-group"})
+	public void SelectCLOTHING_PREFERENCES ()
+	{
+		BookingPage booking = new BookingPage(driver);
+		booking.Selectbutton_CLOTHING_PREFERENCES_MIX();
+		booking.comfortzonetitletitlePresent();
+	}
 	
+	@Test(priority = 18,groups={"sanity-group"})
+	public void SelectInventory ()
+	{
+		BookingPage booking = new BookingPage(driver);
+		booking.Selectbutton_COMFORT_ZONE_NOT_AT_ALL();
+		booking.JewelrytitletitlePresent();
+		
+
+	}
+	 
+
+
 }

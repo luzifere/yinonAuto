@@ -11,7 +11,7 @@ import PageObject.BasePage;
 import PageObject.BestMatchPage;
 import PageObject.BookingPage;
 import PageObject.OnBoardingPage;
-import PageObject.QwizPage;
+import PageObject.QuizPage;
 import PageObject.SignUpPage;
 @Listeners(WishiTests.Listener.class)
 public class QwizSkipedTests extends BaseTest
@@ -63,7 +63,7 @@ public class QwizSkipedTests extends BaseTest
 	@Test(priority = 3,groups={"sanity-group"})
 	public void ClickSkip ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		//qwiz.ClickNextOfevent();
 		qwiz.ClickSkip();
 		qwiz.ClickSkip();

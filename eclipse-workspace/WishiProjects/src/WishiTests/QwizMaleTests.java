@@ -17,7 +17,7 @@ import PageObject.BookingPage;
 import PageObject.LoginPage;
 import PageObject.OnBoardingPage;
 import PageObject.OnBoardingPage2;
-import PageObject.QwizPage;
+import PageObject.QuizPage;
 import PageObject.SignUpPage;
 @Listeners(WishiTests.Listener.class)
 public class QwizMaleTests extends BaseTest 
@@ -65,7 +65,7 @@ public class QwizMaleTests extends BaseTest
 	//@Test(priority = 3,groups={"sanity-group"})
 	public void SelectEvent ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.SelectTab("Work / Business Casual");
 		qwiz.ClickNextOfevent();
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'BODY TYPE')]]"));
@@ -74,7 +74,7 @@ public class QwizMaleTests extends BaseTest
 	//@Test(priority = 4,groups={"sanity-group"})
 	public void SelectBodyType ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.SelectTab("Slim");
 		qwiz.ClickNext();
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'2 OF 7')]]"));
@@ -83,7 +83,7 @@ public class QwizMaleTests extends BaseTest
 	@Test(priority = 5,groups={"sanity-group"})
 	public void SelectHeight ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.SelectTab("Tall");
 		qwiz.ClickNext();
 		Assert.assertTrue(qwiz.ElementDisplay("//div[text()[contains(.,'2 OF 7')]]"));
@@ -92,7 +92,7 @@ public class QwizMaleTests extends BaseTest
 	@Test(priority = 6,groups={"sanity-group"})
 	public void SelectColors ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.ClickBack();
 		qwiz.Sleep(10);
 		qwiz.ClickNext();
@@ -105,7 +105,7 @@ public class QwizMaleTests extends BaseTest
 	//@Test(priority = 7,groups={"sanity-group"})
 	public void SelectHighlight ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.ClickBack();
 		qwiz.ClickNext();
 		qwiz.SelectTab("Legs");
@@ -115,7 +115,7 @@ public class QwizMaleTests extends BaseTest
 	//@Test(priority = 8,groups={"sanity-group"})
 	public void SelectClothingPreferences ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.ClickBack();
 		qwiz.ClickNext();
 		qwiz.SelectTab("Healthy mix of both");
@@ -125,7 +125,7 @@ public class QwizMaleTests extends BaseTest
 	//@Test(priority = 9,groups={"sanity-group"})
 	public void SelectHeels ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.ClickBack();
 		qwiz.ClickNext();
 		qwiz.SelectTab("Always");
@@ -135,7 +135,7 @@ public class QwizMaleTests extends BaseTest
 	@Test(priority = 10,groups={"sanity-group"})
 	public void SelectFabrics ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.ClickBack();
 		qwiz.ClickNext();
 		qwiz.SelectTab("Wool");
@@ -146,7 +146,7 @@ public class QwizMaleTests extends BaseTest
 	//@Test(priority = 11,groups={"sanity-group"})
 	public void SelectPrints ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.ClickBack();
 		qwiz.ClickNext();
 		qwiz.SelectTab("Floral");
@@ -156,7 +156,7 @@ public class QwizMaleTests extends BaseTest
 	@Test(priority = 12,groups={"sanity-group"})
 	public void SelectSize ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.ClickBack();
 		qwiz.ClickNext();
 		qwiz.ClickPlus("1");
@@ -173,7 +173,7 @@ public class QwizMaleTests extends BaseTest
 	@Test(priority = 13,groups={"sanity-group"})
 	public void SelectBudget ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.ClickBack();
 		qwiz.ClickNext();
 		qwiz.SelectBlouses("0");
@@ -188,7 +188,7 @@ public class QwizMaleTests extends BaseTest
 	@Test(priority = 13,groups={"sanity-group"})
 	public void SelectComfortZone ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.ClickBack();
 		qwiz.SelectBlouses("1");
 		qwiz.ClickNext();
@@ -200,7 +200,7 @@ public class QwizMaleTests extends BaseTest
 	//@Test(priority = 14,groups={"sanity-group"})
 	public void SelectJEWELRY ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.ClickBack();
 		qwiz.ClickNext();
 		qwiz.SelectTab("Gold");
@@ -213,7 +213,7 @@ public class QwizMaleTests extends BaseTest
 	@Test(priority = 14,groups={"sanity-group"})
 	public void FillNumberPhone ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.FillNumberPhone("0523365435");
 		qwiz.ClickNext();
 		Assert.assertTrue(qwiz.ElementDisplay("//button[@class='input_btn']"));
@@ -225,7 +225,7 @@ public class QwizMaleTests extends BaseTest
 	//@Test(priority = 15,groups={"sanity-group"})
 	public void SelectBrands ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.ClickBack();
 		qwiz.ClickNext();
 		qwiz.SelectBrands("3");
@@ -236,7 +236,7 @@ public class QwizMaleTests extends BaseTest
 	//@Test(priority = 16,groups={"sanity-group"})
 	public void SelectInventory ()
 	{
-		QwizPage qwiz = new QwizPage(driver);
+		QuizPage qwiz = new QuizPage(driver);
 		qwiz.ClickBack();
 		qwiz.ClickNext();
 		qwiz.SelectTab("Mix");
