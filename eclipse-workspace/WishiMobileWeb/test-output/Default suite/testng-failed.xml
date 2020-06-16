@@ -3,16 +3,28 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.SignUpTest">
+      <class name="Tests.qwizMaleTests">
         <methods>
-          <include name="FillNameWithWrongcarecters"/>
-          <include name="DoSignUp"/>
-          <include name="FillEmailWitoutShtudel"/>
-          <include name="FillEmailWithoutDotCom"/>
-          <include name="FillPsswordWithLessthan6Characters"/>
+          <include name="fillLocation"/>
+          <include name="SelectSpecificNneed"/>
+          <include name="SelectSize"/>
+          <include name="SelectWHAT_MATTERS"/>
+          <include name="AddPhoto"/>
+          <include name="fillphone"/>
           <include name="setup"/>
+          <include name="SelectIcon"/>
+          <include name="SelectCategories"/>
+          <include name="SelectColors"/>
+          <include name="CheckOutSession"/>
+          <include name="SelectBudget"/>
+          <include name="SelectHeight"/>
+          <include name="DoSignUp"/>
+          <include name="FinishQuiz"/>
+          <include name="SelectBirthday"/>
+          <include name="FillInstegram"/>
+          <include name="HowDidYouHear"/>
         </methods>
-      </class> <!-- Tests.SignUpTest -->
+      </class> <!-- Tests.qwizMaleTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

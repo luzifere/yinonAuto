@@ -9,6 +9,7 @@ import java.util.Random;
 import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -20,6 +21,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
@@ -49,6 +51,11 @@ public class BasePage
 
 
 
+public void HideKeyboard() 
+{
+	driver.hideKeyboard();
+
+}
 
 	public boolean isElementPresent(WebElement locatorKey) {
 		try {
@@ -378,5 +385,24 @@ public void close ()
 {
 	Sleep(150);
 	driver.close();
+}
+public void SelectDropDwon(WebElement value,String text)
+{
+	Select dropdown = new Select(value);
+	dropdown.selectByVisibleText(text);
+}
+public static void AcceptAlert() 
+{
+	try 
+	{
+		WebDriverWait wait = new WebDriverWait(driver,2);
+		wait.until(ExpectedConditions.alertIsPresent());
+		Alert alert = driver.switchTo().alert();
+		alert.accept();
+	}
+	catch (Exception e) 
+	{
+		// TODO: handle exception
+	}
 }
 }

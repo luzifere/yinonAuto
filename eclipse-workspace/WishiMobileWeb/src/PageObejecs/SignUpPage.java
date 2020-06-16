@@ -262,8 +262,10 @@ public class SignUpPage extends BasePage
 				Sleep(150);
 				filltext(password, pass);
 				Sleep(150);
-				clicktTab();
-				click(SignUpPUBtn);			
+				//clicktTab();
+				Sleep(150);
+				click(SignUpPUBtn);
+				click(SignUpPUBtn);
 			}
 			catch(Exception e)
 			{	

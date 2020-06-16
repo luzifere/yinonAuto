@@ -13,8 +13,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import PageObejecs.LoginPages;
-
+import draft.LoginPages;
 import io.appium.java_client.android.AndroidElement;
 
 

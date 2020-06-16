@@ -8,7 +8,6 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObejecs.BestMatchPage;
-import PageObejecs.LoginPages;
 import PageObejecs.LoginPages2;
 import Tests.BaseTest1;
 import Tests.Listener;

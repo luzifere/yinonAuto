@@ -25,9 +25,9 @@ public class BaseTest4
 		configFileReader= new ConfigFileReader();
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone X");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12.1.2");
-		cap.setCapability(MobileCapabilityType.APP,"/Users/yinonwishi/Desktop/Wishi.ipa");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 11 Pro Max");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"13.4");
+		cap.setCapability(MobileCapabilityType.APP,"/Users/yinonwishi/Desktop/Wishi.app");
 		cap.setCapability(MobileCapabilityType.UDID,"b5b85aa834a29d1e90a5a0e1400c955235431104");
 		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,AutomationName.IOS_XCUI_TEST);
 		cap.setCapability(IOSMobileCapabilityType.XCODE_ORG_ID,"6Q9ZW4BRCA");
@@ -48,6 +48,7 @@ public class BaseTest4
 		//driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		return driver;
 	}
+	/*
 	public static  AppiumDriver<WebElement>capabileties2() throws MalformedURLException   
 	{
 		configFileReader= new ConfigFileReader();
@@ -91,5 +92,6 @@ public class BaseTest4
 		capabileties();
 		
 	}
+	*/
 	
 }

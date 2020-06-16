@@ -8,8 +8,8 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import PageObejecs.ChatPage;
-import PageObejecs.LoginPages;
 import PageObejecs.LoginPages2;
+import draft.LoginPages;
 
 
 

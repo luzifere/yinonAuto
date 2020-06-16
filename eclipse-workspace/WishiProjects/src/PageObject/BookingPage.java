@@ -121,7 +121,7 @@ public class BookingPage extends BasePage
 
 	@FindBy(xpath="//label[@for='mini']")
 	WebElement MIniGoal;
-	@FindBy(xpath="//label[@for='cleanout']")
+	@FindBy(xpath="(//label[@class='form-check-label'])[1]")
 	WebElement cleanoutGoal;
 	@FindBy(xpath="//label[@for='major']")
 	WebElement MajorGoal;
@@ -134,7 +134,7 @@ public class BookingPage extends BasePage
 	WebElement MajorPlanOfCleanOut;
 	@FindBy(xpath="//span[@class='d-none d-sm-block']")
 	WebElement bookstylistprofile;
-	@FindBy(xpath="//button[@class='d-none d-sm-flex btn btn-dark']")
+	@FindBy(xpath="//button[@class='btn btn-dark']")
 	WebElement paymentbutton;
 	@FindBy(xpath="//button[@title='Collapse Widget']")
 	WebElement chatbutton;
@@ -147,7 +147,7 @@ public class BookingPage extends BasePage
 	WebElement minipackage;
 	@FindBy(xpath="(//div[text()[contains(.,'BEST MATCH')]]/..//div[text()[contains(.,'Major')]])[1]")
 	WebElement majorbest;
-	@FindBy(xpath="//p[text()[contains(.,'Major package')]]")
+	@FindBy(xpath="//div[text()[contains(.,'Wishi Major package')]]")
 	WebElement majorpackage;
 	@FindBy(xpath="//div[text()[contains(.,'Closet clean out package')]]")
 	WebElement cleanoutpackage;
@@ -171,6 +171,8 @@ public class BookingPage extends BasePage
 	WebElement sizetitle;
 	@FindBy(xpath="//p[text()[contains(.,'So if you are luxury or luxury on a dime - we are here for you. How much do you typically spend on...')]]")
 	WebElement budgettitle;
+	@FindBy(xpath="//p[text()[contains(.,'Where do you live')]]")
+	WebElement location;
 	@FindBy(xpath="//p[text()[contains(.,'What types of jeans do you prefer?')]]")
 	WebElement jeanstitle;
 	@FindBy(xpath="//p[text()[contains(.,'Are there any features you want to accentuate?')]]")
@@ -223,7 +225,7 @@ public class BookingPage extends BasePage
 	WebElement year;
 	@FindBy(xpath="//label[@for='GOAL_WORKWEAR']")
 	WebElement GOAL_WORKWEAR;
-	@FindBy(xpath="//button[@id='LetsGoQuiz']")
+	@FindBy(xpath="//a[@id='LetsGoQuiz']")
 	WebElement quizheader;
 	@FindBy(xpath="//div[@id='CLOTHING_CATEGORY_TOPS']")
 	WebElement CLOTHING_CATEGORY_TOPS;
@@ -387,10 +389,216 @@ public class BookingPage extends BasePage
 	WebElement button_COMFORT_ZONE_OPEN_FOR_CHANGE;
 	@FindBy(xpath="//div[@id='button_COMFORT_ZONE_NOT_AT_ALL']")
 	WebElement button_COMFORT_ZONE_NOT_AT_ALL;
+	@FindBy(xpath="//label[text()[contains(.,'Gold')]]")
+	WebElement JEWELRY_GOLD;
+	@FindBy(xpath="//label[text()[contains(.,'Vintage')]]")
+	WebElement JEWELRY_VINTAGE;
+	@FindBy(xpath="//label[text()[contains(.,'Colorful')]]")
+	WebElement JEWELRY_COLORFUL;
+	@FindBy(xpath="//label[text()[contains(.,'Rose Gold')]]")
+	WebElement JEWELRY_ROSE_GOLD;
+	@FindBy(xpath="//label[text()[contains(.,'Silver')]]")
+	WebElement JEWELRY_SILVER;
+	@FindBy(xpath="//label[text()[contains(.,'Black')]]")
+	WebElement JEWELRY_BLACK;
+	@FindBy(xpath="//input[@id='WHAT_MATTERS_VERSATILITY']/..//label[@class='checkbox-label']")
+	WebElement WHAT_MATTERS_VERSATILITY;
+	@FindBy(xpath="//input[@id='WHAT_MATTERS_SUSTAINABILITY']/..//label[@class='checkbox-label']")
+	WebElement WHAT_MATTERS_SUSTAINABILITY;
+	@FindBy(xpath="//input[@id='WHAT_MATTERS_UNIQENESS']/..//label[@class='checkbox-label']")
+	WebElement WHAT_MATTERS_UNIQENESS;
+	@FindBy(xpath="//input[@id='WHAT_MATTERS_COMFORT']/..//label[@class='checkbox-label']")
+	WebElement WHAT_MATTERS_COMFORT;
+	@FindBy(xpath="//span[@id='badge_0']")
+	WebElement icon;
+	@FindBy(xpath="//input[@class='form-control']")
+	WebElement instegramfield;
+	@FindBy(xpath="//button[text()[contains(.,'Skip')]]")
+	WebElement skip;
+	@FindBy(xpath="//input[@class='input-location form-control']")
+	WebElement locationfield;
+	@FindBy(xpath="//button[text()[contains(.,'Finish Quiz')]]")
+	WebElement finishquiz;
+	@FindBy(xpath="//div[@id='chat_scrollable_container']")
+	WebElement chatpresent;
+	@FindBy(xpath="//input[@class='phone-input']")
+	WebElement phone;
+	@FindBy(xpath="//input[@id='review-image']")
+	WebElement addphoto;
 	
 	
 	
-	
+	public void chatPresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(chatpresent);
+			Assert.assertTrue(BookingPage.ElementDisplay(chatpresent));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : chatPresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void Fillphone(String text) 
+	{
+		try
+
+		{
+			WaitElementDisplay(phone);
+			filltext(phone,text);
+		}catch(Exception e){
+
+
+			System.err.println("\nError : Fillphone failed\n");
+			throw e;
+
+		}
+
+	}
+	public void Fillphoto() 
+	{
+		try
+
+		{
+			driver.findElement(By.xpath("//input[@id='review-image']")).sendKeys("/Users/yinonwishi/Desktop/sharas.jpg");
+			
+		}catch(Exception e){
+
+
+			System.err.println("\nError : Fillphoto failed\n");
+			throw e;
+
+		}
+
+	}
+	public void FillLocation(String text) 
+	{
+		try
+
+		{
+			WaitElementDisplay(locationfield);
+			filltext(locationfield,text);
+		}catch(Exception e){
+
+
+			System.err.println("\nError : FillLocation failed\n");
+			throw e;
+
+		}
+
+	}
+	public void Fillinstegram(String text) 
+	{
+		try
+
+		{
+			WaitElementDisplay(instegramfield);
+			filltext(instegramfield,text);
+		}catch(Exception e){
+
+
+			System.err.println("\nError : Filltextarea failed\n");
+			throw e;
+
+		}
+
+	}
+	public void ClickFinishQuiz() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(finishquiz);
+		}catch(Exception e){
+
+
+			System.err.println("\nError : ClickFinishQuiz failed\n");
+			throw e;
+
+		}
+
+	}
+	public void ClickSkip() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(skip);
+		}catch(Exception e){
+
+
+			System.err.println("\nError : ClickSkip failed\n");
+			throw e;
+
+		}
+
+	}
+	public void SelectWHAT_MATTERS_COMFORT() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(WHAT_MATTERS_COMFORT);
+		}catch(Exception e){
+
+
+			System.err.println("\nError : SelectWHAT_MATTERS_COMFORT failed\n");
+			throw e;
+
+		}
+
+	}
+	public void Selecticon() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(icon);
+		}catch(Exception e){
+
+
+			System.err.println("\nError : Selecticon failed\n");
+			throw e;
+
+		}
+
+	}
+	public void SelectJEWELRY_BLACK() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(JEWELRY_BLACK);
+		}catch(Exception e){
+
+
+			System.err.println("\nError : SelectJEWELRY_BLACK failed\n");
+			throw e;
+
+		}
+
+	}
+	public void SelectJEWELRY_GOLD() 
+	{
+		try
+
+		{
+			ExplicityWaitIsClickable(JEWELRY_GOLD);
+		}catch(Exception e){
+
+
+			System.err.println("\nError : SelectJEWELRY_GOLD failed\n");
+			throw e;
+
+		}
+
+	}
 	public void Selectbutton_COMFORT_ZONE_NOT_AT_ALL() 
 	{
 		try
@@ -589,13 +797,13 @@ public class BookingPage extends BasePage
 		}
 
 	}
-	public void SelectSIZE_BOTTOM() 
+	public void SelectSIZE_BOTTOM(String text) 
 	{
 		try
 
 		{
 			ExplicityWaitIsClickable(SIZE_BOTTOM);
-			SelectDropDwon(SIZE_BOTTOM,"6");
+			SelectDropDwon(SIZE_BOTTOM,text);
 		}catch(Exception e){
 
 
@@ -1383,6 +1591,23 @@ public class BookingPage extends BasePage
 
 
 			System.err.println("\nError : AnythingavoidtitlePresent failed\n");
+			throw e;
+
+		}
+
+	}
+	public void locationtitlePresent() 
+	{
+		try
+
+		{
+			WaitElementDisplay(location);
+			Assert.assertTrue(BookingPage.ElementDisplay(location));
+
+		}catch(Exception e){
+
+
+			System.err.println("\nError : locationtitlePresent failed\n");
 			throw e;
 
 		}

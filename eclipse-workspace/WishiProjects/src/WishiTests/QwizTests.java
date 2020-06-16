@@ -1,5 +1,10 @@
 package WishiTests;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
 import java.util.Random;
 
 import org.openqa.selenium.By;
@@ -165,7 +170,7 @@ public class QwizTests extends BaseTest
 	{
 		BookingPage booking = new BookingPage(driver);
 		booking.SelectSIZE_TOPS();
-		booking.SelectSIZE_BOTTOM();
+		booking.SelectSIZE_BOTTOM("6");
 		booking.SelectSIZE_DRESS();
 		booking.SelectSIZE_SHOES();
 		booking.ClickNext();
@@ -257,7 +262,7 @@ public class QwizTests extends BaseTest
 	}
 	
 	@Test(priority = 18,groups={"sanity-group"})
-	public void SelectInventory ()
+	public void SelectCOMFORT_ZONE ()
 	{
 		BookingPage booking = new BookingPage(driver);
 		booking.Selectbutton_COMFORT_ZONE_NOT_AT_ALL();
@@ -265,6 +270,79 @@ public class QwizTests extends BaseTest
 		
 
 	}
+	@Test(priority = 19,groups={"sanity-group"})
+	public void SelectJewelry ()
+	{
+		BookingPage booking = new BookingPage(driver);
+		booking.SelectJEWELRY_BLACK();
+		booking.SelectJEWELRY_GOLD();
+		booking.ClickNext();
+		booking.particularimportancetitlePresent();
+		
+		
+
+	}
+	
+	@Test(priority = 20,groups={"sanity-group"})
+	public void SelectWHAT_MATTERS ()
+	{
+		BookingPage booking = new BookingPage(driver);
+		booking.SelectWHAT_MATTERS_COMFORT();
+		booking.Filltextarea("test");
+		booking.ClickNext();
+		booking.style_icontitletitlePresent();
+		
+
+	}
+	
+	@Test(priority = 21,groups={"sanity-group"})
+	public void SelectIcon ()
+	{
+		BookingPage booking = new BookingPage(driver);
+		booking.Selecticon();
+		booking.ClickNext();
+		booking.InstagramtitlePresent();
+	}
+	@Test(priority = 22,groups={"sanity-group"})
+	public void FillInstegram () throws Exception
+	{
+		BookingPage booking = new BookingPage(driver);
+		booking.Fillinstegram("instegramtest");
+		booking.ClickNext();
+		booking.body_phototitlePresent();
+	}
+	@Test(priority = 23,groups={"sanity-group"})
+	public void AddPhoto ()
+	{
+		BookingPage booking = new BookingPage(driver);
+		booking.Fillphoto();
+		booking.ClickNext();
+		booking.phone_numbertitlePresent();
+	}
+	@Test(priority = 24,groups={"sanity-group"})
+	public void fillphone ()
+	{
+		BookingPage booking = new BookingPage(driver);
+		booking.Fillphone("0987654353647");
+		booking.ClickNext();
+		booking.locationtitlePresent();
+	}
+	@Test(priority = 25,groups={"sanity-group"})
+	public void fillLocation ()
+	{
+		BookingPage booking = new BookingPage(driver);
+		booking.FillLocation("tel aviv,new york");
+		booking.ClickNext();
+		booking.confirm_emailtitlePresent();
+	}
+	@Test(priority = 26,groups={"sanity-group"})
+	public void FinishQuiz ()
+	{
+		BookingPage booking = new BookingPage(driver);
+		booking.ClickFinishQuiz();
+		booking.chatPresent();
+	}
+	
 	 
 
 

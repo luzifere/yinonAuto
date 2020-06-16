@@ -25,6 +25,8 @@ public class BaseTest1
 		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
 		cap.setCapability(MobileCapabilityType.NO_RESET,true);
 		cap.setCapability(MobileCapabilityType.BROWSER_NAME,"Chrome");
+		cap.setCapability("autoGrantPermissions", "true"); 
+		cap.setCapability("autoAcceptAlerts", "true");
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.setExperimentalOption("w3c", false);
 		cap.merge(chromeOptions);

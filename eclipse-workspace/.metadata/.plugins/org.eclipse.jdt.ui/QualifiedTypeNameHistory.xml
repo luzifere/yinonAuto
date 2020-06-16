@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.interactions.touch.TouchActions"/>
     <fullyQualifiedTypeName name="java.awt.Dimension"/>
     <fullyQualifiedTypeName name="java.awt.Desktop.Action"/>
-    <fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
     <fullyQualifiedTypeName name="io.appium.java_client.android.AndroidKeyMetastate"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
@@ -30,7 +29,6 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By.ByXPath"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="io.appium.java_client.android.AndroidElement"/>
     <fullyQualifiedTypeName name="io.appium.java_client.AppiumDriver"/>
     <fullyQualifiedTypeName name="io.appium.java_client.MobileElement"/>
@@ -39,4 +37,10 @@
     <fullyQualifiedTypeName name="io.appium.java_client.pagefactory.bys.builder.ByAll"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.Select"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+    <fullyQualifiedTypeName name="java.awt.datatransfer.StringSelection"/>
+    <fullyQualifiedTypeName name="com.sun.javafx.tk.Toolkit"/>
+    <fullyQualifiedTypeName name="java.awt.Toolkit"/>
+    <fullyQualifiedTypeName name="java.awt.Robot"/>
+    <fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 </qualifiedTypeNameHistroy>

@@ -27,7 +27,7 @@ public class BaseTest
 		//if (device.equals("emulator"))
 		//{
 		
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone XS");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 11 Pro Max");
 		//	}
 		//else if (device.equals("real"))
 		//{
@@ -35,7 +35,7 @@ public class BaseTest
 		//}
 
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME,"IOS");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"12.1");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"13.4");
 		//cap.setCapability("autoAcceptAlerts", true);
 		//cap.setCapability("autoDismissAlerts", true);
 		//cap.setCapability(MobileCapabilityType.UDID,"4acfefaa5a78272eb509b64a2f2efffabd0eda6c");

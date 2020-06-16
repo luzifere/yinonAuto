@@ -13,23 +13,25 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import PageObejecs.LoginPages;
+import draft.LoginPages;
 import io.appium.java_client.android.AndroidElement;
 
 
 @Listeners(Tests.Listener.class)
-public class BookingCouponTests extends BaseTest1
+public class BookingCouponMiniTests extends BaseTest1
 {
-	int number;
+	
+	
+	
 
-	BookingCouponTests() {
+	@Test(priority = 2,groups={"sanity-group"})
+	public void CouponMini () throws IOException
+	{
+		int number;
+
+
 		Random num = new Random();
 		number = num.nextInt(70000000) + 356000000;
-	}
-	
-	@Test(priority = 1,groups={"sanity-group"})
-	public void DoSignUp()
-	{
 		PageObejecs.SignUpPage signup = new PageObejecs.SignUpPage(driver);
 		signup.waitForPageLoaded();
 		signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
@@ -51,12 +53,6 @@ public class BookingCouponTests extends BaseTest1
 		best.Selectbrands("brand_Adidas");
 		best.ClickMeetMyMatch();
 		best.StylistPageDisplayed();	
-	}	
-
-	@Test(priority = 2,groups={"sanity-group"})
-	public void CouponMini () throws IOException
-	{
-		
 		PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);
 		String stylistName = this.configFileReader.getStylistName();
 		String stylistLastName = this.configFileReader.getStylistLastName();
@@ -87,38 +83,5 @@ public class BookingCouponTests extends BaseTest1
 		Assert.assertTrue(booking1.ElementDisplay(list));
 		booking1.ClickStylistHeader();
 	}
-	@Test(priority = 3,groups={"sanity-group"})
-	public void CouponMajor () throws IOException
-	{
-		PageObejecs.BookingPage booking = new PageObejecs.BookingPage(driver);
-		String stylistName = this.configFileReader.getStylistName();
-		String stylistLastName = this.configFileReader.getStylistLastName();
-		booking.SearchStylist(stylistName,stylistLastName);
-		booking.BookStylistProfile();
-		booking.ClickMajorGoal();
-		booking.ClickMajorPlan();
-		booking.ClickOneTime();
-		booking.ClickPromoCode();
-		booking.FillPromoCode(this.configFileReader.getcopun());
-		booking.ClickSubmitPromoCode();
-		booking.AssertTotalIs0();
-		booking.ClickComplateBooking();
-		booking.QuizPresent();
-		booking.close();
-		setup();
-		LoginPages login = new LoginPages(driver);
-		login.ClickLoginButton();
-		login.Clearpassword();
-		login.Clearusername();
-		login.doLogin(this.configFileReader.getnewusermaile() + number,this.configFileReader.getpassword());
-		PageObejecs.BookingPage booking1 = new PageObejecs.BookingPage(driver);
-		booking1.waitForPageLoaded();
-		booking1.MyBookingDisplay();
-		booking1.MySessionDisplay();
-		AndroidElement list = driver.findElement(By.xpath("//div[text()[contains(.,'"+stylistName+"')]][1]"));
-		System.out.println(list);
-		booking1.ExplicityWaitIsDisplayed(list);
-		Assert.assertTrue(booking1.ElementDisplay(list));
-		booking1.ClickStylistHeader();
-	}
+	
 	}

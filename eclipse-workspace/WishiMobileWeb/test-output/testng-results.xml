@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Test Default test]]>
@@ -11,196 +11,301 @@
       <![CDATA[Completed executing following method : BaseTest1.setup]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : SignUpTest.FillEmailWitoutShtudel]]>
+      <![CDATA[About to begin executing following method : QwizAgainTests.DoLogin]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : SignUpTest.FillEmailWitoutShtudel]]>
+      <![CDATA[Completed executing following method : QwizAgainTests.DoLogin]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite FillEmailWitoutShtudel]]>
+      <![CDATA[About to Success executing Suite DoLogin]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.SignUpTest]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : SignUpTest.FillEmailWithoutDotCom]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : SignUpTest.FillEmailWithoutDotCom]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite FillEmailWithoutDotCom]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+      <![CDATA[Test Method resides in Tests.QwizAgainTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+      <![CDATA[About to begin executing following method : QwizAgainTests.CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+      <![CDATA[Completed executing following method : QwizAgainTests.CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite FillPsswordWithLessthan6Characters]]>
+      <![CDATA[About to Success executing Suite CheckOutSession]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.SignUpTest]]>
-    </line>
-    <line>
-      <![CDATA[Test Status: Pass]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method : SignUpTest.FillNameWithWrongcarecters]]>
-    </line>
-    <line>
-      <![CDATA[Completed executing following method : SignUpTest.FillNameWithWrongcarecters]]>
-    </line>
-    <line>
-      <![CDATA[About to Success executing Suite FillNameWithWrongcarecters]]>
-    </line>
-    <line>
-      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+      <![CDATA[Test Method resides in Tests.QwizAgainTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : SignUpTest.DoSignUp]]>
+      <![CDATA[About to begin executing following method : QwizAgainTests.SelectSpecificNneed]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : SignUpTest.DoSignUp]]>
+      <![CDATA[Completed executing following method : QwizAgainTests.SelectSpecificNneed]]>
     </line>
     <line>
-      <![CDATA[About to Success executing Suite DoSignUp]]>
+      <![CDATA[About to Success executing Suite SelectSpecificNneed]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in Tests.SignUpTest]]>
+      <![CDATA[Test Method resides in Tests.QwizAgainTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizAgainTests.SelectCategories]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizAgainTests.SelectCategories]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectCategories]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.QwizAgainTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizAgainTests.SelectHIGHLIGHT]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizAgainTests.SelectHIGHLIGHT]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectHIGHLIGHT]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.QwizAgainTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizAgainTests.SelectCOMFORT_ZONE]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizAgainTests.SelectCOMFORT_ZONE]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectCOMFORT_ZONE]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.QwizAgainTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizAgainTests.SelectIcon]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizAgainTests.SelectIcon]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite SelectIcon]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.QwizAgainTests]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : QwizAgainTests.fillLocation]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : QwizAgainTests.fillLocation]]>
+    </line>
+    <line>
+      <![CDATA[About to Success executing Suite fillLocation]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in Tests.QwizAgainTests]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="97044" started-at="2020-04-30T12:52:53Z" finished-at="2020-04-30T12:54:30Z">
+  <suite name="Default suite" duration-ms="138760" started-at="2020-06-09T13:54:57Z" finished-at="2020-06-09T13:57:16Z">
     <groups>
       <group name="sanity-group">
-        <method signature="SignUpTest.DoSignUp()[pri:6, instance:Tests.SignUpTest@3aeaafa6]" name="DoSignUp" class="Tests.SignUpTest"/>
-        <method signature="SignUpTest.FillEmailWithoutDotCom()[pri:3, instance:Tests.SignUpTest@3aeaafa6]" name="FillEmailWithoutDotCom" class="Tests.SignUpTest"/>
-        <method signature="SignUpTest.FillEmailWitoutShtudel()[pri:2, instance:Tests.SignUpTest@3aeaafa6]" name="FillEmailWitoutShtudel" class="Tests.SignUpTest"/>
-        <method signature="SignUpTest.FillNameWithWrongcarecters()[pri:5, instance:Tests.SignUpTest@3aeaafa6]" name="FillNameWithWrongcarecters" class="Tests.SignUpTest"/>
-        <method signature="SignUpTest.FillPsswordWithLessthan6Characters()[pri:4, instance:Tests.SignUpTest@3aeaafa6]" name="FillPsswordWithLessthan6Characters" class="Tests.SignUpTest"/>
+        <method signature="QwizAgainTests.CheckOutSession()[pri:2, instance:Tests.QwizAgainTests@76a3e297]" name="CheckOutSession" class="Tests.QwizAgainTests"/>
+        <method signature="QwizAgainTests.DoLogin()[pri:1, instance:Tests.QwizAgainTests@76a3e297]" name="DoLogin" class="Tests.QwizAgainTests"/>
+        <method signature="QwizAgainTests.SelectCOMFORT_ZONE()[pri:18, instance:Tests.QwizAgainTests@76a3e297]" name="SelectCOMFORT_ZONE" class="Tests.QwizAgainTests"/>
+        <method signature="QwizAgainTests.SelectCategories()[pri:6, instance:Tests.QwizAgainTests@76a3e297]" name="SelectCategories" class="Tests.QwizAgainTests"/>
+        <method signature="QwizAgainTests.SelectHIGHLIGHT()[pri:12, instance:Tests.QwizAgainTests@76a3e297]" name="SelectHIGHLIGHT" class="Tests.QwizAgainTests"/>
+        <method signature="QwizAgainTests.SelectIcon()[pri:21, instance:Tests.QwizAgainTests@76a3e297]" name="SelectIcon" class="Tests.QwizAgainTests"/>
+        <method signature="QwizAgainTests.SelectSpecificNneed()[pri:5, instance:Tests.QwizAgainTests@76a3e297]" name="SelectSpecificNneed" class="Tests.QwizAgainTests"/>
+        <method signature="QwizAgainTests.fillLocation()[pri:25, instance:Tests.QwizAgainTests@76a3e297]" name="fillLocation" class="Tests.QwizAgainTests"/>
       </group> <!-- sanity-group -->
     </groups>
-    <test name="Default test" duration-ms="97044" started-at="2020-04-30T12:52:53Z" finished-at="2020-04-30T12:54:30Z">
-      <class name="Tests.SignUpTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignUpTest@3aeaafa6]" name="setup" is-config="true" duration-ms="19359" started-at="2020-04-30T12:52:53Z" finished-at="2020-04-30T12:53:13Z">
+    <test name="Default test" duration-ms="138760" started-at="2020-06-09T13:54:57Z" finished-at="2020-06-09T13:57:16Z">
+      <class name="Tests.QwizAgainTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.QwizAgainTests@76a3e297]" name="setup" is-config="true" duration-ms="32206" started-at="2020-06-09T13:54:57Z" finished-at="2020-06-09T13:55:29Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : BaseTest1.setup]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="FillEmailWitoutShtudel()[pri:2, instance:Tests.SignUpTest@3aeaafa6]" name="FillEmailWitoutShtudel" duration-ms="15765" started-at="2020-04-30T12:53:13Z" finished-at="2020-04-30T12:53:28Z">
+        <test-method status="PASS" signature="DoLogin()[pri:1, instance:Tests.QwizAgainTests@76a3e297]" name="DoLogin" duration-ms="31524" started-at="2020-06-09T13:55:29Z" finished-at="2020-06-09T13:56:01Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : SignUpTest.FillEmailWitoutShtudel]]>
+              <![CDATA[About to begin executing following method : QwizAgainTests.DoLogin]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : SignUpTest.FillEmailWitoutShtudel]]>
+              <![CDATA[Completed executing following method : QwizAgainTests.DoLogin]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite FillEmailWitoutShtudel]]>
+              <![CDATA[About to Success executing Suite DoLogin]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+              <![CDATA[Test Method resides in Tests.QwizAgainTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- FillEmailWitoutShtudel -->
-        <test-method status="PASS" signature="FillEmailWithoutDotCom()[pri:3, instance:Tests.SignUpTest@3aeaafa6]" name="FillEmailWithoutDotCom" duration-ms="15458" started-at="2020-04-30T12:53:28Z" finished-at="2020-04-30T12:53:44Z">
+        </test-method> <!-- DoLogin -->
+        <test-method status="PASS" signature="CheckOutSession()[pri:2, instance:Tests.QwizAgainTests@76a3e297]" name="CheckOutSession" duration-ms="29205" started-at="2020-06-09T13:56:01Z" finished-at="2020-06-09T13:56:30Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : SignUpTest.FillEmailWithoutDotCom]]>
+              <![CDATA[About to begin executing following method : QwizAgainTests.CheckOutSession]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : SignUpTest.FillEmailWithoutDotCom]]>
+              <![CDATA[Completed executing following method : QwizAgainTests.CheckOutSession]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite FillEmailWithoutDotCom]]>
+              <![CDATA[About to Success executing Suite CheckOutSession]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+              <![CDATA[Test Method resides in Tests.QwizAgainTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- FillEmailWithoutDotCom -->
-        <test-method status="PASS" signature="FillPsswordWithLessthan6Characters()[pri:4, instance:Tests.SignUpTest@3aeaafa6]" name="FillPsswordWithLessthan6Characters" duration-ms="14037" started-at="2020-04-30T12:53:44Z" finished-at="2020-04-30T12:53:58Z">
+        </test-method> <!-- CheckOutSession -->
+        <test-method status="PASS" signature="SelectSpecificNneed()[pri:5, instance:Tests.QwizAgainTests@76a3e297]" name="SelectSpecificNneed" duration-ms="6009" started-at="2020-06-09T13:56:30Z" finished-at="2020-06-09T13:56:36Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+              <![CDATA[About to begin executing following method : QwizAgainTests.SelectSpecificNneed]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : SignUpTest.FillPsswordWithLessthan6Characters]]>
+              <![CDATA[Completed executing following method : QwizAgainTests.SelectSpecificNneed]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite FillPsswordWithLessthan6Characters]]>
+              <![CDATA[About to Success executing Suite SelectSpecificNneed]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+              <![CDATA[Test Method resides in Tests.QwizAgainTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- FillPsswordWithLessthan6Characters -->
-        <test-method status="PASS" signature="FillNameWithWrongcarecters()[pri:5, instance:Tests.SignUpTest@3aeaafa6]" name="FillNameWithWrongcarecters" duration-ms="14451" started-at="2020-04-30T12:53:58Z" finished-at="2020-04-30T12:54:12Z">
+        </test-method> <!-- SelectSpecificNneed -->
+        <test-method status="PASS" signature="SelectCategories()[pri:6, instance:Tests.QwizAgainTests@76a3e297]" name="SelectCategories" duration-ms="10433" started-at="2020-06-09T13:56:36Z" finished-at="2020-06-09T13:56:47Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : SignUpTest.FillNameWithWrongcarecters]]>
+              <![CDATA[About to begin executing following method : QwizAgainTests.SelectCategories]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : SignUpTest.FillNameWithWrongcarecters]]>
+              <![CDATA[Completed executing following method : QwizAgainTests.SelectCategories]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite FillNameWithWrongcarecters]]>
+              <![CDATA[About to Success executing Suite SelectCategories]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+              <![CDATA[Test Method resides in Tests.QwizAgainTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- FillNameWithWrongcarecters -->
-        <test-method status="PASS" signature="DoSignUp()[pri:6, instance:Tests.SignUpTest@3aeaafa6]" name="DoSignUp" duration-ms="17945" started-at="2020-04-30T12:54:12Z" finished-at="2020-04-30T12:54:30Z">
+        </test-method> <!-- SelectCategories -->
+        <test-method status="PASS" signature="SelectHIGHLIGHT()[pri:12, instance:Tests.QwizAgainTests@76a3e297]" name="SelectHIGHLIGHT" duration-ms="8878" started-at="2020-06-09T13:56:47Z" finished-at="2020-06-09T13:56:56Z">
           <reporter-output>
             <line>
-              <![CDATA[About to begin executing following method : SignUpTest.DoSignUp]]>
+              <![CDATA[About to begin executing following method : QwizAgainTests.SelectHIGHLIGHT]]>
             </line>
             <line>
-              <![CDATA[Completed executing following method : SignUpTest.DoSignUp]]>
+              <![CDATA[Completed executing following method : QwizAgainTests.SelectHIGHLIGHT]]>
             </line>
             <line>
-              <![CDATA[About to Success executing Suite DoSignUp]]>
+              <![CDATA[About to Success executing Suite SelectHIGHLIGHT]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in Tests.SignUpTest]]>
+              <![CDATA[Test Method resides in Tests.QwizAgainTests]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- DoSignUp -->
-      </class> <!-- Tests.SignUpTest -->
+        </test-method> <!-- SelectHIGHLIGHT -->
+        <test-method status="PASS" signature="SelectCOMFORT_ZONE()[pri:18, instance:Tests.QwizAgainTests@76a3e297]" name="SelectCOMFORT_ZONE" duration-ms="1900" started-at="2020-06-09T13:56:56Z" finished-at="2020-06-09T13:56:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizAgainTests.SelectCOMFORT_ZONE]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizAgainTests.SelectCOMFORT_ZONE]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectCOMFORT_ZONE]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.QwizAgainTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectCOMFORT_ZONE -->
+        <test-method status="PASS" signature="SelectIcon()[pri:21, instance:Tests.QwizAgainTests@76a3e297]" name="SelectIcon" duration-ms="3554" started-at="2020-06-09T13:56:57Z" finished-at="2020-06-09T13:57:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizAgainTests.SelectIcon]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizAgainTests.SelectIcon]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite SelectIcon]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.QwizAgainTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectIcon -->
+        <test-method status="PASS" signature="fillLocation()[pri:25, instance:Tests.QwizAgainTests@76a3e297]" name="fillLocation" duration-ms="15022" started-at="2020-06-09T13:57:01Z" finished-at="2020-06-09T13:57:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : QwizAgainTests.fillLocation]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : QwizAgainTests.fillLocation]]>
+            </line>
+            <line>
+              <![CDATA[About to Success executing Suite fillLocation]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in Tests.QwizAgainTests]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillLocation -->
+      </class> <!-- Tests.QwizAgainTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

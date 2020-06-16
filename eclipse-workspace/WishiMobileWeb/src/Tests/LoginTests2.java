@@ -5,8 +5,8 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import PageObejecs.LoginPages;
 import PageObejecs.LoginPages2;
+import draft.LoginPages;
 
 @Listeners(Tests.Listener.class)
 public class LoginTests2 extends BaseTest1
@@ -14,7 +14,7 @@ public class LoginTests2 extends BaseTest1
 	@Test(priority = 8,groups={"sanity-group"})
 	public void DoLogin() 
 	{
-		LoginPages login = new LoginPages(driver);
+		LoginPages2 login = new LoginPages2(driver);
 		login.Clearpassword();
 		login.Clearusername();
 		login.doLogin("wishi.test@wishi.com", "123456");
@@ -26,7 +26,7 @@ public class LoginTests2 extends BaseTest1
 	@Test(priority = 3,groups={"sanity-group"})
 	public void FillPasswordWithOutToFillEmail() 
 	{
-		LoginPages login = new LoginPages(driver);
+		LoginPages2 login = new LoginPages2(driver);
 		login.ClickLoginButton();
 		login.Clearpassword();
 		login.Clearusername();
@@ -38,7 +38,7 @@ public class LoginTests2 extends BaseTest1
 	@Test(priority = 4,groups={"sanity-group"})
 	public void FillEmailWithOutToFillPassword() 
 	{
-		LoginPages login = new LoginPages(driver);
+		LoginPages2 login = new LoginPages2(driver);
 		login.Closebuttonoflogin();
 		login.Sleep(30);
 		login.ClickLoginButton();
@@ -50,7 +50,7 @@ public class LoginTests2 extends BaseTest1
 	@Test(priority = 5,groups={"sanity-group"})
 	public void ClickLoginwWithOutToFillAnyFields() 
 	{
-		LoginPages login = new LoginPages(driver);
+		LoginPages2 login = new LoginPages2(driver);
 		login.Closebuttonoflogin();
 		login.Sleep(30);
 		login.ClickLoginButton();
@@ -61,7 +61,7 @@ public class LoginTests2 extends BaseTest1
 	@Test(priority = 6,groups={"sanity-group"})
 	public void FillCorrectEmailWithWrongPassword() 
 	{
-		LoginPages login = new LoginPages(driver);
+		LoginPages2 login = new LoginPages2(driver);
 		login.Clearpassword();
 		login.Clearusername();
 		login.Fillusername("plan@wishitest.com");
@@ -72,7 +72,7 @@ public class LoginTests2 extends BaseTest1
 	@Test(priority = 7,groups={"sanity-group"})
 	public void FillCorrectPasswordWithWrongEmail() 
 	{
-		LoginPages login = new LoginPages(driver);
+		LoginPages2 login = new LoginPages2(driver);
 		login.Clearpassword();
 		login.Clearusername();
 		login.Fillusername("jhfgjhfjf@wishi.me");

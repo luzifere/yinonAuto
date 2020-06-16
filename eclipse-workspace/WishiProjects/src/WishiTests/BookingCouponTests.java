@@ -22,16 +22,13 @@ import PageObject.SignUpPage;
 @Listeners(WishiTests.Listener.class)
 public class BookingCouponTests extends BaseTest 
 {
-	int number;
-
-	BookingCouponTests() {
-		Random num = new Random();
-		number = num.nextInt(70000000) + 356000000;
-	}
 	
-	@Test(priority = 1,groups={"sanity-group"})
-	public void DoSignUp()
+	@Test(priority = 2,groups={"sanity-group"})
+	public void CouponMini ()
 	{
+		Random num = new Random();
+		int number;
+		number = num.nextInt(70000000) + 356000000;
 		SignUpPage signup = new SignUpPage(driver);
 		signup.waitForPageLoaded();
 		signup.ClickOnSignUpEmail();
@@ -54,12 +51,6 @@ public class BookingCouponTests extends BaseTest
 		best.Selectbrands("brand_H&M");
 		best.ClickMeetMyMatch();
 		best.StylistPageDisplayed();	
-	}	
-
-	@Test(priority = 2,groups={"sanity-group"})
-	public void CouponMini ()
-	{
-		
 		BookingPage booking = new BookingPage(driver);
 		String stylistName = this.configFileReader.getStylistName();
 		booking.SearchStylist(stylistName);
@@ -84,10 +75,37 @@ public class BookingCouponTests extends BaseTest
 		WebElement mini = driver.findElement(By.xpath("//div[text()[contains(.,'"+stylistName+"')]]/..//span[text()[contains(.,'mini')]]"));
 		Assert.assertTrue(BookingPage.ElementDisplay(mini));
 		booking1.ClickStylistHeader();
+		booking.close();
 	}
 	@Test(priority = 3,groups={"sanity-group"})
 	public void CouponMajor ()
 	{
+		setup();
+		int number;
+		Random num = new Random();
+		number = num.nextInt(70000000) + 356000000;
+		SignUpPage signup = new SignUpPage(driver);
+		signup.waitForPageLoaded();
+		signup.ClickOnSignUpEmail();
+		signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
+		BestMatchPage best = new BestMatchPage(driver);
+		best.ClickontinueButton();
+		best.ClickFamle();
+		best.ClickPetit();
+		best.ClickNextbutton();
+		best.SelectHELLONO("1");
+		best.SelectHELLONO("2");
+		best.SelectSOMETIMES("3");
+		best.SelectLoveIt("4");
+		best.SelectHELLONO("5");
+		best.SelectHELLONO("6");
+		best.SelectHELLONO("7");
+		best.SelectHELLONO("8");
+		best.SelectHELLONO("9");
+		best.SelectHELLONO("10");
+		best.Selectbrands("brand_H&M");
+		best.ClickMeetMyMatch();
+		best.StylistPageDisplayed();	
 		BookingPage booking = new BookingPage(driver);
 		String stylistName = this.configFileReader.getStylistName();
 		booking.SearchStylist(stylistName);

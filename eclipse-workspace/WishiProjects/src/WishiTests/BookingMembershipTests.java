@@ -22,20 +22,18 @@ import PageObject.SignUpPage;
 @Listeners(WishiTests.Listener.class)
 public class BookingMembershipTests extends BaseTest 
 {
-	int number;
 
-	BookingMembershipTests() {
+
+	@Test(priority = 2,groups={"sanity-group"})
+	public void MembershipMini ()
+	{
+		int number;
+
+
 		Random num = new Random();
 		number = num.nextInt(70000000) + 356000000;
-	}
-
-	@Test(priority = 1,groups={"sanity-group"})
-	public void DoSignUp()
-	{
 		SignUpPage signup = new SignUpPage(driver);
 		signup.waitForPageLoaded();
-
-		//signup.ClickOnSignUpEmail();
 		signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
 
 		BestMatchPage best = new BestMatchPage(driver);
@@ -56,12 +54,6 @@ public class BookingMembershipTests extends BaseTest
 		best.Selectbrands("brand_H&M");
 		best.ClickMeetMyMatch();
 		best.StylistPageDisplayed();	
-	}	
-
-	@Test(priority = 2,groups={"sanity-group"})
-	public void MembershipMini ()
-	{
-
 		BookingPage booking = new BookingPage(driver);
 		String stylistName = this.configFileReader.getStylistName();
 		booking.SearchStylist(stylistName);
@@ -90,16 +82,43 @@ public class BookingMembershipTests extends BaseTest
 	@Test(priority = 3,groups={"sanity-group"})
 	public void MembershipMajor ()
 	{
+		setup();
+		int number;
+		Random num = new Random();
+		number = num.nextInt(70000000) + 356000000;
+		SignUpPage signup = new SignUpPage(driver);
+		signup.waitForPageLoaded();
+		signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
+		BestMatchPage best = new BestMatchPage(driver);
+		best.ClickontinueButton();
+		best.ClickFamle();
+		best.ClickPetit();
+		best.ClickNextbutton();
+		best.SelectHELLONO("1");
+		best.SelectHELLONO("2");
+		best.SelectSOMETIMES("3");
+		best.SelectLoveIt("4");
+		best.SelectHELLONO("5");
+		best.SelectHELLONO("6");
+		best.SelectHELLONO("7");
+		best.SelectHELLONO("8");
+		best.SelectHELLONO("9");
+		best.SelectHELLONO("10");
+		best.Selectbrands("brand_H&M");
+		best.ClickMeetMyMatch();
+		best.StylistPageDisplayed();	
 		BookingPage booking = new BookingPage(driver);
 		String stylistName = this.configFileReader.getStylistName();
 		booking.SearchStylist(stylistName);
 		booking.BookStylistProfile();
-		booking.ClickMajorGoal();
+		booking.ClickMIniGoal();
 		booking.ClickMajorPlan();
 		booking.ClickSubScription();
-		booking.ClickPaymentButton();
-		booking.QuizPresent();
-		booking.Sleep(200);
+		booking.Switch_to_strype();
+		booking.FillCardNumber(this.configFileReader.getCardNumber());		
+		booking.FillCardDate( this.configFileReader.getCardDate());		
+		booking.FillCardCVC(this.configFileReader.getCardCVC());
+		booking.switchWindow();
 		booking.close();
 		setup();
 		LoginPage login = new LoginPage(driver);
@@ -116,13 +135,42 @@ public class BookingMembershipTests extends BaseTest
 	@Test(priority = 4,groups={"sanity-group"})
 	public void CleanOut ()
 	{
+		setup();
+		int number;
+		Random num = new Random();
+		number = num.nextInt(70000000) + 356000000;
+		SignUpPage signup = new SignUpPage(driver);
+		signup.waitForPageLoaded();
+		signup.doSignUp(this.configFileReader.getnewusermaile() + number,  this.configFileReader.getnewusername(),  this.configFileReader.getpassword());
+		BestMatchPage best = new BestMatchPage(driver);
+		best.ClickontinueButton();
+		best.ClickFamle();
+		best.ClickPetit();
+		best.ClickNextbutton();
+		best.SelectHELLONO("1");
+		best.SelectHELLONO("2");
+		best.SelectSOMETIMES("3");
+		best.SelectLoveIt("4");
+		best.SelectHELLONO("5");
+		best.SelectHELLONO("6");
+		best.SelectHELLONO("7");
+		best.SelectHELLONO("8");
+		best.SelectHELLONO("9");
+		best.SelectHELLONO("10");
+		best.Selectbrands("brand_H&M");
+		best.ClickMeetMyMatch();
+		best.StylistPageDisplayed();	
 		BookingPage booking = new BookingPage(driver);
 		String stylistName = this.configFileReader.getStylistName();
 		booking.SearchStylist(stylistName);
 		booking.BookStylistProfile();
 		booking.ClickCleanOutGoal();
 		booking.ClickMajorPlanOfCleanOut();
-		booking.ClickPaymentButton();
+		booking.Switch_to_strype();
+		booking.FillCardNumber(this.configFileReader.getCardNumber());		
+		booking.FillCardDate( this.configFileReader.getCardDate());		
+		booking.FillCardCVC(this.configFileReader.getCardCVC());
+		booking.switchWindow();
 		booking.QuizPresent();
 		booking.Sleep(200);
 		booking.close();
